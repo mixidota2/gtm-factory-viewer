@@ -15,6 +15,14 @@ jobs:
       - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
       - name: Install pinned browser driver
         run: npm install --no-save --ignore-scripts --no-audit --no-fund playwright@1.62.1
+      - name: Record actual browser fonts before changes
+        run: node tests/browser.cjs --font-before
+      - name: Install standard Ubuntu Japanese fonts
+        run: |
+          sudo apt-get update
+          sudo apt-get install --no-install-recommends -y fonts-noto-cjk
+          fc-cache -f
+          dpkg-query -W fonts-noto-cjk | tee browser-evidence/font-package.txt
       - name: Test installed Chrome with sandbox enabled
         run: node tests/browser.cjs
       - name: Retain public UI screenshots
