@@ -6,30 +6,43 @@ const { execFileSync } = require('node:child_process');
 const beforeFonts=process.argv.includes('--font-before');
 const { createHash } = require('node:crypto');
 const html = fs.readFileSync('index.html');
-assert.equal(createHash('sha256').update(html).digest('hex'), 'fb8778912c44e5b13abf4246239746591a4bb075579827b4685cb105b70f686e');
+assert.equal(createHash('sha256').update(html).digest('hex'), '8cb10af8f075595675bb7c75c475c1908c71d611ae96fcc6d4999bc231b275dc');
 const data = JSON.parse(html.toString().match(/<script id="snapshot-data" type="application\/json">([\s\S]*?)<\/script>/)[1]);
-assert.equal(data.markets.length,16);
-assert.equal(data.claims.length,94);
+assert.equal(data.markets.length,17);
+assert.equal(data.claims.length,97);
 assert.equal(data.editorial.observations.length,20);
-assert.equal(createHash('sha256').update(JSON.stringify(data)).digest('hex'), "252454727553ace3f51b0df58f69b9af384f8cf08f71c0267ac830a6716b4997");
+assert.equal(createHash('sha256').update(JSON.stringify(data)).digest('hex'), "28847b6dce05fbbb3f0e1cf5eb5fbeffbeebe587fc6cb225e57faad507aab335");
 
 
 const sha256=value=>createHash('sha256').update(value).digest('hex');
 assert.equal(sha256(JSON.stringify(data.claims.slice(0,92))), '13dc4876a04db44e90a785546e8015d9e41bddcc2f7caf3ee4469e659794aabd');
 const restored=JSON.parse(JSON.stringify(data));
+restored.markets=restored.markets.slice(0,16);
 const target=restored.markets.find(m=>m.id==='jp-merihari-consumption.md');
 const marker='\n## 追記：2026年8月の売り手側売上（速報・2026年10月23日公表）';
 assert.equal(target.text.split(marker).length,2);
 target.text=target.text.split(marker)[0];restored.claims=restored.claims.slice(0,92);
 assert.equal(sha256(JSON.stringify(restored)), '3da87d0c2b0cc3bcf331b243487844e73b5428273a8d712b236f2785a4078c46');
-assert.deepEqual(data.claims.slice(92).map(c=>c.claim_id),['jp-merihari-consumption-seller-2026-08-lodging','jp-merihari-consumption-seller-2026-08-restaurants']);
-for(const c of data.claims.slice(92)){
+assert.deepEqual(data.claims.slice(92,94).map(c=>c.claim_id),['jp-merihari-consumption-seller-2026-08-lodging','jp-merihari-consumption-seller-2026-08-restaurants']);
+for(const c of data.claims.slice(92,94)){
  assert.deepEqual(c.source_urls,['https://www.stat.go.jp/data/mbss/kekka/pdf/m202608.pdf']);
  assert.deepEqual(c.source_locators[0].pdf_pages,[4]);
  assert.equal(c.verification.checked_this_pass,false);
  assert.equal(c.verification.inherited_targeted_audit,true);
  assert.deepEqual(c.periods,['2025年8月（前年同月比の比較対象）','2026年8月（速報）']);
 }
+
+
+// Preserve the complete prior 16-market/94-claim snapshot, including the August addendum.
+const prior=JSON.parse(JSON.stringify(data));prior.markets=prior.markets.slice(0,16);prior.claims=prior.claims.slice(0,94);
+assert.equal(sha256(JSON.stringify(prior)), '252454727553ace3f51b0df58f69b9af384f8cf08f71c0267ac830a6716b4997');
+assert.equal(sha256(JSON.stringify(data.claims.slice(0,94))), 'cb62fbd42647c0c04c2809115b01ddbeb8b58617b0b8daf04676f34a99e0cdc5');
+assert.equal(sha256(JSON.stringify(data.markets.slice(0,16))), '7d3cf7d71d9ff33d8b569e03f5304a0baf975fb49a3cfad5305953df4106e969');
+const aircon=data.markets.find(m=>m.id==='jp-aircon-rebound-divergence.md');
+assert.equal(aircon.proxy_map,false);
+assert.ok(aircon.title.includes('持続成長未確認の候補')&&aircon.summary.includes('持続成長未確認の候補'));
+assert.ok(!data.themes.some(t=>t.memos.includes(aircon.id)));
+assert.deepEqual(data.claims.slice(94).map(c=>c.claim_id),['household','shipments','retail'].map(s=>'jp-aircon-rebound-divergence-'+s));
 
 async function recordFonts(page, width) {
  const sample='需要の変化を読む。支出、利用時間、導入状況。あいうえおアイウエオ';
@@ -84,7 +97,7 @@ const server = http.createServer((req,res)=>{res.setHeader('Content-Type','text/
    await page.goto(base);
    await recordFonts(page,viewport.width);
    if(beforeFonts){await page.close();continue;}
-   assert.equal(await page.locator('#card-results a.card').count(),16);
+   assert.equal(await page.locator('#card-results a.card').count(),17);
    for(const theme of data.themes){
     await page.locator(`[data-theme="${theme.id}"]`).click();
     assert.ok((await page.locator('#theme-detail').innerText()).includes(theme.title));
@@ -94,7 +107,7 @@ const server = http.createServer((req,res)=>{res.setHeader('Content-Type','text/
    await page.locator('#search').fill('zzzz-no-matching-memo');
    assert.equal(await page.locator('#card-results a.card').count(),0);
    await page.locator('#reset').click();
-   assert.equal(await page.locator('#card-results a.card').count(),16);
+   assert.equal(await page.locator('#card-results a.card').count(),17);
    await page.locator('#search').fill('コーヒー');
    assert.ok((await page.locator('#claim-results').innerText()).includes('概要全文'));
    await page.locator('#reset').click();
@@ -117,9 +130,9 @@ const server = http.createServer((req,res)=>{res.setHeader('Content-Type','text/
     console.log('PASS comparison actual horizontal wheel scroll: '+JSON.stringify(metrics));
    }
 
-   assert.equal(await page.locator('[id^="claim-"][class="claim-evidence"]').count(),94);
+   assert.equal(await page.locator('[id^="claim-"][class="claim-evidence"]').count(),97);
    assert.equal(await page.locator('#main').evaluate(el=>new Set([...el.querySelectorAll('[id]')].map(n=>n.id)).size === el.querySelectorAll('[id]').length),true);
-   assert.equal(await page.locator('#result-count').innerText(),'16記事のうち16記事を表示しています');
+   assert.equal(await page.locator('#result-count').innerText(),'17記事のうち17記事を表示しています');
    assert.equal(await page.locator('#candidate-results article').count(),2);
    for(const [id,query,claim,limit,sourceCount] of [
     ['foreign-package-travel','代表的なフリープラン','45.6%','「利用量まで確かめられた伸び」には加えません',7],
@@ -183,7 +196,7 @@ const server = http.createServer((req,res)=>{res.setHeader('Content-Type','text/
     await page.screenshot({path:'browser-evidence/august-'+viewport.width+'.png',fullPage:true});
     await page.locator('#main').getByText('記事一覧に戻る',{exact:true}).first().click();
     await page.locator('#reset').click();
-    assert.equal(await page.locator('#card-results a.card').count(),16);
+    assert.equal(await page.locator('#card-results a.card').count(),17);
    }
    for(const id of ['lodging','restaurants']){
     await page.goto(base+'#claim/jp-merihari-consumption-seller-2026-08-'+id);
@@ -195,9 +208,36 @@ const server = http.createServer((req,res)=>{res.setHeader('Content-Type','text/
    }
    console.log('PASS dated August addendum, source, search, article/back/reset and claim navigation at '+viewport.width);
 
+
+   await page.goto(base);
+   for(const query of ['エアコン','19,324','POS受注売上','jp-aircon-rebound-divergence.md','jp-aircon-rebound-divergence-household']){
+    await page.locator('#search').fill(query);
+    assert.equal(await page.locator('#card-results a[href="#markets/jp-aircon-rebound-divergence.md"]').count(),1);
+    await page.locator('#card-results a[href="#markets/jp-aircon-rebound-divergence.md"]').click();
+    await page.waitForFunction(()=>document.querySelector('#main h1')?.textContent.includes('エアコン'));
+    const body=await page.locator('#main').innerText();
+    for(const phrase of ['持続成長未確認の候補','2026年10月26日','19,324円','15,528円','0.108台から0.125台','0.053台から0.045台','0.001台単位','標本誤差・信頼区間は未検証','732.3万台','91.5万台','64.7%','35.3%減','在庫増を証明した数字でもありません','持続成長の一覧へは昇格しません'])assert.ok(body.includes(phrase),phrase);
+    assert.equal(await page.locator('#main details.claim-evidence').count(),3);
+    for(const source of [...new Set(data.claims.slice(94).flatMap(c=>c.source_urls))])assert.ok(await page.locator('#main a').evaluateAll((links,url)=>links.some(a=>a.getAttribute('href')===url),source),source);
+    assert.ok(await page.locator('html').evaluate(el=>el.scrollWidth<=innerWidth),'aircon article must not overflow');
+    if(query==='エアコン')await page.screenshot({path:'browser-evidence/aircon-'+viewport.width+'.png',fullPage:true});
+    await page.locator('#main').getByText('記事一覧に戻る',{exact:true}).first().click();
+    await page.locator('#reset').click();
+    assert.equal(await page.locator('#card-results a.card').count(),17);
+    assert.equal(await page.locator('#candidate-results article').count(),2);
+   }
+   for(const slug of ['household','shipments','retail']){
+    const id='jp-aircon-rebound-divergence-'+slug;
+    await page.goto(base+'#claim/'+id);
+    const detail=page.locator('#claim-'+id);await detail.waitFor({state:'visible'});
+    assert.equal(await detail.evaluate(el=>el.open),true);
+    assert.ok((await detail.innerText()).includes('2026年10月26日の確認済み原稿'));
+   }
+   console.log('PASS aircon candidate/article and claim-ID search/sources/back/reset at '+viewport.width);
+
    assert.deepEqual(errors,[]);
    await page.close();
-   console.log(`PASS protected Chromium ${viewport.width}x${viewport.height}: themes, insurance/overview search, reset, 16 memo routes, comparison, claims, 4 global articles, 3 questions, no console/page errors`);
+   console.log(`PASS protected Chromium ${viewport.width}x${viewport.height}: themes, insurance/overview search, reset, 17 memo routes, comparison, claims, 4 global articles, 3 questions, no console/page errors`);
   }
  } finally {if(browser)await browser.close();await new Promise(resolve=>server.close(resolve));}
 })().catch(e=>{console.error(e);process.exitCode=1;});
