@@ -6,12 +6,30 @@ const { execFileSync } = require('node:child_process');
 const beforeFonts=process.argv.includes('--font-before');
 const { createHash } = require('node:crypto');
 const html = fs.readFileSync('index.html');
-assert.equal(createHash('sha256').update(html).digest('hex'), '455505efc8aba7d787489c54c27911bf014194b7af4ac7a81a155aada1f95b8f');
+assert.equal(createHash('sha256').update(html).digest('hex'), 'fb8778912c44e5b13abf4246239746591a4bb075579827b4685cb105b70f686e');
 const data = JSON.parse(html.toString().match(/<script id="snapshot-data" type="application\/json">([\s\S]*?)<\/script>/)[1]);
 assert.equal(data.markets.length,16);
-assert.equal(data.claims.length,92);
+assert.equal(data.claims.length,94);
 assert.equal(data.editorial.observations.length,20);
-assert.equal(createHash('sha256').update(JSON.stringify(data)).digest('hex'), "3da87d0c2b0cc3bcf331b243487844e73b5428273a8d712b236f2785a4078c46");
+assert.equal(createHash('sha256').update(JSON.stringify(data)).digest('hex'), "252454727553ace3f51b0df58f69b9af384f8cf08f71c0267ac830a6716b4997");
+
+
+const sha256=value=>createHash('sha256').update(value).digest('hex');
+assert.equal(sha256(JSON.stringify(data.claims.slice(0,92))), '13dc4876a04db44e90a785546e8015d9e41bddcc2f7caf3ee4469e659794aabd');
+const restored=JSON.parse(JSON.stringify(data));
+const target=restored.markets.find(m=>m.id==='jp-merihari-consumption.md');
+const marker='\n## 追記：2026年8月の売り手側売上（速報・2026年10月23日公表）';
+assert.equal(target.text.split(marker).length,2);
+target.text=target.text.split(marker)[0];restored.claims=restored.claims.slice(0,92);
+assert.equal(sha256(JSON.stringify(restored)), '3da87d0c2b0cc3bcf331b243487844e73b5428273a8d712b236f2785a4078c46');
+assert.deepEqual(data.claims.slice(92).map(c=>c.claim_id),['jp-merihari-consumption-seller-2026-08-lodging','jp-merihari-consumption-seller-2026-08-restaurants']);
+for(const c of data.claims.slice(92)){
+ assert.deepEqual(c.source_urls,['https://www.stat.go.jp/data/mbss/kekka/pdf/m202608.pdf']);
+ assert.deepEqual(c.source_locators[0].pdf_pages,[4]);
+ assert.equal(c.verification.checked_this_pass,false);
+ assert.equal(c.verification.inherited_targeted_audit,true);
+ assert.deepEqual(c.periods,['2025年8月（前年同月比の比較対象）','2026年8月（速報）']);
+}
 
 async function recordFonts(page, width) {
  const sample='需要の変化を読む。支出、利用時間、導入状況。あいうえおアイウエオ';
@@ -99,7 +117,7 @@ const server = http.createServer((req,res)=>{res.setHeader('Content-Type','text/
     console.log('PASS comparison actual horizontal wheel scroll: '+JSON.stringify(metrics));
    }
 
-   assert.equal(await page.locator('[id^="claim-"][class="claim-evidence"]').count(),92);
+   assert.equal(await page.locator('[id^="claim-"][class="claim-evidence"]').count(),94);
    assert.equal(await page.locator('#main').evaluate(el=>new Set([...el.querySelectorAll('[id]')].map(n=>n.id)).size === el.querySelectorAll('[id]').length),true);
    assert.equal(await page.locator('#result-count').innerText(),'16記事のうち16記事を表示しています');
    assert.equal(await page.locator('#candidate-results article').count(),2);
@@ -150,6 +168,33 @@ const server = http.createServer((req,res)=>{res.setHeader('Content-Type','text/
     await page.goto(base+'#question/'+id);
     await page.waitForFunction(()=>document.getElementById('question-detail')?.innerText.length>0);
    }
+
+   await page.goto(base);
+   for(const query of ['718,854','1,833,150','2026年8月速報']){
+    await page.locator('#search').fill(query);
+    assert.equal(await page.locator('#card-results a.card').count(),1);
+    await page.locator('#card-results a[href="#markets/jp-merihari-consumption.md"]').click();
+    await page.waitForFunction(()=>document.querySelector('#main h1')?.textContent.includes('2026年7月'));
+    const article=await page.locator('#main').innerText();
+    for(const phrase of ['追記：2026年8月','2026年10月23日公表','718,854','1,833,150','+2.3%','+3.7%','客数・実質利用量ではありません','前月比ではありません','速報・丸め値','全34業種','元記事と既存4主張の確認状況は変更していません'])assert.ok(article.includes(phrase),phrase);
+    assert.equal(await page.locator('#main details.claim-evidence').count(),6);
+    assert.equal(await page.locator('#main a[href="https://www.stat.go.jp/data/mbss/kekka/pdf/m202608.pdf#page=4"]').count(),1);
+    assert.ok(await page.locator('html').evaluate(el=>el.scrollWidth<=innerWidth));
+    await page.screenshot({path:'browser-evidence/august-'+viewport.width+'.png',fullPage:true});
+    await page.locator('#main').getByText('記事一覧に戻る',{exact:true}).first().click();
+    await page.locator('#reset').click();
+    assert.equal(await page.locator('#card-results a.card').count(),16);
+   }
+   for(const id of ['lodging','restaurants']){
+    await page.goto(base+'#claim/jp-merihari-consumption-seller-2026-08-'+id);
+    const detail=page.locator('#claim-jp-merihari-consumption-seller-2026-08-'+id);
+    await detail.waitFor({state:'visible'});
+    assert.equal(await detail.evaluate(el=>el.open),true);
+    assert.ok((await detail.innerText()).includes('2026年10月23日の保存済み独立確認記録を継承'));
+    assert.ok(await detail.locator('a[href="https://www.stat.go.jp/data/mbss/kekka/pdf/m202608.pdf"]').count()>0);
+   }
+   console.log('PASS dated August addendum, source, search, article/back/reset and claim navigation at '+viewport.width);
+
    assert.deepEqual(errors,[]);
    await page.close();
    console.log(`PASS protected Chromium ${viewport.width}x${viewport.height}: themes, insurance/overview search, reset, 16 memo routes, comparison, claims, 4 global articles, 3 questions, no console/page errors`);
