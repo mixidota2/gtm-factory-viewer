@@ -111,7 +111,7 @@ const server = http.createServer((req,res)=>{res.setHeader('Content-Type','text/
     assert.equal(await page.locator('#candidate-results article').count(),1);
     assert.equal(await page.locator('#candidate-count').innerText(),'候補2件のうち1件を表示しています');
     await page.locator('#candidate-results h3 a[href="#candidate/'+id+'"]').click();
-    await page.waitForFunction(expected=>location.hash==='#candidate/'+expected,id);
+    await page.waitForFunction(expected=>location.hash==='#candidate/'+expected && document.querySelector('#main h1')?.textContent.includes(expected==='lighting'?'照明器具':'海外パック旅行'),id);
     const body=await page.locator('#main').innerText();
     for(const text of ['候補・利用量の増加は未確認','二人以上世帯','2025年9月〜2026年8月',claim,limit,'家計調査・月次（2020〜2024年）'])assert.ok(body.includes(text),id+': '+text);
     assert.equal(await page.locator('#main a[href^="http"]').count(),sourceCount);
