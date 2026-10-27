@@ -281,10 +281,18 @@ const server = http.createServer((req,res)=>{res.setHeader('Content-Type','text/
     await page.locator('#main').getByText('記事一覧に戻る',{exact:true}).first().click();
     await page.locator('#reset').click();assert.equal(await page.locator('#card-results a.card').count(),17);
    }
-   const epTheme=data.themes.find(t=>t.memos.includes(ep.id));assert.ok(epTheme);
-   await page.locator('#filter').selectOption(epTheme.id);
+   // Electronic prescription has no theme membership in the preserved snapshot.
+   assert.equal(data.themes.some(t=>t.memos.includes(ep.id)),false);
+   const phoneId='jp-phone-daily-stack.md';
+   const phoneTheme=data.themes.find(t=>t.memos.includes(phoneId));assert.ok(phoneTheme);
+   await page.locator('#filter').selectOption(phoneTheme.id);
+   assert.equal(await page.locator('#card-results a[href="#markets/jp-e-prescription-clinic-lag.md"]').count(),0);
+   assert.equal(await page.locator('#card-results a[href="#markets/jp-phone-daily-stack.md"]').count(),1);
+   assert.deepEqual((await page.locator('#card-results a.card').evaluateAll(links=>links.map(a=>a.getAttribute('href')))).sort(),phoneTheme.memos.map(id=>'#markets/'+id).sort());
+   await page.locator('#reset').click();
+   assert.equal(await page.locator('#filter').inputValue(),'all');
+   assert.equal(await page.locator('#card-results a.card').count(),17);
    assert.equal(await page.locator('#card-results a[href="#markets/jp-e-prescription-clinic-lag.md"]').count(),1);
-   await page.locator('#reset').click();assert.equal(await page.locator('#card-results a.card').count(),17);
    await page.goto(base+'#claim/'+epPrefix+'observation');
    const detail=page.locator('#claim-'+epPrefix+'observation');await detail.waitFor({state:'visible'});assert.equal(await detail.evaluate(el=>el.open),true);
    assert.ok((await detail.innerText()).includes('対象系列をCSVとXLSX保存値で照合'));
