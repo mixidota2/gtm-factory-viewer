@@ -181,7 +181,7 @@ function renderCandidate(id){
 }
 
 function home(){
- document.getElementById('main').innerHTML=`<section class="hero"><div><p class="eyebrow">DEMAND NOTES</p><h1>お金や時間の使われ方から、<br>需要を読む。</h1><p class="lead">お金、使う量・時間、導入した数を分けて、需要の変化を見ます。各記事で、誰を調べた数字か、何が分かり、何が未確認かを確かめられます。</p></div><aside class="hero-note"><p>日本を中心に集めた事例です。海外4例を含みますが、世界全体を代表する比較ではありません。</p><p class="meta">基本原稿の編集日：2026-10-16。候補2件の確認日は2026-10-18〜19。各データの対象期間は記事内に記載しています。</p><a href="#overview">調査範囲と全体の結果を読む</a><p><a href="#candidates">調査を続ける候補2件を読む</a></p></aside></section>
+ document.getElementById('main').innerHTML=`<section class="hero"><div><p class="eyebrow">DEMAND NOTES</p><h1>お金や時間の使われ方から、<br>需要を読む。</h1><p class="lead">お金、使う量・時間、導入した数を分けて、需要の変化を見ます。各記事で、誰を調べた数字か、何が分かり、何が未確認かを確かめられます。</p></div><aside class="hero-note"><p>日本を中心に集めた事例です。海外4例を含みますが、世界全体を代表する比較ではありません。</p><p class="meta">公開内容の更新日：2026年10月28日（日本時間）。電子処方箋の9月分を反映し、10月26日確認のエアコン記事も掲載しています。全記事をこの日に再調査したものではありません。資料の公表日・データの対象期間・確認範囲は各記事をご覧ください。</p><a href="#overview">調査範囲と全体の結果を読む</a><p><a href="#candidates">調査を続ける候補2件を読む</a></p></aside></section>
  ${editorialHome()}
  ${candidateHome()}
  <section class="section" aria-labelledby="map-title"><div class="section-head"><h2 id="map-title">異なる指標の観測</h2><p>テーマを選ぶと、説明と関連記事が表示されます。</p></div><div class="map"><div><div class="map-grid">${data.themes.filter(t=>!t.proxy).map(themeButton).join('')}</div><div class="proxy-zone"><p>開発者の注目・未検証の仮説</p>${data.themes.filter(t=>t.proxy).map(themeButton).join('')}</div></div><div id="theme-detail" class="theme-detail" aria-live="polite" aria-atomic="true"></div></div></section>
@@ -225,7 +225,7 @@ function render(){
   if(returning)main.focus({preventScroll:true});
  }
 }
-document.getElementById('snapshot').textContent=`この保存版を作成した日時：${new Date(data.generated).toLocaleString('ja-JP',{timeZone:'Asia/Tokyo'})}（日本時間）`;
+document.getElementById('snapshot').textContent='公開内容の更新日：2026年10月28日（日本時間） · 資料の公表日・対象期間は各記事に記載';
 window.addEventListener('hashchange',render);render();
 </script>
 </body></html>
