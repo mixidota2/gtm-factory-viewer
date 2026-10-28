@@ -6,7 +6,7 @@ const { execFileSync } = require('node:child_process');
 const beforeFonts=process.argv.includes('--font-before');
 const { createHash } = require('node:crypto');
 const html = fs.readFileSync('index.html');
-assert.equal(createHash('sha256').update(html).digest('hex'), '255b1fc3917930ef0ca8aad91ecf1cb1ac64f4648b35c3ac00767266ef8d7e34');
+assert.equal(createHash('sha256').update(html).digest('hex'), '89b8b2e13ab6aa42f346cb8dbc5dd23d07bb153a59aad42470b3446eb4675ceb');
 const data = JSON.parse(html.toString().match(/<script id="snapshot-data" type="application\/json">([\s\S]*?)<\/script>/)[1]);
 assert.equal(data.markets.length,17);
 assert.equal(data.claims.length,97);
@@ -116,6 +116,11 @@ const server = http.createServer((req,res)=>{res.setHeader('Content-Type','text/
    page.on('console',m=>{if(m.type()==='error')errors.push(m.text());});
    await page.route('**/*',route=>route.request().url().startsWith(base)?route.continue():route.abort());
    await page.goto(base);
+   const freshness=await page.locator('.hero-note .meta').innerText();
+   assert.ok(freshness.includes('公開内容の更新日：2026年10月28日（日本時間）'));
+   assert.ok(freshness.includes('全記事をこの日に再調査したものではありません'));
+   assert.ok(freshness.includes('資料の公表日・データの対象期間・確認範囲は各記事'));
+   assert.equal(await page.locator('#snapshot').innerText(),'公開内容の更新日：2026年10月28日（日本時間） · 資料の公表日・対象期間は各記事に記載');
    await recordFonts(page,viewport.width);
    if(beforeFonts){await page.close();continue;}
    assert.equal(await page.locator('#card-results a.card').count(),17);
