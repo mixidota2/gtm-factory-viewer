@@ -19,8 +19,10 @@ jobs:
         run: node tests/browser.cjs --font-before
       - name: Install standard Ubuntu Japanese fonts
         run: |
+          set -euo pipefail
           sudo apt-get update
-          sudo apt-get install --no-install-recommends -y fonts-noto-cjk
+          sudo timeout --signal=TERM --kill-after=10s 180s apt-get --download-only install --no-install-recommends -y fonts-noto-cjk
+          sudo apt-get --no-download install --no-install-recommends -y fonts-noto-cjk
           fc-cache -f
           dpkg-query -W fonts-noto-cjk | tee browser-evidence/font-package.txt
       - name: Test installed Chrome with sandbox enabled
