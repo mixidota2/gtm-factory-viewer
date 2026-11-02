@@ -6,7 +6,7 @@ const { execFileSync } = require('node:child_process');
 const beforeFonts=process.argv.includes('--font-before');
 const { createHash } = require('node:crypto');
 const html = fs.readFileSync('index.html');
-assert.equal(createHash('sha256').update(html).digest('hex'), '89b8b2e13ab6aa42f346cb8dbc5dd23d07bb153a59aad42470b3446eb4675ceb');
+assert.equal(createHash('sha256').update(html).digest('hex'), 'bbe0297d51ab7c0cb05edfd434fbee51bb2113dfe391e9865a0c8a8a740abe2d');
 const data = JSON.parse(html.toString().match(/<script id="snapshot-data" type="application\/json">([\s\S]*?)<\/script>/)[1]);
 assert.equal(data.markets.length,17);
 assert.equal(data.claims.length,97);
@@ -117,10 +117,13 @@ const server = http.createServer((req,res)=>{res.setHeader('Content-Type','text/
    await page.route('**/*',route=>route.request().url().startsWith(base)?route.continue():route.abort());
    await page.goto(base);
    const freshness=await page.locator('.hero-note .meta').innerText();
-   assert.ok(freshness.includes('公開内容の更新日：2026年10月28日（日本時間）'));
+   assert.ok(freshness.includes('主要記事の更新日：2026年10月28日（日本時間）'));
    assert.ok(freshness.includes('全記事をこの日に再調査したものではありません'));
    assert.ok(freshness.includes('資料の公表日・データの対象期間・確認範囲は各記事'));
-   assert.equal(await page.locator('#snapshot').innerText(),'公開内容の更新日：2026年10月28日（日本時間） · 資料の公表日・対象期間は各記事に記載');
+   assert.equal(await page.locator('#snapshot').innerText(),'主要記事の更新日：2026年10月28日（日本時間） · 資料の公表日・対象期間は各記事に記載');
+
+   assert.ok((await page.locator('#candidates .meta').innerText()).includes('海外パック旅行・照明は2026年10月18〜19日、宿泊料は11月2日'));
+   assert.equal(await page.locator('.hero-note a[href="#candidates"]').innerText(),'調査を続ける候補3件を読む');
    await recordFonts(page,viewport.width);
    if(beforeFonts){await page.close();continue;}
    assert.equal(await page.locator('#card-results a.card').count(),17);
@@ -159,18 +162,24 @@ const server = http.createServer((req,res)=>{res.setHeader('Content-Type','text/
    assert.equal(await page.locator('[id^="claim-"][class="claim-evidence"]').count(),97);
    assert.equal(await page.locator('#main').evaluate(el=>new Set([...el.querySelectorAll('[id]')].map(n=>n.id)).size === el.querySelectorAll('[id]').length),true);
    assert.equal(await page.locator('#result-count').innerText(),'17記事のうち17記事を表示しています');
-   assert.equal(await page.locator('#candidate-results article').count(),2);
+   assert.equal(await page.locator('#candidate-results article').count(),3);
    for(const [id,query,claim,limit,sourceCount] of [
     ['foreign-package-travel','代表的なフリープラン','45.6%','「利用量まで確かめられた伸び」には加えません',7],
-    ['lighting','参加37社','2026年4〜8月','同じ範囲で量の増加まで確認した項目には加えません',5]
+    ['lighting','参加37社','2026年4〜8月','同じ範囲で量の増加まで確認した項目には加えません',5],
+    ['accommodation','宿泊条件が揃った購入泊数','41,543円','成長項目への追加は見送っています',5]
    ]){
     await page.locator('#editorial-search').fill(query);
     assert.equal(await page.locator('#candidate-results article').count(),1);
-    assert.equal(await page.locator('#candidate-count').innerText(),'候補2件のうち1件を表示しています');
+    assert.equal(await page.locator('#candidate-count').innerText(),'候補3件のうち1件を表示しています');
     await page.locator('#candidate-results h3 a[href="#candidate/'+id+'"]').click();
-    await page.waitForFunction(expected=>location.hash==='#candidate/'+expected && document.querySelector('#main h1')?.textContent.includes(expected==='lighting'?'照明器具':'海外パック旅行'),id);
+    await page.waitForFunction(expected=>location.hash==='#candidate/'+expected && document.querySelector('#main h1')?.textContent.includes(expected==='lighting'?'照明器具':expected==='accommodation'?'宿泊料':'海外パック旅行'),id);
     const body=await page.locator('#main').innerText();
-    for(const text of ['候補・利用量の増加は未確認','二人以上世帯','2025年9月〜2026年8月',claim,limit,'家計調査・月次（2020〜2024年）'])assert.ok(body.includes(text),id+': '+text);
+    for(const text of ['候補・利用量の増加は未確認','二人以上世帯','2025年9月〜2026年8月',claim,limit,id==='accommodation'?'家計調査・2020〜2024年':'家計調査・月次（2020〜2024年）'])assert.ok(body.includes(text),id+': '+text);
+
+    if(id==='accommodation'){
+     for(const caveat of ['合算できる条件が未確認','速報・確報の表示も異なります','親族宅泊','帰宅した時期','有料宿泊の数量増・短泊化とは判断しません'])assert.ok(body.includes(caveat),caveat);
+     assert.equal(await page.locator('#main a[href="https://www.mlit.go.jp/kankocho/content/001858808.pdf"]').count(),1);
+    }
     assert.equal(await page.locator('#main a[href^="http"]').count(),sourceCount);
     assert.equal(await page.locator('#main a[href="https://www.e-stat.go.jp/stat-search/file-download?fileKind=1&statInfId=000040270650"]').count(),1);
     assert.ok(await page.locator('html').evaluate(el=>el.scrollWidth<=innerWidth),'candidate article must not overflow page');
@@ -178,13 +187,13 @@ const server = http.createServer((req,res)=>{res.setHeader('Content-Type','text/
     await page.locator('#main aside a[href="#candidates"]').click();
     await page.waitForFunction(()=>!!document.getElementById('candidate-results'));
     await page.locator('#reset').click();
-    assert.equal(await page.locator('#candidate-results article').count(),2);
+    assert.equal(await page.locator('#candidate-results article').count(),3);
    }
    await page.locator('#search').fill('zzzz-no-candidate');
    assert.equal(await page.locator('#candidate-results article').count(),0);
    await page.locator('#reset').click();
-   assert.equal(await page.locator('#candidate-results article').count(),2);
-   console.log(`PASS candidate display/search/source links/back/reset at ${viewport.width}: overseas travel and lighting remain candidates`);
+   assert.equal(await page.locator('#candidate-results article').count(),3);
+   console.log(`PASS candidate display/search/source links/back/reset at ${viewport.width}: overseas travel, lighting and accommodation remain candidates`);
    for(const entry of data.editorial.cross_industry_entries){
     await page.goto(base+'#overview');
     await page.locator('#overview a[href="#question/'+entry.id+'"]').click();
@@ -250,7 +259,7 @@ const server = http.createServer((req,res)=>{res.setHeader('Content-Type','text/
     await page.locator('#main').getByText('記事一覧に戻る',{exact:true}).first().click();
     await page.locator('#reset').click();
     assert.equal(await page.locator('#card-results a.card').count(),17);
-    assert.equal(await page.locator('#candidate-results article').count(),2);
+    assert.equal(await page.locator('#candidate-results article').count(),3);
    }
    for(const slug of ['household','shipments','retail']){
     const id='jp-aircon-rebound-divergence-'+slug;
