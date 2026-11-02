@@ -6,7 +6,7 @@ const { execFileSync } = require('node:child_process');
 const beforeFonts=process.argv.includes('--font-before');
 const { createHash } = require('node:crypto');
 const html = fs.readFileSync('index.html');
-assert.equal(createHash('sha256').update(html).digest('hex'), 'bbe0297d51ab7c0cb05edfd434fbee51bb2113dfe391e9865a0c8a8a740abe2d');
+assert.equal(createHash('sha256').update(html).digest('hex'), '1dd4e137d7456a8e4950b4bc2f3014fd299638eeb79571e7a5498e7e6b7ecb05');
 const data = JSON.parse(html.toString().match(/<script id="snapshot-data" type="application\/json">([\s\S]*?)<\/script>/)[1]);
 assert.equal(data.markets.length,17);
 assert.equal(data.claims.length,97);
@@ -123,7 +123,7 @@ const server = http.createServer((req,res)=>{res.setHeader('Content-Type','text/
    assert.equal(await page.locator('#snapshot').innerText(),'主要記事の更新日：2026年10月28日（日本時間） · 資料の公表日・対象期間は各記事に記載');
 
    assert.ok((await page.locator('#candidates .meta').innerText()).includes('海外パック旅行・照明は2026年10月18〜19日、宿泊料は11月2日'));
-   assert.equal(await page.locator('.hero-note a[href="#candidates"]').innerText(),'調査を続ける候補3件を読む');
+   assert.equal(await page.locator('.hero-note a[href="#candidates"]').innerText(),'調査を続ける候補4件を読む');
    await recordFonts(page,viewport.width);
    if(beforeFonts){await page.close();continue;}
    assert.equal(await page.locator('#card-results a.card').count(),17);
@@ -162,7 +162,7 @@ const server = http.createServer((req,res)=>{res.setHeader('Content-Type','text/
    assert.equal(await page.locator('[id^="claim-"][class="claim-evidence"]').count(),97);
    assert.equal(await page.locator('#main').evaluate(el=>new Set([...el.querySelectorAll('[id]')].map(n=>n.id)).size === el.querySelectorAll('[id]').length),true);
    assert.equal(await page.locator('#result-count').innerText(),'17記事のうち17記事を表示しています');
-   assert.equal(await page.locator('#candidate-results article').count(),3);
+   assert.equal(await page.locator('#candidate-results article').count(),4);
    for(const [id,query,claim,limit,sourceCount] of [
     ['foreign-package-travel','代表的なフリープラン','45.6%','「利用量まで確かめられた伸び」には加えません',7],
     ['lighting','参加37社','2026年4〜8月','同じ範囲で量の増加まで確認した項目には加えません',5],
@@ -170,7 +170,7 @@ const server = http.createServer((req,res)=>{res.setHeader('Content-Type','text/
    ]){
     await page.locator('#editorial-search').fill(query);
     assert.equal(await page.locator('#candidate-results article').count(),1);
-    assert.equal(await page.locator('#candidate-count').innerText(),'候補3件のうち1件を表示しています');
+    assert.equal(await page.locator('#candidate-count').innerText(),'候補4件のうち1件を表示しています');
     await page.locator('#candidate-results h3 a[href="#candidate/'+id+'"]').click();
     await page.waitForFunction(expected=>location.hash==='#candidate/'+expected && document.querySelector('#main h1')?.textContent.includes(expected==='lighting'?'照明器具':expected==='accommodation'?'宿泊料':'海外パック旅行'),id);
     const body=await page.locator('#main').innerText();
@@ -187,12 +187,12 @@ const server = http.createServer((req,res)=>{res.setHeader('Content-Type','text/
     await page.locator('#main aside a[href="#candidates"]').click();
     await page.waitForFunction(()=>!!document.getElementById('candidate-results'));
     await page.locator('#reset').click();
-    assert.equal(await page.locator('#candidate-results article').count(),3);
+    assert.equal(await page.locator('#candidate-results article').count(),4);
    }
    await page.locator('#search').fill('zzzz-no-candidate');
    assert.equal(await page.locator('#candidate-results article').count(),0);
    await page.locator('#reset').click();
-   assert.equal(await page.locator('#candidate-results article').count(),3);
+   assert.equal(await page.locator('#candidate-results article').count(),4);
    console.log(`PASS candidate display/search/source links/back/reset at ${viewport.width}: overseas travel, lighting and accommodation remain candidates`);
    for(const entry of data.editorial.cross_industry_entries){
     await page.goto(base+'#overview');
@@ -259,7 +259,7 @@ const server = http.createServer((req,res)=>{res.setHeader('Content-Type','text/
     await page.locator('#main').getByText('記事一覧に戻る',{exact:true}).first().click();
     await page.locator('#reset').click();
     assert.equal(await page.locator('#card-results a.card').count(),17);
-    assert.equal(await page.locator('#candidate-results article').count(),3);
+    assert.equal(await page.locator('#candidate-results article').count(),4);
    }
    for(const slug of ['household','shipments','retail']){
     const id='jp-aircon-rebound-divergence-'+slug;
