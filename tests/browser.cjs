@@ -268,7 +268,7 @@ const server = http.createServer((req,res)=>{res.setHeader('Content-Type','text/
     await page.locator('#card-results a[href="#markets/jp-merihari-consumption.md"]').click();
     await page.waitForFunction(()=>document.querySelector('#main h1')?.textContent.includes('2026年7月'));
     const article=await page.locator('#main').innerText();
-    for(const phrase of ['追記：2026年8月','2026年10月23日公表','718,854','1,833,150','+2.3%','+3.7%','客数・実質利用量ではありません','前月比ではありません','速報・丸め値','全34業種','元記事と既存4主張の確認状況は変更していません'])assert.ok(article.includes(phrase),phrase);
+    for(const phrase of ['追記：2026年8月','2026年10月23日公表','718,854','1,833,150','+2.3%','+3.7%','客数や実質利用量を測った値ではありません。','前月比ではありません','速報・丸め値','全34業種','元記事と既存4主張の確認状況は変更していません'])assert.ok(article.includes(phrase),phrase);
     assert.equal(await page.locator('#main details.claim-evidence').count(),6);
     assert.equal(await page.locator('#main a[href="https://www.stat.go.jp/data/mbss/kekka/pdf/m202608.pdf#page=4"]').count(),1);
     assert.ok(await page.locator('html').evaluate(el=>el.scrollWidth<=innerWidth));
