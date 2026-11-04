@@ -6,7 +6,7 @@ const { execFileSync } = require('node:child_process');
 const beforeFonts=process.argv.includes('--font-before');
 const { createHash } = require('node:crypto');
 const html = fs.readFileSync('index.html');
-assert.equal(createHash('sha256').update(html).digest('hex'), 'c1b8f80e485a0aacc491f6416c79a991c989f9965607e7222e5ac2cf6362bf04');
+assert.equal(createHash('sha256').update(html).digest('hex'), 'ae8a1d8cc0758b5252ec3885b52819bcabfc7d8a7561ac51438770dd65415f32');
 const data = JSON.parse(html.toString().match(/<script id="snapshot-data" type="application\/json">([\s\S]*?)<\/script>/)[1]);
 assert.equal(data.markets.length,17);
 assert.equal(data.claims.length,97);
@@ -77,6 +77,15 @@ for(const mutate of [
  x=>x.editorial.cross_industry_entries[2].text=x.editorial.cross_industry_entries[2].text.replace('103人、効果実感89.3%','999人')
 ]){const invalid=JSON.parse(JSON.stringify(data));mutate(invalid);assert.throws(()=>assertObservationMapping(invalid));}
 
+// Preserve the four published candidates exactly while adding one bounded spending candidate.
+const cookingCandidates=JSON.parse(html.toString().match(/const candidateUpdates = (\[[^\n]+\]);/)[1]);
+assert.equal(cookingCandidates.length,5);
+assert.equal(new Set(cookingCandidates.map(c=>c.id)).size,5);
+assert.equal(createHash('sha256').update(JSON.stringify(cookingCandidates.slice(0,4))).digest('hex'),'c61330eda3fa6352738eae140050baf50ae46365d9fab6da65ec3f9d734f52e0');
+assert.equal(cookingCandidates[4].id,'cooking-appliances');
+assert.equal(createHash('sha256').update(JSON.stringify(cookingCandidates[4])).digest('hex'),'0b9b898c335284c7fc235fc1180d4c701487cc94792c1fe78f86ee77d217f162');
+assert.ok(!data.markets.some(m=>m.id.includes('cooking-appliances')));
+
 async function recordFonts(page, width) {
  const sample='需要の変化を読む。支出、利用時間、導入状況。あいうえおアイウエオ';
  await page.evaluate(text=>{
@@ -135,7 +144,7 @@ const server = http.createServer((req,res)=>{res.setHeader('Content-Type','text/
    assert.equal(await page.locator('#snapshot').innerText(),'主要記事の更新日：2026年10月28日（日本時間） · 資料の公表日・対象期間は各記事に記載');
 
    assert.ok((await page.locator('#candidates .meta').innerText()).includes('海外パック旅行・照明が2026年10月18〜19日、宿泊料が11月2日'));
-   assert.equal(await page.locator('.hero-note a[href="#candidates"]').innerText(),'調査を続ける候補4件を読む');
+   assert.equal(await page.locator('.hero-note a[href="#candidates"]').innerText(),'調査を続ける候補5件を読む');
    await recordFonts(page,viewport.width);
    if(beforeFonts){await page.close();continue;}
    assert.equal(await page.locator('#card-results a.card').count(),17);
@@ -174,7 +183,7 @@ const server = http.createServer((req,res)=>{res.setHeader('Content-Type','text/
    assert.equal(await page.locator('[id^="claim-"][class="claim-evidence"]').count(),97);
    assert.equal(await page.locator('#main').evaluate(el=>new Set([...el.querySelectorAll('[id]')].map(n=>n.id)).size === el.querySelectorAll('[id]').length),true);
    assert.equal(await page.locator('#result-count').innerText(),'17記事のうち17記事を表示しています');
-   assert.equal(await page.locator('#candidate-results article').count(),4);
+   assert.equal(await page.locator('#candidate-results article').count(),5);
    for(const [id,query,claim,limit,sourceCount] of [
     ['foreign-package-travel','代表的なフリープラン','45.6%','「利用量まで確かめられた伸び」には加えません',7],
     ['lighting','参加37社','2026年4〜8月','同じ範囲で購入量も増えたと確認できた項目には加えません',5],
@@ -182,7 +191,7 @@ const server = http.createServer((req,res)=>{res.setHeader('Content-Type','text/
    ]){
     await page.locator('#editorial-search').fill(query);
     assert.equal(await page.locator('#candidate-results article').count(),1);
-    assert.equal(await page.locator('#candidate-count').innerText(),'候補4件のうち1件を表示しています');
+    assert.equal(await page.locator('#candidate-count').innerText(),'候補5件のうち1件を表示しています');
     await page.locator('#candidate-results h3 a[href="#candidate/'+id+'"]').click();
     await page.waitForFunction(expected=>location.hash==='#candidate/'+expected && document.querySelector('#main h1')?.textContent.includes(expected==='lighting'?'照明器具':expected==='accommodation'?'宿泊料':'海外パック旅行'),id);
     const body=await page.locator('#main').innerText();
@@ -199,12 +208,28 @@ const server = http.createServer((req,res)=>{res.setHeader('Content-Type','text/
     await page.locator('#main aside a[href="#candidates"]').click();
     await page.waitForFunction(()=>!!document.getElementById('candidate-results'));
     await page.locator('#reset').click();
-    assert.equal(await page.locator('#candidate-results article').count(),4);
+    assert.equal(await page.locator('#candidate-results article').count(),5);
    }
    await page.locator('#search').fill('zzzz-no-candidate');
    assert.equal(await page.locator('#candidate-results article').count(),0);
    await page.locator('#reset').click();
-   assert.equal(await page.locator('#candidate-results article').count(),4);
+   assert.equal(await page.locator('#candidate-results article').count(),5);
+   // Cooking appliances remain a spending candidate, not a growth theme or regular article.
+   await page.goto(base);
+   for(const query of ['炊事用電気器具','3,693','3,273','000040270649']){
+    await page.locator('#search').fill(query);
+    assert.equal(await page.locator('#candidate-results a[href="#candidate/cooking-appliances"]').count(),2);
+    await page.locator('#candidate-results a[href="#candidate/cooking-appliances"]').first().click();
+    await page.waitForFunction(()=>document.querySelector('#main h1')?.textContent.includes('炊事用電気器具'));
+    const cookingText=await page.locator('#main').innerText();
+    for(const phrase of ['候補・利用量の増加は未確認','2025年9月〜2026年8月','3,693円','3,195円','15.6%','2026年6〜8月','782円','540円','44.8%','購入しなかった世帯も含む平均','2025年は3,273円','2019年の3,446円','5.0%','暦年の月次表示値を合計','電子レンジは別品目','この品目全体の価格変化を表せません','購入数量を推定していません','組合せの変化は未確認','2026年11月4日','最新の家計対象月は2026年8月'])assert.ok(cookingText.includes(phrase),phrase);
+    for(const url of ["https://www.e-stat.go.jp/stat-search/file-download?fileKind=1&statInfId=000040270651","https://www.e-stat.go.jp/stat-search/file-download?fileKind=1&statInfId=000040270650","https://www.e-stat.go.jp/stat-search/file-download?fileKind=1&statInfId=000040270649","https://www.stat.go.jp/data/kakei/kou2025/zuhyou/kouh2025.xlsx","https://www.stat.go.jp/data/cpi/2025/kaisetsu/pdf/4-61.pdf"])assert.ok(await page.locator('#main a').evaluateAll((links,url)=>links.some(a=>a.href===url),url),url);
+    await page.locator('#main').getByText('候補一覧に戻る',{exact:true}).first().click();
+    await page.waitForFunction(()=>!!document.querySelector('#candidate-results'));
+    await page.locator('#reset').click();
+    assert.equal(await page.locator('#candidate-results article').count(),5);
+    assert.equal(await page.locator('#card-results a.card').count(),17);
+   }
    console.log(`PASS candidate display/search/source links/back/reset at ${viewport.width}: overseas travel, lighting and accommodation remain candidates`);
    for(const entry of data.editorial.cross_industry_entries){
     await page.goto(base+'#overview');
@@ -303,7 +328,7 @@ const server = http.createServer((req,res)=>{res.setHeader('Content-Type','text/
     await page.locator('#main').getByText('記事一覧に戻る',{exact:true}).first().click();
     await page.locator('#reset').click();
     assert.equal(await page.locator('#card-results a.card').count(),17);
-    assert.equal(await page.locator('#candidate-results article').count(),4);
+    assert.equal(await page.locator('#candidate-results article').count(),5);
    }
    for(const slug of ['household','shipments','retail']){
     const id='jp-aircon-rebound-divergence-'+slug;
