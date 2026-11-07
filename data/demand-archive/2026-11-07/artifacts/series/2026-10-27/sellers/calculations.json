@@ -1,0 +1,64 @@
+{
+  "annual_all_receipts": {
+    "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "medical_cost_100m_yen": [
+      31498,
+      32309,
+      32925,
+      34033,
+      35239
+    ],
+    "days_10k": [
+      39904,
+      39828,
+      40104,
+      40226,
+      40374
+    ],
+    "receipts_10k": [
+      24083,
+      24709,
+      25460,
+      26113,
+      26714
+    ],
+    "published_days_growth_pct": [
+      2.5,
+      -0.2,
+      0.7,
+      0.3,
+      0.4
+    ]
+  },
+  "fy2025_from_displayed_levels": {
+    "cost_growth_pct": 3.5436194282020494,
+    "days_growth_pct": 0.3679212449659408,
+    "cost_per_day_growth_pct": 3.1640569455306577
+  },
+  "fy2020_days_growth_pct": -6.9,
+  "approx_2019_to_2025_days_pct": -3.424224534776854,
+  "long_comparison_caveat": "Compounded rounded published growth rates, not exact level estimate; historical FY2020 all-receipt scope plus FY2025 all-receipt table.",
+  "latest": {
+    "period": "2026-04/05",
+    "cost_growth_pct": 2.1,
+    "days_growth_pct": -1.3,
+    "cost_per_day_growth_pct": 3.5,
+    "rounded_identity_pct": 2.1544999999999925
+  },
+  "electronic_scope": {
+    "fy2024_days_10k": 39347,
+    "fy2025_days_10k": 39660,
+    "published_growth_pct": 0.8,
+    "coverage_days_pct": [
+      97.8,
+      98.2
+    ]
+  },
+  "not_matched_to_household": "FY and Apr-May are not Sep2025-Aug2026; insurance/public benefits expenditure including copayment excludes fully self-paid medical care; not household722 total out-of-pocket."
+}

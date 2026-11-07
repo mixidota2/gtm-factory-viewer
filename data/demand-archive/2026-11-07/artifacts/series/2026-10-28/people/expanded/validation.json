@@ -1,0 +1,66 @@
+{
+  "date_jst": "2026-10-28",
+  "status": "PASS",
+  "rows_checked": 298,
+  "checks": [
+    {
+      "chart": "free",
+      "rows_checked": 100,
+      "raw_hash_match": true,
+      "raw_byte_length_match": true,
+      "all_ids_names_order_match": true,
+      "unique_ids": true,
+      "contiguous_ranks": true,
+      "request_date_is_oct28_jst": true,
+      "attempts": 1,
+      "verification_scope": "Separate validation script reparsed raw; same agent, not independent market evidence."
+    },
+    {
+      "chart": "grossing",
+      "rows_checked": 100,
+      "raw_hash_match": true,
+      "raw_byte_length_match": true,
+      "all_ids_names_order_match": true,
+      "unique_ids": true,
+      "contiguous_ranks": true,
+      "request_date_is_oct28_jst": true,
+      "attempts": 1,
+      "verification_scope": "Separate validation script reparsed raw; same agent, not independent market evidence."
+    },
+    {
+      "chart": "paid",
+      "rows_checked": 98,
+      "raw_hash_match": true,
+      "raw_byte_length_match": true,
+      "all_ids_names_order_match": true,
+      "unique_ids": true,
+      "contiguous_ranks": true,
+      "request_date_is_oct28_jst": true,
+      "attempts": 1,
+      "verification_scope": "Separate validation script reparsed raw; same agent, not independent market evidence."
+    }
+  ],
+  "date_coverage": {
+    "actual_days": 14,
+    "current_consecutive_days": 13,
+    "missing_dates": [
+      "2026-10-09",
+      "2026-10-10",
+      "2026-10-11",
+      "2026-10-12",
+      "2026-10-13",
+      "2026-10-14",
+      "2026-10-15"
+    ],
+    "four_week_eligible": false
+  },
+  "prior_day_schema": "prior direct chart->[rank,id,name] rows; todays capture converted to same schema",
+  "comparison_counts_independently_recomputed_from_normalized_ids": true,
+  "independent_review": {
+    "status": "PASS",
+    "evidence_basis": "Coordinator message received2026-10-27T18:10:57Z",
+    "checks": "All298 original feed rows exact ordered rank/ID/name versus compact; raw bytes SHA256; unique IDs; manifests1attempt; calendar original lines545–547 independently checked."
+  },
+  "growth_promoted": false,
+  "calculated_at_utc": "2026-10-27T18:10:57.513389+00:00"
+}

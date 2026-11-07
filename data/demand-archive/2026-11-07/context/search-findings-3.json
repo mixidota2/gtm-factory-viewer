@@ -1,0 +1,420 @@
+[
+  {
+    "date": "2026-10-16",
+    "stream": "household",
+    "retrieval_scope": "full_official_tables_and_CPI_specification",
+    "results": "August priority analyzed;398nominal candidates provisional",
+    "queries": [
+      "official household latest August2026",
+      "official monthly item75B 2019-Aug2026",
+      "official CPI2025 item7344 and rental specification",
+      "single household annual table9 2019/2023/2024/2025"
+    ],
+    "repeat_policy": "do_not_repeat_completed_queries_same_day"
+  },
+  {
+    "date": "2026-10-16",
+    "stream": "people_time",
+    "retrieval_scope": "full_official_tables_PDF_and_Apple_feeds",
+    "results": "jobs57ranked;media time verified;Apple100/100/98",
+    "app_capture_once": true,
+    "repeat_policy": "do_not_recapture_same_date"
+  },
+  {
+    "date": "2026-10-16",
+    "stream": "search",
+    "query": "タイムズカー カーシェア レンタカー; Japan;2025-06-01/2026-10-15",
+    "result": "HTTP429 stopped; no new weekly values",
+    "fallback": "inheritedOct8weeklyseries and officialTimesCarSep25-29 announcements",
+    "causality": "not_established",
+    "repeat_policy": "no_bypass_or_same_day_retry"
+  },
+  {
+    "date": "2026-10-16",
+    "stream": "sellers",
+    "retrieval_scope": "full_official_monthly_annual_tables_and_IR_PDFs",
+    "results": "34industries;Park24;Doutor;SaintMarc;lodging;coastal;KeePer",
+    "repeat_policy": "do_not_repeat_unreleased_national_tables"
+  },
+  {
+    "date": "2026-10-16",
+    "stage": "03resume_top_rank_audit",
+    "query": "site.stat.go.jp 家計調査 2025 収支項目分類 オンラインゲーム 変更",
+    "outcome": "official revision list and original2020/2025 category examples read; example addition is not proven scope transfer",
+    "sources": [
+      "https://www.stat.go.jp/data/kakei/kou2025/kou202501.html"
+    ],
+    "repeat_apple_trends_rental": false
+  },
+  {
+    "date": "2026-10-16",
+    "stage": "05_missing_coffee_only",
+    "queries": [
+      "site.e-stat.go.jp 家計調査 購入数量 月 2025 長期時系列",
+      "site.ajca.or.jp 2026 コーヒー 国内消費量 統計",
+      "site.e-stat.go.jp/dbview 2025年改定 数量 月次 二人以上"
+    ],
+    "result": "official selected24month quantity obtained; AJCA broad supply balance not same scope; no further expansion",
+    "repeat_policy": "coffee quantity complete; no same-day recapture"
+  },
+  {
+    "date": "2026-10-19",
+    "queries": [
+      "site.mlit.go.jp 2026 8月 主要旅行業者 海外旅行 取扱人数 単価",
+      "site.jnto.go.jp 2026 8月 出国日本人数"
+    ],
+    "official_reads": [
+      "https://www.stat.go.jp/data/cpi/1.html",
+      "https://www.stat.go.jp/data/cpi/2025/csv/zmi2025aa.csv",
+      "https://www.stat.go.jp/data/cpi/2020/csv/zmi2020aa.csv",
+      "https://www.stat.go.jp/data/cpi/2025/kaisetsu/pdf/fu3.pdf"
+    ],
+    "result": "Foreign package candidate retained, no volume promotion; Apple3feeds299rows once; no Trends429retry or repeated unchanged jobs/media/service tables"
+  },
+  {
+    "date": "2026-10-19",
+    "phase": "05_resume",
+    "query": "site:e-stat.go.jp 2025年基準 消費者物価指数 2024 月次 接続指数 時系列",
+    "sources": [
+      "https://www.e-stat.go.jp/stat-search/file-download?fileKind=1&statInfId=000040482945",
+      "https://www.stat.go.jp/data/cpi/2025/kaisetsu/pdf/3-6.pdf"
+    ],
+    "result": "Missing4months resolved; full24month2025base real-spending proxy+45.56775%; independentPASS; no repeatApple/household/seller"
+  },
+  {
+    "date": "2026-10-17",
+    "stream": "household",
+    "stage": "03_weekend_missing_only",
+    "results": "Game-console24months quantity/spending checked; quantity rebound but recent3months fall; no sustained-growth promotion",
+    "repeat_policy": "quantity complete; do not repeat coffee/rental or same-date game-console retrieval"
+  },
+  {
+    "date": "2026-10-17",
+    "stream": "people_time",
+    "stage": "03_weekend",
+    "results": "Apple100/100/99 once each; UK42min/+3 and40→42 rounding-compatible, not proven contradiction; total267vs263 unresolved",
+    "app_capture_once": true,
+    "repeat_policy": "No05recapture; no403/login bypass or unrounded-value inference"
+  },
+  {
+    "date": "2026-10-17",
+    "stream": "sellers",
+    "stage": "03_weekend",
+    "results": "Spain latest-month quantity/ADR/RevPAR verified;2019path saved but2025linkage unresolved. Japan Nintendo quarterly sell-in verified but unmatched to household12months."
+  },
+  {
+    "date_jst": "2026-10-20",
+    "stream": "household",
+    "target": "835ゲームソフト等",
+    "action": "official classification and CPI scope audit",
+    "queries": [
+      "site.stat.go.jp 家計調査 835 ゲームソフト等 分類 オンラインゲーム",
+      "site.stat.go.jp 消費者物価指数 ゲームソフト 2026 8月",
+      "site.stat.go.jp 家計調査 ゲームソフト等 オンラインゲーム 利用料",
+      "site.stat.go.jp 小売物価統計調査 9156 ゲームソフト 2026"
+    ],
+    "result": "835 broader than9156; official quantity uncollected; 2026October CPI specification changes toSwitch2; no demand promotion.",
+    "source_ledger": "source-ledger.json"
+  },
+  {
+    "date_jst": "2026-10-20",
+    "stream": "household",
+    "target": "835latest24months and annual2019+",
+    "action": "fresh official CSV/XLSX acquisition and independent sums",
+    "result": "2061→3187yen +54.6337%; annual2019/2025 1508/2306; current3months835+836 1245→980yen; singleperson835 unreported separately in selectedtables.",
+    "source_ledger": "source-ledger.json",
+    "deliverables": [
+      "monthly-selected.csv",
+      "annual-monthly-sums.csv",
+      "annual-official-selected.json",
+      "definition-excerpts.json",
+      "calculation.json",
+      "validation.json"
+    ]
+  },
+  {
+    "date_jst": "2026-10-20",
+    "type": "official_daily_snapshot",
+    "url": "https://itunes.apple.com/jp/rss/topfreeapplications/limit=200/json",
+    "retrieved_at": "2026-10-19T18:02:59.243122+00:00",
+    "retrieved_at_jst": "2026-10-20T03:02:59.243122+09:00",
+    "result_count": 100,
+    "attempts": 1,
+    "status": 200,
+    "sha256": "a4d631991fa2bc76e26a039643d3b64e14dd5af658feb6eee4452a1036850820",
+    "method": "GET with Python urllib.request; redirects disabled; no retry loop; default TLS verification; Accept-Encoding identity"
+  },
+  {
+    "date_jst": "2026-10-20",
+    "type": "official_daily_snapshot",
+    "url": "https://itunes.apple.com/jp/rss/topgrossingapplications/limit=200/json",
+    "retrieved_at": "2026-10-19T18:03:06.800909+00:00",
+    "retrieved_at_jst": "2026-10-20T03:03:06.800909+09:00",
+    "result_count": 100,
+    "attempts": 1,
+    "status": 200,
+    "sha256": "f160f7bb38676396f2c3149b3f7c53005c691606be3b16ba1ea151132cd26036",
+    "method": "GET with Python urllib.request; redirects disabled; no retry loop; default TLS verification; Accept-Encoding identity"
+  },
+  {
+    "date_jst": "2026-10-20",
+    "type": "official_daily_snapshot",
+    "url": "https://itunes.apple.com/jp/rss/toppaidapplications/limit=200/json",
+    "retrieved_at": "2026-10-19T18:03:10.397263+00:00",
+    "retrieved_at_jst": "2026-10-20T03:03:10.397263+09:00",
+    "result_count": 99,
+    "attempts": 1,
+    "status": 200,
+    "sha256": "d2d38f9e95292c56223be54984efaa4c7b12a2d9fa5b4b4ab6f1f6a45490bb8d",
+    "method": "GET with Python urllib.request; redirects disabled; no retry loop; default TLS verification; Accept-Encoding identity"
+  },
+  {
+    "date_jst": "2026-10-20",
+    "type": "carry_forward_no_query",
+    "source": "Jobs Aug2026 released Oct2; media FY2025 released Jun26",
+    "reason": "Already completed raw-table reads; no repeated query requested"
+  },
+  {
+    "date_jst": "2026-10-20",
+    "stream": "sellers",
+    "status": "partial_interrupted_usage_limit",
+    "source_ledger_complete": false,
+    "result": "Saved local source hashes and calculations; exact full search trail not reconstructed. No new search during 08:04 recovery."
+  },
+  {
+    "date_jst": "2026-10-22",
+    "streams": {
+      "household": "Next unaudited45X rank7; saved expenditure/CPI hashesverified, newofficial quantity92months+annual2019–2025; boundedaudit complete",
+      "people": "Apple eachonce100/100/99;8actual7consecutive; jobsmediaexplicitcarryforward",
+      "sellers": "JEMA currentoriginalrow10verified; annual/latest12unavailablefree, paidrouteavoided"
+    },
+    "result": "No growth promotion. Nominal+32.0% with displayedquantityrebound but recentquarterdown; sellerJanSep+3.3%,AprSep−2.1%.",
+    "repeat_policy": "05 missingonly; noApple orcompletedaudit repeat"
+  },
+  {
+    "date": "2026-10-23",
+    "queries": [
+      "Yamaha 2027Q1 Japan instruments official",
+      "METI instrument monthly index (403; stopped)",
+      "Roland 2026Q2 official Japan sales",
+      "Service industry official result page"
+    ],
+    "result": "806 nominal household growth not quantity-confirmed; seller prices/newproducts caution; Apple once daily9actual8consecutive; service page still July"
+  },
+  {
+    "date": "2026-10-23",
+    "scope": "bounded post-release service-August comparison",
+    "retrieved_at": "2026-10-23T08:40:23+09:00",
+    "queries": [],
+    "direct_reads": [
+      "https://www.stat.go.jp/data/mbss/kekka.html",
+      "https://www.stat.go.jp/data/mbss/kekka/pdf/m202608.pdf"
+    ],
+    "result": "August publication verified; selected sales compared with saved quantities. No growth promotion. PDF text only; screenshot cache miss.",
+    "repeat_policy": "Do not redo completed index/PDF acquisition at Oct24; full-series rolling12 update remains separate."
+  },
+  {
+    "date": "2026-10-24",
+    "stream": "household",
+    "action": "saved_raw_audit",
+    "item": "424",
+    "result": "92months recomputed;5672→7237yen;quantityuncollected;CPImismatch;notgrowth",
+    "new_external_fetch": false
+  },
+  {
+    "date": "2026-10-24",
+    "stream": "sellers",
+    "query": "site.mlit.go.jp 建築物リフォーム リニューアル 調査 令和8年度 第1四半期 給排水",
+    "retrieved_at": "2026-10-23T18:31:24Z",
+    "source": "https://www.mlit.go.jp/report/press/content/002021195.pdf",
+    "publication_date": "2026-09-10",
+    "period": "2026-04/06",
+    "result": "Original PDF obtained; pp5,7 visuallychecked; residential plumbingorders−11.7%,nonresidential+34.9%;unmatchedscope"
+  },
+  {
+    "date": "2026-10-24",
+    "stream": "sellers",
+    "query": "site.toto.com 2026 第1四半期 日本 リモデル 売上",
+    "result": "No company figures adopted; closer officialconstruction source used"
+  },
+  {
+    "date": "2026-10-24",
+    "stream": "people",
+    "url": "https://itunes.apple.com/jp/rss/topfreeapplications/limit=200/json",
+    "requested_at": "2026-10-24T03:30:51.464302+09:00",
+    "status": 200,
+    "attempts": 1,
+    "count": 100,
+    "sha256": "01df8cc632cc09e32c5883a50d3930628e740e568bf95009668623245cb5e7b5",
+    "result": "once_daily_saved;four_week_false"
+  },
+  {
+    "date": "2026-10-24",
+    "stream": "people",
+    "url": "https://itunes.apple.com/jp/rss/topgrossingapplications/limit=200/json",
+    "requested_at": "2026-10-24T03:30:59.201451+09:00",
+    "status": 200,
+    "attempts": 1,
+    "count": 100,
+    "sha256": "2f64babb1178375584d9ff44a93d7e9f43ac109a5a994d88a1544f73fdf3e0df",
+    "result": "once_daily_saved;four_week_false"
+  },
+  {
+    "date": "2026-10-24",
+    "stream": "people",
+    "url": "https://itunes.apple.com/jp/rss/toppaidapplications/limit=200/json",
+    "requested_at": "2026-10-24T03:31:04.987602+09:00",
+    "status": 200,
+    "attempts": 1,
+    "count": 98,
+    "sha256": "fd9addcf7dc6c9703f9b67ae5b5bf83426ba3359be40e4a8dec74166a229b428",
+    "result": "once_daily_saved;four_week_false"
+  },
+  {
+    "date_jst": "2026-10-25",
+    "stream": "household",
+    "action": "saved_raw_audit",
+    "item": "792",
+    "result": "8150→10302yen;+26.40%;quantitymissing;CPI8204narrower;no growthpromotion",
+    "new_external_fetch": false
+  },
+  {
+    "date_jst": "2026-10-25",
+    "chart": "free",
+    "url": "https://itunes.apple.com/jp/rss/topfreeapplications/limit=200/json",
+    "requested_limit": 200,
+    "method": "GET with Python standard-library urllib.request; redirects disabled; no retries; default TLS verification; Accept-Encoding identity",
+    "attempts": 1,
+    "request_started_utc": "2026-10-24T18:08:16.085242+00:00",
+    "request_started_jst": "2026-10-25T03:08:16.085242+09:00",
+    "body_file": "apple-free-raw-2026-10-25.json",
+    "headers_file": "apple-free-headers-2026-10-25.json",
+    "status": 200,
+    "response_url": "https://itunes.apple.com/jp/rss/topfreeapplications/limit=200/json",
+    "response_headers_received_utc": "2026-10-24T18:08:24.827304+00:00",
+    "response_headers_received_jst": "2026-10-25T03:08:24.827304+09:00",
+    "body_read_completed_utc": "2026-10-24T18:08:24.849460+00:00",
+    "body_read_completed_jst": "2026-10-25T03:08:24.849460+09:00",
+    "bytes": 554241,
+    "sha256": "e1497ffef6852c5d00d48be8befa7213e997d3c6004906f812a45c9dbe86f7e2",
+    "parse_success": true,
+    "count": 100,
+    "unique_ids": 100,
+    "feed_updated": "2026-10-24T11:08:24-07:00",
+    "feed_updated_utc": "2026-10-24T18:08:24+00:00",
+    "feed_updated_jst": "2026-10-25T03:08:24+09:00",
+    "outcome": "saved"
+  },
+  {
+    "date_jst": "2026-10-25",
+    "chart": "grossing",
+    "url": "https://itunes.apple.com/jp/rss/topgrossingapplications/limit=200/json",
+    "requested_limit": 200,
+    "method": "GET with Python standard-library urllib.request; redirects disabled; no retries; default TLS verification; Accept-Encoding identity",
+    "attempts": 1,
+    "request_started_utc": "2026-10-24T18:08:24.855107+00:00",
+    "request_started_jst": "2026-10-25T03:08:24.855107+09:00",
+    "body_file": "apple-grossing-raw-2026-10-25.json",
+    "headers_file": "apple-grossing-headers-2026-10-25.json",
+    "status": 200,
+    "response_url": "https://itunes.apple.com/jp/rss/topgrossingapplications/limit=200/json",
+    "response_headers_received_utc": "2026-10-24T18:08:29.723136+00:00",
+    "response_headers_received_jst": "2026-10-25T03:08:29.723136+09:00",
+    "body_read_completed_utc": "2026-10-24T18:08:29.746891+00:00",
+    "body_read_completed_jst": "2026-10-25T03:08:29.746891+09:00",
+    "bytes": 599680,
+    "sha256": "3f420ff0df139f6f5bf60a2158ac41bd7b47035686e56d8146f46834cebec0d2",
+    "parse_success": true,
+    "count": 100,
+    "unique_ids": 100,
+    "feed_updated": "2026-10-24T11:08:28-07:00",
+    "feed_updated_utc": "2026-10-24T18:08:28+00:00",
+    "feed_updated_jst": "2026-10-25T03:08:28+09:00",
+    "outcome": "saved"
+  },
+  {
+    "date_jst": "2026-10-25",
+    "chart": "paid",
+    "url": "https://itunes.apple.com/jp/rss/toppaidapplications/limit=200/json",
+    "requested_limit": 200,
+    "method": "GET with Python standard-library urllib.request; redirects disabled; no retries; default TLS verification; Accept-Encoding identity",
+    "attempts": 1,
+    "request_started_utc": "2026-10-24T18:08:29.755515+00:00",
+    "request_started_jst": "2026-10-25T03:08:29.755515+09:00",
+    "body_file": "apple-paid-raw-2026-10-25.json",
+    "headers_file": "apple-paid-headers-2026-10-25.json",
+    "status": 200,
+    "response_url": "https://itunes.apple.com/jp/rss/toppaidapplications/limit=200/json",
+    "response_headers_received_utc": "2026-10-24T18:08:33.984942+00:00",
+    "response_headers_received_jst": "2026-10-25T03:08:33.984942+09:00",
+    "body_read_completed_utc": "2026-10-24T18:08:34.020450+00:00",
+    "body_read_completed_jst": "2026-10-25T03:08:34.020450+09:00",
+    "bytes": 490702,
+    "sha256": "2b0680bc3a75ac829a1b656fe69ca8e378dcfff471edc001abdc74eb3a1464ca",
+    "parse_success": true,
+    "count": 99,
+    "unique_ids": 99,
+    "feed_updated": "2026-10-24T11:08:33-07:00",
+    "feed_updated_utc": "2026-10-24T18:08:33+00:00",
+    "feed_updated_jst": "2026-10-25T03:08:33+09:00",
+    "outcome": "saved"
+  },
+  {
+    "date_jst": "2026-10-25",
+    "queries": [
+      "site.nagasebros.com 2026 2027 第2四半期 決算 生徒数 東進",
+      "site.sprintex.jp 2026 早稲田アカデミー 高校生 生徒数 決算",
+      "site.toshin.com ナガセ 2026 決算 説明会 生徒数",
+      "site.waseda-ac.co.jp 2027 決算 3245",
+      "site.waseda-ac.co.jp \"2027年３月期\" \"高校部\"",
+      "site2.irpass.net \"早稲田\" \"2027\" \"3,245\"",
+      "site.jpx.co.jp/disc/47180/ \"2027\" \"第１四半期\"",
+      "site.jpx.co.jp/disc/47180/ \"2026年３月期\" \"2,879\""
+    ],
+    "secondary_results": "Discovery only; financialfilings/stockweather/regfis/EDINETDB/press summaries not adopted as verified evidence",
+    "official_primary_sources": "source-ledger.json",
+    "stream": "sellers",
+    "result": "bounded_twochains_not_nationalgrowth;Nagase403andWasedaJS502stopped"
+  },
+  {
+    "date": "2026-10-26",
+    "stream": "household",
+    "task": "rank12 code470 quantity and price annual/substitution check",
+    "sources": [
+      "https://www.e-stat.go.jp/dbview?sid=0004023602"
+    ],
+    "result": "92 months quantity; latest12 up, summer down; candidate only"
+  },
+  {
+    "date": "2026-10-26",
+    "stream": "sellers",
+    "task": "aircon volume vs price and retail counterevidence",
+    "sources": [
+      "https://www.jema-net.or.jp/stat/evefa20000004jb4-att/2609ds.xlsx",
+      "https://www.kojima.net/corporation/ir/pdf/bulletin_20261005.pdf"
+    ],
+    "result": "shipments grow; chain orders decline; sustained growth unproved",
+    "failed_sources": "JRAIA503;oldJEMA404; no bypass"
+  },
+  {
+    "date": "2026-10-26",
+    "stream": "people",
+    "task": "Apple daily once",
+    "result": "100/100/99; actual12days consecutive11; not fourweek eligible"
+  },
+  {
+    "date": "2026-10-27",
+    "scope": "Three independent streams and due eprescription",
+    "household": "722 saved92monthly rows; no raw monthly re-fetch",
+    "people": "Apple official3 endpoints once,299rows;13actualdays",
+    "sellers": "MHLW FY2025 and Apr–May2026 original PDFs",
+    "eprescription": "Official dashboard October16 new September observation and old September11 ZIP; original cells and definitions read"
+  },
+  {
+    "date": "2026-10-28",
+    "scope": "threeindependenttracks",
+    "household": "928 classification repair and92savedmonths;12originalhashmatches;2newofficialoriginals",
+    "people": "Apple3feeds eachonce298rows;officialjobs calendar Oct30 08:30 planned;dueOct31",
+    "sellers": "FDC4℃/CANALannualmonthlyandbrandcustomer/price;Tsutsumi;Yanoownsurvey;no nationalvolume inference"
+  }
+]

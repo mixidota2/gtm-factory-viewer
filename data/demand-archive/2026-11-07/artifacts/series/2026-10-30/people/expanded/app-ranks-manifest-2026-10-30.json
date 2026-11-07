@@ -1,0 +1,44 @@
+[
+  {
+    "date_jst": "2026-10-30",
+    "chart": "free",
+    "url": "https://itunes.apple.com/jp/rss/topfreeapplications/limit=200/json",
+    "requested_limit": 200,
+    "attempts": 1,
+    "request_started_utc": "2026-10-29T18:09:07.743684+00:00",
+    "publication_date": null,
+    "target_period": null,
+    "method": "urllib GET; redirects disabled; default TLS; no retry",
+    "outcome": "failed",
+    "error": "URLError(OSError('Tunnel connection failed: 403 Forbidden'))",
+    "completed_utc": "2026-10-29T18:09:11.396930+00:00"
+  },
+  {
+    "date_jst": "2026-10-30",
+    "chart": "grossing",
+    "url": "https://itunes.apple.com/jp/rss/topgrossingapplications/limit=200/json",
+    "requested_limit": 200,
+    "attempts": 1,
+    "request_started_utc": "2026-10-29T18:09:11.397408+00:00",
+    "publication_date": null,
+    "target_period": null,
+    "method": "urllib GET; redirects disabled; default TLS; no retry",
+    "outcome": "failed",
+    "error": "URLError(ConnectionResetError(104, 'Connection reset by peer'))",
+    "completed_utc": "2026-10-29T18:09:11.398094+00:00"
+  },
+  {
+    "date_jst": "2026-10-30",
+    "chart": "paid",
+    "url": "https://itunes.apple.com/jp/rss/toppaidapplications/limit=200/json",
+    "requested_limit": 200,
+    "attempts": 1,
+    "request_started_utc": "2026-10-29T18:09:11.398509+00:00",
+    "publication_date": null,
+    "target_period": null,
+    "method": "urllib GET; redirects disabled; default TLS; no retry",
+    "outcome": "failed",
+    "error": "URLError(ConnectionRefusedError(111, 'Connection refused'))",
+    "completed_utc": "2026-10-29T18:09:11.398953+00:00"
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "kind": "topfreeapplications",
+    "raw_hash_matches": true,
+    "raw_count_matches": true,
+    "unique_ids": true,
+    "feed_date_jst_matches": true,
+    "normalized_ids_in_raw_order": true
+  },
+  {
+    "kind": "topgrossingapplications",
+    "raw_hash_matches": true,
+    "raw_count_matches": true,
+    "unique_ids": true,
+    "feed_date_jst_matches": true,
+    "normalized_ids_in_raw_order": true
+  },
+  {
+    "kind": "toppaidapplications",
+    "raw_hash_matches": true,
+    "raw_count_matches": true,
+    "unique_ids": true,
+    "feed_date_jst_matches": true,
+    "normalized_ids_in_raw_order": true
+  }
+]

@@ -1,0 +1,98 @@
+[
+  {
+    "id": "jema-index",
+    "url": "https://www.jema-net.or.jp/stat/kakoku.html",
+    "retrieved_at": "2026-10-21T18:01:26.324121+00:00",
+    "http_status": 200,
+    "bytes": 28740,
+    "sha256": "a032a29a360e09d5dc08c71d336bace4372700432bb27e2b30921bd287dbf552"
+  },
+  {
+    "id": "jema-outline",
+    "url": "https://www.jema-net.or.jp/stat/kakoku_outline.html",
+    "retrieved_at": "2026-10-21T18:01:36.458568+00:00",
+    "http_status": 200,
+    "bytes": 33573,
+    "sha256": "dab795c57c124dd04b38a77772220e55fb9ef21a6a6056ade3c1d863860d96a9"
+  },
+  {
+    "id": "jema-service",
+    "url": "https://www.jema-net.or.jp/stat/kakoku_datapurchase.html",
+    "retrieved_at": "2026-10-21T18:01:42.066954+00:00",
+    "http_status": 200,
+    "bytes": 38503,
+    "sha256": "f5b77ae4afa99804d8ec52acd1922bb3fa0a2ae109ab1ea6000d8d30df57b369"
+  },
+  {
+    "id": "aeha-handbook-index",
+    "url": "https://www.aeha.or.jp/about/pdf/kadenhandbook_2026.htm",
+    "retrieved_at": "2026-10-21T18:01:47.468193+00:00",
+    "error": "HTTP Error 502: Bad Gateway"
+  },
+  {
+    "id": "2609ds.xlsx",
+    "url": "https://www.jema-net.or.jp/stat/evefa20000004jb4-att/2609ds.xlsx",
+    "retrieved_at": "2026-10-21T18:02:23.870947+00:00",
+    "http_status": 200,
+    "bytes": 16720,
+    "sha256": "0ae09a2c034c5f7c23d6181867d840a9ec2701a20691cbc5a1bdc2adf9698105"
+  },
+  {
+    "id": "2609ds-comment.pdf",
+    "url": "https://www.jema-net.or.jp/stat/evefa20000004jb4-att/2609ds-comment.pdf",
+    "retrieved_at": "2026-10-21T18:02:31.708951+00:00",
+    "http_status": 200,
+    "bytes": 208918,
+    "sha256": "df250e3852dd6de846be2984f91c255b1362a5165cac54c57bc0352aa55185d9"
+  },
+  {
+    "id": "2512ds-comment.pdf",
+    "url": "https://www.jema-net.or.jp/stat/evefa20000004jb4-att/2512ds-comment.pdf",
+    "retrieved_at": "2026-10-21T18:02:38.465567+00:00",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "id": "item2026.pdf",
+    "url": "https://www.jema-net.or.jp/stat/evefa20000003iif-att/item2026.pdf",
+    "retrieved_at": "2026-10-21T18:02:42.439914+00:00",
+    "http_status": 200,
+    "bytes": 68649,
+    "sha256": "69b4618489473ec6ad18ff823f8c9127f9ffe436e71f422f9c70e4179f706961"
+  },
+  {
+    "id": "jema-news-2026.html",
+    "url": "https://www.jema-net.or.jp/about/2026.html",
+    "retrieved_at": "2026-10-21T18:03:29.477153+00:00",
+    "http_status": 200,
+    "bytes": 53687,
+    "sha256": "857f980ebf688e0848a6d57672f2d7a2d9fa8ea3602c64b2597615eb6065f9f6"
+  },
+  {
+    "id": "jema-stat-news2026.html",
+    "url": "https://www.jema-net.or.jp/stat/info2026y.html",
+    "retrieved_at": "2026-10-21T18:03:37.697028+00:00",
+    "http_status": 200,
+    "bytes": 35569,
+    "sha256": "1ed8c1b36a6206cbe654a51663ac3489708d2d8502a55b910fdfa354eb11b0fe"
+  },
+  {
+    "id": "2026mitoshi_data.pdf",
+    "url": "https://www.jema-net.or.jp/stat/evefa200000038jm-att/2026mitoshi_data.pdf",
+    "retrieved_at": "2026-10-21T18:03:45.390440+00:00",
+    "http_status": 200,
+    "bytes": 448396,
+    "sha256": "612793e15f81e43abfa3dbfe93c142522fff1fb2156601d57ebab71e56d4c0e9"
+  },
+  {
+    "id": "2025mitoshi_data.pdf",
+    "url": "https://www.jema-net.or.jp/stat/evefa200000038jm-att/2025mitoshi_data.pdf",
+    "retrieved_at": "2026-10-21T18:03:50.680938+00:00",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "id": "kadenhandbook_2026.pdf",
+    "url": "https://www.aeha.or.jp/about/pdf/kadenhandbook_2026.pdf",
+    "retrieved_at": "2026-10-21T18:05:22.529613+00:00",
+    "error": "HTTP Error 502: Bad Gateway"
+  }
+]

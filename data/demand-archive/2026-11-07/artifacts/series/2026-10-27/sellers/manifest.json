@@ -1,0 +1,67 @@
+[
+  {
+    "name": "report-ja.md",
+    "bytes": 4613,
+    "sha256": "e4b6292539b0d20c762ffc1b9a747b84b5dc6a1ae565d56900483143f7f33978"
+  },
+  {
+    "name": "historical-page9.png",
+    "bytes": 179744,
+    "sha256": "0d14a3fb612ae3b6e10db40d2d7681982d10f258a00659613ca6130091f503fe"
+  },
+  {
+    "name": "comparison-page3.png",
+    "bytes": 183901,
+    "sha256": "d7ad8fc28256b0ea959370cb06171dcfb7c237f1f441b6ff5f6b762a081e845d"
+  },
+  {
+    "name": "source-ledger.json",
+    "bytes": 3516,
+    "sha256": "3e90be7dc269345ce633ff63a01838f442e88016ec9639c0514576d226b1af9d"
+  },
+  {
+    "name": "dental-fy2025.pdf",
+    "bytes": 547683,
+    "sha256": "f5268b7ef3396f7114a144c093e8c497b525c05f7c10bbf443b2589b605e17a4"
+  },
+  {
+    "name": "medias-fy2020.txt",
+    "bytes": 144386,
+    "sha256": "5742f851db946476c7dc4155bfa7bed256d0940193dc3d80ab0ed8b1e3151724"
+  },
+  {
+    "name": "latest-page1.png",
+    "bytes": 221846,
+    "sha256": "15c3fff043c3323b472107a47cc06821bde696b0ce744e01a3ebd5bfaee1a720"
+  },
+  {
+    "name": "calculate.py",
+    "bytes": 1893,
+    "sha256": "be71c558a11b667f9f235ea909fd57b662f608f1a727d109d57c06324b8f8827"
+  },
+  {
+    "name": "medias-2026apr-may.pdf",
+    "bytes": 804273,
+    "sha256": "1c49d4b5552754392b2e591f5a5c17d64817a6dd194853becd64f429f877085d"
+  },
+  {
+    "name": "medias-fy2020.pdf",
+    "bytes": 468543,
+    "sha256": "25c10a7fa3b2291816806246f8d5bb0416b0d27edf56682988102ca4279f7629"
+  },
+  {
+    "name": "medias-2026apr-may.txt",
+    "bytes": 227233,
+    "sha256": "c2d6e9e56f03455070508ca9853164f3091ab3f3681e1abe3e52f6c5585ad9f9"
+  },
+  {
+    "name": "calculations.json",
+    "bytes": 1501,
+    "sha256": "1df908469b9be2fc6618beea4acdd3d6aa55fe84547cda1658502c6e7c7d52aa"
+  },
+  {
+    "name": "dental-fy2025.txt",
+    "bytes": 144233,
+    "sha256": "1bb98650dd89c9ba390756f2f6f0a3abcf509e83bfb460d4f9140dfce3d2ce4f"
+  }
+]

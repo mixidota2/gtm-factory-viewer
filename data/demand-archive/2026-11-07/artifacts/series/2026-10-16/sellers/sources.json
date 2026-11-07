@@ -1,0 +1,253 @@
+[
+  {
+    "id": "MIC_index",
+    "title": "総務省 サービス産業動態統計 最新公表",
+    "url": "https://www.stat.go.jp/data/mbss/index.html",
+    "publication_date": "2026-09-24",
+    "period": "2026-07",
+    "notes": "latest release checked",
+    "local_file": "",
+    "retrieved_date_jst": "2026-10-16",
+    "access_scope": "official public web, unauthenticated read-only"
+  },
+  {
+    "id": "MIC_summary",
+    "title": "総務省 2026年7月速報・用語・公表予定",
+    "url": "https://www.stat.go.jp/data/mbss/kekka/pdf/m202607.pdf",
+    "publication_date": "2026-09-24",
+    "period": "2026-07",
+    "notes": "PDF pp5,6 onward; next August release 2026-10-23 08:30 JST",
+    "local_file": "mic_summary.pdf",
+    "retrieved_date_jst": "2026-10-16",
+    "access_scope": "official public web, unauthenticated read-only"
+  },
+  {
+    "id": "MIC_sales",
+    "title": "e-Stat 時系列第1表 売上高",
+    "url": "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000040506184&fileKind=4",
+    "publication_date": "2026-09-24",
+    "period": "2013-01/2026-07",
+    "notes": "official XLSX; annual 2013-2025; pre2025 levels adjusted",
+    "local_file": "mic_sales.xlsx",
+    "retrieved_date_jst": "2026-10-16",
+    "access_scope": "official public web, unauthenticated read-only"
+  },
+  {
+    "title": "e-Stat 時系列第2表 事業従事者数",
+    "url": "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000040506185&fileKind=4",
+    "publication_date": "2026-09-24",
+    "period": "2013-01/2026-07",
+    "notes": "actual persons working, NOT customers; main-business industry",
+    "retrieved_date_jst": "2026-10-16",
+    "access_scope": "official public web, unauthenticated read-only"
+  },
+  {
+    "id": "MIC_definitions",
+    "title": "総務省 用語解説",
+    "url": "https://www.stat.go.jp/data/mbss/yougo.html",
+    "publication_date": "not_stated",
+    "period": "current definitions",
+    "notes": "sales includes indirect taxes; business-person and employee definitions differ",
+    "local_file": "",
+    "retrieved_date_jst": "2026-10-16",
+    "access_scope": "official public web, unauthenticated read-only"
+  },
+  {
+    "id": "MIC_transition",
+    "title": "総務省 新統計Q&A",
+    "url": "https://www.stat.go.jp/data/mbss/qa/qa-1.html",
+    "publication_date": "not_stated",
+    "period": "2025-01 transition",
+    "notes": "old MIC levels adjusted to permit comparisons; not direct METI splice",
+    "local_file": "",
+    "retrieved_date_jst": "2026-10-16",
+    "access_scope": "official public web, unauthenticated read-only"
+  },
+  {
+    "id": "METI_end",
+    "title": "経済産業省 旧統計終了告知",
+    "url": "https://www.meti.go.jp/statistics/tyo/tokusabido/index.html",
+    "publication_date": "2025-02-17",
+    "period": "survey ended 2024-12",
+    "notes": "official page text surfaced by web search; direct fetch earlier returned 403",
+    "local_file": "",
+    "retrieved_date_jst": "2026-10-16",
+    "access_scope": "official public web, unauthenticated read-only"
+  },
+  {
+    "id": "PARK_index",
+    "title": "パーク24 IRニュース",
+    "url": "https://www.park24.co.jp/ir/",
+    "publication_date": "2026-10-15",
+    "period": "current through 2026-09",
+    "notes": "index records script posting 2026-09-01 and September monthly 2026-10-15",
+    "local_file": "",
+    "retrieved_date_jst": "2026-10-16",
+    "access_scope": "official public web, unauthenticated read-only"
+  },
+  {
+    "id": "PARK_monthly",
+    "title": "パーク24 9月月次速報",
+    "url": "https://ssl4.eir-parts.net/doc/4666/tdnet/2895787/00.pdf",
+    "publication_date": "2026-10-15",
+    "period": "2026-09",
+    "notes": "members and cars are stocks, not active users or trips",
+    "local_file": "park24_2026-09.pdf",
+    "retrieved_date_jst": "2026-10-16",
+    "access_scope": "official public web, unauthenticated read-only"
+  },
+  {
+    "id": "PARK_3q",
+    "title": "パーク24 第3四半期説明会・説明文",
+    "url": "https://ssl4.eir-parts.net/doc/4666/ir_material_for_fiscal_ym9/211834/00.pdf",
+    "publication_date": "2026-09-01",
+    "period": "cumulative 2025-11/2026-07; standalone 2026-05/2026-07",
+    "notes": "meeting dated2026-08-31; script postedSep1; pp9-11 dedicated carshare per-car per-month",
+    "local_file": "park24_3q.pdf",
+    "retrieved_date_jst": "2026-10-16",
+    "access_scope": "official public web, unauthenticated read-only"
+  },
+  {
+    "id": "DOUTOR_index",
+    "title": "ドトール 公式ニュース",
+    "url": "https://www.doutor.co.jp/",
+    "publication_date": "2026-10-13",
+    "period": "2026-09",
+    "notes": "official index dated announcement",
+    "local_file": "",
+    "retrieved_date_jst": "2026-10-16",
+    "access_scope": "official public web, unauthenticated read-only"
+  },
+  {
+    "id": "DOUTOR_monthly",
+    "title": "ドトール 9月月次開示情報",
+    "url": "https://www.doutor.co.jp/about_us/ir/report/monthly/pdf/20261013100709.pdf",
+    "publication_date": "2026-10-13",
+    "period": "2026-09",
+    "notes": "all formats incl franchises; same-store and all-store sales/customers",
+    "local_file": "doutor_2026-09.pdf",
+    "retrieved_date_jst": "2026-10-16",
+    "access_scope": "official public web, unauthenticated read-only"
+  },
+  {
+    "id": "SAINTMARC_monthly",
+    "title": "サンマルク 9月月次",
+    "url": "https://static.saint-marc-hd.com/upload/irnews/386/20261013.pdf",
+    "publication_date": "2026-10-13",
+    "period": "2026-09",
+    "notes": "customers not disclosed; scope differences due M&A and disposals",
+    "local_file": "saintmarc_2026-09.pdf",
+    "retrieved_date_jst": "2026-10-16",
+    "access_scope": "official public web, unauthenticated read-only"
+  },
+  {
+    "id": "KEEPER_index",
+    "title": "KeePer 9月公表記事",
+    "url": "https://topics.keepergiken.jp/1055/",
+    "publication_date": "2026-10-05",
+    "period": "2026-09",
+    "notes": "official announcement",
+    "local_file": "",
+    "retrieved_date_jst": "2026-10-16",
+    "access_scope": "official public web, unauthenticated read-only"
+  },
+  {
+    "id": "KEEPER_monthly",
+    "title": "KeePer 9月月次速報",
+    "url": "https://contents.xj-storage.jp/xcontents/AS02676/c38b3cd1/6736/4cd0/9c90/caf6661481ce/140120261005546082.pdf",
+    "publication_date": "2026-10-05",
+    "period": "2026-09",
+    "notes": "retail LABO direct-store table separate from products and franchise-related revenue",
+    "local_file": "keeper_2026-09.pdf",
+    "retrieved_date_jst": "2026-10-16",
+    "access_scope": "official public web, unauthenticated read-only"
+  },
+  {
+    "id": "MLIT_lodging_index",
+    "title": "観光庁 宿泊旅行統計",
+    "url": "https://www.mlit.go.jp/kankocho/tokei_hakusyo/shukuhakutokei.html",
+    "publication_date": "2026-09-30",
+    "period": "2026-07 second;2026-08 first",
+    "notes": "page updated2026-10-15; data releaseSep30",
+    "local_file": "",
+    "retrieved_date_jst": "2026-10-16",
+    "access_scope": "official public web, unauthenticated read-only"
+  },
+  {
+    "id": "MLIT_lodging",
+    "title": "観光庁 宿泊旅行統計調査結果",
+    "url": "https://www.mlit.go.jp/kankocho/content/002025565.pdf",
+    "publication_date": "2026-09-30",
+    "period": "2026-07 second;2026-08 first",
+    "notes": "guest nights and occupancy; 2026 stratification break caution",
+    "local_file": "lodging_2026-08.pdf",
+    "retrieved_date_jst": "2026-10-16",
+    "access_scope": "official public web, unauthenticated read-only"
+  },
+  {
+    "id": "MLIT_lodging_change",
+    "title": "観光庁 2026年調査の変更",
+    "url": "https://www.mlit.go.jp/kankocho/content/002026700.pdf",
+    "publication_date": "not_stated",
+    "period": "2026-01 onward",
+    "notes": "strata switched employees to room count",
+    "local_file": "",
+    "retrieved_date_jst": "2026-10-16",
+    "access_scope": "official public web, unauthenticated read-only"
+  },
+  {
+    "id": "MLIT_coastal_index",
+    "title": "国土交通省 内航船舶輸送統計",
+    "url": "https://www.mlit.go.jp/k-toukei/naikouyusoutoukei.html",
+    "publication_date": "2026-09-29",
+    "period": "2026-07速報;2026-06月報;FY2025年報",
+    "notes": "current public release index",
+    "local_file": "",
+    "retrieved_date_jst": "2026-10-16",
+    "access_scope": "official public web, unauthenticated read-only"
+  },
+  {
+    "id": "MLIT_coastal_monthly",
+    "title": "国土交通省 内航船舶輸送統計速報",
+    "url": "https://www.e-stat.go.jp/stat-search/file-download?fileKind=2&statInfId=000040511055",
+    "publication_date": "2026-09-29",
+    "period": "2026-07",
+    "notes": "PDF dated; early estimate methodology differs from monthly final",
+    "local_file": "coastal_2026-07.pdf",
+    "retrieved_date_jst": "2026-10-16",
+    "access_scope": "official public web, unauthenticated read-only"
+  },
+  {
+    "id": "MLIT_coastal_annual",
+    "title": "国土交通省 内航船舶輸送実績概要",
+    "url": "https://www.mlit.go.jp/k-toukei/content/002009495.pdf",
+    "publication_date": "2026-06-29",
+    "period": "FY2025:2025-04/2026-03",
+    "notes": "publication date verified in e-Stat annual release index",
+    "local_file": "coastal_fy2025.pdf",
+    "retrieved_date_jst": "2026-10-16",
+    "access_scope": "official public web, unauthenticated read-only"
+  },
+  {
+    "id": "MLIT_coastal_annual_index",
+    "title": "e-Stat 内航船舶輸送 年度公表日",
+    "url": "https://www.e-stat.go.jp/stat-search/files?cycle=8&layout=dataset&page=1&result_back=1&second=1&tclass1val=0&toukei=00600340&tstat=000001018595",
+    "publication_date": "2026-06-29",
+    "period": "FY2025",
+    "notes": "official index verifies annual PDF release date",
+    "local_file": "",
+    "retrieved_date_jst": "2026-10-16",
+    "access_scope": "official public web, unauthenticated read-only"
+  },
+  {
+    "id": "MLIT_coastal_scope",
+    "title": "国土交通省 内航輸送統計調査概要",
+    "url": "https://www.mlit.go.jp/k-toukei/content/001610306.pdf",
+    "publication_date": "not_stated",
+    "period": "survey scope",
+    "notes": "commercial goods transport by domestic ships 20gross tons or above; does not match all MIC water transport",
+    "local_file": "",
+    "retrieved_date_jst": "2026-10-16",
+    "access_scope": "official public web, unauthenticated read-only"
+  }
+]

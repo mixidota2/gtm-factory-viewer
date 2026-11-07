@@ -1,0 +1,56 @@
+{
+  "date_jst": "2026-11-01",
+  "status": "classification_change_verified_linkage_unresolved",
+  "evidence_ja": "# 求人の2019接続：分類変更と遡及範囲を確認\n\n作業日：2026-11-01 JST（実作業開始03:38 UTC）。既存Oct31調査の未完を限定補完。\n\n## 結論\n2019を含む旧系列は「平成23年改定 厚生労働省職業分類」、現行系列は「平成21年改定 日本標準職業分類」である。2023年4月の統計分類変更と、2022年4月以降の遡及集計を公式注記で確認した。先の診断で未確認だった変更は今回実際に確認できた。ただし、この事実だけで機械組立・保安の各集計範囲が変わったとも、完全に一致するとも断定しない。2019まで公式遡及済みという証拠は得られていない。2019→現在の増減計算は保留。\n\n## 確認した原典と位置\n1. 厚労省・e-Stat旧第21表（旧様式、～2023年3月、公開更新2024-03-29）。\n   https://www.e-stat.go.jp/stat-search/file-download?fileKind=0&statInfId=000040050660\n   原本xlsx 1,563,671bytesを保持。最初の5シートは新規求人・有効求人・新規求職・有効求職・就職の「パートタイムを含む常用」。A75が分類、A77が年・年度値の月平均注記。A42は保安、A50は機械組立。H列の2019年値と2019月次12列を別に扱った。国全体の公式長期表であり、民間紹介や利用者全体への一般化はしない。\n2. 厚労省2023-05-30「令和5年4月以降の職業分類について」、p1、web抽出L4–19。\n   https://www.e-stat.go.jp/stat-search/file-download?fileKind=2&statInfId=000040505339\n   公開一覧から辿ったweb抽出本文を保存。2023-04から分類変更、2022-04以降の遡及を明示。新厚労分類と日標に一対一でない項目があるという記述は、対象2職種の不一致証明ではない。\n   重要な取得制限：web本文は読めたが直接PDF取得は404。PDF原本bytes取得済みとはしない。旧検索結果URL000040373956も404。アクセス拒否・認可拒否とは記録しない。\n3. 大阪ハローワーク「厚生労働省編職業分類（平成23年改定）」p1。\n   https://jsite.mhlw.go.jp/osaka-hellowork/content/contents/001067638.pdf\n   PDF原本保持。保安の大分類の下に自衛官・司法警察職員・その他の保安がある。機械組立と機械組立設備制御・監視が別項目である。旧項目の全小分類定義や新旧の一対一対応表ではない。\n4. e-Stat日本標準職業分類2009、小分類541、詳細情報。\n   https://www.e-stat.go.jp/classifications/terms/20/02/541\n   HTML原本保持。中分類54「機械組立従事者」の下位例であり、機械器具の組立・調整を扱う。ただし541だけを中分類54全体の定義・数量に代用しない。\n\n## 検証\nextract_validate.pyが原本xlsxから5指標×2職種×12か月と2019年平均列を抽出。openpyxlと独立したZIP内XMLの値読みで130セル一致。これは抽出一致の確認であり、分類接続検証のPASSではない。新旧比率の計算なし。原典hash、取得時刻・URL・HTTP結果はsource-ledger.json、具体的セルはextracted-2019.json、判定はvalidation.json。\n\n## 残る最小の未完\n- 旧厚労分類の機械組立・保安に含まれる全下位分類と、日標54・Fとの正式対応・例外の照合。\n- 2022-04～2023-03の重複区間の旧/遡及新系列比較。完全一致しても2019の範囲一致を単独では保証しない。\n- 分類とは別に、2021年オンライン求職登録等の取扱いの影響確認が必要かを公式注記で判定すること。今回その内容の検証はしていない。\n\nこれは2019接続が「不能」という結論ではなく、分類変更の実証と接続未確定の切り分けである。Spain、Oct31 05保存保留は不変。",
+  "source_ledger": [
+    {
+      "file": "occupation-transition-note.pdf",
+      "url": "https://www.e-stat.go.jp/stat-search/file-download?fileKind=2&statInfId=000040505339",
+      "start_utc": "2026-11-01T03:40:25.246067+00:00",
+      "error": "HTTPError: HTTP Error 404: Not Found",
+      "end_utc": "2026-11-01T03:40:35.453934+00:00"
+    },
+    {
+      "file": "table21-old2011.xlsx",
+      "url": "https://www.e-stat.go.jp/stat-search/file-download?fileKind=0&statInfId=000040050660",
+      "start_utc": "2026-11-01T03:40:35.453965+00:00",
+      "status": 200,
+      "bytes": 1563671,
+      "sha256": "327c9d8a69ff999a47abd42dbc6687552c85dc4132f7bb36c908f7a77c80d71b",
+      "content_type": "application/octet-stream",
+      "end_utc": "2026-11-01T03:40:39.943863+00:00"
+    },
+    {
+      "file": "old-classification-outline.pdf",
+      "url": "https://jsite.mhlw.go.jp/osaka-hellowork/content/contents/001067638.pdf",
+      "start_utc": "2026-11-01T03:42:06.544703+00:00",
+      "status": 200,
+      "bytes": 78002,
+      "sha256": "6ccf854b11318637122332f568a31f453694b1cd081ef086bda47ebed0308264",
+      "end_utc": "2026-11-01T03:42:10.698988+00:00"
+    },
+    {
+      "file": "jsco-541.html",
+      "url": "https://www.e-stat.go.jp/classifications/terms/20/02/541",
+      "start_utc": "2026-11-01T03:42:10.699009+00:00",
+      "status": 200,
+      "bytes": 123621,
+      "sha256": "4cb6271cb358733b7b02c502be2ab681fcf4fe336e93a20440f9fcbec64d8d70",
+      "end_utc": "2026-11-01T03:42:15.760936+00:00"
+    }
+  ],
+  "validation": {
+    "source_sha256": "327c9d8a69ff999a47abd42dbc6687552c85dc4132f7bb36c908f7a77c80d71b",
+    "workbook_sheets": 21,
+    "checked_sheets": 5,
+    "occupations": 2,
+    "months_each": 12,
+    "independent_openxml_numeric_cells": 130,
+    "all_match": true,
+    "scope": "Original workbook2019 observations and notes; no cross-classification growth calculation",
+    "classification_bridge_confirmed": false,
+    "new_growth_promoted": false
+  },
+  "new_growth_promoted": false,
+  "remaining": "Old/new complete subcategory correspondence and overlap comparison;2019growth not established"
+}

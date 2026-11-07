@@ -1,0 +1,858 @@
+{
+  "calculation.json": {
+    "code": "792",
+    "item": "高校補習教育・予備校",
+    "population": "national two-or-more-person households including nonpurchasers",
+    "unit": "yen per household",
+    "periods": [
+      "2024-09/2025-08",
+      "2025-09/2026-08"
+    ],
+    "monthly_observations_2019_onward": 92,
+    "annual_sums": [
+      {
+        "year": 2019,
+        "教育": 137938,
+        "補習教育": 31800,
+        "790": 8720,
+        "791": 13900,
+        "792": 9183
+      },
+      {
+        "year": 2020,
+        "教育": 123516,
+        "補習教育": 32349,
+        "790": 9933,
+        "791": 13884,
+        "792": 8531
+      },
+      {
+        "year": 2021,
+        "教育": 142854,
+        "補習教育": 33158,
+        "790": 9805,
+        "791": 12925,
+        "792": 10428
+      },
+      {
+        "year": 2022,
+        "教育": 137262,
+        "補習教育": 34197,
+        "790": 10705,
+        "791": 12629,
+        "792": 10862
+      },
+      {
+        "year": 2023,
+        "教育": 125379,
+        "補習教育": 28759,
+        "790": 9491,
+        "791": 11009,
+        "792": 8260
+      },
+      {
+        "year": 2024,
+        "教育": 140462,
+        "補習教育": 32155,
+        "790": 8294,
+        "791": 13053,
+        "792": 10808
+      },
+      {
+        "year": 2025,
+        "教育": 143269,
+        "補習教育": 31338,
+        "790": 9523,
+        "791": 13274,
+        "792": 8540
+      }
+    ],
+    "rolling12": {
+      "教育": {
+        "prior": 143399,
+        "latest": 130815,
+        "growth_pct": -8.775514473601632
+      },
+      "補習教育": {
+        "prior": 30392,
+        "latest": 32767,
+        "growth_pct": 7.814556462226907
+      },
+      "790": {
+        "prior": 9111,
+        "latest": 10139,
+        "growth_pct": 11.283064427614974
+      },
+      "791": {
+        "prior": 13129,
+        "latest": 12328,
+        "growth_pct": -6.100997791149365
+      },
+      "792": {
+        "prior": 8150,
+        "latest": 10302,
+        "growth_pct": 26.404907975460112
+      }
+    },
+    "monthly_changes": [
+      {
+        "month": "2025-09",
+        "value": 677,
+        "prior": 750,
+        "difference": -73
+      },
+      {
+        "month": "2025-10",
+        "value": 944,
+        "prior": 891,
+        "difference": 53
+      },
+      {
+        "month": "2025-11",
+        "value": 1174,
+        "prior": 1012,
+        "difference": 162
+      },
+      {
+        "month": "2025-12",
+        "value": 1012,
+        "prior": 764,
+        "difference": 248
+      },
+      {
+        "month": "2026-01",
+        "value": 463,
+        "prior": 755,
+        "difference": -292
+      },
+      {
+        "month": "2026-02",
+        "value": 467,
+        "prior": 655,
+        "difference": -188
+      },
+      {
+        "month": "2026-03",
+        "value": 986,
+        "prior": 442,
+        "difference": 544
+      },
+      {
+        "month": "2026-04",
+        "value": 863,
+        "prior": 718,
+        "difference": 145
+      },
+      {
+        "month": "2026-05",
+        "value": 894,
+        "prior": 429,
+        "difference": 465
+      },
+      {
+        "month": "2026-06",
+        "value": 655,
+        "prior": 521,
+        "difference": 134
+      },
+      {
+        "month": "2026-07",
+        "value": 1117,
+        "prior": 558,
+        "difference": 559
+      },
+      {
+        "month": "2026-08",
+        "value": 1050,
+        "prior": 655,
+        "difference": 395
+      }
+    ],
+    "positive_months": 9,
+    "annual_published": {
+      "2019": {
+        "file": "annual2019.xlsx",
+        "row_1based": 518,
+        "raw": [
+          "40101",
+          "2019cyT     ",
+          "            ",
+          "01",
+          "",
+          505.0,
+          "",
+          "792",
+          "高校補習教育・予備校",
+          "",
+          24.0,
+          9181.0,
+          "...",
+          "...",
+          155.0,
+          30.0,
+          14925.0,
+          "...",
+          "...",
+          23.0,
+          8106.0,
+          "..."
+        ],
+        "expenditure_yen": 9181.0,
+        "quantity_raw": "...",
+        "average_price_raw": "..."
+      },
+      "2025": {
+        "file": "annual2025.xlsx",
+        "row_1based": 503,
+        "raw": [
+          "40101",
+          "2025cyT     ",
+          "            ",
+          "01",
+          null,
+          493,
+          null,
+          493,
+          2025000000,
+          6,
+          "792",
+          "高校補習教育・予備校",
+          "円",
+          19,
+          8542,
+          "...",
+          "...",
+          125,
+          21,
+          10078,
+          "...",
+          "..."
+        ],
+        "expenditure_yen": 8542,
+        "quantity_raw": "...",
+        "average_price_raw": "..."
+      }
+    },
+    "single_annual": {
+      "2019": {
+        "file": "single-items2019.xlsx",
+        "item_separately_reported": false,
+        "expenditure_yen": null
+      },
+      "2023": {
+        "file": "single-items2023.xlsx",
+        "item_separately_reported": false,
+        "expenditure_yen": null
+      },
+      "2024": {
+        "file": "single-items2024.xlsx",
+        "item_separately_reported": false,
+        "expenditure_yen": null
+      },
+      "2025": {
+        "file": "single-items2025.xlsx",
+        "item_separately_reported": false,
+        "expenditure_yen": null
+      }
+    },
+    "cpi_exact_match": false,
+    "cpi_reason": "Retail8204 is high-school graduates attending private-university humanities/science prep courses, excluding current high-school tutoring and correspondence/private tutors covered by792. No full-scope deflation.",
+    "quantity_available": false,
+    "purchase_frequency_used": false,
+    "classification2015_inspected": false,
+    "growth_promoted": false
+  },
+  "definitions.json": {
+    "classification2020.xlsx": [
+      {
+        "row": 2248,
+        "raw": [
+          "792",
+          null,
+          null,
+          null,
+          null,
+          null,
+          "高校補習教育･",
+          null,
+          "※",
+          null,
+          "S",
+          "選",
+          null,
+          null,
+          "高校の補習教育・予備校に限る。",
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "row": 2249,
+        "raw": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          "予備校",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          "○  学習塾月謝",
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "row": 2250,
+        "raw": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          "○  家庭教師への月謝（謝礼金を含む。）",
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "row": 2251,
+        "raw": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          "○  補習のための通信添削の費用（教材を含む。）",
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "row": 2252,
+        "raw": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          "×  英会話などの語学月謝→875",
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      }
+    ],
+    "classification2025.xlsx": [
+      {
+        "row": 2241,
+        "raw": [
+          "792",
+          null,
+          null,
+          null,
+          null,
+          null,
+          "高校補習教育･",
+          null,
+          "※",
+          null,
+          "S",
+          "選",
+          null,
+          null,
+          "高校の補習教育・予備校に限る。",
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "row": 2242,
+        "raw": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          "予備校",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          "○  学習塾月謝",
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "row": 2243,
+        "raw": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          "○  家庭教師への月謝（謝礼金を含む。）",
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "row": 2244,
+        "raw": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          "○  補習のための通信添削の費用（教材を含む。）",
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "row": 2245,
+        "raw": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          "×  英会話などの語学月謝→875",
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      }
+    ],
+    "retail-items-202608.xlsx": [
+      {
+        "row": 567,
+        "raw": [
+          8204,
+          "補習教育（高校・予備校）",
+          "高等学校卒業生対象，私立大学文系コース又は私立大学理系コース，授業料（通信衛星授業を含む）",
+          "※学校・コース指定",
+          null,
+          "１か年",
+          "④",
+          "Ｄ",
+          null,
+          "●",
+          "●",
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  "source-ledger.json": [
+    {
+      "file": "household-2015-monthly.csv",
+      "url": "https://www.e-stat.go.jp/stat-search/file-download?fileKind=1&statInfId=000040270649",
+      "status": 200,
+      "bytes": 201371,
+      "sha256": "d1fbd2323bde5cadf1eafa05f67fbc0de821ca7d245737d340d54aa012e2dcd6",
+      "retrieved_at_utc": "2026-10-19T18:03:06.411764+00:00",
+      "retrieved_date_jst": "2026-10-20",
+      "retrieval_mode": "fresh_unauthenticated_official_public_download",
+      "publication_date": "2020-02-07",
+      "publication_date_scope": "File-specific public metadata newly verified from official long-series index.",
+      "period": "2015-01/2019-12",
+      "publication_evidence": "https://www.e-stat.go.jp/stat-search/files?cycle=0&layout=datalist&page=1&tclass1=000001228280&tclass2val=0&toukei=00200561&tstat=000000330001",
+      "sha256_verified_from_local_file": true,
+      "analysis_accessed_at_utc": "2026-10-24T18:09:26.545742+00:00",
+      "current_access_mode": "Saved official original hash-checked against source record; not newly downloaded",
+      "read_scope": "792 high-school supplementary education and neighboring categories; saved originals, not a new download"
+    },
+    {
+      "file": "household-2020-monthly.csv",
+      "url": "https://www.e-stat.go.jp/stat-search/file-download?fileKind=1&statInfId=000040270650",
+      "status": 200,
+      "bytes": 198302,
+      "sha256": "e30788a139eef01640061ddceda5e413154ea6f70d5e68451e2fef72a73de1a5",
+      "retrieved_at_utc": "2026-10-19T18:03:06.383051+00:00",
+      "retrieved_date_jst": "2026-10-20",
+      "retrieval_mode": "fresh_unauthenticated_official_public_download",
+      "publication_date": "2025-02-07",
+      "publication_date_scope": "File-specific public metadata newly verified from official long-series index.",
+      "period": "2020-01/2024-12",
+      "publication_evidence": "https://www.e-stat.go.jp/stat-search/files?cycle=0&layout=datalist&page=1&tclass1=000001228280&tclass2val=0&toukei=00200561&tstat=000000330001",
+      "sha256_verified_from_local_file": true,
+      "analysis_accessed_at_utc": "2026-10-24T18:09:26.545907+00:00",
+      "current_access_mode": "Saved official original hash-checked against source record; not newly downloaded",
+      "read_scope": "792 high-school supplementary education and neighboring categories; saved originals, not a new download"
+    },
+    {
+      "file": "household-2025-monthly.csv",
+      "url": "https://www.e-stat.go.jp/stat-search/file-download?fileKind=1&statInfId=000040270651",
+      "status": 200,
+      "bytes": 81562,
+      "sha256": "56f99e7a8e730fb913515b99c15d74fcdf0cd0d0340f00f0f331fbc1aeaa575f",
+      "retrieved_at_utc": "2026-10-19T18:03:06.940872+00:00",
+      "retrieved_date_jst": "2026-10-20",
+      "retrieval_mode": "fresh_unauthenticated_official_public_download",
+      "publication_date": "2026-10-09",
+      "publication_date_scope": "Latest August 2026 household result release; historical CSV update date not separately verified.",
+      "period": "2025-01/2026-08",
+      "publication_evidence": "https://www.stat.go.jp/data/kakei/sokuhou/tsuki/index.html",
+      "sha256_verified_from_local_file": true,
+      "analysis_accessed_at_utc": "2026-10-24T18:09:26.545984+00:00",
+      "current_access_mode": "Saved official original hash-checked against source record; not newly downloaded",
+      "read_scope": "792 high-school supplementary education and neighboring categories; saved originals, not a new download"
+    },
+    {
+      "file": "classification2020.xlsx",
+      "url": "https://www.stat.go.jp/data/kakei/kou2020/zuhyou/kouh2020.xlsx",
+      "status": 200,
+      "bytes": 396712,
+      "sha256": "6ec377f378daafbd9800cb55f581b4d361456c6665f5f672f037bf4d9ad3813e",
+      "retrieved_at_utc": "2026-10-19T18:03:05.361423+00:00",
+      "retrieved_date_jst": "2026-10-20",
+      "retrieval_mode": "fresh_unauthenticated_official_public_download",
+      "publication_date": null,
+      "publication_date_scope": "Not separately verified.",
+      "period": "2020-01 onward",
+      "sha256_verified_from_local_file": true,
+      "analysis_accessed_at_utc": "2026-10-24T18:09:26.546502+00:00",
+      "current_access_mode": "Saved official original hash-checked against source record; not newly downloaded",
+      "read_scope": "792 high-school supplementary education and neighboring categories; saved originals, not a new download"
+    },
+    {
+      "file": "classification2025.xlsx",
+      "url": "https://www.stat.go.jp/data/kakei/kou2025/zuhyou/kouh2025.xlsx",
+      "status": 200,
+      "bytes": 403455,
+      "sha256": "54cc837eb6c26b81b8f205ac358a8670638840c684baa2e419b64a365d910817",
+      "retrieved_date_jst": "2026-10-20",
+      "retrieved_at_utc": null,
+      "retrieval_mode": "fresh_unauthenticated_official_public_download",
+      "publication_date": null,
+      "publication_date_scope": "Not separately verified.",
+      "period": "2025-01 revision or history through2025",
+      "sha256_verified_from_local_file": true,
+      "analysis_accessed_at_utc": "2026-10-24T18:09:26.546964+00:00",
+      "current_access_mode": "Saved official original hash-checked against source record; not newly downloaded",
+      "read_scope": "792 high-school supplementary education and neighboring categories; saved originals, not a new download"
+    },
+    {
+      "file": "retail-items-202608.xlsx",
+      "url": "https://www.stat.go.jp/data/kouri/doukou/zuhyou/202608.xlsx",
+      "status": 200,
+      "bytes": 108230,
+      "sha256": "c53fdc88b757673302057d096d35f9f6b078015358e124446e910fcd6022d51d",
+      "retrieved_at_utc": "2026-10-19T18:04:05.130381+00:00",
+      "retrieved_date_jst": "2026-10-20",
+      "retrieval_mode": "fresh_unauthenticated_official_public_download",
+      "publication_date": null,
+      "publication_date_scope": "Not separately verified.",
+      "period": "2026-08",
+      "sha256_verified_from_local_file": true,
+      "analysis_accessed_at_utc": "2026-10-24T18:09:26.547077+00:00",
+      "current_access_mode": "Saved official original hash-checked against source record; not newly downloaded",
+      "read_scope": "792 high-school supplementary education and neighboring categories; saved originals, not a new download"
+    },
+    {
+      "file": "annual2019.xlsx",
+      "url": "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000031909555&fileKind=0",
+      "status": 200,
+      "bytes": 2652160,
+      "sha256": "01b40310739e885aa92dc243679073d0e63b2c0a8e2ad79cb35e610622a7b5ac",
+      "retrieved_at_utc": "2026-10-19T18:04:49.446089+00:00",
+      "retrieved_date_jst": "2026-10-20",
+      "retrieval_mode": "fresh_unauthenticated_official_public_download",
+      "publication_date": "2020-02-07",
+      "publication_date_scope": "Annual statistical result release, not separately verified final detailed-file update date.",
+      "period": "2019",
+      "publication_evidence": "https://www.stat.go.jp/info/t-news/pdf/2003.pdf",
+      "sha256_verified_from_local_file": true,
+      "analysis_accessed_at_utc": "2026-10-24T18:09:26.549679+00:00",
+      "current_access_mode": "Saved official original hash-checked against source record; not newly downloaded",
+      "read_scope": "792 high-school supplementary education and neighboring categories; saved originals, not a new download"
+    },
+    {
+      "file": "annual2025.xlsx",
+      "url": "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000040409546&fileKind=0",
+      "status": 200,
+      "bytes": 1378001,
+      "sha256": "6141f526aeac0cefac80affa12cd55ccaba8ec75ad6a8893a241981a60efefdb",
+      "retrieved_at_utc": "2026-10-19T18:04:48.005623+00:00",
+      "retrieved_date_jst": "2026-10-20",
+      "retrieval_mode": "fresh_unauthenticated_official_public_download",
+      "publication_date": "2026-02-06",
+      "publication_date_scope": "Annual statistical result release, not separately verified final detailed-file update date.",
+      "period": "2025",
+      "publication_evidence": "https://www.stat.go.jp/data/kakei/sokuhou/tsuki/index.html",
+      "sha256_verified_from_local_file": true,
+      "analysis_accessed_at_utc": "2026-10-24T18:09:26.550881+00:00",
+      "current_access_mode": "Saved official original hash-checked against source record; not newly downloaded",
+      "read_scope": "792 high-school supplementary education and neighboring categories; saved originals, not a new download"
+    },
+    {
+      "file": "single-items2019.xlsx",
+      "url": "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000031909812&fileKind=0",
+      "status": 200,
+      "bytes": 218112,
+      "sha256": "5f0cbb40fe8c446461f636a4169166b0aa0bb4587bb94ee7f255a4aed1548de9",
+      "retrieved_at_utc": "2026-10-19T18:04:47.296797+00:00",
+      "retrieved_date_jst": "2026-10-20",
+      "retrieval_mode": "fresh_unauthenticated_official_public_download",
+      "publication_date": "2020-02-07",
+      "publication_date_scope": "Annual statistical result release, not separately verified final detailed-file update date.",
+      "period": "2019",
+      "publication_evidence": "https://www.stat.go.jp/info/t-news/pdf/2003.pdf",
+      "sha256_verified_from_local_file": true,
+      "analysis_accessed_at_utc": "2026-10-24T18:09:26.551050+00:00",
+      "current_access_mode": "Saved official original hash-checked against source record; not newly downloaded",
+      "read_scope": "792 high-school supplementary education and neighboring categories; saved originals, not a new download"
+    },
+    {
+      "file": "single-items2023.xlsx",
+      "url": "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000040140611&fileKind=0",
+      "target_period": "2023",
+      "publication_date": "2024-02-06",
+      "publication_date_scope": "result release or source specification",
+      "retrieved_date_jst": "2026-10-16",
+      "retrieved_at_utc": "2026-10-15T18:14:22.041424+00:00",
+      "access": "full file; unauthenticated official public source",
+      "inspection": "parsed full table; relevant rows and definitions inspected",
+      "sha256": "0b9dbac3c552b4f2172e6ca3c32ae24e06703c4f3fbb5f19bc0e47e5664e7ad8",
+      "analysis_accessed_at_utc": "2026-10-24T18:09:26.551120+00:00",
+      "current_access_mode": "Saved official original hash-checked against source record; not newly downloaded",
+      "bytes": 76949,
+      "read_scope": "792 high-school supplementary education and neighboring categories; saved originals, not a new download"
+    },
+    {
+      "file": "single-items2024.xlsx",
+      "url": "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000040246958&fileKind=0",
+      "target_period": "2024",
+      "publication_date": "2025-02-07",
+      "publication_date_scope": "result release or source specification",
+      "retrieved_date_jst": "2026-10-16",
+      "retrieved_at_utc": "2026-10-15T18:14:32.237681+00:00",
+      "access": "full file; unauthenticated official public source",
+      "inspection": "parsed full table; relevant rows and definitions inspected",
+      "sha256": "18fd61126f1c1c51fc269ed5bc2133c74813d4b23ee03c1d2f45e4d5d5ec235b",
+      "analysis_accessed_at_utc": "2026-10-24T18:09:26.551184+00:00",
+      "current_access_mode": "Saved official original hash-checked against source record; not newly downloaded",
+      "bytes": 76870,
+      "read_scope": "792 high-school supplementary education and neighboring categories; saved originals, not a new download"
+    },
+    {
+      "file": "single-items2025.xlsx",
+      "url": "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000040409843&fileKind=0",
+      "status": 200,
+      "bytes": 78927,
+      "sha256": "109d9adbf4b7626ab10d3a1a5daf11c531b722acbec0bd9feb7b4c193539db72",
+      "retrieved_at_utc": "2026-10-19T18:04:48.583266+00:00",
+      "retrieved_date_jst": "2026-10-20",
+      "retrieval_mode": "fresh_unauthenticated_official_public_download",
+      "publication_date": "2026-02-06",
+      "publication_date_scope": "Annual statistical result release, not separately verified final detailed-file update date.",
+      "period": "2025",
+      "publication_evidence": "https://www.stat.go.jp/data/kakei/sokuhou/tsuki/index.html",
+      "sha256_verified_from_local_file": true,
+      "analysis_accessed_at_utc": "2026-10-24T18:09:26.551250+00:00",
+      "current_access_mode": "Saved official original hash-checked against source record; not newly downloaded",
+      "read_scope": "792 high-school supplementary education and neighboring categories; saved originals, not a new download"
+    }
+  ],
+  "validation.json": {
+    "92_months": true,
+    "12_month_pairs": true,
+    "rank_match": true,
+    "all_raw_hashes_match_source_record": true,
+    "annual_quantity_missing": true,
+    "classification_2020_2025_meaning_matches": true,
+    "independent_validation": false
+  },
+  "recalculation-check.json": {
+    "status": "pass",
+    "separate_name_based_extraction": true,
+    "external_retrieval": false,
+    "independent_person": false,
+    "prior": 8150,
+    "latest": 10302,
+    "growth_pct": 26.404907975460112,
+    "annual_path_checked": true,
+    "quantity_missing_not_zero": true
+  },
+  "single-household.json": {
+    "2019": {
+      "file": "single-items2019.xlsx",
+      "item_separately_reported": false,
+      "expenditure_yen": null
+    },
+    "2023": {
+      "file": "single-items2023.xlsx",
+      "item_separately_reported": false,
+      "expenditure_yen": null
+    },
+    "2024": {
+      "file": "single-items2024.xlsx",
+      "item_separately_reported": false,
+      "expenditure_yen": null
+    },
+    "2025": {
+      "file": "single-items2025.xlsx",
+      "item_separately_reported": false,
+      "expenditure_yen": null
+    }
+  },
+  "annual-detail.json": {
+    "2019": {
+      "file": "annual2019.xlsx",
+      "row_1based": 518,
+      "raw": [
+        "40101",
+        "2019cyT     ",
+        "            ",
+        "01",
+        "",
+        505.0,
+        "",
+        "792",
+        "高校補習教育・予備校",
+        "",
+        24.0,
+        9181.0,
+        "...",
+        "...",
+        155.0,
+        30.0,
+        14925.0,
+        "...",
+        "...",
+        23.0,
+        8106.0,
+        "..."
+      ],
+      "expenditure_yen": 9181.0,
+      "quantity_raw": "...",
+      "average_price_raw": "..."
+    },
+    "2025": {
+      "file": "annual2025.xlsx",
+      "row_1based": 503,
+      "raw": [
+        "40101",
+        "2025cyT     ",
+        "            ",
+        "01",
+        null,
+        493,
+        null,
+        493,
+        2025000000,
+        6,
+        "792",
+        "高校補習教育・予備校",
+        "円",
+        19,
+        8542,
+        "...",
+        "...",
+        125,
+        21,
+        10078,
+        "...",
+        "..."
+      ],
+      "expenditure_yen": 8542,
+      "quantity_raw": "...",
+      "average_price_raw": "..."
+    }
+  }
+}

@@ -1,0 +1,122 @@
+[
+  {
+    "table": "2-4",
+    "population": "住宅・建設業許可業者の元請受注",
+    "work_site": "内装",
+    "multiple_response_orders": 339286,
+    "multiple_response_yoy_pct": -13.7,
+    "primary_site_orders": 305970,
+    "primary_site_yoy_pct": -9.4,
+    "period": "2026-04/2026-06",
+    "unit": "件",
+    "scope427": "partial_not_exact"
+  },
+  {
+    "table": "2-4",
+    "population": "住宅・建設業許可業者の元請受注",
+    "work_site": "建具",
+    "multiple_response_orders": 301324,
+    "multiple_response_yoy_pct": 0.2,
+    "primary_site_orders": 243544,
+    "primary_site_yoy_pct": 2.3,
+    "period": "2026-04/2026-06",
+    "unit": "件",
+    "scope427": "partial_not_exact"
+  },
+  {
+    "table": "2-4",
+    "population": "住宅・建設業許可業者の元請受注",
+    "work_site": "空気調和換気設備",
+    "multiple_response_orders": 113468,
+    "multiple_response_yoy_pct": -1.9,
+    "primary_site_orders": 86578,
+    "primary_site_yoy_pct": 12.6,
+    "period": "2026-04/2026-06",
+    "unit": "件",
+    "scope427": "partial_not_exact"
+  },
+  {
+    "table": "2-4",
+    "population": "住宅・建設業許可業者の元請受注",
+    "work_site": "その他建築",
+    "multiple_response_orders": 145775,
+    "multiple_response_yoy_pct": -11.4,
+    "primary_site_orders": 121640,
+    "primary_site_yoy_pct": -6.7,
+    "period": "2026-04/2026-06",
+    "unit": "件",
+    "scope427": "partial_not_exact"
+  },
+  {
+    "table": "2-4",
+    "population": "住宅・建設業許可業者の元請受注",
+    "work_site": "電気設備",
+    "multiple_response_orders": 167063,
+    "multiple_response_yoy_pct": 1.0,
+    "primary_site_orders": 97607,
+    "primary_site_yoy_pct": -1.9,
+    "period": "2026-04/2026-06",
+    "unit": "件",
+    "scope427": "partial_not_exact"
+  },
+  {
+    "table": "2-4",
+    "population": "住宅・建設業許可業者の元請受注",
+    "work_site": "外構",
+    "multiple_response_orders": 69003,
+    "multiple_response_yoy_pct": -17.0,
+    "primary_site_orders": 62632,
+    "primary_site_yoy_pct": -10.7,
+    "period": "2026-04/2026-06",
+    "unit": "件",
+    "scope427": "partial_not_exact"
+  },
+  {
+    "table": "2-4",
+    "population": "住宅・建設業許可業者の元請受注",
+    "work_site": "その他",
+    "multiple_response_orders": 57235,
+    "multiple_response_yoy_pct": -4.6,
+    "primary_site_orders": 38865,
+    "primary_site_yoy_pct": 20.0,
+    "period": "2026-04/2026-06",
+    "unit": "件",
+    "scope427": "partial_not_exact"
+  },
+  {
+    "table": "2-2",
+    "series": "住宅の個人発注者",
+    "value": 7327,
+    "published_yoy_pct": -0.7,
+    "unit": "億円・名目受注高",
+    "period": "2026-04/2026-06",
+    "scope427": "broader_not_exact"
+  },
+  {
+    "table": "2-2",
+    "series": "住宅の居住者発注者",
+    "value": 6574,
+    "published_yoy_pct": -1.2,
+    "unit": "億円・名目受注高",
+    "period": "2026-04/2026-06",
+    "scope427": "broader_not_exact"
+  },
+  {
+    "table": "2-2",
+    "series": "居住者の改装・改修",
+    "value": 4728,
+    "published_yoy_pct": -0.5,
+    "unit": "億円・名目受注高",
+    "period": "2026-04/2026-06",
+    "scope427": "broader_not_exact"
+  },
+  {
+    "table": "2-2",
+    "series": "居住者の維持・修理",
+    "value": 1390,
+    "published_yoy_pct": -6.6,
+    "unit": "億円・名目受注高",
+    "period": "2026-04/2026-06",
+    "scope427": "broader_not_exact"
+  }
+]

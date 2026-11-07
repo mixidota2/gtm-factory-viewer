@@ -1,0 +1,41 @@
+[
+  {
+    "chart": "free",
+    "url": "https://itunes.apple.com/jp/rss/topfreeapplications/limit=200/json",
+    "retrieved_at": "2026-10-18T18:07:01.440966+00:00",
+    "status": 200,
+    "bytes": 573010,
+    "sha256": "2329086e4f7c479d7b333d8d70384cbc47c7e14562903bc41208f885b6774824",
+    "count": 100,
+    "feed_updated": {
+      "label": "2026-10-18T11:07:07-07:00"
+    },
+    "unique_ids": 100
+  },
+  {
+    "chart": "grossing",
+    "url": "https://itunes.apple.com/jp/rss/topgrossingapplications/limit=200/json",
+    "retrieved_at": "2026-10-18T18:07:08.673541+00:00",
+    "status": 200,
+    "bytes": 595750,
+    "sha256": "8cc99b9442faef5f32dc19b7fd368be308bc3a8f754b5ba37105fcc5f8c6124c",
+    "count": 100,
+    "feed_updated": {
+      "label": "2026-10-18T11:07:12-07:00"
+    },
+    "unique_ids": 100
+  },
+  {
+    "chart": "paid",
+    "url": "https://itunes.apple.com/jp/rss/toppaidapplications/limit=200/json",
+    "retrieved_at": "2026-10-18T18:07:13.121291+00:00",
+    "status": 200,
+    "bytes": 521809,
+    "sha256": "7e5d417809f836fdb3d439d0e50a8167fb28ee21bbe28221009b92e97f13b8e7",
+    "count": 99,
+    "feed_updated": {
+      "label": "2026-10-18T11:07:16-07:00"
+    },
+    "unique_ids": 99
+  }
+]

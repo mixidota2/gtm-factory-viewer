@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://www.mlit.go.jp/report/press/content/002021195.pdf",
+    "landing_url": "https://www.mlit.go.jp/report/press/joho04_hh_001392.html",
+    "publisher": "国土交通省",
+    "published_date": "2026-09-10",
+    "target_period": "2026-04/2026-06",
+    "retrieved_at_utc": "2026-10-23T18:31:24Z",
+    "retrieved_date_jst": "2026-10-24",
+    "status": "original_pdf_downloaded_text_extracted_and_selected_tables_visually_checked",
+    "sha256": "1dc4d9345182991c6896a1e225c101e7527675171d89c6386b881c6b4843ee73",
+    "pages_visually_checked_1based": [
+      5,
+      7
+    ],
+    "scope": "licensed contractors, prime-contractor building renovation orders, estimated population; not household payments",
+    "reinspected_at_utc": "2026-10-28T21:53:53.951227+00:00",
+    "new_pages_visually_checked_1based": [
+      6,
+      7
+    ],
+    "retrieval_mode": "retained_original_not_refetched"
+  },
+  {
+    "url": "https://www.mlit.go.jp/statistics/details/t-other-2_tk_000220.html",
+    "publisher": "国土交通省",
+    "published_date": null,
+    "target_period": "調査の概要・公表予定",
+    "retrieved_at_utc": "2026-10-28T21:51Z",
+    "status": "official_body_read",
+    "observation": "四半期の元請受注。4–6月は9月中旬、7–9月は12月中旬公表予定。"
+  }
+]

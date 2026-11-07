@@ -1,0 +1,76 @@
+{
+  "classification2020.xlsx": [
+    {
+      "row": 1149,
+      "raw": [
+        "424",
+        null,
+        null,
+        null,
+        null,
+        null,
+        "給排水関係工事費",
+        null,
+        "※",
+        null,
+        "S",
+        "基",
+        null,
+        null,
+        "台所，風呂場，洗面所，トイレ，水道，排水管などの水回り設備に関する工事費，修繕維持費。保守点検費も含む。",
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  ],
+  "classification2025.xlsx": [
+    {
+      "row": 1147,
+      "raw": [
+        "424",
+        null,
+        null,
+        null,
+        null,
+        null,
+        "給排水関係工事費",
+        null,
+        "※",
+        null,
+        "S",
+        "基",
+        null,
+        null,
+        "台所、風呂場、洗面所、トイレ、水道、排水管などの水回り設備に関する工事費、修繕維持費。保守点検費も含む。",
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  ],
+  "retail-items-202608.xlsx": [
+    {
+      "row": 270,
+      "raw": [
+        3176,
+        "水道工事費",
+        "修繕工事，トイレのボールタップ交換，材料費を含む",
+        null,
+        null,
+        "１回",
+        null,
+        "Ｓ",
+        null,
+        "●",
+        "●",
+        null,
+        null
+      ]
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "as_of": "2026-10-08",
+  "evidence_quality": "Historical aggregate findings. Some comparison windows are not explicit in this source. Later dated research in this archive supersedes earlier conclusions where definitions or observations changed.",
+  "findings": [
+    {
+      "topic": "掛け捨て保険",
+      "monthly_total_yen_2019": 12854,
+      "monthly_total_yen_2025": 13457,
+      "latest12_total_yoy_pct": -1.1,
+      "online_share_as_recorded_pct": [
+        4.5,
+        10.1
+      ],
+      "limitation": "比率の後者の期間は不明確で、2019/2025年平均から正確に再現できない。異なる調査の比率を厳密な分解として扱わない。"
+    },
+    {
+      "topic": "チューハイ・ウイスキー",
+      "monthly_chuhai_yen": [
+        296,
+        471
+      ],
+      "chuhai_quantity_change_pct": 35,
+      "monthly_whisky_yen": [
+        145,
+        243
+      ],
+      "whisky_quantity_change_pct": 39,
+      "happoshu_change_pct": -32,
+      "shochu_change_pct": -15,
+      "interpretation": "酒類内の代替を示唆する過去の候補。支出と数量を区別し、比較年は原表で再確認が必要。"
+    },
+    {
+      "topic": "冷凍食品",
+      "household_production_peak_year": 2022,
+      "year2025_vs_peak_pct": -5.5,
+      "interpretation": "2025年が2022年の山を下回るため、コロナ期の上昇水準の持続と最近の成長を区別する。"
+    },
+    {
+      "topic": "購入頻度",
+      "finding": "家計簿の記帳行数を来店回数へ置き換えない。2019→2025年の外食12品目の回数中央値は約31%増、全品目は約3%減という記録があり、2018年家計簿改正や品目分割の影響を疑った。頻度を量に換算する一般的な妥当性は確認できていない。"
+    },
+    {
+      "topic": "他の通信機器764",
+      "finding": "電話機、FAX、無線機、Wi-Fiルーター、付属品、修理などを含む分類で、スマートウォッチだけの支出系列ではない。"
+    },
+    {
+      "topic": "車両保有と旅行関連支出",
+      "car_ownership_pct_2024_2026": [
+        80.6,
+        76.2
+      ],
+      "rental_car_price_adjusted_growth_2023_pct_as_recorded": 32,
+      "rental_price_adjusted_monthly_yen_as_recorded": 380,
+      "hotel_latest12_yoy_pct_as_recorded": 16,
+      "package_tour_latest12_yoy_pct_as_recorded": 18,
+      "limitations": [
+        "2026年10月8日時点の記録で比較窓が省略されている。後日の8月原表監査とは区別する。",
+        "元の説明は実質増と値上げ寄与を混在させており、32%を確認済みの数量増とは扱わない。"
+      ]
+    },
+    {
+      "topic": "カーシェア統計の範囲",
+      "finding": "パーク24の月次は台数・拠点・会員数を中心とし、利用料コメントは2026年1月に終了したという記録。財団の全国会員数は2026年3月539万人という歴史値があるが、調査範囲の変更可能性と終了があり単純な同一母集団成長率には使わない。V-RESASは2024年3月終了、後継の決済集計は広い交通費区分でありカーシェア量と一致しない。"
+    },
+    {
+      "topic": "検索関心",
+      "finding": "2026年7〜8月のカーシェア・タイムズカー関心は前年並み、9月最後の週にタイムズカーだけ約4〜5倍、レンタカーは夏に約2割増という保存済み観測。検索指数であって絶対検索件数や需要量ではない。10月8日時点で急上昇理由は未確認で、後日の事故関連ニュース照合を別途参照。"
+    },
+    {
+      "topic": "短期ソーシャル投稿",
+      "finding": "当時の観測は1日約30件・7日分のみで、長期需要の推計には不足。個別投稿本文は含めない。"
+    }
+  ],
+  "source_identifiers": {
+    "household_annual_2015_2019": "000040270655",
+    "household_annual_2020_2024": "000040270656",
+    "household_annual_2025_onward": "000040409801",
+    "household_monthly_2020_2024": "000040270650",
+    "household_monthly_2025_onward": "000040270651",
+    "annual_quantity_2015": "000031370133",
+    "annual_quantity_2016": "000031534696",
+    "annual_quantity_2017": "000031674338",
+    "annual_quantity_2018": "000031795468",
+    "annual_quantity_2019": "000031909555",
+    "annual_quantity_2020": "000032048835",
+    "annual_quantity_2021": "000032167631",
+    "annual_quantity_2022": "000040015261",
+    "annual_quantity_2023": "000040140558",
+    "annual_quantity_2024": "000040247209",
+    "annual_quantity_2025": "000040409546",
+    "annual_item_cpi_2020base": "000032103938",
+    "consumer_confidence_durable_goods_table1_3": "000040443741"
+  },
+  "source_urls": [
+    "https://www.e-stat.go.jp/stat-search/files?page=1&layout=datalist&toukei=00200561&tstat=000000330001&cycle=0&tclass1=000001228280&tclass2val=0",
+    "https://www.stat.go.jp/data/cpi/2020/csv/zmi2020aa.csv"
+  ],
+  "reproduction_notes": [
+    "e-StatのstatInfIdは公開資料の識別子。年報購入数量のExcelはfileKind=0。歴史的なCSVはShift_JISとして扱われた。",
+    "長期年・月表を読み、2019年と2025年、最新12か月と前12か月を分けて比較し、原表の量・頻度・購入世帯の値を付した。",
+    "当時の検索トレンド取得スクリプトとレンタカー月次集計スクリプトは元記録時点で所在不明。結果のみの保存を再計算可能な完全な収集手順と混同しない。"
+  ]
+}

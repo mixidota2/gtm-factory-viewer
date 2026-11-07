@@ -1,0 +1,132 @@
+{
+  "date_jst": "2026-10-31",
+  "stream": "sellers",
+  "status": "bounded_review_complete_with_scope_limits",
+  "source_ledger": [
+    {
+      "url": "https://www.cipa.jp/stats/documents/j/d-202608.pdf",
+      "file": "cipa-202608.pdf",
+      "retrieval_started_at_utc": "2026-10-30T18:03:04.923466+00:00",
+      "attempts": 1,
+      "status": 200,
+      "bytes": 133325,
+      "sha256": "8f19ea2275c3fddd7a9c900ecb03a86502235d3722ab0674c0e830e9b51ef3e5",
+      "retrieval_finished_at_utc": "2026-10-30T18:03:13.290057+00:00",
+      "publication_date": "2026-10-01",
+      "target_period": "2026-08 and 2026-01/08",
+      "read_scope": "p1 total/Japan columns and footnote; rendered image visually read"
+    },
+    {
+      "url": "https://ppih.co.jp/ir/highlight/monthly/pdf/PPIH.MonthlyReport.Sept.2026.J.pdf",
+      "file": "ppih-202609.pdf",
+      "retrieval_started_at_utc": "2026-10-30T18:03:13.290078+00:00",
+      "attempts": 1,
+      "status": 200,
+      "bytes": 729204,
+      "sha256": "8d58d737915d908a4c537fcf8a035469d04c9680df00a1e1b32f4e1ee5eaacde",
+      "retrieval_finished_at_utc": "2026-10-30T18:03:20.397665+00:00",
+      "publication_date": "2026-10-13",
+      "target_period": "2026-09 and 2026-07/09",
+      "read_scope": "pp1–2 rendered images visually read"
+    },
+    {
+      "url": "https://www.stat.go.jp/data/mbss/kekka.html",
+      "file": "service-current.html",
+      "retrieval_started_at_utc": "2026-10-30T18:03:20.397685+00:00",
+      "attempts": 1,
+      "status": 200,
+      "bytes": 18778,
+      "sha256": "b00dd562be8c4a02f58be9d9bb3fe95f28eb5fb4e7ea88aacf13d85d0f65ee59",
+      "retrieval_finished_at_utc": "2026-10-30T18:03:26.283578+00:00",
+      "publication_date": "2026-10-23",
+      "target_period": "2026-08 preliminary",
+      "read_scope": "Latest-result page and population adjustment note; current period unchanged"
+    },
+    {
+      "url": "https://holdings.fujifilm.com/en/news/list/2166",
+      "file": "fujifilm-q1.html",
+      "retrieval_started_at_utc": "2026-10-30T18:03:26.283596+00:00",
+      "attempts": 1,
+      "status": 200,
+      "bytes": 29364,
+      "sha256": "9aa2235cfe635bdc25136a746bdbd16f1db75fe354a0d82f80ffcf9ca1c8a6ae",
+      "retrieval_finished_at_utc": "2026-10-30T18:03:30.750681+00:00",
+      "publication_date": "2026-08-06",
+      "target_period": "2026-04/06",
+      "read_scope": "Imaging section"
+    }
+  ],
+  "observations": {
+    "service": {
+      "latest_period": "2026-08 preliminary",
+      "nominal_total_trillion_yen": 37.4,
+      "yoy_pct": 3.6,
+      "transport_post_yoy_pct": 6.9,
+      "medical_welfare_yoy_pct": 5.1,
+      "information_communications_yoy_pct": 3.3,
+      "new_release_since_previous_review": false,
+      "full34_industry_rolling12_recomputed": false,
+      "limits": "Prior consumer XLSX403 not retried or bypassed. Employee counts are not users. 2025 YoY adjusted for population/sample changes; no new unadjusted level linkage."
+    },
+    "PPIH": {
+      "period": "2026-09",
+      "domestic_same_store": {
+        "sales_index": 103.1,
+        "customers_index": 98.5,
+        "spend_per_customer_index": 104.6,
+        "stores": 645
+      },
+      "domestic_all_store": {
+        "sales_index": 105.2,
+        "stores": 677,
+        "previous_year_stores": 655
+      },
+      "domestic_JulSep": {
+        "sales_index": 102.7,
+        "customers_index": 99.7,
+        "spend_per_customer_index": 103.0
+      },
+      "UNY_sports_leisure_sales_index": 135.8,
+      "UNY_sports_leisure_JulSep_index": 127.1,
+      "limits": "Retail chain, not national service survey or household842. Category value lacks units/customer detail. Company comments mention hobby goods, not quantified842 contribution. Holiday/weather explanations are company attribution. Average ticket is not pure price."
+    },
+    "CIPA": {
+      "period": "2026-01/08",
+      "Japan_total_units": 707830,
+      "Japan_total_units_yoy_index": 116.3,
+      "Japan_total_value_thousand_yen": 52251322,
+      "Japan_total_value_yoy_index": 113.7,
+      "Japan_Aug_units": 77825,
+      "Japan_Aug_units_yoy_index": 98.2,
+      "world_total_units": 5703512,
+      "world_total_units_yoy_index": 96.8,
+      "limits": "Participant companies added from Jan2026; YoY includes coverage effect. Shipments not final purchase. Digital cameras are not household842 camera accessories/disposable cameras. Outside-map candidate only, not matched demand promotion."
+    },
+    "Fujifilm": {
+      "period": "2026-04/06",
+      "global_imaging_revenue_billion_yen": 168.8,
+      "revenue_yoy_pct": 16.2,
+      "limits": "Global business segment, includes consumer/professional cameras. Not Japanese842 quantities. Product mix/new supply explanation does not quantify same-product domestic demand."
+    }
+  },
+  "validation": {
+    "PPIH_rounded_product_sales_index": 103.03099999999999,
+    "PPIH_residual_index_points": 0.06900000000000261,
+    "PPIH_residual_explained": "Rounded displayed indices; not exact causal decomposition",
+    "CIPA_Japan_units_component_sum": 707830,
+    "CIPA_sum_matches": true,
+    "CIPA_aug_component_sum_matches": true,
+    "visual_original_check": "CIPA p1; PPIH pp1–2; local PNGs retained"
+  },
+  "decision": "Do not promote household842 or outside-map camera growth. Preserve nominal hobby/retail candidates separately; new matched volume or fixed-panel evidence required. No public map change.",
+  "weekly_outside_map": "Bounded CIPA camera signal tested and retained with panel-change/quantity-vs-sales boundary; not repeated Oct24 MLIT topic.",
+  "search_log": [
+    "site.cipa.jp 2026 9 月 カメラ 出荷 実績",
+    "site.fujifilm.com 2026 instax 決算 日本 販売 数量",
+    "site.hardoff.co.jp 2026 9 月 月次 既存店 客数"
+  ],
+  "access_limits": [
+    "Hardoff official monthly index returned placeholder date/title, no numeric source adopted; no alternate restricted route.",
+    "Service rolling12 existing XLSX403 barrier preserved, not repeated."
+  ]
+}

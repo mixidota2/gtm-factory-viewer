@@ -1,0 +1,77 @@
+{
+  "release_calendar_as_recorded": [
+    {
+      "id": "household-2026-08",
+      "topic": "家計調査2026年8月分のカーシェア支出",
+      "official_release_date": "2026-10-09",
+      "date_checked_at": "2026-10-15",
+      "official_source": "https://www.stat.go.jp/data/kakei/sokuhou/tsuki/index.html"
+    },
+    {
+      "id": "park24-fy2026",
+      "topic": "パーク24 2026年10月期通期IR・1台あたり利用",
+      "official_release_date": null,
+      "official_date_precision": "2026-12-midmonth",
+      "date_checked_at": "2026-10-15",
+      "official_source": "https://www.park24.co.jp/ir/calendar.html"
+    },
+    {
+      "id": "household-2026-09",
+      "topic": "家計調査9月分",
+      "source": "https://www.stat.go.jp/data/kakei/family/06.html"
+    },
+    {
+      "id": "eprescription",
+      "topic": "電子処方箋9月以降",
+      "official_release_date": "2026-10-16",
+      "date_checked_at": "2026-10-26T18:11:42Z",
+      "latest_observed_period": "2026-09"
+    },
+    {
+      "id": "disability-ict",
+      "topic": "障害福祉ICT業務縮減KPI"
+    },
+    {
+      "id": "jusei-online",
+      "topic": "柔整オンライン請求"
+    },
+    {
+      "id": "kasuhara-near-miss",
+      "topic": "カスハラ対策の道具利用"
+    },
+    {
+      "id": "condo-it",
+      "topic": "マンションIT総会"
+    },
+    {
+      "id": "service-industry-2026-08",
+      "topic": "サービス産業動態8月速報",
+      "official_release_date": "2026-10-23",
+      "official_release_time_jst": "08:30",
+      "source": "https://www.stat.go.jp/data/mbss/kekka/pdf/m202607.pdf",
+      "latest_observed_period": "2026-08 preliminary",
+      "actual_publication_confirmed": true
+    },
+    {
+      "id": "jema-microwave-2026-10",
+      "topic": "電子レンジ国内出荷2026年10月",
+      "official_release_date": "2026-11-19",
+      "official_release_time_jst": "around14:00",
+      "date_checked_at": "2026-10-22",
+      "source": "https://www.jema-net.or.jp/stat/kakoku.html"
+    },
+    {
+      "id": "jobs-2026-09",
+      "topic": "一般職業紹介状況2026年9月分",
+      "date_checked_at": "2026-10-28",
+      "source": "https://www.e-stat.go.jp/release-calendar/statistics/00450222"
+    }
+  ],
+  "candidate_evidence_conditions": {
+    "building-maintenance": "Industry survey of actual inspection/reporting app adoption",
+    "pharmacy-ai-records": "Comparable earlier/current adoption time series",
+    "salon-booking": "Association/public booking channel or tool-spending trend",
+    "freelance-invoicing": "Official/association tool use or spending growth",
+    "food-store-operations": "Public/association adoption persistence or residual paper/Excel evidence"
+  }
+}

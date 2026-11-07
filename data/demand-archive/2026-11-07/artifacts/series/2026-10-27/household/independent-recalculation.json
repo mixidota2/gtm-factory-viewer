@@ -1,0 +1,11 @@
+{
+  "scope": "Independent JS aggregation of saved monthly-selected.csv; not new source acquisition",
+  "rows": 92,
+  "prior12": 22958,
+  "latest12": 28473,
+  "prior3": 6677,
+  "latest3": 7595,
+  "annual2024": 24297,
+  "annual2025": 24147,
+  "PASS": true
+}

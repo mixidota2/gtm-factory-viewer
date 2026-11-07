@@ -1,0 +1,67 @@
+{
+  "comparison": {
+    "topfreeapplications": {
+      "week_start": "2026-10-17",
+      "week_end": "2026-10-24",
+      "common_returned_range": 80,
+      "entered_returned_range": 20,
+      "no_longer_returned": 20,
+      "all_8_daily_observations_in_range": 64,
+      "new_today_top10": [
+        {
+          "id": "6760173601",
+          "name": "Muse from Meta",
+          "observed_ranks": {
+            "2026-10-08": null,
+            "2026-10-16": null,
+            "2026-10-17": null,
+            "2026-10-18": null,
+            "2026-10-19": null,
+            "2026-10-20": null,
+            "2026-10-21": null,
+            "2026-10-22": null,
+            "2026-10-23": null,
+            "2026-10-24": 1
+          }
+        }
+      ]
+    },
+    "topgrossingapplications": {
+      "week_start": "2026-10-17",
+      "week_end": "2026-10-24",
+      "common_returned_range": 77,
+      "entered_returned_range": 23,
+      "no_longer_returned": 23,
+      "all_8_daily_observations_in_range": 71,
+      "new_today_top10": []
+    },
+    "toppaidapplications": {
+      "week_start": "2026-10-17",
+      "week_end": "2026-10-24",
+      "common_returned_range": 75,
+      "entered_returned_range": 23,
+      "no_longer_returned": 24,
+      "all_8_daily_observations_in_range": 61,
+      "new_today_top10": [
+        {
+          "id": "6771652722",
+          "name": "ONE PIECE 海のごちそうレストラン",
+          "observed_ranks": {
+            "2026-10-08": null,
+            "2026-10-16": null,
+            "2026-10-17": null,
+            "2026-10-18": null,
+            "2026-10-19": null,
+            "2026-10-20": null,
+            "2026-10-21": null,
+            "2026-10-22": null,
+            "2026-10-23": null,
+            "2026-10-24": 1
+          }
+        }
+      ]
+    }
+  },
+  "four_week_eligible": false,
+  "meaning": "Ranked returned-range comparison, not user counts, sales amounts or established demand growth. Prior nine-date saved evidence retained, not raw reaudited."
+}

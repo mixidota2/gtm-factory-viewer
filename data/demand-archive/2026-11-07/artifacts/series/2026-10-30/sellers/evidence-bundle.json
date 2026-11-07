@@ -1,0 +1,179 @@
+{
+  "date_jst": "2026-10-30",
+  "status": "bounded_independent_seller_review_complete",
+  "observations": [
+    {
+      "year": 2019,
+      "quantity_tonnes": 249100,
+      "production_value_100million_yen": 3980,
+      "retail_value_100million_yen": 5630,
+      "source": "https://anka-kashi.com/images/statistics/r03.pdf",
+      "physical_page": 7,
+      "production_unit_value_yen_per_kg": 1597.751906864713
+    },
+    {
+      "year": 2020,
+      "quantity_tonnes": 243870,
+      "production_value_100million_yen": 3870,
+      "retail_value_100million_yen": 5470,
+      "source": "https://anka-kashi.com/images/statistics/r04.pdf",
+      "physical_page": 8,
+      "production_unit_value_yen_per_kg": 1586.9110591708697,
+      "quantity_yoy_pct": -2.0995584102770026,
+      "production_value_yoy_pct": -2.7638190954773822,
+      "retail_value_yoy_pct": -2.841918294849022,
+      "production_unit_value_yoy_pct": -0.6785063217428
+    },
+    {
+      "year": 2021,
+      "quantity_tonnes": 244110,
+      "production_value_100million_yen": 3900,
+      "retail_value_100million_yen": 5520,
+      "source": "https://anka-kashi.com/images/statistics/r04.pdf",
+      "physical_page": 8,
+      "production_unit_value_yen_per_kg": 1597.640408012781,
+      "quantity_yoy_pct": 0.09841308894082967,
+      "production_value_yoy_pct": 0.7751937984496138,
+      "retail_value_yoy_pct": 0.9140767824497242,
+      "production_unit_value_yoy_pct": 0.6761153235340878
+    },
+    {
+      "year": 2022,
+      "quantity_tonnes": 240692,
+      "production_value_100million_yen": 3998,
+      "retail_value_100million_yen": 5750,
+      "source": "https://anka-kashi.com/images/statistics/r04.pdf",
+      "physical_page": 8,
+      "production_unit_value_yen_per_kg": 1661.0439898293255,
+      "quantity_yoy_pct": -1.4001884396378728,
+      "production_value_yoy_pct": 2.5128205128205128,
+      "retail_value_yoy_pct": 4.166666666666674,
+      "production_unit_value_yoy_pct": 3.9685765018555585
+    },
+    {
+      "year": 2023,
+      "quantity_tonnes": 240204,
+      "production_value_100million_yen": 4150,
+      "retail_value_100million_yen": 6040,
+      "source": "https://anka-kashi.com/images/statistics/r07.pdf",
+      "physical_page": 8,
+      "production_unit_value_yen_per_kg": 1727.6981232618941,
+      "quantity_yoy_pct": -0.2027487411297435,
+      "production_value_yoy_pct": 3.8019009504752344,
+      "retail_value_yoy_pct": 5.043478260869572,
+      "production_unit_value_yoy_pct": 4.012785563819854
+    },
+    {
+      "year": 2024,
+      "quantity_tonnes": 231477,
+      "production_value_100million_yen": 4307,
+      "retail_value_100million_yen": 6312,
+      "source": "https://anka-kashi.com/images/statistics/r07.pdf",
+      "physical_page": 8,
+      "production_unit_value_yen_per_kg": 1860.6600223780333,
+      "quantity_yoy_pct": -3.6331618124594067,
+      "production_value_yoy_pct": 3.783132530120481,
+      "retail_value_yoy_pct": 4.503311258278142,
+      "production_unit_value_yoy_pct": 7.695898798865808
+    },
+    {
+      "year": 2025,
+      "quantity_tonnes": 210736,
+      "production_value_100million_yen": 4867,
+      "retail_value_100million_yen": 7105,
+      "source": "https://anka-kashi.com/images/statistics/r07.pdf",
+      "physical_page": 8,
+      "production_unit_value_yen_per_kg": 2309.524713385468,
+      "quantity_yoy_pct": -8.960285471126717,
+      "production_value_yoy_pct": 13.00208962154632,
+      "retail_value_yoy_pct": 12.563371356147023,
+      "production_unit_value_yoy_pct": 24.12394986773345
+    }
+  ],
+  "calculations": {
+    "2025_vs2019_quantity_pct": -15.4010437575271,
+    "2025_vs2019_retail_value_pct": 26.198934280639442,
+    "2025_vs2023_quantity_pct": -12.267905613561803
+  },
+  "source_ledger": [
+    {
+      "url": "https://anka-kashi.com/images/statistics/r03.pdf",
+      "publisher": "全日本菓子協会",
+      "publication_date": "2022-03-31",
+      "publication_date_scope": "Date printed on production table; composite PDF may have later trade-data revisions",
+      "target_period": "2019–2021",
+      "retrieved_date_jst": "2026-10-30",
+      "sha256": "3d759ab4d9d4c7fd37926e74a4a187653249143928d8575c62b5181473ba3a89",
+      "bytes": 1686885,
+      "physical_pages_visually_read": [
+        6,
+        7
+      ],
+      "read_scope": "Selected rendered page images; not full PDF or unrelated trade tables"
+    },
+    {
+      "url": "https://anka-kashi.com/images/statistics/r04.pdf",
+      "publisher": "全日本菓子協会",
+      "publication_date": "2023-03-31",
+      "publication_date_scope": "Date printed on production table; composite PDF may have later trade-data revisions",
+      "target_period": "2020–2022",
+      "retrieved_date_jst": "2026-10-30",
+      "sha256": "05c99498568d752e04ed45bd54aba781d3aeb5d58e2ff18c1273adbf03236331",
+      "bytes": 2131478,
+      "physical_pages_visually_read": [
+        8
+      ],
+      "read_scope": "Selected rendered page images; not full PDF or unrelated trade tables"
+    },
+    {
+      "url": "https://anka-kashi.com/images/statistics/r07.pdf",
+      "publisher": "全日本菓子協会",
+      "publication_date": "2026-04-01",
+      "publication_date_scope": "Date printed on production table; composite PDF may have later trade-data revisions",
+      "target_period": "2023–2025",
+      "retrieved_date_jst": "2026-10-30",
+      "sha256": "d161535dc19c797333dd53b99bc03239755d2c8278fcf0506bfdf9e889926aba",
+      "bytes": 2912919,
+      "physical_pages_visually_read": [
+        1,
+        2,
+        3,
+        7,
+        8,
+        9,
+        10
+      ],
+      "read_scope": "Selected rendered page images; not full PDF or unrelated trade tables"
+    }
+  ],
+  "scope_limits": [
+    "ANKA chocolate aggregate combines chocolate product I(100% chocolate base),II(60–under100%),and chocolate confectionery(20–under60%); not household353 alone.",
+    "Annual2025 manufacturing/estimatedretail differs from householdSep2025–Aug2026spending; no sameperiod353quantity.",
+    "Production quantities do not equal domestic household finalconsumption; imports,exports,inventory,tourist/commercialpurchases differ.",
+    "Production value/tonne is unit value affected by productmix, not matched CPI or pureprice.",
+    "Source says I→II migration to constrainprice increases; does not prove353increase due only toclassification orprice.",
+    "No causal estimation of raw-materialprice effects; industry commentary is association interpretation."
+  ],
+  "search_log": {
+    "queries": [
+      "site.chocolate-cocoa.com 統計 チョコレート 2025 生産 数量 2024",
+      "site.anka-kashi.com 令和7年 菓子 生産数量 チョコレート"
+    ],
+    "official_landing": "https://anka-kashi.com/statistics.html",
+    "failed_reads": [
+      {
+        "url": "https://www.chocolate-cocoa.com/statistics/",
+        "error": "400 Timeout fetching",
+        "retried": false
+      },
+      {
+        "url": "https://www.chocolate-cocoa.com/statistics/pdf/index_003.pdf",
+        "error": "400 Timeout fetching",
+        "retried": false
+      }
+    ],
+    "secondary_search_snippets": "Discovery only; no numeric claims adopted",
+    "service_series": "Existing Augustselectedcomparison reused ascontext only; full34industryXLSX403 remainsblocked, no retry. No newserviceobservation claimed."
+  },
+  "decision": "Do not promote353nominalspending to verifiedquantitygrowth. Broadchocolatesellerquantity declines alongside risingvalue; exact353unresolved."
+}

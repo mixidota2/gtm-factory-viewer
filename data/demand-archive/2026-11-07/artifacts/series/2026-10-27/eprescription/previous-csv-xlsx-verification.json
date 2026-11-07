@@ -1,0 +1,22 @@
+[
+  {
+    "csv": "電子処方箋の利活用に向けた進捗状況.csv",
+    "csv_sha256": "c03930c21a513427c69e3049a289d04ca45c1c9da2d90ec2fbfcc012e4d49c09",
+    "xlsx": "電子処方箋の利活用に向けた進捗状況.xlsx",
+    "xlsx_sha256": "a2a7bc54c290ccd75aa6155cd936a32a8c0194b3254cb9e8590beb09aaac776c",
+    "rows": 13,
+    "cells_compared": 156,
+    "errors": [],
+    "method": "CSV cp932 via csv module versus XLSX original OOXML cached values via zip+xml; dates converted from Excel serial; percentages match within displayed 0.05 percentage-point rounding."
+  },
+  {
+    "csv": "都道府県別の導入状況.csv",
+    "csv_sha256": "d85cb3f2d888f12c292584f7aaad52d406fc79c356309defc198b6ef8d660c3e",
+    "xlsx": "都道府県別の導入状況.xlsx",
+    "xlsx_sha256": "c64acff3db2426ad3a117b6848fda72f767ecd5092077afab7956ad156f52614",
+    "rows": 578,
+    "cells_compared": 8092,
+    "errors": [],
+    "method": "CSV cp932 via csv module versus XLSX original OOXML cached values via zip+xml; dates converted from Excel serial; percentages match within displayed 0.05 percentage-point rounding."
+  }
+]

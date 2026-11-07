@@ -1,0 +1,38 @@
+{
+  "actual_dates_jst": [
+    "2026-10-08",
+    "2026-10-16",
+    "2026-10-17",
+    "2026-10-18",
+    "2026-10-19",
+    "2026-10-20",
+    "2026-10-21",
+    "2026-10-22",
+    "2026-10-23",
+    "2026-10-24",
+    "2026-10-25",
+    "2026-10-26",
+    "2026-10-27"
+  ],
+  "observation_count": 13,
+  "current_consecutive_days": 12,
+  "missing_dates_jst": [
+    "2026-10-09",
+    "2026-10-10",
+    "2026-10-11",
+    "2026-10-12",
+    "2026-10-13",
+    "2026-10-14",
+    "2026-10-15"
+  ],
+  "four_week_eligible": false,
+  "four_week_observed_condition_met": false,
+  "imputed": false,
+  "demand_growth_promoted": false,
+  "evidence_status": {
+    "through_2026_10_26": "saved twelve-date record retained, older raw not reaudited.",
+    "2026_10_27": "Each feed retrieved once, all saved rows checked against raw and hashes."
+  },
+  "null_rank_semantics": "Not in the returned range; not zero users, market exit, or a known numerical rank",
+  "additional_evidence_needed": "Do not recapture Oct27; actual four-week coverage remains unmet and Oct9–15 gap unfilled."
+}

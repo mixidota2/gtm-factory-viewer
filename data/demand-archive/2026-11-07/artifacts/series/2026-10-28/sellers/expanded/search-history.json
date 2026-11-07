@@ -1,0 +1,17 @@
+[
+  {
+    "date_jst": "2026-10-28",
+    "stream": "sellers",
+    "queries": [
+      "site.as-estelle.co.jp 2026 2027 既存店 客数 客単価 ジュエリー",
+      "site.yondoshi.co.jp 2026 ジュエリー 客数 客単価 月次",
+      "site.tsutsumi.co.jp 2026 9月 月次 売上",
+      "site.yondoshi.co.jp 2026年9月 客数",
+      "site.yondoshi.co.jp 2027年２月期 第２四半期"
+    ],
+    "secondary_sources": "Discovery only; financialfilings/edinetdb/envalith not used as numerical evidence",
+    "primary_sources": "source-ledger.json",
+    "result": "FDC chain customer recovery Mar–Sep with September decline; spending-per-customer and product mix material; Tsutsumi sales only, national jewelry monetary market price-led survey; no national928quantitypromotion",
+    "repeated_known_denials": false
+  }
+]

@@ -1,0 +1,83 @@
+[
+  {
+    "kind": "topfreeapplications",
+    "url": "https://itunes.apple.com/jp/rss/topfreeapplications/limit=200/json",
+    "fetch_count": 1,
+    "requested_limit": 200,
+    "retrieval_started_at_utc": "2026-10-16T18:10:13.693327+00:00",
+    "status": 200,
+    "final_url": "https://itunes.apple.com/jp/rss/topfreeapplications/limit=200/json",
+    "raw_file": "topfreeapplications-raw.json",
+    "bytes": 585782,
+    "sha256": "4c3cb98aa73a71cbe1b25e0e6340fd562075aa27572dcbf67fb98c675849dd29",
+    "returned_rows": 100,
+    "feed_updated": {
+      "label": "2026-10-16T11:10:18-07:00"
+    },
+    "publication_date": "not stated; dynamic feed",
+    "target_period": "rank snapshot at feed update",
+    "coverage": "all returned entries",
+    "retrieval_completed_at_utc": "2026-10-16T18:10:19.772970+00:00",
+    "retrieval_started_at_jst": "2026-10-17T03:10:13.693327+09:00",
+    "retrieval_completed_at_jst": "2026-10-17T03:10:19.772970+09:00",
+    "feed_updated_jst": "2026-10-17T03:10:18+09:00",
+    "observation_date_jst": "2026-10-17",
+    "http_request_retries": 0,
+    "requested_rows_not_returned": 100,
+    "ranking_definition_limit": "Feed ranking label only; counts, revenue amounts, active users and retention are unavailable. Not inferred."
+  },
+  {
+    "kind": "topgrossingapplications",
+    "url": "https://itunes.apple.com/jp/rss/topgrossingapplications/limit=200/json",
+    "fetch_count": 1,
+    "requested_limit": 200,
+    "retrieval_started_at_utc": "2026-10-16T18:10:19.773315+00:00",
+    "status": 200,
+    "final_url": "https://itunes.apple.com/jp/rss/topgrossingapplications/limit=200/json",
+    "raw_file": "topgrossingapplications-raw.json",
+    "bytes": 594759,
+    "sha256": "fd91500c3fdb583977010a8f38973e0cd23e754f558d0fbf75789af317ccc865",
+    "returned_rows": 100,
+    "feed_updated": {
+      "label": "2026-10-16T11:10:27-07:00"
+    },
+    "publication_date": "not stated; dynamic feed",
+    "target_period": "rank snapshot at feed update",
+    "coverage": "all returned entries",
+    "retrieval_completed_at_utc": "2026-10-16T18:10:28.772343+00:00",
+    "retrieval_started_at_jst": "2026-10-17T03:10:19.773315+09:00",
+    "retrieval_completed_at_jst": "2026-10-17T03:10:28.772343+09:00",
+    "feed_updated_jst": "2026-10-17T03:10:27+09:00",
+    "observation_date_jst": "2026-10-17",
+    "http_request_retries": 0,
+    "requested_rows_not_returned": 100,
+    "ranking_definition_limit": "Feed ranking label only; counts, revenue amounts, active users and retention are unavailable. Not inferred."
+  },
+  {
+    "kind": "toppaidapplications",
+    "url": "https://itunes.apple.com/jp/rss/toppaidapplications/limit=200/json",
+    "fetch_count": 1,
+    "requested_limit": 200,
+    "retrieval_started_at_utc": "2026-10-16T18:10:28.772707+00:00",
+    "status": 200,
+    "final_url": "https://itunes.apple.com/jp/rss/toppaidapplications/limit=200/json",
+    "raw_file": "toppaidapplications-raw.json",
+    "bytes": 519582,
+    "sha256": "684530f0e2b85e7c41b631c3e4c45670777a569fa056e14c6ec76de57127583b",
+    "returned_rows": 99,
+    "feed_updated": {
+      "label": "2026-10-16T11:10:32-07:00"
+    },
+    "publication_date": "not stated; dynamic feed",
+    "target_period": "rank snapshot at feed update",
+    "coverage": "all returned entries",
+    "retrieval_completed_at_utc": "2026-10-16T18:10:33.520022+00:00",
+    "retrieval_started_at_jst": "2026-10-17T03:10:28.772707+09:00",
+    "retrieval_completed_at_jst": "2026-10-17T03:10:33.520022+09:00",
+    "feed_updated_jst": "2026-10-17T03:10:32+09:00",
+    "observation_date_jst": "2026-10-17",
+    "http_request_retries": 0,
+    "requested_rows_not_returned": 101,
+    "ranking_definition_limit": "Feed ranking label only; counts, revenue amounts, active users and retention are unavailable. Not inferred."
+  }
+]

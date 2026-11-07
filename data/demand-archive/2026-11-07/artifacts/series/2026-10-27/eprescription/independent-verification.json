@@ -1,0 +1,241 @@
+{
+  "status": "PASS",
+  "verified_at_utc": "2026-10-26T18:06:59.703399+00:00",
+  "original_zip_sha256": "70da6503c3bdadfd52d5b92f1bc4646c6cb53062ac22b2f9eb57fe3d71cc7432",
+  "original_zip_bytes": 325362,
+  "checks": [
+    {
+      "csv": "電子処方箋の利活用に向けた進捗状況.csv",
+      "csv_sha256": "81d5218439a7e0e77ec8ac591d96e9b872d540fd592068c511b61ec88d8ed056",
+      "xlsx": "電子処方箋の利活用に向けた進捗状況.xlsx",
+      "xlsx_sha256": "cf1127d1912e9b7969f5c0b2e3e7b65f75ba255c9b4dfac0570d23534d5b0fb5",
+      "rows": 13,
+      "cells_compared": 156,
+      "errors": [],
+      "method": "CSV cp932 via csv module versus XLSX original OOXML cached values via zip+xml; dates converted from Excel serial; percentages match within displayed 0.05 percentage-point rounding."
+    },
+    {
+      "csv": "都道府県別の導入状況.csv",
+      "csv_sha256": "a91c85b470bd20746dc6b1e8c3a2d6beb0687f212e1ae7352bd98049e9511772",
+      "xlsx": "都道府県別の導入状況.xlsx",
+      "xlsx_sha256": "716a850d1cf3c13116a447a38423b8317258889352edd576c396bd31b19a2d50",
+      "rows": 578,
+      "cells_compared": 8092,
+      "errors": [],
+      "method": "CSV cp932 via csv module versus XLSX original OOXML cached values via zip+xml; dates converted from Excel serial; percentages match within displayed 0.05 percentage-point rounding."
+    }
+  ],
+  "selected_cells": {
+    "progress": {
+      "A13": "46266",
+      "B13": "0.43193347036527185",
+      "C13": "91620",
+      "D13": "212116",
+      "E13": "692818",
+      "F13": "15294344",
+      "G13": "0.87620000000000009",
+      "H13": "62945921",
+      "I13": "71840229"
+    },
+    "facility_types": {
+      "A14": "全国",
+      "B14": "46266",
+      "C14": "0.21972187104930468",
+      "D14": "1738",
+      "E14": "7910",
+      "F14": "0.32162419193682362",
+      "G14": "26717",
+      "H14": "83069",
+      "I14": "0.12097028421628976",
+      "J14": "7291",
+      "K14": "60271",
+      "L14": "0.91798376762067491",
+      "M14": "55874",
+      "N14": "60866"
+    }
+  },
+  "september_adoption_percent_recomputed": 43.193347036527186,
+  "facility_types_displayed_percent": {
+    "hospital": 22.0,
+    "medical_clinic": 32.2,
+    "dental_clinic": 12.1,
+    "pharmacy": 91.8
+  },
+  "definition_url": "https://www.digital.go.jp/resources/govdashboard/electronic-prescription/description",
+  "definition_page_updated": "2026-08-07",
+  "definition_read_at_utc": "2026-10-26T18:05:11Z",
+  "definitions": {
+    "facility_denominator": "Online qualification verification system adopting facilities; not all medical facilities. Facility counts are measured on the last Sunday of each month.",
+    "electronic_count": "Monthly pharmacy dispensation-result registrations marked electronic.",
+    "paper_count": "Monthly medical-institution paper prescription-information registrations with exchange numbers.",
+    "prohibited_inference": "Do not describe electronic/(electronic+paper) as the share of all prescriptions issued electronically. Stages and registering populations differ. No demand-spending or time-savings conclusion from adoption alone.",
+    "latest_dispensation_rate": "Recent prescription denominator may be estimated; not a measured count of all prescriptions."
+  },
+  "limitations": [
+    "Read-only underlying-value audit; workbook UI render not performed.",
+    "Zip publication date and original HTTP acquisition receipt inherited from the earlier source record, not independently verified here.",
+    "No re-fetch of original ZIP, no user notification or publication."
+  ],
+  "previous_zip_sha256": "3fb3a76eb130349e3767e8055ec868f1ffc1f48139fe7731c0d5741fcb0ff75b",
+  "previous_checks": [
+    {
+      "csv": "電子処方箋の利活用に向けた進捗状況.csv",
+      "csv_sha256": "c03930c21a513427c69e3049a289d04ca45c1c9da2d90ec2fbfcc012e4d49c09",
+      "xlsx": "電子処方箋の利活用に向けた進捗状況.xlsx",
+      "xlsx_sha256": "a2a7bc54c290ccd75aa6155cd936a32a8c0194b3254cb9e8590beb09aaac776c",
+      "rows": 13,
+      "cells_compared": 156,
+      "errors": [],
+      "method": "CSV cp932 via csv module versus XLSX original OOXML cached values via zip+xml; dates converted from Excel serial; percentages match within displayed 0.05 percentage-point rounding."
+    },
+    {
+      "csv": "都道府県別の導入状況.csv",
+      "csv_sha256": "d85cb3f2d888f12c292584f7aaad52d406fc79c356309defc198b6ef8d660c3e",
+      "xlsx": "都道府県別の導入状況.xlsx",
+      "xlsx_sha256": "c64acff3db2426ad3a117b6848fda72f767ecd5092077afab7956ad156f52614",
+      "rows": 578,
+      "cells_compared": 8092,
+      "errors": [],
+      "method": "CSV cp932 via csv module versus XLSX original OOXML cached values via zip+xml; dates converted from Excel serial; percentages match within displayed 0.05 percentage-point rounding."
+    }
+  ],
+  "september_same_month_year_comparison": {
+    "progress_rows_csv": [
+      [
+        "2025年9月",
+        "35.70%",
+        "76,040",
+        "212,989",
+        "355,502",
+        "9,992,723",
+        "81.50%",
+        "58,899,608",
+        "72,237,598",
+        "60,409,021",
+        "9,391,879",
+        "14,518"
+      ],
+      [
+        "2026年9月",
+        "43.2%",
+        "91,620",
+        "212,116",
+        "692,818",
+        "15,294,344",
+        "87.6%",
+        "62,945,921",
+        "71,840,229",
+        "77,028,417",
+        "12,044,562",
+        "20,465"
+      ]
+    ],
+    "national_types": [
+      {
+        "type": "病院",
+        "sep2025": [
+          1284,
+          7966
+        ],
+        "sep2026": [
+          1738,
+          7910
+        ],
+        "rates_percent": [
+          16.118503640472007,
+          21.97218710493047
+        ],
+        "numerator_growth_percent": 35.358255451713404,
+        "xlsx_row_indices": {
+          "previous": 3,
+          "current": 14
+        }
+      },
+      {
+        "type": "医科診療所",
+        "sep2025": [
+          18756,
+          83356
+        ],
+        "sep2026": [
+          26717,
+          83069
+        ],
+        "rates_percent": [
+          22.50107970631988,
+          32.16241919368236
+        ],
+        "numerator_growth_percent": 42.44508423970996,
+        "xlsx_row_indices": {
+          "previous": 3,
+          "current": 14
+        }
+      },
+      {
+        "type": "歯科診療所",
+        "sep2025": [
+          3920,
+          61006
+        ],
+        "sep2026": [
+          7291,
+          60271
+        ],
+        "rates_percent": [
+          6.425597482214863,
+          12.097028421628977
+        ],
+        "numerator_growth_percent": 85.99489795918367,
+        "xlsx_row_indices": {
+          "previous": 3,
+          "current": 14
+        }
+      },
+      {
+        "type": "薬局",
+        "sep2025": [
+          52080,
+          60661
+        ],
+        "sep2026": [
+          55874,
+          60866
+        ],
+        "rates_percent": [
+          85.85417319200145,
+          91.79837676206749
+        ],
+        "numerator_growth_percent": 7.284946236559131,
+        "xlsx_row_indices": {
+          "previous": 3,
+          "current": 14
+        }
+      }
+    ],
+    "comparison_valid_scope": "Facility adoption within online qualification verification population, September to September; not paid demand or clinical outcomes."
+  },
+  "august_overlap": {
+    "progress_differences": [
+      {
+        "column": "調剤結果の登録率",
+        "old": "",
+        "new": "86.1%"
+      },
+      {
+        "column": "調剤結果登録数",
+        "old": "",
+        "new": "61,512,267"
+      },
+      {
+        "column": "薬局で調剤した処方箋枚数",
+        "old": "",
+        "new": "71,447,986"
+      }
+    ],
+    "progress_other_cells_equal": true,
+    "prefecture_facility_rows_compared": 48,
+    "prefecture_cells_compared": 672,
+    "all_prefecture_values_equal": true,
+    "note": "Older progress G13:I13 are blank; newer G12:I12 filled 86.1%,61512267,71447986. This is new coverage, not equality of every progress field. Latest dispensation denominator may be estimated."
+  }
+}

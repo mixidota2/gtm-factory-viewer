@@ -1,0 +1,166 @@
+{
+  "checked_on": "2026-11-07",
+  "checks": [
+    {
+      "name": "JSON parses without non-finite numbers",
+      "passed": true,
+      "files": 140
+    },
+    {
+      "name": "CSV column widths consistent",
+      "passed": true,
+      "files": 11
+    },
+    {
+      "name": "Standalone source CSV cells and row order unchanged",
+      "passed": true,
+      "files": [
+        {
+          "file": "artifacts/series/2026-10-16/household-nominal-ranking-provisional.csv",
+          "data_rows": 398
+        },
+        {
+          "file": "artifacts/series/2026-10-16/people/jobs-ranked-new_vacancies-2026-10-16.csv",
+          "data_rows": 57
+        },
+        {
+          "file": "artifacts/series/2026-10-16/people/jobs-ranked-active_vacancies-2026-10-16.csv",
+          "data_rows": 57
+        },
+        {
+          "file": "artifacts/series/2026-10-16/people/media-time-weekday.csv",
+          "data_rows": 9
+        },
+        {
+          "file": "artifacts/series/2026-10-16/people/media-time-weekend.csv",
+          "data_rows": 9
+        },
+        {
+          "file": "artifacts/series/2026-10-16/people/search-trends-weekly-inherited-2026-10-08.csv",
+          "data_rows": 71
+        },
+        {
+          "file": "artifacts/series/2026-10-27/household/monthly-selected.csv",
+          "data_rows": 92
+        },
+        {
+          "file": "artifacts/series/2026-10-16/sellers/mic_ranked.csv",
+          "data_rows": 34
+        }
+      ]
+    },
+    {
+      "name": "Standalone app rank, ID and name triples exactly preserved",
+      "passed": true,
+      "snapshots": [
+        {
+          "file": "artifacts/series/app-ranks/2026-10-16.json",
+          "rows": 298
+        },
+        {
+          "file": "artifacts/series/2026-10-19/people/app-ranks-2026-10-19.json",
+          "rows": 299
+        },
+        {
+          "file": "artifacts/series/app-ranks/2026-10-17.json",
+          "rows": 299
+        },
+        {
+          "file": "artifacts/series/2026-10-20/people/app-ranks-2026-10-20.json",
+          "rows": 299
+        },
+        {
+          "file": "artifacts/series/2026-10-22/people/app-ranks-2026-10-22.json",
+          "rows": 299
+        },
+        {
+          "file": "artifacts/series/2026-10-24/people/app-ranks-2026-10-24.compact.json",
+          "rows": 298
+        },
+        {
+          "file": "artifacts/series/2026-10-25/people/app-ranks-2026-10-25.compact.json",
+          "rows": 299
+        },
+        {
+          "file": "artifacts/series/2026-10-26/people/app-ranks-2026-10-26.compact.json",
+          "rows": 299
+        },
+        {
+          "file": "artifacts/series/2026-10-27/people/app-ranks-2026-10-27.compact.json",
+          "rows": 299
+        },
+        {
+          "file": "artifacts/series/2026-10-23/people/app-ranks-2026-10-23.compact.json",
+          "rows": 298
+        },
+        {
+          "file": "historical/artifacts/series/app-ranks/2026-10-08.json",
+          "rows": 298
+        },
+        {
+          "file": "artifacts/series/2026-10-18/2026-10-18.json",
+          "rows": 299
+        },
+        {
+          "file": "artifacts/series/2026-10-21/app-ranks-2026-10-21.json",
+          "rows": 299
+        },
+        {
+          "file": "artifacts/series/2026-10-28/people/app-ranks-2026-10-28.compact.json",
+          "rows": 298
+        },
+        {
+          "file": "artifacts/series/2026-10-31/people/app-ranks-2026-10-31.compact.json",
+          "rows": 299
+        }
+      ]
+    },
+    {
+      "name": "Embedded app observations including missing October30 exactly preserved",
+      "passed": true,
+      "dates": [
+        "2026-10-28",
+        "2026-10-29",
+        "2026-10-30",
+        "2026-10-31"
+      ]
+    },
+    {
+      "name": "October29 household rolling12 growth recomputed from preserved sums",
+      "passed": true,
+      "series": 5
+    },
+    {
+      "name": "Selected chunk logical identity and numeric part mapping match",
+      "passed": true,
+      "chunks": 301
+    },
+    {
+      "name": "All selected logical source parts reconstructed with no missing part",
+      "passed": true,
+      "source_versions": 141
+    },
+    {
+      "name": "Private identifier, path, conversation and credential-marker scan",
+      "passed": true
+    },
+    {
+      "name": "No third-party full-text document or image binaries packaged",
+      "passed": true
+    },
+    {
+      "name": "Existing viewer files untouched",
+      "passed": true,
+      "scope": "Only the new data/demand-archive/2026-11-07 tree is present in the candidate."
+    }
+  ],
+  "not_performed": [
+    "Fresh retrieval and validation of every external source URL",
+    "Independent recomputation of every historical derived statistic",
+    "Viewer browser tests: no UI code or display data changed"
+  ],
+  "limitations": [
+    "Some original workbooks, PDFs, raw captures and scripts were never in the supplied Page text; this archive preserves embedded data and source references, not a complete original-download mirror.",
+    "Two historical context snapshots had declared hashes inconsistent with the observed reconstructed source text. Scientific extracts use the observed text; exact original snapshot identity is not claimed."
+  ]
+}

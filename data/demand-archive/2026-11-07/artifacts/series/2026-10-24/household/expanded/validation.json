@@ -1,0 +1,20 @@
+{
+  "92_months": true,
+  "12_month_pairs": true,
+  "rank_match": true,
+  "all_raw_hashes_match_source_record": true,
+  "annual_quantity_missing": true,
+  "classification_2020_2025_meaning_matches": true,
+  "independent_validation": false,
+  "second_pass_raw_read": {
+    "prior": 5672,
+    "latest": 7237,
+    "monthly_difference_sum": 1565
+  },
+  "annual_2025_rounding": {
+    "sum_months": 5978,
+    "published": 5976,
+    "difference_yen": 2
+  },
+  "verification_scope": "Second extraction from raw by item name, not independent person review"
+}

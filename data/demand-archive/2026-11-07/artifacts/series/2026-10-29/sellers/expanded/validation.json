@@ -1,0 +1,22 @@
+{
+  "status": "PASS_bounded_transcription_and_scope_check",
+  "original_pdf_sha256_match": true,
+  "pdf_visual_checks": [
+    6,
+    7
+  ],
+  "newly_extracted": true,
+  "exact427_quantity": "NOT_TESTED_no_matching_series",
+  "price_quantity_decomposition": "NOT_TESTED_no_matching_price",
+  "longitudinal427_seller_quantity": "NOT_TESTED",
+  "decision": "Do not promote427 to confirmed real demand growth",
+  "prior_report_not_repeated": true,
+  "limits": [
+    "2026AprJun orders versus householdSep2025Aug2026 payments differ",
+    "Construction contractor orders not household counts; small unlicensed contractors excluded",
+    "Multiple-response work sites overlap; no summation",
+    "Primary HVAC growth differs from all-involving-HVAC decline; mix not volume inference",
+    "427 classification independently verified; rows are partial overlaps, not a mapping aggregate",
+    "No current annual2019-to2026 exact-scope quantity or price evidence established"
+  ]
+}

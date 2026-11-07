@@ -1,0 +1,2103 @@
+{
+  "topfreeapplications": {
+    "updated": "2026-10-15T11:09:01-07:00",
+    "apps": [
+      {
+        "rank": 1,
+        "id": "6471519217",
+        "name": "Bump（旧Zenly）",
+        "genre": "ソーシャルネットワーキング",
+        "artist": "amo"
+      },
+      {
+        "rank": 2,
+        "id": "6587576438",
+        "name": "setlog",
+        "genre": "ソーシャルネットワーキング",
+        "artist": "new chat"
+      },
+      {
+        "rank": 3,
+        "id": "6448311069",
+        "name": "ChatGPT",
+        "genre": "仕事効率化",
+        "artist": "OpenAI OpCo, LLC"
+      },
+      {
+        "rank": 4,
+        "id": "6477489729",
+        "name": "Google Gemini",
+        "genre": "仕事効率化",
+        "artist": "Google"
+      },
+      {
+        "rank": 5,
+        "id": "6446901002",
+        "name": "Threads",
+        "genre": "ソーシャルネットワーキング",
+        "artist": "Instagram, Inc."
+      },
+      {
+        "rank": 6,
+        "id": "1476359069",
+        "name": "マイナアプリ（旧マイナポータルアプリ）",
+        "genre": "ユーティリティ",
+        "artist": "デジタル庁"
+      },
+      {
+        "rank": 7,
+        "id": "1619030760",
+        "name": "zeta - AIキャラ・あなたの推しとロールプレイチャット",
+        "genre": "エンターテインメント",
+        "artist": "Scatter Lab, Inc."
+      },
+      {
+        "rank": 8,
+        "id": "6473753684",
+        "name": "Claude by Anthropic",
+        "genre": "仕事効率化",
+        "artist": "Anthropic PBC"
+      },
+      {
+        "rank": 9,
+        "id": "1496925861",
+        "name": "ゆうちょ通帳アプリ-銀行 アプリ",
+        "genre": "ファイナンス",
+        "artist": "Japan Post Bank Co., Ltd."
+      },
+      {
+        "rank": 10,
+        "id": "388497605",
+        "name": "Google Authenticator",
+        "genre": "ユーティリティ",
+        "artist": "Google"
+      },
+      {
+        "rank": 11,
+        "id": "1398652658",
+        "name": "Jフェス",
+        "genre": "ミュージック",
+        "artist": "rockin'on holdings inc."
+      },
+      {
+        "rank": 12,
+        "id": "1100564842",
+        "name": "AEON Pay-スマホ決済でWAON POINTがたまる",
+        "genre": "ファイナンス",
+        "artist": "AEON Financial Service Co., Ltd."
+      },
+      {
+        "rank": 13,
+        "id": "1223471316",
+        "name": "Shop：追跡・購入・発見",
+        "genre": "ショッピング",
+        "artist": "Shopify Inc."
+      },
+      {
+        "rank": 14,
+        "id": "290033990",
+        "name": "ホットペッパーグルメ",
+        "genre": "フード／ドリンク",
+        "artist": "Recruit Co.,Ltd."
+      },
+      {
+        "rank": 15,
+        "id": "6451037644",
+        "name": "マツキヨココカラ公式アプリ",
+        "genre": "ショッピング",
+        "artist": "株式会社マツキヨココカラ&カンパニー"
+      },
+      {
+        "rank": 16,
+        "id": "1563102530",
+        "name": "M3デジカルスマート診察券",
+        "genre": "メディカル",
+        "artist": "DigiKar, Inc"
+      },
+      {
+        "rank": 17,
+        "id": "983156458",
+        "name": "Microsoft Authenticator",
+        "genre": "仕事効率化",
+        "artist": "Microsoft Corporation"
+      },
+      {
+        "rank": 18,
+        "id": "882477693",
+        "name": "U-NEXT - 映画やドラマ、アニメなどの動画が見放題",
+        "genre": "エンターテインメント",
+        "artist": "U-NEXT Co.,Ltd."
+      },
+      {
+        "rank": 19,
+        "id": "6756647308",
+        "name": "詐欺対策 by NTTタウンページ",
+        "genre": "ユーティリティ",
+        "artist": "NTT DIRECTORY SERVICES Co."
+      },
+      {
+        "rank": 20,
+        "id": "732775964",
+        "name": "しまむらパーク",
+        "genre": "ショッピング",
+        "artist": "しまむら"
+      },
+      {
+        "rank": 21,
+        "id": "6447160980",
+        "name": "TikTok Lite",
+        "genre": "エンターテインメント",
+        "artist": "TikTok Ltd."
+      },
+      {
+        "rank": 22,
+        "id": "422689480",
+        "name": "Gmail - Google のメール",
+        "genre": "仕事効率化",
+        "artist": "Google"
+      },
+      {
+        "rank": 23,
+        "id": "541164041",
+        "name": "Microsoft Copilot",
+        "genre": "仕事効率化",
+        "artist": "Microsoft Corporation"
+      },
+      {
+        "rank": 24,
+        "id": "1552990335",
+        "name": "かんたんnetprint－セブン‐イレブンでかんたん印刷",
+        "genre": "ユーティリティ",
+        "artist": "FUJIFILM Business Innovation Corp."
+      },
+      {
+        "rank": 25,
+        "id": "6667104573",
+        "name": "ジハンピ",
+        "genre": "フード／ドリンク",
+        "artist": "SUNTORY BEVERAGE SOLUTION LIMITED"
+      },
+      {
+        "rank": 26,
+        "id": "897446215",
+        "name": "Canva(キャンバ): 画像・動画編集 & AIデザイン",
+        "genre": "写真／ビデオ",
+        "artist": "Canva"
+      },
+      {
+        "rank": 27,
+        "id": "1153448703",
+        "name": "EXアプリ | JR東海公式",
+        "genre": "旅行",
+        "artist": "Central Japan Railway Company"
+      },
+      {
+        "rank": 28,
+        "id": "1113037275",
+        "name": "スターバックス ジャパン公式モバイルアプリ",
+        "genre": "フード／ドリンク",
+        "artist": "Starbucks Coffee Company"
+      },
+      {
+        "rank": 29,
+        "id": "6739188587",
+        "name": "Rocket Now : 出前/フードデリバリー",
+        "genre": "フード／ドリンク",
+        "artist": "CP One Japan G.K."
+      },
+      {
+        "rank": 30,
+        "id": "1562641276",
+        "name": "セブン-イレブン マルチコピー",
+        "genre": "ユーティリティ",
+        "artist": "FUJIFILM Business Innovation Corp."
+      },
+      {
+        "rank": 31,
+        "id": "535886823",
+        "name": "Google Chrome - ウェブブラウザ",
+        "genre": "ユーティリティ",
+        "artist": "Google"
+      },
+      {
+        "rank": 32,
+        "id": "6466987025",
+        "name": "DAISOアプリ",
+        "genre": "ショッピング",
+        "artist": "株式会社大創産業"
+      },
+      {
+        "rank": 33,
+        "id": "1113153706",
+        "name": "Microsoft Teams",
+        "genre": "ビジネス",
+        "artist": "Microsoft Corporation"
+      },
+      {
+        "rank": 34,
+        "id": "507874739",
+        "name": "Google ドライブ - 安全なオンライン ストレージ",
+        "genre": "仕事効率化",
+        "artist": "Google"
+      },
+      {
+        "rank": 35,
+        "id": "374254473",
+        "name": "Amazon ショッピングアプリ",
+        "genre": "ショッピング",
+        "artist": "AMZN Mobile LLC"
+      },
+      {
+        "rank": 36,
+        "id": "6450435935",
+        "name": "郵便局公式アプリ - 荷物の配送状況の確認や再配達が簡単に",
+        "genre": "ライフスタイル",
+        "artist": "Japan Post Co., Ltd."
+      },
+      {
+        "rank": 37,
+        "id": "681752345",
+        "name": "Trip.com-航空券･ホテルの予約はトリップドットコムで",
+        "genre": "旅行",
+        "artist": "Trip.com Travel Singapore Pte. Ltd."
+      },
+      {
+        "rank": 38,
+        "id": "1435783608",
+        "name": "PayPay",
+        "genre": "ファイナンス",
+        "artist": "PayPay Corporation"
+      },
+      {
+        "rank": 39,
+        "id": "284815942",
+        "name": "Google アプリ",
+        "genre": "ユーティリティ",
+        "artist": "Google"
+      },
+      {
+        "rank": 40,
+        "id": "830340223",
+        "name": "TVer(ティーバー) 民放公式テレビ配信サービス",
+        "genre": "エンターテインメント",
+        "artist": "TVer INC."
+      },
+      {
+        "rank": 41,
+        "id": "546505307",
+        "name": "Zoom Workplace",
+        "genre": "ビジネス",
+        "artist": "Zoom Communications, Inc."
+      },
+      {
+        "rank": 42,
+        "id": "585027354",
+        "name": "Google マップ",
+        "genre": "ナビゲーション",
+        "artist": "Google"
+      },
+      {
+        "rank": 43,
+        "id": "532097000",
+        "name": "ユニバーサル・スタジオ・ジャパン 公式アプリ",
+        "genre": "旅行",
+        "artist": "NBCUniversal Media, LLC"
+      },
+      {
+        "rank": 44,
+        "id": "551942662",
+        "name": "PrintSmash",
+        "genre": "ユーティリティ",
+        "artist": "Sharp Corporation"
+      },
+      {
+        "rank": 45,
+        "id": "842849113",
+        "name": "Google スプレッドシート",
+        "genre": "仕事効率化",
+        "artist": "Google"
+      },
+      {
+        "rank": 46,
+        "id": "6446607328",
+        "name": "SmartHR（スマートエイチアール）",
+        "genre": "ビジネス",
+        "artist": "SmartHR, Inc."
+      },
+      {
+        "rank": 47,
+        "id": "1235601864",
+        "name": "TikTok ティックトック",
+        "genre": "エンターテインメント",
+        "artist": "TikTok Ltd."
+      },
+      {
+        "rank": 48,
+        "id": "570105907",
+        "name": "楽天カード：明細確認アプリ",
+        "genre": "ファイナンス",
+        "artist": "RAKUTEN CARD,INC."
+      },
+      {
+        "rank": 49,
+        "id": "333903271",
+        "name": "X",
+        "genre": "ニュース",
+        "artist": "X Corp."
+      },
+      {
+        "rank": 50,
+        "id": "1409383333",
+        "name": "タイミー｜スキマバイト・単発バイト・短期バイトの求人アプリ",
+        "genre": "ライフスタイル",
+        "artist": "Timee, inc."
+      },
+      {
+        "rank": 51,
+        "id": "1139755229",
+        "name": "楽天ペイ-楽天ポイントカードも利用できるスマホ決済アプリ",
+        "genre": "ファイナンス",
+        "artist": "Rakuten Group, Inc."
+      },
+      {
+        "rank": 52,
+        "id": "1220373112",
+        "name": "Paidy (あと払いペイディ)-後払いアプリ",
+        "genre": "ファイナンス",
+        "artist": "Paidy Inc."
+      },
+      {
+        "rank": 53,
+        "id": "1667214457",
+        "name": "コメダ珈琲店",
+        "genre": "フード／ドリンク",
+        "artist": "KOMEDA CO.,LTD."
+      },
+      {
+        "rank": 54,
+        "id": "1313147771",
+        "name": "Tokyo Disney Resort App",
+        "genre": "エンターテインメント",
+        "artist": "Oriental Land Co., Ltd."
+      },
+      {
+        "rank": 55,
+        "id": "413618155",
+        "name": "マクドナルド",
+        "genre": "フード／ドリンク",
+        "artist": "日本マクドナルド株式会社"
+      },
+      {
+        "rank": 56,
+        "id": "6670430706",
+        "name": "DramaWave - 日本 / 韓国 / 人気短編ドラマ",
+        "genre": "エンターテインメント",
+        "artist": "SKYWORK AI PTE LTD"
+      },
+      {
+        "rank": 57,
+        "id": "1527218749",
+        "name": "KAUCHE（カウシェ） - ショッピングアプリ",
+        "genre": "ショッピング",
+        "artist": "KAUCHE, Inc."
+      },
+      {
+        "rank": 58,
+        "id": "1254341709",
+        "name": "GO タクシーが呼べるアプリ - AI予約・配車・迎車・決済",
+        "genre": "旅行",
+        "artist": "GO Inc."
+      },
+      {
+        "rank": 59,
+        "id": "1500855883",
+        "name": "CapCut：写真＆動画エディター",
+        "genre": "写真／ビデオ",
+        "artist": "Bytedance Pte. Ltd"
+      },
+      {
+        "rank": 60,
+        "id": "389801252",
+        "name": "Instagram",
+        "genre": "写真／ビデオ",
+        "artist": "Instagram, Inc."
+      },
+      {
+        "rank": 61,
+        "id": "6446826848",
+        "name": "ゆうちょ手続きアプリ",
+        "genre": "ファイナンス",
+        "artist": "Japan Post Bank Co., Ltd."
+      },
+      {
+        "rank": 62,
+        "id": "1088184021",
+        "name": "Coke ON(コークオン)",
+        "genre": "フード／ドリンク",
+        "artist": "Coca-Cola"
+      },
+      {
+        "rank": 63,
+        "id": "324684580",
+        "name": "Spotify: 音楽とポッドキャスト",
+        "genre": "ミュージック",
+        "artist": "Spotify"
+      },
+      {
+        "rank": 64,
+        "id": "1001883210",
+        "name": "majica～電子マネー公式アプリ～",
+        "genre": "ライフスタイル",
+        "artist": "PAN PACIFIC INTERNATIONAL HOLDINGS CORPORATION"
+      },
+      {
+        "rank": 65,
+        "id": "1565489157",
+        "name": "iAEON-イオンペイも使える！「アイイオン」",
+        "genre": "ファイナンス",
+        "artist": "イオンスマートテクノロジー株式会社"
+      },
+      {
+        "rank": 66,
+        "id": "1478237405",
+        "name": "Yahoo!フリマ（旧PayPayフリマ）",
+        "genre": "ショッピング",
+        "artist": "Yahoo Japan Corporation"
+      },
+      {
+        "rank": 67,
+        "id": "570060128",
+        "name": "Duolingo：英語、韓国語、中国語を学ぼう",
+        "genre": "教育",
+        "artist": "Duolingo"
+      },
+      {
+        "rank": 68,
+        "id": "952578473",
+        "name": "TimeTree タイムツリー - カレンダーや予定表の共有",
+        "genre": "仕事効率化",
+        "artist": "TimeTree, Inc."
+      },
+      {
+        "rank": 69,
+        "id": "284882215",
+        "name": "Facebook",
+        "genre": "ソーシャルネットワーキング",
+        "artist": "Meta Platforms, Inc."
+      },
+      {
+        "rank": 70,
+        "id": "1272481966",
+        "name": "CHARGESPOT チャージスポット スマホ充電レンタル",
+        "genre": "ライフスタイル",
+        "artist": "INFORICH ASIA HONG KONG LIMITED"
+      },
+      {
+        "rank": 71,
+        "id": "1156875272",
+        "name": "Suica",
+        "genre": "ファイナンス",
+        "artist": "East Japan Railway Company"
+      },
+      {
+        "rank": 72,
+        "id": "363590051",
+        "name": "Netflix",
+        "genre": "エンターテインメント",
+        "artist": "Netflix, Inc."
+      },
+      {
+        "rank": 73,
+        "id": "419267350",
+        "name": "楽天市場 - お買い物で楽天ポイントが貯まる便利な通販アプリ",
+        "genre": "ショッピング",
+        "artist": "Rakuten Group, Inc."
+      },
+      {
+        "rank": 74,
+        "id": "309735670",
+        "name": "転職・バイトはIndeed（インディード）",
+        "genre": "ビジネス",
+        "artist": "Indeed Inc."
+      },
+      {
+        "rank": 75,
+        "id": "545519333",
+        "name": "Amazon Prime Video",
+        "genre": "エンターテインメント",
+        "artist": "AMZN Mobile LLC"
+      },
+      {
+        "rank": 76,
+        "id": "6723876042",
+        "name": "ミリオン-ショートドラマ見放題人気ドラマアプリMillion",
+        "genre": "エンターテインメント",
+        "artist": "FLASH Co., Ltd."
+      },
+      {
+        "rank": 77,
+        "id": "1303314426",
+        "name": "アソビュー！：休日の便利でお得な遊び予約アプリ",
+        "genre": "旅行",
+        "artist": "ASOVIEW Inc."
+      },
+      {
+        "rank": 78,
+        "id": "1456118550",
+        "name": "バーガーキング Burger King",
+        "genre": "フード／ドリンク",
+        "artist": "Burger King Japan"
+      },
+      {
+        "rank": 79,
+        "id": "878577184",
+        "name": "SHEIN - オンラインショッピング",
+        "genre": "ショッピング",
+        "artist": "ROADGET BUSINESS PTE. LTD."
+      },
+      {
+        "rank": 80,
+        "id": "643133414",
+        "name": "PAL CLOSET （パルクローゼット）",
+        "genre": "ショッピング",
+        "artist": "PAL CO.,LTD."
+      },
+      {
+        "rank": 81,
+        "id": "763377066",
+        "name": "食べログ - おいしいお店を見つけて予約できるグルメアプリ",
+        "genre": "フード／ドリンク",
+        "artist": "Kakaku.com, Inc."
+      },
+      {
+        "rank": 82,
+        "id": "1109651121",
+        "name": "Pep Up - 健康年齢・医療費がわかる健康管理アプリ",
+        "genre": "ヘルスケア／フィットネス",
+        "artist": "JMDC Inc."
+      },
+      {
+        "rank": 83,
+        "id": "1328132872",
+        "name": "d払い－スマホ決済アプリ、キャッシュレスでお支払い",
+        "genre": "ファイナンス",
+        "artist": "株式会社NTTドコモ"
+      },
+      {
+        "rank": 84,
+        "id": "1138196572",
+        "name": "ファミマのアプリ「ファミペイ」",
+        "genre": "ライフスタイル",
+        "artist": "FamilyMart Co.,Ltd."
+      },
+      {
+        "rank": 85,
+        "id": "821434357",
+        "name": "dポイントクラブ：お得情報満載のドコモ公式ポイントクラブ",
+        "genre": "ショッピング",
+        "artist": "株式会社NTTドコモ"
+      },
+      {
+        "rank": 86,
+        "id": "667861049",
+        "name": "フリマアプリはメルカリ - メルペイのスマホ決済でもっとお得",
+        "genre": "ショッピング",
+        "artist": "Mercari, Inc."
+      },
+      {
+        "rank": 87,
+        "id": "838138452",
+        "name": "三井住友カード Vpassアプリ",
+        "genre": "ファイナンス",
+        "artist": "三井住友カード株式会社"
+      },
+      {
+        "rank": 88,
+        "id": "1058959277",
+        "name": "Uber Eats（ウーバーイーツ) 出前/フードデリバリー",
+        "genre": "フード／ドリンク",
+        "artist": "Uber Technologies, Inc."
+      },
+      {
+        "rank": 89,
+        "id": "1134784923",
+        "name": "VPN cat - 高速 安全 無制限VPN",
+        "genre": "ユーティリティ",
+        "artist": "Secure Network"
+      },
+      {
+        "rank": 90,
+        "id": "6761538521",
+        "name": "StoryReel: ショートドラマ＆映画見放題",
+        "genre": "エンターテインメント",
+        "artist": "Equinox Enterprises‌ Technology Limited"
+      },
+      {
+        "rank": 91,
+        "id": "440676901",
+        "name": "アゴダ®で旅行を計画、予約はお手頃価格で。",
+        "genre": "旅行",
+        "artist": "Agoda.com"
+      },
+      {
+        "rank": 92,
+        "id": "1017492454",
+        "name": "YouTube Music：音楽、ポッドキャスト",
+        "genre": "ミュージック",
+        "artist": "Google"
+      },
+      {
+        "rank": 93,
+        "id": "1139979990",
+        "name": "スマート口座開設 - 三菱UFJ銀行",
+        "genre": "ファイナンス",
+        "artist": "MUFG Bank, Ltd."
+      },
+      {
+        "rank": 94,
+        "id": "1542920778",
+        "name": "ahamo（アハモ）",
+        "genre": "ライフスタイル",
+        "artist": "株式会社NTTドコモ"
+      },
+      {
+        "rank": 95,
+        "id": "1416481094",
+        "name": "My SoftBank",
+        "genre": "ユーティリティ",
+        "artist": "SoftBank Corp."
+      },
+      {
+        "rank": 96,
+        "id": "6739317104",
+        "name": "おぢポ - 歩く・移動でポイ活！歩数、散歩でポイ活アプリ",
+        "genre": "ライフスタイル",
+        "artist": "ALBONA"
+      },
+      {
+        "rank": 97,
+        "id": "494502212",
+        "name": "三菱ＵＦＪ銀行",
+        "genre": "ファイナンス",
+        "artist": "MUFG Bank, Ltd."
+      },
+      {
+        "rank": 98,
+        "id": "434586962",
+        "name": "バイト・アルバイトならタウンワーク 人気バイト求人で仕事探し",
+        "genre": "ライフスタイル",
+        "artist": "Indeed Inc."
+      },
+      {
+        "rank": 99,
+        "id": "1641486558",
+        "name": "Temu: 億万長者気分でお買い物",
+        "genre": "ショッピング",
+        "artist": "Temu"
+      },
+      {
+        "rank": 100,
+        "id": "6448176203",
+        "name": "GoodShort(グッドショート)-ショートドラマいつでも",
+        "genre": "エンターテインメント",
+        "artist": "SINGAPORE NEW READING TECHNOLOGY PTE. LTD."
+      }
+    ]
+  },
+  "topgrossingapplications": {
+    "updated": "2026-10-15T11:09:06-07:00",
+    "apps": [
+      {
+        "rank": 1,
+        "id": "6448311069",
+        "name": "ChatGPT",
+        "genre": "仕事効率化",
+        "artist": "OpenAI OpCo, LLC"
+      },
+      {
+        "rank": 2,
+        "id": "544007664",
+        "name": "YouTube",
+        "genre": "写真／ビデオ",
+        "artist": "Google"
+      },
+      {
+        "rank": 3,
+        "id": "1091496983",
+        "name": "ピッコマ",
+        "genre": "ブック",
+        "artist": "Kakao piccoma Corp."
+      },
+      {
+        "rank": 4,
+        "id": "1235601864",
+        "name": "TikTok ティックトック",
+        "genre": "エンターテインメント",
+        "artist": "TikTok Ltd."
+      },
+      {
+        "rank": 5,
+        "id": "443904275",
+        "name": "LINE",
+        "genre": "ソーシャルネットワーキング",
+        "artist": "LINE Corporation"
+      },
+      {
+        "rank": 6,
+        "id": "1478990007",
+        "name": "アークナイツ",
+        "genre": "ゲーム",
+        "artist": "Yostar, Inc."
+      },
+      {
+        "rank": 7,
+        "id": "597088068",
+        "name": "LINEマンガ",
+        "genre": "ブック",
+        "artist": "LINE Digital Frontier Corporation"
+      },
+      {
+        "rank": 8,
+        "id": "1439417234",
+        "name": "ドラゴンクエストウォーク 歩く楽しみが増える位置情報ゲーム",
+        "genre": "ゲーム",
+        "artist": "SQUARE ENIX"
+      },
+      {
+        "rank": 9,
+        "id": "882477693",
+        "name": "U-NEXT - 映画やドラマ、アニメなどの動画が見放題",
+        "genre": "エンターテインメント",
+        "artist": "U-NEXT Co.,Ltd."
+      },
+      {
+        "rank": 10,
+        "id": "1117270703",
+        "name": "eFootball™",
+        "genre": "ゲーム",
+        "artist": "KONAMI"
+      },
+      {
+        "rank": 11,
+        "id": "951627670",
+        "name": "ドラゴンボールZ ドッカンバトル",
+        "genre": "ゲーム",
+        "artist": "Bandai Namco Entertainment Inc."
+      },
+      {
+        "rank": 12,
+        "id": "658511662",
+        "name": "モンスターストライク",
+        "genre": "ゲーム",
+        "artist": "XFLAG, Inc."
+      },
+      {
+        "rank": 13,
+        "id": "1312031248",
+        "name": "荒野行動-スマホ版バトロワ",
+        "genre": "ゲーム",
+        "artist": "NetEase Games"
+      },
+      {
+        "rank": 14,
+        "id": "6752642477",
+        "name": "アークナイツ：エンドフィールド",
+        "genre": "ゲーム",
+        "artist": "GRYPH FRONTIER PTE.LTD."
+      },
+      {
+        "rank": 15,
+        "id": "1623318294",
+        "name": "ゴシップハーバー：マージ & ストーリー",
+        "genre": "ゲーム",
+        "artist": "Microfun Limited"
+      },
+      {
+        "rank": 16,
+        "id": "966142320",
+        "name": "音楽 LINE MUSIC 最新の歌や曲・ミュージック多数！",
+        "genre": "ミュージック",
+        "artist": "LINE MUSIC CORPORATION"
+      },
+      {
+        "rank": 17,
+        "id": "6443575749",
+        "name": "ホワイトアウト・サバイバル",
+        "genre": "ゲーム",
+        "artist": "Century Games Pte. Ltd."
+      },
+      {
+        "rank": 18,
+        "id": "1074866833",
+        "name": "ABEMA(アベマ) 新しい未来のTV",
+        "genre": "エンターテインメント",
+        "artist": "株式会社AbemaTV"
+      },
+      {
+        "rank": 19,
+        "id": "1663423521",
+        "name": "Wizardry Variants Daphne",
+        "genre": "ゲーム",
+        "artist": "Drecom Co., Ltd."
+      },
+      {
+        "rank": 20,
+        "id": "583376064",
+        "name": "マッチングアプリ Pairs(ペアーズ) 出会い・恋活・婚活",
+        "genre": "ソーシャルネットワーキング",
+        "artist": "eureka,Inc."
+      },
+      {
+        "rank": 21,
+        "id": "1094591345",
+        "name": "Pokémon GO",
+        "genre": "ゲーム",
+        "artist": "Scopely Explore, Inc."
+      },
+      {
+        "rank": 22,
+        "id": "1080235090",
+        "name": "マッチングアプリ with(ウィズ) -出会い",
+        "genre": "ソーシャルネットワーキング",
+        "artist": "with, Inc."
+      },
+      {
+        "rank": 23,
+        "id": "389801252",
+        "name": "Instagram",
+        "genre": "写真／ビデオ",
+        "artist": "Instagram, Inc."
+      },
+      {
+        "rank": 24,
+        "id": "6448786147",
+        "name": "ラストウォー：サバイバル",
+        "genre": "ゲーム",
+        "artist": "FUNFLY PTE. LTD."
+      },
+      {
+        "rank": 25,
+        "id": "6746180100",
+        "name": "幻想水滸伝 STAR LEAP",
+        "genre": "ゲーム",
+        "artist": "KONAMI"
+      },
+      {
+        "rank": 26,
+        "id": "6739554056",
+        "name": "キングショット",
+        "genre": "ゲーム",
+        "artist": "Century Games Pte. Ltd."
+      },
+      {
+        "rank": 27,
+        "id": "1619030760",
+        "name": "zeta - AIキャラ・あなたの推しとロールプレイチャット",
+        "genre": "エンターテインメント",
+        "artist": "Scatter Lab, Inc."
+      },
+      {
+        "rank": 28,
+        "id": "852801905",
+        "name": "マッチングアプリ タップル",
+        "genre": "ソーシャルネットワーキング",
+        "artist": "Tapple, Inc."
+      },
+      {
+        "rank": 29,
+        "id": "1482155847",
+        "name": "ロイヤルマッチ（Royal Match)",
+        "genre": "ゲーム",
+        "artist": "Dream Games"
+      },
+      {
+        "rank": 30,
+        "id": "6479970832",
+        "name": "Pokémon TCG Pocket",
+        "genre": "ゲーム",
+        "artist": "The Pokemon Company"
+      },
+      {
+        "rank": 31,
+        "id": "1176027022",
+        "name": "トゥーンブラスト",
+        "genre": "ゲーム",
+        "artist": "Peak Games"
+      },
+      {
+        "rank": 32,
+        "id": "1494428618",
+        "name": "あんさんぶるスターズ！！Music",
+        "genre": "ゲーム",
+        "artist": "Happy Elements K.K"
+      },
+      {
+        "rank": 33,
+        "id": "1015521325",
+        "name": "Fate/Grand Order",
+        "genre": "ゲーム",
+        "artist": "Aniplex Inc."
+      },
+      {
+        "rank": 34,
+        "id": "962194608",
+        "name": "Google フォト",
+        "genre": "写真／ビデオ",
+        "artist": "Google"
+      },
+      {
+        "rank": 35,
+        "id": "6473753684",
+        "name": "Claude by Anthropic",
+        "genre": "仕事効率化",
+        "artist": "Anthropic PBC"
+      },
+      {
+        "rank": 36,
+        "id": "6447160980",
+        "name": "TikTok Lite",
+        "genre": "エンターテインメント",
+        "artist": "TikTok Ltd."
+      },
+      {
+        "rank": 37,
+        "id": "6471045672",
+        "name": "グルメ・ジャーニー",
+        "genre": "ゲーム",
+        "artist": "Century Games Pte. Ltd."
+      },
+      {
+        "rank": 38,
+        "id": "547702041",
+        "name": "Tinder (ティンダー) - 出会い・マッチングアプリ",
+        "genre": "ライフスタイル",
+        "artist": "Tinder LLC"
+      },
+      {
+        "rank": 39,
+        "id": "940320341",
+        "name": "プロ野球スピリッツＡ",
+        "genre": "ゲーム",
+        "artist": "KONAMI"
+      },
+      {
+        "rank": 40,
+        "id": "549416492",
+        "name": "Hulu / フールー 人気ドラマや映画、アニメなどが見放題",
+        "genre": "エンターテインメント",
+        "artist": "HJ Holdings, Inc."
+      },
+      {
+        "rank": 41,
+        "id": "1517980891",
+        "name": "パズル&サバイバル",
+        "genre": "ゲーム",
+        "artist": "BUILDING-BLOCKS NETWORK TECHNOLOGY CO.,LIMITED"
+      },
+      {
+        "rank": 42,
+        "id": "6756641135",
+        "name": "ホロライブドリームス",
+        "genre": "ゲーム",
+        "artist": "QualiArts, Inc."
+      },
+      {
+        "rank": 43,
+        "id": "945241274",
+        "name": "FOD ドラマやアニメなどテレビの動画が見放題！見逃し配信も",
+        "genre": "エンターテインメント",
+        "artist": "FujiTV"
+      },
+      {
+        "rank": 44,
+        "id": "998542154",
+        "name": "マガポケ - 人気マンガが毎日楽しめるコミックアプリ",
+        "genre": "ブック",
+        "artist": "Kodansha Ltd."
+      },
+      {
+        "rank": 45,
+        "id": "570060128",
+        "name": "Duolingo：英語、韓国語、中国語を学ぼう",
+        "genre": "教育",
+        "artist": "Duolingo"
+      },
+      {
+        "rank": 46,
+        "id": "545519333",
+        "name": "Amazon Prime Video",
+        "genre": "エンターテインメント",
+        "artist": "AMZN Mobile LLC"
+      },
+      {
+        "rank": 47,
+        "id": "1105855019",
+        "name": "ガーデンスケイプ (Gardenscapes)",
+        "genre": "ゲーム",
+        "artist": "Playrix"
+      },
+      {
+        "rank": 48,
+        "id": "6755455500",
+        "name": "ハリウッドマージ",
+        "genre": "ゲーム",
+        "artist": "VoyagerOne"
+      },
+      {
+        "rank": 49,
+        "id": "510855668",
+        "name": "Amazon Music: 音楽やポッドキャスト",
+        "genre": "ミュージック",
+        "artist": "AMZN Mobile LLC"
+      },
+      {
+        "rank": 50,
+        "id": "6767834940",
+        "name": "トップロード",
+        "genre": "ゲーム",
+        "artist": "GAME SPARK PTE. LTD."
+      },
+      {
+        "rank": 51,
+        "id": "6739554561",
+        "name": "信長の野望 真戦",
+        "genre": "ゲーム",
+        "artist": "Qookka Games"
+      },
+      {
+        "rank": 52,
+        "id": "6670324846",
+        "name": "Grok",
+        "genre": "仕事効率化",
+        "artist": "X Corp."
+      },
+      {
+        "rank": 53,
+        "id": "6503272652",
+        "name": "ラストZ：サバイバルシューティング",
+        "genre": "ゲーム",
+        "artist": "Omnilojo Pte Ltd"
+      },
+      {
+        "rank": 54,
+        "id": "1164400646",
+        "name": "#コンパス【戦闘摂理解析システム】",
+        "genre": "ゲーム",
+        "artist": "NHN PlayArt 株式会社"
+      },
+      {
+        "rank": 55,
+        "id": "875750302",
+        "name": "少年ジャンプ＋ 人気漫画が読める雑誌アプリ",
+        "genre": "ブック",
+        "artist": "SHUEISHA Inc."
+      },
+      {
+        "rank": 56,
+        "id": "6775403879",
+        "name": "マビノギモバイル",
+        "genre": "ゲーム",
+        "artist": "NEXON Co., Ltd."
+      },
+      {
+        "rank": 57,
+        "id": "1407165119",
+        "name": "めちゃコミック",
+        "genre": "ブック",
+        "artist": "AMUTUS CORPORATION"
+      },
+      {
+        "rank": 58,
+        "id": "888615473",
+        "name": "LINE ポコポコ：3マッチパズルゲーム",
+        "genre": "ゲーム",
+        "artist": "LINE Corporation"
+      },
+      {
+        "rank": 59,
+        "id": "1500855883",
+        "name": "CapCut：写真＆動画エディター",
+        "genre": "写真／ビデオ",
+        "artist": "Bytedance Pte. Ltd"
+      },
+      {
+        "rank": 60,
+        "id": "422689480",
+        "name": "Gmail - Google のメール",
+        "genre": "仕事効率化",
+        "artist": "Google"
+      },
+      {
+        "rank": 61,
+        "id": "1475221397",
+        "name": "ポケコロツイン　かわいいふたごのアバター着せ替えゲーム",
+        "genre": "ソーシャルネットワーキング",
+        "artist": "ENSAPIA Corporation"
+      },
+      {
+        "rank": 62,
+        "id": "1322310031",
+        "name": "ONE PIECE バウンティラッシュ - アクションゲーム",
+        "genre": "ゲーム",
+        "artist": "Bandai Namco Entertainment Inc."
+      },
+      {
+        "rank": 63,
+        "id": "6670430706",
+        "name": "DramaWave - 日本 / 韓国 / 人気短編ドラマ",
+        "genre": "エンターテインメント",
+        "artist": "SKYWORK AI PTE LTD"
+      },
+      {
+        "rank": 64,
+        "id": "6504849169",
+        "name": "NetShort - 人気短編ドラマ",
+        "genre": "エンターテインメント",
+        "artist": "NETSTORY PTE. LTD."
+      },
+      {
+        "rank": 65,
+        "id": "6475757306",
+        "name": "Disney Solitaire ディズニー ソリティア",
+        "genre": "ゲーム",
+        "artist": "SuperPlay"
+      },
+      {
+        "rank": 66,
+        "id": "6692611665",
+        "name": "SDガンダム ジージェネレーション エターナル",
+        "genre": "ゲーム",
+        "artist": "Bandai Namco Entertainment Inc."
+      },
+      {
+        "rank": 67,
+        "id": "6479391944",
+        "name": "トリッカル・もちもちほっペ大作戦",
+        "genre": "ゲーム",
+        "artist": "BILIBILI HK LIMITED"
+      },
+      {
+        "rank": 68,
+        "id": "724594093",
+        "name": "LINE：ディズニー ツムツム",
+        "genre": "ゲーム",
+        "artist": "LINE Corporation"
+      },
+      {
+        "rank": 69,
+        "id": "1195621598",
+        "name": "ホームスケイプ (Homescapes)",
+        "genre": "ゲーム",
+        "artist": "Playrix"
+      },
+      {
+        "rank": 70,
+        "id": "1434519042",
+        "name": "メイプルストーリーＭ",
+        "genre": "ゲーム",
+        "artist": "NEXON Company"
+      },
+      {
+        "rank": 71,
+        "id": "638689075",
+        "name": "タウンシップ (Township)",
+        "genre": "ゲーム",
+        "artist": "Playrix"
+      },
+      {
+        "rank": 72,
+        "id": "396855834",
+        "name": "日本経済新聞 電子版 - ビジネス・政治・金融・経済ニュース",
+        "genre": "ニュース",
+        "artist": "NIKKEI INC."
+      },
+      {
+        "rank": 73,
+        "id": "1553045339",
+        "name": "リヴリーアイランド ペットと暮らす小さな箱庭サイズの島",
+        "genre": "ソーシャルネットワーキング",
+        "artist": "ENSAPIA Corporation"
+      },
+      {
+        "rank": 74,
+        "id": "664575829",
+        "name": "フィッシュダム(Fishdom)",
+        "genre": "ゲーム",
+        "artist": "Playrix"
+      },
+      {
+        "rank": 75,
+        "id": "1446075923",
+        "name": "Disney+",
+        "genre": "エンターテインメント",
+        "artist": "Disney"
+      },
+      {
+        "rank": 76,
+        "id": "493470467",
+        "name": "パズル＆ドラゴンズ",
+        "genre": "ゲーム",
+        "artist": "GungHo Online Entertainment, Inc."
+      },
+      {
+        "rank": 77,
+        "id": "333903271",
+        "name": "X",
+        "genre": "ニュース",
+        "artist": "X Corp."
+      },
+      {
+        "rank": 78,
+        "id": "6502942931",
+        "name": "P5X ペルソナ５: The Phantom X",
+        "genre": "ゲーム",
+        "artist": "SEGA CORPORATION"
+      },
+      {
+        "rank": 79,
+        "id": "6744629457",
+        "name": "キャラぷ - 物語はキミ次第・AIチャット",
+        "genre": "エンターテインメント",
+        "artist": "Wrtn Technologies Japan Inc."
+      },
+      {
+        "rank": 80,
+        "id": "6747736697",
+        "name": "ドラゴンクエストスマッシュグロウ ドラクエローグライトRPG",
+        "genre": "ゲーム",
+        "artist": "SQUARE ENIX"
+      },
+      {
+        "rank": 81,
+        "id": "6741567125",
+        "name": "モンスターサバイバル",
+        "genre": "ゲーム",
+        "artist": "Farlight Games"
+      },
+      {
+        "rank": 82,
+        "id": "1611490041",
+        "name": "メメントモリ",
+        "genre": "ゲーム",
+        "artist": "Bank of Innovation, Inc"
+      },
+      {
+        "rank": 83,
+        "id": "431946152",
+        "name": "Roblox (ロブロックス)",
+        "genre": "ゲーム",
+        "artist": "Roblox Corporation"
+      },
+      {
+        "rank": 84,
+        "id": "1606549505",
+        "name": "ロイヤルキングダム (Royal Kingdom)",
+        "genre": "ゲーム",
+        "artist": "Dream Games"
+      },
+      {
+        "rank": 85,
+        "id": "6445906110",
+        "name": "モンスターハンターNow",
+        "genre": "ゲーム",
+        "artist": "Scopely Explore, Inc."
+      },
+      {
+        "rank": 86,
+        "id": "1175969205",
+        "name": "Pococha Live",
+        "genre": "ソーシャルネットワーキング",
+        "artist": "DeNA Co., Ltd."
+      },
+      {
+        "rank": 87,
+        "id": "446747531",
+        "name": "ピクトリンク",
+        "genre": "写真／ビデオ",
+        "artist": "FURYU Corporation"
+      },
+      {
+        "rank": 88,
+        "id": "1229016807",
+        "name": "ブロスタ",
+        "genre": "ゲーム",
+        "artist": "Supercell"
+      },
+      {
+        "rank": 89,
+        "id": "1032346221",
+        "name": "妖怪ウォッチ ぷにぷに",
+        "genre": "ゲーム",
+        "artist": "Level-5 Inc."
+      },
+      {
+        "rank": 90,
+        "id": "1517783697",
+        "name": "原神-6周年",
+        "genre": "ゲーム",
+        "artist": "COGNOSPHERE PTE. LTD."
+      },
+      {
+        "rank": 91,
+        "id": "1017492454",
+        "name": "YouTube Music：音楽、ポッドキャスト",
+        "genre": "ミュージック",
+        "artist": "Google"
+      },
+      {
+        "rank": 92,
+        "id": "6445905219",
+        "name": "DramaBox（ドラマボックス） -ショートドラマ見放題",
+        "genre": "エンターテインメント",
+        "artist": "STORYMATRIX PTE. LTD."
+      },
+      {
+        "rank": 93,
+        "id": "728214964",
+        "name": "dアニメストア　アニメ動画見放題アプリ/マルチデバイス対応",
+        "genre": "エンターテインメント",
+        "artist": "株式会社NTTドコモ"
+      },
+      {
+        "rank": 94,
+        "id": "6756994116",
+        "name": "イナズマイレブン クロス",
+        "genre": "ゲーム",
+        "artist": "Level-5 Inc."
+      },
+      {
+        "rank": 95,
+        "id": "521055533",
+        "name": "出会い・出会い系はハッピー｜マッチングアプリ｜マッチング",
+        "genre": "ソーシャルネットワーキング",
+        "artist": "株式会社アイベック"
+      },
+      {
+        "rank": 96,
+        "id": "750823886",
+        "name": "出会い - ワクワク（わくわく）- マッチングアプリ",
+        "genre": "ソーシャルネットワーキング",
+        "artist": "WAKUPL,Inc."
+      },
+      {
+        "rank": 97,
+        "id": "1286609883",
+        "name": "AI英会話スピーク - スピーキング練習で発音や英語を勉強",
+        "genre": "教育",
+        "artist": "Speakeasy Labs"
+      },
+      {
+        "rank": 98,
+        "id": "1599719154",
+        "name": "崩壊：スターレイル",
+        "genre": "ゲーム",
+        "artist": "COGNOSPHERE PTE. LTD."
+      },
+      {
+        "rank": 99,
+        "id": "594145971",
+        "name": "家計簿マネーフォワード ME - 資産管理もこれ一つで",
+        "genre": "ファイナンス",
+        "artist": "Money Forward Home, Inc."
+      },
+      {
+        "rank": 100,
+        "id": "1579464667",
+        "name": "Pokémon Sleep",
+        "genre": "ゲーム",
+        "artist": "The Pokemon Company"
+      }
+    ]
+  },
+  "toppaidapplications": {
+    "updated": "2026-10-15T11:09:10-07:00",
+    "apps": [
+      {
+        "rank": 1,
+        "id": "1542957396",
+        "name": "妖怪ウォッチ1 スマホ",
+        "genre": "ゲーム",
+        "artist": "Level-5 Inc."
+      },
+      {
+        "rank": 2,
+        "id": "479516143",
+        "name": "Minecraft: クラフト、建築、サバイバル",
+        "genre": "ゲーム",
+        "artist": "Mojang"
+      },
+      {
+        "rank": 3,
+        "id": "6469114836",
+        "name": "スイカゲーム-Aladdin X",
+        "genre": "ゲーム",
+        "artist": "XGIMI LIMITED"
+      },
+      {
+        "rank": 4,
+        "id": "6783610245",
+        "name": "パチスロ 戦国コレクション６",
+        "genre": "ゲーム",
+        "artist": "KONAMI"
+      },
+      {
+        "rank": 5,
+        "id": "6749456796",
+        "name": "Vampire Crawlers",
+        "genre": "ゲーム",
+        "artist": "Poncle"
+      },
+      {
+        "rank": 6,
+        "id": "6762255813",
+        "name": "スマスロ とある魔術の禁書目録2",
+        "genre": "ゲーム",
+        "artist": "SUNSOFT"
+      },
+      {
+        "rank": 7,
+        "id": "6802539506",
+        "name": "スマスロ 甲鉄城のカバネリ 海門（うなと）決戦",
+        "genre": "ゲーム",
+        "artist": "Sammy Networks Co., Ltd."
+      },
+      {
+        "rank": 8,
+        "id": "1071235820",
+        "name": "280blocker",
+        "genre": "ユーティリティ",
+        "artist": "Tobila Systems Inc."
+      },
+      {
+        "rank": 9,
+        "id": "6762605506",
+        "name": "パチスロ 革命機ヴァルヴレイヴ2",
+        "genre": "ゲーム",
+        "artist": "CommSeed Corporation"
+      },
+      {
+        "rank": 10,
+        "id": "6815756255",
+        "name": "ダンジョンの入口でタクティクスでもしようよ",
+        "genre": "ゲーム",
+        "artist": "Makio Abe"
+      },
+      {
+        "rank": 11,
+        "id": "6754894237",
+        "name": "CloverPit",
+        "genre": "ゲーム",
+        "artist": "Future Friends Games"
+      },
+      {
+        "rank": 12,
+        "id": "6749684876",
+        "name": "アルキオネ：化学パズル",
+        "genre": "ゲーム",
+        "artist": "Boil Studio Inc."
+      },
+      {
+        "rank": 13,
+        "id": "6757778100",
+        "name": "トルネコの大冒険 不思議のダンジョン",
+        "genre": "ゲーム",
+        "artist": "SQUARE ENIX"
+      },
+      {
+        "rank": 14,
+        "id": "932747118",
+        "name": "Shadowrocket",
+        "genre": "ユーティリティ",
+        "artist": "Shadow Launch Technology Limited"
+      },
+      {
+        "rank": 15,
+        "id": "1491530147",
+        "name": "Slay the Spire",
+        "genre": "ゲーム",
+        "artist": "Balor Games"
+      },
+      {
+        "rank": 16,
+        "id": "933111586",
+        "name": "ドラゴンクエストV 天空の花嫁",
+        "genre": "ゲーム",
+        "artist": "SQUARE ENIX"
+      },
+      {
+        "rank": 17,
+        "id": "6741251510",
+        "name": "スマスロ モンスターハンターライズ",
+        "genre": "ゲーム",
+        "artist": "CommSeed Corporation"
+      },
+      {
+        "rank": 18,
+        "id": "373493387",
+        "name": "AnkiMobile Flashcards",
+        "genre": "教育",
+        "artist": "Anki Software, LLC"
+      },
+      {
+        "rank": 19,
+        "id": "6790289724",
+        "name": "無限ほりほり: 採掘・作業ゲーム",
+        "genre": "ゲーム",
+        "artist": "Hachiware, LLC."
+      },
+      {
+        "rank": 20,
+        "id": "1621065119",
+        "name": "逆転裁判123 成歩堂セレクション",
+        "genre": "ゲーム",
+        "artist": "CAPCOM"
+      },
+      {
+        "rank": 21,
+        "id": "1496918059",
+        "name": "ドラゴンクエストモンスターズ2　イルとルカの不思議な鍵SP",
+        "genre": "ゲーム",
+        "artist": "SQUARE ENIX"
+      },
+      {
+        "rank": 22,
+        "id": "6810914372",
+        "name": "ダンジョンの入口でキャンプでもしようよ。",
+        "genre": "ゲーム",
+        "artist": "Makio Abe"
+      },
+      {
+        "rank": 23,
+        "id": "6670469064",
+        "name": "８番出口",
+        "genre": "ゲーム",
+        "artist": "ACTIVE GAMING MEDIA Inc."
+      },
+      {
+        "rank": 24,
+        "id": "6547834967",
+        "name": "どうぶつの森 ポケットキャンプ コンプリート",
+        "genre": "ゲーム",
+        "artist": "Nintendo Co., Ltd."
+      },
+      {
+        "rank": 25,
+        "id": "525818839",
+        "name": "Plague Inc. -伝染病株式会社-",
+        "genre": "ゲーム",
+        "artist": "Ndemic Creations"
+      },
+      {
+        "rank": 26,
+        "id": "6747757142",
+        "name": "パチスロ かぐや様は告らせたい",
+        "genre": "ゲーム",
+        "artist": "CommSeed Corporation"
+      },
+      {
+        "rank": 27,
+        "id": "6755046527",
+        "name": "Dome Keeper ドームキーパー",
+        "genre": "ゲーム",
+        "artist": "Raw Fury"
+      },
+      {
+        "rank": 28,
+        "id": "1406710800",
+        "name": "Stardew Valley 「スターデューバレー」",
+        "genre": "ゲーム",
+        "artist": "ConcernedApe"
+      },
+      {
+        "rank": 29,
+        "id": "6761606472",
+        "name": "スマスロ 新鬼武者3",
+        "genre": "ゲーム",
+        "artist": "CommSeed Corporation"
+      },
+      {
+        "rank": 30,
+        "id": "6760401505",
+        "name": "ファンタジーライフｉ",
+        "genre": "ゲーム",
+        "artist": "Level-5 Inc."
+      },
+      {
+        "rank": 31,
+        "id": "1372670435",
+        "name": "ドラゴンクエストモンスターズ　テリーのワンダーランドSP",
+        "genre": "ゲーム",
+        "artist": "SQUARE ENIX"
+      },
+      {
+        "rank": 32,
+        "id": "6752765295",
+        "name": "スマスロ マギアレコード 魔法少女まどかマギカ外伝",
+        "genre": "ゲーム",
+        "artist": "Universal Entertainment Corporation"
+      },
+      {
+        "rank": 33,
+        "id": "6801787689",
+        "name": "ブリードクラシック - 競馬ゲーム",
+        "genre": "ゲーム",
+        "artist": "TETSUSHI YUKI"
+      },
+      {
+        "rank": 34,
+        "id": "1468034815",
+        "name": "ヒューマン フォール フラット",
+        "genre": "ゲーム",
+        "artist": "505 Games (US), Inc."
+      },
+      {
+        "rank": 35,
+        "id": "6467176169",
+        "name": "リスパス - リスニングで合格！英語共通テスト・大学受験対策",
+        "genre": "教育",
+        "artist": "FALE Inc."
+      },
+      {
+        "rank": 36,
+        "id": "1179959829",
+        "name": "オービスガイド - 移動式オービス・ネズミ捕り対応",
+        "genre": "ナビゲーション",
+        "artist": "Pasoya Co.,Ltd."
+      },
+      {
+        "rank": 37,
+        "id": "1117998129",
+        "name": "ヒューマン・アナトミー・アトラス2027",
+        "genre": "メディカル",
+        "artist": "Visible Body Apps"
+      },
+      {
+        "rank": 38,
+        "id": "6763737180",
+        "name": "YoungPhoto - エモい構図カメラ",
+        "genre": "写真／ビデオ",
+        "artist": "Seungyun Kim"
+      },
+      {
+        "rank": 39,
+        "id": "6762813110",
+        "name": "Sifu",
+        "genre": "ゲーム",
+        "artist": "Kepler Interactive"
+      },
+      {
+        "rank": 40,
+        "id": "6754688764",
+        "name": "不思議のダンジョン 風来のシレン6plus",
+        "genre": "ゲーム",
+        "artist": "Spike-Chunsoft CO, LTD."
+      },
+      {
+        "rank": 41,
+        "id": "6760749740",
+        "name": "[パチスロ]真打 吉宗",
+        "genre": "ゲーム",
+        "artist": "PAON DP Inc."
+      },
+      {
+        "rank": 42,
+        "id": "793749059",
+        "name": "ドラゴンクエストIV 導かれし者たち",
+        "genre": "ゲーム",
+        "artist": "SQUARE ENIX"
+      },
+      {
+        "rank": 43,
+        "id": "949737947",
+        "name": "ドラゴンクエストVI 幻の大地",
+        "genre": "ゲーム",
+        "artist": "SQUARE ENIX"
+      },
+      {
+        "rank": 44,
+        "id": "1456714515",
+        "name": "ドラゴンクエストモンスターズテリーのワンダーランドRETRO",
+        "genre": "ゲーム",
+        "artist": "SQUARE ENIX"
+      },
+      {
+        "rank": 45,
+        "id": "1350400235",
+        "name": "レイトン教授と不思議な町 EXHD for スマートフォン",
+        "genre": "ゲーム",
+        "artist": "Level-5 Inc."
+      },
+      {
+        "rank": 46,
+        "id": "6755099956",
+        "name": "スマスロ ゴッドイーターリザレクション",
+        "genre": "ゲーム",
+        "artist": "Sammy Networks Co., Ltd."
+      },
+      {
+        "rank": 47,
+        "id": "730263398",
+        "name": "ドラゴンクエストVIII 空と海と大地と呪われし姫君",
+        "genre": "ゲーム",
+        "artist": "SQUARE ENIX"
+      },
+      {
+        "rank": 48,
+        "id": "1356172905",
+        "name": "Golfing Over It",
+        "genre": "ゲーム",
+        "artist": "Alvaro Mahillo Sanchez-Mateos"
+      },
+      {
+        "rank": 49,
+        "id": "6786246807",
+        "name": "ファッションモール物語",
+        "genre": "ゲーム",
+        "artist": "Kairosoft Co.,Ltd"
+      },
+      {
+        "rank": 50,
+        "id": "443332137",
+        "name": "どんどん話すための瞬間英作文トレーニング",
+        "genre": "教育",
+        "artist": "Beret Publishing Co. INC"
+      },
+      {
+        "rank": 51,
+        "id": "6749560544",
+        "name": "魔王城ものがたり",
+        "genre": "ゲーム",
+        "artist": "Kairosoft Co.,Ltd"
+      },
+      {
+        "rank": 52,
+        "id": "6762803589",
+        "name": "Slots & Daggers",
+        "genre": "ゲーム",
+        "artist": "Future Friends Games"
+      },
+      {
+        "rank": 53,
+        "id": "793660476",
+        "name": "テラリア",
+        "genre": "ゲーム",
+        "artist": "Spike-Chunsoft CO, LTD."
+      },
+      {
+        "rank": 54,
+        "id": "1456547302",
+        "name": "A Dance of Fire and Ice",
+        "genre": "ゲーム",
+        "artist": "7th Beat Games S.A.C."
+      },
+      {
+        "rank": 55,
+        "id": "6747067433",
+        "name": "e女神のカフェテラス",
+        "genre": "ゲーム",
+        "artist": "SUNSOFT"
+      },
+      {
+        "rank": 56,
+        "id": "1239299402",
+        "name": "ストリートファイターIV CHAMPION EDITION",
+        "genre": "ゲーム",
+        "artist": "CAPCOM"
+      },
+      {
+        "rank": 57,
+        "id": "6499201223",
+        "name": "CalCs - Calendar Complications",
+        "genre": "ユーティリティ",
+        "artist": "Akihiro Usui"
+      },
+      {
+        "rank": 58,
+        "id": "6739180076",
+        "name": "Trans4motor R トランスフォーモーター",
+        "genre": "教育",
+        "artist": "Kitt Peak, Inc."
+      },
+      {
+        "rank": 59,
+        "id": "6476544023",
+        "name": "【激J slot】スマスロモンキーターンⅤ",
+        "genre": "ゲーム",
+        "artist": "DORASU CORPORATION"
+      },
+      {
+        "rank": 60,
+        "id": "317809458",
+        "name": "LiveATC Air Radio",
+        "genre": "旅行",
+        "artist": "Dave Pascoe"
+      },
+      {
+        "rank": 61,
+        "id": "6761354266",
+        "name": "スマスロ 攻殻機動隊",
+        "genre": "ゲーム",
+        "artist": "Sammy Networks Co., Ltd."
+      },
+      {
+        "rank": 62,
+        "id": "763692274",
+        "name": "Grand Theft Auto: San Andreas",
+        "genre": "ゲーム",
+        "artist": "Rockstar Games"
+      },
+      {
+        "rank": 63,
+        "id": "6572290447",
+        "name": "バックパック・バトル",
+        "genre": "ゲーム",
+        "artist": "Yaozuo Games Ltd"
+      },
+      {
+        "rank": 64,
+        "id": "479428095",
+        "name": "クロノ・トリガー （アップグレード版）",
+        "genre": "ゲーム",
+        "artist": "SQUARE ENIX"
+      },
+      {
+        "rank": 65,
+        "id": "6446021269",
+        "name": "ロックマンX DiVE オフライン",
+        "genre": "ゲーム",
+        "artist": "CAPCOM"
+      },
+      {
+        "rank": 66,
+        "id": "1573482724",
+        "name": "Coffee Inc 2",
+        "genre": "ゲーム",
+        "artist": "Side Labs LLC"
+      },
+      {
+        "rank": 67,
+        "id": "1094038347",
+        "name": "君しかいない",
+        "genre": "ゲーム",
+        "artist": "Danil Malinov"
+      },
+      {
+        "rank": 68,
+        "id": "6463375487",
+        "name": "L戦国乙女4 戦乱に閃く炯眼の軍師",
+        "genre": "ゲーム",
+        "artist": "CommSeed Corporation"
+      },
+      {
+        "rank": 69,
+        "id": "500676238",
+        "name": "ブラックビデオ (BlackVideo)",
+        "genre": "写真／ビデオ",
+        "artist": "AppMadang"
+      },
+      {
+        "rank": 70,
+        "id": "1319618742",
+        "name": "Getting Over It",
+        "genre": "ゲーム",
+        "artist": "Bennett Foddy"
+      },
+      {
+        "rank": 71,
+        "id": "6759634099",
+        "name": "L 少女 歌劇 レヴュースタァライト -The SLOT-",
+        "genre": "ゲーム",
+        "artist": "DORASU CORPORATION"
+      },
+      {
+        "rank": 72,
+        "id": "6814210373",
+        "name": "Auday - All-Day Watch Recorder",
+        "genre": "ライフスタイル",
+        "artist": "航江 郭"
+      },
+      {
+        "rank": 73,
+        "id": "6768917844",
+        "name": "日本事故物件監視協会3 -JSP3-",
+        "genre": "ゲーム",
+        "artist": "株式会社Loxarc"
+      },
+      {
+        "rank": 74,
+        "id": "1230334778",
+        "name": "大逆転裁判",
+        "genre": "ゲーム",
+        "artist": "CAPCOM"
+      },
+      {
+        "rank": 75,
+        "id": "469342624",
+        "name": "ロックマンX",
+        "genre": "ゲーム",
+        "artist": "CAPCOM"
+      },
+      {
+        "rank": 76,
+        "id": "6759664029",
+        "name": "Kingdom Rush 6: Genesis TD",
+        "genre": "ゲーム",
+        "artist": "Ironhide S.A."
+      },
+      {
+        "rank": 77,
+        "id": "1164801111",
+        "name": "AutoSleep 睡眠の追跡をWatchで",
+        "genre": "ヘルスケア／フィットネス",
+        "artist": "Tantsissa"
+      },
+      {
+        "rank": 78,
+        "id": "6758508981",
+        "name": "スマスロ 化物語",
+        "genre": "ゲーム",
+        "artist": "Sammy Networks Co., Ltd."
+      },
+      {
+        "rank": 79,
+        "id": "6502453075",
+        "name": "Balatro",
+        "genre": "ゲーム",
+        "artist": "Playstack Ltd"
+      },
+      {
+        "rank": 80,
+        "id": "1492041539",
+        "name": "FINAL FANTASY VI",
+        "genre": "ゲーム",
+        "artist": "SQUARE ENIX"
+      },
+      {
+        "rank": 81,
+        "id": "916366645",
+        "name": "Procreate Pocket",
+        "genre": "グラフィック／デザイン",
+        "artist": "Savage Interactive Pty Ltd"
+      },
+      {
+        "rank": 82,
+        "id": "1248649955",
+        "name": "逆転裁判6",
+        "genre": "ゲーム",
+        "artist": "CAPCOM"
+      },
+      {
+        "rank": 83,
+        "id": "6761328517",
+        "name": "ダンジョンウィズイン",
+        "genre": "ゲーム",
+        "artist": "GameCoaster"
+      },
+      {
+        "rank": 84,
+        "id": "6818320422",
+        "name": "放置カードRPGセカンドウェーブ",
+        "genre": "ゲーム",
+        "artist": "akaimikan"
+      },
+      {
+        "rank": 85,
+        "id": "6758579274",
+        "name": "さんぽ神｜ドロッセルマイヤーさんの公式ゆるゲーアプリ",
+        "genre": "エンターテインメント",
+        "artist": "Qdan Inc."
+      },
+      {
+        "rank": 86,
+        "id": "6449832222",
+        "name": "新世紀エヴァンゲリオン～未来への咆哮～",
+        "genre": "ゲーム",
+        "artist": "CommSeed Corporation"
+      },
+      {
+        "rank": 87,
+        "id": "6759667009",
+        "name": "超増税都市",
+        "genre": "ゲーム",
+        "artist": "Ota Sora"
+      },
+      {
+        "rank": 88,
+        "id": "468640323",
+        "name": "パブロフ簿記２級商業簿記",
+        "genre": "教育",
+        "artist": "yudai yoseda"
+      },
+      {
+        "rank": 89,
+        "id": "6478494156",
+        "name": "パチスロ 炎炎ノ消防隊",
+        "genre": "ゲーム",
+        "artist": "CommSeed Corporation"
+      },
+      {
+        "rank": 90,
+        "id": "6741474933",
+        "name": "Berryフィルム - 韓国風セルフィー",
+        "genre": "写真／ビデオ",
+        "artist": "Seungyun Kim"
+      },
+      {
+        "rank": 91,
+        "id": "6759147233",
+        "name": "スマスロ 北斗の拳 転生の章2",
+        "genre": "ゲーム",
+        "artist": "Sammy Networks Co., Ltd."
+      },
+      {
+        "rank": 92,
+        "id": "912536422",
+        "name": "Five Nights at Freddy's",
+        "genre": "ゲーム",
+        "artist": "CLICKTEAM LLC USA"
+      },
+      {
+        "rank": 93,
+        "id": "1548403918",
+        "name": "Sファンキージャグラー2",
+        "genre": "ゲーム",
+        "artist": "Kita Denshi Corporation"
+      },
+      {
+        "rank": 94,
+        "id": "1021564440",
+        "name": "FINAL FANTASY VII",
+        "genre": "ゲーム",
+        "artist": "SQUARE ENIX"
+      },
+      {
+        "rank": 95,
+        "id": "504102949",
+        "name": "パブロフ簿記２級工業簿記",
+        "genre": "教育",
+        "artist": "Atsuko Yoseda"
+      },
+      {
+        "rank": 96,
+        "id": "6780263761",
+        "name": "Pocket Rumble 〜 軍勢リアルタイムバトル",
+        "genre": "ゲーム",
+        "artist": "HIROYUKI KANNARI"
+      },
+      {
+        "rank": 97,
+        "id": "6504323939",
+        "name": "ドラゴンクエストX　目覚めし五つの種族　オフライン",
+        "genre": "ゲーム",
+        "artist": "SQUARE ENIX"
+      },
+      {
+        "rank": 98,
+        "id": "1449584007",
+        "name": "Koala Sampler • Beat Maker",
+        "genre": "ミュージック",
+        "artist": "Mazbox Limited"
+      }
+    ]
+  }
+}

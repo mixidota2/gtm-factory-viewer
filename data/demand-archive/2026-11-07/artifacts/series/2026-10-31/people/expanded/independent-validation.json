@@ -1,0 +1,11 @@
+{
+  "decimal_raw_cell_checks": 290,
+  "all_pass": true,
+  "exact_source_columns": "AM:AX previous12, AY:BJ latest12",
+  "prior_week_rows_raw_exact": true,
+  "prior_week_raw_sha256": {
+    "free": "01df8cc632cc09e32c5883a50d3930628e740e568bf95009668623245cb5e7b5",
+    "grossing": "2f64babb1178375584d9ff44a93d7e9f43ac109a5a994d88a1544f73fdf3e0df",
+    "paid": "fd9addcf7dc6c9703f9b67ae5b5bf83426ba3359be40e4a8dec74166a229b428"
+  }
+}

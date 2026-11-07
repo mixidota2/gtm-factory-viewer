@@ -1,0 +1,19 @@
+{
+  "date_jst": "2026-10-29",
+  "performed_at_utc": "2026-10-28T21:50/21:51Z",
+  "queries": [
+    "site.stat.go.jp 家計調査 427 他の工事費 内容例示",
+    "site.mlit.go.jp 2026 リフォーム リニューアル 受注 調査 住宅 第1四半期",
+    "site.stat.go.jp/data/kakei/2025 427 他の工事費",
+    "site.mlit.go.jp リフォーム 調査 2026年度 住宅 受注高 2025年度 49033"
+  ],
+  "discovery_only_not_evidence": [
+    "classification search snippets",
+    "secondary annual2025 totals"
+  ],
+  "new_fetch_bodies": [
+    "https://www.mlit.go.jp/statistics/details/t-other-2_tk_000220.html"
+  ],
+  "retained_source_new_extraction": "002021195.pdf tables2-2 and2-4",
+  "search_stopping_reason": "427 scope and household substitution were established. Existing official source gives mixed relevant quantities; no defensible427aggregate. Broad annual data would not fix mismatch."
+}

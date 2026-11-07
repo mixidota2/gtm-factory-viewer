@@ -1,0 +1,26 @@
+{
+  "checks": [
+    {
+      "chart": "free",
+      "raw_sha256_rows_order_unique_ids_and_jst": "pass",
+      "count": 100
+    },
+    {
+      "chart": "grossing",
+      "raw_sha256_rows_order_unique_ids_and_jst": "pass",
+      "count": 100
+    },
+    {
+      "chart": "paid",
+      "raw_sha256_rows_order_unique_ids_and_jst": "pass",
+      "count": 99
+    }
+  ],
+  "observation_count": 13,
+  "consecutive_days": 12,
+  "four_week_eligible": false,
+  "growth_promoted": false,
+  "missing_dates_preserved": true,
+  "weekly_comparison": "Not repeated; completed Oct24",
+  "older_raw_reaudited": false
+}

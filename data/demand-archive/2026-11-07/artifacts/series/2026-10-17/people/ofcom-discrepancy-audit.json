@@ -1,0 +1,108 @@
+{
+  "review_status": "bounded_review_complete_with_unresolved_source_limits",
+  "report_publication_date": "2026-07-29",
+  "target_year": 2025,
+  "retrieved_date_utc": "2026-10-16",
+  "retrieved_date_jst": "2026-10-17",
+  "source_url": "https://www.ofcom.org.uk/siteassets/resources/documents/research-and-data/multi-sector/media-nations/2026/media-nations-2026-uk-report.pdf?v=423157",
+  "source_scope": "web-extracted PDF text; relevant pages only; no visual verification",
+  "viewing_total": {
+    "overview_minutes": 267,
+    "overview_location": "p4",
+    "detail_minutes": 263,
+    "detail_locations": [
+      "p18",
+      "Figure13 p21",
+      "p22"
+    ],
+    "figure13_components_minutes": {
+      "live": 90,
+      "recorded": 21,
+      "bvod": 28,
+      "svod_avod": 42,
+      "vsp": 51,
+      "other_tv_set_use": 31
+    },
+    "components_sum": 263,
+    "population": "all UK individuals aged4+; in-home; TV and devices on home network",
+    "reconciliation": "unresolved; detailed table and body agree; no documented population or category difference explains overview discrepancy",
+    "editorial_use": "Do not silently replace overview or promote total growth. Source-specific detail can be cited only with discrepancy disclosure."
+  },
+  "svod_avod": {
+    "population": "all UK individuals4+, including non-users",
+    "scope": "in-home TV sets and devices on home Wi-Fi; subscriptions and ad-funded VoD; excludes NOW assigned to BVoD",
+    "figure29_years": [
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "figure29_all4plus_minutes": [
+      36,
+      39,
+      40,
+      42
+    ],
+    "body2025_minutes": 42,
+    "body_reported_yoy_change_minutes": 3,
+    "body2024_direct_value": null,
+    "prior39_inference_invalid_as_exact_value": true,
+    "rounding_explanation": "possible not verified",
+    "illustrative_not_observed_example": {
+      "raw2024": 39.5,
+      "raw2025": 42.4,
+      "rounded_endpoints": [
+        40,
+        42
+      ],
+      "rounded_change": 3
+    },
+    "conclusion": "direction of increase agrees; unrounded values and precise growth rate unverified; not a confirmed contradiction"
+  },
+  "svod_household_adoption": {
+    "q1_2026_ofcom_rounded_pct": 70,
+    "q1_2026_barb_pct": 70.3,
+    "q1_2026_barb_households_million": 20.8,
+    "barb_publication_date": "2026-05-21",
+    "barb_url": "https://www.barb.co.uk/news/barb-data-show-that-20-8m-uk-homes-had-access-to-an-svod-service-in-q1-2026/",
+    "definition": "UK households with paid subscription or free trial; includes NOW, unlike viewing SVoD/AVoD grouping",
+    "overview_comparison_start": "Q1 2022",
+    "body_comparison_start": "2021 quarter unspecified",
+    "missing_periods_in_figure28": [
+      "Q2 2020",
+      "Q4 2020",
+      "Q1 2021"
+    ],
+    "conclusion": "Q1 2026 level crosschecked against original provider; baseline growth withheld; not claimed latest quarter"
+  },
+  "scope_differences": {
+    "fig29": "SVoD/AVoD average minutes per person per day, all devices at home",
+    "fig30": "genre total hours per person per year, TV sets only",
+    "fig13": "all video categories including other TV set use",
+    "adoption": "household access, different year/quarter and category coverage",
+    "japan": "ages13-79, internet video including wider services; daily diary; no country ranking"
+  },
+  "methodology": {
+    "source": "https://www.ofcom.org.uk/siteassets/resources/documents/research-and-data/multi-sector/media-nations/2026/annex-methodologies.pdf?v=423148",
+    "pages": [
+      7,
+      8
+    ],
+    "as_viewed": "unless otherwise stated; not tied back to scheduled transmission",
+    "excluded": [
+      "out-of-home viewing",
+      "gaming on TV sets",
+      "radio listening"
+    ],
+    "barb_panel_approx_homes": 7000,
+    "barb_panel_approx_people": 16000,
+    "report_2024_onward_comparability": "Barb only;2022 retrospectively recalculated; do not splice older all-location estimates without adjustment"
+  },
+  "access_limits": {
+    "direct_pdf_download": "403 for report and methods; no retries or bypass",
+    "barb_annual_report": "normal link redirected to login; stopped",
+    "unrounded_data": "not obtained",
+    "full_pdf_bytes_sha256": null
+  },
+  "motivations": "No motives, satisfaction, willingness to pay or causality inferred from time/adoption."
+}

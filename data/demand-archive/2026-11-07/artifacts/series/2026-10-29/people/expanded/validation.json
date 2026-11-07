@@ -1,0 +1,504 @@
+{
+  "date_jst": "2026-10-29",
+  "status": "PASS",
+  "checks": [
+    {
+      "chart": "free",
+      "rows_checked": 100,
+      "raw_hash_match": true,
+      "byte_length_match": true,
+      "ordered_records_match": true,
+      "unique_ids": true,
+      "contiguous_ranks": true,
+      "date_jst_match": true,
+      "attempts": 1
+    },
+    {
+      "chart": "grossing",
+      "rows_checked": 100,
+      "raw_hash_match": true,
+      "byte_length_match": true,
+      "ordered_records_match": true,
+      "unique_ids": true,
+      "contiguous_ranks": true,
+      "date_jst_match": true,
+      "attempts": 1
+    },
+    {
+      "chart": "paid",
+      "rows_checked": 99,
+      "raw_hash_match": true,
+      "byte_length_match": true,
+      "ordered_records_match": true,
+      "unique_ids": true,
+      "contiguous_ranks": true,
+      "date_jst_match": true,
+      "attempts": 1
+    }
+  ],
+  "rows_checked": 299,
+  "verification_scope": "Separate raw-byte reparsing script, same agent; not independent demand corroboration",
+  "previous_compact_sha_match": true,
+  "date_coverage": {
+    "actual_dates_jst": [
+      "2026-10-08",
+      "2026-10-16",
+      "2026-10-17",
+      "2026-10-18",
+      "2026-10-19",
+      "2026-10-20",
+      "2026-10-21",
+      "2026-10-22",
+      "2026-10-23",
+      "2026-10-24",
+      "2026-10-25",
+      "2026-10-26",
+      "2026-10-27",
+      "2026-10-28",
+      "2026-10-29"
+    ],
+    "observation_count": 15,
+    "current_consecutive_days": 14,
+    "missing_dates_jst": [
+      "2026-10-09",
+      "2026-10-10",
+      "2026-10-11",
+      "2026-10-12",
+      "2026-10-13",
+      "2026-10-14",
+      "2026-10-15"
+    ],
+    "four_week_eligible": false,
+    "four_week_observed_condition_met": false,
+    "imputed": false,
+    "demand_growth_promoted": false,
+    "evidence_status": {
+      "through_2026_10_28": "saved Page reconstructed previous compact/continuity bodies; older raw not reaudited",
+      "2026_10_29": "Each feed attempted once; see current manifest and validation"
+    },
+    "null_rank_semantics": "Not in the returned range; not zero users, market exit, or a known numerical rank",
+    "additional_evidence_needed": "Never recapture Oct29. Keep Oct9–15 gap; four actual continuous weeks required."
+  },
+  "comparison": {
+    "free": {
+      "previous_count": 100,
+      "current_count": 100,
+      "common_ids": 93,
+      "entered_returned_range": [
+        [
+          8,
+          "6800746478",
+          "PlainWalk − 散歩で白地図を描くアプリ"
+        ],
+        [
+          11,
+          "1398652658",
+          "Jフェス"
+        ],
+        [
+          13,
+          "594145971",
+          "家計簿マネーフォワード ME - 資産管理もこれ一つで"
+        ],
+        [
+          60,
+          "842842640",
+          "Google ドキュメント"
+        ],
+        [
+          96,
+          "1096918571",
+          "Google Meet"
+        ],
+        [
+          99,
+          "6739317104",
+          "おぢポ - 歩く・移動でポイ活！歩数、散歩でポイ活アプリ"
+        ],
+        [
+          100,
+          "570105907",
+          "楽天カード：明細確認アプリ"
+        ]
+      ],
+      "left_returned_range": [
+        [
+          48,
+          "1097001344",
+          "MyJCB"
+        ],
+        [
+          76,
+          "1580284904",
+          "WidgetClub: ウィジェット、壁紙、アイコン着せ替え"
+        ],
+        [
+          91,
+          "1058959277",
+          "Uber Eats（ウーバーイーツ) 出前/フードデリバリー"
+        ],
+        [
+          92,
+          "1129523589",
+          "DAZN (ダゾーン) スポーツをライブ中継"
+        ],
+        [
+          93,
+          "667861049",
+          "フリマアプリはメルカリ - メルペイのスマホ決済でもっとお得"
+        ],
+        [
+          94,
+          "962194608",
+          "Google フォト"
+        ],
+        [
+          99,
+          "996870154",
+          "LINEカレンダー"
+        ]
+      ],
+      "top3": [
+        [
+          1,
+          "6760173601",
+          "Muse from Meta"
+        ],
+        [
+          2,
+          "631993791",
+          "MUJI アプリ - 無印良品"
+        ],
+        [
+          3,
+          "6448311069",
+          "ChatGPT"
+        ]
+      ]
+    },
+    "grossing": {
+      "previous_count": 100,
+      "current_count": 100,
+      "common_ids": 90,
+      "entered_returned_range": [
+        [
+          9,
+          "6472019540",
+          "Shadowverse: Worlds Beyond"
+        ],
+        [
+          12,
+          "6446659989",
+          "学園アイドルマスター"
+        ],
+        [
+          16,
+          "1515877221",
+          "ブルーアーカイブ"
+        ],
+        [
+          20,
+          "6771716739",
+          "バンドリ！アワーノーツ"
+        ],
+        [
+          27,
+          "6737974657",
+          "キングダム 覇道『キングダム』の戦略ゲームが登場"
+        ],
+        [
+          51,
+          "6747328897",
+          "BLEACH Mirrors High【ミラハイ】"
+        ],
+        [
+          57,
+          "1619722298",
+          "信長の野望 覇道"
+        ],
+        [
+          72,
+          "1358232022",
+          "ドラゴンボール レジェンズ"
+        ],
+        [
+          89,
+          "1175969205",
+          "Pococha Live"
+        ],
+        [
+          93,
+          "1326707443",
+          "プロサッカークラブをつくろう！ロード・トゥ・ワールド"
+        ]
+      ],
+      "left_returned_range": [
+        [
+          77,
+          "1211123727",
+          "放置少女 - 百花繚乱の萌姫たち"
+        ],
+        [
+          83,
+          "547145938",
+          "にゃんこ大戦争"
+        ],
+        [
+          85,
+          "6741567125",
+          "モンスターサバイバル"
+        ],
+        [
+          91,
+          "1494428618",
+          "あんさんぶるスターズ！！Music"
+        ],
+        [
+          92,
+          "6756989323",
+          "ラストアサイラム：プレイグ"
+        ],
+        [
+          93,
+          "6448176203",
+          "GoodShort(グッドショート)-ショートドラマいつでも"
+        ],
+        [
+          95,
+          "6450364080",
+          "Plaud：AI業務パートナー"
+        ],
+        [
+          96,
+          "666206963",
+          "セガNET麻雀 MJ"
+        ],
+        [
+          97,
+          "464562684",
+          "netkeiba ネットケイバ"
+        ],
+        [
+          100,
+          "728214964",
+          "dアニメストア　アニメ動画見放題アプリ/マルチデバイス対応"
+        ]
+      ],
+      "top3": [
+        [
+          1,
+          "6448311069",
+          "ChatGPT"
+        ],
+        [
+          2,
+          "544007664",
+          "YouTube"
+        ],
+        [
+          3,
+          "1235601864",
+          "TikTok ティックトック"
+        ]
+      ]
+    },
+    "paid": {
+      "previous_count": 98,
+      "current_count": 99,
+      "common_ids": 83,
+      "entered_returned_range": [
+        [
+          40,
+          "6759667009",
+          "超増税都市"
+        ],
+        [
+          61,
+          "1548403918",
+          "Sファンキージャグラー2"
+        ],
+        [
+          66,
+          "935216956",
+          "Papers, Please"
+        ],
+        [
+          70,
+          "6446826650",
+          "創造タウンズ島"
+        ],
+        [
+          77,
+          "6478494156",
+          "パチスロ 炎炎ノ消防隊"
+        ],
+        [
+          78,
+          "1444761746",
+          "RFS - Real Flight Simulator"
+        ],
+        [
+          79,
+          "6499201223",
+          "CalCs - Calendar Complications"
+        ],
+        [
+          80,
+          "6752695239",
+          "飛空艇クエスト島"
+        ],
+        [
+          84,
+          "6786220892",
+          "The Spotter: Dig or Die"
+        ],
+        [
+          87,
+          "6763740951",
+          "Bravest!2"
+        ],
+        [
+          88,
+          "6759313629",
+          "スマスロスーパーブラックジャック"
+        ],
+        [
+          91,
+          "6474672665",
+          "開拓サバイバル島DX"
+        ],
+        [
+          92,
+          "1465870866",
+          "開店デパート日記2"
+        ],
+        [
+          93,
+          "1573482724",
+          "Coffee Inc 2"
+        ],
+        [
+          94,
+          "625334537",
+          "Geometry Dash"
+        ],
+        [
+          96,
+          "6817070335",
+          "Deck-Man: Cassette Player"
+        ]
+      ],
+      "left_returned_range": [
+        [
+          60,
+          "6785726295",
+          "ワンダ"
+        ],
+        [
+          61,
+          "364876095",
+          "Jump Desktop (RDP, VNC, Fluid)"
+        ],
+        [
+          75,
+          "1034159412",
+          "ドラゴンクエストVII エデンの戦士たち"
+        ],
+        [
+          76,
+          "6756707224",
+          "都市伝説解体センター"
+        ],
+        [
+          81,
+          "6759213045",
+          "SSH Term X"
+        ],
+        [
+          82,
+          "468640323",
+          "パブロフ簿記２級商業簿記"
+        ],
+        [
+          83,
+          "6477535804",
+          "Vault of the Void"
+        ],
+        [
+          88,
+          "1406157182",
+          "英検®準1級 でた単"
+        ],
+        [
+          90,
+          "6755903573",
+          "損保大学課程　試験対策"
+        ],
+        [
+          91,
+          "6755508035",
+          "スマスロ 東京リベンジャーズ"
+        ],
+        [
+          93,
+          "1126386264",
+          "AdGuard Pro - 本格的な広告ブロック"
+        ],
+        [
+          94,
+          "6821789477",
+          "アルミス・クロニクル"
+        ],
+        [
+          96,
+          "504102949",
+          "パブロフ簿記２級工業簿記"
+        ],
+        [
+          97,
+          "1522407890",
+          "SマイジャグラーⅤ"
+        ],
+        [
+          98,
+          "6504323939",
+          "ドラゴンクエストX　目覚めし五つの種族　オフライン"
+        ]
+      ],
+      "top3": [
+        [
+          1,
+          "6771652722",
+          "ONE PIECE 海のごちそうレストラン"
+        ],
+        [
+          2,
+          "1542957396",
+          "妖怪ウォッチ1 スマホ"
+        ],
+        [
+          3,
+          "479516143",
+          "Minecraft: クラフト、建築、サバイバル"
+        ]
+      ]
+    }
+  },
+  "chronology_checks": [
+    {
+      "chart": "free",
+      "request_header_body_time_order": true,
+      "feed_update_not_after_body": true
+    },
+    {
+      "chart": "grossing",
+      "request_header_body_time_order": true,
+      "feed_update_not_after_body": true
+    },
+    {
+      "chart": "paid",
+      "request_header_body_time_order": true,
+      "feed_update_not_after_body": true
+    }
+  ]
+}

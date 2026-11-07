@@ -1,0 +1,982 @@
+{
+  "archive_date": "2026-11-07",
+  "research_as_of_range": "2026-09-27/2026-11-01",
+  "file_count_excluding_catalog": 195,
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 4862,
+      "sha256": "dfd8e449d7d037c25341ec7772d6ae1ca2d0ef08c0901cb2dc01af33f9add0b4"
+    },
+    {
+      "path": "artifacts/series/2026-10-16/coffee-05/report.md",
+      "bytes": 2737,
+      "sha256": "a3c5f2cb13e79ff4865403fb074f39e00b35d6e380067a56933b806d5af886d4"
+    },
+    {
+      "path": "artifacts/series/2026-10-16/household-nominal-ranking-provisional.csv",
+      "bytes": 98984,
+      "sha256": "e00d5eb60f541e6af4a81add27e3620e9071e63a94aafa2d36d48bdbac387750"
+    },
+    {
+      "path": "artifacts/series/2026-10-16/household-report.md",
+      "bytes": 6292,
+      "sha256": "f81c27a7ba7e3bd9d3d546d41308c6067c6fed5cae3648b530eefd46b5469597"
+    },
+    {
+      "path": "artifacts/series/2026-10-16/people/2026-10-16-people-time-report.md",
+      "bytes": 10903,
+      "sha256": "53589bcd2dc8f499c60022e56d40a0d855ebc93c46925abbfd1e848b6707c7bb"
+    },
+    {
+      "path": "artifacts/series/2026-10-16/people/jobs-ranked-active_vacancies-2026-10-16.csv",
+      "bytes": 28215,
+      "sha256": "4d6e029d4e7a7d2335c8d84ab505dd7a27800c82e0a6fa766ab9903b5792f59f"
+    },
+    {
+      "path": "artifacts/series/2026-10-16/people/jobs-ranked-new_vacancies-2026-10-16.csv",
+      "bytes": 28018,
+      "sha256": "7a76ac16c380694f80f4d8a1267b09edf65b52771ef02d7538c9dcd58fe0ce18"
+    },
+    {
+      "path": "artifacts/series/2026-10-16/people/media-time-weekday.csv",
+      "bytes": 1010,
+      "sha256": "66d5035c51aec12c08e5999d4985ee32dc737ec9c78b7ba512a8df2a6f033c0c"
+    },
+    {
+      "path": "artifacts/series/2026-10-16/people/media-time-weekend.csv",
+      "bytes": 1010,
+      "sha256": "94424723d6dc404cab67f95d1af74623d6b9d76a9b881104c419e019d5496b03"
+    },
+    {
+      "path": "artifacts/series/2026-10-16/people/search-trends-weekly-inherited-2026-10-08.csv",
+      "bytes": 1483,
+      "sha256": "1e639ee23cdb8cf8d413ebf06882eec51e4775f2000fc8eb350dcf0e9cb0b1dd"
+    },
+    {
+      "path": "artifacts/series/2026-10-16/sellers/mic_ranked.csv",
+      "bytes": 5550,
+      "sha256": "9395c43ccbcbed16b319f632a9ec869d6324ebca552c58ae8cb517083d673ae1"
+    },
+    {
+      "path": "artifacts/series/2026-10-16/sellers/report_ja.md",
+      "bytes": 15407,
+      "sha256": "27316cb5a4cfb67f3bf80acf768a52016b3b687b908dec28bdd46ff97d69ea1c"
+    },
+    {
+      "path": "artifacts/series/2026-10-16/sellers/sources.json",
+      "bytes": 10384,
+      "sha256": "55a5bf4eb690fc68d2d02584c534e7d88ef1d74512b213ea7b6b76c2b14a41a3"
+    },
+    {
+      "path": "artifacts/series/2026-10-16/top-rank-audit/audit.md",
+      "bytes": 7034,
+      "sha256": "79321f26995887ee7d95ba3040e846721e5f4c519c9b28818ac739beacca6c4d"
+    },
+    {
+      "path": "artifacts/series/2026-10-17/household/report-ja.md",
+      "bytes": 8203,
+      "sha256": "c88c74be761e2661b1c01f9b852f283f88a9ead18e45d02da65e19b06faef363"
+    },
+    {
+      "path": "artifacts/series/2026-10-17/people/ofcom-discrepancy-audit.json",
+      "bytes": 4319,
+      "sha256": "fe6059d81ea9952e220b46745472ded98f9d8fa2d692e26339369ded80cf4bf2"
+    },
+    {
+      "path": "artifacts/series/2026-10-17/sellers/conclusions-ja.md",
+      "bytes": 12125,
+      "sha256": "d2d924174cb8caf685c349e4618ef3e293007151f0eafb85cd22f499424bbd86"
+    },
+    {
+      "path": "artifacts/series/2026-10-18/2026-10-18.json",
+      "bytes": 106565,
+      "sha256": "96d3c13d469692d22e37217fc651629bdfa914d68eb70e28983b2fcae48e3e41"
+    },
+    {
+      "path": "artifacts/series/2026-10-18/app-ranks-manifest-2026-10-18.json",
+      "bytes": 3989,
+      "sha256": "068996e62dda5a241270d32bb01fa0a50bde6e93f6f5256b7e7754a9e21e7b45"
+    },
+    {
+      "path": "artifacts/series/2026-10-18/report-ja.md",
+      "bytes": 5640,
+      "sha256": "2cd99487335c1cdacb292d47fb94f7a4b56b1478baa3f75c2dc041a0068a84a8"
+    },
+    {
+      "path": "artifacts/series/2026-10-18/validation.json",
+      "bytes": 619,
+      "sha256": "4a38e38476945cd5cfaeaa1300b31a27524b05515da442411200b31a19431246"
+    },
+    {
+      "path": "artifacts/series/2026-10-19/cpi05/report.md",
+      "bytes": 2358,
+      "sha256": "545c123ed89ff30332cf643da896b76e3fa2acdde216ff2c8f5233279df662e0"
+    },
+    {
+      "path": "artifacts/series/2026-10-19/household/report-ja.md",
+      "bytes": 4319,
+      "sha256": "a1d3f68a173b51ac2123bda0c20528facc5e4df334725bcdb28703a8a2b843bc"
+    },
+    {
+      "path": "artifacts/series/2026-10-19/people/app-ranks-2026-10-19.json",
+      "bytes": 81182,
+      "sha256": "5abbd8eb216224885f82bc22d204f488319cbaedee605e8a353714ba4ae734a4"
+    },
+    {
+      "path": "artifacts/series/2026-10-19/people/app-ranks-manifest-2026-10-19.json",
+      "bytes": 1212,
+      "sha256": "447d4fa2a1afd92d556080a5d8081e69b9cd02f681a61592b1c8c34008f190d7"
+    },
+    {
+      "path": "artifacts/series/2026-10-20/household/report-ja.md",
+      "bytes": 6693,
+      "sha256": "8168e65ec6940068b40869817c93b2eecb6e60e33d5e0ed5e22d481f26970b32"
+    },
+    {
+      "path": "artifacts/series/2026-10-20/people/app-ranks-2026-10-20.json",
+      "bytes": 80187,
+      "sha256": "14052fb2e33c3cd2053033c37de7d646bc650839554694c94d5f39ec9a38b86b"
+    },
+    {
+      "path": "artifacts/series/2026-10-20/people/app-ranks-manifest-2026-10-20.json",
+      "bytes": 3768,
+      "sha256": "8ecce24b02292a66cc027745a3b4c8c65303b19e3d9ecdedbf0399408823a367"
+    },
+    {
+      "path": "artifacts/series/2026-10-20/people/report-ja.md",
+      "bytes": 5940,
+      "sha256": "02d3dbc8bb857810606caa772c681429f1c54daacedd4acfbc97b0ed2c14416a"
+    },
+    {
+      "path": "artifacts/series/2026-10-20/sellers/evidence-gap-review/report-ja.md",
+      "bytes": 8906,
+      "sha256": "4f27cf055af2ef45d4caab476656e7012a42efaa0eb4e3fab9268119401c60de"
+    },
+    {
+      "path": "artifacts/series/2026-10-20/sellers/evidence-gap-review/source-ledger.json",
+      "bytes": 21722,
+      "sha256": "de1283cdd320d0b2e62fd6c20ba1cb2434ad902e92f42ded3452ff103645f6e0"
+    },
+    {
+      "path": "artifacts/series/2026-10-20/sellers/evidence-gap-review/validation.json",
+      "bytes": 332,
+      "sha256": "e9b04fda2e13d4f0afcd4ceab9bdf02c6289d8400d344d428625b2409053f4f5"
+    },
+    {
+      "path": "artifacts/series/2026-10-20/sellers/report-ja.md",
+      "bytes": 2522,
+      "sha256": "967051a255979106dd5e33c5421b5a433eb13056295e9dfcd3f2ab716202113b"
+    },
+    {
+      "path": "artifacts/series/2026-10-21/app-ranks-2026-10-21.json",
+      "bytes": 80357,
+      "sha256": "a1631219e92666bdbc10c212eeaf83c2ca97f67e8b95bc5e2c52c79a13503bef"
+    },
+    {
+      "path": "artifacts/series/2026-10-21/app-ranks-manifest-2026-10-21.json",
+      "bytes": 3475,
+      "sha256": "4c4b6d377f57d9b96ec08912e2731576b1c08c12418153027a127b1bdce8b1ee"
+    },
+    {
+      "path": "artifacts/series/2026-10-21/report-ja.md",
+      "bytes": 7504,
+      "sha256": "72a00dd537446736357930ed2faa5cea858212fb55602c97ef0c35148dfadf13"
+    },
+    {
+      "path": "artifacts/series/2026-10-21/validation.json",
+      "bytes": 1950,
+      "sha256": "55d2768b1d8394547bb9b08fab91bea0a180bdbd612cfdaf56adaa244c835b22"
+    },
+    {
+      "path": "artifacts/series/2026-10-22/household/report-ja.md",
+      "bytes": 7629,
+      "sha256": "bf61efdd71ab85a91db5e3f04437c9b30b34a62cc7ee16ddf93bb6491008e317"
+    },
+    {
+      "path": "artifacts/series/2026-10-22/household/source-ledger.json",
+      "bytes": 17486,
+      "sha256": "6c4e5bf7215a8a8f9e52d94063b21681e716c063e5bab0eb75895971f5485662"
+    },
+    {
+      "path": "artifacts/series/2026-10-22/people/app-ranks-2026-10-22.json",
+      "bytes": 80962,
+      "sha256": "2d107bc4aeacdcbfa4f31088ea1a7ee27f2eb26aaaf7a203d1adbf396140d630"
+    },
+    {
+      "path": "artifacts/series/2026-10-22/people/app-ranks-manifest-2026-10-22.json",
+      "bytes": 3951,
+      "sha256": "fd9c2da69b9a1cfd3eed3da1aad455e5d48c6624e8bfc6ba704d5766c6fa96cd"
+    },
+    {
+      "path": "artifacts/series/2026-10-22/sellers/source-ledger.json",
+      "bytes": 3501,
+      "sha256": "1292e4a2fadfc0a062cf731bff1caa1dded4780401b3d74d6e55eb211687b9ba"
+    },
+    {
+      "path": "artifacts/series/2026-10-23/people/app-ranks-2026-10-23.compact.json",
+      "bytes": 80439,
+      "sha256": "f085ef5cd14b36315e6b44a873c3393171fe44b1bdaf55e77e9902500b5806b1"
+    },
+    {
+      "path": "artifacts/series/2026-10-23/people/app-ranks-manifest-2026-10-23.json",
+      "bytes": 3951,
+      "sha256": "c783b69f1b48c1235366650f0d5db1dbf8c1e542e483426123467a05337b4f7c"
+    },
+    {
+      "path": "artifacts/series/2026-10-23/sellers/service-august-release-check.json",
+      "bytes": 4764,
+      "sha256": "b9a2c4ea6a87ab1640d2033c40925f8acc464386e0cba782ce48904ea371c269"
+    },
+    {
+      "path": "artifacts/series/2026-10-23/sellers/service-august-visual-verification.json",
+      "bytes": 3677,
+      "sha256": "6792335d351f6c2ca808e55ffacd60e4c372a92137abe386fba3cc6338240e34"
+    },
+    {
+      "path": "artifacts/series/2026-10-24/household/evidence-bundle.json",
+      "bytes": 25265,
+      "sha256": "984175efd601a45bdac6d06017d824d5ec855ab83bdd9f65bc06d14b1cc803f0"
+    },
+    {
+      "path": "artifacts/series/2026-10-24/household/expanded/annual-detail.json",
+      "bytes": 986,
+      "sha256": "99f0e1ef4041429454ded53bff4edc29c5306019340010dcac9e2294938b719e"
+    },
+    {
+      "path": "artifacts/series/2026-10-24/household/expanded/calculation.json",
+      "bytes": 6841,
+      "sha256": "b9cc3ee9276ba79d89c36e15f8473c002e45cb98775679794d6f7aa38f24d277"
+    },
+    {
+      "path": "artifacts/series/2026-10-24/household/expanded/definitions.json",
+      "bytes": 1458,
+      "sha256": "7c50dd99a9f05f37a238e3fa153839c5931d8ee482fb99a6264a2bba23fc053a"
+    },
+    {
+      "path": "artifacts/series/2026-10-24/household/expanded/single-household.json",
+      "bytes": 1667,
+      "sha256": "6e0d330f6c598aca9b0f31dac6b924ee03af63ad1652f2eaf71992fafe73af20"
+    },
+    {
+      "path": "artifacts/series/2026-10-24/household/expanded/source-ledger.json",
+      "bytes": 11947,
+      "sha256": "db0939181d1203ae11495e82a50fe818876e2af6300e2f6e5262edc05e4349a7"
+    },
+    {
+      "path": "artifacts/series/2026-10-24/household/expanded/validation.json",
+      "bytes": 549,
+      "sha256": "663d6c2d0c41cf5e0689121ff7b15d0b3d1498dda845add81d0eadd71ea89057"
+    },
+    {
+      "path": "artifacts/series/2026-10-24/people/app-ranks-2026-10-24.compact.json",
+      "bytes": 26403,
+      "sha256": "8b32bbad969ecc2a3724d57df84c9790cfb2ac24ffad4aac234f58002f3c1dcc"
+    },
+    {
+      "path": "artifacts/series/2026-10-24/people/app-ranks-manifest-2026-10-24.json",
+      "bytes": 3951,
+      "sha256": "a42f78d0d8ab692cb692e6bca0c6426369562c87439d6ed26c5684fb96d86724"
+    },
+    {
+      "path": "artifacts/series/2026-10-24/people/weekly-comparison.json",
+      "bytes": 2002,
+      "sha256": "1339b3480e2bd13c5110610a8f8100bc73580d1f78197d79e0c1b5deb021f1c1"
+    },
+    {
+      "path": "artifacts/series/2026-10-25/household/evidence-bundle.json",
+      "bytes": 25619,
+      "sha256": "f0d5a54f35b24dee6f76eaf9c04f8bc3375a54ba0d34d4aec170910cdfb00ac7"
+    },
+    {
+      "path": "artifacts/series/2026-10-25/household/expanded/annual-detail.json",
+      "bytes": 1001,
+      "sha256": "ad24aa6e3ebca6158ed34d3a2e8ed8aece952fd84d52c38fabb7cf1594e16449"
+    },
+    {
+      "path": "artifacts/series/2026-10-25/household/expanded/calculation.json",
+      "bytes": 5250,
+      "sha256": "94b1af55cbc293adc01de5b06a8f205732b9af6199977438dbbe77bb92ff58ce"
+    },
+    {
+      "path": "artifacts/series/2026-10-25/household/expanded/definitions.json",
+      "bytes": 4381,
+      "sha256": "955e524e5d23b1460549f4e544665f019f91a5022d0a4155175fa3314a3a0b8b"
+    },
+    {
+      "path": "artifacts/series/2026-10-25/household/expanded/recalculation-check.json",
+      "bytes": 267,
+      "sha256": "9a63b2b56f9a317b7847265c668f3c3a46fe6eaa2a878ee83de8c688873b8a36"
+    },
+    {
+      "path": "artifacts/series/2026-10-25/household/expanded/single-household.json",
+      "bytes": 487,
+      "sha256": "74b841ec614400d01e2ba07e3fc1874ab2895b93d0de689344b857c76b724f6d"
+    },
+    {
+      "path": "artifacts/series/2026-10-25/household/expanded/source-ledger.json",
+      "bytes": 12115,
+      "sha256": "ec9af341f06e63ba57d32382745944d1d09130ee46f2e5bf62f44fd68f5a58c9"
+    },
+    {
+      "path": "artifacts/series/2026-10-25/household/expanded/validation.json",
+      "bytes": 240,
+      "sha256": "34e3f96bea70d30e537160d1904285c4e9734323aff17acf0f2335059ab716d0"
+    },
+    {
+      "path": "artifacts/series/2026-10-25/people/app-ranks-2026-10-25.compact.json",
+      "bytes": 26471,
+      "sha256": "9cbdb0be791c8df11de7f70ea2a5e7f4dc7748dcce8e7292184ae8d882796c60"
+    },
+    {
+      "path": "artifacts/series/2026-10-25/people/app-ranks-manifest-2026-10-25.json",
+      "bytes": 3951,
+      "sha256": "b661d61f29d75b9468211bf02deb1e550225623bd13679dd345b5abf48083100"
+    },
+    {
+      "path": "artifacts/series/2026-10-26/people/app-ranks-2026-10-26.compact.json",
+      "bytes": 26552,
+      "sha256": "960d1277522e6057c17ba70eed2d805e188898c18a37620476a1dcbf517947eb"
+    },
+    {
+      "path": "artifacts/series/2026-10-26/people/app-ranks-manifest-2026-10-26.json",
+      "bytes": 3951,
+      "sha256": "2698ad044dfa2c0d3c94607d89658b4a59b75e163dd61897425792f12f83af9b"
+    },
+    {
+      "path": "artifacts/series/2026-10-26/people/jobs-media-carried-forward.json",
+      "bytes": 615,
+      "sha256": "3fb447785c369b1e322f26bfda33a7ca7aaa8fe32765e19070596aac9897d895"
+    },
+    {
+      "path": "artifacts/series/2026-10-27/eprescription/independent-verification.json",
+      "bytes": 8084,
+      "sha256": "407e05c5980b8b9efc45e10e6b29fd14c76039cb3aa2ee30c5180bb4b78e3da6"
+    },
+    {
+      "path": "artifacts/series/2026-10-27/eprescription/previous-csv-xlsx-verification.json",
+      "bytes": 1127,
+      "sha256": "d7dec9fe25808a10073852e57d858828937aff5a4c307fb83a6ea884b0223812"
+    },
+    {
+      "path": "artifacts/series/2026-10-27/eprescription/public-draft.md",
+      "bytes": 4394,
+      "sha256": "a0272b27c07a2f8a4d797c0821c174192ed29a9b0764d266c400d1a301eeeef7"
+    },
+    {
+      "path": "artifacts/series/2026-10-27/household/calculation.json",
+      "bytes": 9025,
+      "sha256": "0ae3c9a607ef05a2bd471b03d1958549ddf5c74c0dfb11199f803ddb8ab84df2"
+    },
+    {
+      "path": "artifacts/series/2026-10-27/household/independent-recalculation.json",
+      "bytes": 256,
+      "sha256": "4577478cfe08669cacc37cce212cd4047e85be435e8453a46f8ab13086f75a83"
+    },
+    {
+      "path": "artifacts/series/2026-10-27/household/monthly-selected.csv",
+      "bytes": 6694,
+      "sha256": "20a78054e44f1997a38c0b366f29a76e80c0d6483b736d70afb484ccd39d2757"
+    },
+    {
+      "path": "artifacts/series/2026-10-27/household/new-source-ledger.json",
+      "bytes": 1308,
+      "sha256": "21bc346291ca32ea354898e2ae8d5af63d3cb0e54d2ba3213b4674d67acf5648"
+    },
+    {
+      "path": "artifacts/series/2026-10-27/household/report-ja.md",
+      "bytes": 6163,
+      "sha256": "bbae003dcde5f74e4a4ed0e76e5636501f39a07032b5cb1418a3d4131ade8fa9"
+    },
+    {
+      "path": "artifacts/series/2026-10-27/household/source-ledger.json",
+      "bytes": 12114,
+      "sha256": "e6912329816b5a6e997dabdbcd0f4508ed7bae2414dc1fffe53760187b5e4816"
+    },
+    {
+      "path": "artifacts/series/2026-10-27/household/verification.json",
+      "bytes": 1423,
+      "sha256": "fa45c4fd0378a080d4a59c9fe0155dba541e07273212fbd8f9f006b52a56f250"
+    },
+    {
+      "path": "artifacts/series/2026-10-27/people/app-continuity.json",
+      "bytes": 1059,
+      "sha256": "bd0039fe2672d0ff190d2271c25af81b229519d55e5b2b7a817ae5a3a3228fed"
+    },
+    {
+      "path": "artifacts/series/2026-10-27/people/app-ranks-2026-10-27.compact.json",
+      "bytes": 26631,
+      "sha256": "870935073d8bffff14c6d4f51d56bcd33935c0ef7a37115d2f21d0d0c13ecb8a"
+    },
+    {
+      "path": "artifacts/series/2026-10-27/people/app-ranks-manifest-2026-10-27.json",
+      "bytes": 3951,
+      "sha256": "f5fcf84da6a19ea786195dcc78376279c3f9c45f14e626f5ae6a60c9cfd219d4"
+    },
+    {
+      "path": "artifacts/series/2026-10-27/people/report-ja.md",
+      "bytes": 3120,
+      "sha256": "5e5b526b75671aeffed0d026995a5f71ffd2f32ddee6c1046054ece400b0c3bb"
+    },
+    {
+      "path": "artifacts/series/2026-10-27/people/source-ledger.json",
+      "bytes": 4301,
+      "sha256": "eb4fd881a24163bf7f6576ac3c52503e44c098ef8abdaf2f8c0ce3a72a840408"
+    },
+    {
+      "path": "artifacts/series/2026-10-27/people/validation.json",
+      "bytes": 598,
+      "sha256": "d284a1d40cab6001e8dc17bbe4ca2c7ba7bbe1072af2765860d9ddf23160882f"
+    },
+    {
+      "path": "artifacts/series/2026-10-27/sellers/calculations.json",
+      "bytes": 1501,
+      "sha256": "1df908469b9be2fc6618beea4acdd3d6aa55fe84547cda1658502c6e7c7d52aa"
+    },
+    {
+      "path": "artifacts/series/2026-10-27/sellers/manifest.json",
+      "bytes": 1873,
+      "sha256": "6d2d76c76ac3cabfa25913cdb01d101a03d0d27c28ee66d617a717642cf6b022"
+    },
+    {
+      "path": "artifacts/series/2026-10-27/sellers/report-ja.md",
+      "bytes": 5006,
+      "sha256": "fffbfbe864c5bfaf13dda667e1438f8a811c91ab8f8dc371fce4e73965e0edbc"
+    },
+    {
+      "path": "artifacts/series/2026-10-27/sellers/source-ledger.json",
+      "bytes": 2213,
+      "sha256": "da3fce8f9e3735cbc420d82f5d9e2ee9e6d62c9611827035925f673fa609cef6"
+    },
+    {
+      "path": "artifacts/series/2026-10-28/household/evidence-bundle.json",
+      "bytes": 64455,
+      "sha256": "7ea9e5d743999d47ac6914939eabd07ed805ea16fc7f3caee417e33ec9bb0000"
+    },
+    {
+      "path": "artifacts/series/2026-10-28/people/app-ranks-2026-10-28.compact.json",
+      "bytes": 26675,
+      "sha256": "272050efca181d801a39b702f2b9070509a6ff5f9876139bf4fcfe5ce20d08b7"
+    },
+    {
+      "path": "artifacts/series/2026-10-28/people/evidence-bundle.json",
+      "bytes": 59232,
+      "sha256": "24469bb3e484b47c1e16c4dbf4f7362f84b38a501fba1f3f975761e6ab8a7a32"
+    },
+    {
+      "path": "artifacts/series/2026-10-28/people/expanded/app-continuity.json",
+      "bytes": 1120,
+      "sha256": "99dda2c995fc710d3dfb64168eded7a2d656133517f6f05bf85eac8a19705563"
+    },
+    {
+      "path": "artifacts/series/2026-10-28/people/expanded/app-ranks-2026-10-28.compact.json",
+      "bytes": 26675,
+      "sha256": "272050efca181d801a39b702f2b9070509a6ff5f9876139bf4fcfe5ce20d08b7"
+    },
+    {
+      "path": "artifacts/series/2026-10-28/people/expanded/app-ranks-manifest-2026-10-28.json",
+      "bytes": 4296,
+      "sha256": "29b1d9836b8ca3e167e71d4985d1aec148fa708ea38d66e66569007c8985af64"
+    },
+    {
+      "path": "artifacts/series/2026-10-28/people/expanded/capture-query-log.json",
+      "bytes": 4896,
+      "sha256": "72e54ebe43f360ef5a394b7a3700a33fa80a6e351e35ac91f2b6939d331664a7"
+    },
+    {
+      "path": "artifacts/series/2026-10-28/people/expanded/jobs-release-check.json",
+      "bytes": 1317,
+      "sha256": "70def8b5d109da79a383d72ba01fd284a7fadcd316dc62564b186dc2fa856263"
+    },
+    {
+      "path": "artifacts/series/2026-10-28/people/expanded/report-ja.md",
+      "bytes": 4320,
+      "sha256": "f9c9190e87081e2013666c07d655c36b4cac168e12c9c42f9a20af2cfcef0dbf"
+    },
+    {
+      "path": "artifacts/series/2026-10-28/people/expanded/source-ledger.json",
+      "bytes": 6590,
+      "sha256": "b23f557e84b9e9916bf571fbeb089c7d4ee4ed59827baf47cee5e2b3a1e33112"
+    },
+    {
+      "path": "artifacts/series/2026-10-28/people/expanded/validation.json",
+      "bytes": 2186,
+      "sha256": "e4fbc988aae727f7da009a3c3fc3575c06e5a0f3d0791703a70f1ac412ad9260"
+    },
+    {
+      "path": "artifacts/series/2026-10-28/sellers/evidence-bundle.json",
+      "bytes": 23105,
+      "sha256": "274e2fd5a8d634e129aecd9484621e00a344ec53ca0b44777383888c88f96c7d"
+    },
+    {
+      "path": "artifacts/series/2026-10-28/sellers/expanded/calculations.json",
+      "bytes": 3755,
+      "sha256": "cde87ba939e4d993640e1290fe039bcd32c2dab06bb638fe4b5e3a30f387c95e"
+    },
+    {
+      "path": "artifacts/series/2026-10-28/sellers/expanded/fdc-annual.csv",
+      "bytes": 426,
+      "sha256": "a9cb61aa6593523b4da52e33743087dee1701a81d199e286ce4591e2259e76c9"
+    },
+    {
+      "path": "artifacts/series/2026-10-28/sellers/expanded/fdc-monthly.csv",
+      "bytes": 526,
+      "sha256": "25a373abc89b190253ea7350e0ce2257123b685fbbcdbb313dd4335f01c8ed95"
+    },
+    {
+      "path": "artifacts/series/2026-10-28/sellers/expanded/report-ja.md",
+      "bytes": 5992,
+      "sha256": "7cb89987358de5a0e8d6b5726e977237f1aa9696856bd9939a200159f6728cef"
+    },
+    {
+      "path": "artifacts/series/2026-10-28/sellers/expanded/search-history.json",
+      "bytes": 833,
+      "sha256": "60f0986a74cb28899f022e8ddc6d7b263b652243091c0ebd5f27ef433e0caf62"
+    },
+    {
+      "path": "artifacts/series/2026-10-28/sellers/expanded/source-ledger.json",
+      "bytes": 10181,
+      "sha256": "ec18ffdeec41867e864c6fbc05e0bf788b2272f6d4bd7682be0177dc10a14e98"
+    },
+    {
+      "path": "artifacts/series/2026-10-28/sellers/expanded/validation.json",
+      "bytes": 780,
+      "sha256": "cd8dc88955adf1e49eec9c6f31fc38cd5404b705efe0c8b5d0002878f78c2ffb"
+    },
+    {
+      "path": "artifacts/series/2026-10-28/synthesis-validation.json",
+      "bytes": 5228,
+      "sha256": "60dcef4a4a20f355c433bb3374f5e9dab7c14b55825d006261bb0ef93b53b667"
+    },
+    {
+      "path": "artifacts/series/2026-10-29/household/evidence-bundle.json",
+      "bytes": 21667,
+      "sha256": "a0836c2015c8f9d914259cf63ae55b03f969fc6cc63fa13c579a411687e3a6ae"
+    },
+    {
+      "path": "artifacts/series/2026-10-29/people/evidence-bundle.json",
+      "bytes": 68206,
+      "sha256": "1fb594ad8a46c749cc858e407a73dcc56fe4da1ce2295574716c6de1434f3466"
+    },
+    {
+      "path": "artifacts/series/2026-10-29/people/expanded/app-continuity.json",
+      "bytes": 1099,
+      "sha256": "50a9865225180c4a062f5ffa8dcbf8193552585627a02926a8073ce0864485b9"
+    },
+    {
+      "path": "artifacts/series/2026-10-29/people/expanded/app-ranks-2026-10-29.compact.json",
+      "bytes": 26564,
+      "sha256": "0c57f77d6ddbb484a1ade013165273597a9679975885b5e9dd1ab160bc0e7cb4"
+    },
+    {
+      "path": "artifacts/series/2026-10-29/people/expanded/app-ranks-manifest-2026-10-29.json",
+      "bytes": 3186,
+      "sha256": "571c88f2c159cdd4f56d60cbe882da04053797921e83b36f2734bde7fe5dfede"
+    },
+    {
+      "path": "artifacts/series/2026-10-29/people/expanded/capture-query-log.json",
+      "bytes": 3186,
+      "sha256": "571c88f2c159cdd4f56d60cbe882da04053797921e83b36f2734bde7fe5dfede"
+    },
+    {
+      "path": "artifacts/series/2026-10-29/people/expanded/day-comparison.json",
+      "bytes": 7552,
+      "sha256": "cd18781a21c9c7f72f7a5ec28ef9e0d3c659f8aa9f093ca98530f54bef3edbf4"
+    },
+    {
+      "path": "artifacts/series/2026-10-29/people/expanded/report-ja.md",
+      "bytes": 3105,
+      "sha256": "4d4875922e4c1d546a128901507eaad7c42c637171c096345224d2c4ee72c7ef"
+    },
+    {
+      "path": "artifacts/series/2026-10-29/people/expanded/source-ledger.json",
+      "bytes": 1818,
+      "sha256": "0ab093171224673f4ef07d1f3eff2a78977dfcd43809a6a9f3306f01ed33de56"
+    },
+    {
+      "path": "artifacts/series/2026-10-29/people/expanded/validation.json",
+      "bytes": 11034,
+      "sha256": "db573ef7f6d12ab416904eea5ce4c84ec8555fa9c49ee9c212b36c7dc075bc67"
+    },
+    {
+      "path": "artifacts/series/2026-10-29/sellers/evidence-bundle.json",
+      "bytes": 10455,
+      "sha256": "2efe1f9c43f3960b9f14740f0dbd917f98824d21a4e3a44d9a6f177296b4b3c5"
+    },
+    {
+      "path": "artifacts/series/2026-10-29/sellers/expanded/observations.json",
+      "bytes": 3476,
+      "sha256": "26d4ec69917168824dbb750887723aee27924c17514cdfa05498143472da2d88"
+    },
+    {
+      "path": "artifacts/series/2026-10-29/sellers/expanded/report-ja.md",
+      "bytes": 3647,
+      "sha256": "92fdf30ed4d7a493a1151a8c8ddced0884db9bb6b855952546ade7db3e069fab"
+    },
+    {
+      "path": "artifacts/series/2026-10-29/sellers/expanded/search-log.json",
+      "bytes": 913,
+      "sha256": "d69cdf3f82a33b5dfb841c21159224c94410ab22c5a96d7dae1dc4cb5b4b6b62"
+    },
+    {
+      "path": "artifacts/series/2026-10-29/sellers/expanded/source-ledger.json",
+      "bytes": 1315,
+      "sha256": "b6dab2db9b65161fb4318fddcf4c2ce2ef1e7d0472347a7381303052a06188ed"
+    },
+    {
+      "path": "artifacts/series/2026-10-29/sellers/expanded/validation.json",
+      "bytes": 972,
+      "sha256": "7c5cdf6ffa4c93900b3e6263e99a9a34cc032b0488ce45b6534592dc5cb1af37"
+    },
+    {
+      "path": "artifacts/series/2026-10-30/household/evidence-bundle.json",
+      "bytes": 71156,
+      "sha256": "f4382ef46c204fcb4b5c6bf0365aaec3bf5d46213167082c3866042e005313a7"
+    },
+    {
+      "path": "artifacts/series/2026-10-30/people/evidence-bundle.json",
+      "bytes": 9142,
+      "sha256": "e38931f6a98af81103587581b33e8b98e48ee0a4a0cad72245fb74cbc2b0909b"
+    },
+    {
+      "path": "artifacts/series/2026-10-30/people/expanded/app-ranks-2026-10-30.compact.json",
+      "bytes": 3,
+      "sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+    },
+    {
+      "path": "artifacts/series/2026-10-30/people/expanded/app-ranks-manifest-2026-10-30.json",
+      "bytes": 1624,
+      "sha256": "a710986b5069c4e5c8729074bca2ecfc9521d1346712493d3d53318b3c433ccc"
+    },
+    {
+      "path": "artifacts/series/2026-10-30/people/expanded/apple-free-attempt-2026-10-30.json",
+      "bytes": 355,
+      "sha256": "39833fad41ec382735f8c8134e32510c5467aafd0a00c2db9f839b0887ab4e0b"
+    },
+    {
+      "path": "artifacts/series/2026-10-30/people/expanded/apple-grossing-attempt-2026-10-30.json",
+      "bytes": 363,
+      "sha256": "debcc8d05771f0abc6a245adb024f236a8d1d8d1b56a48d471bc1d0f6be547bf"
+    },
+    {
+      "path": "artifacts/series/2026-10-30/people/expanded/apple-paid-attempt-2026-10-30.json",
+      "bytes": 355,
+      "sha256": "fb2fd3de53200ef273963027093b73aa59ff3acff8921326ee24a3e83dd06607"
+    },
+    {
+      "path": "artifacts/series/2026-10-30/people/expanded/observation-validation.json",
+      "bytes": 1689,
+      "sha256": "50ee93330d8779ef7e9490fff3da126980d540f78de359f3ff2cacc2587dd04f"
+    },
+    {
+      "path": "artifacts/series/2026-10-30/people/expanded/report-ja.md",
+      "bytes": 2367,
+      "sha256": "0c8dbf9060080b783c50baa1cb51c7bdbdcae55471b5efc5e8c7900abaee2590"
+    },
+    {
+      "path": "artifacts/series/2026-10-30/people/expanded/source-ledger-and-resume.json",
+      "bytes": 1710,
+      "sha256": "1f3af37ae51b75c3c27ccb2e13b497d8607dad5b08aaf471144248b1b157aa7b"
+    },
+    {
+      "path": "artifacts/series/2026-10-30/sellers/evidence-bundle.json",
+      "bytes": 7483,
+      "sha256": "4952d5b52a009d978cb3f840f9afb2e5e54582634ba28a0fc1f34aab558decfb"
+    },
+    {
+      "path": "artifacts/series/2026-10-30/synthesis-validation.json",
+      "bytes": 5744,
+      "sha256": "4ab395b27b84f78bd43bd9adf328702e97574dbd55c179c72e4d035fe6420e98"
+    },
+    {
+      "path": "artifacts/series/2026-10-31/household/evidence-bundle.json",
+      "bytes": 84271,
+      "sha256": "ca9dcd69b2e0f772463fd88fee27d8571fc6957f3744cb0898a920155eee8c68"
+    },
+    {
+      "path": "artifacts/series/2026-10-31/people/app-ranks-2026-10-31.compact.json",
+      "bytes": 26443,
+      "sha256": "869203dfbb71f11b18d0ed10e910c5195d483cce0f160eba9a486466ef53bcf8"
+    },
+    {
+      "path": "artifacts/series/2026-10-31/people/evidence-bundle.json",
+      "bytes": 228096,
+      "sha256": "6de0245f2369938fe7cd7269d96b877a7004b913397296db875cc03ae9e2fcca"
+    },
+    {
+      "path": "artifacts/series/2026-10-31/people/expanded/app-ranks-2026-10-31.compact.json",
+      "bytes": 26443,
+      "sha256": "869203dfbb71f11b18d0ed10e910c5195d483cce0f160eba9a486466ef53bcf8"
+    },
+    {
+      "path": "artifacts/series/2026-10-31/people/expanded/app-ranks-manifest-2026-10-31.json",
+      "bytes": 2545,
+      "sha256": "8c3bc0f1950056f51f9936d4a655513ef04b9bca79c7f143708733c3b71b8fe6"
+    },
+    {
+      "path": "artifacts/series/2026-10-31/people/expanded/independent-validation.json",
+      "bytes": 433,
+      "sha256": "f65a280067bfc001f303a36e057391c5404a78dc467db85fe925b483eb03aa4e"
+    },
+    {
+      "path": "artifacts/series/2026-10-31/people/expanded/jobs-analysis.json",
+      "bytes": 151418,
+      "sha256": "a001a034907b3524395c9c448ee3f08770fee359ac1b175b6a2f51afdddb43ad"
+    },
+    {
+      "path": "artifacts/series/2026-10-31/people/expanded/jobs-ranked-new-vacancies.csv",
+      "bytes": 7651,
+      "sha256": "33c1f883ec456a8cec013519422493bf8881afd0d63eed05806a6095a7c17536"
+    },
+    {
+      "path": "artifacts/series/2026-10-31/people/expanded/jobs-source-ledger.json",
+      "bytes": 395,
+      "sha256": "a6bdd6416fbf02a38eedb6159b4b4d91ca206f42debd5997b18e8aaad8d2abb3"
+    },
+    {
+      "path": "artifacts/series/2026-10-31/people/expanded/observation-validation.json",
+      "bytes": 4723,
+      "sha256": "c44c2fd2b0fdc5683db70bb0c367b6d15fd30ba16bc3eb33f3d33ce521086f85"
+    },
+    {
+      "path": "artifacts/series/2026-10-31/people/expanded/release-and-limits.json",
+      "bytes": 894,
+      "sha256": "e2d021500c8a8045be63cb158c9249e1668319cdceb177c1bc385474a985e3cc"
+    },
+    {
+      "path": "artifacts/series/2026-10-31/people/expanded/report-ja.md",
+      "bytes": 4783,
+      "sha256": "32aeea38c367c807e1d38a0d0b7d12760724159eec678c6e6951caa0c63d4588"
+    },
+    {
+      "path": "artifacts/series/2026-10-31/sellers/evidence-bundle.json",
+      "bytes": 5989,
+      "sha256": "1dd511c4f3701565ed88731c2ca4f5ec1a2afd672e8dd923750e41bc24f84de6"
+    },
+    {
+      "path": "artifacts/series/2026-10-31/synthesis-validation.json",
+      "bytes": 662,
+      "sha256": "bbad6953f40571f22698c47fceeed55afb28888b4594996d0278272e5743b23c"
+    },
+    {
+      "path": "artifacts/series/2026-11-01/jobs-overlap.json",
+      "bytes": 76458,
+      "sha256": "901bcea67d3e98b7756cfaa76a51f3f198583b7d1100fbe47012e5c6a8b55968"
+    },
+    {
+      "path": "artifacts/series/2026-11-01/jobs2019-review.json",
+      "bytes": 6157,
+      "sha256": "7574646245f4a5a2cf1038c2d504baef1f2d9618df9cb1120b4d0e2f1d207397"
+    },
+    {
+      "path": "artifacts/series/app-ranks/2026-10-16.json",
+      "bytes": 59005,
+      "sha256": "ddea6ad54b23e074ed74456b88d2e05d3e2983c8ebf87d12d59806aef5f1d41d"
+    },
+    {
+      "path": "artifacts/series/app-ranks/2026-10-17.json",
+      "bytes": 107369,
+      "sha256": "c8290d1c4e5cdc93ecd1b30a7565e3f1aeb921dc89fdfbed9ed1cb37555226ae"
+    },
+    {
+      "path": "artifacts/series/app-ranks/app-ranks-manifest-2026-10-16.json",
+      "bytes": 868,
+      "sha256": "9d5d55b415b6a818ef307aa4b3632ef431531c6453e0c0f9f0b849556e506f15"
+    },
+    {
+      "path": "artifacts/series/app-ranks/app-ranks-manifest-2026-10-17.json",
+      "bytes": 3795,
+      "sha256": "060c02889c3e93ebf37e98aba29f10e535266d549d0ca5af2db3e92d488e4596"
+    },
+    {
+      "path": "context/historical-summary-2026-10-16-to-11-01.json",
+      "bytes": 9983,
+      "sha256": "2954523a9c7778807f411251fe886ec887360bcbf487e86e14b07f5bf577b293"
+    },
+    {
+      "path": "context/observations-1.json",
+      "bytes": 20732,
+      "sha256": "31f30235af29d32d7e58ffdad03e1a89db56ac363c689b3f0d335a45bf1df496"
+    },
+    {
+      "path": "context/observations-2.json",
+      "bytes": 16937,
+      "sha256": "554aac090bae299129ab6c0954ee572054bf407c569def6a2084828ca58461d0"
+    },
+    {
+      "path": "context/observations-3.json",
+      "bytes": 18244,
+      "sha256": "7abe91041d502089caba0ef74307a600953f65de55fa0e61f21a6baf21fcf4e6"
+    },
+    {
+      "path": "context/observations-4.json",
+      "bytes": 18933,
+      "sha256": "17b8b1a8be2983b59120d73e3d968e7920e8b62f103f550d5077e9b88b930e50"
+    },
+    {
+      "path": "context/observations-5.json",
+      "bytes": 20383,
+      "sha256": "98588d94861990fb1a4b2793d31ca76088e2dc99f92f775d912c18aba6f9ad43"
+    },
+    {
+      "path": "context/release-calendar-1.json",
+      "bytes": 2889,
+      "sha256": "4f01324c64d7e78a1433c83aecd93da01e8191c75f17a078b01289d228146fb3"
+    },
+    {
+      "path": "context/release-calendar-2.json",
+      "bytes": 2518,
+      "sha256": "fbf7f62437773b789d654fee0b92ef7754eaa8178b399faca0ebe0f411a7fdb8"
+    },
+    {
+      "path": "context/release-calendar-3.json",
+      "bytes": 2735,
+      "sha256": "5cd09adaf109a624b94244bd3f746d45970e831bf6eff97da7ebc7087c1c5042"
+    },
+    {
+      "path": "context/search-findings-1.json",
+      "bytes": 20797,
+      "sha256": "fae56767f206f90945815f3fe9dc4310ef2f7c1a69a050dfd85d10626df869c7"
+    },
+    {
+      "path": "context/search-findings-2.json",
+      "bytes": 18161,
+      "sha256": "25d5f0d53364f2cbcc4c2b9599fdabe89a26efc4211c11db5592e3e7856f7973"
+    },
+    {
+      "path": "context/search-findings-3.json",
+      "bytes": 18555,
+      "sha256": "841373c18bee95c62a80443a63e296961e093e6b6195decf9db1dd4e5010cb8c"
+    },
+    {
+      "path": "context/search-findings-4.json",
+      "bytes": 18918,
+      "sha256": "088fe9927048fea2dc801dfd52e13c11905886b8684c6ee91545e4a08f48a8bb"
+    },
+    {
+      "path": "context/search-findings-5.json",
+      "bytes": 20360,
+      "sha256": "c35cf3d01a358d99e4b23ebe49630818eac83470142838fdc68152666eb07046"
+    },
+    {
+      "path": "historical/artifacts/series/app-ranks/2026-10-08.json",
+      "bytes": 58899,
+      "sha256": "e6d639427aaaa0f0d2728de0db41106d9a31392bb94ad2847d2597026ca92182"
+    },
+    {
+      "path": "historical/cross-sector-findings-2026-10-08.json",
+      "bytes": 3475,
+      "sha256": "bdb8c891e5931f5771506e0e4e5c5d0ca97753d227efe3c775200829e14161ea"
+    },
+    {
+      "path": "historical/household-findings-2026-10-08.json",
+      "bytes": 5573,
+      "sha256": "ac56416dcd10ce02f1fced485ccf38131346cd3240a0fa36e7ab190d59c13c06"
+    },
+    {
+      "path": "historical/interpretation-limitations.md",
+      "bytes": 2145,
+      "sha256": "d716ac646736f355535993f5808f47390d2a39039ca309d76c019b8b000fa44a"
+    },
+    {
+      "path": "historical/markets/overview-rising-demand.md",
+      "bytes": 9980,
+      "sha256": "f09878212a79269a25669a5b1bab465f993194aeb506642c5aa532ca7f406678"
+    },
+    {
+      "path": "historical/research-findings-2026-09-27-to-10-08.json",
+      "bytes": 3675,
+      "sha256": "a7871018e17e30ddd1b974ec931fc473f278205f4527866131ebe2c5d5ad6ba9"
+    },
+    {
+      "path": "historical/research-method.md",
+      "bytes": 1113,
+      "sha256": "3d07ca178a7362090ea521529fe1671b29abb98601e43e24b357027db8d54e09"
+    },
+    {
+      "path": "historical/sector-evidence-inventory.json",
+      "bytes": 17693,
+      "sha256": "14f01a8f4627699a37f8ac3b7ddec7bb593eae10e90a0c16dc9874301fe3d473"
+    },
+    {
+      "path": "historical/seller-findings-2026-10-08.json",
+      "bytes": 2171,
+      "sha256": "4891f26aeded51664734f4db44ce7bb66a66636107616304156cc1a9fe67944e"
+    },
+    {
+      "path": "markets/aircon-rebound-divergence.md",
+      "bytes": 5527,
+      "sha256": "a195095d5da55cc9374a7ab1f2ab4f1947104fe1a1442c960461e07d4f372d8d"
+    },
+    {
+      "path": "markets/foreign-package-travel.md",
+      "bytes": 2926,
+      "sha256": "b5cf3b62907c7eeb4c1f436bfbc9b24bb0e0dc9fb9e6d50fbce63c6d014d023f"
+    },
+    {
+      "path": "markets/lighting.md",
+      "bytes": 2400,
+      "sha256": "87af3dfa77498069ae52612926694ac1e84dbc25ea06a4fb925a09493046c671"
+    },
+    {
+      "path": "reports/2026-10-23.md",
+      "bytes": 3273,
+      "sha256": "966c06741f2aa4a2d0ba6b70caf2e8cdb1c67e9bf066278a0e3d746268666eb9"
+    },
+    {
+      "path": "reports/2026-10-24.md",
+      "bytes": 3148,
+      "sha256": "c2ad21e484b745b8b6e9ff0ce536da7eb16cc903341071d1300de48a4c80ce05"
+    },
+    {
+      "path": "reports/2026-10-25.md",
+      "bytes": 4060,
+      "sha256": "9591aabe0a723b1907181ae17e1b92cd74762a8716f9d94b73613f8fa2bdf4a9"
+    },
+    {
+      "path": "reports/2026-10-26.md",
+      "bytes": 4802,
+      "sha256": "740640d6ae0ddca96294d44bf6cd454badb27cd3500a7052f43e946e8d0aa628"
+    },
+    {
+      "path": "reports/daily-2026-10-27.md",
+      "bytes": 2334,
+      "sha256": "9ac32738245d72d9826e841afd785cf9a27231517229ccfd659fdb0dd2ab6eee"
+    },
+    {
+      "path": "reports/daily-2026-10-28.md",
+      "bytes": 3547,
+      "sha256": "f23ef06a33c1fbae6215ffbb56a0f48ec0c0230d0c0e0fac35b4737c5968b806"
+    },
+    {
+      "path": "reports/daily-2026-10-29.md",
+      "bytes": 1497,
+      "sha256": "af6b27e707d00d0cf00ef2762ac6eff4177999e37d4fbb173015b7d290e11515"
+    },
+    {
+      "path": "reports/daily-2026-10-30.md",
+      "bytes": 1636,
+      "sha256": "37672e641a80c44c1a4cb164b69d9aa202e7cb2fed201e1282e5bfb6f6da08ae"
+    },
+    {
+      "path": "reports/daily-2026-10-31.md",
+      "bytes": 1832,
+      "sha256": "5b542289b18f57dc47e6fbd88c5a1828165d2e2efd5740773e188af6c09b2dd9"
+    },
+    {
+      "path": "reports/daily-2026-11-01.md",
+      "bytes": 2772,
+      "sha256": "47a7c901a23cdb9ee76478dbda7a8f060890e85d31a1d8cec2a444fc7caec564"
+    },
+    {
+      "path": "sources.json",
+      "bytes": 289490,
+      "sha256": "106906127c13eda41e633763640c4ff67290649c641b0eb134891f9df0d0f20c"
+    },
+    {
+      "path": "validation.json",
+      "bytes": 5195,
+      "sha256": "4c507e95f2aec02c18b1b0c46526c437724b2a444d0fbfa3c69d98324e4518da"
+    }
+  ]
+}

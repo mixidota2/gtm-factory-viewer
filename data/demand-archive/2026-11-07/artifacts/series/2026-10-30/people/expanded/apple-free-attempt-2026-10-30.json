@@ -1,0 +1,11 @@
+{
+  "date_jst": "2026-10-30",
+  "chart": "free",
+  "url": "https://itunes.apple.com/jp/rss/topfreeapplications/limit=200/json",
+  "requested_limit": 200,
+  "attempts": 1,
+  "request_started_utc": "2026-10-29T18:09:07.743684+00:00",
+  "publication_date": null,
+  "target_period": null,
+  "method": "urllib GET; redirects disabled; default TLS; no retry"
+}

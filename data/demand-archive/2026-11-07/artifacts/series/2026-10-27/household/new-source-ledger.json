@@ -1,0 +1,28 @@
+[
+  {
+    "url": "https://www.stat.go.jp/data/cpi/2025/kaisetsu/pdf/fu1.pdf",
+    "publication_date": null,
+    "publication_date_note": "2025-base methodology; exact publication date not independently verified",
+    "target_period": "2025 CPI base methodology",
+    "retrieved_at_utc": "2026-10-26T18:04:15Z",
+    "retrieval": "web full PDF text extraction, relevant page12 lines574–650 read",
+    "finding": "6200 combines age/medical inpatient/outpatient/dental categories, not a dental-only deflator",
+    "visual_verification": "NOT_TESTED; screenshot call yielded no visible image"
+  },
+  {
+    "url": "https://www.stat.go.jp/data/kakei/kaisetsu.html",
+    "publication_date": null,
+    "target_period": "current methodological definitions",
+    "retrieved_at_utc": "2026-10-26T18:04:34Z",
+    "retrieval": "web original HTML sections8 and11 read",
+    "finding": "Annual frequency sums monthly values, annual buyerhousehold ratio averages monthly values; neither is unique annual patients"
+  },
+  {
+    "url": "https://www.stat.go.jp/data/kakei/pdf/form12.pdf",
+    "publication_date": null,
+    "target_period": "questionnaire instructions",
+    "retrieved_at_utc": "2026-10-26T18:04:15Z",
+    "retrieval": "FAILED content too large 19327606bytes; not read",
+    "adopted_as_evidence": false
+  }
+]

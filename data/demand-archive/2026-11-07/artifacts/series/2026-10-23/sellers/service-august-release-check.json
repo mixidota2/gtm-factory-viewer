@@ -1,0 +1,102 @@
+{
+  "status": "bounded_comparison_complete_no_growth_promotion",
+  "prepared_at": "2026-10-23T08:01:35+09:00",
+  "sources": [
+    {
+      "url": "https://www.stat.go.jp/data/mbss/kekka.html",
+      "retrieved_at": "2026-10-23T08:40:23+09:00",
+      "observed_period": "2026-08 preliminary"
+    },
+    {
+      "url": "https://www.stat.go.jp/data/mbss/kekka/pdf/m202608.pdf",
+      "publication_date": "2026-10-23",
+      "retrieved_at": "2026-10-23T08:40:28+09:00",
+      "period": "2026-08",
+      "read_scope": "PDF text: pages 1,4,5; selected sales rows and definitions",
+      "original_bytes_archived": false,
+      "current_visual_status": "Selected pages1,4,5 independently verified at10:02JST; no whole-document claim."
+    }
+  ],
+  "sales_unit": "million JPY; nominal; business-activity industry",
+  "observations": [
+    {
+      "industry": "サービス産業計",
+      "july_yoy_pct": 5,
+      "august_sales": 37401187,
+      "august_yoy_pct": 3.6
+    },
+    {
+      "industry": "宿泊業",
+      "july_yoy_pct": 8,
+      "august_sales": 718854,
+      "august_yoy_pct": 2.3,
+      "quantity_comparison": "Saved August first-estimate guest nights 62.68 million, YoY -6.7%; national lodging survey, different population and 2026 stratification change. Sales / guest nights is not a valid exact price decomposition.",
+      "quantity_source": "https://www.mlit.go.jp/kankocho/content/002025565.pdf",
+      "quantity_publication_date": "2026-09-30",
+      "quantity_retrieved_date": "2026-10-16",
+      "quantity_retrieved_again": false
+    },
+    {
+      "industry": "飲食店",
+      "july_yoy_pct": 5.9,
+      "august_sales": 1833150,
+      "august_yoy_pct": 3.7,
+      "quantity_comparison": "Saved Doutor August same-store customer YoY -2.3%; one chain, not national restaurants. No same-scope demand-growth confirmation.",
+      "quantity_source": "https://www.doutor.co.jp/about_us/ir/report/monthly/pdf/20261013100709.pdf",
+      "quantity_publication_date": "2026-10-13",
+      "quantity_retrieved_date": "2026-10-16",
+      "quantity_retrieved_again": false
+    },
+    {
+      "industry": "水運業",
+      "july_yoy_pct": 21.6,
+      "august_sales": 702545,
+      "august_yoy_pct": 16.8,
+      "quantity_comparison": "Saved coastal volume is July only and narrower scope; not August matched quantity."
+    },
+    {
+      "industry": "インターネット附随サービス業",
+      "july_yoy_pct": 10.5,
+      "august_sales": 927865,
+      "august_yoy_pct": 7.1,
+      "quantity_comparison": "No matched use quantity verified."
+    },
+    {
+      "industry": "情報サービス業",
+      "july_yoy_pct": 8.2,
+      "august_sales": 2853242,
+      "august_yoy_pct": 3.5,
+      "quantity_comparison": "No matched use quantity verified."
+    }
+  ],
+  "definition_checks": [
+    "Business persons are people working at the establishment, not customers; employees and business persons differ.",
+    "2024 and earlier levels were adjusted for sampling/population changes and tax treatment; no direct old-METI splice.",
+    "Changes in YoY rates are not month-on-month growth; July rolling12 and annual baselines are not relabeled as August."
+  ],
+  "limitations": [
+    "Selected monthly comparison only; no revised full 34-industry ranking or August rolling12 recomputation.",
+    "No new quantity-growth promotion. No claim of exact publication minute.",
+    "Initial screenshot failed; later independent verification visually inspected pages 1,4,5 and confirmed all six selected sales/YoY pairs. Other pages not visually audited. Original PDF and rendered PNGs retained in shared workspace, not archived as repository binaries.",
+    "Public tests/browser.cjs approval remains pending; publication and notification unchanged."
+  ],
+  "additional_evidence_needed": "Use saved result at next scheduled preparation; do not repeat the completed August index/PDF acquisition solely to confirm publication. Any full-series update or new quantity search is separate remaining work.",
+  "historical_limitations": [
+    "Selected monthly comparison only; no revised full 34-industry ranking or August rolling12 recomputation.",
+    "No new quantity-growth promotion. No claim of exact publication minute.",
+    "PDF table text read; screenshot failed. No binary original archived.",
+    "Public tests/browser.cjs approval remains pending; publication and notification unchanged."
+  ],
+  "independent_visual_verification": {
+    "status": "six_selected_pairs_and_definitions_verified",
+    "commit": "de5e029df6af9d38dfa3fc42cfba24eacc6494dd",
+    "pages": [
+      1,
+      4,
+      5
+    ],
+    "pdf_bytes": 2363338,
+    "pdf_sha256": "e838243808596a34f47becaa03d288559c1f7b3e3e737ade9344a140b72ba6de",
+    "quantity_comparison_changed": false
+  }
+}

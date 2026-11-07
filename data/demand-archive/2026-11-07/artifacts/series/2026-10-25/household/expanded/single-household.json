@@ -1,0 +1,22 @@
+{
+  "2019": {
+    "file": "single-items2019.xlsx",
+    "item_separately_reported": false,
+    "expenditure_yen": null
+  },
+  "2023": {
+    "file": "single-items2023.xlsx",
+    "item_separately_reported": false,
+    "expenditure_yen": null
+  },
+  "2024": {
+    "file": "single-items2024.xlsx",
+    "item_separately_reported": false,
+    "expenditure_yen": null
+  },
+  "2025": {
+    "file": "single-items2025.xlsx",
+    "item_separately_reported": false,
+    "expenditure_yen": null
+  }
+}

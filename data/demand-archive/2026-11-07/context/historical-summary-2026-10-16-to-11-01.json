@@ -1,0 +1,258 @@
+{
+  "status": "Historical research summary. Numeric observations are archived, not re-certified as current. The detailed dated datasets take precedence.",
+  "records": [
+    {
+      "analysis_date": "2026-10-16",
+      "topic": "ネット動画・レンタカー・コーヒー",
+      "observations": {
+        "weekday_video_minutes_FY2024_FY2025": [
+          69.0,
+          76.1
+        ],
+        "rental_august2025_2026_yen": [
+          427,
+          572
+        ],
+        "rental_latest12_monthly_yen_rounded": 394,
+        "rental_latest12_yoy_nominal_pct_rounded": 5.8,
+        "single_household_rental2019_2025_change_pct": -9.0,
+        "coffee_latest12_quantity_g": [
+          2494,
+          2501
+        ],
+        "coffee_latest12_spending_change_pct": 27.5
+      },
+      "limitations": "動画は13〜79歳の非利用者込み平均で、特定アプリの時間ではない。レンタカーは二人以上世帯の支出と単身世帯・事業者の利用量を分ける。コーヒーは支出増とほぼ横ばいの量を区別。",
+      "source_urls_as_recorded": [
+        "https://www.soumu.go.jp/iicp/research/results/media_usage-time.html",
+        "https://www.stat.go.jp/data/kakei/sokuhou/tsuki/index.html",
+        "https://ssl4.eir-parts.net/doc/4666/ir_material_for_fiscal_ym9/211834/00.pdf",
+        "https://www.e-stat.go.jp/dbview?sid=0004023602"
+      ]
+    },
+    {
+      "analysis_date": "2026-10-18",
+      "topic": "照明とカフェ",
+      "observations": {
+        "lighting_latest12_spending_change_pct": 48.6,
+        "residential_LED_Aug2026_units_yoy_pct": 7.0,
+        "Komeda_Sept2026_same_store_sales_index": 104.3
+      },
+      "limitations": "照明出荷は37社・輸出込み。コメダの既存店指標はFC店への卸売で、来店客数ではない。",
+      "source_urls_as_recorded": [
+        "https://jlma.or.jp/tokei/pdf/kigu_jishuTokei2607-08.xlsx",
+        "https://www.e-stat.go.jp/stat-search/file-download?fileKind=1&statInfId=000040270651",
+        "https://ssl4.eir-parts.net/doc/3543/ir_material3/287009/00.pdf"
+      ]
+    },
+    {
+      "analysis_date": "2026-10-19",
+      "topic": "海外パック旅行",
+      "observations": {
+        "household_rolling12_yen": [
+          9238,
+          13386
+        ],
+        "nominal_growth_pct_rounded": 44.9,
+        "matched_CPI_adjusted_growth_pct_rounded": 45.6,
+        "agency_Jul2026_participants_yoy_pct": -7.2
+      },
+      "limitations": "二人以上世帯の2025年9月〜2026年8月と前年期間の比較。旅行会社の取扱人数は母集団と期間が異なり直接比較不可。",
+      "source_urls_as_recorded": [
+        "https://www.e-stat.go.jp/stat-search/file-download?fileKind=1&statInfId=000040270651",
+        "https://www.e-stat.go.jp/stat-search/file-download?fileKind=1&statInfId=000040482945",
+        "https://www.mlit.go.jp/kankocho/content/002023839.pdf"
+      ]
+    },
+    {
+      "analysis_date": "2026-10-24",
+      "topic": "給排水工事",
+      "observations": {
+        "household_rolling12_yen": [
+          5672,
+          7237
+        ],
+        "household_nominal_growth_pct_rounded": 27.6,
+        "residential_related_orders_Q22026_yoy_pct": -11.7,
+        "nonresidential_related_orders_Q22026_yoy_pct": 34.9,
+        "August_service_sales_yoy_pct": 3.6
+      },
+      "limitations": "家計は支出ゼロを含む世帯平均。数量未集計、CPI対象も狭い。住宅・非住宅・家計の母集団と比較期間は異なる。",
+      "source_urls_as_recorded": [
+        "https://www.e-stat.go.jp/stat-search/file-download?fileKind=1&statInfId=000040270651",
+        "https://www.mlit.go.jp/report/press/joho04_hh_001392.html",
+        "https://www.stat.go.jp/data/mbss/kekka/pdf/m202608.pdf"
+      ]
+    },
+    {
+      "analysis_date": "2026-10-25",
+      "topic": "高校補習教育",
+      "observations": {
+        "household_rolling12_yen": [
+          8150,
+          10302
+        ],
+        "nominal_growth_pct_rounded": 26.4,
+        "Waseda_Academy_high_school_average_enrollment_AprDec2025_prior_current": [
+          2588,
+          2904
+        ],
+        "enrollment_growth_pct_rounded": 12.2,
+        "seller_sales_growth_pct": 11.3
+      },
+      "limitations": "一社の在籍増は全国受講量の増加を示さない。家計の期間と一致せず、価格・他社からの代替・世帯構成も分離できていない。",
+      "source_urls_as_recorded": [
+        "https://www.e-stat.go.jp/stat-search/file-download?fileKind=1&statInfId=000040270651",
+        "https://www2.jpx.co.jp/disc/47180/140120260204546671.pdf"
+      ]
+    },
+    {
+      "analysis_date": "2026-10-26",
+      "topic": "エアコン",
+      "observations": {
+        "household_latest12_spending_yoy_pct": 24.4,
+        "household_latest12_quantity_yoy_pct_approx": 16,
+        "JuneAugust_quantity_yoy_pct_approx": -15
+      },
+      "limitations": "二人以上世帯。12か月の反発と直近夏の減少が併存し、メーカー出荷・小売受注と最終購入を区別する。",
+      "source_urls_as_recorded": []
+    },
+    {
+      "analysis_date": "2026-10-27",
+      "topic": "電子処方箋・歯科",
+      "observations": {
+        "medical_clinic_adoption_Sept2025_Sept2026_pct": [
+          22.5,
+          32.2
+        ],
+        "dental_household_latest12_spending_yoy_pct": 24.0
+      },
+      "limitations": "医科診療所の母数はオンライン資格確認導入済み施設。電子と紙の登録件数は集計段階が違い、電子化率に換算できない。歯科支出から受診量の持続増は確認できない。",
+      "source_urls_as_recorded": [
+        "https://www.digital.go.jp/resources/govdashboard/electronic-prescription"
+      ]
+    },
+    {
+      "analysis_date": "2026-10-28",
+      "topic": "アクセサリー",
+      "observations": {
+        "household_nominal_yen": [
+          4035,
+          4938
+        ],
+        "household_pct": 22.37918215613383,
+        "summer_pct": -5.8626465661641545,
+        "annual2019_2025_yen": [
+          4801,
+          4554
+        ],
+        "single2024_2025_yen": [
+          4379,
+          6544
+        ],
+        "FDC_MarSep_sales_customers_spend_indices": [
+          114.8,
+          107.6,
+          106.7
+        ],
+        "FDC_Sep_customers_index": 97.3,
+        "Apple_rows": [
+          100,
+          100,
+          98
+        ],
+        "Apple_actual_days": 14,
+        "Apple_consecutive_days": 13,
+        "Apple_four_week_eligible": false,
+        "growth_promoted": false
+      },
+      "limitations": "家計は2025年9月〜2026年8月の全国二人以上世帯。FDCはECを含む一社の既存店で、期間も母集団も一致しない。",
+      "source_urls_as_recorded": [
+        "https://www.e-stat.go.jp/stat-search/file-download?fileKind=1&statInfId=000040270651",
+        "https://cdn.clipkit.co/tenants/2641/item_files/assets/000/006/437/original/2609GS.pdf"
+      ]
+    },
+    {
+      "analysis_date": "2026-10-29",
+      "topic": "他の工事費",
+      "observations": {
+        "household427_nominal_growth_pct": 22.1175649747,
+        "paired425427_growth_pct": -0.238773387,
+        "apple_rows": [
+          100,
+          100,
+          99
+        ],
+        "new_growth_claims": 0
+      },
+      "limitations": "427単独の支出増は、425との合計でほぼ横ばいという結果と併記する。数量増を確認していない。",
+      "source_urls_as_recorded": []
+    },
+    {
+      "analysis_date": "2026-10-30",
+      "topic": "チョコレート類",
+      "observations": {
+        "household_352_353_rolling12_yen": [
+          9714,
+          10467
+        ],
+        "nominal_growth_pct_rounded": 7.8,
+        "CPI_reference_adjusted_growth_pct_rounded": -13.3,
+        "broader_production_2025_yoy_pct": -9.0,
+        "broader_retail_value_2025_yoy_pct": 12.6,
+        "app_observation_missing": true
+      },
+      "limitations": "CPI調整は代表商品の指数による参考値で、個々の菓子購入量ではない。生産統計の範囲・年次も家計と異なる。",
+      "source_urls_as_recorded": [
+        "https://www.stat.go.jp/data/kakei/sokuhou/tsuki/index.html",
+        "https://www.stat.go.jp/data/cpi/2025/kaisetsu/pdf/0.pdf",
+        "https://anka-kashi.com/images/statistics/r07.pdf"
+      ]
+    },
+    {
+      "analysis_date": "2026-10-31",
+      "topic": "他の教養娯楽用品・求人",
+      "observations": {
+        "household_code": "842",
+        "nominal_latest12_yen": [
+          7064,
+          8358
+        ],
+        "quantity_verified": false,
+        "jobs": "Sepactualrelease;assemblyrecoverycandidate",
+        "Apple_rows": [
+          100,
+          100,
+          99
+        ],
+        "Apple_current_consecutive_days": 1,
+        "weekly_comparison": true,
+        "new_growth_promoted": 0
+      },
+      "limitations": "842の支出増は数量未確認。求人は9月公表による窓更新であり、機械組立は長期拡大ではなく回復候補。",
+      "source_urls_as_recorded": [
+        "https://www.mhlw.go.jp/stf/newpage_76960.html",
+        "https://www.e-stat.go.jp/stat-search/file-download?fileKind=1&statInfId=000040270651"
+      ]
+    },
+    {
+      "analysis_date": "2026-11-01",
+      "topic": "ゴルフ用品",
+      "observations": {
+        "household832_nominal12_pct": 17.372,
+        "clubCPI_proxy12_pct": 14.36,
+        "clubCPI_proxy_JunAug_pct": -5.901,
+        "quantity_verified": false,
+        "Apple_rows": [
+          100,
+          100,
+          99
+        ],
+        "Apple_consecutive": 2,
+        "growth_promoted": 0
+      },
+      "limitations": "832の広い家計品目にゴルフクラブCPIを当てた感度分析で、直接の全品目数量ではない。原表・売り手の同期間・同範囲数量は未確認。",
+      "source_urls_as_recorded": []
+    }
+  ]
+}
