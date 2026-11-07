@@ -1,0 +1,355 @@
+{
+  "code": "424",
+  "item": "給排水関係工事費",
+  "population": "national two-or-more-person households including nonpurchasers",
+  "unit": "yen per household",
+  "periods": [
+    "2024-09/2025-08",
+    "2025-09/2026-08"
+  ],
+  "monthly_observations_2019_onward": 92,
+  "annual_sums": [
+    {
+      "year": 2019,
+      "設備修繕・維持": 108093,
+      "工事その他のサービス": 74969,
+      "424": 5236,
+      "425": 32739,
+      "427": 19441
+    },
+    {
+      "year": 2020,
+      "設備修繕・維持": 110327,
+      "工事その他のサービス": 73223,
+      "424": 7367,
+      "425": 27451,
+      "427": 18485
+    },
+    {
+      "year": 2021,
+      "設備修繕・維持": 115138,
+      "工事その他のサービス": 75789,
+      "424": 6809,
+      "425": 30843,
+      "427": 20145
+    },
+    {
+      "year": 2022,
+      "設備修繕・維持": 120659,
+      "工事その他のサービス": 81414,
+      "424": 6450,
+      "425": 32560,
+      "427": 24429
+    },
+    {
+      "year": 2023,
+      "設備修繕・維持": 120616,
+      "工事その他のサービス": 76616,
+      "424": 5614,
+      "425": 30407,
+      "427": 22770
+    },
+    {
+      "year": 2024,
+      "設備修繕・維持": 120400,
+      "工事その他のサービス": 73623,
+      "424": 5916,
+      "425": 27411,
+      "427": 22616
+    },
+    {
+      "year": 2025,
+      "設備修繕・維持": 127006,
+      "工事その他のサービス": 84089,
+      "424": 5978,
+      "425": 37158,
+      "427": 21623
+    }
+  ],
+  "rolling12": {
+    "設備修繕・維持": {
+      "prior": 128436,
+      "latest": 136266,
+      "growth_pct": 6.096421564047461
+    },
+    "工事その他のサービス": {
+      "prior": 83156,
+      "latest": 85948,
+      "growth_pct": 3.35754485545241
+    },
+    "424": {
+      "prior": 5672,
+      "latest": 7237,
+      "growth_pct": 27.591678420310295
+    },
+    "425": {
+      "prior": 35701,
+      "latest": 30489,
+      "growth_pct": -14.599030839472283
+    },
+    "427": {
+      "prior": 22932,
+      "latest": 28004,
+      "growth_pct": 22.117564974707825
+    }
+  },
+  "monthly_changes": [
+    {
+      "month": "2025-09",
+      "value": 539,
+      "prior": 257,
+      "difference": 282
+    },
+    {
+      "month": "2025-10",
+      "value": 455,
+      "prior": 473,
+      "difference": -18
+    },
+    {
+      "month": "2025-11",
+      "value": 564,
+      "prior": 407,
+      "difference": 157
+    },
+    {
+      "month": "2025-12",
+      "value": 891,
+      "prior": 1006,
+      "difference": -115
+    },
+    {
+      "month": "2026-01",
+      "value": 276,
+      "prior": 231,
+      "difference": 45
+    },
+    {
+      "month": "2026-02",
+      "value": 675,
+      "prior": 639,
+      "difference": 36
+    },
+    {
+      "month": "2026-03",
+      "value": 367,
+      "prior": 214,
+      "difference": 153
+    },
+    {
+      "month": "2026-04",
+      "value": 1098,
+      "prior": 605,
+      "difference": 493
+    },
+    {
+      "month": "2026-05",
+      "value": 532,
+      "prior": 397,
+      "difference": 135
+    },
+    {
+      "month": "2026-06",
+      "value": 912,
+      "prior": 694,
+      "difference": 218
+    },
+    {
+      "month": "2026-07",
+      "value": 366,
+      "prior": 409,
+      "difference": -43
+    },
+    {
+      "month": "2026-08",
+      "value": 562,
+      "prior": 340,
+      "difference": 222
+    }
+  ],
+  "positive_months": 9,
+  "annual_published": {
+    "2019": {
+      "file": "annual2019.xlsx",
+      "row_1based": 293,
+      "raw": [
+        "40101",
+        "2019cyT     ",
+        "            ",
+        "01",
+        "",
+        280.0,
+        "",
+        "424",
+        "給排水関係工事費",
+        "",
+        15.0,
+        5236.0,
+        "...",
+        "...",
+        102.0,
+        12.0,
+        5638.0,
+        "...",
+        "...",
+        14.0,
+        5164.0,
+        "..."
+      ],
+      "expenditure_yen": 5236.0,
+      "quantity_raw": "...",
+      "average_price_raw": "..."
+    },
+    "2025": {
+      "file": "annual2025.xlsx",
+      "row_1based": 289,
+      "raw": [
+        "40101",
+        "2025cyT     ",
+        "            ",
+        "01",
+        null,
+        279,
+        null,
+        279,
+        2025000000,
+        6,
+        "424",
+        "給排水関係工事費",
+        "円",
+        12,
+        5976,
+        "...",
+        "...",
+        87,
+        13,
+        7693,
+        "...",
+        "..."
+      ],
+      "expenditure_yen": 5976,
+      "quantity_raw": "...",
+      "average_price_raw": "..."
+    }
+  },
+  "single_annual": {
+    "2019": {
+      "file": "single-items2019.xlsx",
+      "row_1based": 290,
+      "raw": [
+        "0900H",
+        "2019cyT     ",
+        "            ",
+        "  ",
+        "",
+        275.0,
+        "",
+        "",
+        "",
+        "",
+        "",
+        "給排水関係工事費",
+        "",
+        "",
+        "",
+        "",
+        11.0,
+        2749.0,
+        3.0,
+        549.0,
+        "",
+        "Plumbing"
+      ],
+      "expenditure_yen": 2749.0
+    },
+    "2023": {
+      "file": "single-items2023.xlsx",
+      "row_1based": 284,
+      "raw": [
+        "0900H",
+        "2023cyT     ",
+        "            ",
+        "  ",
+        null,
+        274,
+        null,
+        274,
+        2023000000,
+        6,
+        "424",
+        "給排水関係工事費",
+        "円",
+        11,
+        2963,
+        6,
+        1121,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "expenditure_yen": 2963
+    },
+    "2024": {
+      "file": "single-items2024.xlsx",
+      "row_1based": 284,
+      "raw": [
+        "0900H",
+        "2024cyT     ",
+        "            ",
+        "  ",
+        null,
+        274,
+        null,
+        274,
+        2024000000,
+        6,
+        "424",
+        "給排水関係工事費",
+        "円",
+        8,
+        4434,
+        2,
+        602,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "expenditure_yen": 4434
+    },
+    "2025": {
+      "file": "single-items2025.xlsx",
+      "row_1based": 284,
+      "raw": [
+        "0900H",
+        "2025cyT     ",
+        "            ",
+        "  ",
+        null,
+        274,
+        null,
+        274,
+        2025000000,
+        6,
+        "424",
+        "給排水関係工事費",
+        "円",
+        5,
+        1357,
+        4,
+        1522,
+        null
+      ],
+      "expenditure_yen": 1357
+    }
+  },
+  "cpi_exact_match": false,
+  "cpi_reason": "3176 toilet ball-tap replacement including material is narrower than household424 kitchens, bathrooms, toilets, water/drain pipes and maintenance inspections. No broad-category deflation performed.",
+  "quantity_available": false,
+  "purchase_frequency_used": false,
+  "classification2015_inspected": false,
+  "growth_promoted": false
+}

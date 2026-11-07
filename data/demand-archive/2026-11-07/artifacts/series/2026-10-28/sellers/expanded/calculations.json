@@ -1,0 +1,130 @@
+{
+  "date_jst": "2026-10-28",
+  "unit": "index prior corresponding period=100",
+  "monthly_identity_checks": [
+    {
+      "month": "2025-09",
+      "customer_times_average_index": 89.8752,
+      "reported_sales_index": 89.9,
+      "difference_percentage_points": -0.0248,
+      "rounding_interval_overlap": true
+    },
+    {
+      "month": "2025-10",
+      "customer_times_average_index": 96.0057,
+      "reported_sales_index": 96.0,
+      "difference_percentage_points": 0.0057,
+      "rounding_interval_overlap": true
+    },
+    {
+      "month": "2025-11",
+      "customer_times_average_index": 97.945,
+      "reported_sales_index": 97.9,
+      "difference_percentage_points": 0.045,
+      "rounding_interval_overlap": true
+    },
+    {
+      "month": "2025-12",
+      "customer_times_average_index": 94.2872,
+      "reported_sales_index": 94.3,
+      "difference_percentage_points": -0.0128,
+      "rounding_interval_overlap": true
+    },
+    {
+      "month": "2026-01",
+      "customer_times_average_index": 113.742,
+      "reported_sales_index": 113.7,
+      "difference_percentage_points": 0.042,
+      "rounding_interval_overlap": true
+    },
+    {
+      "month": "2026-02",
+      "customer_times_average_index": 110.3925,
+      "reported_sales_index": 110.5,
+      "difference_percentage_points": -0.1075,
+      "rounding_interval_overlap": true
+    },
+    {
+      "month": "2026-03",
+      "customer_times_average_index": 111.4112,
+      "reported_sales_index": 111.4,
+      "difference_percentage_points": 0.0112,
+      "rounding_interval_overlap": true
+    },
+    {
+      "month": "2026-04",
+      "customer_times_average_index": 112.0999,
+      "reported_sales_index": 112.1,
+      "difference_percentage_points": -0.0001,
+      "rounding_interval_overlap": true
+    },
+    {
+      "month": "2026-05",
+      "customer_times_average_index": 118.5392,
+      "reported_sales_index": 118.5,
+      "difference_percentage_points": 0.0392,
+      "rounding_interval_overlap": true
+    },
+    {
+      "month": "2026-06",
+      "customer_times_average_index": 110.8784,
+      "reported_sales_index": 110.8,
+      "difference_percentage_points": 0.0784,
+      "rounding_interval_overlap": true
+    },
+    {
+      "month": "2026-07",
+      "customer_times_average_index": 120.4464,
+      "reported_sales_index": 120.5,
+      "difference_percentage_points": -0.0536,
+      "rounding_interval_overlap": true
+    },
+    {
+      "month": "2026-08",
+      "customer_times_average_index": 120.657,
+      "reported_sales_index": 120.7,
+      "difference_percentage_points": -0.043,
+      "rounding_interval_overlap": true
+    },
+    {
+      "month": "2026-09",
+      "customer_times_average_index": 109.4625,
+      "reported_sales_index": 109.5,
+      "difference_percentage_points": -0.0375,
+      "rounding_interval_overlap": true
+    }
+  ],
+  "mar_sep2026_reported_cumulative": {
+    "sales": 114.8,
+    "customers": 107.6,
+    "spend_per_customer": 106.7,
+    "customer_times_spend_index": 114.8092
+  },
+  "matched_household12months": "2025-09/2026-08",
+  "matched_month_direction_only": {
+    "customer_yoy_positive_months": 8,
+    "nonpositive_months": 4,
+    "count": 12,
+    "no_rolling12_yoy_inferred": true,
+    "reason": "Absolute monthly customers/weights and fixed cohort not published in these sources."
+  },
+  "tsutsumi": {
+    "fy2026_sales_million_yen": [
+      24835,
+      35225
+    ],
+    "self_calculated_growth_pct": 41.83611838131669,
+    "q1_2027_sales_million_yen": [
+      6131,
+      6313
+    ],
+    "q1_self_calculated_growth_pct": 2.9685206328494536,
+    "published_growth_pct": [
+      41.8,
+      3.0
+    ],
+    "quantity": null
+  },
+  "national_growth_promoted": false,
+  "period_or_population_combination_not_performed": true
+}

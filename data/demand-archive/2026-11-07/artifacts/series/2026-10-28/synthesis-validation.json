@@ -1,0 +1,220 @@
+{
+  "date_jst": "2026-10-28",
+  "checked_at_utc": "2026-10-27T18:10:25.821305+00:00",
+  "basis": "Coordinator independent stdlib calculation from saved selected monthly CSV and full original Apple feed bytes; not a repeated external capture",
+  "household_checks": [
+    {
+      "metric": "消費支出",
+      "window": "rolling12",
+      "sums": [
+        3734089.0,
+        3759946.0
+      ],
+      "match": true
+    },
+    {
+      "metric": "身の回り用品",
+      "window": "rolling12",
+      "sums": [
+        23559.0,
+        24903.0
+      ],
+      "match": true
+    },
+    {
+      "metric": "かばん類",
+      "window": "rolling12",
+      "sums": [
+        10307.0,
+        10138.0
+      ],
+      "match": true
+    },
+    {
+      "metric": "928",
+      "window": "rolling12",
+      "sums": [
+        4035.0,
+        4938.0
+      ],
+      "match": true
+    },
+    {
+      "metric": "930",
+      "window": "rolling12",
+      "sums": [
+        1706.0,
+        1425.0
+      ],
+      "match": true
+    },
+    {
+      "metric": "932",
+      "window": "rolling12",
+      "sums": [
+        5781.0,
+        6596.0
+      ],
+      "match": true
+    },
+    {
+      "metric": "935",
+      "window": "rolling12",
+      "sums": [
+        530.0,
+        639.0
+      ],
+      "match": true
+    },
+    {
+      "metric": "消費支出",
+      "window": "recent_three_months",
+      "sums": [
+        915090.0,
+        903106.0
+      ],
+      "match": true
+    },
+    {
+      "metric": "身の回り用品",
+      "window": "recent_three_months",
+      "sums": [
+        6665.0,
+        6142.0
+      ],
+      "match": true
+    },
+    {
+      "metric": "かばん類",
+      "window": "recent_three_months",
+      "sums": [
+        2874.0,
+        2323.0
+      ],
+      "match": true
+    },
+    {
+      "metric": "928",
+      "window": "recent_three_months",
+      "sums": [
+        1194.0,
+        1124.0
+      ],
+      "match": true
+    },
+    {
+      "metric": "930",
+      "window": "recent_three_months",
+      "sums": [
+        379.0,
+        382.0
+      ],
+      "match": true
+    },
+    {
+      "metric": "932",
+      "window": "recent_three_months",
+      "sums": [
+        1513.0,
+        1714.0
+      ],
+      "match": true
+    },
+    {
+      "metric": "935",
+      "window": "recent_three_months",
+      "sums": [
+        130.0,
+        103.0
+      ],
+      "match": true
+    }
+  ],
+  "monthly_count": 92,
+  "annual2019": 4801.0,
+  "annual2025_monthly_sum": 4553.0,
+  "annual2025_published": 4554,
+  "rounding_gap_preserved": true,
+  "apple": [
+    {
+      "chart": "free",
+      "rows": 100,
+      "raw_hash_match": true,
+      "all_ordered_rows_match": true,
+      "ids_unique": true,
+      "recorded_attempts": 1
+    },
+    {
+      "chart": "grossing",
+      "rows": 100,
+      "raw_hash_match": true,
+      "all_ordered_rows_match": true,
+      "ids_unique": true,
+      "recorded_attempts": 1
+    },
+    {
+      "chart": "paid",
+      "rows": 98,
+      "raw_hash_match": true,
+      "all_ordered_rows_match": true,
+      "ids_unique": true,
+      "recorded_attempts": 1
+    }
+  ],
+  "success": true,
+  "seller_visual_review": {
+    "source_file": "sellers/yondoshi-sep2026-p1.png",
+    "viewed_at_utc": "2026-10-27T18:11:28Z",
+    "verified_fields": [
+      "publication2026-10-07",
+      "period2026-03through09",
+      "FDCexistingstoresales114.8/customer107.6/spend106.7",
+      "Sep109.5/97.3/112.5",
+      "ECincluded",
+      "same-storecohortvariesmonthly"
+    ],
+    "not_inferred": [
+      "uniquecustomers",
+      "nationalvolume",
+      "pureprice"
+    ]
+  },
+  "classification_visual_review": {
+    "source_file": "household/classification2020-renaming-page2.png",
+    "viewed_at_utc": "2026-10-27T18:12:04Z",
+    "verified": "928装身具→アクセサリー listedunder名称変更; effectiveJan2020"
+  },
+  "jobs_calendar_review": {
+    "url": "https://www.e-stat.go.jp/release-calendar/statistics/00450222",
+    "inspected_at_utc": "2026-10-27T18:10:25Z",
+    "lines": "545–547",
+    "observed": "令和8年9月分 2026-10-30 08:30",
+    "planned_not_actual": true
+  },
+  "cross_stream_critique": [
+    {
+      "dimension": "period",
+      "result": "HouseholdSep2025–Aug2026 vs4℃Mar–Sep2026 aredifferent. Onlymonthlydirectionsmatched;no12monthweightedcustomergrowthinvented."
+    },
+    {
+      "dimension": "denominator",
+      "result": "Two+householdselfexpenditure vsbrandEC+same-storecustomers;singlehousehold2025movesdifferently. No national extrapolation or perperson conversion."
+    },
+    {
+      "dimension": "price",
+      "result": "928hasnocollectedquantity;9741platinumringnarrowerthancategory;deflationnotadopted. Chainunitvaluesincludeproductmix."
+    },
+    {
+      "dimension": "substitution",
+      "result": "Personal-effectsrolling12+5.70%,bags−1.64%,watches−16.47%;noneestablishcausaltransfer. Brand/channelshiftnotnationalgrowth."
+    },
+    {
+      "dimension": "independence",
+      "result": "AppStore provides no corroboration foraccessories. 4℃monthly,factbookanddeckareonecompanynotthreeindependentsources."
+    }
+  ],
+  "decision": {
+    "growth_promoted": false,
+    "classification": "nominal_recovery_candidate_with_narrow_chain_customer_growth"
+  }
+}

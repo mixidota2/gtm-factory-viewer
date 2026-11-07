@@ -1,0 +1,167 @@
+{
+  "date_jst": "2026-10-30",
+  "stream": "people",
+  "status": "partial_capture_missing_no_growth_promotion",
+  "files": {
+    "report-ja.md": "# 人・時間系統：2026年10月30日\n\n本日のApp Store順位は取得できず欠測です。無料・売上・有料の3経路を各1回試しましたが、接続エラーになりました。保存された空のデータを「順位0件」や需要消失とは扱いません。10月29日までの実観測15日分・連続14日は残しますが、10月30日を連続観測に加えず、4週間継続の条件は未達のままです。\n\n現在は予定にすぎず、次の確認日は10月31日です。未公表の同じ資料を再取得していません。\n\n総務省の利用時間は既存の2025年度調査を引き継ぎます。今回、対応する保存済み原表と報告本文を再読し、ネット動画とインターネット全体の時間を単純合算できないこと、アプリ別の時間増や現在月の需要を示す数字ではないことを確認しました。既存の分析を新しい発見として数えません。\n\n## 改善と検証\n取得失敗後にも空のcompactファイルが残るため、ファイルの存在や件数だけで成功と誤認する余地がありました。取得結果と順位データを必ず合わせて判定するオフライン検証を実装しました。実際の失敗記録、古い順位の混入、空フィード、件数不一致、重複ID等8ケースに合格しました。今回の3系列はすべてmissing、件数nullとなります。取得処理自体の再試行はしていません。\n\n\n\n## 独立レビュー後の修正\n前日分の成功記録を今日の取得と誤認する問題と、不正な行形式で検証自体が例外終了する問題を、修正前のテストで再現しました。対象日付を必須引数にし、記録の日付と行形式を検査してから数えるよう修正しました。既存8ケースを保持し、追加5ケースを含む13ケースが合格しています。外部取得は追加していません。",
+    "apple-paid-attempt-2026-10-30.json": {
+      "date_jst": "2026-10-30",
+      "chart": "paid",
+      "url": "https://itunes.apple.com/jp/rss/toppaidapplications/limit=200/json",
+      "requested_limit": 200,
+      "attempts": 1,
+      "request_started_utc": "2026-10-29T18:09:11.398509+00:00",
+      "publication_date": null,
+      "target_period": null,
+      "method": "urllib GET; redirects disabled; default TLS; no retry"
+    },
+    "app-ranks-2026-10-30.compact.json": {},
+    "source-ledger-and-resume.json": {
+      "date_jst": "2026-10-30",
+      "jobs": {
+        "acquired_this_run": false,
+        "reason": "not_due_before_0830JST",
+        "planned_release_jst": "2026-10-30T08:30:00+09:00",
+        "official_release_observed": false,
+        "source": "https://www.e-stat.go.jp/release-calendar/statistics/00450222"
+      },
+      "media": {
+        "source_read": "saved Page mapped historical actual table/report",
+        "source_retrieved_this_run": false,
+        "target_period": "FY2024/FY2025; FY2025 diary Dec1–7 2025",
+        "publication_date": "2026-06-26",
+        "current_month_evidence": false,
+        "remaining_limit": "Internet components overlap; cannot sum to decompose total or infer app-specific use. Already analyzed Oct16; no repeated calculation/new demand claim."
+      },
+      "apple": {
+        "date_missing": true,
+        "counts": [
+          null,
+          null,
+          null
+        ],
+        "actual_dates_remain": 15,
+        "historical_contiguous_run_ending_Oct29": 14,
+        "four_week_eligible": false,
+        "retry_performed": false
+      },
+      "new_market_findings": 0,
+      "improvement": "Fail-closed offline ingestion of {} with failed receipts, tested on actual input and seven synthetic cases; does not modify capture records or perform network calls.",
+      "independent_review_fix": {
+        "before": "Regression first: stale prior-day success incorrectly observed; malformed row IndexError.",
+        "after": "Required expected_date checked against receipt date; chart-specific receipt selection retained; row shape/types validated before indexing.",
+        "tests_after": 13,
+        "existing_tests_preserved": 8,
+        "new_regressions": 5,
+        "no_external_requests": true,
+        "before_evidence": "regressions-before.txt",
+        "after_evidence": "regressions-after.txt"
+      }
+    },
+    "apple-free-attempt-2026-10-30.json": {
+      "date_jst": "2026-10-30",
+      "chart": "free",
+      "url": "https://itunes.apple.com/jp/rss/topfreeapplications/limit=200/json",
+      "requested_limit": 200,
+      "attempts": 1,
+      "request_started_utc": "2026-10-29T18:09:07.743684+00:00",
+      "publication_date": null,
+      "target_period": null,
+      "method": "urllib GET; redirects disabled; default TLS; no retry"
+    },
+    "app-ranks-manifest-2026-10-30.json": [
+      {
+        "date_jst": "2026-10-30",
+        "chart": "free",
+        "url": "https://itunes.apple.com/jp/rss/topfreeapplications/limit=200/json",
+        "requested_limit": 200,
+        "attempts": 1,
+        "request_started_utc": "2026-10-29T18:09:07.743684+00:00",
+        "publication_date": null,
+        "target_period": null,
+        "method": "urllib GET; redirects disabled; default TLS; no retry",
+        "outcome": "failed",
+        "error": "URLError(OSError('Tunnel connection failed: 403 Forbidden'))",
+        "completed_utc": "2026-10-29T18:09:11.396930+00:00"
+      },
+      {
+        "date_jst": "2026-10-30",
+        "chart": "grossing",
+        "url": "https://itunes.apple.com/jp/rss/topgrossingapplications/limit=200/json",
+        "requested_limit": 200,
+        "attempts": 1,
+        "request_started_utc": "2026-10-29T18:09:11.397408+00:00",
+        "publication_date": null,
+        "target_period": null,
+        "method": "urllib GET; redirects disabled; default TLS; no retry",
+        "outcome": "failed",
+        "error": "URLError(ConnectionResetError(104, 'Connection reset by peer'))",
+        "completed_utc": "2026-10-29T18:09:11.398094+00:00"
+      },
+      {
+        "date_jst": "2026-10-30",
+        "chart": "paid",
+        "url": "https://itunes.apple.com/jp/rss/toppaidapplications/limit=200/json",
+        "requested_limit": 200,
+        "attempts": 1,
+        "request_started_utc": "2026-10-29T18:09:11.398509+00:00",
+        "publication_date": null,
+        "target_period": null,
+        "method": "urllib GET; redirects disabled; default TLS; no retry",
+        "outcome": "failed",
+        "error": "URLError(ConnectionRefusedError(111, 'Connection refused'))",
+        "completed_utc": "2026-10-29T18:09:11.398953+00:00"
+      }
+    ],
+    "observation-validation.json": {
+      "date_jst": "2026-10-30",
+      "checked_at_utc": "2026-10-29T18:34:55.914193+00:00",
+      "tests": 8,
+      "failures": 0,
+      "errors": 0,
+      "classification": {
+        "free": {
+          "status": "missing",
+          "observed_count": null,
+          "reason": "URLError(OSError('Tunnel connection failed: 403 Forbidden'))"
+        },
+        "grossing": {
+          "status": "missing",
+          "observed_count": null,
+          "reason": "URLError(ConnectionResetError(104, 'Connection reset by peer'))"
+        },
+        "paid": {
+          "status": "missing",
+          "observed_count": null,
+          "reason": "URLError(ConnectionRefusedError(111, 'Connection refused'))"
+        }
+      },
+      "counts_semantics": "null means missing, never zero ranks or zero market demand",
+      "previous_actual_dates": 15,
+      "previous_consecutive_days_through_2026_10_29": 14,
+      "current_day_observed": false,
+      "four_week_eligible": false,
+      "external_requests_this_validation": 0,
+      "input_sha256": {
+        "apple-paid-attempt-2026-10-30.json": "0ae3437288cc2b572f44e63a3d0cb70e5a635176fcdc3a059b929e10b73966be",
+        "app-ranks-2026-10-30.compact.json": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+        "source-ledger-and-resume.json": "fb15291e8c03c3a33bc5712d73afca7b871defa0552e068a954b7a8014b33334",
+        "apple-free-attempt-2026-10-30.json": "d8d51ced64b147ae4a45b43197baf0d8d4015aaaa58cf5538a04c4ee20eaa1e1",
+        "app-ranks-manifest-2026-10-30.json": "cf153cb3a4fbae28d2c8a4efef5b81095b9d336dec7fcdf43c1a40c7971395e0",
+        "apple-grossing-attempt-2026-10-30.json": "1c7719325937f8549a816dfb7a13a8c3308800750d57266f1c25a76d9b4fc5d7",
+        "evidence-bundle.json": "27af238ab312185a968ad70b2c0d52bda0843210be766875af0a42174ebb390b"
+      }
+    },
+    "apple-grossing-attempt-2026-10-30.json": {
+      "date_jst": "2026-10-30",
+      "chart": "grossing",
+      "url": "https://itunes.apple.com/jp/rss/topgrossingapplications/limit=200/json",
+      "requested_limit": 200,
+      "attempts": 1,
+      "request_started_utc": "2026-10-29T18:09:11.397408+00:00",
+      "publication_date": null,
+      "target_period": null,
+      "method": "urllib GET; redirects disabled; default TLS; no retry"
+    }
+  }
+}

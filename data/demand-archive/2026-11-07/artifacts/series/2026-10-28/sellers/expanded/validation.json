@@ -1,0 +1,26 @@
+{
+  "status": "bounded_complete_candidate_only",
+  "source_count": 9,
+  "raw_sha256_verified": true,
+  "monthly_rows": 13,
+  "annual_rows": 8,
+  "visual_source_checks": [
+    "factbookPDFp11annualtables",
+    "SepmonthlyPDFp1tableanddefinitions",
+    "H1PDFp13andp41brandcustomer/price",
+    "FebrevisedmonthlyPDFp1tableanddefinitions",
+    "TsutsumiQ1PDFp4companysales"
+  ],
+  "limits": [
+    "No nationalaccessoriesquantity",
+    "No fixedcohort2019chaincustomergrowth",
+    "No matchedrolling12customertotal",
+    "No pureCPIpricefromunitvalues",
+    "No all-channelcausalsubstitution",
+    "Yano2026forecastnotobserved"
+  ],
+  "no_duplicate_sources_counted_as_independent": [
+    "4℃monthly/factbook/deck areonecompany",
+    "4℃citationofYano notsecondmarketsurvey"
+  ]
+}

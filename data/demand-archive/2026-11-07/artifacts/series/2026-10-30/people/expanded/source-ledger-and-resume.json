@@ -1,0 +1,42 @@
+{
+  "date_jst": "2026-10-30",
+  "jobs": {
+    "acquired_this_run": false,
+    "reason": "not_due_before_0830JST",
+    "planned_release_jst": "2026-10-30T08:30:00+09:00",
+    "official_release_observed": false,
+    "source": "https://www.e-stat.go.jp/release-calendar/statistics/00450222"
+  },
+  "media": {
+    "source_read": "saved Page mapped historical actual table/report",
+    "source_retrieved_this_run": false,
+    "target_period": "FY2024/FY2025; FY2025 diary Dec1–7 2025",
+    "publication_date": "2026-06-26",
+    "current_month_evidence": false,
+    "remaining_limit": "Internet components overlap; cannot sum to decompose total or infer app-specific use. Already analyzed Oct16; no repeated calculation/new demand claim."
+  },
+  "apple": {
+    "date_missing": true,
+    "counts": [
+      null,
+      null,
+      null
+    ],
+    "actual_dates_remain": 15,
+    "historical_contiguous_run_ending_Oct29": 14,
+    "four_week_eligible": false,
+    "retry_performed": false
+  },
+  "new_market_findings": 0,
+  "improvement": "Fail-closed offline ingestion of {} with failed receipts, tested on actual input and seven synthetic cases; does not modify capture records or perform network calls.",
+  "independent_review_fix": {
+    "before": "Regression first: stale prior-day success incorrectly observed; malformed row IndexError.",
+    "after": "Required expected_date checked against receipt date; chart-specific receipt selection retained; row shape/types validated before indexing.",
+    "tests_after": 13,
+    "existing_tests_preserved": 8,
+    "new_regressions": 5,
+    "no_external_requests": true,
+    "before_evidence": "regressions-before.txt",
+    "after_evidence": "regressions-after.txt"
+  }
+}

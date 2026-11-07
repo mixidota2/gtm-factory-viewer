@@ -1,0 +1,101 @@
+{
+  "source_url": "https://www.stat.go.jp/data/mbss/kekka/pdf/m202608.pdf",
+  "period": "2026-08",
+  "status": "preliminary",
+  "publication_date": "2026-10-23",
+  "retrieval_started_at": "2026-10-23T01:01:55Z",
+  "retrieval_completed_at": "2026-10-23T01:02:58.090861+00:00",
+  "visually_inspected_pages": [
+    1,
+    4,
+    5
+  ],
+  "method": "Official PDF binary obtained with ordinary curl request; pdftoppm rendered; PNG images opened and visually inspected. Not inferred from HTTP status or text extraction.",
+  "observations": [
+    {
+      "industry": "サービス産業計",
+      "sales_million_jpy": 37401187,
+      "yoy_pct": 3.6,
+      "match": true,
+      "visual_source": "page-04.png; Table 3"
+    },
+    {
+      "industry": "宿泊業",
+      "sales_million_jpy": 718854,
+      "yoy_pct": 2.3,
+      "match": true,
+      "visual_source": "page-04.png; Table 3"
+    },
+    {
+      "industry": "飲食店",
+      "sales_million_jpy": 1833150,
+      "yoy_pct": 3.7,
+      "match": true,
+      "visual_source": "page-04.png; Table 3"
+    },
+    {
+      "industry": "水運業",
+      "sales_million_jpy": 702545,
+      "yoy_pct": 16.8,
+      "match": true,
+      "visual_source": "page-04.png; Table 3"
+    },
+    {
+      "industry": "インターネット附随サービス業",
+      "sales_million_jpy": 927865,
+      "yoy_pct": 7.1,
+      "match": true,
+      "visual_source": "page-04.png; Table 3"
+    },
+    {
+      "industry": "情報サービス業",
+      "sales_million_jpy": 2853242,
+      "yoy_pct": 3.5,
+      "match": true,
+      "visual_source": "page-04.png; Table 3"
+    }
+  ],
+  "columns": [
+    "industry (medium classification)",
+    "business-activity monthly sales, million JPY",
+    "sales year-on-year percent",
+    "establishment/enterprise business persons, thousand people",
+    "business-person year-on-year percent"
+  ],
+  "notes": [
+    "Period is August 2026 preliminary, not July. YoY compares August 2025, not prior month.",
+    "Sales are nominal monetary receipts before expenses, inclusive of indirect taxes; no deflation or volume adjustment is stated. The term nominal is interpretation of the monetary definition, not a printed table label.",
+    "Business persons are people actually working in establishments/enterprises, excluding dispatched-out and including received-in people; not users/customers. Industry classification differs between sales and people.",
+    "2025 January survey integration and sampling/population change require time-series caution. Pre-2025 levels adjusted retrospectively, including consumption-tax treatment.",
+    "Values rounded; component sums need not equal totals. p marks preliminary values.",
+    "No additional August-specific revision notice found on inspected pages; remaining PDF pages not visually audited.",
+    "No full-series recomputation, new quantity checks, publication, notification, or saved-ledger write."
+  ],
+  "files": [
+    {
+      "name": "m202608.pdf",
+      "bytes": 2363338,
+      "sha256": "e838243808596a34f47becaa03d288559c1f7b3e3e737ade9344a140b72ba6de"
+    },
+    {
+      "name": "m202608.txt",
+      "bytes": 172565,
+      "sha256": "10bcc85175badcaf05dc47c7516204a2bf7e6281926fdc86723c50164d0ddfa8"
+    },
+    {
+      "name": "page-01.png",
+      "bytes": 278548,
+      "sha256": "742f92cce634d0f92fcf75e2fe657b09a8c2e3fb5457a754431603fe8e5307ce"
+    },
+    {
+      "name": "page-04.png",
+      "bytes": 532003,
+      "sha256": "7c592c5e35a10fc009be746b6f00cf56f539765a41b3c451bf2494b002d9e3e9"
+    },
+    {
+      "name": "page-05.png",
+      "bytes": 819408,
+      "sha256": "3e597ea5bc42acd459654606f4abee2dfe4d4075136f1ff8b544aae3d251b591"
+    }
+  ]
+}

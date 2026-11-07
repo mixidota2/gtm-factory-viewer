@@ -1,0 +1,1976 @@
+{
+  "schema_version": 1,
+  "date_jst": "2026-10-28",
+  "stream": "people",
+  "files": {
+    "app-ranks-2026-10-28.compact.json": {
+      "free": [
+        [
+          1,
+          "6760173601",
+          "Muse from Meta"
+        ],
+        [
+          2,
+          "631993791",
+          "MUJI アプリ - 無印良品"
+        ],
+        [
+          3,
+          "6448311069",
+          "ChatGPT"
+        ],
+        [
+          4,
+          "6587576438",
+          "setlog"
+        ],
+        [
+          5,
+          "6471519217",
+          "Bump（旧Zenly）"
+        ],
+        [
+          6,
+          "1636235979",
+          "ReelShort - オリジナル短尺ドラマ見放題"
+        ],
+        [
+          7,
+          "388497605",
+          "Google Authenticator"
+        ],
+        [
+          8,
+          "6477489729",
+          "Google Gemini"
+        ],
+        [
+          9,
+          "1476359069",
+          "マイナアプリ（旧マイナポータルアプリ）"
+        ],
+        [
+          10,
+          "1416481094",
+          "My SoftBank"
+        ],
+        [
+          11,
+          "830340223",
+          "TVer(ティーバー) 民放公式テレビ配信サービス"
+        ],
+        [
+          12,
+          "1565489157",
+          "iAEON-イオンペイも使える！「アイイオン」"
+        ],
+        [
+          13,
+          "1619030760",
+          "zeta - AIキャラ・あなたの推しとロールプレイチャット"
+        ],
+        [
+          14,
+          "6446901002",
+          "Threads"
+        ],
+        [
+          15,
+          "6473753684",
+          "Claude by Anthropic"
+        ],
+        [
+          16,
+          "882477693",
+          "U-NEXT - 映画やドラマ、アニメなどの動画が見放題"
+        ],
+        [
+          17,
+          "422689480",
+          "Gmail - Google のメール"
+        ],
+        [
+          18,
+          "1496925861",
+          "ゆうちょ通帳アプリ-銀行 アプリ"
+        ],
+        [
+          19,
+          "290033990",
+          "ホットペッパーグルメ"
+        ],
+        [
+          20,
+          "1530905195",
+          "ＭＤＣアプリ"
+        ],
+        [
+          21,
+          "6739188587",
+          "Rocket Now : 出前/フードデリバリー"
+        ],
+        [
+          22,
+          "535886823",
+          "Google Chrome - ウェブブラウザ"
+        ],
+        [
+          23,
+          "6451037644",
+          "マツキヨココカラ公式アプリ"
+        ],
+        [
+          24,
+          "1223471316",
+          "Shop：追跡・購入・発見"
+        ],
+        [
+          25,
+          "983156458",
+          "Microsoft Authenticator"
+        ],
+        [
+          26,
+          "1552990335",
+          "かんたんnetprint－セブン‐イレブンでかんたん印刷"
+        ],
+        [
+          27,
+          "1563102530",
+          "M3デジカルスマート診察券"
+        ],
+        [
+          28,
+          "364504659",
+          "ヤマダデジタル会員"
+        ],
+        [
+          29,
+          "1562641276",
+          "セブン-イレブン マルチコピー"
+        ],
+        [
+          30,
+          "6446607328",
+          "SmartHR（スマートエイチアール）"
+        ],
+        [
+          31,
+          "897446215",
+          "Canva(キャンバ): 画像・動画編集 & AIデザイン"
+        ],
+        [
+          32,
+          "6466987025",
+          "DAISOアプリ"
+        ],
+        [
+          33,
+          "507874739",
+          "Google ドライブ - 安全なオンライン ストレージ"
+        ],
+        [
+          34,
+          "1220373112",
+          "Paidy (あと払いペイディ)-後払いアプリ"
+        ],
+        [
+          35,
+          "1153448703",
+          "EXアプリ | JR東海公式"
+        ],
+        [
+          36,
+          "1527218749",
+          "KAUCHE（カウシェ） - ショッピングアプリ"
+        ],
+        [
+          37,
+          "1435783608",
+          "PayPay"
+        ],
+        [
+          38,
+          "504542019",
+          "ジーユー"
+        ],
+        [
+          39,
+          "284815942",
+          "Google アプリ"
+        ],
+        [
+          40,
+          "6448176203",
+          "GoodShort(グッドショート)-ショートドラマいつでも"
+        ],
+        [
+          41,
+          "1254341709",
+          "GO タクシーが呼べるアプリ - AI予約・配車・迎車・決済"
+        ],
+        [
+          42,
+          "333903271",
+          "X"
+        ],
+        [
+          43,
+          "551942662",
+          "PrintSmash"
+        ],
+        [
+          44,
+          "541164041",
+          "Microsoft Copilot"
+        ],
+        [
+          45,
+          "6450435935",
+          "郵便局公式アプリ - 荷物の配送状況の確認や再配達が簡単に"
+        ],
+        [
+          46,
+          "1409383333",
+          "タイミー｜スキマバイト・単発バイト・短期バイトの求人アプリ"
+        ],
+        [
+          47,
+          "1113153706",
+          "Microsoft Teams"
+        ],
+        [
+          48,
+          "1097001344",
+          "MyJCB"
+        ],
+        [
+          49,
+          "681752345",
+          "Trip.com-航空券･ホテルの予約はトリップドットコムで"
+        ],
+        [
+          50,
+          "6667104573",
+          "ジハンピ"
+        ],
+        [
+          51,
+          "1498877539",
+          "Rakuten Link"
+        ],
+        [
+          52,
+          "389801252",
+          "Instagram"
+        ],
+        [
+          53,
+          "1637547116",
+          "MUSINSA – 韓国人気ブランドが集まるファッション通販"
+        ],
+        [
+          54,
+          "1235601864",
+          "TikTok ティックトック"
+        ],
+        [
+          55,
+          "585027354",
+          "Google マップ"
+        ],
+        [
+          56,
+          "732775964",
+          "しまむらパーク"
+        ],
+        [
+          57,
+          "532097000",
+          "ユニバーサル・スタジオ・ジャパン 公式アプリ"
+        ],
+        [
+          58,
+          "546505307",
+          "Zoom Workplace"
+        ],
+        [
+          59,
+          "1139755229",
+          "楽天ペイ-楽天ポイントカードも利用できるスマホ決済アプリ"
+        ],
+        [
+          60,
+          "6447160980",
+          "TikTok Lite"
+        ],
+        [
+          61,
+          "1500855883",
+          "CapCut：写真＆動画エディター"
+        ],
+        [
+          62,
+          "374254473",
+          "Amazon ショッピングアプリ"
+        ],
+        [
+          63,
+          "324684580",
+          "Spotify: 音楽とポッドキャスト"
+        ],
+        [
+          64,
+          "952578473",
+          "TimeTree タイムツリー - カレンダーや予定表の共有"
+        ],
+        [
+          65,
+          "1156875272",
+          "Suica"
+        ],
+        [
+          66,
+          "363590051",
+          "Netflix"
+        ],
+        [
+          67,
+          "570060128",
+          "Duolingo：英語、韓国語、中国語を学ぼう"
+        ],
+        [
+          68,
+          "309735670",
+          "転職・バイトはIndeed（インディード）"
+        ],
+        [
+          69,
+          "1328132872",
+          "d払い－スマホ決済アプリ、キャッシュレスでお支払い"
+        ],
+        [
+          70,
+          "842849113",
+          "Google スプレッドシート"
+        ],
+        [
+          71,
+          "1542920778",
+          "ahamo（アハモ）"
+        ],
+        [
+          72,
+          "1001883210",
+          "majica～電子マネー公式アプリ～"
+        ],
+        [
+          73,
+          "838138452",
+          "三井住友カード Vpassアプリ"
+        ],
+        [
+          74,
+          "6756647308",
+          "詐欺対策 by NTTタウンページ"
+        ],
+        [
+          75,
+          "1478237405",
+          "Yahoo!フリマ（旧PayPayフリマ）"
+        ],
+        [
+          76,
+          "1580284904",
+          "WidgetClub: ウィジェット、壁紙、アイコン着せ替え"
+        ],
+        [
+          77,
+          "6504849169",
+          "NetShort - 人気短編ドラマ"
+        ],
+        [
+          78,
+          "1667214457",
+          "コメダ珈琲店"
+        ],
+        [
+          79,
+          "419267350",
+          "楽天市場 - お買い物で楽天ポイントが貯まる便利な通販アプリ"
+        ],
+        [
+          80,
+          "6446826848",
+          "ゆうちょ手続きアプリ"
+        ],
+        [
+          81,
+          "413618155",
+          "マクドナルド"
+        ],
+        [
+          82,
+          "1088184021",
+          "Coke ON(コークオン)"
+        ],
+        [
+          83,
+          "465887673",
+          "e＋(イープラス)　チケット・ニュース・スマチケ"
+        ],
+        [
+          84,
+          "878577184",
+          "SHEIN - オンラインショッピング"
+        ],
+        [
+          85,
+          "763377066",
+          "食べログ - おいしいお店を見つけて予約できるグルメアプリ"
+        ],
+        [
+          86,
+          "404529222",
+          "ZOZOTOWN ファッション通販"
+        ],
+        [
+          87,
+          "1313147771",
+          "Tokyo Disney Resort App"
+        ],
+        [
+          88,
+          "1272481966",
+          "CHARGESPOT チャージスポット スマホ充電レンタル"
+        ],
+        [
+          89,
+          "821434357",
+          "dポイントクラブ：お得情報満載のドコモ公式ポイントクラブ"
+        ],
+        [
+          90,
+          "1113037275",
+          "スターバックス ジャパン公式モバイルアプリ"
+        ],
+        [
+          91,
+          "1058959277",
+          "Uber Eats（ウーバーイーツ) 出前/フードデリバリー"
+        ],
+        [
+          92,
+          "1129523589",
+          "DAZN (ダゾーン) スポーツをライブ中継"
+        ],
+        [
+          93,
+          "667861049",
+          "フリマアプリはメルカリ - メルペイのスマホ決済でもっとお得"
+        ],
+        [
+          94,
+          "962194608",
+          "Google フォト"
+        ],
+        [
+          95,
+          "446016180",
+          "Yahoo!ショッピング-PayPayポイントが貯まる通販"
+        ],
+        [
+          96,
+          "1641486558",
+          "Temu: 億万長者気分でお買い物"
+        ],
+        [
+          97,
+          "460989014",
+          "UNIQLOアプリ-ユニクロアプリ"
+        ],
+        [
+          98,
+          "6670430706",
+          "DramaWave - 日本 / 韓国 / 人気短編ドラマ"
+        ],
+        [
+          99,
+          "996870154",
+          "LINEカレンダー"
+        ],
+        [
+          100,
+          "909319292",
+          "Google カレンダー"
+        ]
+      ],
+      "grossing": [
+        [
+          1,
+          "6448311069",
+          "ChatGPT"
+        ],
+        [
+          2,
+          "544007664",
+          "YouTube"
+        ],
+        [
+          3,
+          "1091496983",
+          "ピッコマ"
+        ],
+        [
+          4,
+          "443904275",
+          "LINE"
+        ],
+        [
+          5,
+          "1235601864",
+          "TikTok ティックトック"
+        ],
+        [
+          6,
+          "940320341",
+          "プロ野球スピリッツＡ"
+        ],
+        [
+          7,
+          "597088068",
+          "LINEマンガ"
+        ],
+        [
+          8,
+          "493470467",
+          "パズル＆ドラゴンズ"
+        ],
+        [
+          9,
+          "882477693",
+          "U-NEXT - 映画やドラマ、アニメなどの動画が見放題"
+        ],
+        [
+          10,
+          "1325457827",
+          "ウマ娘 プリティーダービー"
+        ],
+        [
+          11,
+          "6443575749",
+          "ホワイトアウト・サバイバル"
+        ],
+        [
+          12,
+          "1117270703",
+          "eFootball™"
+        ],
+        [
+          13,
+          "1623318294",
+          "ゴシップハーバー：マージ & ストーリー"
+        ],
+        [
+          14,
+          "1273064549",
+          "eFootball™ウイコレ CHAMPION SQUADS"
+        ],
+        [
+          15,
+          "1094591345",
+          "Pokémon GO"
+        ],
+        [
+          16,
+          "966142320",
+          "音楽 LINE MUSIC 最新の歌や曲・ミュージック多数！"
+        ],
+        [
+          17,
+          "6739554056",
+          "キングショット"
+        ],
+        [
+          18,
+          "1322310031",
+          "ONE PIECE バウンティラッシュ - アクションゲーム"
+        ],
+        [
+          19,
+          "1074866833",
+          "ABEMA(アベマ) 新しい未来のTV"
+        ],
+        [
+          20,
+          "583376064",
+          "マッチングアプリ Pairs(ペアーズ) 出会い・恋活・婚活"
+        ],
+        [
+          21,
+          "6448786147",
+          "ラストウォー：サバイバル"
+        ],
+        [
+          22,
+          "1080235090",
+          "マッチングアプリ with(ウィズ) -出会い"
+        ],
+        [
+          23,
+          "1482155847",
+          "ロイヤルマッチ（Royal Match)"
+        ],
+        [
+          24,
+          "852801905",
+          "マッチングアプリ タップル"
+        ],
+        [
+          25,
+          "824116884",
+          "ONE PIECE トレジャークルーズ"
+        ],
+        [
+          26,
+          "1517980891",
+          "パズル&サバイバル"
+        ],
+        [
+          27,
+          "1619030760",
+          "zeta - AIキャラ・あなたの推しとロールプレイチャット"
+        ],
+        [
+          28,
+          "389801252",
+          "Instagram"
+        ],
+        [
+          29,
+          "6473753684",
+          "Claude by Anthropic"
+        ],
+        [
+          30,
+          "945241274",
+          "FOD ドラマやアニメなどテレビの動画が見放題！見逃し配信も"
+        ],
+        [
+          31,
+          "724594093",
+          "LINE：ディズニー ツムツム"
+        ],
+        [
+          32,
+          "962194608",
+          "Google フォト"
+        ],
+        [
+          33,
+          "1478990007",
+          "アークナイツ"
+        ],
+        [
+          34,
+          "6799009278",
+          "ダックサバイバー"
+        ],
+        [
+          35,
+          "1015521325",
+          "Fate/Grand Order"
+        ],
+        [
+          36,
+          "547702041",
+          "Tinder (ティンダー) - 出会い・マッチングアプリ"
+        ],
+        [
+          37,
+          "1105855019",
+          "ガーデンスケイプ (Gardenscapes)"
+        ],
+        [
+          38,
+          "570060128",
+          "Duolingo：英語、韓国語、中国語を学ぼう"
+        ],
+        [
+          39,
+          "6447160980",
+          "TikTok Lite"
+        ],
+        [
+          40,
+          "1579464667",
+          "Pokémon Sleep"
+        ],
+        [
+          41,
+          "6471045672",
+          "グルメ・ジャーニー"
+        ],
+        [
+          42,
+          "6479970832",
+          "Pokémon TCG Pocket"
+        ],
+        [
+          43,
+          "1176027022",
+          "トゥーンブラスト"
+        ],
+        [
+          44,
+          "6767834940",
+          "トップロード"
+        ],
+        [
+          45,
+          "998542154",
+          "マガポケ - 人気マンガが毎日楽しめるコミックアプリ"
+        ],
+        [
+          46,
+          "1407165119",
+          "めちゃコミック"
+        ],
+        [
+          47,
+          "545519333",
+          "Amazon Prime Video"
+        ],
+        [
+          48,
+          "658511662",
+          "モンスターストライク"
+        ],
+        [
+          49,
+          "875750302",
+          "少年ジャンプ＋ 人気漫画が読める雑誌アプリ"
+        ],
+        [
+          50,
+          "1478829750",
+          "デュエル・マスターズ プレイス"
+        ],
+        [
+          51,
+          "6480398822",
+          "DDFF-ファイナルファンタジーのオールスター共闘アクション"
+        ],
+        [
+          52,
+          "6445906110",
+          "モンスターハンターNow"
+        ],
+        [
+          53,
+          "510855668",
+          "Amazon Music: 音楽やポッドキャスト"
+        ],
+        [
+          54,
+          "549416492",
+          "Hulu / フールー 人気ドラマや映画、アニメなどが見放題"
+        ],
+        [
+          55,
+          "6692611665",
+          "SDガンダム ジージェネレーション エターナル"
+        ],
+        [
+          56,
+          "6504849169",
+          "NetShort - 人気短編ドラマ"
+        ],
+        [
+          57,
+          "6670324846",
+          "Grok"
+        ],
+        [
+          58,
+          "1164400646",
+          "#コンパス【戦闘摂理解析システム】"
+        ],
+        [
+          59,
+          "1446075923",
+          "Disney+"
+        ],
+        [
+          60,
+          "422689480",
+          "Gmail - Google のメール"
+        ],
+        [
+          61,
+          "1500855883",
+          "CapCut：写真＆動画エディター"
+        ],
+        [
+          62,
+          "6503272652",
+          "ラストZ：サバイバルシューティング"
+        ],
+        [
+          63,
+          "6755455500",
+          "ハリウッドマージ"
+        ],
+        [
+          64,
+          "6475757306",
+          "Disney Solitaire ディズニー ソリティア"
+        ],
+        [
+          65,
+          "6756994116",
+          "イナズマイレブン クロス"
+        ],
+        [
+          66,
+          "638689075",
+          "タウンシップ (Township)"
+        ],
+        [
+          67,
+          "1439417234",
+          "ドラゴンクエストウォーク 歩く楽しみが増える位置情報ゲーム"
+        ],
+        [
+          68,
+          "6670430706",
+          "DramaWave - 日本 / 韓国 / 人気短編ドラマ"
+        ],
+        [
+          69,
+          "1312031248",
+          "荒野行動-スマホ版バトロワ"
+        ],
+        [
+          70,
+          "888615473",
+          "LINE ポコポコ：3マッチパズルゲーム"
+        ],
+        [
+          71,
+          "6744629457",
+          "キャラぷ - 物語はキミ次第・AIチャット"
+        ],
+        [
+          72,
+          "333903271",
+          "X"
+        ],
+        [
+          73,
+          "1195621598",
+          "ホームスケイプ (Homescapes)"
+        ],
+        [
+          74,
+          "6639605332",
+          "パラノイズ - あの日から何かがちがう"
+        ],
+        [
+          75,
+          "431946152",
+          "Roblox (ロブロックス)"
+        ],
+        [
+          76,
+          "396855834",
+          "日本経済新聞 電子版 - ビジネス・政治・金融・経済ニュース"
+        ],
+        [
+          77,
+          "1211123727",
+          "放置少女 - 百花繚乱の萌姫たち"
+        ],
+        [
+          78,
+          "6756641135",
+          "ホロライブドリームス"
+        ],
+        [
+          79,
+          "1229016807",
+          "ブロスタ"
+        ],
+        [
+          80,
+          "446747531",
+          "ピクトリンク"
+        ],
+        [
+          81,
+          "6747736697",
+          "ドラゴンクエストスマッシュグロウ ドラクエローグライトRPG"
+        ],
+        [
+          82,
+          "1017492454",
+          "YouTube Music：音楽、ポッドキャスト"
+        ],
+        [
+          83,
+          "547145938",
+          "にゃんこ大戦争"
+        ],
+        [
+          84,
+          "1585915174",
+          "勝利の女神：NIKKE"
+        ],
+        [
+          85,
+          "6741567125",
+          "モンスターサバイバル"
+        ],
+        [
+          86,
+          "1606549505",
+          "ロイヤルキングダム (Royal Kingdom)"
+        ],
+        [
+          87,
+          "6445905219",
+          "DramaBox（ドラマボックス） -ショートドラマ見放題"
+        ],
+        [
+          88,
+          "750823886",
+          "出会い - ワクワク（わくわく）- マッチングアプリ"
+        ],
+        [
+          89,
+          "664575829",
+          "フィッシュダム(Fishdom)"
+        ],
+        [
+          90,
+          "521055533",
+          "出会い・出会い系はハッピー｜マッチングアプリ｜マッチング"
+        ],
+        [
+          91,
+          "1494428618",
+          "あんさんぶるスターズ！！Music"
+        ],
+        [
+          92,
+          "6756989323",
+          "ラストアサイラム：プレイグ"
+        ],
+        [
+          93,
+          "6448176203",
+          "GoodShort(グッドショート)-ショートドラマいつでも"
+        ],
+        [
+          94,
+          "6775403879",
+          "マビノギモバイル"
+        ],
+        [
+          95,
+          "6450364080",
+          "Plaud：AI業務パートナー"
+        ],
+        [
+          96,
+          "666206963",
+          "セガNET麻雀 MJ"
+        ],
+        [
+          97,
+          "464562684",
+          "netkeiba ネットケイバ"
+        ],
+        [
+          98,
+          "1286609883",
+          "AI英会話スピーク - スピーキング練習で発音や英語を勉強"
+        ],
+        [
+          99,
+          "1044505314",
+          "刀剣乱舞ONLINE"
+        ],
+        [
+          100,
+          "728214964",
+          "dアニメストア　アニメ動画見放題アプリ/マルチデバイス対応"
+        ]
+      ],
+      "paid": [
+        [
+          1,
+          "6771652722",
+          "ONE PIECE 海のごちそうレストラン"
+        ],
+        [
+          2,
+          "1542957396",
+          "妖怪ウォッチ1 スマホ"
+        ],
+        [
+          3,
+          "479516143",
+          "Minecraft: クラフト、建築、サバイバル"
+        ],
+        [
+          4,
+          "6469114836",
+          "スイカゲーム-Aladdin X"
+        ],
+        [
+          5,
+          "6824606746",
+          "FlickMe"
+        ],
+        [
+          6,
+          "1071235820",
+          "280blocker"
+        ],
+        [
+          7,
+          "6762255813",
+          "スマスロ とある魔術の禁書目録2"
+        ],
+        [
+          8,
+          "6789682404",
+          "高校サッカーマネージャー"
+        ],
+        [
+          9,
+          "6802539506",
+          "スマスロ 甲鉄城のカバネリ 海門（うなと）決戦"
+        ],
+        [
+          10,
+          "6762605506",
+          "パチスロ 革命機ヴァルヴレイヴ2"
+        ],
+        [
+          11,
+          "6805318319",
+          "ROLLIE'S: フィルムカメラ"
+        ],
+        [
+          12,
+          "932747118",
+          "Shadowrocket"
+        ],
+        [
+          13,
+          "525818839",
+          "Plague Inc. -伝染病株式会社-"
+        ],
+        [
+          14,
+          "1491530147",
+          "Slay the Spire"
+        ],
+        [
+          15,
+          "6815756255",
+          "ダンジョンの入口でタクティクスでもしようよ"
+        ],
+        [
+          16,
+          "6741251510",
+          "スマスロ モンスターハンターライズ"
+        ],
+        [
+          17,
+          "6757778100",
+          "トルネコの大冒険 不思議のダンジョン"
+        ],
+        [
+          18,
+          "933111586",
+          "ドラゴンクエストV 天空の花嫁"
+        ],
+        [
+          19,
+          "6749456796",
+          "Vampire Crawlers"
+        ],
+        [
+          20,
+          "373493387",
+          "AnkiMobile Flashcards"
+        ],
+        [
+          21,
+          "6547834967",
+          "どうぶつの森 ポケットキャンプ コンプリート"
+        ],
+        [
+          22,
+          "6761606472",
+          "スマスロ 新鬼武者3"
+        ],
+        [
+          23,
+          "6747757142",
+          "パチスロ かぐや様は告らせたい"
+        ],
+        [
+          24,
+          "6790289724",
+          "無限ほりほり: 採掘・作業ゲーム"
+        ],
+        [
+          25,
+          "1406710800",
+          "Stardew Valley 「スターデューバレー」"
+        ],
+        [
+          26,
+          "1496918059",
+          "ドラゴンクエストモンスターズ2　イルとルカの不思議な鍵SP"
+        ],
+        [
+          27,
+          "6809374544",
+          "FLKB"
+        ],
+        [
+          28,
+          "6670469064",
+          "８番出口"
+        ],
+        [
+          29,
+          "6783610245",
+          "パチスロ 戦国コレクション６"
+        ],
+        [
+          30,
+          "1468034815",
+          "ヒューマン フォール フラット"
+        ],
+        [
+          31,
+          "6754894237",
+          "CloverPit"
+        ],
+        [
+          32,
+          "6760749740",
+          "[パチスロ]真打 吉宗"
+        ],
+        [
+          33,
+          "1313164055",
+          "EE35 フィルムカメラ"
+        ],
+        [
+          34,
+          "6476544023",
+          "【激J slot】スマスロモンキーターンⅤ"
+        ],
+        [
+          35,
+          "6467176169",
+          "リスパス - リスニングで合格！英語共通テスト・大学受験対策"
+        ],
+        [
+          36,
+          "793660476",
+          "テラリア"
+        ],
+        [
+          37,
+          "949737947",
+          "ドラゴンクエストVI 幻の大地"
+        ],
+        [
+          38,
+          "1117998129",
+          "ヒューマン・アナトミー・アトラス2027"
+        ],
+        [
+          39,
+          "916366645",
+          "Procreate Pocket"
+        ],
+        [
+          40,
+          "6801980968",
+          "塔と傭兵団"
+        ],
+        [
+          41,
+          "793749059",
+          "ドラゴンクエストIV 導かれし者たち"
+        ],
+        [
+          42,
+          "6749560544",
+          "魔王城ものがたり"
+        ],
+        [
+          43,
+          "6816896250",
+          "Tiny Computers"
+        ],
+        [
+          44,
+          "6752765295",
+          "スマスロ マギアレコード 魔法少女まどかマギカ外伝"
+        ],
+        [
+          45,
+          "6810002638",
+          "Rich Fish"
+        ],
+        [
+          46,
+          "6801787689",
+          "ブリードクラシック - 競馬ゲーム"
+        ],
+        [
+          47,
+          "6810914372",
+          "ダンジョンの入口でキャンプでもしようよ。"
+        ],
+        [
+          48,
+          "1179959829",
+          "オービスガイド - 移動式オービス・ネズミ捕り対応"
+        ],
+        [
+          49,
+          "6761354266",
+          "スマスロ 攻殻機動隊"
+        ],
+        [
+          50,
+          "6502453075",
+          "Balatro"
+        ],
+        [
+          51,
+          "6747067433",
+          "e女神のカフェテラス"
+        ],
+        [
+          52,
+          "6822194774",
+          "TypeDraw"
+        ],
+        [
+          53,
+          "6761328517",
+          "ダンジョンウィズイン"
+        ],
+        [
+          54,
+          "6760401505",
+          "ファンタジーライフｉ"
+        ],
+        [
+          55,
+          "6463375487",
+          "L戦国乙女4 戦乱に閃く炯眼の軍師"
+        ],
+        [
+          56,
+          "1610691730",
+          "【パチスロ】十字架5"
+        ],
+        [
+          57,
+          "6754688764",
+          "不思議のダンジョン 風来のシレン6plus"
+        ],
+        [
+          58,
+          "1372670435",
+          "ドラゴンクエストモンスターズ　テリーのワンダーランドSP"
+        ],
+        [
+          59,
+          "6572290447",
+          "バックパック・バトル"
+        ],
+        [
+          60,
+          "6785726295",
+          "ワンダ"
+        ],
+        [
+          61,
+          "364876095",
+          "Jump Desktop (RDP, VNC, Fluid)"
+        ],
+        [
+          62,
+          "6759634099",
+          "L 少女 歌劇 レヴュースタァライト -The SLOT-"
+        ],
+        [
+          63,
+          "443332137",
+          "どんどん話すための瞬間英作文トレーニング"
+        ],
+        [
+          64,
+          "730263398",
+          "ドラゴンクエストVIII 空と海と大地と呪われし姫君"
+        ],
+        [
+          65,
+          "1456714515",
+          "ドラゴンクエストモンスターズテリーのワンダーランドRETRO"
+        ],
+        [
+          66,
+          "6758328352",
+          "Scritchy Scratchy"
+        ],
+        [
+          67,
+          "1350400235",
+          "レイトン教授と不思議な町 EXHD for スマートフォン"
+        ],
+        [
+          68,
+          "6755099956",
+          "スマスロ ゴッドイーターリザレクション"
+        ],
+        [
+          69,
+          "6449832222",
+          "新世紀エヴァンゲリオン～未来への咆哮～"
+        ],
+        [
+          70,
+          "1164801111",
+          "AutoSleep 睡眠の追跡をWatchで"
+        ],
+        [
+          71,
+          "6814210373",
+          "Auday - Watch録音とAIの振り返り"
+        ],
+        [
+          72,
+          "6786246807",
+          "ファッションモール物語"
+        ],
+        [
+          73,
+          "1449584007",
+          "Koala Sampler • Beat Maker"
+        ],
+        [
+          74,
+          "1356172905",
+          "Golfing Over It"
+        ],
+        [
+          75,
+          "1034159412",
+          "ドラゴンクエストVII エデンの戦士たち"
+        ],
+        [
+          76,
+          "6756707224",
+          "都市伝説解体センター"
+        ],
+        [
+          77,
+          "1456547302",
+          "A Dance of Fire and Ice"
+        ],
+        [
+          78,
+          "6758579274",
+          "さんぽ神｜ドロッセルマイヤーさんの公式ゆるゲーアプリ"
+        ],
+        [
+          79,
+          "479428095",
+          "クロノ・トリガー （アップグレード版）"
+        ],
+        [
+          80,
+          "1543161449",
+          "冒険ダンジョン村2"
+        ],
+        [
+          81,
+          "6759213045",
+          "SSH Term X"
+        ],
+        [
+          82,
+          "468640323",
+          "パブロフ簿記２級商業簿記"
+        ],
+        [
+          83,
+          "6477535804",
+          "Vault of the Void"
+        ],
+        [
+          84,
+          "6768917844",
+          "日本事故物件監視協会3 -JSP3-"
+        ],
+        [
+          85,
+          "1492041539",
+          "FINAL FANTASY VI"
+        ],
+        [
+          86,
+          "500676238",
+          "ブラックビデオ (BlackVideo)"
+        ],
+        [
+          87,
+          "6759147233",
+          "スマスロ 北斗の拳 転生の章2"
+        ],
+        [
+          88,
+          "1406157182",
+          "英検®準1級 でた単"
+        ],
+        [
+          89,
+          "6670190133",
+          "ドラえもんのどら焼き屋さん物語"
+        ],
+        [
+          90,
+          "6755903573",
+          "損保大学課程　試験対策"
+        ],
+        [
+          91,
+          "6755508035",
+          "スマスロ 東京リベンジャーズ"
+        ],
+        [
+          92,
+          "1319618742",
+          "Getting Over It"
+        ],
+        [
+          93,
+          "1126386264",
+          "AdGuard Pro - 本格的な広告ブロック"
+        ],
+        [
+          94,
+          "6821789477",
+          "アルミス・クロニクル"
+        ],
+        [
+          95,
+          "378503081",
+          "Groundwire: VoIP SIP Softphone"
+        ],
+        [
+          96,
+          "504102949",
+          "パブロフ簿記２級工業簿記"
+        ],
+        [
+          97,
+          "1522407890",
+          "SマイジャグラーⅤ"
+        ],
+        [
+          98,
+          "6504323939",
+          "ドラゴンクエストX　目覚めし五つの種族　オフライン"
+        ]
+      ]
+    },
+    "app-ranks-manifest-2026-10-28.json": [
+      {
+        "date_jst": "2026-10-28",
+        "chart": "free",
+        "url": "https://itunes.apple.com/jp/rss/topfreeapplications/limit=200/json",
+        "requested_limit": 200,
+        "method": "GET Python urllib; redirects disabled; no retries; default TLS verification; Accept-Encoding identity",
+        "attempts": 1,
+        "body_file": "apple-free-raw-2026-10-28.json",
+        "headers_file": "apple-free-headers-2026-10-28.json",
+        "publication_date": null,
+        "target_period": null,
+        "publication_note": "Feed update time is not a documented publication date or underlying measurement window.",
+        "request_started_utc": "2026-10-27T18:08:14.022518+00:00",
+        "request_started_jst": "2026-10-28T03:08:14.022518+09:00",
+        "response_headers_received_utc": "2026-10-27T18:08:21.656255+00:00",
+        "response_headers_received_jst": "2026-10-28T03:08:21.656255+09:00",
+        "status": 200,
+        "response_url": "https://itunes.apple.com/jp/rss/topfreeapplications/limit=200/json",
+        "body_read_completed_utc": "2026-10-27T18:08:21.720293+00:00",
+        "body_read_completed_jst": "2026-10-28T03:08:21.720293+09:00",
+        "bytes": 598801,
+        "sha256": "b59908b35c2fa666df8609130b31b423b406a8dc3466fa0ee6c04e5e4644f46c",
+        "count": 100,
+        "unique_ids": 100,
+        "feed_updated": "2026-10-27T11:08:20-07:00",
+        "feed_updated_utc": "2026-10-27T18:08:20+00:00",
+        "feed_updated_jst": "2026-10-28T03:08:20+09:00",
+        "outcome": "saved"
+      },
+      {
+        "date_jst": "2026-10-28",
+        "chart": "grossing",
+        "url": "https://itunes.apple.com/jp/rss/topgrossingapplications/limit=200/json",
+        "requested_limit": 200,
+        "method": "GET Python urllib; redirects disabled; no retries; default TLS verification; Accept-Encoding identity",
+        "attempts": 1,
+        "body_file": "apple-grossing-raw-2026-10-28.json",
+        "headers_file": "apple-grossing-headers-2026-10-28.json",
+        "publication_date": null,
+        "target_period": null,
+        "publication_note": "Feed update time is not a documented publication date or underlying measurement window.",
+        "request_started_utc": "2026-10-27T18:08:21.725778+00:00",
+        "request_started_jst": "2026-10-28T03:08:21.725778+09:00",
+        "response_headers_received_utc": "2026-10-27T18:08:25.714084+00:00",
+        "response_headers_received_jst": "2026-10-28T03:08:25.714084+09:00",
+        "status": 200,
+        "response_url": "https://itunes.apple.com/jp/rss/topgrossingapplications/limit=200/json",
+        "body_read_completed_utc": "2026-10-27T18:08:25.735566+00:00",
+        "body_read_completed_jst": "2026-10-28T03:08:25.735566+09:00",
+        "bytes": 601972,
+        "sha256": "227fd254c21bb036f65d1da9c603dd66038019ad0bb802faa02ae5869ce6d1c6",
+        "count": 100,
+        "unique_ids": 100,
+        "feed_updated": "2026-10-27T11:08:24-07:00",
+        "feed_updated_utc": "2026-10-27T18:08:24+00:00",
+        "feed_updated_jst": "2026-10-28T03:08:24+09:00",
+        "outcome": "saved"
+      },
+      {
+        "date_jst": "2026-10-28",
+        "chart": "paid",
+        "url": "https://itunes.apple.com/jp/rss/toppaidapplications/limit=200/json",
+        "requested_limit": 200,
+        "method": "GET Python urllib; redirects disabled; no retries; default TLS verification; Accept-Encoding identity",
+        "attempts": 1,
+        "body_file": "apple-paid-raw-2026-10-28.json",
+        "headers_file": "apple-paid-headers-2026-10-28.json",
+        "publication_date": null,
+        "target_period": null,
+        "publication_note": "Feed update time is not a documented publication date or underlying measurement window.",
+        "request_started_utc": "2026-10-27T18:08:25.740377+00:00",
+        "request_started_jst": "2026-10-28T03:08:25.740377+09:00",
+        "response_headers_received_utc": "2026-10-27T18:08:29.753955+00:00",
+        "response_headers_received_jst": "2026-10-28T03:08:29.753955+09:00",
+        "status": 200,
+        "response_url": "https://itunes.apple.com/jp/rss/toppaidapplications/limit=200/json",
+        "body_read_completed_utc": "2026-10-27T18:08:29.775131+00:00",
+        "body_read_completed_jst": "2026-10-28T03:08:29.775131+09:00",
+        "bytes": 507906,
+        "sha256": "09dd327717b3b199e13592bef54a285189a9d0bb1e28a7fccf74405a3888ef52",
+        "count": 98,
+        "unique_ids": 98,
+        "feed_updated": "2026-10-27T11:08:29-07:00",
+        "feed_updated_utc": "2026-10-27T18:08:29+00:00",
+        "feed_updated_jst": "2026-10-28T03:08:29+09:00",
+        "outcome": "saved"
+      }
+    ],
+    "app-continuity.json": {
+      "actual_dates_jst": [
+        "2026-10-08",
+        "2026-10-16",
+        "2026-10-17",
+        "2026-10-18",
+        "2026-10-19",
+        "2026-10-20",
+        "2026-10-21",
+        "2026-10-22",
+        "2026-10-23",
+        "2026-10-24",
+        "2026-10-25",
+        "2026-10-26",
+        "2026-10-27",
+        "2026-10-28"
+      ],
+      "observation_count": 14,
+      "current_consecutive_days": 13,
+      "missing_dates_jst": [
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15"
+      ],
+      "four_week_eligible": false,
+      "four_week_observed_condition_met": false,
+      "imputed": false,
+      "demand_growth_promoted": false,
+      "evidence_status": {
+        "through_2026_10_27": "saved historical prior-day compact and continuity bodies reconstructed exactly. Older raw not reaudited.",
+        "2026_10_28": "Each feed retrieved once; all298 rows checked against raw bytes/hash."
+      },
+      "null_rank_semantics": "Not in the returned range; not zero users, market exit, or a known numerical rank",
+      "additional_evidence_needed": "Do not recaptureOct28 at05. PreserveOct9–15missing; four actual continuous weeks required."
+    },
+    "capture-query-log.jsonl": [
+      {
+        "date_jst": "2026-10-28",
+        "chart": "free",
+        "url": "https://itunes.apple.com/jp/rss/topfreeapplications/limit=200/json",
+        "requested_limit": 200,
+        "method": "GET Python urllib; redirects disabled; no retries; default TLS verification; Accept-Encoding identity",
+        "attempts": 1,
+        "body_file": "apple-free-raw-2026-10-28.json",
+        "headers_file": "apple-free-headers-2026-10-28.json",
+        "publication_date": null,
+        "target_period": null,
+        "publication_note": "Feed update time is not a documented publication date or underlying measurement window.",
+        "request_started_utc": "2026-10-27T18:08:14.022518+00:00",
+        "request_started_jst": "2026-10-28T03:08:14.022518+09:00",
+        "response_headers_received_utc": "2026-10-27T18:08:21.656255+00:00",
+        "response_headers_received_jst": "2026-10-28T03:08:21.656255+09:00",
+        "status": 200,
+        "response_url": "https://itunes.apple.com/jp/rss/topfreeapplications/limit=200/json",
+        "body_read_completed_utc": "2026-10-27T18:08:21.720293+00:00",
+        "body_read_completed_jst": "2026-10-28T03:08:21.720293+09:00",
+        "bytes": 598801,
+        "sha256": "b59908b35c2fa666df8609130b31b423b406a8dc3466fa0ee6c04e5e4644f46c",
+        "count": 100,
+        "unique_ids": 100,
+        "feed_updated": "2026-10-27T11:08:20-07:00",
+        "feed_updated_utc": "2026-10-27T18:08:20+00:00",
+        "feed_updated_jst": "2026-10-28T03:08:20+09:00",
+        "outcome": "saved"
+      },
+      {
+        "date_jst": "2026-10-28",
+        "chart": "grossing",
+        "url": "https://itunes.apple.com/jp/rss/topgrossingapplications/limit=200/json",
+        "requested_limit": 200,
+        "method": "GET Python urllib; redirects disabled; no retries; default TLS verification; Accept-Encoding identity",
+        "attempts": 1,
+        "body_file": "apple-grossing-raw-2026-10-28.json",
+        "headers_file": "apple-grossing-headers-2026-10-28.json",
+        "publication_date": null,
+        "target_period": null,
+        "publication_note": "Feed update time is not a documented publication date or underlying measurement window.",
+        "request_started_utc": "2026-10-27T18:08:21.725778+00:00",
+        "request_started_jst": "2026-10-28T03:08:21.725778+09:00",
+        "response_headers_received_utc": "2026-10-27T18:08:25.714084+00:00",
+        "response_headers_received_jst": "2026-10-28T03:08:25.714084+09:00",
+        "status": 200,
+        "response_url": "https://itunes.apple.com/jp/rss/topgrossingapplications/limit=200/json",
+        "body_read_completed_utc": "2026-10-27T18:08:25.735566+00:00",
+        "body_read_completed_jst": "2026-10-28T03:08:25.735566+09:00",
+        "bytes": 601972,
+        "sha256": "227fd254c21bb036f65d1da9c603dd66038019ad0bb802faa02ae5869ce6d1c6",
+        "count": 100,
+        "unique_ids": 100,
+        "feed_updated": "2026-10-27T11:08:24-07:00",
+        "feed_updated_utc": "2026-10-27T18:08:24+00:00",
+        "feed_updated_jst": "2026-10-28T03:08:24+09:00",
+        "outcome": "saved"
+      },
+      {
+        "date_jst": "2026-10-28",
+        "chart": "paid",
+        "url": "https://itunes.apple.com/jp/rss/toppaidapplications/limit=200/json",
+        "requested_limit": 200,
+        "method": "GET Python urllib; redirects disabled; no retries; default TLS verification; Accept-Encoding identity",
+        "attempts": 1,
+        "body_file": "apple-paid-raw-2026-10-28.json",
+        "headers_file": "apple-paid-headers-2026-10-28.json",
+        "publication_date": null,
+        "target_period": null,
+        "publication_note": "Feed update time is not a documented publication date or underlying measurement window.",
+        "request_started_utc": "2026-10-27T18:08:25.740377+00:00",
+        "request_started_jst": "2026-10-28T03:08:25.740377+09:00",
+        "response_headers_received_utc": "2026-10-27T18:08:29.753955+00:00",
+        "response_headers_received_jst": "2026-10-28T03:08:29.753955+09:00",
+        "status": 200,
+        "response_url": "https://itunes.apple.com/jp/rss/toppaidapplications/limit=200/json",
+        "body_read_completed_utc": "2026-10-27T18:08:29.775131+00:00",
+        "body_read_completed_jst": "2026-10-28T03:08:29.775131+09:00",
+        "bytes": 507906,
+        "sha256": "09dd327717b3b199e13592bef54a285189a9d0bb1e28a7fccf74405a3888ef52",
+        "count": 98,
+        "unique_ids": 98,
+        "feed_updated": "2026-10-27T11:08:29-07:00",
+        "feed_updated_utc": "2026-10-27T18:08:29+00:00",
+        "feed_updated_jst": "2026-10-28T03:08:29+09:00",
+        "outcome": "saved"
+      },
+      {
+        "date_jst": "2026-10-28",
+        "stream": "people",
+        "queries": [
+          "site.mhlw.go.jp 一般職業紹介状況 令和8年9月 公表 10月30日",
+          "site.mhlw.go.jp 2026 10月 統計 公表予定 一般職業紹介状況"
+        ],
+        "primary_bodies_opened": [
+          "https://www.e-stat.go.jp/release-calendar/statistics/00450222",
+          "https://www.mhlw.go.jp/toukei/saikin/"
+        ],
+        "outcome": "Official calendarSep2026plannedOct30 08:30JST; official recent indexlatestAug2026publishedOct2. Existing job table not refetched.",
+        "retrieved_at_utc": "2026-10-27T18:08:44Z"
+      }
+    ],
+    "validation.json": {
+      "date_jst": "2026-10-28",
+      "status": "PASS",
+      "rows_checked": 298,
+      "checks": [
+        {
+          "chart": "free",
+          "rows_checked": 100,
+          "raw_hash_match": true,
+          "raw_byte_length_match": true,
+          "all_ids_names_order_match": true,
+          "unique_ids": true,
+          "contiguous_ranks": true,
+          "request_date_is_oct28_jst": true,
+          "attempts": 1,
+          "verification_scope": "Separate validation script reparsed raw; same agent, not independent market evidence."
+        },
+        {
+          "chart": "grossing",
+          "rows_checked": 100,
+          "raw_hash_match": true,
+          "raw_byte_length_match": true,
+          "all_ids_names_order_match": true,
+          "unique_ids": true,
+          "contiguous_ranks": true,
+          "request_date_is_oct28_jst": true,
+          "attempts": 1,
+          "verification_scope": "Separate validation script reparsed raw; same agent, not independent market evidence."
+        },
+        {
+          "chart": "paid",
+          "rows_checked": 98,
+          "raw_hash_match": true,
+          "raw_byte_length_match": true,
+          "all_ids_names_order_match": true,
+          "unique_ids": true,
+          "contiguous_ranks": true,
+          "request_date_is_oct28_jst": true,
+          "attempts": 1,
+          "verification_scope": "Separate validation script reparsed raw; same agent, not independent market evidence."
+        }
+      ],
+      "date_coverage": {
+        "actual_days": 14,
+        "current_consecutive_days": 13,
+        "missing_dates": [
+          "2026-10-09",
+          "2026-10-10",
+          "2026-10-11",
+          "2026-10-12",
+          "2026-10-13",
+          "2026-10-14",
+          "2026-10-15"
+        ],
+        "four_week_eligible": false
+      },
+      "prior_day_schema": "prior direct chart->[rank,id,name] rows; todays capture converted to same schema",
+      "comparison_counts_independently_recomputed_from_normalized_ids": true,
+      "independent_review": {
+        "status": "PASS",
+        "evidence_basis": "Coordinator message received2026-10-27T18:10:57Z",
+        "checks": "All298 original feed rows exact ordered rank/ID/name versus compact; raw bytes SHA256; unique IDs; manifests1attempt; calendar original lines545–547 independently checked."
+      },
+      "growth_promoted": false,
+      "calculated_at_utc": "2026-10-27T18:10:57.513389+00:00"
+    },
+    "report-ja.md": "# 2026年10月28日 人と時間：新たな需要成長はまだ判定しない\n\nApp Storeの公式日本順位を1日追加した。無料100件、売上100件、有料98件を各1回取得し、実測は14日、連続13日となった。10月9〜15日の欠測は残る。4週間の継続を確認できていないため、新たなアプリ需要の成長には昇格しない。\n\n無料1位はMuse from Meta、売上1位はChatGPT、有料1位はONE PIECE 海のごちそうレストラン。前日から同じアプリが1位だが、順位は利用人数・利用時間・売上金額ではない。話題や広告の影響も今回識別していない。\n\n## 前日との比較\n\n10月27日と共通して返されたIDは無料93件、売上93件、有料89件。今日の返却範囲に加わったIDは7件、7件、9件で、前日から返されなくなったIDは7件、7件、10件だった。有料の実返却件数は99件から98件へ変わった。指定上限200件と実返却件数を分け、未返却を利用ゼロ・市場退出・確定した順位に置き換えない。週次比較は10月24日実施済み分を繰り返していない。\n\n先週との差分：10月21日の実測7日・連続6日から、14日・連続13日へ観測が進んだ。4週間未達という判断と、順位を需要量へ読み替えない判断は変わらない。これは週次ランキングの再分析ではなく、保存済み21日報告との継続状況の差分である。\n\n## 求人は次の実公表後に更新する\n\n厚生労働省の公表一覧を本日確認した。一般職業紹介状況の最新掲載は2026年8月分、10月2日公表。政府統計の公式公表予定一覧では9月分は10月30日08:30 JSTの予定だった。予定は実際の公表確認ではない。今回は既読の8月原表を再取得・再計算していない。\n\n- [e-Stat 一般職業紹介状況の公表予定](https://www.e-stat.go.jp/release-calendar/statistics/00450222)\n- [厚生労働省 最近公表の統計資料](https://www.mhlw.go.jp/toukei/saikin/)\n\nメディア利用時間は2025年度、2026年6月26日公表分を継承した。本日その掲載内容を再確認しておらず、最新性を新しく保証しない。21日報告の総務省一覧取得失敗、英国の総視聴267分/263分の不一致も解決していない。家計928アクセサリーの支出増とアプリ順位を結びつける根拠は得ていない。\n\n## 保存・検証と制限\n\nApple取得は03:08:14〜03:08:29 JST。3系統ともHTTP200、同一URLへの再試行なし。原本バイト列、HTTPヘッダー、SHA256、取得開始・完了時刻、フィード更新時刻を保存した。全298行のID・名称・順序・一意性・件数・取得日・時刻の前後関係を別検証スクリプトで照合した。同じ担当による別実装の検算であり、別の市場データによる裏付けではない。フィード更新時刻は資料公表日やランキング集計対象期間と同一とは扱わず、両者は不明として残す。\n\n過去の生レスポンス全件を再監査したとは言わない。旧移行リポジトリを読込元や書込先にしていない。\n\n今回の改善は、毎朝同じ求人原表を読み直す代わりに公式公表予定を確定し、9月分の次回確認候補を保存した点。実公表の前に再探索する重複を防ぐ。`jobs-release-check.json` の期限案は親の正本保存待ちであり、まだdue.jsonを更新したとは言わない。\n\n未完は実在する4週間の観測と、個別アプリの利用人数・時間・支払額の裏付け。\n\nApple原典：\n- https://itunes.apple.com/jp/rss/topfreeapplications/limit=200/json\n- https://itunes.apple.com/jp/rss/topgrossingapplications/limit=200/json\n- https://itunes.apple.com/jp/rss/toppaidapplications/limit=200/json",
+    "jobs-release-check.json": {
+      "checked_at_utc": "2026-10-27T18:08:44Z",
+      "checked_at_jst": "2026-10-28T03:08:44+09:00",
+      "retrieval_method": "web search discovery then official open and find; source body lines actually inspected",
+      "calendar": {
+        "url": "https://www.e-stat.go.jp/release-calendar/statistics/00450222",
+        "publication_date": null,
+        "observed_lines": "503–547",
+        "statistic": "一般職業紹介状況（職業安定業務統計）",
+        "future_observation": "2026-09",
+        "planned_release_jst": "2026-10-30T08:30:00+09:00",
+        "actual_release_confirmed": false
+      },
+      "release_index": {
+        "url": "https://www.mhlw.go.jp/toukei/saikin/",
+        "publication_date": null,
+        "observed_lines": "348–381",
+        "latest_listed_observation": "2026-08",
+        "listed_publication_date": "2026-10-02",
+        "listed_release_url": "https://www.mhlw.go.jp/stf/newpage_76397.html",
+        "new_data_table_retrieved": false
+      },
+      "proposed_due_item": {
+        "id": "jobs-2026-09",
+        "topic": "一般職業紹介状況2026年9月分",
+        "status": "awaiting_release",
+        "planned_release_jst": "2026-10-30T08:30:00+09:00",
+        "condition": "予定は実公表ではない。",
+        "source": "https://www.e-stat.go.jp/release-calendar/statistics/00450222",
+        "date_checked_at": "2026-10-28"
+      },
+      "weekly_repeat": false
+    },
+    "source-ledger.json": {
+      "date_jst": "2026-10-28",
+      "apple": [
+        {
+          "date_jst": "2026-10-28",
+          "chart": "free",
+          "url": "https://itunes.apple.com/jp/rss/topfreeapplications/limit=200/json",
+          "requested_limit": 200,
+          "method": "GET Python urllib; redirects disabled; no retries; default TLS verification; Accept-Encoding identity",
+          "attempts": 1,
+          "body_file": "apple-free-raw-2026-10-28.json",
+          "headers_file": "apple-free-headers-2026-10-28.json",
+          "publication_date": null,
+          "target_period": null,
+          "publication_note": "Feed update time is not a documented publication date or underlying measurement window.",
+          "request_started_utc": "2026-10-27T18:08:14.022518+00:00",
+          "request_started_jst": "2026-10-28T03:08:14.022518+09:00",
+          "response_headers_received_utc": "2026-10-27T18:08:21.656255+00:00",
+          "response_headers_received_jst": "2026-10-28T03:08:21.656255+09:00",
+          "status": 200,
+          "response_url": "https://itunes.apple.com/jp/rss/topfreeapplications/limit=200/json",
+          "body_read_completed_utc": "2026-10-27T18:08:21.720293+00:00",
+          "body_read_completed_jst": "2026-10-28T03:08:21.720293+09:00",
+          "bytes": 598801,
+          "sha256": "b59908b35c2fa666df8609130b31b423b406a8dc3466fa0ee6c04e5e4644f46c",
+          "count": 100,
+          "unique_ids": 100,
+          "feed_updated": "2026-10-27T11:08:20-07:00",
+          "feed_updated_utc": "2026-10-27T18:08:20+00:00",
+          "feed_updated_jst": "2026-10-28T03:08:20+09:00",
+          "outcome": "saved"
+        },
+        {
+          "date_jst": "2026-10-28",
+          "chart": "grossing",
+          "url": "https://itunes.apple.com/jp/rss/topgrossingapplications/limit=200/json",
+          "requested_limit": 200,
+          "method": "GET Python urllib; redirects disabled; no retries; default TLS verification; Accept-Encoding identity",
+          "attempts": 1,
+          "body_file": "apple-grossing-raw-2026-10-28.json",
+          "headers_file": "apple-grossing-headers-2026-10-28.json",
+          "publication_date": null,
+          "target_period": null,
+          "publication_note": "Feed update time is not a documented publication date or underlying measurement window.",
+          "request_started_utc": "2026-10-27T18:08:21.725778+00:00",
+          "request_started_jst": "2026-10-28T03:08:21.725778+09:00",
+          "response_headers_received_utc": "2026-10-27T18:08:25.714084+00:00",
+          "response_headers_received_jst": "2026-10-28T03:08:25.714084+09:00",
+          "status": 200,
+          "response_url": "https://itunes.apple.com/jp/rss/topgrossingapplications/limit=200/json",
+          "body_read_completed_utc": "2026-10-27T18:08:25.735566+00:00",
+          "body_read_completed_jst": "2026-10-28T03:08:25.735566+09:00",
+          "bytes": 601972,
+          "sha256": "227fd254c21bb036f65d1da9c603dd66038019ad0bb802faa02ae5869ce6d1c6",
+          "count": 100,
+          "unique_ids": 100,
+          "feed_updated": "2026-10-27T11:08:24-07:00",
+          "feed_updated_utc": "2026-10-27T18:08:24+00:00",
+          "feed_updated_jst": "2026-10-28T03:08:24+09:00",
+          "outcome": "saved"
+        },
+        {
+          "date_jst": "2026-10-28",
+          "chart": "paid",
+          "url": "https://itunes.apple.com/jp/rss/toppaidapplications/limit=200/json",
+          "requested_limit": 200,
+          "method": "GET Python urllib; redirects disabled; no retries; default TLS verification; Accept-Encoding identity",
+          "attempts": 1,
+          "body_file": "apple-paid-raw-2026-10-28.json",
+          "headers_file": "apple-paid-headers-2026-10-28.json",
+          "publication_date": null,
+          "target_period": null,
+          "publication_note": "Feed update time is not a documented publication date or underlying measurement window.",
+          "request_started_utc": "2026-10-27T18:08:25.740377+00:00",
+          "request_started_jst": "2026-10-28T03:08:25.740377+09:00",
+          "response_headers_received_utc": "2026-10-27T18:08:29.753955+00:00",
+          "response_headers_received_jst": "2026-10-28T03:08:29.753955+09:00",
+          "status": 200,
+          "response_url": "https://itunes.apple.com/jp/rss/toppaidapplications/limit=200/json",
+          "body_read_completed_utc": "2026-10-27T18:08:29.775131+00:00",
+          "body_read_completed_jst": "2026-10-28T03:08:29.775131+09:00",
+          "bytes": 507906,
+          "sha256": "09dd327717b3b199e13592bef54a285189a9d0bb1e28a7fccf74405a3888ef52",
+          "count": 98,
+          "unique_ids": 98,
+          "feed_updated": "2026-10-27T11:08:29-07:00",
+          "feed_updated_utc": "2026-10-27T18:08:29+00:00",
+          "feed_updated_jst": "2026-10-28T03:08:29+09:00",
+          "outcome": "saved"
+        }
+      ],
+      "jobs_release_check": {
+        "checked_at_utc": "2026-10-27T18:08:44Z",
+        "checked_at_jst": "2026-10-28T03:08:44+09:00",
+        "retrieval_method": "web search discovery then official open and find; source body lines actually inspected",
+        "calendar": {
+          "url": "https://www.e-stat.go.jp/release-calendar/statistics/00450222",
+          "publication_date": null,
+          "observed_lines": "503–547",
+          "statistic": "一般職業紹介状況（職業安定業務統計）",
+          "future_observation": "2026-09",
+          "planned_release_jst": "2026-10-30T08:30:00+09:00",
+          "actual_release_confirmed": false
+        },
+        "release_index": {
+          "url": "https://www.mhlw.go.jp/toukei/saikin/",
+          "publication_date": null,
+          "observed_lines": "348–381",
+          "latest_listed_observation": "2026-08",
+          "listed_publication_date": "2026-10-02",
+          "listed_release_url": "https://www.mhlw.go.jp/stf/newpage_76397.html",
+          "new_data_table_retrieved": false
+        },
+        "proposed_due_item": {
+          "id": "jobs-2026-09",
+          "topic": "一般職業紹介状況2026年9月分",
+          "status": "awaiting_release",
+          "planned_release_jst": "2026-10-30T08:30:00+09:00",
+          "condition": "予定は実公表ではない。",
+          "source": "https://www.e-stat.go.jp/release-calendar/statistics/00450222",
+          "date_checked_at": "2026-10-28"
+        },
+        "weekly_repeat": false
+      },
+      "media": {
+        "known_period": "FY2025",
+        "published": "2026-06-26",
+        "freshness_rechecked_today": false,
+        "inherited_source": "saved mapped Oct21 report and Oct26 carry-forward",
+        "prior_fetch_failure": "Oct21 official MIC index non-retryable error, not retried today"
+      },
+      "source_restrictions": [
+        "official public sources only",
+        "no old migration repository reads/writes/fallback",
+        "no member pages",
+        "no paid/login/access changes"
+      ],
+      "source_failures_today": [],
+      "skill_reference_limit": "product-business-analysis and validate-data read. Linked shared Data guide resource unavailable from skills resolver; not claimed read."
+    }
+  }
+}

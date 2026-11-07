@@ -1,0 +1,133 @@
+{
+  "date_jst": "2026-10-30",
+  "checked_at_utc": "2026-10-29T18:36:49.771977+00:00",
+  "status": "bounded_three_stream_synthesis_complete",
+  "household_independent_arithmetic": {
+    "checked_at": "2026-10-29T18:35:26.596923+00:00",
+    "checks": {
+      "352": {
+        "previous12": 7026,
+        "latest12": 7248,
+        "growth_pct": 3.15969257045261
+      },
+      "353": {
+        "previous12": 2688,
+        "latest12": 3219,
+        "growth_pct": 19.754464285714278
+      },
+      "combined": {
+        "previous12": 9714,
+        "latest12": 10467,
+        "growth_pct": 7.751698579369992
+      }
+    },
+    "result": "PASS",
+    "scope": "Bounded household headline arithmetic; no quantity/price corroboration claim"
+  },
+  "seller_independent_visual_check": {
+    "file": "sellers/anka-08.png",
+    "scope": "physicalpage8 chocolate row2023/2024/2025 quantities and values plus headers,date; allmatchbundle",
+    "2025_quantity_tonnes": 210736,
+    "2024_quantity_tonnes": 231477,
+    "2025_retail_value_100million_yen": 7105,
+    "2024_retail_value_100million_yen": 6312
+  },
+  "comparison": {
+    "household": "353 nominal+19.75%;352+353 nominal+7.75%. Official mapped representative CPI monthly reference deflation:353−3.149%,combined−13.338%; not physical quantity and not official published household real-growth figure.",
+    "seller": "Broaderchocolateindustry2025productiontonnes−8.96%, estimatedretailvalue+12.56%; differentperiod/scope/stage",
+    "people": "AppleOct30missing, jobsnextreleaseafter06, mediaalreadyreviewednotnew",
+    "conclusion": "Growth promotion remains withheld. Earlier blanket deflator exclusion revised from new official mapping; exact353quantity remains unresolved."
+  },
+  "growth_promoted": false,
+  "completed": [
+    "35392monthscopeaudit",
+    "seller2019-2025quantity/valuepath",
+    "Applefailurevszeroandstaleingestregression",
+    "boundedcrossstreamperiodpopulationpricecomparison"
+  ],
+  "unfinished": [
+    "353-specific quantity or price evidence",
+    "Apple source access missing without retry",
+    "Lab dependency/live-verification approval pending",
+    "demand authoring bounded archive restoration approval pending"
+  ],
+  "supplemental_reanalysis": {
+    "at_utc": "2026-10-29T20:04:55.856049+00:00",
+    "same_calendar_period_check": {
+      "checked_at_utc": "2026-10-29T19:35:56.824016+00:00",
+      "new_scope": "Same-calendar-year comparison rather than mismatched trailing household12 and annual seller period. Independent raw CSV parser, not prior test rerun.",
+      "annual_sums_displayed_monthly_yen": {
+        "2024": {
+          "352": 7164,
+          "353": 2568,
+          "combined": 9732
+        },
+        "2025": {
+          "352": 7150,
+          "353": 2734,
+          "combined": 9884
+        }
+      },
+      "yoy_pct": {
+        "352": -0.19542155220547697,
+        "353": 6.464174454828653,
+        "combined": 1.5618577887381857
+      },
+      "contributions_yen": {
+        "352": -14,
+        "353": 166,
+        "combined": 152
+      },
+      "seller2025": {
+        "year": 2025,
+        "quantity_tonnes": 210736,
+        "production_value_100million_yen": 4867,
+        "retail_value_100million_yen": 7105,
+        "source": "https://anka-kashi.com/images/statistics/r07.pdf",
+        "physical_page": 8,
+        "production_unit_value_yen_per_kg": 2309.524713385468,
+        "quantity_yoy_pct": -8.960285471126717,
+        "production_value_yoy_pct": 13.00208962154632,
+        "retail_value_yoy_pct": 12.563371356147023,
+        "production_unit_value_yoy_pct": 24.12394986773345
+      },
+      "decision": "No report correction required. Same-calendar-year alignment does not establish quantity growth: household combined nominal +1.56% and industry production -8.96%; scope/population/production-versus-consumption differences remain. Do not describe as pure price causality.",
+      "limits": [
+        "Annual values are sums of rounded monthly cells, not published annual cells.",
+        "Household352+353 is not exact ANKA chocolate aggregate.",
+        "No matched quantity or CPI acquired; no public-site or recurring-update verification."
+      ]
+    },
+    "independent_deflation": {
+      "at": "2026-10-29T20:02:14.405377+00:00",
+      "method": "Same saved CPI file for all24months; linking validity checked separately.",
+      "checks": "PASS all3 calculations, source hashes and codes, population, monthly coverage",
+      "values": {
+        "352": {
+          "previous12": "8060.868303742722854004629239",
+          "latest12": "6675.804501829482182785063482",
+          "pct": "-17.18256333837069321986745583"
+        },
+        "353": {
+          "previous12": "3041.187793705806484880827467",
+          "latest12": "2945.417061377974139374390463",
+          "pct": "-3.149122606832903131101125320"
+        },
+        "352+353": {
+          "previous12": "11102.05609744852933888545670",
+          "latest12": "9621.221563207456322159453943",
+          "pct": "-13.33838093811648000076075577"
+        }
+      },
+      "limits": "Representative-index reference real spending, not353 physical quantity; base/linking validity separately checked from official methodology."
+    },
+    "growth_promoted": false,
+    "report_changed": true,
+    "reason": "New official CPI consolidation and base-linkage evidence improves interpretation; not physical quantity measurement."
+  },
+  "files_sha256": {
+    "household/evidence-bundle.json": "1e2e3b468f5a3e53a2ad0f561ed627c92c4e83fc2c54d645f3725385b7c58ceb",
+    "people/evidence-bundle.json": "a7397b4cff23db222a60f228eabf2eef7d150344bc0c80006d3fd094bc07d7e2",
+    "sellers/evidence-bundle.json": "8ff9e89a3dca4e9e75b732f4577c935942a07646adf3cb8f3257cb2b8ce7ecb1"
+  }
+}

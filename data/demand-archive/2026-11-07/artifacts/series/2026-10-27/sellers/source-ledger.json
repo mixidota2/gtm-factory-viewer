@@ -1,0 +1,50 @@
+{
+  "date_jst": "2026-10-27",
+  "retrieved_at_utc": "2026-10-26T18:02:33Z/2026-10-26T18:06:31Z",
+  "sources": [
+    {
+      "url": "https://www.mhlw.go.jp/content/12401000/001750173.pdf",
+      "file": "dental-fy2025.pdf",
+      "published": "2026-08-28",
+      "period": "FY2021–FY2025",
+      "read": "Full PDF downloaded; relevant table PDFpage3 visual/text. Other pages not all read.",
+      "scope": "All receipts vs electronic claims; insurance/public expenditure including copayment excluding fully self-paid."
+    },
+    {
+      "url": "https://www.mhlw.go.jp/topics/medias/month/26/dl/gaisan_iryou_data_05.pdf",
+      "file": "medias-2026apr-may.pdf",
+      "published": null,
+      "publication_note": "Exact release date not independently confirmed; do not infer from filename or secondary search.",
+      "period": "2026-04/05",
+      "read": "Full PDF downloaded; page1 visual and sheet2-2 text."
+    },
+    {
+      "url": "https://www.mhlw.go.jp/topics/medias/year/20/dl/iryouhi_data.pdf",
+      "file": "medias-fy2020.pdf",
+      "published": "2021-08-31",
+      "period": "FY2019/2020",
+      "read": "Full PDF downloaded; page9 visual and definitions text."
+    },
+    {
+      "url": "https://www.mhlw.go.jp/content/12401000/001750156.pdf",
+      "published": "2026-08-28",
+      "period": "FY2025",
+      "read": "Web original PDF extraction only, definitions on pages0/5; not downloaded locally."
+    },
+    {
+      "url": "https://www.mhlw.go.jp/bunya/iryouhoken/database/zenpan/iryou_doukou_r08.html",
+      "published": null,
+      "period": "FY2026",
+      "read": "Official latest-month index linked only Apr-May at acquisition."
+    }
+  ],
+  "queries": [
+    "site.mhlw.go.jp 令和8年 医療費 動向 歯科 受診延日数 2026",
+    "site.jda.or.jp 歯科 医療費 2025 受診延日数",
+    "site.mhlw.go.jp 令和8年 医療費の動向 月",
+    "site.mhlw.go.jp 令和元年度 歯科 40,954",
+    "site.mhlw.go.jp 令和８年度４～５月 公表 9月"
+  ],
+  "not_adopted": "Secondary search snippets, association subset November2025, employee counts, electronic claims growth as all-population growth.",
+  "status": "bounded_seller_review_complete_no_growth_promotion"
+}

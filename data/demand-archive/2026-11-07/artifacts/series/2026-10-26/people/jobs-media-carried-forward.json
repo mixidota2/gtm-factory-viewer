@@ -1,0 +1,17 @@
+{
+  "date_jst": "2026-10-26",
+  "new_network_retrievals": 0,
+  "jobs": {
+    "known_period": "2026-08",
+    "published": "2026-10-02",
+    "last_release_index_check": "2026-10-21",
+    "freshness_rechecked_today": false
+  },
+  "media": {
+    "known_period": "FY2025",
+    "published": "2026-06-26",
+    "freshness_rechecked_today": false
+  },
+  "reason": "No release check due in current saved due.json; avoid repeating already analyzed tables. Known periods are not a fresh assertion of latest availability.",
+  "uk_total_time_discrepancy": "267 versus263 minutes unresolved; carry forward, no retrieval retry."
+}

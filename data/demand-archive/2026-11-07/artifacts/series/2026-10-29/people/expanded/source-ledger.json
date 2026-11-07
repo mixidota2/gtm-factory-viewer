@@ -1,0 +1,50 @@
+{
+  "date_jst": "2026-10-29",
+  "apple": [
+    {
+      "url": "https://itunes.apple.com/jp/rss/topfreeapplications/limit=200/json",
+      "acquired_at_utc": "2026-10-28T21:51:00.721720+00:00",
+      "publication_date": null,
+      "target_period": null,
+      "feed_updated": "2026-10-28T14:50:59-07:00",
+      "sha256": "088669015d712c40ba58712fb0f3ba5091386523a655704ca974e8a53696f7a7",
+      "acquired_this_run": true
+    },
+    {
+      "url": "https://itunes.apple.com/jp/rss/topgrossingapplications/limit=200/json",
+      "acquired_at_utc": "2026-10-28T21:51:05.800781+00:00",
+      "publication_date": null,
+      "target_period": null,
+      "feed_updated": "2026-10-28T14:51:04-07:00",
+      "sha256": "3e0d5206500a012962fa56288bbc82cebc980a91f4653fdd5c62a334af7f2e6a",
+      "acquired_this_run": true
+    },
+    {
+      "url": "https://itunes.apple.com/jp/rss/toppaidapplications/limit=200/json",
+      "acquired_at_utc": "2026-10-28T21:51:09.758029+00:00",
+      "publication_date": null,
+      "target_period": null,
+      "feed_updated": "2026-10-28T14:51:09-07:00",
+      "sha256": "7e6fb9b527d624fb81fd51ce5f5c469bf08cf3a750498604e0fc86a4054ccbc0",
+      "acquired_this_run": true
+    }
+  ],
+  "jobs": {
+    "acquired_this_run": false,
+    "status": "not_due",
+    "planned_release_jst": "2026-10-30T08:30:00+09:00",
+    "next_check_jst": "2026-10-31",
+    "sources": [
+      "https://www.e-stat.go.jp/release-calendar/statistics/00450222",
+      "https://www.mhlw.go.jp/toukei/saikin/"
+    ],
+    "source_status": "Inherited saved Oct28 evidence; planned, not actual publication"
+  },
+  "media": {
+    "acquired_this_run": false,
+    "target_period": "FY2025",
+    "publication_date": "2026-06-26",
+    "source_status": "Inherited saved evidence, not rechecked"
+  },
+  "demand_growth_promoted": false
+}

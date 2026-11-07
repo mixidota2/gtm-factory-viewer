@@ -1,0 +1,489 @@
+{
+  "scope": "saved_source_provenance_and_population_definition_audit_not_new_demand_data_collection",
+  "sources": [
+    {
+      "id": "nintendo-quarter",
+      "files": [
+        "raw/nintendo-260806_2.pdf"
+      ],
+      "url": "https://www.nintendo.co.jp/ir/pdf/2026/260806_2.pdf",
+      "official_index_url": "https://www.nintendo.co.jp/ir/index.html?link=rss",
+      "published_date": "2026-08-06",
+      "target_periods": [
+        "2025-04/2025-06",
+        "2026-04/2026-06"
+      ],
+      "locators": [
+        "p5 sell-in definition",
+        "p6 bundled software revenue",
+        "p13 annual player account definition",
+        "p24 regional unit sales and scope"
+      ],
+      "status": "official_index_link_and_live_document_confirmed; saved_page24_visually_checked; no_binary_redownload",
+      "original_retrieved_at": null,
+      "original_retrieved_at_status": "not_recoverable_from_saved_fetch_log; do_not_substitute_mtime_or_current_review_time",
+      "review_date_jst": "2026-10-20"
+    },
+    {
+      "id": "nintendo-annual",
+      "files": [
+        "raw/nintendo-sales-2603.xlsx"
+      ],
+      "url": "https://www.nintendo.co.jp/ir/finance/historical_data/xls/consolidated_sales_2603.xlsx",
+      "official_index_url": "https://www.nintendo.co.jp/ir/finance/historical_data/index.html",
+      "published_date": null,
+      "as_of_date": "2026-03-31",
+      "target_period": "annual fiscal years through2026-03",
+      "status": "official_index_link_verified; web_tool_unsupported_xlsx; saved_bytes_hash_checked; original_calculation_inherited_not_rerun",
+      "original_retrieved_at": null,
+      "original_retrieved_at_status": "not_recoverable_from_saved_fetch_log; do_not_substitute_mtime_or_current_review_time",
+      "review_date_jst": "2026-10-20"
+    },
+    {
+      "id": "famitsu2026-pdf",
+      "files": [
+        "raw/famitsu2026-release.pdf"
+      ],
+      "url": "https://www.lab-kadokawa.com/release/pdf/438.pdf",
+      "official_index_url": "https://www.lab-kadokawa.com/release/detail.php?id=0388",
+      "published_date": "2026-08-06",
+      "target_period": "2025",
+      "locators": [
+        "p2 money-market scope",
+        "p3 population chart and heading"
+      ],
+      "status": "official_index_link_and_live_document_confirmed; saved_page3_visually_checked; no_binary_redownload",
+      "original_retrieved_at": null,
+      "original_retrieved_at_status": "not_recoverable_from_saved_fetch_log; do_not_substitute_mtime_or_current_review_time",
+      "review_date_jst": "2026-10-20"
+    },
+    {
+      "id": "famitsu2025-pdf",
+      "files": [
+        "raw/famitsu2025-release.pdf"
+      ],
+      "url": "https://www.lab-kadokawa.com/release/pdf/384.pdf",
+      "official_index_url": "https://www.lab-kadokawa.com/release/detail.php?id=0334",
+      "published_date": "2025-08-07",
+      "html_published_date": "2025-08-06",
+      "target_period": "2024",
+      "locators": [
+        "p3 population chart and method-change note"
+      ],
+      "status": "official_index_link_and_live_document_confirmed; saved_page3_visually_checked; no_binary_redownload",
+      "original_retrieved_at": null,
+      "original_retrieved_at_status": "not_recoverable_from_saved_fetch_log; do_not_substitute_mtime_or_current_review_time",
+      "review_date_jst": "2026-10-20"
+    },
+    {
+      "id": "famitsu2026-publisher",
+      "files": [
+        "raw/famitsu2026-publisher.html"
+      ],
+      "url": "https://www.lab-kadokawa.com/release/detail.php?id=0388",
+      "published_date": "2026-08-06",
+      "published_time_display": "14:30:00 timezone_not_displayed",
+      "target_period": "2025",
+      "status": "saved_saved_and_live_page_confirmed; population_definition_not_reconciled",
+      "original_retrieved_at": null,
+      "original_retrieved_at_status": "not_recoverable_from_saved_fetch_log; do_not_substitute_mtime_or_current_review_time",
+      "review_date_jst": "2026-10-20"
+    },
+    {
+      "id": "famitsu2026-group",
+      "files": [
+        "raw/famitsu2026-official.html"
+      ],
+      "url": "https://group.kadokawa.co.jp/information/promotional_topics/article-15406.html",
+      "published_date": "2026-08-06",
+      "target_period": "2025",
+      "status": "saved_saved_and_live_page_confirmed; same_publisher_release_not_independent_evidence",
+      "original_retrieved_at": null,
+      "original_retrieved_at_status": "not_recoverable_from_saved_fetch_log; do_not_substitute_mtime_or_current_review_time",
+      "review_date_jst": "2026-10-20"
+    },
+    {
+      "id": "famitsu2026-product",
+      "files": [
+        "raw/famitsu2026-product.html"
+      ],
+      "url": "https://f-ism.net/fgh/2026.html",
+      "published_date": null,
+      "release_date": "2026-08-06",
+      "target_period": "2025",
+      "status": "official_release_links_and_saved_html_confirmed; live_web_read_failed; no_repeat_attempt; no_correction_mentions_in_saved_html",
+      "original_retrieved_at": null,
+      "original_retrieved_at_status": "not_recoverable_from_saved_fetch_log; do_not_substitute_mtime_or_current_review_time",
+      "review_date_jst": "2026-10-20"
+    },
+    {
+      "id": "famitsu2026-chart",
+      "files": [
+        "raw/famitsu2026-users-publisher.png"
+      ],
+      "url": "https://www.lab-kadokawa.com/release/image/438/05.png",
+      "published_date": "2026-08-06",
+      "target_period": "2025",
+      "status": "official_publisher_embedded_url_verified; saved_chart_and_pdf_equivalent_visually_checked; no_binary_identity_claim",
+      "original_retrieved_at": null,
+      "original_retrieved_at_status": "not_recoverable_from_saved_fetch_log; do_not_substitute_mtime_or_current_review_time",
+      "review_date_jst": "2026-10-20"
+    },
+    {
+      "id": "famitsu2025-chart",
+      "files": [],
+      "url": "https://www.lab-kadokawa.com/release/image/384/04.png",
+      "published_date": "2025-08-06",
+      "target_period": "2024",
+      "status": "official_publisher_link_verified; saved_pdf_chart_visually_checked",
+      "original_retrieved_at": null,
+      "original_retrieved_at_status": "not_recoverable_from_saved_fetch_log; do_not_substitute_mtime_or_current_review_time",
+      "review_date_jst": "2026-10-20"
+    },
+    {
+      "id": "cesa2025-page",
+      "files": [],
+      "url": "https://www.cesa.or.jp/action/industry-research/2025/",
+      "published_date": null,
+      "release_date": "2025-12-15",
+      "target_period": "2024",
+      "status": "live_official_page_confirmed; underlying_population_survey_independence_not_established",
+      "original_retrieved_at": null,
+      "original_retrieved_at_status": "not_recoverable_from_saved_fetch_log; do_not_substitute_mtime_or_current_review_time",
+      "review_date_jst": "2026-10-20"
+    },
+    {
+      "id": "cesa-series",
+      "files": [],
+      "url": "https://www.cesa.or.jp/action/industry-research/",
+      "published_date": null,
+      "target_period": "2026_complete_report_future_release",
+      "status": "live_official_page_confirmed; December2026_release_plan_not_current_user_series",
+      "original_retrieved_at": null,
+      "original_retrieved_at_status": "not_recoverable_from_saved_fetch_log; do_not_substitute_mtime_or_current_review_time",
+      "review_date_jst": "2026-10-20"
+    }
+  ],
+  "saved_asset_inventory": [
+    {
+      "saved_relative_path": "raw/cesa2025-release.pdf",
+      "saved_sha256": "f94112865d281ed5967ae2d9fed6da748d936894e43421a947682b8780a3f561",
+      "current_sha256": "f94112865d281ed5967ae2d9fed6da748d936894e43421a947682b8780a3f561",
+      "hash_matches": true,
+      "bytes": 1194474,
+      "source_id": null,
+      "derived_from": null,
+      "original_retrieved_at": null,
+      "provenance_status": "saved_bytes_verified; exact_source_url_not_confirmed_in_this_bounded_review"
+    },
+    {
+      "saved_relative_path": "raw/cesa2025-release.pdf.txt",
+      "saved_sha256": "44c9cde04371aa5b12c878e143704f82151de0c810c51a72a4010784accfed59",
+      "current_sha256": "44c9cde04371aa5b12c878e143704f82151de0c810c51a72a4010784accfed59",
+      "hash_matches": true,
+      "bytes": 9105,
+      "source_id": null,
+      "derived_from": "raw/cesa2025-release.pdf",
+      "original_retrieved_at": null,
+      "provenance_status": "derived_saved_file; exact_conversion_or_capture_time_not_logged"
+    },
+    {
+      "saved_relative_path": "raw/cesa2025-users.png",
+      "saved_sha256": "d37bfc8f8d2ccd967092c2b5290139e4b6f1dc9f30ce191985bd0059591749c4",
+      "current_sha256": "d37bfc8f8d2ccd967092c2b5290139e4b6f1dc9f30ce191985bd0059591749c4",
+      "hash_matches": true,
+      "bytes": 700042,
+      "source_id": null,
+      "derived_from": "raw/cesa2025-release.pdf",
+      "original_retrieved_at": null,
+      "provenance_status": "derived_saved_file; exact_conversion_or_capture_time_not_logged"
+    },
+    {
+      "saved_relative_path": "raw/cesa2026-preview-release.pdf",
+      "saved_sha256": "c6c1755eb7b31448c5712c2a5f6bbb324c46c76b82badb084874eb8cd5a6862b",
+      "current_sha256": "c6c1755eb7b31448c5712c2a5f6bbb324c46c76b82badb084874eb8cd5a6862b",
+      "hash_matches": true,
+      "bytes": 934297,
+      "source_id": null,
+      "derived_from": null,
+      "original_retrieved_at": null,
+      "provenance_status": "saved_bytes_verified; exact_source_url_not_confirmed_in_this_bounded_review"
+    },
+    {
+      "saved_relative_path": "raw/cesa2026-preview-release.pdf.txt",
+      "saved_sha256": "3e28ab8162464351f4abdd6f404ed29ced74dc9709f61f7797b767bd6e59df5f",
+      "current_sha256": "3e28ab8162464351f4abdd6f404ed29ced74dc9709f61f7797b767bd6e59df5f",
+      "hash_matches": true,
+      "bytes": 8733,
+      "source_id": null,
+      "derived_from": "raw/cesa2026-preview-release.pdf",
+      "original_retrieved_at": null,
+      "provenance_status": "derived_saved_file; exact_conversion_or_capture_time_not_logged"
+    },
+    {
+      "saved_relative_path": "raw/classification-2025.xlsx",
+      "saved_sha256": "54cc837eb6c26b81b8f205ac358a8670638840c684baa2e419b64a365d910817",
+      "current_sha256": "54cc837eb6c26b81b8f205ac358a8670638840c684baa2e419b64a365d910817",
+      "hash_matches": true,
+      "bytes": 403455,
+      "source_id": null,
+      "derived_from": null,
+      "original_retrieved_at": null,
+      "provenance_status": "saved_bytes_verified; exact_source_url_not_confirmed_in_this_bounded_review"
+    },
+    {
+      "saved_relative_path": "raw/famitsu2025-release.pdf",
+      "saved_sha256": "f3f43ef18cd31b9adabb5cd547840ca777bd6aa73df174b45729f4350d872912",
+      "current_sha256": "f3f43ef18cd31b9adabb5cd547840ca777bd6aa73df174b45729f4350d872912",
+      "hash_matches": true,
+      "bytes": 1195090,
+      "source_id": "famitsu2025-pdf",
+      "derived_from": null,
+      "original_retrieved_at": null,
+      "provenance_status": "source_mapped_with_limits_in_source_entry"
+    },
+    {
+      "saved_relative_path": "raw/famitsu2025-release.pdf.txt",
+      "saved_sha256": "cefa39c27739b9583f4f4a2fc415758a1fc12016e8490bbc679d6392f96b2312",
+      "current_sha256": "cefa39c27739b9583f4f4a2fc415758a1fc12016e8490bbc679d6392f96b2312",
+      "hash_matches": true,
+      "bytes": 7446,
+      "source_id": null,
+      "derived_from": "raw/famitsu2025-release.pdf",
+      "original_retrieved_at": null,
+      "provenance_status": "derived_saved_file; exact_conversion_or_capture_time_not_logged"
+    },
+    {
+      "saved_relative_path": "raw/famitsu2025-users.png",
+      "saved_sha256": "596cfcbe1e5dee4f065a421cd7284645daf6d998e1d7b305df2c43a15322045e",
+      "current_sha256": "596cfcbe1e5dee4f065a421cd7284645daf6d998e1d7b305df2c43a15322045e",
+      "hash_matches": true,
+      "bytes": 546281,
+      "source_id": null,
+      "derived_from": "raw/famitsu2025-release.pdf",
+      "original_retrieved_at": null,
+      "provenance_status": "derived_saved_file; exact_conversion_or_capture_time_not_logged"
+    },
+    {
+      "saved_relative_path": "raw/famitsu2026-image-0.img",
+      "saved_sha256": "ed15ae6073975a860492f4e7faa9596300bbb60869c1e0199121e44d04ff94dd",
+      "current_sha256": "ed15ae6073975a860492f4e7faa9596300bbb60869c1e0199121e44d04ff94dd",
+      "hash_matches": true,
+      "bytes": 218703,
+      "source_id": null,
+      "derived_from": null,
+      "original_retrieved_at": null,
+      "provenance_status": "saved_bytes_verified; exact_source_url_not_confirmed_in_this_bounded_review"
+    },
+    {
+      "saved_relative_path": "raw/famitsu2026-image-1.img",
+      "saved_sha256": "7cbf85f0e5a9ee7df4bcd8c0a0fbce04eb0a03145aa4914bc16b86c900e6e02d",
+      "current_sha256": "7cbf85f0e5a9ee7df4bcd8c0a0fbce04eb0a03145aa4914bc16b86c900e6e02d",
+      "hash_matches": true,
+      "bytes": 102684,
+      "source_id": null,
+      "derived_from": null,
+      "original_retrieved_at": null,
+      "provenance_status": "saved_bytes_verified; exact_source_url_not_confirmed_in_this_bounded_review"
+    },
+    {
+      "saved_relative_path": "raw/famitsu2026-image-2.img",
+      "saved_sha256": "02771bd5c62cbd4f18fa366b28a310272f608a041609407fa47dfb9cdf7a5dcb",
+      "current_sha256": "02771bd5c62cbd4f18fa366b28a310272f608a041609407fa47dfb9cdf7a5dcb",
+      "hash_matches": true,
+      "bytes": 152489,
+      "source_id": null,
+      "derived_from": null,
+      "original_retrieved_at": null,
+      "provenance_status": "saved_bytes_verified; exact_source_url_not_confirmed_in_this_bounded_review"
+    },
+    {
+      "saved_relative_path": "raw/famitsu2026-image-3.img",
+      "saved_sha256": "37a473deab452e5c4b9bbac63a5e5774d50211aec8ef30cb87bc7e98d9e10f98",
+      "current_sha256": "37a473deab452e5c4b9bbac63a5e5774d50211aec8ef30cb87bc7e98d9e10f98",
+      "hash_matches": true,
+      "bytes": 222040,
+      "source_id": null,
+      "derived_from": null,
+      "original_retrieved_at": null,
+      "provenance_status": "saved_bytes_verified; exact_source_url_not_confirmed_in_this_bounded_review"
+    },
+    {
+      "saved_relative_path": "raw/famitsu2026-image-4.img",
+      "saved_sha256": "809e3d1894df8b0c7a1a3248195bda09a0774d0d244048cbcf08f3b3160f4884",
+      "current_sha256": "809e3d1894df8b0c7a1a3248195bda09a0774d0d244048cbcf08f3b3160f4884",
+      "hash_matches": true,
+      "bytes": 139114,
+      "source_id": null,
+      "derived_from": null,
+      "original_retrieved_at": null,
+      "provenance_status": "saved_bytes_verified; exact_source_url_not_confirmed_in_this_bounded_review"
+    },
+    {
+      "saved_relative_path": "raw/famitsu2026-official.html",
+      "saved_sha256": "f6385d8132798d863dfdd47371639b8d7cc5708c8bbea1919c21b216a2b1b0c2",
+      "current_sha256": "f6385d8132798d863dfdd47371639b8d7cc5708c8bbea1919c21b216a2b1b0c2",
+      "hash_matches": true,
+      "bytes": 48170,
+      "source_id": "famitsu2026-group",
+      "derived_from": null,
+      "original_retrieved_at": null,
+      "provenance_status": "source_mapped_with_limits_in_source_entry"
+    },
+    {
+      "saved_relative_path": "raw/famitsu2026-product.html",
+      "saved_sha256": "5d00030706828e3a7ac33b4b8dd131c79c45d9b9baea71d584def51a39bb3eed",
+      "current_sha256": "5d00030706828e3a7ac33b4b8dd131c79c45d9b9baea71d584def51a39bb3eed",
+      "hash_matches": true,
+      "bytes": 30800,
+      "source_id": "famitsu2026-product",
+      "derived_from": null,
+      "original_retrieved_at": null,
+      "provenance_status": "source_mapped_with_limits_in_source_entry"
+    },
+    {
+      "saved_relative_path": "raw/famitsu2026-publisher.html",
+      "saved_sha256": "37a72d4585a189d272a3f46804202ebd6a6d82b4af2ea2de7c040284753b4c72",
+      "current_sha256": "37a72d4585a189d272a3f46804202ebd6a6d82b4af2ea2de7c040284753b4c72",
+      "hash_matches": true,
+      "bytes": 24704,
+      "source_id": "famitsu2026-publisher",
+      "derived_from": null,
+      "original_retrieved_at": null,
+      "provenance_status": "source_mapped_with_limits_in_source_entry"
+    },
+    {
+      "saved_relative_path": "raw/famitsu2026-release.pdf",
+      "saved_sha256": "5bc0bb00951aa39fcc2e9c43974cfd86006a7695aa64a0cfeaa9ba83d232288f",
+      "current_sha256": "5bc0bb00951aa39fcc2e9c43974cfd86006a7695aa64a0cfeaa9ba83d232288f",
+      "hash_matches": true,
+      "bytes": 2922602,
+      "source_id": "famitsu2026-pdf",
+      "derived_from": null,
+      "original_retrieved_at": null,
+      "provenance_status": "source_mapped_with_limits_in_source_entry"
+    },
+    {
+      "saved_relative_path": "raw/famitsu2026-release.pdf.txt",
+      "saved_sha256": "b975208d7b9d88bdd85cbd8877c84fcddbdf45baf34a04179c1ef6d6c0128189",
+      "current_sha256": "b975208d7b9d88bdd85cbd8877c84fcddbdf45baf34a04179c1ef6d6c0128189",
+      "hash_matches": true,
+      "bytes": 8990,
+      "source_id": null,
+      "derived_from": "raw/famitsu2026-release.pdf",
+      "original_retrieved_at": null,
+      "provenance_status": "derived_saved_file; exact_conversion_or_capture_time_not_logged"
+    },
+    {
+      "saved_relative_path": "raw/famitsu2026-users-pdf.png",
+      "saved_sha256": "a287dea698ecb1eaf12e05845ca9b261616b184246dae0de0b2dfe11ccd3c69d",
+      "current_sha256": "a287dea698ecb1eaf12e05845ca9b261616b184246dae0de0b2dfe11ccd3c69d",
+      "hash_matches": true,
+      "bytes": 1104039,
+      "source_id": null,
+      "derived_from": "raw/famitsu2026-release.pdf",
+      "original_retrieved_at": null,
+      "provenance_status": "derived_saved_file; exact_conversion_or_capture_time_not_logged"
+    },
+    {
+      "saved_relative_path": "raw/famitsu2026-users-publisher.png",
+      "saved_sha256": "a470823d834bc1ef75ffa75933143c1cd8a86c55a5a8318403bd6143654733b3",
+      "current_sha256": "a470823d834bc1ef75ffa75933143c1cd8a86c55a5a8318403bd6143654733b3",
+      "hash_matches": true,
+      "bytes": 1186599,
+      "source_id": "famitsu2026-chart",
+      "derived_from": null,
+      "original_retrieved_at": null,
+      "provenance_status": "source_mapped_with_limits_in_source_entry"
+    },
+    {
+      "saved_relative_path": "raw/nintendo-260508_2.pdf",
+      "saved_sha256": "6c024fa74f39e37d4bf8f5761146fb67a80ca51c92a477c577c13439328bddc2",
+      "current_sha256": "6c024fa74f39e37d4bf8f5761146fb67a80ca51c92a477c577c13439328bddc2",
+      "hash_matches": true,
+      "bytes": 115246,
+      "source_id": null,
+      "derived_from": null,
+      "original_retrieved_at": null,
+      "provenance_status": "saved_bytes_verified; exact_source_url_not_confirmed_in_this_bounded_review"
+    },
+    {
+      "saved_relative_path": "raw/nintendo-260508_2.pdf.txt",
+      "saved_sha256": "1a22a44000cb3e5643602270483ac5726b383f74d90f686136229757fb1d1af6",
+      "current_sha256": "1a22a44000cb3e5643602270483ac5726b383f74d90f686136229757fb1d1af6",
+      "hash_matches": true,
+      "bytes": 3447,
+      "source_id": null,
+      "derived_from": "raw/nintendo-260508_2.pdf",
+      "original_retrieved_at": null,
+      "provenance_status": "derived_saved_file; exact_conversion_or_capture_time_not_logged"
+    },
+    {
+      "saved_relative_path": "raw/nintendo-260806_2.pdf",
+      "saved_sha256": "45dabef41a8d3c571897924b3d926b410dd4e7bef1853d445ecca93b1f8e757c",
+      "current_sha256": "45dabef41a8d3c571897924b3d926b410dd4e7bef1853d445ecca93b1f8e757c",
+      "hash_matches": true,
+      "bytes": 3359002,
+      "source_id": "nintendo-quarter",
+      "derived_from": null,
+      "original_retrieved_at": null,
+      "provenance_status": "source_mapped_with_limits_in_source_entry"
+    },
+    {
+      "saved_relative_path": "raw/nintendo-260806_2.pdf.txt",
+      "saved_sha256": "09788c8d1e35ab100c5d29a197296c20129ca88c22fe89cd734740fcc9f03d05",
+      "current_sha256": "09788c8d1e35ab100c5d29a197296c20129ca88c22fe89cd734740fcc9f03d05",
+      "hash_matches": true,
+      "bytes": 57830,
+      "source_id": null,
+      "derived_from": "raw/nintendo-260806_2.pdf",
+      "original_retrieved_at": null,
+      "provenance_status": "derived_saved_file; exact_conversion_or_capture_time_not_logged"
+    },
+    {
+      "saved_relative_path": "raw/nintendo-news.html",
+      "saved_sha256": "0b418327aa295b6b6faf78085ec70cf1c1ba79e30a6a0f101e590cd821bf9381",
+      "current_sha256": "0b418327aa295b6b6faf78085ec70cf1c1ba79e30a6a0f101e590cd821bf9381",
+      "hash_matches": true,
+      "bytes": 4024,
+      "source_id": null,
+      "derived_from": null,
+      "original_retrieved_at": null,
+      "provenance_status": "saved_bytes_verified; exact_source_url_not_confirmed_in_this_bounded_review"
+    },
+    {
+      "saved_relative_path": "raw/nintendo-q1-software.png",
+      "saved_sha256": "22375c16e50331ba5b2ad339e1df85c3fd6fb536f80f9cb45242be83666c606f",
+      "current_sha256": "22375c16e50331ba5b2ad339e1df85c3fd6fb536f80f9cb45242be83666c606f",
+      "hash_matches": true,
+      "bytes": 242200,
+      "source_id": null,
+      "derived_from": "raw/nintendo-260806_2.pdf",
+      "original_retrieved_at": null,
+      "provenance_status": "derived_saved_file; exact_conversion_or_capture_time_not_logged"
+    },
+    {
+      "saved_relative_path": "raw/nintendo-sales-2603.xlsx",
+      "saved_sha256": "44b83b1ec599c506feac4e371473b4c55656441cacb6344f035de66f5941c789",
+      "current_sha256": "44b83b1ec599c506feac4e371473b4c55656441cacb6344f035de66f5941c789",
+      "hash_matches": true,
+      "bytes": 42818,
+      "source_id": "nintendo-annual",
+      "derived_from": null,
+      "original_retrieved_at": null,
+      "provenance_status": "source_mapped_with_limits_in_source_entry"
+    }
+  ],
+  "unresolved": [
+    "exact_original_retrieval_times",
+    "some_auxiliary_original_urls",
+    "same_definition_Famitsu_population_change",
+    "same_period_same_scope_Japan_835_final_consumption_quantity"
+  ],
+  "not_claimed": [
+    "all_original_fetch_provenance_recovered",
+    "current_remote_binary_identity",
+    "independent_recalculation_of_existing_numeric_series",
+    "market_growth_promotion"
+  ]
+}

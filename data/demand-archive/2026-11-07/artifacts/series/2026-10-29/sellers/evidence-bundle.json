@@ -1,0 +1,199 @@
+{
+  "observations.json": [
+    {
+      "table": "2-4",
+      "population": "住宅・建設業許可業者の元請受注",
+      "work_site": "内装",
+      "multiple_response_orders": 339286,
+      "multiple_response_yoy_pct": -13.7,
+      "primary_site_orders": 305970,
+      "primary_site_yoy_pct": -9.4,
+      "period": "2026-04/2026-06",
+      "unit": "件",
+      "scope427": "partial_not_exact"
+    },
+    {
+      "table": "2-4",
+      "population": "住宅・建設業許可業者の元請受注",
+      "work_site": "建具",
+      "multiple_response_orders": 301324,
+      "multiple_response_yoy_pct": 0.2,
+      "primary_site_orders": 243544,
+      "primary_site_yoy_pct": 2.3,
+      "period": "2026-04/2026-06",
+      "unit": "件",
+      "scope427": "partial_not_exact"
+    },
+    {
+      "table": "2-4",
+      "population": "住宅・建設業許可業者の元請受注",
+      "work_site": "空気調和換気設備",
+      "multiple_response_orders": 113468,
+      "multiple_response_yoy_pct": -1.9,
+      "primary_site_orders": 86578,
+      "primary_site_yoy_pct": 12.6,
+      "period": "2026-04/2026-06",
+      "unit": "件",
+      "scope427": "partial_not_exact"
+    },
+    {
+      "table": "2-4",
+      "population": "住宅・建設業許可業者の元請受注",
+      "work_site": "その他建築",
+      "multiple_response_orders": 145775,
+      "multiple_response_yoy_pct": -11.4,
+      "primary_site_orders": 121640,
+      "primary_site_yoy_pct": -6.7,
+      "period": "2026-04/2026-06",
+      "unit": "件",
+      "scope427": "partial_not_exact"
+    },
+    {
+      "table": "2-4",
+      "population": "住宅・建設業許可業者の元請受注",
+      "work_site": "電気設備",
+      "multiple_response_orders": 167063,
+      "multiple_response_yoy_pct": 1.0,
+      "primary_site_orders": 97607,
+      "primary_site_yoy_pct": -1.9,
+      "period": "2026-04/2026-06",
+      "unit": "件",
+      "scope427": "partial_not_exact"
+    },
+    {
+      "table": "2-4",
+      "population": "住宅・建設業許可業者の元請受注",
+      "work_site": "外構",
+      "multiple_response_orders": 69003,
+      "multiple_response_yoy_pct": -17.0,
+      "primary_site_orders": 62632,
+      "primary_site_yoy_pct": -10.7,
+      "period": "2026-04/2026-06",
+      "unit": "件",
+      "scope427": "partial_not_exact"
+    },
+    {
+      "table": "2-4",
+      "population": "住宅・建設業許可業者の元請受注",
+      "work_site": "その他",
+      "multiple_response_orders": 57235,
+      "multiple_response_yoy_pct": -4.6,
+      "primary_site_orders": 38865,
+      "primary_site_yoy_pct": 20.0,
+      "period": "2026-04/2026-06",
+      "unit": "件",
+      "scope427": "partial_not_exact"
+    },
+    {
+      "table": "2-2",
+      "series": "住宅の個人発注者",
+      "value": 7327,
+      "published_yoy_pct": -0.7,
+      "unit": "億円・名目受注高",
+      "period": "2026-04/2026-06",
+      "scope427": "broader_not_exact"
+    },
+    {
+      "table": "2-2",
+      "series": "住宅の居住者発注者",
+      "value": 6574,
+      "published_yoy_pct": -1.2,
+      "unit": "億円・名目受注高",
+      "period": "2026-04/2026-06",
+      "scope427": "broader_not_exact"
+    },
+    {
+      "table": "2-2",
+      "series": "居住者の改装・改修",
+      "value": 4728,
+      "published_yoy_pct": -0.5,
+      "unit": "億円・名目受注高",
+      "period": "2026-04/2026-06",
+      "scope427": "broader_not_exact"
+    },
+    {
+      "table": "2-2",
+      "series": "居住者の維持・修理",
+      "value": 1390,
+      "published_yoy_pct": -6.6,
+      "unit": "億円・名目受注高",
+      "period": "2026-04/2026-06",
+      "scope427": "broader_not_exact"
+    }
+  ],
+  "source-ledger.json": [
+    {
+      "url": "https://www.mlit.go.jp/report/press/content/002021195.pdf",
+      "landing_url": "https://www.mlit.go.jp/report/press/joho04_hh_001392.html",
+      "publisher": "国土交通省",
+      "published_date": "2026-09-10",
+      "target_period": "2026-04/2026-06",
+      "retrieved_at_utc": "2026-10-23T18:31:24Z",
+      "retrieved_date_jst": "2026-10-24",
+      "status": "original_pdf_downloaded_text_extracted_and_selected_tables_visually_checked",
+      "sha256": "1dc4d9345182991c6896a1e225c101e7527675171d89c6386b881c6b4843ee73",
+      "pages_visually_checked_1based": [
+        5,
+        7
+      ],
+      "scope": "licensed contractors, prime-contractor building renovation orders, estimated population; not household payments",
+      "reinspected_at_utc": "2026-10-28T21:53:53.951227+00:00",
+      "new_pages_visually_checked_1based": [
+        6,
+        7
+      ],
+      "retrieval_mode": "retained_original_not_refetched"
+    },
+    {
+      "url": "https://www.mlit.go.jp/statistics/details/t-other-2_tk_000220.html",
+      "publisher": "国土交通省",
+      "published_date": null,
+      "target_period": "調査の概要・公表予定",
+      "retrieved_at_utc": "2026-10-28T21:51Z",
+      "status": "official_body_read",
+      "observation": "四半期の元請受注。4–6月は9月中旬、7–9月は12月中旬公表予定。"
+    }
+  ],
+  "validation.json": {
+    "status": "PASS_bounded_transcription_and_scope_check",
+    "original_pdf_sha256_match": true,
+    "pdf_visual_checks": [
+      6,
+      7
+    ],
+    "newly_extracted": true,
+    "exact427_quantity": "NOT_TESTED_no_matching_series",
+    "price_quantity_decomposition": "NOT_TESTED_no_matching_price",
+    "longitudinal427_seller_quantity": "NOT_TESTED",
+    "decision": "Do not promote427 to confirmed real demand growth",
+    "prior_report_not_repeated": true,
+    "limits": [
+      "2026AprJun orders versus householdSep2025Aug2026 payments differ",
+      "Construction contractor orders not household counts; small unlicensed contractors excluded",
+      "Multiple-response work sites overlap; no summation",
+      "Primary HVAC growth differs from all-involving-HVAC decline; mix not volume inference",
+      "427 classification independently verified; rows are partial overlaps, not a mapping aggregate",
+      "No current annual2019-to2026 exact-scope quantity or price evidence established"
+    ]
+  },
+  "search-log.json": {
+    "date_jst": "2026-10-29",
+    "performed_at_utc": "2026-10-28T21:50/21:51Z",
+    "queries": [
+      "site.stat.go.jp 家計調査 427 他の工事費 内容例示",
+      "site.mlit.go.jp 2026 リフォーム リニューアル 受注 調査 住宅 第1四半期",
+      "site.stat.go.jp/data/kakei/2025 427 他の工事費",
+      "site.mlit.go.jp リフォーム 調査 2026年度 住宅 受注高 2025年度 49033"
+    ],
+    "discovery_only_not_evidence": [
+      "classification search snippets",
+      "secondary annual2025 totals"
+    ],
+    "new_fetch_bodies": [
+      "https://www.mlit.go.jp/statistics/details/t-other-2_tk_000220.html"
+    ],
+    "retained_source_new_extraction": "002021195.pdf tables2-2 and2-4",
+    "search_stopping_reason": "427 scope and household substitution were established. Existing official source gives mixed relevant quantities; no defensible427aggregate. Broad annual data would not fix mismatch."
+  },
+  "report-ja.md": "# 他の工事費427：売り手側の独立検証（2026-10-29）\n\n**判定：家計の名目増を住宅リフォーム全体の数量増と解釈できない。427と完全に対応する数量・価格の裏付けは未確認。地図の「数字で言える伸び」への昇格を勧めない。**\n\n国土交通省の2026年4–6月受注調査（9月10日公表）の、427に一部重なる工事部位を新しく抽出した。住宅の内装は主たる工事部位別受注305,970件、前年同期比9.4%減。建具は243,544件、2.3%増。空気調和換気設備は主たる部位では86,578件、12.6%増だが、その設備を含む全工事（複数回答）では113,468件、1.9%減である。主たる部位の増加だけを選ぶと、工事内容の構成変化を広い数量成長と誤認する。\n\n個人のうち居住者が発注した住宅工事の名目受注高も6,574億円、1.2%減。その内訳の改装・改修4,728億円は0.5%減、維持・修理1,390億円は6.6%減。これらは427専用の数字ではないが、広い住宅工事の活況で427増を説明する裏付けにはならない。\n\n## 比較できない点\n- 受注は2026年4–6月、家計は親担当が計算した2025年9月〜2026年8月の支払。時期・認識時点が違う。\n- 業者側は建設業許可業者の元請受注であり、家計427の全支出でも世帯数でもない。無許可の小規模業者を網羅しない。\n- 427のガラス・サッシ修繕、床・ふすま、空調取付等は部位分類に部分的に重なるだけ。複数回答の内装・建具・設備を足し合わせて427数量を作れない。\n- 工事価格や面積・仕様の同一条件比較がない。受注高÷受注件数も純粋な価格指数ではない。\n- 同じ資料の表1と表2は設問・推計が違い、件数の小差を整合のため書き換えない。\n- 長期の427と同範囲の数量系列は未確認。広い年間住宅リフォーム総額を追加してもこの不足は埋まらない。\n\n## 根拠・今回の差分\n原典 https://www.mlit.go.jp/report/press/content/002021195.pdf （物理ページ6・7、表2-2・2-4）を画像で確認。原典取得は2026-10-24 JST、今回は保存済み原典を新しい部位・発注者の問いで再利用し、新たな取得とは数えていない。保存済みOct24 evidence-bundleのGit blob SHAが現行continuity.series_manifestの4793d32230854380fcc1fb73bae05c50a016ceacに一致し、その内部の原典SHA256も保存PDFに一致した。古いリポジトリへのアクセスなし。既に報告済みの配管・非住宅全体の数字は新成果に数えない。\n\n公式調査概要 https://www.mlit.go.jp/statistics/details/t-other-2_tk_000220.html 本文も確認。次の7–9月四半期は12月中旬公表予定（確定日ではない）。同じ四半期を翌日再取得する必要はない。\n\n作業：2026-10-28 21:50頃〜21:54 UTC（JST翌06:50頃〜06:54）。開始時刻は概数。新抽出、原典画像照合、既存資料とのハッシュ照合を実施。次は親担当の分類・近接品目・実質化検証との統合。427の数量成長は未確認として保持する。"
+}

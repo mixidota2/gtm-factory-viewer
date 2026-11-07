@@ -1,0 +1,10 @@
+{
+  "url": "https://www.e-stat.go.jp/stat-search/file-download?fileKind=0&statInfId=000040519001",
+  "start_utc": "2026-10-30T18:02:22.608216+00:00",
+  "attempts": 1,
+  "prior_web_result": "cache miss, not authorization denial",
+  "status": 200,
+  "bytes": 663169,
+  "sha256": "a51d976535ecbb9dfe0e77e5a2f4d23d581eccea05a45303d68f9c5d9fe5ddc1",
+  "end_utc": "2026-10-30T18:02:27.980921+00:00"
+}

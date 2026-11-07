@@ -1,0 +1,1802 @@
+{
+  "free": [
+    {
+      "rank": 1,
+      "id": "6587576438",
+      "name": "setlog",
+      "url": "https://apps.apple.com/jp/app/setlog/id6587576438?uo=2"
+    },
+    {
+      "rank": 2,
+      "id": "6471519217",
+      "name": "Bump（旧Zenly）",
+      "url": "https://apps.apple.com/jp/app/bump-%E6%97%A7zenly/id6471519217?uo=2"
+    },
+    {
+      "rank": 3,
+      "id": "6448311069",
+      "name": "ChatGPT",
+      "url": "https://apps.apple.com/jp/app/chatgpt/id6448311069?uo=2"
+    },
+    {
+      "rank": 4,
+      "id": "6477489729",
+      "name": "Google Gemini",
+      "url": "https://apps.apple.com/jp/app/google-gemini/id6477489729?uo=2"
+    },
+    {
+      "rank": 5,
+      "id": "1416481094",
+      "name": "My SoftBank",
+      "url": "https://apps.apple.com/jp/app/my-softbank/id1416481094?uo=2"
+    },
+    {
+      "rank": 6,
+      "id": "1100564842",
+      "name": "AEON Pay-スマホ決済でWAON POINTがたまる",
+      "url": "https://apps.apple.com/jp/app/aeon-pay-%E3%82%B9%E3%83%9E%E3%83%9B%E6%B1%BA%E6%B8%88%E3%81%A7waon-point%E3%81%8C%E3%81%9F%E3%81%BE%E3%82%8B/id1100564842?uo=2"
+    },
+    {
+      "rank": 7,
+      "id": "6446901002",
+      "name": "Threads",
+      "url": "https://apps.apple.com/jp/app/threads/id6446901002?uo=2"
+    },
+    {
+      "rank": 8,
+      "id": "1636235979",
+      "name": "ReelShort - オリジナル短尺ドラマ見放題",
+      "url": "https://apps.apple.com/jp/app/reelshort-%E3%82%AA%E3%83%AA%E3%82%B8%E3%83%8A%E3%83%AB%E7%9F%AD%E5%B0%BA%E3%83%89%E3%83%A9%E3%83%9E%E8%A6%8B%E6%94%BE%E9%A1%8C/id1636235979?uo=2"
+    },
+    {
+      "rank": 9,
+      "id": "830340223",
+      "name": "TVer(ティーバー) 民放公式テレビ配信サービス",
+      "url": "https://apps.apple.com/jp/app/tver-%E3%83%86%E3%82%A3%E3%83%BC%E3%83%90%E3%83%BC-%E6%B0%91%E6%94%BE%E5%85%AC%E5%BC%8F%E3%83%86%E3%83%AC%E3%83%93%E9%85%8D%E4%BF%A1%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9/id830340223?uo=2"
+    },
+    {
+      "rank": 10,
+      "id": "643133414",
+      "name": "PAL CLOSET （パルクローゼット）",
+      "url": "https://apps.apple.com/jp/app/pal-closet-%E3%83%91%E3%83%AB%E3%82%AF%E3%83%AD%E3%83%BC%E3%82%BC%E3%83%83%E3%83%88/id643133414?uo=2"
+    },
+    {
+      "rank": 11,
+      "id": "882477693",
+      "name": "U-NEXT - 映画やドラマ、アニメなどの動画が見放題",
+      "url": "https://apps.apple.com/jp/app/u-next-%E6%98%A0%E7%94%BB%E3%82%84%E3%83%89%E3%83%A9%E3%83%9E-%E3%82%A2%E3%83%8B%E3%83%A1%E3%81%AA%E3%81%A9%E3%81%AE%E5%8B%95%E7%94%BB%E3%81%8C%E8%A6%8B%E6%94%BE%E9%A1%8C/id882477693?uo=2"
+    },
+    {
+      "rank": 12,
+      "id": "6670430706",
+      "name": "DramaWave - 日本 / 韓国 / 人気短編ドラマ",
+      "url": "https://apps.apple.com/jp/app/dramawave-%E6%97%A5%E6%9C%AC-%E9%9F%93%E5%9B%BD-%E4%BA%BA%E6%B0%97%E7%9F%AD%E7%B7%A8%E3%83%89%E3%83%A9%E3%83%9E/id6670430706?uo=2"
+    },
+    {
+      "rank": 13,
+      "id": "1619030760",
+      "name": "zeta - AIキャラ・あなたの推しとロールプレイチャット",
+      "url": "https://apps.apple.com/jp/app/zeta-ai%E3%82%AD%E3%83%A3%E3%83%A9-%E3%81%82%E3%81%AA%E3%81%9F%E3%81%AE%E6%8E%A8%E3%81%97%E3%81%A8%E3%83%AD%E3%83%BC%E3%83%AB%E3%83%97%E3%83%AC%E3%82%A4%E3%83%81%E3%83%A3%E3%83%83%E3%83%88/id1619030760?uo=2"
+    },
+    {
+      "rank": 14,
+      "id": "1523009390",
+      "name": "はま寿司",
+      "url": "https://apps.apple.com/jp/app/%E3%81%AF%E3%81%BE%E5%AF%BF%E5%8F%B8/id1523009390?uo=2"
+    },
+    {
+      "rank": 15,
+      "id": "6739188587",
+      "name": "Rocket Now : 出前/フードデリバリー",
+      "url": "https://apps.apple.com/jp/app/rocket-now-%E5%87%BA%E5%89%8D-%E3%83%95%E3%83%BC%E3%83%89%E3%83%87%E3%83%AA%E3%83%90%E3%83%AA%E3%83%BC/id6739188587?uo=2"
+    },
+    {
+      "rank": 16,
+      "id": "1113037275",
+      "name": "スターバックス ジャパン公式モバイルアプリ",
+      "url": "https://apps.apple.com/jp/app/%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%90%E3%83%83%E3%82%AF%E3%82%B9-%E3%82%B8%E3%83%A3%E3%83%91%E3%83%B3%E5%85%AC%E5%BC%8F%E3%83%A2%E3%83%90%E3%82%A4%E3%83%AB%E3%82%A2%E3%83%97%E3%83%AA/id1113037275?uo=2"
+    },
+    {
+      "rank": 17,
+      "id": "6451037644",
+      "name": "マツキヨココカラ公式アプリ",
+      "url": "https://apps.apple.com/jp/app/%E3%83%9E%E3%83%84%E3%82%AD%E3%83%A8%E3%82%B3%E3%82%B3%E3%82%AB%E3%83%A9%E5%85%AC%E5%BC%8F%E3%82%A2%E3%83%97%E3%83%AA/id6451037644?uo=2"
+    },
+    {
+      "rank": 18,
+      "id": "1667214457",
+      "name": "コメダ珈琲店",
+      "url": "https://apps.apple.com/jp/app/%E3%82%B3%E3%83%A1%E3%83%80%E7%8F%88%E7%90%B2%E5%BA%97/id1667214457?uo=2"
+    },
+    {
+      "rank": 19,
+      "id": "1476359069",
+      "name": "マイナアプリ（旧マイナポータルアプリ）",
+      "url": "https://apps.apple.com/jp/app/%E3%83%9E%E3%82%A4%E3%83%8A%E3%82%A2%E3%83%97%E3%83%AA-%E6%97%A7%E3%83%9E%E3%82%A4%E3%83%8A%E3%83%9D%E3%83%BC%E3%82%BF%E3%83%AB%E3%82%A2%E3%83%97%E3%83%AA/id1476359069?uo=2"
+    },
+    {
+      "rank": 20,
+      "id": "732775964",
+      "name": "しまむらパーク",
+      "url": "https://apps.apple.com/jp/app/%E3%81%97%E3%81%BE%E3%82%80%E3%82%89%E3%83%91%E3%83%BC%E3%82%AF/id732775964?uo=2"
+    },
+    {
+      "rank": 21,
+      "id": "1328132872",
+      "name": "d払い－スマホ決済アプリ、キャッシュレスでお支払い",
+      "url": "https://apps.apple.com/jp/app/d%E6%89%95%E3%81%84-%E3%82%B9%E3%83%9E%E3%83%9B%E6%B1%BA%E6%B8%88%E3%82%A2%E3%83%97%E3%83%AA-%E3%82%AD%E3%83%A3%E3%83%83%E3%82%B7%E3%83%A5%E3%83%AC%E3%82%B9%E3%81%A7%E3%81%8A%E6%94%AF%E6%89%95%E3%81%84/id1328132872?uo=2"
+    },
+    {
+      "rank": 22,
+      "id": "6667104573",
+      "name": "ジハンピ",
+      "url": "https://apps.apple.com/jp/app/%E3%82%B8%E3%83%8F%E3%83%B3%E3%83%94/id6667104573?uo=2"
+    },
+    {
+      "rank": 23,
+      "id": "413618155",
+      "name": "マクドナルド",
+      "url": "https://apps.apple.com/jp/app/%E3%83%9E%E3%82%AF%E3%83%89%E3%83%8A%E3%83%AB%E3%83%89/id413618155?uo=2"
+    },
+    {
+      "rank": 24,
+      "id": "821434357",
+      "name": "dポイントクラブ：お得情報満載のドコモ公式ポイントクラブ",
+      "url": "https://apps.apple.com/jp/app/d%E3%83%9D%E3%82%A4%E3%83%B3%E3%83%88%E3%82%AF%E3%83%A9%E3%83%96-%E3%81%8A%E5%BE%97%E6%83%85%E5%A0%B1%E6%BA%80%E8%BC%89%E3%81%AE%E3%83%89%E3%82%B3%E3%83%A2%E5%85%AC%E5%BC%8F%E3%83%9D%E3%82%A4%E3%83%B3%E3%83%88%E3%82%AF%E3%83%A9%E3%83%96/id821434357?uo=2"
+    },
+    {
+      "rank": 25,
+      "id": "504542019",
+      "name": "ジーユー",
+      "url": "https://apps.apple.com/jp/app/%E3%82%B8%E3%83%BC%E3%83%A6%E3%83%BC/id504542019?uo=2"
+    },
+    {
+      "rank": 26,
+      "id": "374254473",
+      "name": "Amazon ショッピングアプリ",
+      "url": "https://apps.apple.com/jp/app/amazon-%E3%82%B7%E3%83%A7%E3%83%83%E3%83%94%E3%83%B3%E3%82%B0%E3%82%A2%E3%83%97%E3%83%AA/id374254473?uo=2"
+    },
+    {
+      "rank": 27,
+      "id": "6466987025",
+      "name": "DAISOアプリ",
+      "url": "https://apps.apple.com/jp/app/daiso%E3%82%A2%E3%83%97%E3%83%AA/id6466987025?uo=2"
+    },
+    {
+      "rank": 28,
+      "id": "1435783608",
+      "name": "PayPay",
+      "url": "https://apps.apple.com/jp/app/paypay/id1435783608?uo=2"
+    },
+    {
+      "rank": 29,
+      "id": "1001883210",
+      "name": "majica～電子マネー公式アプリ～",
+      "url": "https://apps.apple.com/jp/app/majica-%E9%9B%BB%E5%AD%90%E3%83%9E%E3%83%8D%E3%83%BC%E5%85%AC%E5%BC%8F%E3%82%A2%E3%83%97%E3%83%AA/id1001883210?uo=2"
+    },
+    {
+      "rank": 30,
+      "id": "6473753684",
+      "name": "Claude by Anthropic",
+      "url": "https://apps.apple.com/jp/app/claude-by-anthropic/id6473753684?uo=2"
+    },
+    {
+      "rank": 31,
+      "id": "290033990",
+      "name": "ホットペッパーグルメ",
+      "url": "https://apps.apple.com/jp/app/%E3%83%9B%E3%83%83%E3%83%88%E3%83%9A%E3%83%83%E3%83%91%E3%83%BC%E3%82%B0%E3%83%AB%E3%83%A1/id290033990?uo=2"
+    },
+    {
+      "rank": 32,
+      "id": "1272481966",
+      "name": "CHARGESPOT チャージスポット スマホ充電レンタル",
+      "url": "https://apps.apple.com/jp/app/chargespot-%E3%83%81%E3%83%A3%E3%83%BC%E3%82%B8%E3%82%B9%E3%83%9D%E3%83%83%E3%83%88-%E3%82%B9%E3%83%9E%E3%83%9B%E5%85%85%E9%9B%BB%E3%83%AC%E3%83%B3%E3%82%BF%E3%83%AB/id1272481966?uo=2"
+    },
+    {
+      "rank": 33,
+      "id": "422689480",
+      "name": "Gmail - Google のメール",
+      "url": "https://apps.apple.com/jp/app/gmail-google-%E3%81%AE%E3%83%A1%E3%83%BC%E3%83%AB/id422689480?uo=2"
+    },
+    {
+      "rank": 34,
+      "id": "1565489157",
+      "name": "iAEON-イオンペイも使える！「アイイオン」",
+      "url": "https://apps.apple.com/jp/app/iaeon-%E3%82%A4%E3%82%AA%E3%83%B3%E3%83%9A%E3%82%A4%E3%82%82%E4%BD%BF%E3%81%88%E3%82%8B-%E3%82%A2%E3%82%A4%E3%82%A4%E3%82%AA%E3%83%B3/id1565489157?uo=2"
+    },
+    {
+      "rank": 35,
+      "id": "6447160980",
+      "name": "TikTok Lite",
+      "url": "https://apps.apple.com/jp/app/tiktok-lite/id6447160980?uo=2"
+    },
+    {
+      "rank": 36,
+      "id": "1223471316",
+      "name": "Shop：追跡・購入・発見",
+      "url": "https://apps.apple.com/jp/app/shop-%E8%BF%BD%E8%B7%A1-%E8%B3%BC%E5%85%A5-%E7%99%BA%E8%A6%8B/id1223471316?uo=2"
+    },
+    {
+      "rank": 37,
+      "id": "363590051",
+      "name": "Netflix",
+      "url": "https://apps.apple.com/jp/app/netflix/id363590051?uo=2"
+    },
+    {
+      "rank": 38,
+      "id": "1254341709",
+      "name": "GO タクシーが呼べるアプリ - AI予約・配車・迎車・決済",
+      "url": "https://apps.apple.com/jp/app/go-%E3%82%BF%E3%82%AF%E3%82%B7%E3%83%BC%E3%81%8C%E5%91%BC%E3%81%B9%E3%82%8B%E3%82%A2%E3%83%97%E3%83%AA-ai%E4%BA%88%E7%B4%84-%E9%85%8D%E8%BB%8A-%E8%BF%8E%E8%BB%8A-%E6%B1%BA%E6%B8%88/id1254341709?uo=2"
+    },
+    {
+      "rank": 39,
+      "id": "1153448703",
+      "name": "EXアプリ | JR東海公式",
+      "url": "https://apps.apple.com/jp/app/ex%E3%82%A2%E3%83%97%E3%83%AA-jr%E6%9D%B1%E6%B5%B7%E5%85%AC%E5%BC%8F/id1153448703?uo=2"
+    },
+    {
+      "rank": 40,
+      "id": "1139755229",
+      "name": "楽天ペイ-楽天ポイントカードも利用できるスマホ決済アプリ",
+      "url": "https://apps.apple.com/jp/app/%E6%A5%BD%E5%A4%A9%E3%83%9A%E3%82%A4-%E6%A5%BD%E5%A4%A9%E3%83%9D%E3%82%A4%E3%83%B3%E3%83%88%E3%82%AB%E3%83%BC%E3%83%89%E3%82%82%E5%88%A9%E7%94%A8%E3%81%A7%E3%81%8D%E3%82%8B%E3%82%B9%E3%83%9E%E3%83%9B%E6%B1%BA%E6%B8%88%E3%82%A2%E3%83%97%E3%83%AA/id1139755229?uo=2"
+    },
+    {
+      "rank": 41,
+      "id": "585027354",
+      "name": "Google マップ",
+      "url": "https://apps.apple.com/jp/app/google-%E3%83%9E%E3%83%83%E3%83%97/id585027354?uo=2"
+    },
+    {
+      "rank": 42,
+      "id": "1500855883",
+      "name": "CapCut：写真＆動画エディター",
+      "url": "https://apps.apple.com/jp/app/capcut-%E5%86%99%E7%9C%9F-%E5%8B%95%E7%94%BB%E3%82%A8%E3%83%87%E3%82%A3%E3%82%BF%E3%83%BC/id1500855883?uo=2"
+    },
+    {
+      "rank": 43,
+      "id": "333903271",
+      "name": "X",
+      "url": "https://apps.apple.com/jp/app/x/id333903271?uo=2"
+    },
+    {
+      "rank": 44,
+      "id": "284815942",
+      "name": "Google アプリ",
+      "url": "https://apps.apple.com/jp/app/google-%E3%82%A2%E3%83%97%E3%83%AA/id284815942?uo=2"
+    },
+    {
+      "rank": 45,
+      "id": "324684580",
+      "name": "Spotify: 音楽とポッドキャスト",
+      "url": "https://apps.apple.com/jp/app/spotify-%E9%9F%B3%E6%A5%BD%E3%81%A8%E3%83%9D%E3%83%83%E3%83%89%E3%82%AD%E3%83%A3%E3%82%B9%E3%83%88/id324684580?uo=2"
+    },
+    {
+      "rank": 46,
+      "id": "551682016",
+      "name": "スシロー",
+      "url": "https://apps.apple.com/jp/app/%E3%82%B9%E3%82%B7%E3%83%AD%E3%83%BC/id551682016?uo=2"
+    },
+    {
+      "rank": 47,
+      "id": "1058959277",
+      "name": "Uber Eats（ウーバーイーツ) 出前/フードデリバリー",
+      "url": "https://apps.apple.com/jp/app/uber-eats-%E3%82%A6%E3%83%BC%E3%83%90%E3%83%BC%E3%82%A4%E3%83%BC%E3%83%84-%E5%87%BA%E5%89%8D-%E3%83%95%E3%83%BC%E3%83%89%E3%83%87%E3%83%AA%E3%83%90%E3%83%AA%E3%83%BC/id1058959277?uo=2"
+    },
+    {
+      "rank": 48,
+      "id": "897446215",
+      "name": "Canva(キャンバ): 画像・動画編集 & AIデザイン",
+      "url": "https://apps.apple.com/jp/app/canva-%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%90-%E7%94%BB%E5%83%8F-%E5%8B%95%E7%94%BB%E7%B7%A8%E9%9B%86-ai%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3/id897446215?uo=2"
+    },
+    {
+      "rank": 49,
+      "id": "1088184021",
+      "name": "Coke ON(コークオン)",
+      "url": "https://apps.apple.com/jp/app/coke-on-%E3%82%B3%E3%83%BC%E3%82%AF%E3%82%AA%E3%83%B3/id1088184021?uo=2"
+    },
+    {
+      "rank": 50,
+      "id": "389801252",
+      "name": "Instagram",
+      "url": "https://apps.apple.com/jp/app/instagram/id389801252?uo=2"
+    },
+    {
+      "rank": 51,
+      "id": "1612229796",
+      "name": "ENEOS公式アプリ - カーライフまるごと！みんなのアプリ",
+      "url": "https://apps.apple.com/jp/app/eneos%E5%85%AC%E5%BC%8F%E3%82%A2%E3%83%97%E3%83%AA-%E3%82%AB%E3%83%BC%E3%83%A9%E3%82%A4%E3%83%95%E3%81%BE%E3%82%8B%E3%81%94%E3%81%A8-%E3%81%BF%E3%82%93%E3%81%AA%E3%81%AE%E3%82%A2%E3%83%97%E3%83%AA/id1612229796?uo=2"
+    },
+    {
+      "rank": 52,
+      "id": "535886823",
+      "name": "Google Chrome - ウェブブラウザ",
+      "url": "https://apps.apple.com/jp/app/google-chrome-%E3%82%A6%E3%82%A7%E3%83%96%E3%83%96%E3%83%A9%E3%82%A6%E3%82%B6/id535886823?uo=2"
+    },
+    {
+      "rank": 53,
+      "id": "388497605",
+      "name": "Google Authenticator",
+      "url": "https://apps.apple.com/jp/app/google-authenticator/id388497605?uo=2"
+    },
+    {
+      "rank": 54,
+      "id": "364504659",
+      "name": "ヤマダデジタル会員",
+      "url": "https://apps.apple.com/jp/app/%E3%83%A4%E3%83%9E%E3%83%80%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E4%BC%9A%E5%93%A1/id364504659?uo=2"
+    },
+    {
+      "rank": 55,
+      "id": "681752345",
+      "name": "Trip.com-航空券･ホテルの予約はトリップドットコムで",
+      "url": "https://apps.apple.com/jp/app/trip-com-%E8%88%AA%E7%A9%BA%E5%88%B8-%E3%83%9B%E3%83%86%E3%83%AB%E3%81%AE%E4%BA%88%E7%B4%84%E3%81%AF%E3%83%88%E3%83%AA%E3%83%83%E3%83%97%E3%83%89%E3%83%83%E3%83%88%E3%82%B3%E3%83%A0%E3%81%A7/id681752345?uo=2"
+    },
+    {
+      "rank": 56,
+      "id": "6723876042",
+      "name": "ミリオン-ショートドラマ見放題人気ドラマアプリMillion",
+      "url": "https://apps.apple.com/jp/app/%E3%83%9F%E3%83%AA%E3%82%AA%E3%83%B3-%E3%82%B7%E3%83%A7%E3%83%BC%E3%83%88%E3%83%89%E3%83%A9%E3%83%9E%E8%A6%8B%E6%94%BE%E9%A1%8C%E4%BA%BA%E6%B0%97%E3%83%89%E3%83%A9%E3%83%9E%E3%82%A2%E3%83%97%E3%83%AAmillion/id6723876042?uo=2"
+    },
+    {
+      "rank": 57,
+      "id": "1552990335",
+      "name": "かんたんnetprint－セブン‐イレブンでかんたん印刷",
+      "url": "https://apps.apple.com/jp/app/%E3%81%8B%E3%82%93%E3%81%9F%E3%82%93netprint-%E3%82%BB%E3%83%96%E3%83%B3-%E3%82%A4%E3%83%AC%E3%83%96%E3%83%B3%E3%81%A7%E3%81%8B%E3%82%93%E3%81%9F%E3%82%93%E5%8D%B0%E5%88%B7/id1552990335?uo=2"
+    },
+    {
+      "rank": 58,
+      "id": "1527218749",
+      "name": "KAUCHE（カウシェ） - ショッピングアプリ",
+      "url": "https://apps.apple.com/jp/app/kauche-%E3%82%AB%E3%82%A6%E3%82%B7%E3%82%A7-%E3%82%B7%E3%83%A7%E3%83%83%E3%83%94%E3%83%B3%E3%82%B0%E3%82%A2%E3%83%97%E3%83%AA/id1527218749?uo=2"
+    },
+    {
+      "rank": 59,
+      "id": "878577184",
+      "name": "SHEIN - オンラインショッピング",
+      "url": "https://apps.apple.com/jp/app/shein-%E3%82%AA%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%94%E3%83%B3%E3%82%B0/id878577184?uo=2"
+    },
+    {
+      "rank": 60,
+      "id": "532097000",
+      "name": "ユニバーサル・スタジオ・ジャパン 公式アプリ",
+      "url": "https://apps.apple.com/jp/app/%E3%83%A6%E3%83%8B%E3%83%90%E3%83%BC%E3%82%B5%E3%83%AB-%E3%82%B9%E3%82%BF%E3%82%B8%E3%82%AA-%E3%82%B8%E3%83%A3%E3%83%91%E3%83%B3-%E5%85%AC%E5%BC%8F%E3%82%A2%E3%83%97%E3%83%AA/id532097000?uo=2"
+    },
+    {
+      "rank": 61,
+      "id": "1156875272",
+      "name": "Suica",
+      "url": "https://apps.apple.com/jp/app/suica/id1156875272?uo=2"
+    },
+    {
+      "rank": 62,
+      "id": "1235601864",
+      "name": "TikTok ティックトック",
+      "url": "https://apps.apple.com/jp/app/tiktok-%E3%83%86%E3%82%A3%E3%83%83%E3%82%AF%E3%83%88%E3%83%83%E3%82%AF/id1235601864?uo=2"
+    },
+    {
+      "rank": 63,
+      "id": "1562641276",
+      "name": "セブン-イレブン マルチコピー",
+      "url": "https://apps.apple.com/jp/app/%E3%82%BB%E3%83%96%E3%83%B3-%E3%82%A4%E3%83%AC%E3%83%96%E3%83%B3-%E3%83%9E%E3%83%AB%E3%83%81%E3%82%B3%E3%83%94%E3%83%BC/id1562641276?uo=2"
+    },
+    {
+      "rank": 64,
+      "id": "1456118550",
+      "name": "バーガーキング Burger King",
+      "url": "https://apps.apple.com/jp/app/%E3%83%90%E3%83%BC%E3%82%AC%E3%83%BC%E3%82%AD%E3%83%B3%E3%82%B0-burger-king/id1456118550?uo=2"
+    },
+    {
+      "rank": 65,
+      "id": "1498877539",
+      "name": "Rakuten Link",
+      "url": "https://apps.apple.com/jp/app/rakuten-link/id1498877539?uo=2"
+    },
+    {
+      "rank": 66,
+      "id": "545519333",
+      "name": "Amazon Prime Video",
+      "url": "https://apps.apple.com/jp/app/amazon-prime-video/id545519333?uo=2"
+    },
+    {
+      "rank": 67,
+      "id": "1434510930",
+      "name": "カラオケまねきねこ",
+      "url": "https://apps.apple.com/jp/app/%E3%82%AB%E3%83%A9%E3%82%AA%E3%82%B1%E3%81%BE%E3%81%AD%E3%81%8D%E3%81%AD%E3%81%93/id1434510930?uo=2"
+    },
+    {
+      "rank": 68,
+      "id": "1478237405",
+      "name": "Yahoo!フリマ（旧PayPayフリマ）",
+      "url": "https://apps.apple.com/jp/app/yahoo-%E3%83%95%E3%83%AA%E3%83%9E-%E6%97%A7paypay%E3%83%95%E3%83%AA%E3%83%9E/id1478237405?uo=2"
+    },
+    {
+      "rank": 69,
+      "id": "1542920778",
+      "name": "ahamo（アハモ）",
+      "url": "https://apps.apple.com/jp/app/ahamo-%E3%82%A2%E3%83%8F%E3%83%A2/id1542920778?uo=2"
+    },
+    {
+      "rank": 70,
+      "id": "814928018",
+      "name": "ニトリアプリ 家具・インテリアの欲しいが見つかる！",
+      "url": "https://apps.apple.com/jp/app/%E3%83%8B%E3%83%88%E3%83%AA%E3%82%A2%E3%83%97%E3%83%AA-%E5%AE%B6%E5%85%B7-%E3%82%A4%E3%83%B3%E3%83%86%E3%83%AA%E3%82%A2%E3%81%AE%E6%AC%B2%E3%81%97%E3%81%84%E3%81%8C%E8%A6%8B%E3%81%A4%E3%81%8B%E3%82%8B/id814928018?uo=2"
+    },
+    {
+      "rank": 71,
+      "id": "1496925861",
+      "name": "ゆうちょ通帳アプリ-銀行 アプリ",
+      "url": "https://apps.apple.com/jp/app/%E3%82%86%E3%81%86%E3%81%A1%E3%82%87%E9%80%9A%E5%B8%B3%E3%82%A2%E3%83%97%E3%83%AA-%E9%8A%80%E8%A1%8C-%E3%82%A2%E3%83%97%E3%83%AA/id1496925861?uo=2"
+    },
+    {
+      "rank": 72,
+      "id": "1175974437",
+      "name": "ローチケ電子チケット",
+      "url": "https://apps.apple.com/jp/app/%E3%83%AD%E3%83%BC%E3%83%81%E3%82%B1%E9%9B%BB%E5%AD%90%E3%83%81%E3%82%B1%E3%83%83%E3%83%88/id1175974437?uo=2"
+    },
+    {
+      "rank": 73,
+      "id": "1313147771",
+      "name": "Tokyo Disney Resort App",
+      "url": "https://apps.apple.com/jp/app/tokyo-disney-resort-app/id1313147771?uo=2"
+    },
+    {
+      "rank": 74,
+      "id": "1117312593",
+      "name": "My UQ mobile",
+      "url": "https://apps.apple.com/jp/app/my-uq-mobile/id1117312593?uo=2"
+    },
+    {
+      "rank": 75,
+      "id": "962194608",
+      "name": "Google フォト",
+      "url": "https://apps.apple.com/jp/app/google-%E3%83%95%E3%82%A9%E3%83%88/id962194608?uo=2"
+    },
+    {
+      "rank": 76,
+      "id": "1446075923",
+      "name": "Disney+",
+      "url": "https://apps.apple.com/jp/app/disney/id1446075923?uo=2"
+    },
+    {
+      "rank": 77,
+      "id": "667861049",
+      "name": "フリマアプリはメルカリ - メルペイのスマホ決済でもっとお得",
+      "url": "https://apps.apple.com/jp/app/%E3%83%95%E3%83%AA%E3%83%9E%E3%82%A2%E3%83%97%E3%83%AA%E3%81%AF%E3%83%A1%E3%83%AB%E3%82%AB%E3%83%AA-%E3%83%A1%E3%83%AB%E3%83%9A%E3%82%A4%E3%81%AE%E3%82%B9%E3%83%9E%E3%83%9B%E6%B1%BA%E6%B8%88%E3%81%A7%E3%82%82%E3%81%A3%E3%81%A8%E3%81%8A%E5%BE%97/id667861049?uo=2"
+    },
+    {
+      "rank": 78,
+      "id": "541164041",
+      "name": "Microsoft Copilot",
+      "url": "https://apps.apple.com/jp/app/microsoft-copilot/id541164041?uo=2"
+    },
+    {
+      "rank": 79,
+      "id": "419267350",
+      "name": "楽天市場 - お買い物で楽天ポイントが貯まる便利な通販アプリ",
+      "url": "https://apps.apple.com/jp/app/%E6%A5%BD%E5%A4%A9%E5%B8%82%E5%A0%B4-%E3%81%8A%E8%B2%B7%E3%81%84%E7%89%A9%E3%81%A7%E6%A5%BD%E5%A4%A9%E3%83%9D%E3%82%A4%E3%83%B3%E3%83%88%E3%81%8C%E8%B2%AF%E3%81%BE%E3%82%8B%E4%BE%BF%E5%88%A9%E3%81%AA%E9%80%9A%E8%B2%A9%E3%82%A2%E3%83%97%E3%83%AA/id419267350?uo=2"
+    },
+    {
+      "rank": 80,
+      "id": "1331876603",
+      "name": "Anker soundcore",
+      "url": "https://apps.apple.com/jp/app/anker-soundcore/id1331876603?uo=2"
+    },
+    {
+      "rank": 81,
+      "id": "6756647308",
+      "name": "詐欺対策 by NTTタウンページ",
+      "url": "https://apps.apple.com/jp/app/%E8%A9%90%E6%AC%BA%E5%AF%BE%E7%AD%96-by-ntt%E3%82%BF%E3%82%A6%E3%83%B3%E3%83%9A%E3%83%BC%E3%82%B8/id6756647308?uo=2"
+    },
+    {
+      "rank": 82,
+      "id": "1472338480",
+      "name": "特務機関NERV防災",
+      "url": "https://apps.apple.com/jp/app/%E7%89%B9%E5%8B%99%E6%A9%9F%E9%96%A2nerv%E9%98%B2%E7%81%BD/id1472338480?uo=2"
+    },
+    {
+      "rank": 83,
+      "id": "446016180",
+      "name": "Yahoo!ショッピング-PayPayポイントが貯まる通販",
+      "url": "https://apps.apple.com/jp/app/yahoo-%E3%82%B7%E3%83%A7%E3%83%83%E3%83%94%E3%83%B3%E3%82%B0-paypay%E3%83%9D%E3%82%A4%E3%83%B3%E3%83%88%E3%81%8C%E8%B2%AF%E3%81%BE%E3%82%8B%E9%80%9A%E8%B2%A9/id446016180?uo=2"
+    },
+    {
+      "rank": 84,
+      "id": "570060128",
+      "name": "Duolingo：英語、韓国語、中国語を学ぼう",
+      "url": "https://apps.apple.com/jp/app/duolingo-%E8%8B%B1%E8%AA%9E-%E9%9F%93%E5%9B%BD%E8%AA%9E-%E4%B8%AD%E5%9B%BD%E8%AA%9E%E3%82%92%E5%AD%A6%E3%81%BC%E3%81%86/id570060128?uo=2"
+    },
+    {
+      "rank": 85,
+      "id": "1641218070",
+      "name": "Lemino／レミノ：音楽ライブやスポーツ、ドラマ等が見放題",
+      "url": "https://apps.apple.com/jp/app/lemino-%E3%83%AC%E3%83%9F%E3%83%8E-%E9%9F%B3%E6%A5%BD%E3%83%A9%E3%82%A4%E3%83%96%E3%82%84%E3%82%B9%E3%83%9D%E3%83%BC%E3%83%84-%E3%83%89%E3%83%A9%E3%83%9E%E7%AD%89%E3%81%8C%E8%A6%8B%E6%94%BE%E9%A1%8C/id1641218070?uo=2"
+    },
+    {
+      "rank": 86,
+      "id": "570105775",
+      "name": "DecoBlend-コラージュやデコの写真加工アプリ!",
+      "url": "https://apps.apple.com/jp/app/decoblend-%E3%82%B3%E3%83%A9%E3%83%BC%E3%82%B8%E3%83%A5%E3%82%84%E3%83%87%E3%82%B3%E3%81%AE%E5%86%99%E7%9C%9F%E5%8A%A0%E5%B7%A5%E3%82%A2%E3%83%97%E3%83%AA/id570105775?uo=2"
+    },
+    {
+      "rank": 87,
+      "id": "1641486558",
+      "name": "Temu: 億万長者気分でお買い物",
+      "url": "https://apps.apple.com/jp/app/temu-%E5%84%84%E4%B8%87%E9%95%B7%E8%80%85%E6%B0%97%E5%88%86%E3%81%A7%E3%81%8A%E8%B2%B7%E3%81%84%E7%89%A9/id1641486558?uo=2"
+    },
+    {
+      "rank": 88,
+      "id": "1220373112",
+      "name": "Paidy (あと払いペイディ)-後払いアプリ",
+      "url": "https://apps.apple.com/jp/app/paidy-%E3%81%82%E3%81%A8%E6%89%95%E3%81%84%E3%83%9A%E3%82%A4%E3%83%87%E3%82%A3-%E5%BE%8C%E6%89%95%E3%81%84%E3%82%A2%E3%83%97%E3%83%AA/id1220373112?uo=2"
+    },
+    {
+      "rank": 89,
+      "id": "519131315",
+      "name": "ケンタッキーフライドチキン公式　モバイルアプリ",
+      "url": "https://apps.apple.com/jp/app/%E3%82%B1%E3%83%B3%E3%82%BF%E3%83%83%E3%82%AD%E3%83%BC%E3%83%95%E3%83%A9%E3%82%A4%E3%83%89%E3%83%81%E3%82%AD%E3%83%B3%E5%85%AC%E5%BC%8F-%E3%83%A2%E3%83%90%E3%82%A4%E3%83%AB%E3%82%A2%E3%83%97%E3%83%AA/id519131315?uo=2"
+    },
+    {
+      "rank": 90,
+      "id": "507874739",
+      "name": "Google ドライブ - 安全なオンライン ストレージ",
+      "url": "https://apps.apple.com/jp/app/google-%E3%83%89%E3%83%A9%E3%82%A4%E3%83%96-%E5%AE%89%E5%85%A8%E3%81%AA%E3%82%AA%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%B3-%E3%82%B9%E3%83%88%E3%83%AC%E3%83%BC%E3%82%B8/id507874739?uo=2"
+    },
+    {
+      "rank": 91,
+      "id": "1086821669",
+      "name": "My docomo - 料金・通信量の確認",
+      "url": "https://apps.apple.com/jp/app/my-docomo-%E6%96%99%E9%87%91-%E9%80%9A%E4%BF%A1%E9%87%8F%E3%81%AE%E7%A2%BA%E8%AA%8D/id1086821669?uo=2"
+    },
+    {
+      "rank": 92,
+      "id": "6746149916",
+      "name": "TRIAL公式アプリ TRIAL＋（トライアルプラス）",
+      "url": "https://apps.apple.com/jp/app/trial%E5%85%AC%E5%BC%8F%E3%82%A2%E3%83%97%E3%83%AA-trial-%E3%83%88%E3%83%A9%E3%82%A4%E3%82%A2%E3%83%AB%E3%83%97%E3%83%A9%E3%82%B9/id6746149916?uo=2"
+    },
+    {
+      "rank": 93,
+      "id": "404786725",
+      "name": "アンドエスティ",
+      "url": "https://apps.apple.com/jp/app/%E3%82%A2%E3%83%B3%E3%83%89%E3%82%A8%E3%82%B9%E3%83%86%E3%82%A3/id404786725?uo=2"
+    },
+    {
+      "rank": 94,
+      "id": "1563102530",
+      "name": "M3デジカルスマート診察券",
+      "url": "https://apps.apple.com/jp/app/m3%E3%83%87%E3%82%B8%E3%82%AB%E3%83%AB%E3%82%B9%E3%83%9E%E3%83%BC%E3%83%88%E8%A8%BA%E5%AF%9F%E5%88%B8/id1563102530?uo=2"
+    },
+    {
+      "rank": 95,
+      "id": "1345275897",
+      "name": "焼肉きんぐ公式アプリ",
+      "url": "https://apps.apple.com/jp/app/%E7%84%BC%E8%82%89%E3%81%8D%E3%82%93%E3%81%90%E5%85%AC%E5%BC%8F%E3%82%A2%E3%83%97%E3%83%AA/id1345275897?uo=2"
+    },
+    {
+      "rank": 96,
+      "id": "551942662",
+      "name": "PrintSmash",
+      "url": "https://apps.apple.com/jp/app/printsmash/id551942662?uo=2"
+    },
+    {
+      "rank": 97,
+      "id": "404529222",
+      "name": "ZOZOTOWN ファッション通販",
+      "url": "https://apps.apple.com/jp/app/zozotown-%E3%83%95%E3%82%A1%E3%83%83%E3%82%B7%E3%83%A7%E3%83%B3%E9%80%9A%E8%B2%A9/id404529222?uo=2"
+    },
+    {
+      "rank": 98,
+      "id": "6769308492",
+      "name": "FlareSpot",
+      "url": "https://apps.apple.com/jp/app/flarespot/id6769308492?uo=2"
+    },
+    {
+      "rank": 99,
+      "id": "952578473",
+      "name": "TimeTree タイムツリー - カレンダーや予定表の共有",
+      "url": "https://apps.apple.com/jp/app/timetree-%E3%82%BF%E3%82%A4%E3%83%A0%E3%83%84%E3%83%AA%E3%83%BC-%E3%82%AB%E3%83%AC%E3%83%B3%E3%83%80%E3%83%BC%E3%82%84%E4%BA%88%E5%AE%9A%E8%A1%A8%E3%81%AE%E5%85%B1%E6%9C%89/id952578473?uo=2"
+    },
+    {
+      "rank": 100,
+      "id": "6504849169",
+      "name": "NetShort - 人気短編ドラマ",
+      "url": "https://apps.apple.com/jp/app/netshort-%E4%BA%BA%E6%B0%97%E7%9F%AD%E7%B7%A8%E3%83%89%E3%83%A9%E3%83%9E/id6504849169?uo=2"
+    }
+  ],
+  "grossing": [
+    {
+      "rank": 1,
+      "id": "6448311069",
+      "name": "ChatGPT",
+      "url": "https://apps.apple.com/jp/app/chatgpt/id6448311069?uo=2"
+    },
+    {
+      "rank": 2,
+      "id": "1091496983",
+      "name": "ピッコマ",
+      "url": "https://apps.apple.com/jp/app/%E3%83%94%E3%83%83%E3%82%B3%E3%83%9E/id1091496983?uo=2"
+    },
+    {
+      "rank": 3,
+      "id": "544007664",
+      "name": "YouTube",
+      "url": "https://apps.apple.com/jp/app/youtube/id544007664?uo=2"
+    },
+    {
+      "rank": 4,
+      "id": "597088068",
+      "name": "LINEマンガ",
+      "url": "https://apps.apple.com/jp/app/line%E3%83%9E%E3%83%B3%E3%82%AC/id597088068?uo=2"
+    },
+    {
+      "rank": 5,
+      "id": "443904275",
+      "name": "LINE",
+      "url": "https://apps.apple.com/jp/app/line/id443904275?uo=2"
+    },
+    {
+      "rank": 6,
+      "id": "1235601864",
+      "name": "TikTok ティックトック",
+      "url": "https://apps.apple.com/jp/app/tiktok-%E3%83%86%E3%82%A3%E3%83%83%E3%82%AF%E3%83%88%E3%83%83%E3%82%AF/id1235601864?uo=2"
+    },
+    {
+      "rank": 7,
+      "id": "882477693",
+      "name": "U-NEXT - 映画やドラマ、アニメなどの動画が見放題",
+      "url": "https://apps.apple.com/jp/app/u-next-%E6%98%A0%E7%94%BB%E3%82%84%E3%83%89%E3%83%A9%E3%83%9E-%E3%82%A2%E3%83%8B%E3%83%A1%E3%81%AA%E3%81%A9%E3%81%AE%E5%8B%95%E7%94%BB%E3%81%8C%E8%A6%8B%E6%94%BE%E9%A1%8C/id882477693?uo=2"
+    },
+    {
+      "rank": 8,
+      "id": "658511662",
+      "name": "モンスターストライク",
+      "url": "https://apps.apple.com/jp/app/%E3%83%A2%E3%83%B3%E3%82%B9%E3%82%BF%E3%83%BC%E3%82%B9%E3%83%88%E3%83%A9%E3%82%A4%E3%82%AF/id658511662?uo=2"
+    },
+    {
+      "rank": 9,
+      "id": "1570748418",
+      "name": "＋KIRARI",
+      "url": "https://apps.apple.com/jp/app/kirari/id1570748418?uo=2"
+    },
+    {
+      "rank": 10,
+      "id": "6692611665",
+      "name": "SDガンダム ジージェネレーション エターナル",
+      "url": "https://apps.apple.com/jp/app/sd%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0-%E3%82%B8%E3%83%BC%E3%82%B8%E3%82%A7%E3%83%8D%E3%83%AC%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3-%E3%82%A8%E3%82%BF%E3%83%BC%E3%83%8A%E3%83%AB/id6692611665?uo=2"
+    },
+    {
+      "rank": 11,
+      "id": "1623318294",
+      "name": "ゴシップハーバー：マージ & ストーリー",
+      "url": "https://apps.apple.com/jp/app/%E3%82%B4%E3%82%B7%E3%83%83%E3%83%97%E3%83%8F%E3%83%BC%E3%83%90%E3%83%BC-%E3%83%9E%E3%83%BC%E3%82%B8-%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AA%E3%83%BC/id1623318294?uo=2"
+    },
+    {
+      "rank": 12,
+      "id": "6443575749",
+      "name": "ホワイトアウト・サバイバル",
+      "url": "https://apps.apple.com/jp/app/%E3%83%9B%E3%83%AF%E3%82%A4%E3%83%88%E3%82%A2%E3%82%A6%E3%83%88-%E3%82%B5%E3%83%90%E3%82%A4%E3%83%90%E3%83%AB/id6443575749?uo=2"
+    },
+    {
+      "rank": 13,
+      "id": "493470467",
+      "name": "パズル＆ドラゴンズ",
+      "url": "https://apps.apple.com/jp/app/%E3%83%91%E3%82%BA%E3%83%AB-%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%82%BA/id493470467?uo=2"
+    },
+    {
+      "rank": 14,
+      "id": "1117270703",
+      "name": "eFootball™",
+      "url": "https://apps.apple.com/jp/app/efootball/id1117270703?uo=2"
+    },
+    {
+      "rank": 15,
+      "id": "583376064",
+      "name": "マッチングアプリ Pairs(ペアーズ) 出会い・恋活・婚活",
+      "url": "https://apps.apple.com/jp/app/%E3%83%9E%E3%83%83%E3%83%81%E3%83%B3%E3%82%B0%E3%82%A2%E3%83%97%E3%83%AA-pairs-%E3%83%9A%E3%82%A2%E3%83%BC%E3%82%BA-%E5%87%BA%E4%BC%9A%E3%81%84-%E6%81%8B%E6%B4%BB-%E5%A9%9A%E6%B4%BB/id583376064?uo=2"
+    },
+    {
+      "rank": 16,
+      "id": "1482155847",
+      "name": "ロイヤルマッチ（Royal Match)",
+      "url": "https://apps.apple.com/jp/app/%E3%83%AD%E3%82%A4%E3%83%A4%E3%83%AB%E3%83%9E%E3%83%83%E3%83%81-royal-match/id1482155847?uo=2"
+    },
+    {
+      "rank": 17,
+      "id": "966142320",
+      "name": "音楽 LINE MUSIC 最新の歌や曲・ミュージック多数！",
+      "url": "https://apps.apple.com/jp/app/%E9%9F%B3%E6%A5%BD-line-music-%E6%9C%80%E6%96%B0%E3%81%AE%E6%AD%8C%E3%82%84%E6%9B%B2-%E3%83%9F%E3%83%A5%E3%83%BC%E3%82%B8%E3%83%83%E3%82%AF%E5%A4%9A%E6%95%B0/id966142320?uo=2"
+    },
+    {
+      "rank": 18,
+      "id": "1439417234",
+      "name": "ドラゴンクエストウォーク 歩く楽しみが増える位置情報ゲーム",
+      "url": "https://apps.apple.com/jp/app/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%82%AF%E3%82%A8%E3%82%B9%E3%83%88%E3%82%A6%E3%82%A9%E3%83%BC%E3%82%AF-%E6%AD%A9%E3%81%8F%E6%A5%BD%E3%81%97%E3%81%BF%E3%81%8C%E5%A2%97%E3%81%88%E3%82%8B%E4%BD%8D%E7%BD%AE%E6%83%85%E5%A0%B1%E3%82%B2%E3%83%BC%E3%83%A0/id1439417234?uo=2"
+    },
+    {
+      "rank": 19,
+      "id": "1080235090",
+      "name": "マッチングアプリ with(ウィズ) -出会い",
+      "url": "https://apps.apple.com/jp/app/%E3%83%9E%E3%83%83%E3%83%81%E3%83%B3%E3%82%B0%E3%82%A2%E3%83%97%E3%83%AA-with-%E3%82%A6%E3%82%A3%E3%82%BA-%E5%87%BA%E4%BC%9A%E3%81%84/id1080235090?uo=2"
+    },
+    {
+      "rank": 20,
+      "id": "1074866833",
+      "name": "ABEMA(アベマ) 新しい未来のTV",
+      "url": "https://apps.apple.com/jp/app/abema-%E3%82%A2%E3%83%99%E3%83%9E-%E6%96%B0%E3%81%97%E3%81%84%E6%9C%AA%E6%9D%A5%E3%81%AEtv/id1074866833?uo=2"
+    },
+    {
+      "rank": 21,
+      "id": "951627670",
+      "name": "ドラゴンボールZ ドッカンバトル",
+      "url": "https://apps.apple.com/jp/app/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%ABz-%E3%83%89%E3%83%83%E3%82%AB%E3%83%B3%E3%83%90%E3%83%88%E3%83%AB/id951627670?uo=2"
+    },
+    {
+      "rank": 22,
+      "id": "1176027022",
+      "name": "トゥーンブラスト",
+      "url": "https://apps.apple.com/jp/app/%E3%83%88%E3%82%A5%E3%83%BC%E3%83%B3%E3%83%96%E3%83%A9%E3%82%B9%E3%83%88/id1176027022?uo=2"
+    },
+    {
+      "rank": 23,
+      "id": "6739554056",
+      "name": "キングショット",
+      "url": "https://apps.apple.com/jp/app/%E3%82%AD%E3%83%B3%E3%82%B0%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88/id6739554056?uo=2"
+    },
+    {
+      "rank": 24,
+      "id": "852801905",
+      "name": "マッチングアプリ タップル",
+      "url": "https://apps.apple.com/jp/app/%E3%83%9E%E3%83%83%E3%83%81%E3%83%B3%E3%82%B0%E3%82%A2%E3%83%97%E3%83%AA-%E3%82%BF%E3%83%83%E3%83%97%E3%83%AB/id852801905?uo=2"
+    },
+    {
+      "rank": 25,
+      "id": "1094591345",
+      "name": "Pokémon GO",
+      "url": "https://apps.apple.com/jp/app/pok%C3%A9mon-go/id1094591345?uo=2"
+    },
+    {
+      "rank": 26,
+      "id": "1517980891",
+      "name": "パズル&サバイバル",
+      "url": "https://apps.apple.com/jp/app/%E3%83%91%E3%82%BA%E3%83%AB-%E3%82%B5%E3%83%90%E3%82%A4%E3%83%90%E3%83%AB/id1517980891?uo=2"
+    },
+    {
+      "rank": 27,
+      "id": "1478990007",
+      "name": "アークナイツ",
+      "url": "https://apps.apple.com/jp/app/%E3%82%A2%E3%83%BC%E3%82%AF%E3%83%8A%E3%82%A4%E3%83%84/id1478990007?uo=2"
+    },
+    {
+      "rank": 28,
+      "id": "1619030760",
+      "name": "zeta - AIキャラ・あなたの推しとロールプレイチャット",
+      "url": "https://apps.apple.com/jp/app/zeta-ai%E3%82%AD%E3%83%A3%E3%83%A9-%E3%81%82%E3%81%AA%E3%81%9F%E3%81%AE%E6%8E%A8%E3%81%97%E3%81%A8%E3%83%AD%E3%83%BC%E3%83%AB%E3%83%97%E3%83%AC%E3%82%A4%E3%83%81%E3%83%A3%E3%83%83%E3%83%88/id1619030760?uo=2"
+    },
+    {
+      "rank": 29,
+      "id": "389801252",
+      "name": "Instagram",
+      "url": "https://apps.apple.com/jp/app/instagram/id389801252?uo=2"
+    },
+    {
+      "rank": 30,
+      "id": "1164400646",
+      "name": "#コンパス【戦闘摂理解析システム】",
+      "url": "https://apps.apple.com/jp/app/%E3%82%B3%E3%83%B3%E3%83%91%E3%82%B9-%E6%88%A6%E9%97%98%E6%91%82%E7%90%86%E8%A7%A3%E6%9E%90%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0/id1164400646?uo=2"
+    },
+    {
+      "rank": 31,
+      "id": "6771716739",
+      "name": "バンドリ！アワーノーツ",
+      "url": "https://apps.apple.com/jp/app/%E3%83%90%E3%83%B3%E3%83%89%E3%83%AA-%E3%82%A2%E3%83%AF%E3%83%BC%E3%83%8E%E3%83%BC%E3%83%84/id6771716739?uo=2"
+    },
+    {
+      "rank": 32,
+      "id": "888615473",
+      "name": "LINE ポコポコ：3マッチパズルゲーム",
+      "url": "https://apps.apple.com/jp/app/line-%E3%83%9D%E3%82%B3%E3%83%9D%E3%82%B3-3%E3%83%9E%E3%83%83%E3%83%81%E3%83%91%E3%82%BA%E3%83%AB%E3%82%B2%E3%83%BC%E3%83%A0/id888615473?uo=2"
+    },
+    {
+      "rank": 33,
+      "id": "1312031248",
+      "name": "荒野行動-スマホ版バトロワ",
+      "url": "https://apps.apple.com/jp/app/%E8%8D%92%E9%87%8E%E8%A1%8C%E5%8B%95-%E3%82%B9%E3%83%9E%E3%83%9B%E7%89%88%E3%83%90%E3%83%88%E3%83%AD%E3%83%AF/id1312031248?uo=2"
+    },
+    {
+      "rank": 34,
+      "id": "547702041",
+      "name": "Tinder (ティンダー) - 出会い・マッチングアプリ",
+      "url": "https://apps.apple.com/jp/app/tinder-%E3%83%86%E3%82%A3%E3%83%B3%E3%83%80%E3%83%BC-%E5%87%BA%E4%BC%9A%E3%81%84-%E3%83%9E%E3%83%83%E3%83%81%E3%83%B3%E3%82%B0%E3%82%A2%E3%83%97%E3%83%AA/id547702041?uo=2"
+    },
+    {
+      "rank": 35,
+      "id": "1015521325",
+      "name": "Fate/Grand Order",
+      "url": "https://apps.apple.com/jp/app/fate-grand-order/id1015521325?uo=2"
+    },
+    {
+      "rank": 36,
+      "id": "962194608",
+      "name": "Google フォト",
+      "url": "https://apps.apple.com/jp/app/google-%E3%83%95%E3%82%A9%E3%83%88/id962194608?uo=2"
+    },
+    {
+      "rank": 37,
+      "id": "875750302",
+      "name": "少年ジャンプ＋ 人気漫画が読める雑誌アプリ",
+      "url": "https://apps.apple.com/jp/app/%E5%B0%91%E5%B9%B4%E3%82%B8%E3%83%A3%E3%83%B3%E3%83%97-%E4%BA%BA%E6%B0%97%E6%BC%AB%E7%94%BB%E3%81%8C%E8%AA%AD%E3%82%81%E3%82%8B%E9%9B%91%E8%AA%8C%E3%82%A2%E3%83%97%E3%83%AA/id875750302?uo=2"
+    },
+    {
+      "rank": 38,
+      "id": "6479970832",
+      "name": "Pokémon TCG Pocket",
+      "url": "https://apps.apple.com/jp/app/pok%C3%A9mon-tcg-pocket/id6479970832?uo=2"
+    },
+    {
+      "rank": 39,
+      "id": "6473753684",
+      "name": "Claude by Anthropic",
+      "url": "https://apps.apple.com/jp/app/claude-by-anthropic/id6473753684?uo=2"
+    },
+    {
+      "rank": 40,
+      "id": "945241274",
+      "name": "FOD ドラマやアニメなどテレビの動画が見放題！見逃し配信も",
+      "url": "https://apps.apple.com/jp/app/fod-%E3%83%89%E3%83%A9%E3%83%9E%E3%82%84%E3%82%A2%E3%83%8B%E3%83%A1%E3%81%AA%E3%81%A9%E3%83%86%E3%83%AC%E3%83%93%E3%81%AE%E5%8B%95%E7%94%BB%E3%81%8C%E8%A6%8B%E6%94%BE%E9%A1%8C-%E8%A6%8B%E9%80%83%E3%81%97%E9%85%8D%E4%BF%A1%E3%82%82/id945241274?uo=2"
+    },
+    {
+      "rank": 41,
+      "id": "724594093",
+      "name": "LINE：ディズニー ツムツム",
+      "url": "https://apps.apple.com/jp/app/line-%E3%83%87%E3%82%A3%E3%82%BA%E3%83%8B%E3%83%BC-%E3%83%84%E3%83%A0%E3%83%84%E3%83%A0/id724594093?uo=2"
+    },
+    {
+      "rank": 42,
+      "id": "6471045672",
+      "name": "グルメ・ジャーニー",
+      "url": "https://apps.apple.com/jp/app/%E3%82%B0%E3%83%AB%E3%83%A1-%E3%82%B8%E3%83%A3%E3%83%BC%E3%83%8B%E3%83%BC/id6471045672?uo=2"
+    },
+    {
+      "rank": 43,
+      "id": "1407165119",
+      "name": "めちゃコミック",
+      "url": "https://apps.apple.com/jp/app/%E3%82%81%E3%81%A1%E3%82%83%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF/id1407165119?uo=2"
+    },
+    {
+      "rank": 44,
+      "id": "6504849169",
+      "name": "NetShort - 人気短編ドラマ",
+      "url": "https://apps.apple.com/jp/app/netshort-%E4%BA%BA%E6%B0%97%E7%9F%AD%E7%B7%A8%E3%83%89%E3%83%A9%E3%83%9E/id6504849169?uo=2"
+    },
+    {
+      "rank": 45,
+      "id": "547145938",
+      "name": "にゃんこ大戦争",
+      "url": "https://apps.apple.com/jp/app/%E3%81%AB%E3%82%83%E3%82%93%E3%81%93%E5%A4%A7%E6%88%A6%E4%BA%89/id547145938?uo=2"
+    },
+    {
+      "rank": 46,
+      "id": "6756641135",
+      "name": "ホロライブドリームス",
+      "url": "https://apps.apple.com/jp/app/%E3%83%9B%E3%83%AD%E3%83%A9%E3%82%A4%E3%83%96%E3%83%89%E3%83%AA%E3%83%BC%E3%83%A0%E3%82%B9/id6756641135?uo=2"
+    },
+    {
+      "rank": 47,
+      "id": "1105855019",
+      "name": "ガーデンスケイプ (Gardenscapes)",
+      "url": "https://apps.apple.com/jp/app/%E3%82%AC%E3%83%BC%E3%83%87%E3%83%B3%E3%82%B9%E3%82%B1%E3%82%A4%E3%83%97-gardenscapes/id1105855019?uo=2"
+    },
+    {
+      "rank": 48,
+      "id": "431946152",
+      "name": "Roblox (ロブロックス)",
+      "url": "https://apps.apple.com/jp/app/roblox-%E3%83%AD%E3%83%96%E3%83%AD%E3%83%83%E3%82%AF%E3%82%B9/id431946152?uo=2"
+    },
+    {
+      "rank": 49,
+      "id": "570060128",
+      "name": "Duolingo：英語、韓国語、中国語を学ぼう",
+      "url": "https://apps.apple.com/jp/app/duolingo-%E8%8B%B1%E8%AA%9E-%E9%9F%93%E5%9B%BD%E8%AA%9E-%E4%B8%AD%E5%9B%BD%E8%AA%9E%E3%82%92%E5%AD%A6%E3%81%BC%E3%81%86/id570060128?uo=2"
+    },
+    {
+      "rank": 50,
+      "id": "6447160980",
+      "name": "TikTok Lite",
+      "url": "https://apps.apple.com/jp/app/tiktok-lite/id6447160980?uo=2"
+    },
+    {
+      "rank": 51,
+      "id": "6448786147",
+      "name": "ラストウォー：サバイバル",
+      "url": "https://apps.apple.com/jp/app/%E3%83%A9%E3%82%B9%E3%83%88%E3%82%A6%E3%82%A9%E3%83%BC-%E3%82%B5%E3%83%90%E3%82%A4%E3%83%90%E3%83%AB/id6448786147?uo=2"
+    },
+    {
+      "rank": 52,
+      "id": "6670430706",
+      "name": "DramaWave - 日本 / 韓国 / 人気短編ドラマ",
+      "url": "https://apps.apple.com/jp/app/dramawave-%E6%97%A5%E6%9C%AC-%E9%9F%93%E5%9B%BD-%E4%BA%BA%E6%B0%97%E7%9F%AD%E7%B7%A8%E3%83%89%E3%83%A9%E3%83%9E/id6670430706?uo=2"
+    },
+    {
+      "rank": 53,
+      "id": "464562684",
+      "name": "netkeiba ネットケイバ",
+      "url": "https://apps.apple.com/jp/app/netkeiba-%E3%83%8D%E3%83%83%E3%83%88%E3%82%B1%E3%82%A4%E3%83%90/id464562684?uo=2"
+    },
+    {
+      "rank": 54,
+      "id": "6799009278",
+      "name": "ダックサバイバー",
+      "url": "https://apps.apple.com/jp/app/%E3%83%80%E3%83%83%E3%82%AF%E3%82%B5%E3%83%90%E3%82%A4%E3%83%90%E3%83%BC/id6799009278?uo=2"
+    },
+    {
+      "rank": 55,
+      "id": "510855668",
+      "name": "Amazon Music: 音楽やポッドキャスト",
+      "url": "https://apps.apple.com/jp/app/amazon-music-%E9%9F%B3%E6%A5%BD%E3%82%84%E3%83%9D%E3%83%83%E3%83%89%E3%82%AD%E3%83%A3%E3%82%B9%E3%83%88/id510855668?uo=2"
+    },
+    {
+      "rank": 56,
+      "id": "549416492",
+      "name": "Hulu / フールー 人気ドラマや映画、アニメなどが見放題",
+      "url": "https://apps.apple.com/jp/app/hulu-%E3%83%95%E3%83%BC%E3%83%AB%E3%83%BC-%E4%BA%BA%E6%B0%97%E3%83%89%E3%83%A9%E3%83%9E%E3%82%84%E6%98%A0%E7%94%BB-%E3%82%A2%E3%83%8B%E3%83%A1%E3%81%AA%E3%81%A9%E3%81%8C%E8%A6%8B%E6%94%BE%E9%A1%8C/id549416492?uo=2"
+    },
+    {
+      "rank": 57,
+      "id": "6475757306",
+      "name": "Disney Solitaire ディズニー ソリティア",
+      "url": "https://apps.apple.com/jp/app/disney-solitaire-%E3%83%87%E3%82%A3%E3%82%BA%E3%83%8B%E3%83%BC-%E3%82%BD%E3%83%AA%E3%83%86%E3%82%A3%E3%82%A2/id6475757306?uo=2"
+    },
+    {
+      "rank": 58,
+      "id": "6670324846",
+      "name": "Grok",
+      "url": "https://apps.apple.com/jp/app/grok/id6670324846?uo=2"
+    },
+    {
+      "rank": 59,
+      "id": "998542154",
+      "name": "マガポケ - 人気マンガが毎日楽しめるコミックアプリ",
+      "url": "https://apps.apple.com/jp/app/%E3%83%9E%E3%82%AC%E3%83%9D%E3%82%B1-%E4%BA%BA%E6%B0%97%E3%83%9E%E3%83%B3%E3%82%AC%E3%81%8C%E6%AF%8E%E6%97%A5%E6%A5%BD%E3%81%97%E3%82%81%E3%82%8B%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%82%A2%E3%83%97%E3%83%AA/id998542154?uo=2"
+    },
+    {
+      "rank": 60,
+      "id": "6767834940",
+      "name": "トップロード",
+      "url": "https://apps.apple.com/jp/app/%E3%83%88%E3%83%83%E3%83%97%E3%83%AD%E3%83%BC%E3%83%89/id6767834940?uo=2"
+    },
+    {
+      "rank": 61,
+      "id": "545519333",
+      "name": "Amazon Prime Video",
+      "url": "https://apps.apple.com/jp/app/amazon-prime-video/id545519333?uo=2"
+    },
+    {
+      "rank": 62,
+      "id": "1663423521",
+      "name": "Wizardry Variants Daphne",
+      "url": "https://apps.apple.com/jp/app/wizardry-variants-daphne/id1663423521?uo=2"
+    },
+    {
+      "rank": 63,
+      "id": "638689075",
+      "name": "タウンシップ (Township)",
+      "url": "https://apps.apple.com/jp/app/%E3%82%BF%E3%82%A6%E3%83%B3%E3%82%B7%E3%83%83%E3%83%97-township/id638689075?uo=2"
+    },
+    {
+      "rank": 64,
+      "id": "1195621598",
+      "name": "ホームスケイプ (Homescapes)",
+      "url": "https://apps.apple.com/jp/app/%E3%83%9B%E3%83%BC%E3%83%A0%E3%82%B9%E3%82%B1%E3%82%A4%E3%83%97-homescapes/id1195621598?uo=2"
+    },
+    {
+      "rank": 65,
+      "id": "422689480",
+      "name": "Gmail - Google のメール",
+      "url": "https://apps.apple.com/jp/app/gmail-google-%E3%81%AE%E3%83%A1%E3%83%BC%E3%83%AB/id422689480?uo=2"
+    },
+    {
+      "rank": 66,
+      "id": "1500855883",
+      "name": "CapCut：写真＆動画エディター",
+      "url": "https://apps.apple.com/jp/app/capcut-%E5%86%99%E7%9C%9F-%E5%8B%95%E7%94%BB%E3%82%A8%E3%83%87%E3%82%A3%E3%82%BF%E3%83%BC/id1500855883?uo=2"
+    },
+    {
+      "rank": 67,
+      "id": "6775403879",
+      "name": "マビノギモバイル",
+      "url": "https://apps.apple.com/jp/app/%E3%83%9E%E3%83%93%E3%83%8E%E3%82%AE%E3%83%A2%E3%83%90%E3%82%A4%E3%83%AB/id6775403879?uo=2"
+    },
+    {
+      "rank": 68,
+      "id": "6755455500",
+      "name": "ハリウッドマージ",
+      "url": "https://apps.apple.com/jp/app/%E3%83%8F%E3%83%AA%E3%82%A6%E3%83%83%E3%83%89%E3%83%9E%E3%83%BC%E3%82%B8/id6755455500?uo=2"
+    },
+    {
+      "rank": 69,
+      "id": "1606549505",
+      "name": "ロイヤルキングダム (Royal Kingdom)",
+      "url": "https://apps.apple.com/jp/app/%E3%83%AD%E3%82%A4%E3%83%A4%E3%83%AB%E3%82%AD%E3%83%B3%E3%82%B0%E3%83%80%E3%83%A0-royal-kingdom/id1606549505?uo=2"
+    },
+    {
+      "rank": 70,
+      "id": "6445905219",
+      "name": "DramaBox（ドラマボックス） -ショートドラマ見放題",
+      "url": "https://apps.apple.com/jp/app/dramabox-%E3%83%89%E3%83%A9%E3%83%9E%E3%83%9C%E3%83%83%E3%82%AF%E3%82%B9-%E3%82%B7%E3%83%A7%E3%83%BC%E3%83%88%E3%83%89%E3%83%A9%E3%83%9E%E8%A6%8B%E6%94%BE%E9%A1%8C/id6445905219?uo=2"
+    },
+    {
+      "rank": 71,
+      "id": "664575829",
+      "name": "フィッシュダム(Fishdom)",
+      "url": "https://apps.apple.com/jp/app/%E3%83%95%E3%82%A3%E3%83%83%E3%82%B7%E3%83%A5%E3%83%80%E3%83%A0-fishdom/id664575829?uo=2"
+    },
+    {
+      "rank": 72,
+      "id": "6744629457",
+      "name": "キャラぷ - 物語はキミ次第・AIチャット",
+      "url": "https://apps.apple.com/jp/app/%E3%82%AD%E3%83%A3%E3%83%A9%E3%81%B7-%E7%89%A9%E8%AA%9E%E3%81%AF%E3%82%AD%E3%83%9F%E6%AC%A1%E7%AC%AC-ai%E3%83%81%E3%83%A3%E3%83%83%E3%83%88/id6744629457?uo=2"
+    },
+    {
+      "rank": 73,
+      "id": "446747531",
+      "name": "ピクトリンク",
+      "url": "https://apps.apple.com/jp/app/%E3%83%94%E3%82%AF%E3%83%88%E3%83%AA%E3%83%B3%E3%82%AF/id446747531?uo=2"
+    },
+    {
+      "rank": 74,
+      "id": "396855834",
+      "name": "日本経済新聞 電子版 - ビジネス・政治・金融・経済ニュース",
+      "url": "https://apps.apple.com/jp/app/%E6%97%A5%E6%9C%AC%E7%B5%8C%E6%B8%88%E6%96%B0%E8%81%9E-%E9%9B%BB%E5%AD%90%E7%89%88-%E3%83%93%E3%82%B8%E3%83%8D%E3%82%B9-%E6%94%BF%E6%B2%BB-%E9%87%91%E8%9E%8D-%E7%B5%8C%E6%B8%88%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9/id396855834?uo=2"
+    },
+    {
+      "rank": 75,
+      "id": "6739554561",
+      "name": "信長の野望 真戦",
+      "url": "https://apps.apple.com/jp/app/%E4%BF%A1%E9%95%B7%E3%81%AE%E9%87%8E%E6%9C%9B-%E7%9C%9F%E6%88%A6/id6739554561?uo=2"
+    },
+    {
+      "rank": 76,
+      "id": "6503272652",
+      "name": "ラストZ：サバイバルシューティング",
+      "url": "https://apps.apple.com/jp/app/%E3%83%A9%E3%82%B9%E3%83%88z-%E3%82%B5%E3%83%90%E3%82%A4%E3%83%90%E3%83%AB%E3%82%B7%E3%83%A5%E3%83%BC%E3%83%86%E3%82%A3%E3%83%B3%E3%82%B0/id6503272652?uo=2"
+    },
+    {
+      "rank": 77,
+      "id": "6752642477",
+      "name": "アークナイツ：エンドフィールド",
+      "url": "https://apps.apple.com/jp/app/%E3%82%A2%E3%83%BC%E3%82%AF%E3%83%8A%E3%82%A4%E3%83%84-%E3%82%A8%E3%83%B3%E3%83%89%E3%83%95%E3%82%A3%E3%83%BC%E3%83%AB%E3%83%89/id6752642477?uo=2"
+    },
+    {
+      "rank": 78,
+      "id": "1446075923",
+      "name": "Disney+",
+      "url": "https://apps.apple.com/jp/app/disney/id1446075923?uo=2"
+    },
+    {
+      "rank": 79,
+      "id": "333903271",
+      "name": "X",
+      "url": "https://apps.apple.com/jp/app/x/id333903271?uo=2"
+    },
+    {
+      "rank": 80,
+      "id": "1322310031",
+      "name": "ONE PIECE バウンティラッシュ - アクションゲーム",
+      "url": "https://apps.apple.com/jp/app/one-piece-%E3%83%90%E3%82%A6%E3%83%B3%E3%83%86%E3%82%A3%E3%83%A9%E3%83%83%E3%82%B7%E3%83%A5-%E3%82%A2%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3%E3%82%B2%E3%83%BC%E3%83%A0/id1322310031?uo=2"
+    },
+    {
+      "rank": 81,
+      "id": "6741567125",
+      "name": "モンスターサバイバル",
+      "url": "https://apps.apple.com/jp/app/%E3%83%A2%E3%83%B3%E3%82%B9%E3%82%BF%E3%83%BC%E3%82%B5%E3%83%90%E3%82%A4%E3%83%90%E3%83%AB/id6741567125?uo=2"
+    },
+    {
+      "rank": 82,
+      "id": "1494428618",
+      "name": "あんさんぶるスターズ！！Music",
+      "url": "https://apps.apple.com/jp/app/%E3%81%82%E3%82%93%E3%81%95%E3%82%93%E3%81%B6%E3%82%8B%E3%82%B9%E3%82%BF%E3%83%BC%E3%82%BA-music/id1494428618?uo=2"
+    },
+    {
+      "rank": 83,
+      "id": "1032346221",
+      "name": "妖怪ウォッチ ぷにぷに",
+      "url": "https://apps.apple.com/jp/app/%E5%A6%96%E6%80%AA%E3%82%A6%E3%82%A9%E3%83%83%E3%83%81-%E3%81%B7%E3%81%AB%E3%81%B7%E3%81%AB/id1032346221?uo=2"
+    },
+    {
+      "rank": 84,
+      "id": "1229016807",
+      "name": "ブロスタ",
+      "url": "https://apps.apple.com/jp/app/%E3%83%96%E3%83%AD%E3%82%B9%E3%82%BF/id1229016807?uo=2"
+    },
+    {
+      "rank": 85,
+      "id": "6445906110",
+      "name": "モンスターハンターNow",
+      "url": "https://apps.apple.com/jp/app/%E3%83%A2%E3%83%B3%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%8F%E3%83%B3%E3%82%BF%E3%83%BCnow/id6445906110?uo=2"
+    },
+    {
+      "rank": 86,
+      "id": "1028944599",
+      "name": "ミラティブ アバターでゲーム配信・ライブ配信アプリ",
+      "url": "https://apps.apple.com/jp/app/%E3%83%9F%E3%83%A9%E3%83%86%E3%82%A3%E3%83%96-%E3%82%A2%E3%83%90%E3%82%BF%E3%83%BC%E3%81%A7%E3%82%B2%E3%83%BC%E3%83%A0%E9%85%8D%E4%BF%A1-%E3%83%A9%E3%82%A4%E3%83%96%E9%85%8D%E4%BF%A1%E3%82%A2%E3%83%97%E3%83%AA/id1028944599?uo=2"
+    },
+    {
+      "rank": 87,
+      "id": "521055533",
+      "name": "出会い・出会い系はハッピー｜マッチングアプリ｜マッチング",
+      "url": "https://apps.apple.com/jp/app/%E5%87%BA%E4%BC%9A%E3%81%84-%E5%87%BA%E4%BC%9A%E3%81%84%E7%B3%BB%E3%81%AF%E3%83%8F%E3%83%83%E3%83%94%E3%83%BC-%E3%83%9E%E3%83%83%E3%83%81%E3%83%B3%E3%82%B0%E3%82%A2%E3%83%97%E3%83%AA-%E3%83%9E%E3%83%83%E3%83%81%E3%83%B3%E3%82%B0/id521055533?uo=2"
+    },
+    {
+      "rank": 88,
+      "id": "6448176203",
+      "name": "GoodShort(グッドショート)-ショートドラマいつでも",
+      "url": "https://apps.apple.com/jp/app/goodshort-%E3%82%B0%E3%83%83%E3%83%89%E3%82%B7%E3%83%A7%E3%83%BC%E3%83%88-%E3%82%B7%E3%83%A7%E3%83%BC%E3%83%88%E3%83%89%E3%83%A9%E3%83%9E%E3%81%84%E3%81%A4%E3%81%A7%E3%82%82/id6448176203?uo=2"
+    },
+    {
+      "rank": 89,
+      "id": "1565488936",
+      "name": "転生したらスライムだった件 魔王と竜の建国譚【まおりゅう】",
+      "url": "https://apps.apple.com/jp/app/%E8%BB%A2%E7%94%9F%E3%81%97%E3%81%9F%E3%82%89%E3%82%B9%E3%83%A9%E3%82%A4%E3%83%A0%E3%81%A0%E3%81%A3%E3%81%9F%E4%BB%B6-%E9%AD%94%E7%8E%8B%E3%81%A8%E7%AB%9C%E3%81%AE%E5%BB%BA%E5%9B%BD%E8%AD%9A-%E3%81%BE%E3%81%8A%E3%82%8A%E3%82%85%E3%81%86/id1565488936?uo=2"
+    },
+    {
+      "rank": 90,
+      "id": "1017492454",
+      "name": "YouTube Music：音楽、ポッドキャスト",
+      "url": "https://apps.apple.com/jp/app/youtube-music-%E9%9F%B3%E6%A5%BD-%E3%83%9D%E3%83%83%E3%83%89%E3%82%AD%E3%83%A3%E3%82%B9%E3%83%88/id1017492454?uo=2"
+    },
+    {
+      "rank": 91,
+      "id": "940320341",
+      "name": "プロ野球スピリッツＡ",
+      "url": "https://apps.apple.com/jp/app/%E3%83%97%E3%83%AD%E9%87%8E%E7%90%83%E3%82%B9%E3%83%94%E3%83%AA%E3%83%83%E3%83%84%EF%BD%81/id940320341?uo=2"
+    },
+    {
+      "rank": 92,
+      "id": "6480167901",
+      "name": "魔法少女まどかマギカ Magia Exedra",
+      "url": "https://apps.apple.com/jp/app/%E9%AD%94%E6%B3%95%E5%B0%91%E5%A5%B3%E3%81%BE%E3%81%A9%E3%81%8B%E3%83%9E%E3%82%AE%E3%82%AB-magia-exedra/id6480167901?uo=2"
+    },
+    {
+      "rank": 93,
+      "id": "1475221397",
+      "name": "ポケコロツイン　かわいいふたごのアバター着せ替えゲーム",
+      "url": "https://apps.apple.com/jp/app/%E3%83%9D%E3%82%B1%E3%82%B3%E3%83%AD%E3%83%84%E3%82%A4%E3%83%B3-%E3%81%8B%E3%82%8F%E3%81%84%E3%81%84%E3%81%B5%E3%81%9F%E3%81%94%E3%81%AE%E3%82%A2%E3%83%90%E3%82%BF%E3%83%BC%E7%9D%80%E3%81%9B%E6%9B%BF%E3%81%88%E3%82%B2%E3%83%BC%E3%83%A0/id1475221397?uo=2"
+    },
+    {
+      "rank": 94,
+      "id": "6639605332",
+      "name": "パラノイズ - あの日から何かがちがう",
+      "url": "https://apps.apple.com/jp/app/%E3%83%91%E3%83%A9%E3%83%8E%E3%82%A4%E3%82%BA-%E3%81%82%E3%81%AE%E6%97%A5%E3%81%8B%E3%82%89%E4%BD%95%E3%81%8B%E3%81%8C%E3%81%A1%E3%81%8C%E3%81%86/id6639605332?uo=2"
+    },
+    {
+      "rank": 95,
+      "id": "416048305",
+      "name": "Meitu - 写真加工とAI加工カメラ",
+      "url": "https://apps.apple.com/jp/app/meitu-%E5%86%99%E7%9C%9F%E5%8A%A0%E5%B7%A5%E3%81%A8ai%E5%8A%A0%E5%B7%A5%E3%82%AB%E3%83%A1%E3%83%A9/id416048305?uo=2"
+    },
+    {
+      "rank": 96,
+      "id": "582566462",
+      "name": "マッチングアプリはOmiai｜婚活・出会い・マッチング・恋活",
+      "url": "https://apps.apple.com/jp/app/%E3%83%9E%E3%83%83%E3%83%81%E3%83%B3%E3%82%B0%E3%82%A2%E3%83%97%E3%83%AA%E3%81%AFomiai-%E5%A9%9A%E6%B4%BB-%E5%87%BA%E4%BC%9A%E3%81%84-%E3%83%9E%E3%83%83%E3%83%81%E3%83%B3%E3%82%B0-%E6%81%8B%E6%B4%BB/id582566462?uo=2"
+    },
+    {
+      "rank": 97,
+      "id": "906581110",
+      "name": "note（ノート）",
+      "url": "https://apps.apple.com/jp/app/note-%E3%83%8E%E3%83%BC%E3%83%88/id906581110?uo=2"
+    },
+    {
+      "rank": 98,
+      "id": "750823886",
+      "name": "出会い - ワクワク（わくわく）- マッチングアプリ",
+      "url": "https://apps.apple.com/jp/app/%E5%87%BA%E4%BC%9A%E3%81%84-%E3%83%AF%E3%82%AF%E3%83%AF%E3%82%AF-%E3%82%8F%E3%81%8F%E3%82%8F%E3%81%8F-%E3%83%9E%E3%83%83%E3%83%81%E3%83%B3%E3%82%B0%E3%82%A2%E3%83%97%E3%83%AA/id750823886?uo=2"
+    },
+    {
+      "rank": 99,
+      "id": "1611490041",
+      "name": "メメントモリ",
+      "url": "https://apps.apple.com/jp/app/%E3%83%A1%E3%83%A1%E3%83%B3%E3%83%88%E3%83%A2%E3%83%AA/id1611490041?uo=2"
+    },
+    {
+      "rank": 100,
+      "id": "1579464667",
+      "name": "Pokémon Sleep",
+      "url": "https://apps.apple.com/jp/app/pok%C3%A9mon-sleep/id1579464667?uo=2"
+    }
+  ],
+  "paid": [
+    {
+      "rank": 1,
+      "id": "1542957396",
+      "name": "妖怪ウォッチ1 スマホ",
+      "url": "https://apps.apple.com/jp/app/%E5%A6%96%E6%80%AA%E3%82%A6%E3%82%A9%E3%83%83%E3%83%811-%E3%82%B9%E3%83%9E%E3%83%9B/id1542957396?uo=2"
+    },
+    {
+      "rank": 2,
+      "id": "479516143",
+      "name": "Minecraft: クラフト、建築、サバイバル",
+      "url": "https://apps.apple.com/jp/app/minecraft-%E3%82%AF%E3%83%A9%E3%83%95%E3%83%88-%E5%BB%BA%E7%AF%89-%E3%82%B5%E3%83%90%E3%82%A4%E3%83%90%E3%83%AB/id479516143?uo=2"
+    },
+    {
+      "rank": 3,
+      "id": "6469114836",
+      "name": "スイカゲーム-Aladdin X",
+      "url": "https://apps.apple.com/jp/app/%E3%82%B9%E3%82%A4%E3%82%AB%E3%82%B2%E3%83%BC%E3%83%A0-aladdin-x/id6469114836?uo=2"
+    },
+    {
+      "rank": 4,
+      "id": "6749456796",
+      "name": "Vampire Crawlers",
+      "url": "https://apps.apple.com/jp/app/vampire-crawlers/id6749456796?uo=2"
+    },
+    {
+      "rank": 5,
+      "id": "1071235820",
+      "name": "280blocker",
+      "url": "https://apps.apple.com/jp/app/280blocker/id1071235820?uo=2"
+    },
+    {
+      "rank": 6,
+      "id": "6762255813",
+      "name": "スマスロ とある魔術の禁書目録2",
+      "url": "https://apps.apple.com/jp/app/%E3%82%B9%E3%83%9E%E3%82%B9%E3%83%AD-%E3%81%A8%E3%81%82%E3%82%8B%E9%AD%94%E8%A1%93%E3%81%AE%E7%A6%81%E6%9B%B8%E7%9B%AE%E9%8C%B22/id6762255813?uo=2"
+    },
+    {
+      "rank": 7,
+      "id": "6802539506",
+      "name": "スマスロ 甲鉄城のカバネリ 海門（うなと）決戦",
+      "url": "https://apps.apple.com/jp/app/%E3%82%B9%E3%83%9E%E3%82%B9%E3%83%AD-%E7%94%B2%E9%89%84%E5%9F%8E%E3%81%AE%E3%82%AB%E3%83%90%E3%83%8D%E3%83%AA-%E6%B5%B7%E9%96%80-%E3%81%86%E3%81%AA%E3%81%A8-%E6%B1%BA%E6%88%A6/id6802539506?uo=2"
+    },
+    {
+      "rank": 8,
+      "id": "6783610245",
+      "name": "パチスロ 戦国コレクション６",
+      "url": "https://apps.apple.com/jp/app/%E3%83%91%E3%83%81%E3%82%B9%E3%83%AD-%E6%88%A6%E5%9B%BD%E3%82%B3%E3%83%AC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3%EF%BC%96/id6783610245?uo=2"
+    },
+    {
+      "rank": 9,
+      "id": "6762605506",
+      "name": "パチスロ 革命機ヴァルヴレイヴ2",
+      "url": "https://apps.apple.com/jp/app/%E3%83%91%E3%83%81%E3%82%B9%E3%83%AD-%E9%9D%A9%E5%91%BD%E6%A9%9F%E3%83%B4%E3%82%A1%E3%83%AB%E3%83%B4%E3%83%AC%E3%82%A4%E3%83%B42/id6762605506?uo=2"
+    },
+    {
+      "rank": 10,
+      "id": "6815756255",
+      "name": "ダンジョンの入口でタクティクスでもしようよ",
+      "url": "https://apps.apple.com/jp/app/%E3%83%80%E3%83%B3%E3%82%B8%E3%83%A7%E3%83%B3%E3%81%AE%E5%85%A5%E5%8F%A3%E3%81%A7%E3%82%BF%E3%82%AF%E3%83%86%E3%82%A3%E3%82%AF%E3%82%B9%E3%81%A7%E3%82%82%E3%81%97%E3%82%88%E3%81%86%E3%82%88/id6815756255?uo=2"
+    },
+    {
+      "rank": 11,
+      "id": "6757778100",
+      "name": "トルネコの大冒険 不思議のダンジョン",
+      "url": "https://apps.apple.com/jp/app/%E3%83%88%E3%83%AB%E3%83%8D%E3%82%B3%E3%81%AE%E5%A4%A7%E5%86%92%E9%99%BA-%E4%B8%8D%E6%80%9D%E8%AD%B0%E3%81%AE%E3%83%80%E3%83%B3%E3%82%B8%E3%83%A7%E3%83%B3/id6757778100?uo=2"
+    },
+    {
+      "rank": 12,
+      "id": "6758328352",
+      "name": "Scritchy Scratchy",
+      "url": "https://apps.apple.com/jp/app/scritchy-scratchy/id6758328352?uo=2"
+    },
+    {
+      "rank": 13,
+      "id": "1491530147",
+      "name": "Slay the Spire",
+      "url": "https://apps.apple.com/jp/app/slay-the-spire/id1491530147?uo=2"
+    },
+    {
+      "rank": 14,
+      "id": "6547834967",
+      "name": "どうぶつの森 ポケットキャンプ コンプリート",
+      "url": "https://apps.apple.com/jp/app/%E3%81%A9%E3%81%86%E3%81%B6%E3%81%A4%E3%81%AE%E6%A3%AE-%E3%83%9D%E3%82%B1%E3%83%83%E3%83%88%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%97-%E3%82%B3%E3%83%B3%E3%83%97%E3%83%AA%E3%83%BC%E3%83%88/id6547834967?uo=2"
+    },
+    {
+      "rank": 15,
+      "id": "6741251510",
+      "name": "スマスロ モンスターハンターライズ",
+      "url": "https://apps.apple.com/jp/app/%E3%82%B9%E3%83%9E%E3%82%B9%E3%83%AD-%E3%83%A2%E3%83%B3%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%8F%E3%83%B3%E3%82%BF%E3%83%BC%E3%83%A9%E3%82%A4%E3%82%BA/id6741251510?uo=2"
+    },
+    {
+      "rank": 16,
+      "id": "933111586",
+      "name": "ドラゴンクエストV 天空の花嫁",
+      "url": "https://apps.apple.com/jp/app/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%82%AF%E3%82%A8%E3%82%B9%E3%83%88v-%E5%A4%A9%E7%A9%BA%E3%81%AE%E8%8A%B1%E5%AB%81/id933111586?uo=2"
+    },
+    {
+      "rank": 17,
+      "id": "1621065119",
+      "name": "逆転裁判123 成歩堂セレクション",
+      "url": "https://apps.apple.com/jp/app/%E9%80%86%E8%BB%A2%E8%A3%81%E5%88%A4123-%E6%88%90%E6%AD%A9%E5%A0%82%E3%82%BB%E3%83%AC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3/id1621065119?uo=2"
+    },
+    {
+      "rank": 18,
+      "id": "1496918059",
+      "name": "ドラゴンクエストモンスターズ2　イルとルカの不思議な鍵SP",
+      "url": "https://apps.apple.com/jp/app/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%82%AF%E3%82%A8%E3%82%B9%E3%83%88%E3%83%A2%E3%83%B3%E3%82%B9%E3%82%BF%E3%83%BC%E3%82%BA2-%E3%82%A4%E3%83%AB%E3%81%A8%E3%83%AB%E3%82%AB%E3%81%AE%E4%B8%8D%E6%80%9D%E8%AD%B0%E3%81%AA%E9%8D%B5sp/id1496918059?uo=2"
+    },
+    {
+      "rank": 19,
+      "id": "6670469064",
+      "name": "８番出口",
+      "url": "https://apps.apple.com/jp/app/%EF%BC%98%E7%95%AA%E5%87%BA%E5%8F%A3/id6670469064?uo=2"
+    },
+    {
+      "rank": 20,
+      "id": "6810914372",
+      "name": "ダンジョンの入口でキャンプでもしようよ。",
+      "url": "https://apps.apple.com/jp/app/%E3%83%80%E3%83%B3%E3%82%B8%E3%83%A7%E3%83%B3%E3%81%AE%E5%85%A5%E5%8F%A3%E3%81%A7%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%97%E3%81%A7%E3%82%82%E3%81%97%E3%82%88%E3%81%86%E3%82%88/id6810914372?uo=2"
+    },
+    {
+      "rank": 21,
+      "id": "932747118",
+      "name": "Shadowrocket",
+      "url": "https://apps.apple.com/jp/app/shadowrocket/id932747118?uo=2"
+    },
+    {
+      "rank": 22,
+      "id": "6754894237",
+      "name": "CloverPit",
+      "url": "https://apps.apple.com/jp/app/cloverpit/id6754894237?uo=2"
+    },
+    {
+      "rank": 23,
+      "id": "525818839",
+      "name": "Plague Inc. -伝染病株式会社-",
+      "url": "https://apps.apple.com/jp/app/plague-inc-%E4%BC%9D%E6%9F%93%E7%97%85%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE/id525818839?uo=2"
+    },
+    {
+      "rank": 24,
+      "id": "6749684876",
+      "name": "アルキオネ：化学パズル",
+      "url": "https://apps.apple.com/jp/app/%E3%82%A2%E3%83%AB%E3%82%AD%E3%82%AA%E3%83%8D-%E5%8C%96%E5%AD%A6%E3%83%91%E3%82%BA%E3%83%AB/id6749684876?uo=2"
+    },
+    {
+      "rank": 25,
+      "id": "6790289724",
+      "name": "無限ほりほり: 採掘・作業ゲーム",
+      "url": "https://apps.apple.com/jp/app/%E7%84%A1%E9%99%90%E3%81%BB%E3%82%8A%E3%81%BB%E3%82%8A-%E6%8E%A1%E6%8E%98-%E4%BD%9C%E6%A5%AD%E3%82%B2%E3%83%BC%E3%83%A0/id6790289724?uo=2"
+    },
+    {
+      "rank": 26,
+      "id": "1372670435",
+      "name": "ドラゴンクエストモンスターズ　テリーのワンダーランドSP",
+      "url": "https://apps.apple.com/jp/app/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%82%AF%E3%82%A8%E3%82%B9%E3%83%88%E3%83%A2%E3%83%B3%E3%82%B9%E3%82%BF%E3%83%BC%E3%82%BA-%E3%83%86%E3%83%AA%E3%83%BC%E3%81%AE%E3%83%AF%E3%83%B3%E3%83%80%E3%83%BC%E3%83%A9%E3%83%B3%E3%83%89sp/id1372670435?uo=2"
+    },
+    {
+      "rank": 27,
+      "id": "6761606472",
+      "name": "スマスロ 新鬼武者3",
+      "url": "https://apps.apple.com/jp/app/%E3%82%B9%E3%83%9E%E3%82%B9%E3%83%AD-%E6%96%B0%E9%AC%BC%E6%AD%A6%E8%80%853/id6761606472?uo=2"
+    },
+    {
+      "rank": 28,
+      "id": "6747757142",
+      "name": "パチスロ かぐや様は告らせたい",
+      "url": "https://apps.apple.com/jp/app/%E3%83%91%E3%83%81%E3%82%B9%E3%83%AD-%E3%81%8B%E3%81%90%E3%82%84%E6%A7%98%E3%81%AF%E5%91%8A%E3%82%89%E3%81%9B%E3%81%9F%E3%81%84/id6747757142?uo=2"
+    },
+    {
+      "rank": 29,
+      "id": "1406710800",
+      "name": "Stardew Valley 「スターデューバレー」",
+      "url": "https://apps.apple.com/jp/app/stardew-valley-%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%87%E3%83%A5%E3%83%BC%E3%83%90%E3%83%AC%E3%83%BC/id1406710800?uo=2"
+    },
+    {
+      "rank": 30,
+      "id": "949737947",
+      "name": "ドラゴンクエストVI 幻の大地",
+      "url": "https://apps.apple.com/jp/app/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%82%AF%E3%82%A8%E3%82%B9%E3%83%88vi-%E5%B9%BB%E3%81%AE%E5%A4%A7%E5%9C%B0/id949737947?uo=2"
+    },
+    {
+      "rank": 31,
+      "id": "373493387",
+      "name": "AnkiMobile Flashcards",
+      "url": "https://apps.apple.com/jp/app/ankimobile-flashcards/id373493387?uo=2"
+    },
+    {
+      "rank": 32,
+      "id": "6467176169",
+      "name": "リスパス - リスニングで合格！英語共通テスト・大学受験対策",
+      "url": "https://apps.apple.com/jp/app/%E3%83%AA%E3%82%B9%E3%83%91%E3%82%B9-%E3%83%AA%E3%82%B9%E3%83%8B%E3%83%B3%E3%82%B0%E3%81%A7%E5%90%88%E6%A0%BC-%E8%8B%B1%E8%AA%9E%E5%85%B1%E9%80%9A%E3%83%86%E3%82%B9%E3%83%88-%E5%A4%A7%E5%AD%A6%E5%8F%97%E9%A8%93%E5%AF%BE%E7%AD%96/id6467176169?uo=2"
+    },
+    {
+      "rank": 33,
+      "id": "1468034815",
+      "name": "ヒューマン フォール フラット",
+      "url": "https://apps.apple.com/jp/app/%E3%83%92%E3%83%A5%E3%83%BC%E3%83%9E%E3%83%B3-%E3%83%95%E3%82%A9%E3%83%BC%E3%83%AB-%E3%83%95%E3%83%A9%E3%83%83%E3%83%88/id1468034815?uo=2"
+    },
+    {
+      "rank": 34,
+      "id": "6760401505",
+      "name": "ファンタジーライフｉ",
+      "url": "https://apps.apple.com/jp/app/%E3%83%95%E3%82%A1%E3%83%B3%E3%82%BF%E3%82%B8%E3%83%BC%E3%83%A9%E3%82%A4%E3%83%95%EF%BD%89/id6760401505?uo=2"
+    },
+    {
+      "rank": 35,
+      "id": "6754688764",
+      "name": "不思議のダンジョン 風来のシレン6plus",
+      "url": "https://apps.apple.com/jp/app/%E4%B8%8D%E6%80%9D%E8%AD%B0%E3%81%AE%E3%83%80%E3%83%B3%E3%82%B8%E3%83%A7%E3%83%B3-%E9%A2%A8%E6%9D%A5%E3%81%AE%E3%82%B7%E3%83%AC%E3%83%B36plus/id6754688764?uo=2"
+    },
+    {
+      "rank": 36,
+      "id": "6749560544",
+      "name": "魔王城ものがたり",
+      "url": "https://apps.apple.com/jp/app/%E9%AD%94%E7%8E%8B%E5%9F%8E%E3%82%82%E3%81%AE%E3%81%8C%E3%81%9F%E3%82%8A/id6749560544?uo=2"
+    },
+    {
+      "rank": 37,
+      "id": "1179959829",
+      "name": "オービスガイド - 移動式オービス・ネズミ捕り対応",
+      "url": "https://apps.apple.com/jp/app/%E3%82%AA%E3%83%BC%E3%83%93%E3%82%B9%E3%82%AC%E3%82%A4%E3%83%89-%E7%A7%BB%E5%8B%95%E5%BC%8F%E3%82%AA%E3%83%BC%E3%83%93%E3%82%B9-%E3%83%8D%E3%82%BA%E3%83%9F%E6%8D%95%E3%82%8A%E5%AF%BE%E5%BF%9C/id1179959829?uo=2"
+    },
+    {
+      "rank": 38,
+      "id": "6752765295",
+      "name": "スマスロ マギアレコード 魔法少女まどかマギカ外伝",
+      "url": "https://apps.apple.com/jp/app/%E3%82%B9%E3%83%9E%E3%82%B9%E3%83%AD-%E3%83%9E%E3%82%AE%E3%82%A2%E3%83%AC%E3%82%B3%E3%83%BC%E3%83%89-%E9%AD%94%E6%B3%95%E5%B0%91%E5%A5%B3%E3%81%BE%E3%81%A9%E3%81%8B%E3%83%9E%E3%82%AE%E3%82%AB%E5%A4%96%E4%BC%9D/id6752765295?uo=2"
+    },
+    {
+      "rank": 39,
+      "id": "6476544023",
+      "name": "【激J slot】スマスロモンキーターンⅤ",
+      "url": "https://apps.apple.com/jp/app/%E6%BF%80j-slot-%E3%82%B9%E3%83%9E%E3%82%B9%E3%83%AD%E3%83%A2%E3%83%B3%E3%82%AD%E3%83%BC%E3%82%BF%E3%83%BC%E3%83%B3/id6476544023?uo=2"
+    },
+    {
+      "rank": 40,
+      "id": "1239299402",
+      "name": "ストリートファイターIV CHAMPION EDITION",
+      "url": "https://apps.apple.com/jp/app/%E3%82%B9%E3%83%88%E3%83%AA%E3%83%BC%E3%83%88%E3%83%95%E3%82%A1%E3%82%A4%E3%82%BF%E3%83%BCiv-champion-edition/id1239299402?uo=2"
+    },
+    {
+      "rank": 41,
+      "id": "1349292121",
+      "name": "supertype",
+      "url": "https://apps.apple.com/jp/app/supertype/id1349292121?uo=2"
+    },
+    {
+      "rank": 42,
+      "id": "1456714515",
+      "name": "ドラゴンクエストモンスターズテリーのワンダーランドRETRO",
+      "url": "https://apps.apple.com/jp/app/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%82%AF%E3%82%A8%E3%82%B9%E3%83%88%E3%83%A2%E3%83%B3%E3%82%B9%E3%82%BF%E3%83%BC%E3%82%BA%E3%83%86%E3%83%AA%E3%83%BC%E3%81%AE%E3%83%AF%E3%83%B3%E3%83%80%E3%83%BC%E3%83%A9%E3%83%B3%E3%83%89retro/id1456714515?uo=2"
+    },
+    {
+      "rank": 43,
+      "id": "6755046527",
+      "name": "Dome Keeper ドームキーパー",
+      "url": "https://apps.apple.com/jp/app/dome-keeper-%E3%83%89%E3%83%BC%E3%83%A0%E3%82%AD%E3%83%BC%E3%83%91%E3%83%BC/id6755046527?uo=2"
+    },
+    {
+      "rank": 44,
+      "id": "935216956",
+      "name": "Papers, Please",
+      "url": "https://apps.apple.com/jp/app/papers-please/id935216956?uo=2"
+    },
+    {
+      "rank": 45,
+      "id": "793749059",
+      "name": "ドラゴンクエストIV 導かれし者たち",
+      "url": "https://apps.apple.com/jp/app/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%82%AF%E3%82%A8%E3%82%B9%E3%83%88iv-%E5%B0%8E%E3%81%8B%E3%82%8C%E3%81%97%E8%80%85%E3%81%9F%E3%81%A1/id793749059?uo=2"
+    },
+    {
+      "rank": 46,
+      "id": "6572290447",
+      "name": "バックパック・バトル",
+      "url": "https://apps.apple.com/jp/app/%E3%83%90%E3%83%83%E3%82%AF%E3%83%91%E3%83%83%E3%82%AF-%E3%83%90%E3%83%88%E3%83%AB/id6572290447?uo=2"
+    },
+    {
+      "rank": 47,
+      "id": "6758579274",
+      "name": "さんぽ神｜ドロッセルマイヤーさんの公式ゆるゲーアプリ",
+      "url": "https://apps.apple.com/jp/app/%E3%81%95%E3%82%93%E3%81%BD%E7%A5%9E-%E3%83%89%E3%83%AD%E3%83%83%E3%82%BB%E3%83%AB%E3%83%9E%E3%82%A4%E3%83%A4%E3%83%BC%E3%81%95%E3%82%93%E3%81%AE%E5%85%AC%E5%BC%8F%E3%82%86%E3%82%8B%E3%82%B2%E3%83%BC%E3%82%A2%E3%83%97%E3%83%AA/id6758579274?uo=2"
+    },
+    {
+      "rank": 48,
+      "id": "1456547302",
+      "name": "A Dance of Fire and Ice",
+      "url": "https://apps.apple.com/jp/app/a-dance-of-fire-and-ice/id1456547302?uo=2"
+    },
+    {
+      "rank": 49,
+      "id": "730263398",
+      "name": "ドラゴンクエストVIII 空と海と大地と呪われし姫君",
+      "url": "https://apps.apple.com/jp/app/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%82%AF%E3%82%A8%E3%82%B9%E3%83%88viii-%E7%A9%BA%E3%81%A8%E6%B5%B7%E3%81%A8%E5%A4%A7%E5%9C%B0%E3%81%A8%E5%91%AA%E3%82%8F%E3%82%8C%E3%81%97%E5%A7%AB%E5%90%9B/id730263398?uo=2"
+    },
+    {
+      "rank": 50,
+      "id": "479428095",
+      "name": "クロノ・トリガー （アップグレード版）",
+      "url": "https://apps.apple.com/jp/app/%E3%82%AF%E3%83%AD%E3%83%8E-%E3%83%88%E3%83%AA%E3%82%AC%E3%83%BC-%E3%82%A2%E3%83%83%E3%83%97%E3%82%B0%E3%83%AC%E3%83%BC%E3%83%89%E7%89%88/id479428095?uo=2"
+    },
+    {
+      "rank": 51,
+      "id": "6761328517",
+      "name": "ダンジョンウィズイン",
+      "url": "https://apps.apple.com/jp/app/%E3%83%80%E3%83%B3%E3%82%B8%E3%83%A7%E3%83%B3%E3%82%A6%E3%82%A3%E3%82%BA%E3%82%A4%E3%83%B3/id6761328517?uo=2"
+    },
+    {
+      "rank": 52,
+      "id": "6801980968",
+      "name": "塔と傭兵団",
+      "url": "https://apps.apple.com/jp/app/%E5%A1%94%E3%81%A8%E5%82%AD%E5%85%B5%E5%9B%A3/id6801980968?uo=2"
+    },
+    {
+      "rank": 53,
+      "id": "6762134065",
+      "name": "Slots & Diapers",
+      "url": "https://apps.apple.com/jp/app/slots-diapers/id6762134065?uo=2"
+    },
+    {
+      "rank": 54,
+      "id": "6446021269",
+      "name": "ロックマンX DiVE オフライン",
+      "url": "https://apps.apple.com/jp/app/%E3%83%AD%E3%83%83%E3%82%AF%E3%83%9E%E3%83%B3x-dive-%E3%82%AA%E3%83%95%E3%83%A9%E3%82%A4%E3%83%B3/id6446021269?uo=2"
+    },
+    {
+      "rank": 55,
+      "id": "6804630574",
+      "name": "超かぐや姫！アラーム",
+      "url": "https://apps.apple.com/jp/app/%E8%B6%85%E3%81%8B%E3%81%90%E3%82%84%E5%A7%AB-%E3%82%A2%E3%83%A9%E3%83%BC%E3%83%A0/id6804630574?uo=2"
+    },
+    {
+      "rank": 56,
+      "id": "793660476",
+      "name": "テラリア",
+      "url": "https://apps.apple.com/jp/app/%E3%83%86%E3%83%A9%E3%83%AA%E3%82%A2/id793660476?uo=2"
+    },
+    {
+      "rank": 57,
+      "id": "6814210373",
+      "name": "Auday - Watch録音とAIの振り返り",
+      "url": "https://apps.apple.com/jp/app/auday-watch%E9%8C%B2%E9%9F%B3%E3%81%A8ai%E3%81%AE%E6%8C%AF%E3%82%8A%E8%BF%94%E3%82%8A/id6814210373?uo=2"
+    },
+    {
+      "rank": 58,
+      "id": "1350400235",
+      "name": "レイトン教授と不思議な町 EXHD for スマートフォン",
+      "url": "https://apps.apple.com/jp/app/%E3%83%AC%E3%82%A4%E3%83%88%E3%83%B3%E6%95%99%E6%8E%88%E3%81%A8%E4%B8%8D%E6%80%9D%E8%AD%B0%E3%81%AA%E7%94%BA-exhd-for-%E3%82%B9%E3%83%9E%E3%83%BC%E3%83%88%E3%83%95%E3%82%A9%E3%83%B3/id1350400235?uo=2"
+    },
+    {
+      "rank": 59,
+      "id": "469342624",
+      "name": "ロックマンX",
+      "url": "https://apps.apple.com/jp/app/%E3%83%AD%E3%83%83%E3%82%AF%E3%83%9E%E3%83%B3x/id469342624?uo=2"
+    },
+    {
+      "rank": 60,
+      "id": "6760749740",
+      "name": "[パチスロ]真打 吉宗",
+      "url": "https://apps.apple.com/jp/app/%E3%83%91%E3%83%81%E3%82%B9%E3%83%AD-%E7%9C%9F%E6%89%93-%E5%90%89%E5%AE%97/id6760749740?uo=2"
+    },
+    {
+      "rank": 61,
+      "id": "6755099956",
+      "name": "スマスロ ゴッドイーターリザレクション",
+      "url": "https://apps.apple.com/jp/app/%E3%82%B9%E3%83%9E%E3%82%B9%E3%83%AD-%E3%82%B4%E3%83%83%E3%83%89%E3%82%A4%E3%83%BC%E3%82%BF%E3%83%BC%E3%83%AA%E3%82%B6%E3%83%AC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3/id6755099956?uo=2"
+    },
+    {
+      "rank": 62,
+      "id": "6747067433",
+      "name": "e女神のカフェテラス",
+      "url": "https://apps.apple.com/jp/app/e%E5%A5%B3%E7%A5%9E%E3%81%AE%E3%82%AB%E3%83%95%E3%82%A7%E3%83%86%E3%83%A9%E3%82%B9/id6747067433?uo=2"
+    },
+    {
+      "rank": 63,
+      "id": "1164801111",
+      "name": "AutoSleep 睡眠の追跡をWatchで",
+      "url": "https://apps.apple.com/jp/app/autosleep-%E7%9D%A1%E7%9C%A0%E3%81%AE%E8%BF%BD%E8%B7%A1%E3%82%92watch%E3%81%A7/id1164801111?uo=2"
+    },
+    {
+      "rank": 64,
+      "id": "6768917844",
+      "name": "日本事故物件監視協会3 -JSP3-",
+      "url": "https://apps.apple.com/jp/app/%E6%97%A5%E6%9C%AC%E4%BA%8B%E6%95%85%E7%89%A9%E4%BB%B6%E7%9B%A3%E8%A6%96%E5%8D%94%E4%BC%9A3-jsp3/id6768917844?uo=2"
+    },
+    {
+      "rank": 65,
+      "id": "443332137",
+      "name": "どんどん話すための瞬間英作文トレーニング",
+      "url": "https://apps.apple.com/jp/app/%E3%81%A9%E3%82%93%E3%81%A9%E3%82%93%E8%A9%B1%E3%81%99%E3%81%9F%E3%82%81%E3%81%AE%E7%9E%AC%E9%96%93%E8%8B%B1%E4%BD%9C%E6%96%87%E3%83%88%E3%83%AC%E3%83%BC%E3%83%8B%E3%83%B3%E3%82%B0/id443332137?uo=2"
+    },
+    {
+      "rank": 66,
+      "id": "1117998129",
+      "name": "ヒューマン・アナトミー・アトラス2027",
+      "url": "https://apps.apple.com/jp/app/%E3%83%92%E3%83%A5%E3%83%BC%E3%83%9E%E3%83%B3-%E3%82%A2%E3%83%8A%E3%83%88%E3%83%9F%E3%83%BC-%E3%82%A2%E3%83%88%E3%83%A9%E3%82%B92027/id1117998129?uo=2"
+    },
+    {
+      "rank": 67,
+      "id": "6504323939",
+      "name": "ドラゴンクエストX　目覚めし五つの種族　オフライン",
+      "url": "https://apps.apple.com/jp/app/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%82%AF%E3%82%A8%E3%82%B9%E3%83%88x-%E7%9B%AE%E8%A6%9A%E3%82%81%E3%81%97%E4%BA%94%E3%81%A4%E3%81%AE%E7%A8%AE%E6%97%8F-%E3%82%AA%E3%83%95%E3%83%A9%E3%82%A4%E3%83%B3/id6504323939?uo=2"
+    },
+    {
+      "rank": 68,
+      "id": "1230334778",
+      "name": "大逆転裁判",
+      "url": "https://apps.apple.com/jp/app/%E5%A4%A7%E9%80%86%E8%BB%A2%E8%A3%81%E5%88%A4/id1230334778?uo=2"
+    },
+    {
+      "rank": 69,
+      "id": "1573482724",
+      "name": "Coffee Inc 2",
+      "url": "https://apps.apple.com/jp/app/coffee-inc-2/id1573482724?uo=2"
+    },
+    {
+      "rank": 70,
+      "id": "6801787689",
+      "name": "ブリードクラシック - 競馬ゲーム",
+      "url": "https://apps.apple.com/jp/app/%E3%83%96%E3%83%AA%E3%83%BC%E3%83%89%E3%82%AF%E3%83%A9%E3%82%B7%E3%83%83%E3%82%AF-%E7%AB%B6%E9%A6%AC%E3%82%B2%E3%83%BC%E3%83%A0/id6801787689?uo=2"
+    },
+    {
+      "rank": 71,
+      "id": "6502453075",
+      "name": "Balatro",
+      "url": "https://apps.apple.com/jp/app/balatro/id6502453075?uo=2"
+    },
+    {
+      "rank": 72,
+      "id": "6786246807",
+      "name": "ファッションモール物語",
+      "url": "https://apps.apple.com/jp/app/%E3%83%95%E3%82%A1%E3%83%83%E3%82%B7%E3%83%A7%E3%83%B3%E3%83%A2%E3%83%BC%E3%83%AB%E7%89%A9%E8%AA%9E/id6786246807?uo=2"
+    },
+    {
+      "rank": 73,
+      "id": "1341548613",
+      "name": "大逆転裁判２ －成歩堂龍ノ介の覺悟－",
+      "url": "https://apps.apple.com/jp/app/%E5%A4%A7%E9%80%86%E8%BB%A2%E8%A3%81%E5%88%A4%EF%BC%92-%E6%88%90%E6%AD%A9%E5%A0%82%E9%BE%8D%E3%83%8E%E4%BB%8B%E3%81%AE%E8%A6%BA%E6%82%9F/id1341548613?uo=2"
+    },
+    {
+      "rank": 74,
+      "id": "6761354266",
+      "name": "スマスロ 攻殻機動隊",
+      "url": "https://apps.apple.com/jp/app/%E3%82%B9%E3%83%9E%E3%82%B9%E3%83%AD-%E6%94%BB%E6%AE%BB%E6%A9%9F%E5%8B%95%E9%9A%8A/id6761354266?uo=2"
+    },
+    {
+      "rank": 75,
+      "id": "1543161449",
+      "name": "冒険ダンジョン村2",
+      "url": "https://apps.apple.com/jp/app/%E5%86%92%E9%99%BA%E3%83%80%E3%83%B3%E3%82%B8%E3%83%A7%E3%83%B3%E6%9D%912/id1543161449?uo=2"
+    },
+    {
+      "rank": 76,
+      "id": "1136991505",
+      "name": "逆転裁判４",
+      "url": "https://apps.apple.com/jp/app/%E9%80%86%E8%BB%A2%E8%A3%81%E5%88%A4%EF%BC%94/id1136991505?uo=2"
+    },
+    {
+      "rank": 77,
+      "id": "6760838876",
+      "name": "オルディ Oldi - Phone Camera",
+      "url": "https://apps.apple.com/jp/app/%E3%82%AA%E3%83%AB%E3%83%87%E3%82%A3-oldi-phone-camera/id6760838876?uo=2"
+    },
+    {
+      "rank": 78,
+      "id": "916366645",
+      "name": "Procreate Pocket",
+      "url": "https://apps.apple.com/jp/app/procreate-pocket/id916366645?uo=2"
+    },
+    {
+      "rank": 79,
+      "id": "1642707350",
+      "name": "ドラゴンクエストモンスターズ３　魔族の王子とエルフの旅",
+      "url": "https://apps.apple.com/jp/app/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%82%AF%E3%82%A8%E3%82%B9%E3%83%88%E3%83%A2%E3%83%B3%E3%82%B9%E3%82%BF%E3%83%BC%E3%82%BA%EF%BC%93-%E9%AD%94%E6%97%8F%E3%81%AE%E7%8E%8B%E5%AD%90%E3%81%A8%E3%82%A8%E3%83%AB%E3%83%95%E3%81%AE%E6%97%85/id1642707350?uo=2"
+    },
+    {
+      "rank": 80,
+      "id": "1248649955",
+      "name": "逆転裁判6",
+      "url": "https://apps.apple.com/jp/app/%E9%80%86%E8%BB%A2%E8%A3%81%E5%88%A46/id1248649955?uo=2"
+    },
+    {
+      "rank": 81,
+      "id": "6741474933",
+      "name": "Berryフィルム - 韓国風セルフィー",
+      "url": "https://apps.apple.com/jp/app/berry%E3%83%95%E3%82%A3%E3%83%AB%E3%83%A0-%E9%9F%93%E5%9B%BD%E9%A2%A8%E3%82%BB%E3%83%AB%E3%83%95%E3%82%A3%E3%83%BC/id6741474933?uo=2"
+    },
+    {
+      "rank": 82,
+      "id": "625334537",
+      "name": "Geometry Dash",
+      "url": "https://apps.apple.com/jp/app/geometry-dash/id625334537?uo=2"
+    },
+    {
+      "rank": 83,
+      "id": "298206806",
+      "name": "iReal Pro",
+      "url": "https://apps.apple.com/jp/app/ireal-pro/id298206806?uo=2"
+    },
+    {
+      "rank": 84,
+      "id": "6746705608",
+      "name": "AutoSnore: いびきレコーダー",
+      "url": "https://apps.apple.com/jp/app/autosnore-%E3%81%84%E3%81%B3%E3%81%8D%E3%83%AC%E3%82%B3%E3%83%BC%E3%83%80%E3%83%BC/id6746705608?uo=2"
+    },
+    {
+      "rank": 85,
+      "id": "1313164055",
+      "name": "EE35 フィルムカメラ",
+      "url": "https://apps.apple.com/jp/app/ee35-%E3%83%95%E3%82%A3%E3%83%AB%E3%83%A0%E3%82%AB%E3%83%A1%E3%83%A9/id1313164055?uo=2"
+    },
+    {
+      "rank": 86,
+      "id": "6762813110",
+      "name": "Sifu",
+      "url": "https://apps.apple.com/jp/app/sifu/id6762813110?uo=2"
+    },
+    {
+      "rank": 87,
+      "id": "6463375487",
+      "name": "L戦国乙女4 戦乱に閃く炯眼の軍師",
+      "url": "https://apps.apple.com/jp/app/l%E6%88%A6%E5%9B%BD%E4%B9%99%E5%A5%B34-%E6%88%A6%E4%B9%B1%E3%81%AB%E9%96%83%E3%81%8F%E7%82%AF%E7%9C%BC%E3%81%AE%E8%BB%8D%E5%B8%AB/id6463375487?uo=2"
+    },
+    {
+      "rank": 88,
+      "id": "6759667009",
+      "name": "超増税都市",
+      "url": "https://apps.apple.com/jp/app/%E8%B6%85%E5%A2%97%E7%A8%8E%E9%83%BD%E5%B8%82/id6759667009?uo=2"
+    },
+    {
+      "rank": 89,
+      "id": "364876095",
+      "name": "Jump Desktop (RDP, VNC, Fluid)",
+      "url": "https://apps.apple.com/jp/app/jump-desktop-rdp-vnc-fluid/id364876095?uo=2"
+    },
+    {
+      "rank": 90,
+      "id": "6449832222",
+      "name": "新世紀エヴァンゲリオン～未来への咆哮～",
+      "url": "https://apps.apple.com/jp/app/%E6%96%B0%E4%B8%96%E7%B4%80%E3%82%A8%E3%83%B4%E3%82%A1%E3%83%B3%E3%82%B2%E3%83%AA%E3%82%AA%E3%83%B3-%E6%9C%AA%E6%9D%A5%E3%81%B8%E3%81%AE%E5%92%86%E5%93%AE/id6449832222?uo=2"
+    },
+    {
+      "rank": 91,
+      "id": "6499201223",
+      "name": "CalCs - Calendar Complications",
+      "url": "https://apps.apple.com/jp/app/calcs-calendar-complications/id6499201223?uo=2"
+    },
+    {
+      "rank": 92,
+      "id": "1548403918",
+      "name": "Sファンキージャグラー2",
+      "url": "https://apps.apple.com/jp/app/s%E3%83%95%E3%82%A1%E3%83%B3%E3%82%AD%E3%83%BC%E3%82%B8%E3%83%A3%E3%82%B0%E3%83%A9%E3%83%BC2/id1548403918?uo=2"
+    },
+    {
+      "rank": 93,
+      "id": "6756707224",
+      "name": "都市伝説解体センター",
+      "url": "https://apps.apple.com/jp/app/%E9%83%BD%E5%B8%82%E4%BC%9D%E8%AA%AC%E8%A7%A3%E4%BD%93%E3%82%BB%E3%83%B3%E3%82%BF%E3%83%BC/id6756707224?uo=2"
+    },
+    {
+      "rank": 94,
+      "id": "6789682404",
+      "name": "高校サッカーマネージャー",
+      "url": "https://apps.apple.com/jp/app/%E9%AB%98%E6%A0%A1%E3%82%B5%E3%83%83%E3%82%AB%E3%83%BC%E3%83%9E%E3%83%8D%E3%83%BC%E3%82%B8%E3%83%A3%E3%83%BC/id6789682404?uo=2"
+    },
+    {
+      "rank": 95,
+      "id": "500676238",
+      "name": "ブラックビデオ (BlackVideo)",
+      "url": "https://apps.apple.com/jp/app/%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF%E3%83%93%E3%83%87%E3%82%AA-blackvideo/id500676238?uo=2"
+    },
+    {
+      "rank": 96,
+      "id": "1437249610",
+      "name": "レイトン教授と悪魔の箱 EXHD for スマートフォン",
+      "url": "https://apps.apple.com/jp/app/%E3%83%AC%E3%82%A4%E3%83%88%E3%83%B3%E6%95%99%E6%8E%88%E3%81%A8%E6%82%AA%E9%AD%94%E3%81%AE%E7%AE%B1-exhd-for-%E3%82%B9%E3%83%9E%E3%83%BC%E3%83%88%E3%83%95%E3%82%A9%E3%83%B3/id1437249610?uo=2"
+    },
+    {
+      "rank": 97,
+      "id": "1034159412",
+      "name": "ドラゴンクエストVII エデンの戦士たち",
+      "url": "https://apps.apple.com/jp/app/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%82%AF%E3%82%A8%E3%82%B9%E3%83%88vii-%E3%82%A8%E3%83%87%E3%83%B3%E3%81%AE%E6%88%A6%E5%A3%AB%E3%81%9F%E3%81%A1/id1034159412?uo=2"
+    },
+    {
+      "rank": 98,
+      "id": "6759634099",
+      "name": "L 少女 歌劇 レヴュースタァライト -The SLOT-",
+      "url": "https://apps.apple.com/jp/app/l-%E5%B0%91%E5%A5%B3-%E6%AD%8C%E5%8A%87-%E3%83%AC%E3%83%B4%E3%83%A5%E3%83%BC%E3%82%B9%E3%82%BF%E3%82%A1%E3%83%A9%E3%82%A4%E3%83%88-the-slot/id6759634099?uo=2"
+    },
+    {
+      "rank": 99,
+      "id": "6759664029",
+      "name": "Kingdom Rush 6: Genesis TD",
+      "url": "https://apps.apple.com/jp/app/kingdom-rush-6-genesis-td/id6759664029?uo=2"
+    }
+  ]
+}

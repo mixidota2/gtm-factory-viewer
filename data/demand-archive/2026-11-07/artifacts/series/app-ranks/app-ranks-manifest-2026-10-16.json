@@ -1,0 +1,32 @@
+[
+  {
+    "kind": "topfreeapplications",
+    "url": "https://itunes.apple.com/jp/rss/topfreeapplications/limit=200/json",
+    "retrieved_at": "2026-10-15T18:09:02.588479+00:00",
+    "status": 200,
+    "entries": 100,
+    "updated": {
+      "label": "2026-10-15T11:09:01-07:00"
+    }
+  },
+  {
+    "kind": "topgrossingapplications",
+    "url": "https://itunes.apple.com/jp/rss/topgrossingapplications/limit=200/json",
+    "retrieved_at": "2026-10-15T18:09:07.826386+00:00",
+    "status": 200,
+    "entries": 100,
+    "updated": {
+      "label": "2026-10-15T11:09:06-07:00"
+    }
+  },
+  {
+    "kind": "toppaidapplications",
+    "url": "https://itunes.apple.com/jp/rss/toppaidapplications/limit=200/json",
+    "retrieved_at": "2026-10-15T18:09:11.358366+00:00",
+    "status": 200,
+    "entries": 98,
+    "updated": {
+      "label": "2026-10-15T11:09:10-07:00"
+    }
+  }
+]

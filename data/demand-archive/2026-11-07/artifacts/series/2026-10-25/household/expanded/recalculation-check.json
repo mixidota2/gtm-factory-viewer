@@ -1,0 +1,11 @@
+{
+  "status": "pass",
+  "separate_name_based_extraction": true,
+  "external_retrieval": false,
+  "independent_person": false,
+  "prior": 8150,
+  "latest": 10302,
+  "growth_pct": 26.404907975460112,
+  "annual_path_checked": true,
+  "quantity_missing_not_zero": true
+}

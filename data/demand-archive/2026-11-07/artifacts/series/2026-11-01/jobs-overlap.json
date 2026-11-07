@@ -1,0 +1,2429 @@
+{
+  "version": "2026-11-01-overlap-v2",
+  "status": "monthly_overlap_equal_formal_bridge_unresolved",
+  "prior_version_evidence": {
+    "date_jst": "2026-11-01",
+    "status": "annual_overlap_equal_monthly_and_crosswalk_unresolved",
+    "evidence_ja": "# 求人分類の重複区間比較\n\n2022年度（2022年4月〜2023年3月）の年度月平均は、機械組立と保安の候補対応で、新規求人・有効求人・新規求職・有効求職・就職の全10組が一致した。単位は人、全国のハローワーク、パートタイムを含む常用。\n\n機械組立は順に 9115、27290、6300、29551、1433。保安は 27128、78730、3007、12134、2007。旧表の年度値と現行保存抽出値との差はすべて0。\n\n旧表の当該12か月×10系列と年度値10セルをZIP内XMLとopenpyxlで別読し一致確認。旧月次値から計算した平均を整数へ四捨五入すると、全10系列で公表年度値と一致した。これは先の2019年130セルとは異なる期間の検証。\n\nただし現行保存資料に残るのは月次列の位置と年度平均等であり、当該12か月の月次セル値自体は残っていない。現行原xlsxも未復旧で、月別の旧新一致は検証できない。年度平均の一致には丸め・差の相殺の可能性があり、分類の正式対応を証明しない。\n\n次に必要なのは、旧厚労省分類と日本標準職業分類の対象2職業の完全な細分類対応表、および現行原本または実保存された2022年4月〜2023年3月の月次値。今回、新原典取得や日次検索は行わず、実保存コピーだけを使用した。",
+    "comparison": {
+      "interval": "2022-04/2023-03",
+      "scope": "全国、パートタイムを含む常用、年度月平均（人）; ハローワーク統計",
+      "old_sha256": "327c9d8a69ff999a47abd42dbc6687552c85dc4132f7bb36c908f7a77c80d71b",
+      "current_saved_analysis_sha256": "38ecfbd3ba1c5c779a2795d0e481d767cdbdda0d2f40df40bd16e1e413c171d1",
+      "current_original_xlsx_available": false,
+      "current_monthly_values_available": false,
+      "comparison_pairs": 10,
+      "all_annual_means_equal": true,
+      "old_openxml_independent_numeric_cells": 130,
+      "all_old_month_means_round_to_published_annual": true,
+      "classification_bridge_proven": false,
+      "growth_promoted": false,
+      "rows": [
+        {
+          "metric": "new_vacancies",
+          "sheet": "第２１表ー１　新規求人（パート含む常用）",
+          "old_name": "機械組立の職業",
+          "current_candidate_name": "機械組立従事者",
+          "candidate_not_formal_crosswalk": true,
+          "old_fy_cell": "V50",
+          "old_fy2022_mean": 9115,
+          "current_saved_fy2022_mean": 9115,
+          "current_json_pointer": "/ranked_new_vacancies/1/new_vacancies/FY2022_2025/0",
+          "difference_current_minus_old": 0,
+          "monthly_old": [
+            {
+              "month": "2022-04",
+              "cell": "EN50",
+              "value": 9378,
+              "xml_value": "9378"
+            },
+            {
+              "month": "2022-05",
+              "cell": "EO50",
+              "value": 8256,
+              "xml_value": "8256"
+            },
+            {
+              "month": "2022-06",
+              "cell": "EP50",
+              "value": 10102,
+              "xml_value": "10102"
+            },
+            {
+              "month": "2022-07",
+              "cell": "EQ50",
+              "value": 9604,
+              "xml_value": "9604"
+            },
+            {
+              "month": "2022-08",
+              "cell": "ER50",
+              "value": 8779,
+              "xml_value": "8779"
+            },
+            {
+              "month": "2022-09",
+              "cell": "ES50",
+              "value": 10170,
+              "xml_value": "10170"
+            },
+            {
+              "month": "2022-10",
+              "cell": "ET50",
+              "value": 9734,
+              "xml_value": "9734"
+            },
+            {
+              "month": "2022-11",
+              "cell": "EU50",
+              "value": 8522,
+              "xml_value": "8522"
+            },
+            {
+              "month": "2022-12",
+              "cell": "EV50",
+              "value": 8997,
+              "xml_value": "8997"
+            },
+            {
+              "month": "2023-01",
+              "cell": "EW50",
+              "value": 9318,
+              "xml_value": "9318"
+            },
+            {
+              "month": "2023-02",
+              "cell": "EX50",
+              "value": 8098,
+              "xml_value": "8098"
+            },
+            {
+              "month": "2023-03",
+              "cell": "EY50",
+              "value": 8425,
+              "xml_value": "8425"
+            }
+          ],
+          "computed_old_mean": "9115.25",
+          "rounded_mean_matches": true
+        },
+        {
+          "metric": "new_vacancies",
+          "sheet": "第２１表ー１　新規求人（パート含む常用）",
+          "old_name": "保安の職業",
+          "current_candidate_name": "保安職業従事者",
+          "candidate_not_formal_crosswalk": true,
+          "old_fy_cell": "V42",
+          "old_fy2022_mean": 27128,
+          "current_saved_fy2022_mean": 27128,
+          "current_json_pointer": "/ranked_new_vacancies/7/new_vacancies/FY2022_2025/0",
+          "difference_current_minus_old": 0,
+          "monthly_old": [
+            {
+              "month": "2022-04",
+              "cell": "EN42",
+              "value": 25784,
+              "xml_value": "25784"
+            },
+            {
+              "month": "2022-05",
+              "cell": "EO42",
+              "value": 24125,
+              "xml_value": "24125"
+            },
+            {
+              "month": "2022-06",
+              "cell": "EP42",
+              "value": 27970,
+              "xml_value": "27970"
+            },
+            {
+              "month": "2022-07",
+              "cell": "EQ42",
+              "value": 27124,
+              "xml_value": "27124"
+            },
+            {
+              "month": "2022-08",
+              "cell": "ER42",
+              "value": 26022,
+              "xml_value": "26022"
+            },
+            {
+              "month": "2022-09",
+              "cell": "ES42",
+              "value": 29405,
+              "xml_value": "29405"
+            },
+            {
+              "month": "2022-10",
+              "cell": "ET42",
+              "value": 28816,
+              "xml_value": "28816"
+            },
+            {
+              "month": "2022-11",
+              "cell": "EU42",
+              "value": 25969,
+              "xml_value": "25969"
+            },
+            {
+              "month": "2022-12",
+              "cell": "EV42",
+              "value": 26122,
+              "xml_value": "26122"
+            },
+            {
+              "month": "2023-01",
+              "cell": "EW42",
+              "value": 27545,
+              "xml_value": "27545"
+            },
+            {
+              "month": "2023-02",
+              "cell": "EX42",
+              "value": 26692,
+              "xml_value": "26692"
+            },
+            {
+              "month": "2023-03",
+              "cell": "EY42",
+              "value": 29959,
+              "xml_value": "29959"
+            }
+          ],
+          "computed_old_mean": "27127.75",
+          "rounded_mean_matches": true
+        },
+        {
+          "metric": "active_vacancies",
+          "sheet": "第２１表ー２　有効求人（パート含む常用）",
+          "old_name": "機械組立の職業",
+          "current_candidate_name": "機械組立従事者",
+          "candidate_not_formal_crosswalk": true,
+          "old_fy_cell": "V50",
+          "old_fy2022_mean": 27290,
+          "current_saved_fy2022_mean": 27290,
+          "current_json_pointer": "/ranked_new_vacancies/1/active_vacancies/FY2022_2025/0",
+          "difference_current_minus_old": 0,
+          "monthly_old": [
+            {
+              "month": "2022-04",
+              "cell": "EN50",
+              "value": 28218,
+              "xml_value": "28218"
+            },
+            {
+              "month": "2022-05",
+              "cell": "EO50",
+              "value": 26917,
+              "xml_value": "26917"
+            },
+            {
+              "month": "2022-06",
+              "cell": "EP50",
+              "value": 27244,
+              "xml_value": "27244"
+            },
+            {
+              "month": "2022-07",
+              "cell": "EQ50",
+              "value": 27317,
+              "xml_value": "27317"
+            },
+            {
+              "month": "2022-08",
+              "cell": "ER50",
+              "value": 27952,
+              "xml_value": "27952"
+            },
+            {
+              "month": "2022-09",
+              "cell": "ES50",
+              "value": 28530,
+              "xml_value": "28530"
+            },
+            {
+              "month": "2022-10",
+              "cell": "ET50",
+              "value": 28214,
+              "xml_value": "28214"
+            },
+            {
+              "month": "2022-11",
+              "cell": "EU50",
+              "value": 27600,
+              "xml_value": "27600"
+            },
+            {
+              "month": "2022-12",
+              "cell": "EV50",
+              "value": 26762,
+              "xml_value": "26762"
+            },
+            {
+              "month": "2023-01",
+              "cell": "EW50",
+              "value": 26429,
+              "xml_value": "26429"
+            },
+            {
+              "month": "2023-02",
+              "cell": "EX50",
+              "value": 26214,
+              "xml_value": "26214"
+            },
+            {
+              "month": "2023-03",
+              "cell": "EY50",
+              "value": 26078,
+              "xml_value": "26078"
+            }
+          ],
+          "computed_old_mean": "27289.58333333333333333333333",
+          "rounded_mean_matches": true
+        },
+        {
+          "metric": "active_vacancies",
+          "sheet": "第２１表ー２　有効求人（パート含む常用）",
+          "old_name": "保安の職業",
+          "current_candidate_name": "保安職業従事者",
+          "candidate_not_formal_crosswalk": true,
+          "old_fy_cell": "V42",
+          "old_fy2022_mean": 78730,
+          "current_saved_fy2022_mean": 78730,
+          "current_json_pointer": "/ranked_new_vacancies/7/active_vacancies/FY2022_2025/0",
+          "difference_current_minus_old": 0,
+          "monthly_old": [
+            {
+              "month": "2022-04",
+              "cell": "EN42",
+              "value": 74409,
+              "xml_value": "74409"
+            },
+            {
+              "month": "2022-05",
+              "cell": "EO42",
+              "value": 74243,
+              "xml_value": "74243"
+            },
+            {
+              "month": "2022-06",
+              "cell": "EP42",
+              "value": 76372,
+              "xml_value": "76372"
+            },
+            {
+              "month": "2022-07",
+              "cell": "EQ42",
+              "value": 77172,
+              "xml_value": "77172"
+            },
+            {
+              "month": "2022-08",
+              "cell": "ER42",
+              "value": 78978,
+              "xml_value": "78978"
+            },
+            {
+              "month": "2022-09",
+              "cell": "ES42",
+              "value": 81124,
+              "xml_value": "81124"
+            },
+            {
+              "month": "2022-10",
+              "cell": "ET42",
+              "value": 82279,
+              "xml_value": "82279"
+            },
+            {
+              "month": "2022-11",
+              "cell": "EU42",
+              "value": 82114,
+              "xml_value": "82114"
+            },
+            {
+              "month": "2022-12",
+              "cell": "EV42",
+              "value": 79004,
+              "xml_value": "79004"
+            },
+            {
+              "month": "2023-01",
+              "cell": "EW42",
+              "value": 78122,
+              "xml_value": "78122"
+            },
+            {
+              "month": "2023-02",
+              "cell": "EX42",
+              "value": 78819,
+              "xml_value": "78819"
+            },
+            {
+              "month": "2023-03",
+              "cell": "EY42",
+              "value": 82118,
+              "xml_value": "82118"
+            }
+          ],
+          "computed_old_mean": "78729.5",
+          "rounded_mean_matches": true
+        },
+        {
+          "metric": "new_jobseekers",
+          "sheet": "第２１表ー３　新規求職（パート含む常用）",
+          "old_name": "機械組立の職業",
+          "current_candidate_name": "機械組立従事者",
+          "candidate_not_formal_crosswalk": true,
+          "old_fy_cell": "V50",
+          "old_fy2022_mean": 6300,
+          "current_saved_fy2022_mean": 6300,
+          "current_json_pointer": "/ranked_new_vacancies/1/new_jobseekers/FY2022_2025/0",
+          "difference_current_minus_old": 0,
+          "monthly_old": [
+            {
+              "month": "2022-04",
+              "cell": "EN50",
+              "value": 6813,
+              "xml_value": "6813"
+            },
+            {
+              "month": "2022-05",
+              "cell": "EO50",
+              "value": 6498,
+              "xml_value": "6498"
+            },
+            {
+              "month": "2022-06",
+              "cell": "EP50",
+              "value": 6536,
+              "xml_value": "6536"
+            },
+            {
+              "month": "2022-07",
+              "cell": "EQ50",
+              "value": 6130,
+              "xml_value": "6130"
+            },
+            {
+              "month": "2022-08",
+              "cell": "ER50",
+              "value": 6526,
+              "xml_value": "6526"
+            },
+            {
+              "month": "2022-09",
+              "cell": "ES50",
+              "value": 6413,
+              "xml_value": "6413"
+            },
+            {
+              "month": "2022-10",
+              "cell": "ET50",
+              "value": 6312,
+              "xml_value": "6312"
+            },
+            {
+              "month": "2022-11",
+              "cell": "EU50",
+              "value": 5695,
+              "xml_value": "5695"
+            },
+            {
+              "month": "2022-12",
+              "cell": "EV50",
+              "value": 4874,
+              "xml_value": "4874"
+            },
+            {
+              "month": "2023-01",
+              "cell": "EW50",
+              "value": 6534,
+              "xml_value": "6534"
+            },
+            {
+              "month": "2023-02",
+              "cell": "EX50",
+              "value": 6252,
+              "xml_value": "6252"
+            },
+            {
+              "month": "2023-03",
+              "cell": "EY50",
+              "value": 7014,
+              "xml_value": "7014"
+            }
+          ],
+          "computed_old_mean": "6299.75",
+          "rounded_mean_matches": true
+        },
+        {
+          "metric": "new_jobseekers",
+          "sheet": "第２１表ー３　新規求職（パート含む常用）",
+          "old_name": "保安の職業",
+          "current_candidate_name": "保安職業従事者",
+          "candidate_not_formal_crosswalk": true,
+          "old_fy_cell": "V42",
+          "old_fy2022_mean": 3007,
+          "current_saved_fy2022_mean": 3007,
+          "current_json_pointer": "/ranked_new_vacancies/7/new_jobseekers/FY2022_2025/0",
+          "difference_current_minus_old": 0,
+          "monthly_old": [
+            {
+              "month": "2022-04",
+              "cell": "EN42",
+              "value": 4406,
+              "xml_value": "4406"
+            },
+            {
+              "month": "2022-05",
+              "cell": "EO42",
+              "value": 3337,
+              "xml_value": "3337"
+            },
+            {
+              "month": "2022-06",
+              "cell": "EP42",
+              "value": 3153,
+              "xml_value": "3153"
+            },
+            {
+              "month": "2022-07",
+              "cell": "EQ42",
+              "value": 2539,
+              "xml_value": "2539"
+            },
+            {
+              "month": "2022-08",
+              "cell": "ER42",
+              "value": 2679,
+              "xml_value": "2679"
+            },
+            {
+              "month": "2022-09",
+              "cell": "ES42",
+              "value": 2699,
+              "xml_value": "2699"
+            },
+            {
+              "month": "2022-10",
+              "cell": "ET42",
+              "value": 2837,
+              "xml_value": "2837"
+            },
+            {
+              "month": "2022-11",
+              "cell": "EU42",
+              "value": 2602,
+              "xml_value": "2602"
+            },
+            {
+              "month": "2022-12",
+              "cell": "EV42",
+              "value": 2107,
+              "xml_value": "2107"
+            },
+            {
+              "month": "2023-01",
+              "cell": "EW42",
+              "value": 3031,
+              "xml_value": "3031"
+            },
+            {
+              "month": "2023-02",
+              "cell": "EX42",
+              "value": 3234,
+              "xml_value": "3234"
+            },
+            {
+              "month": "2023-03",
+              "cell": "EY42",
+              "value": 3462,
+              "xml_value": "3462"
+            }
+          ],
+          "computed_old_mean": "3007.166666666666666666666667",
+          "rounded_mean_matches": true
+        },
+        {
+          "metric": "active_jobseekers",
+          "sheet": " 第２１表ー４　有効求職（パート含む常用）",
+          "old_name": "機械組立の職業",
+          "current_candidate_name": "機械組立従事者",
+          "candidate_not_formal_crosswalk": true,
+          "old_fy_cell": "V50",
+          "old_fy2022_mean": 29551,
+          "current_saved_fy2022_mean": 29551,
+          "current_json_pointer": "/ranked_new_vacancies/1/active_jobseekers/FY2022_2025/0",
+          "difference_current_minus_old": 0,
+          "monthly_old": [
+            {
+              "month": "2022-04",
+              "cell": "EN50",
+              "value": 30262,
+              "xml_value": "30262"
+            },
+            {
+              "month": "2022-05",
+              "cell": "EO50",
+              "value": 30393,
+              "xml_value": "30393"
+            },
+            {
+              "month": "2022-06",
+              "cell": "EP50",
+              "value": 30437,
+              "xml_value": "30437"
+            },
+            {
+              "month": "2022-07",
+              "cell": "EQ50",
+              "value": 29997,
+              "xml_value": "29997"
+            },
+            {
+              "month": "2022-08",
+              "cell": "ER50",
+              "value": 30152,
+              "xml_value": "30152"
+            },
+            {
+              "month": "2022-09",
+              "cell": "ES50",
+              "value": 30285,
+              "xml_value": "30285"
+            },
+            {
+              "month": "2022-10",
+              "cell": "ET50",
+              "value": 30162,
+              "xml_value": "30162"
+            },
+            {
+              "month": "2022-11",
+              "cell": "EU50",
+              "value": 29117,
+              "xml_value": "29117"
+            },
+            {
+              "month": "2022-12",
+              "cell": "EV50",
+              "value": 27425,
+              "xml_value": "27425"
+            },
+            {
+              "month": "2023-01",
+              "cell": "EW50",
+              "value": 27889,
+              "xml_value": "27889"
+            },
+            {
+              "month": "2023-02",
+              "cell": "EX50",
+              "value": 28567,
+              "xml_value": "28567"
+            },
+            {
+              "month": "2023-03",
+              "cell": "EY50",
+              "value": 29921,
+              "xml_value": "29921"
+            }
+          ],
+          "computed_old_mean": "29550.58333333333333333333333",
+          "rounded_mean_matches": true
+        },
+        {
+          "metric": "active_jobseekers",
+          "sheet": " 第２１表ー４　有効求職（パート含む常用）",
+          "old_name": "保安の職業",
+          "current_candidate_name": "保安職業従事者",
+          "candidate_not_formal_crosswalk": true,
+          "old_fy_cell": "V42",
+          "old_fy2022_mean": 12134,
+          "current_saved_fy2022_mean": 12134,
+          "current_json_pointer": "/ranked_new_vacancies/7/active_jobseekers/FY2022_2025/0",
+          "difference_current_minus_old": 0,
+          "monthly_old": [
+            {
+              "month": "2022-04",
+              "cell": "EN42",
+              "value": 13858,
+              "xml_value": "13858"
+            },
+            {
+              "month": "2022-05",
+              "cell": "EO42",
+              "value": 14177,
+              "xml_value": "14177"
+            },
+            {
+              "month": "2022-06",
+              "cell": "EP42",
+              "value": 13886,
+              "xml_value": "13886"
+            },
+            {
+              "month": "2022-07",
+              "cell": "EQ42",
+              "value": 12288,
+              "xml_value": "12288"
+            },
+            {
+              "month": "2022-08",
+              "cell": "ER42",
+              "value": 11684,
+              "xml_value": "11684"
+            },
+            {
+              "month": "2022-09",
+              "cell": "ES42",
+              "value": 11338,
+              "xml_value": "11338"
+            },
+            {
+              "month": "2022-10",
+              "cell": "ET42",
+              "value": 11487,
+              "xml_value": "11487"
+            },
+            {
+              "month": "2022-11",
+              "cell": "EU42",
+              "value": 11313,
+              "xml_value": "11313"
+            },
+            {
+              "month": "2022-12",
+              "cell": "EV42",
+              "value": 10633,
+              "xml_value": "10633"
+            },
+            {
+              "month": "2023-01",
+              "cell": "EW42",
+              "value": 10858,
+              "xml_value": "10858"
+            },
+            {
+              "month": "2023-02",
+              "cell": "EX42",
+              "value": 11599,
+              "xml_value": "11599"
+            },
+            {
+              "month": "2023-03",
+              "cell": "EY42",
+              "value": 12487,
+              "xml_value": "12487"
+            }
+          ],
+          "computed_old_mean": "12134",
+          "rounded_mean_matches": true
+        },
+        {
+          "metric": "placements",
+          "sheet": "第２１表ー５　 就職件数（パート含む常用）",
+          "old_name": "機械組立の職業",
+          "current_candidate_name": "機械組立従事者",
+          "candidate_not_formal_crosswalk": true,
+          "old_fy_cell": "V50",
+          "old_fy2022_mean": 1433,
+          "current_saved_fy2022_mean": 1433,
+          "current_json_pointer": "/ranked_new_vacancies/1/placements/FY2022_2025/0",
+          "difference_current_minus_old": 0,
+          "monthly_old": [
+            {
+              "month": "2022-04",
+              "cell": "EN50",
+              "value": 1547,
+              "xml_value": "1547"
+            },
+            {
+              "month": "2022-05",
+              "cell": "EO50",
+              "value": 1478,
+              "xml_value": "1478"
+            },
+            {
+              "month": "2022-06",
+              "cell": "EP50",
+              "value": 1556,
+              "xml_value": "1556"
+            },
+            {
+              "month": "2022-07",
+              "cell": "EQ50",
+              "value": 1371,
+              "xml_value": "1371"
+            },
+            {
+              "month": "2022-08",
+              "cell": "ER50",
+              "value": 1332,
+              "xml_value": "1332"
+            },
+            {
+              "month": "2022-09",
+              "cell": "ES50",
+              "value": 1527,
+              "xml_value": "1527"
+            },
+            {
+              "month": "2022-10",
+              "cell": "ET50",
+              "value": 1560,
+              "xml_value": "1560"
+            },
+            {
+              "month": "2022-11",
+              "cell": "EU50",
+              "value": 1422,
+              "xml_value": "1422"
+            },
+            {
+              "month": "2022-12",
+              "cell": "EV50",
+              "value": 1295,
+              "xml_value": "1295"
+            },
+            {
+              "month": "2023-01",
+              "cell": "EW50",
+              "value": 1193,
+              "xml_value": "1193"
+            },
+            {
+              "month": "2023-02",
+              "cell": "EX50",
+              "value": 1382,
+              "xml_value": "1382"
+            },
+            {
+              "month": "2023-03",
+              "cell": "EY50",
+              "value": 1531,
+              "xml_value": "1531"
+            }
+          ],
+          "computed_old_mean": "1432.833333333333333333333333",
+          "rounded_mean_matches": true
+        },
+        {
+          "metric": "placements",
+          "sheet": "第２１表ー５　 就職件数（パート含む常用）",
+          "old_name": "保安の職業",
+          "current_candidate_name": "保安職業従事者",
+          "candidate_not_formal_crosswalk": true,
+          "old_fy_cell": "V42",
+          "old_fy2022_mean": 2007,
+          "current_saved_fy2022_mean": 2007,
+          "current_json_pointer": "/ranked_new_vacancies/7/placements/FY2022_2025/0",
+          "difference_current_minus_old": 0,
+          "monthly_old": [
+            {
+              "month": "2022-04",
+              "cell": "EN42",
+              "value": 2240,
+              "xml_value": "2240"
+            },
+            {
+              "month": "2022-05",
+              "cell": "EO42",
+              "value": 2088,
+              "xml_value": "2088"
+            },
+            {
+              "month": "2022-06",
+              "cell": "EP42",
+              "value": 2308,
+              "xml_value": "2308"
+            },
+            {
+              "month": "2022-07",
+              "cell": "EQ42",
+              "value": 1853,
+              "xml_value": "1853"
+            },
+            {
+              "month": "2022-08",
+              "cell": "ER42",
+              "value": 1867,
+              "xml_value": "1867"
+            },
+            {
+              "month": "2022-09",
+              "cell": "ES42",
+              "value": 1927,
+              "xml_value": "1927"
+            },
+            {
+              "month": "2022-10",
+              "cell": "ET42",
+              "value": 1919,
+              "xml_value": "1919"
+            },
+            {
+              "month": "2022-11",
+              "cell": "EU42",
+              "value": 2075,
+              "xml_value": "2075"
+            },
+            {
+              "month": "2022-12",
+              "cell": "EV42",
+              "value": 1626,
+              "xml_value": "1626"
+            },
+            {
+              "month": "2023-01",
+              "cell": "EW42",
+              "value": 1544,
+              "xml_value": "1544"
+            },
+            {
+              "month": "2023-02",
+              "cell": "EX42",
+              "value": 1907,
+              "xml_value": "1907"
+            },
+            {
+              "month": "2023-03",
+              "cell": "EY42",
+              "value": 2731,
+              "xml_value": "2731"
+            }
+          ],
+          "computed_old_mean": "2007.083333333333333333333333",
+          "rounded_mean_matches": true
+        }
+      ]
+    },
+    "current_saved_candidates": [
+      {
+        "occupation": "機械組立従事者",
+        "excel_row": 50,
+        "new_vacancies": {
+          "previous12_mean": 6484.0,
+          "latest12_mean": 7338.833333333333,
+          "yoy_pct": 13.18373432037836,
+          "FY2022_2025": [
+            9115,
+            7315,
+            6571,
+            6600
+          ],
+          "FY2022_to_2025_pct": -27.591881513987936,
+          "september2025": 6210,
+          "september2026": 8601,
+          "september_yoy_pct": 38.5024154589372,
+          "old_window_yoy_pct": 9.213864137570592
+        },
+        "active_vacancies": {
+          "previous12_mean": 19182.333333333332,
+          "latest12_mean": 21231.833333333332,
+          "yoy_pct": 10.68431021599736,
+          "FY2022_2025": [
+            27290,
+            22024,
+            19566,
+            19413
+          ],
+          "FY2022_to_2025_pct": -28.86405276658116,
+          "september2025": 19266,
+          "september2026": 24353,
+          "september_yoy_pct": 26.40402782103186,
+          "old_window_yoy_pct": 8.153470985961864
+        },
+        "new_jobseekers": {
+          "previous12_mean": 5491.166666666667,
+          "latest12_mean": 4923.166666666667,
+          "yoy_pct": -10.343885634503902,
+          "FY2022_2025": [
+            6300,
+            6122,
+            5758,
+            5271
+          ],
+          "FY2022_to_2025_pct": -16.333333333333332,
+          "september2025": 5405,
+          "september2026": 4659,
+          "september_yoy_pct": -13.80203515263645,
+          "old_window_yoy_pct": -9.711888196320494
+        },
+        "active_jobseekers": {
+          "previous12_mean": 27759.0,
+          "latest12_mean": 25596.416666666668,
+          "yoy_pct": -7.790566422901879,
+          "FY2022_2025": [
+            29551,
+            29429,
+            28822,
+            26969
+          ],
+          "FY2022_to_2025_pct": -8.737436973368073,
+          "september2025": 28052,
+          "september2026": 24982,
+          "september_yoy_pct": -10.943961214886643,
+          "old_window_yoy_pct": -7.239586292268552
+        },
+        "placements": {
+          "previous12_mean": 985.5833333333334,
+          "latest12_mean": 1086.9166666666667,
+          "yoy_pct": 10.281559144330776,
+          "FY2022_2025": [
+            1433,
+            1162,
+            1031,
+            985
+          ],
+          "FY2022_to_2025_pct": -31.26308443824145,
+          "september2025": 1012,
+          "september2026": 1163,
+          "september_yoy_pct": 14.920948616600782,
+          "old_window_yoy_pct": 8.829984804997459
+        }
+      },
+      {
+        "occupation": "保安職業従事者",
+        "excel_row": 42,
+        "new_vacancies": {
+          "previous12_mean": 30539.5,
+          "latest12_mean": 31835.75,
+          "yoy_pct": 4.2445030206781365,
+          "FY2022_2025": [
+            27128,
+            28162,
+            29379,
+            30656
+          ],
+          "FY2022_to_2025_pct": 13.005013270421696,
+          "september2025": 29404,
+          "september2026": 32516,
+          "september_yoy_pct": 10.583594068834179,
+          "old_window_yoy_pct": 3.857549685755246
+        },
+        "active_vacancies": {
+          "previous12_mean": 89409.91666666667,
+          "latest12_mean": 92584.83333333333,
+          "yoy_pct": 3.55096703479012,
+          "FY2022_2025": [
+            78730,
+            82634,
+            85911,
+            89616
+          ],
+          "FY2022_to_2025_pct": 13.827003683475159,
+          "september2025": 89114,
+          "september2026": 97693,
+          "september_yoy_pct": 9.626994636084119,
+          "old_window_yoy_pct": 3.3231113552056213
+        },
+        "new_jobseekers": {
+          "previous12_mean": 3273.25,
+          "latest12_mean": 3471.25,
+          "yoy_pct": 6.049033834873607,
+          "FY2022_2025": [
+            3007,
+            3091,
+            3150,
+            3414
+          ],
+          "FY2022_to_2025_pct": 13.535084802128372,
+          "september2025": 3151,
+          "september2026": 3110,
+          "september_yoy_pct": -1.301174230403046,
+          "old_window_yoy_pct": 6.803278688524572
+        },
+        "active_jobseekers": {
+          "previous12_mean": 13487.25,
+          "latest12_mean": 14398.333333333334,
+          "yoy_pct": 6.755145291540776,
+          "FY2022_2025": [
+            12134,
+            12431,
+            13088,
+            13972
+          ],
+          "FY2022_to_2025_pct": 15.147519367067751,
+          "september2025": 13302,
+          "september2026": 14087,
+          "september_yoy_pct": 5.90136821530598,
+          "old_window_yoy_pct": 6.830519633784271
+        },
+        "placements": {
+          "previous12_mean": 2230.25,
+          "latest12_mean": 2289.1666666666665,
+          "yoy_pct": 2.641706834061952,
+          "FY2022_2025": [
+            2007,
+            2108,
+            2162,
+            2307
+          ],
+          "FY2022_to_2025_pct": 14.947683109118092,
+          "september2025": 2243,
+          "september2026": 2124,
+          "september_yoy_pct": -5.305394560855992,
+          "old_window_yoy_pct": 4.148735371838441
+        }
+      }
+    ],
+    "growth_promoted": false
+  },
+  "monthly_update": {
+    "evidence_ja": "# 求人分類の月別重複区間比較\n\n2022年4月〜2023年3月、機械組立・保安の5指標（新規求人、有効求人、新規求職、有効求職、就職）120組は旧表と現行表ですべて一致した。全国、パートタイムを含む常用、ハローワークの月次人数。同じ名称で接続を仮定した結論ではなく、候補対応の数値検査である。\n\n現行原xlsxを公式の既知URLから再取得し、663169 bytes、SHA256 a51d976535ecbb9dfe0e77e5a2f4d23d581eccea05a45303d68f9c5d9fe5ddc1 がOct31原典台帳と完全一致した。現行の対象120セルをopenpyxlとZIP内XMLで別読し一致確認。旧表は直前検証済み抽出を再利用し、旧原本の再検査は反復していない。\n\n先の年度平均10組一致に加え、月別120組一致が確認できたため「現行月次値がなく比較不能」という限定は解消した。ただし重複期間の数値一致は、細分類定義が同一であることや2019年から一貫して接続できることの証明ではない。正式な旧厚労省分類と日本標準職業分類の細分類対応・例外、期間途中の対象範囲変更は未検証。2019長期成長へ昇格しない。\n\n公式原典 https://www.e-stat.go.jp/stat-search/file-download?fileKind=0&statInfId=000040519001 。取得2026-11-01 04:00:59〜04:01:08 UTC。",
+    "comparison": {
+      "scope": "全国、パートタイムを含む常用、月次人数、ハローワーク統計",
+      "period": "2022-04/2023-03",
+      "pairs": 120,
+      "equal_pairs": 120,
+      "all_equal": true,
+      "current_original_sha256": "a51d976535ecbb9dfe0e77e5a2f4d23d581eccea05a45303d68f9c5d9fe5ddc1",
+      "old_verified_extract_sha256": "d80db753d947a0495a0fdbcbd112957902ebd59139a822875fdeb0261d40738a",
+      "independently_checked_current_xml_cells": 120,
+      "classification_bridge_proven": false,
+      "growth_promoted": false,
+      "notes": {
+        "A75": "（注１）平成21年12月改定「日本標準職業分類」に基づく区分。",
+        "A76": "（注２）介護関係職種は、「福祉施設指導専門員」、「その他の社会福祉専門職業従事者」、「家政婦（夫）、家事手伝い」、「介護サービス職業従事者」の合計。",
+        "A77": "（注３）年・年度別は月平均。"
+      },
+      "rows": [
+        {
+          "metric": "new_vacancies",
+          "occupation": "機械組立従事者",
+          "month": "2022-04",
+          "old_cell": "EN50",
+          "old_value": 9378,
+          "current_cell": "I50",
+          "current_value": 9378,
+          "difference": 0,
+          "current_openxml_value": "9378"
+        },
+        {
+          "metric": "new_vacancies",
+          "occupation": "機械組立従事者",
+          "month": "2022-05",
+          "old_cell": "EO50",
+          "old_value": 8256,
+          "current_cell": "J50",
+          "current_value": 8256,
+          "difference": 0,
+          "current_openxml_value": "8256"
+        },
+        {
+          "metric": "new_vacancies",
+          "occupation": "機械組立従事者",
+          "month": "2022-06",
+          "old_cell": "EP50",
+          "old_value": 10102,
+          "current_cell": "K50",
+          "current_value": 10102,
+          "difference": 0,
+          "current_openxml_value": "10102"
+        },
+        {
+          "metric": "new_vacancies",
+          "occupation": "機械組立従事者",
+          "month": "2022-07",
+          "old_cell": "EQ50",
+          "old_value": 9604,
+          "current_cell": "L50",
+          "current_value": 9604,
+          "difference": 0,
+          "current_openxml_value": "9604"
+        },
+        {
+          "metric": "new_vacancies",
+          "occupation": "機械組立従事者",
+          "month": "2022-08",
+          "old_cell": "ER50",
+          "old_value": 8779,
+          "current_cell": "M50",
+          "current_value": 8779,
+          "difference": 0,
+          "current_openxml_value": "8779"
+        },
+        {
+          "metric": "new_vacancies",
+          "occupation": "機械組立従事者",
+          "month": "2022-09",
+          "old_cell": "ES50",
+          "old_value": 10170,
+          "current_cell": "N50",
+          "current_value": 10170,
+          "difference": 0,
+          "current_openxml_value": "10170"
+        },
+        {
+          "metric": "new_vacancies",
+          "occupation": "機械組立従事者",
+          "month": "2022-10",
+          "old_cell": "ET50",
+          "old_value": 9734,
+          "current_cell": "O50",
+          "current_value": 9734,
+          "difference": 0,
+          "current_openxml_value": "9734"
+        },
+        {
+          "metric": "new_vacancies",
+          "occupation": "機械組立従事者",
+          "month": "2022-11",
+          "old_cell": "EU50",
+          "old_value": 8522,
+          "current_cell": "P50",
+          "current_value": 8522,
+          "difference": 0,
+          "current_openxml_value": "8522"
+        },
+        {
+          "metric": "new_vacancies",
+          "occupation": "機械組立従事者",
+          "month": "2022-12",
+          "old_cell": "EV50",
+          "old_value": 8997,
+          "current_cell": "Q50",
+          "current_value": 8997,
+          "difference": 0,
+          "current_openxml_value": "8997"
+        },
+        {
+          "metric": "new_vacancies",
+          "occupation": "機械組立従事者",
+          "month": "2023-01",
+          "old_cell": "EW50",
+          "old_value": 9318,
+          "current_cell": "R50",
+          "current_value": 9318,
+          "difference": 0,
+          "current_openxml_value": "9318"
+        },
+        {
+          "metric": "new_vacancies",
+          "occupation": "機械組立従事者",
+          "month": "2023-02",
+          "old_cell": "EX50",
+          "old_value": 8098,
+          "current_cell": "S50",
+          "current_value": 8098,
+          "difference": 0,
+          "current_openxml_value": "8098"
+        },
+        {
+          "metric": "new_vacancies",
+          "occupation": "機械組立従事者",
+          "month": "2023-03",
+          "old_cell": "EY50",
+          "old_value": 8425,
+          "current_cell": "T50",
+          "current_value": 8425,
+          "difference": 0,
+          "current_openxml_value": "8425"
+        },
+        {
+          "metric": "new_vacancies",
+          "occupation": "保安職業従事者",
+          "month": "2022-04",
+          "old_cell": "EN42",
+          "old_value": 25784,
+          "current_cell": "I42",
+          "current_value": 25784,
+          "difference": 0,
+          "current_openxml_value": "25784"
+        },
+        {
+          "metric": "new_vacancies",
+          "occupation": "保安職業従事者",
+          "month": "2022-05",
+          "old_cell": "EO42",
+          "old_value": 24125,
+          "current_cell": "J42",
+          "current_value": 24125,
+          "difference": 0,
+          "current_openxml_value": "24125"
+        },
+        {
+          "metric": "new_vacancies",
+          "occupation": "保安職業従事者",
+          "month": "2022-06",
+          "old_cell": "EP42",
+          "old_value": 27970,
+          "current_cell": "K42",
+          "current_value": 27970,
+          "difference": 0,
+          "current_openxml_value": "27970"
+        },
+        {
+          "metric": "new_vacancies",
+          "occupation": "保安職業従事者",
+          "month": "2022-07",
+          "old_cell": "EQ42",
+          "old_value": 27124,
+          "current_cell": "L42",
+          "current_value": 27124,
+          "difference": 0,
+          "current_openxml_value": "27124"
+        },
+        {
+          "metric": "new_vacancies",
+          "occupation": "保安職業従事者",
+          "month": "2022-08",
+          "old_cell": "ER42",
+          "old_value": 26022,
+          "current_cell": "M42",
+          "current_value": 26022,
+          "difference": 0,
+          "current_openxml_value": "26022"
+        },
+        {
+          "metric": "new_vacancies",
+          "occupation": "保安職業従事者",
+          "month": "2022-09",
+          "old_cell": "ES42",
+          "old_value": 29405,
+          "current_cell": "N42",
+          "current_value": 29405,
+          "difference": 0,
+          "current_openxml_value": "29405"
+        },
+        {
+          "metric": "new_vacancies",
+          "occupation": "保安職業従事者",
+          "month": "2022-10",
+          "old_cell": "ET42",
+          "old_value": 28816,
+          "current_cell": "O42",
+          "current_value": 28816,
+          "difference": 0,
+          "current_openxml_value": "28816"
+        },
+        {
+          "metric": "new_vacancies",
+          "occupation": "保安職業従事者",
+          "month": "2022-11",
+          "old_cell": "EU42",
+          "old_value": 25969,
+          "current_cell": "P42",
+          "current_value": 25969,
+          "difference": 0,
+          "current_openxml_value": "25969"
+        },
+        {
+          "metric": "new_vacancies",
+          "occupation": "保安職業従事者",
+          "month": "2022-12",
+          "old_cell": "EV42",
+          "old_value": 26122,
+          "current_cell": "Q42",
+          "current_value": 26122,
+          "difference": 0,
+          "current_openxml_value": "26122"
+        },
+        {
+          "metric": "new_vacancies",
+          "occupation": "保安職業従事者",
+          "month": "2023-01",
+          "old_cell": "EW42",
+          "old_value": 27545,
+          "current_cell": "R42",
+          "current_value": 27545,
+          "difference": 0,
+          "current_openxml_value": "27545"
+        },
+        {
+          "metric": "new_vacancies",
+          "occupation": "保安職業従事者",
+          "month": "2023-02",
+          "old_cell": "EX42",
+          "old_value": 26692,
+          "current_cell": "S42",
+          "current_value": 26692,
+          "difference": 0,
+          "current_openxml_value": "26692"
+        },
+        {
+          "metric": "new_vacancies",
+          "occupation": "保安職業従事者",
+          "month": "2023-03",
+          "old_cell": "EY42",
+          "old_value": 29959,
+          "current_cell": "T42",
+          "current_value": 29959,
+          "difference": 0,
+          "current_openxml_value": "29959"
+        },
+        {
+          "metric": "active_vacancies",
+          "occupation": "機械組立従事者",
+          "month": "2022-04",
+          "old_cell": "EN50",
+          "old_value": 28218,
+          "current_cell": "I50",
+          "current_value": 28218,
+          "difference": 0,
+          "current_openxml_value": "28218"
+        },
+        {
+          "metric": "active_vacancies",
+          "occupation": "機械組立従事者",
+          "month": "2022-05",
+          "old_cell": "EO50",
+          "old_value": 26917,
+          "current_cell": "J50",
+          "current_value": 26917,
+          "difference": 0,
+          "current_openxml_value": "26917"
+        },
+        {
+          "metric": "active_vacancies",
+          "occupation": "機械組立従事者",
+          "month": "2022-06",
+          "old_cell": "EP50",
+          "old_value": 27244,
+          "current_cell": "K50",
+          "current_value": 27244,
+          "difference": 0,
+          "current_openxml_value": "27244"
+        },
+        {
+          "metric": "active_vacancies",
+          "occupation": "機械組立従事者",
+          "month": "2022-07",
+          "old_cell": "EQ50",
+          "old_value": 27317,
+          "current_cell": "L50",
+          "current_value": 27317,
+          "difference": 0,
+          "current_openxml_value": "27317"
+        },
+        {
+          "metric": "active_vacancies",
+          "occupation": "機械組立従事者",
+          "month": "2022-08",
+          "old_cell": "ER50",
+          "old_value": 27952,
+          "current_cell": "M50",
+          "current_value": 27952,
+          "difference": 0,
+          "current_openxml_value": "27952"
+        },
+        {
+          "metric": "active_vacancies",
+          "occupation": "機械組立従事者",
+          "month": "2022-09",
+          "old_cell": "ES50",
+          "old_value": 28530,
+          "current_cell": "N50",
+          "current_value": 28530,
+          "difference": 0,
+          "current_openxml_value": "28530"
+        },
+        {
+          "metric": "active_vacancies",
+          "occupation": "機械組立従事者",
+          "month": "2022-10",
+          "old_cell": "ET50",
+          "old_value": 28214,
+          "current_cell": "O50",
+          "current_value": 28214,
+          "difference": 0,
+          "current_openxml_value": "28214"
+        },
+        {
+          "metric": "active_vacancies",
+          "occupation": "機械組立従事者",
+          "month": "2022-11",
+          "old_cell": "EU50",
+          "old_value": 27600,
+          "current_cell": "P50",
+          "current_value": 27600,
+          "difference": 0,
+          "current_openxml_value": "27600"
+        },
+        {
+          "metric": "active_vacancies",
+          "occupation": "機械組立従事者",
+          "month": "2022-12",
+          "old_cell": "EV50",
+          "old_value": 26762,
+          "current_cell": "Q50",
+          "current_value": 26762,
+          "difference": 0,
+          "current_openxml_value": "26762"
+        },
+        {
+          "metric": "active_vacancies",
+          "occupation": "機械組立従事者",
+          "month": "2023-01",
+          "old_cell": "EW50",
+          "old_value": 26429,
+          "current_cell": "R50",
+          "current_value": 26429,
+          "difference": 0,
+          "current_openxml_value": "26429"
+        },
+        {
+          "metric": "active_vacancies",
+          "occupation": "機械組立従事者",
+          "month": "2023-02",
+          "old_cell": "EX50",
+          "old_value": 26214,
+          "current_cell": "S50",
+          "current_value": 26214,
+          "difference": 0,
+          "current_openxml_value": "26214"
+        },
+        {
+          "metric": "active_vacancies",
+          "occupation": "機械組立従事者",
+          "month": "2023-03",
+          "old_cell": "EY50",
+          "old_value": 26078,
+          "current_cell": "T50",
+          "current_value": 26078,
+          "difference": 0,
+          "current_openxml_value": "26078"
+        },
+        {
+          "metric": "active_vacancies",
+          "occupation": "保安職業従事者",
+          "month": "2022-04",
+          "old_cell": "EN42",
+          "old_value": 74409,
+          "current_cell": "I42",
+          "current_value": 74409,
+          "difference": 0,
+          "current_openxml_value": "74409"
+        },
+        {
+          "metric": "active_vacancies",
+          "occupation": "保安職業従事者",
+          "month": "2022-05",
+          "old_cell": "EO42",
+          "old_value": 74243,
+          "current_cell": "J42",
+          "current_value": 74243,
+          "difference": 0,
+          "current_openxml_value": "74243"
+        },
+        {
+          "metric": "active_vacancies",
+          "occupation": "保安職業従事者",
+          "month": "2022-06",
+          "old_cell": "EP42",
+          "old_value": 76372,
+          "current_cell": "K42",
+          "current_value": 76372,
+          "difference": 0,
+          "current_openxml_value": "76372"
+        },
+        {
+          "metric": "active_vacancies",
+          "occupation": "保安職業従事者",
+          "month": "2022-07",
+          "old_cell": "EQ42",
+          "old_value": 77172,
+          "current_cell": "L42",
+          "current_value": 77172,
+          "difference": 0,
+          "current_openxml_value": "77172"
+        },
+        {
+          "metric": "active_vacancies",
+          "occupation": "保安職業従事者",
+          "month": "2022-08",
+          "old_cell": "ER42",
+          "old_value": 78978,
+          "current_cell": "M42",
+          "current_value": 78978,
+          "difference": 0,
+          "current_openxml_value": "78978"
+        },
+        {
+          "metric": "active_vacancies",
+          "occupation": "保安職業従事者",
+          "month": "2022-09",
+          "old_cell": "ES42",
+          "old_value": 81124,
+          "current_cell": "N42",
+          "current_value": 81124,
+          "difference": 0,
+          "current_openxml_value": "81124"
+        },
+        {
+          "metric": "active_vacancies",
+          "occupation": "保安職業従事者",
+          "month": "2022-10",
+          "old_cell": "ET42",
+          "old_value": 82279,
+          "current_cell": "O42",
+          "current_value": 82279,
+          "difference": 0,
+          "current_openxml_value": "82279"
+        },
+        {
+          "metric": "active_vacancies",
+          "occupation": "保安職業従事者",
+          "month": "2022-11",
+          "old_cell": "EU42",
+          "old_value": 82114,
+          "current_cell": "P42",
+          "current_value": 82114,
+          "difference": 0,
+          "current_openxml_value": "82114"
+        },
+        {
+          "metric": "active_vacancies",
+          "occupation": "保安職業従事者",
+          "month": "2022-12",
+          "old_cell": "EV42",
+          "old_value": 79004,
+          "current_cell": "Q42",
+          "current_value": 79004,
+          "difference": 0,
+          "current_openxml_value": "79004"
+        },
+        {
+          "metric": "active_vacancies",
+          "occupation": "保安職業従事者",
+          "month": "2023-01",
+          "old_cell": "EW42",
+          "old_value": 78122,
+          "current_cell": "R42",
+          "current_value": 78122,
+          "difference": 0,
+          "current_openxml_value": "78122"
+        },
+        {
+          "metric": "active_vacancies",
+          "occupation": "保安職業従事者",
+          "month": "2023-02",
+          "old_cell": "EX42",
+          "old_value": 78819,
+          "current_cell": "S42",
+          "current_value": 78819,
+          "difference": 0,
+          "current_openxml_value": "78819"
+        },
+        {
+          "metric": "active_vacancies",
+          "occupation": "保安職業従事者",
+          "month": "2023-03",
+          "old_cell": "EY42",
+          "old_value": 82118,
+          "current_cell": "T42",
+          "current_value": 82118,
+          "difference": 0,
+          "current_openxml_value": "82118"
+        },
+        {
+          "metric": "new_jobseekers",
+          "occupation": "機械組立従事者",
+          "month": "2022-04",
+          "old_cell": "EN50",
+          "old_value": 6813,
+          "current_cell": "I50",
+          "current_value": 6813,
+          "difference": 0,
+          "current_openxml_value": "6813"
+        },
+        {
+          "metric": "new_jobseekers",
+          "occupation": "機械組立従事者",
+          "month": "2022-05",
+          "old_cell": "EO50",
+          "old_value": 6498,
+          "current_cell": "J50",
+          "current_value": 6498,
+          "difference": 0,
+          "current_openxml_value": "6498"
+        },
+        {
+          "metric": "new_jobseekers",
+          "occupation": "機械組立従事者",
+          "month": "2022-06",
+          "old_cell": "EP50",
+          "old_value": 6536,
+          "current_cell": "K50",
+          "current_value": 6536,
+          "difference": 0,
+          "current_openxml_value": "6536"
+        },
+        {
+          "metric": "new_jobseekers",
+          "occupation": "機械組立従事者",
+          "month": "2022-07",
+          "old_cell": "EQ50",
+          "old_value": 6130,
+          "current_cell": "L50",
+          "current_value": 6130,
+          "difference": 0,
+          "current_openxml_value": "6130"
+        },
+        {
+          "metric": "new_jobseekers",
+          "occupation": "機械組立従事者",
+          "month": "2022-08",
+          "old_cell": "ER50",
+          "old_value": 6526,
+          "current_cell": "M50",
+          "current_value": 6526,
+          "difference": 0,
+          "current_openxml_value": "6526"
+        },
+        {
+          "metric": "new_jobseekers",
+          "occupation": "機械組立従事者",
+          "month": "2022-09",
+          "old_cell": "ES50",
+          "old_value": 6413,
+          "current_cell": "N50",
+          "current_value": 6413,
+          "difference": 0,
+          "current_openxml_value": "6413"
+        },
+        {
+          "metric": "new_jobseekers",
+          "occupation": "機械組立従事者",
+          "month": "2022-10",
+          "old_cell": "ET50",
+          "old_value": 6312,
+          "current_cell": "O50",
+          "current_value": 6312,
+          "difference": 0,
+          "current_openxml_value": "6312"
+        },
+        {
+          "metric": "new_jobseekers",
+          "occupation": "機械組立従事者",
+          "month": "2022-11",
+          "old_cell": "EU50",
+          "old_value": 5695,
+          "current_cell": "P50",
+          "current_value": 5695,
+          "difference": 0,
+          "current_openxml_value": "5695"
+        },
+        {
+          "metric": "new_jobseekers",
+          "occupation": "機械組立従事者",
+          "month": "2022-12",
+          "old_cell": "EV50",
+          "old_value": 4874,
+          "current_cell": "Q50",
+          "current_value": 4874,
+          "difference": 0,
+          "current_openxml_value": "4874"
+        },
+        {
+          "metric": "new_jobseekers",
+          "occupation": "機械組立従事者",
+          "month": "2023-01",
+          "old_cell": "EW50",
+          "old_value": 6534,
+          "current_cell": "R50",
+          "current_value": 6534,
+          "difference": 0,
+          "current_openxml_value": "6534"
+        },
+        {
+          "metric": "new_jobseekers",
+          "occupation": "機械組立従事者",
+          "month": "2023-02",
+          "old_cell": "EX50",
+          "old_value": 6252,
+          "current_cell": "S50",
+          "current_value": 6252,
+          "difference": 0,
+          "current_openxml_value": "6252"
+        },
+        {
+          "metric": "new_jobseekers",
+          "occupation": "機械組立従事者",
+          "month": "2023-03",
+          "old_cell": "EY50",
+          "old_value": 7014,
+          "current_cell": "T50",
+          "current_value": 7014,
+          "difference": 0,
+          "current_openxml_value": "7014"
+        },
+        {
+          "metric": "new_jobseekers",
+          "occupation": "保安職業従事者",
+          "month": "2022-04",
+          "old_cell": "EN42",
+          "old_value": 4406,
+          "current_cell": "I42",
+          "current_value": 4406,
+          "difference": 0,
+          "current_openxml_value": "4406"
+        },
+        {
+          "metric": "new_jobseekers",
+          "occupation": "保安職業従事者",
+          "month": "2022-05",
+          "old_cell": "EO42",
+          "old_value": 3337,
+          "current_cell": "J42",
+          "current_value": 3337,
+          "difference": 0,
+          "current_openxml_value": "3337"
+        },
+        {
+          "metric": "new_jobseekers",
+          "occupation": "保安職業従事者",
+          "month": "2022-06",
+          "old_cell": "EP42",
+          "old_value": 3153,
+          "current_cell": "K42",
+          "current_value": 3153,
+          "difference": 0,
+          "current_openxml_value": "3153"
+        },
+        {
+          "metric": "new_jobseekers",
+          "occupation": "保安職業従事者",
+          "month": "2022-07",
+          "old_cell": "EQ42",
+          "old_value": 2539,
+          "current_cell": "L42",
+          "current_value": 2539,
+          "difference": 0,
+          "current_openxml_value": "2539"
+        },
+        {
+          "metric": "new_jobseekers",
+          "occupation": "保安職業従事者",
+          "month": "2022-08",
+          "old_cell": "ER42",
+          "old_value": 2679,
+          "current_cell": "M42",
+          "current_value": 2679,
+          "difference": 0,
+          "current_openxml_value": "2679"
+        },
+        {
+          "metric": "new_jobseekers",
+          "occupation": "保安職業従事者",
+          "month": "2022-09",
+          "old_cell": "ES42",
+          "old_value": 2699,
+          "current_cell": "N42",
+          "current_value": 2699,
+          "difference": 0,
+          "current_openxml_value": "2699"
+        },
+        {
+          "metric": "new_jobseekers",
+          "occupation": "保安職業従事者",
+          "month": "2022-10",
+          "old_cell": "ET42",
+          "old_value": 2837,
+          "current_cell": "O42",
+          "current_value": 2837,
+          "difference": 0,
+          "current_openxml_value": "2837"
+        },
+        {
+          "metric": "new_jobseekers",
+          "occupation": "保安職業従事者",
+          "month": "2022-11",
+          "old_cell": "EU42",
+          "old_value": 2602,
+          "current_cell": "P42",
+          "current_value": 2602,
+          "difference": 0,
+          "current_openxml_value": "2602"
+        },
+        {
+          "metric": "new_jobseekers",
+          "occupation": "保安職業従事者",
+          "month": "2022-12",
+          "old_cell": "EV42",
+          "old_value": 2107,
+          "current_cell": "Q42",
+          "current_value": 2107,
+          "difference": 0,
+          "current_openxml_value": "2107"
+        },
+        {
+          "metric": "new_jobseekers",
+          "occupation": "保安職業従事者",
+          "month": "2023-01",
+          "old_cell": "EW42",
+          "old_value": 3031,
+          "current_cell": "R42",
+          "current_value": 3031,
+          "difference": 0,
+          "current_openxml_value": "3031"
+        },
+        {
+          "metric": "new_jobseekers",
+          "occupation": "保安職業従事者",
+          "month": "2023-02",
+          "old_cell": "EX42",
+          "old_value": 3234,
+          "current_cell": "S42",
+          "current_value": 3234,
+          "difference": 0,
+          "current_openxml_value": "3234"
+        },
+        {
+          "metric": "new_jobseekers",
+          "occupation": "保安職業従事者",
+          "month": "2023-03",
+          "old_cell": "EY42",
+          "old_value": 3462,
+          "current_cell": "T42",
+          "current_value": 3462,
+          "difference": 0,
+          "current_openxml_value": "3462"
+        },
+        {
+          "metric": "active_jobseekers",
+          "occupation": "機械組立従事者",
+          "month": "2022-04",
+          "old_cell": "EN50",
+          "old_value": 30262,
+          "current_cell": "I50",
+          "current_value": 30262,
+          "difference": 0,
+          "current_openxml_value": "30262"
+        },
+        {
+          "metric": "active_jobseekers",
+          "occupation": "機械組立従事者",
+          "month": "2022-05",
+          "old_cell": "EO50",
+          "old_value": 30393,
+          "current_cell": "J50",
+          "current_value": 30393,
+          "difference": 0,
+          "current_openxml_value": "30393"
+        },
+        {
+          "metric": "active_jobseekers",
+          "occupation": "機械組立従事者",
+          "month": "2022-06",
+          "old_cell": "EP50",
+          "old_value": 30437,
+          "current_cell": "K50",
+          "current_value": 30437,
+          "difference": 0,
+          "current_openxml_value": "30437"
+        },
+        {
+          "metric": "active_jobseekers",
+          "occupation": "機械組立従事者",
+          "month": "2022-07",
+          "old_cell": "EQ50",
+          "old_value": 29997,
+          "current_cell": "L50",
+          "current_value": 29997,
+          "difference": 0,
+          "current_openxml_value": "29997"
+        },
+        {
+          "metric": "active_jobseekers",
+          "occupation": "機械組立従事者",
+          "month": "2022-08",
+          "old_cell": "ER50",
+          "old_value": 30152,
+          "current_cell": "M50",
+          "current_value": 30152,
+          "difference": 0,
+          "current_openxml_value": "30152"
+        },
+        {
+          "metric": "active_jobseekers",
+          "occupation": "機械組立従事者",
+          "month": "2022-09",
+          "old_cell": "ES50",
+          "old_value": 30285,
+          "current_cell": "N50",
+          "current_value": 30285,
+          "difference": 0,
+          "current_openxml_value": "30285"
+        },
+        {
+          "metric": "active_jobseekers",
+          "occupation": "機械組立従事者",
+          "month": "2022-10",
+          "old_cell": "ET50",
+          "old_value": 30162,
+          "current_cell": "O50",
+          "current_value": 30162,
+          "difference": 0,
+          "current_openxml_value": "30162"
+        },
+        {
+          "metric": "active_jobseekers",
+          "occupation": "機械組立従事者",
+          "month": "2022-11",
+          "old_cell": "EU50",
+          "old_value": 29117,
+          "current_cell": "P50",
+          "current_value": 29117,
+          "difference": 0,
+          "current_openxml_value": "29117"
+        },
+        {
+          "metric": "active_jobseekers",
+          "occupation": "機械組立従事者",
+          "month": "2022-12",
+          "old_cell": "EV50",
+          "old_value": 27425,
+          "current_cell": "Q50",
+          "current_value": 27425,
+          "difference": 0,
+          "current_openxml_value": "27425"
+        },
+        {
+          "metric": "active_jobseekers",
+          "occupation": "機械組立従事者",
+          "month": "2023-01",
+          "old_cell": "EW50",
+          "old_value": 27889,
+          "current_cell": "R50",
+          "current_value": 27889,
+          "difference": 0,
+          "current_openxml_value": "27889"
+        },
+        {
+          "metric": "active_jobseekers",
+          "occupation": "機械組立従事者",
+          "month": "2023-02",
+          "old_cell": "EX50",
+          "old_value": 28567,
+          "current_cell": "S50",
+          "current_value": 28567,
+          "difference": 0,
+          "current_openxml_value": "28567"
+        },
+        {
+          "metric": "active_jobseekers",
+          "occupation": "機械組立従事者",
+          "month": "2023-03",
+          "old_cell": "EY50",
+          "old_value": 29921,
+          "current_cell": "T50",
+          "current_value": 29921,
+          "difference": 0,
+          "current_openxml_value": "29921"
+        },
+        {
+          "metric": "active_jobseekers",
+          "occupation": "保安職業従事者",
+          "month": "2022-04",
+          "old_cell": "EN42",
+          "old_value": 13858,
+          "current_cell": "I42",
+          "current_value": 13858,
+          "difference": 0,
+          "current_openxml_value": "13858"
+        },
+        {
+          "metric": "active_jobseekers",
+          "occupation": "保安職業従事者",
+          "month": "2022-05",
+          "old_cell": "EO42",
+          "old_value": 14177,
+          "current_cell": "J42",
+          "current_value": 14177,
+          "difference": 0,
+          "current_openxml_value": "14177"
+        },
+        {
+          "metric": "active_jobseekers",
+          "occupation": "保安職業従事者",
+          "month": "2022-06",
+          "old_cell": "EP42",
+          "old_value": 13886,
+          "current_cell": "K42",
+          "current_value": 13886,
+          "difference": 0,
+          "current_openxml_value": "13886"
+        },
+        {
+          "metric": "active_jobseekers",
+          "occupation": "保安職業従事者",
+          "month": "2022-07",
+          "old_cell": "EQ42",
+          "old_value": 12288,
+          "current_cell": "L42",
+          "current_value": 12288,
+          "difference": 0,
+          "current_openxml_value": "12288"
+        },
+        {
+          "metric": "active_jobseekers",
+          "occupation": "保安職業従事者",
+          "month": "2022-08",
+          "old_cell": "ER42",
+          "old_value": 11684,
+          "current_cell": "M42",
+          "current_value": 11684,
+          "difference": 0,
+          "current_openxml_value": "11684"
+        },
+        {
+          "metric": "active_jobseekers",
+          "occupation": "保安職業従事者",
+          "month": "2022-09",
+          "old_cell": "ES42",
+          "old_value": 11338,
+          "current_cell": "N42",
+          "current_value": 11338,
+          "difference": 0,
+          "current_openxml_value": "11338"
+        },
+        {
+          "metric": "active_jobseekers",
+          "occupation": "保安職業従事者",
+          "month": "2022-10",
+          "old_cell": "ET42",
+          "old_value": 11487,
+          "current_cell": "O42",
+          "current_value": 11487,
+          "difference": 0,
+          "current_openxml_value": "11487"
+        },
+        {
+          "metric": "active_jobseekers",
+          "occupation": "保安職業従事者",
+          "month": "2022-11",
+          "old_cell": "EU42",
+          "old_value": 11313,
+          "current_cell": "P42",
+          "current_value": 11313,
+          "difference": 0,
+          "current_openxml_value": "11313"
+        },
+        {
+          "metric": "active_jobseekers",
+          "occupation": "保安職業従事者",
+          "month": "2022-12",
+          "old_cell": "EV42",
+          "old_value": 10633,
+          "current_cell": "Q42",
+          "current_value": 10633,
+          "difference": 0,
+          "current_openxml_value": "10633"
+        },
+        {
+          "metric": "active_jobseekers",
+          "occupation": "保安職業従事者",
+          "month": "2023-01",
+          "old_cell": "EW42",
+          "old_value": 10858,
+          "current_cell": "R42",
+          "current_value": 10858,
+          "difference": 0,
+          "current_openxml_value": "10858"
+        },
+        {
+          "metric": "active_jobseekers",
+          "occupation": "保安職業従事者",
+          "month": "2023-02",
+          "old_cell": "EX42",
+          "old_value": 11599,
+          "current_cell": "S42",
+          "current_value": 11599,
+          "difference": 0,
+          "current_openxml_value": "11599"
+        },
+        {
+          "metric": "active_jobseekers",
+          "occupation": "保安職業従事者",
+          "month": "2023-03",
+          "old_cell": "EY42",
+          "old_value": 12487,
+          "current_cell": "T42",
+          "current_value": 12487,
+          "difference": 0,
+          "current_openxml_value": "12487"
+        },
+        {
+          "metric": "placements",
+          "occupation": "機械組立従事者",
+          "month": "2022-04",
+          "old_cell": "EN50",
+          "old_value": 1547,
+          "current_cell": "I50",
+          "current_value": 1547,
+          "difference": 0,
+          "current_openxml_value": "1547"
+        },
+        {
+          "metric": "placements",
+          "occupation": "機械組立従事者",
+          "month": "2022-05",
+          "old_cell": "EO50",
+          "old_value": 1478,
+          "current_cell": "J50",
+          "current_value": 1478,
+          "difference": 0,
+          "current_openxml_value": "1478"
+        },
+        {
+          "metric": "placements",
+          "occupation": "機械組立従事者",
+          "month": "2022-06",
+          "old_cell": "EP50",
+          "old_value": 1556,
+          "current_cell": "K50",
+          "current_value": 1556,
+          "difference": 0,
+          "current_openxml_value": "1556"
+        },
+        {
+          "metric": "placements",
+          "occupation": "機械組立従事者",
+          "month": "2022-07",
+          "old_cell": "EQ50",
+          "old_value": 1371,
+          "current_cell": "L50",
+          "current_value": 1371,
+          "difference": 0,
+          "current_openxml_value": "1371"
+        },
+        {
+          "metric": "placements",
+          "occupation": "機械組立従事者",
+          "month": "2022-08",
+          "old_cell": "ER50",
+          "old_value": 1332,
+          "current_cell": "M50",
+          "current_value": 1332,
+          "difference": 0,
+          "current_openxml_value": "1332"
+        },
+        {
+          "metric": "placements",
+          "occupation": "機械組立従事者",
+          "month": "2022-09",
+          "old_cell": "ES50",
+          "old_value": 1527,
+          "current_cell": "N50",
+          "current_value": 1527,
+          "difference": 0,
+          "current_openxml_value": "1527"
+        },
+        {
+          "metric": "placements",
+          "occupation": "機械組立従事者",
+          "month": "2022-10",
+          "old_cell": "ET50",
+          "old_value": 1560,
+          "current_cell": "O50",
+          "current_value": 1560,
+          "difference": 0,
+          "current_openxml_value": "1560"
+        },
+        {
+          "metric": "placements",
+          "occupation": "機械組立従事者",
+          "month": "2022-11",
+          "old_cell": "EU50",
+          "old_value": 1422,
+          "current_cell": "P50",
+          "current_value": 1422,
+          "difference": 0,
+          "current_openxml_value": "1422"
+        },
+        {
+          "metric": "placements",
+          "occupation": "機械組立従事者",
+          "month": "2022-12",
+          "old_cell": "EV50",
+          "old_value": 1295,
+          "current_cell": "Q50",
+          "current_value": 1295,
+          "difference": 0,
+          "current_openxml_value": "1295"
+        },
+        {
+          "metric": "placements",
+          "occupation": "機械組立従事者",
+          "month": "2023-01",
+          "old_cell": "EW50",
+          "old_value": 1193,
+          "current_cell": "R50",
+          "current_value": 1193,
+          "difference": 0,
+          "current_openxml_value": "1193"
+        },
+        {
+          "metric": "placements",
+          "occupation": "機械組立従事者",
+          "month": "2023-02",
+          "old_cell": "EX50",
+          "old_value": 1382,
+          "current_cell": "S50",
+          "current_value": 1382,
+          "difference": 0,
+          "current_openxml_value": "1382"
+        },
+        {
+          "metric": "placements",
+          "occupation": "機械組立従事者",
+          "month": "2023-03",
+          "old_cell": "EY50",
+          "old_value": 1531,
+          "current_cell": "T50",
+          "current_value": 1531,
+          "difference": 0,
+          "current_openxml_value": "1531"
+        },
+        {
+          "metric": "placements",
+          "occupation": "保安職業従事者",
+          "month": "2022-04",
+          "old_cell": "EN42",
+          "old_value": 2240,
+          "current_cell": "I42",
+          "current_value": 2240,
+          "difference": 0,
+          "current_openxml_value": "2240"
+        },
+        {
+          "metric": "placements",
+          "occupation": "保安職業従事者",
+          "month": "2022-05",
+          "old_cell": "EO42",
+          "old_value": 2088,
+          "current_cell": "J42",
+          "current_value": 2088,
+          "difference": 0,
+          "current_openxml_value": "2088"
+        },
+        {
+          "metric": "placements",
+          "occupation": "保安職業従事者",
+          "month": "2022-06",
+          "old_cell": "EP42",
+          "old_value": 2308,
+          "current_cell": "K42",
+          "current_value": 2308,
+          "difference": 0,
+          "current_openxml_value": "2308"
+        },
+        {
+          "metric": "placements",
+          "occupation": "保安職業従事者",
+          "month": "2022-07",
+          "old_cell": "EQ42",
+          "old_value": 1853,
+          "current_cell": "L42",
+          "current_value": 1853,
+          "difference": 0,
+          "current_openxml_value": "1853"
+        },
+        {
+          "metric": "placements",
+          "occupation": "保安職業従事者",
+          "month": "2022-08",
+          "old_cell": "ER42",
+          "old_value": 1867,
+          "current_cell": "M42",
+          "current_value": 1867,
+          "difference": 0,
+          "current_openxml_value": "1867"
+        },
+        {
+          "metric": "placements",
+          "occupation": "保安職業従事者",
+          "month": "2022-09",
+          "old_cell": "ES42",
+          "old_value": 1927,
+          "current_cell": "N42",
+          "current_value": 1927,
+          "difference": 0,
+          "current_openxml_value": "1927"
+        },
+        {
+          "metric": "placements",
+          "occupation": "保安職業従事者",
+          "month": "2022-10",
+          "old_cell": "ET42",
+          "old_value": 1919,
+          "current_cell": "O42",
+          "current_value": 1919,
+          "difference": 0,
+          "current_openxml_value": "1919"
+        },
+        {
+          "metric": "placements",
+          "occupation": "保安職業従事者",
+          "month": "2022-11",
+          "old_cell": "EU42",
+          "old_value": 2075,
+          "current_cell": "P42",
+          "current_value": 2075,
+          "difference": 0,
+          "current_openxml_value": "2075"
+        },
+        {
+          "metric": "placements",
+          "occupation": "保安職業従事者",
+          "month": "2022-12",
+          "old_cell": "EV42",
+          "old_value": 1626,
+          "current_cell": "Q42",
+          "current_value": 1626,
+          "difference": 0,
+          "current_openxml_value": "1626"
+        },
+        {
+          "metric": "placements",
+          "occupation": "保安職業従事者",
+          "month": "2023-01",
+          "old_cell": "EW42",
+          "old_value": 1544,
+          "current_cell": "R42",
+          "current_value": 1544,
+          "difference": 0,
+          "current_openxml_value": "1544"
+        },
+        {
+          "metric": "placements",
+          "occupation": "保安職業従事者",
+          "month": "2023-02",
+          "old_cell": "EX42",
+          "old_value": 1907,
+          "current_cell": "S42",
+          "current_value": 1907,
+          "difference": 0,
+          "current_openxml_value": "1907"
+        },
+        {
+          "metric": "placements",
+          "occupation": "保安職業従事者",
+          "month": "2023-03",
+          "old_cell": "EY42",
+          "old_value": 2731,
+          "current_cell": "T42",
+          "current_value": 2731,
+          "difference": 0,
+          "current_openxml_value": "2731"
+        }
+      ]
+    },
+    "source_receipt": {
+      "url": "https://www.e-stat.go.jp/stat-search/file-download?fileKind=0&statInfId=000040519001",
+      "retrieval_started_at": "2026-11-01T04:00:59.708042+00:00",
+      "status": 200,
+      "bytes": 663169,
+      "sha256": "a51d976535ecbb9dfe0e77e5a2f4d23d581eccea05a45303d68f9c5d9fe5ddc1",
+      "content_type": "application/octet-stream",
+      "retrieval_finished_at": "2026-11-01T04:01:08.672903+00:00"
+    },
+    "supersedes_limit": "Current monthly values and current original workbook missing in prior version; now recovered with original SHA identical. Formal crosswalk remains unresolved."
+  },
+  "growth_promoted": false
+}

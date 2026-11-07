@@ -1,0 +1,39 @@
+{
+  "date_jst": "2026-10-30",
+  "checked_at_utc": "2026-10-29T18:34:55.914193+00:00",
+  "tests": 8,
+  "failures": 0,
+  "errors": 0,
+  "classification": {
+    "free": {
+      "status": "missing",
+      "observed_count": null,
+      "reason": "URLError(OSError('Tunnel connection failed: 403 Forbidden'))"
+    },
+    "grossing": {
+      "status": "missing",
+      "observed_count": null,
+      "reason": "URLError(ConnectionResetError(104, 'Connection reset by peer'))"
+    },
+    "paid": {
+      "status": "missing",
+      "observed_count": null,
+      "reason": "URLError(ConnectionRefusedError(111, 'Connection refused'))"
+    }
+  },
+  "counts_semantics": "null means missing, never zero ranks or zero market demand",
+  "previous_actual_dates": 15,
+  "previous_consecutive_days_through_2026_10_29": 14,
+  "current_day_observed": false,
+  "four_week_eligible": false,
+  "external_requests_this_validation": 0,
+  "input_sha256": {
+    "apple-paid-attempt-2026-10-30.json": "0ae3437288cc2b572f44e63a3d0cb70e5a635176fcdc3a059b929e10b73966be",
+    "app-ranks-2026-10-30.compact.json": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+    "source-ledger-and-resume.json": "fb15291e8c03c3a33bc5712d73afca7b871defa0552e068a954b7a8014b33334",
+    "apple-free-attempt-2026-10-30.json": "d8d51ced64b147ae4a45b43197baf0d8d4015aaaa58cf5538a04c4ee20eaa1e1",
+    "app-ranks-manifest-2026-10-30.json": "cf153cb3a4fbae28d2c8a4efef5b81095b9d336dec7fcdf43c1a40c7971395e0",
+    "apple-grossing-attempt-2026-10-30.json": "1c7719325937f8549a816dfb7a13a8c3308800750d57266f1c25a76d9b4fc5d7",
+    "evidence-bundle.json": "27af238ab312185a968ad70b2c0d52bda0843210be766875af0a42174ebb390b"
+  }
+}

@@ -1,0 +1,263 @@
+{
+  "code": "792",
+  "item": "高校補習教育・予備校",
+  "population": "national two-or-more-person households including nonpurchasers",
+  "unit": "yen per household",
+  "periods": [
+    "2024-09/2025-08",
+    "2025-09/2026-08"
+  ],
+  "monthly_observations_2019_onward": 92,
+  "annual_sums": [
+    {
+      "year": 2019,
+      "教育": 137938,
+      "補習教育": 31800,
+      "790": 8720,
+      "791": 13900,
+      "792": 9183
+    },
+    {
+      "year": 2020,
+      "教育": 123516,
+      "補習教育": 32349,
+      "790": 9933,
+      "791": 13884,
+      "792": 8531
+    },
+    {
+      "year": 2021,
+      "教育": 142854,
+      "補習教育": 33158,
+      "790": 9805,
+      "791": 12925,
+      "792": 10428
+    },
+    {
+      "year": 2022,
+      "教育": 137262,
+      "補習教育": 34197,
+      "790": 10705,
+      "791": 12629,
+      "792": 10862
+    },
+    {
+      "year": 2023,
+      "教育": 125379,
+      "補習教育": 28759,
+      "790": 9491,
+      "791": 11009,
+      "792": 8260
+    },
+    {
+      "year": 2024,
+      "教育": 140462,
+      "補習教育": 32155,
+      "790": 8294,
+      "791": 13053,
+      "792": 10808
+    },
+    {
+      "year": 2025,
+      "教育": 143269,
+      "補習教育": 31338,
+      "790": 9523,
+      "791": 13274,
+      "792": 8540
+    }
+  ],
+  "rolling12": {
+    "教育": {
+      "prior": 143399,
+      "latest": 130815,
+      "growth_pct": -8.775514473601632
+    },
+    "補習教育": {
+      "prior": 30392,
+      "latest": 32767,
+      "growth_pct": 7.814556462226907
+    },
+    "790": {
+      "prior": 9111,
+      "latest": 10139,
+      "growth_pct": 11.283064427614974
+    },
+    "791": {
+      "prior": 13129,
+      "latest": 12328,
+      "growth_pct": -6.100997791149365
+    },
+    "792": {
+      "prior": 8150,
+      "latest": 10302,
+      "growth_pct": 26.404907975460112
+    }
+  },
+  "monthly_changes": [
+    {
+      "month": "2025-09",
+      "value": 677,
+      "prior": 750,
+      "difference": -73
+    },
+    {
+      "month": "2025-10",
+      "value": 944,
+      "prior": 891,
+      "difference": 53
+    },
+    {
+      "month": "2025-11",
+      "value": 1174,
+      "prior": 1012,
+      "difference": 162
+    },
+    {
+      "month": "2025-12",
+      "value": 1012,
+      "prior": 764,
+      "difference": 248
+    },
+    {
+      "month": "2026-01",
+      "value": 463,
+      "prior": 755,
+      "difference": -292
+    },
+    {
+      "month": "2026-02",
+      "value": 467,
+      "prior": 655,
+      "difference": -188
+    },
+    {
+      "month": "2026-03",
+      "value": 986,
+      "prior": 442,
+      "difference": 544
+    },
+    {
+      "month": "2026-04",
+      "value": 863,
+      "prior": 718,
+      "difference": 145
+    },
+    {
+      "month": "2026-05",
+      "value": 894,
+      "prior": 429,
+      "difference": 465
+    },
+    {
+      "month": "2026-06",
+      "value": 655,
+      "prior": 521,
+      "difference": 134
+    },
+    {
+      "month": "2026-07",
+      "value": 1117,
+      "prior": 558,
+      "difference": 559
+    },
+    {
+      "month": "2026-08",
+      "value": 1050,
+      "prior": 655,
+      "difference": 395
+    }
+  ],
+  "positive_months": 9,
+  "annual_published": {
+    "2019": {
+      "file": "annual2019.xlsx",
+      "row_1based": 518,
+      "raw": [
+        "40101",
+        "2019cyT     ",
+        "            ",
+        "01",
+        "",
+        505.0,
+        "",
+        "792",
+        "高校補習教育・予備校",
+        "",
+        24.0,
+        9181.0,
+        "...",
+        "...",
+        155.0,
+        30.0,
+        14925.0,
+        "...",
+        "...",
+        23.0,
+        8106.0,
+        "..."
+      ],
+      "expenditure_yen": 9181.0,
+      "quantity_raw": "...",
+      "average_price_raw": "..."
+    },
+    "2025": {
+      "file": "annual2025.xlsx",
+      "row_1based": 503,
+      "raw": [
+        "40101",
+        "2025cyT     ",
+        "            ",
+        "01",
+        null,
+        493,
+        null,
+        493,
+        2025000000,
+        6,
+        "792",
+        "高校補習教育・予備校",
+        "円",
+        19,
+        8542,
+        "...",
+        "...",
+        125,
+        21,
+        10078,
+        "...",
+        "..."
+      ],
+      "expenditure_yen": 8542,
+      "quantity_raw": "...",
+      "average_price_raw": "..."
+    }
+  },
+  "single_annual": {
+    "2019": {
+      "file": "single-items2019.xlsx",
+      "item_separately_reported": false,
+      "expenditure_yen": null
+    },
+    "2023": {
+      "file": "single-items2023.xlsx",
+      "item_separately_reported": false,
+      "expenditure_yen": null
+    },
+    "2024": {
+      "file": "single-items2024.xlsx",
+      "item_separately_reported": false,
+      "expenditure_yen": null
+    },
+    "2025": {
+      "file": "single-items2025.xlsx",
+      "item_separately_reported": false,
+      "expenditure_yen": null
+    }
+  },
+  "cpi_exact_match": false,
+  "cpi_reason": "Retail8204 is high-school graduates attending private-university humanities/science prep courses, excluding current high-school tutoring and correspondence/private tutors covered by792. No full-scope deflation.",
+  "quantity_available": false,
+  "purchase_frequency_used": false,
+  "classification2015_inspected": false,
+  "growth_promoted": false
+}

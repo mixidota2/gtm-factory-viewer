@@ -1,0 +1,401 @@
+{
+  "report-ja.md": "# 宝飾品は単価上昇と客数の回復が混在。9月は客数減\n\n４℃などを展開するFDCプロダクツでは、2026年3～9月の既存店売上が前年同期比14.8%増、客数が7.6%増、客単価が6.7%増だった。売上回復をすべて値上げとみなすのも、すべて購入量の増加とみなすのも適切ではない。9月単月は売上9.5%増に対し客数2.7%減、客単価12.5%増へ変わった。これはECを含む一社の既存店の動きで、全国のアクセサリー購入量が増えたという証拠にはしない。[公式9月月次、10月7日公表](https://cdn.clipkit.co/tenants/2641/item_files/assets/000/006/437/original/2609GS.pdf)\n\n## 回復の時期と、含まれないこと\n\n同社の公表月次では、2025年9～12月は毎月客数が前年割れ、2026年1～8月は毎月前年を上回り、9月に再び前年割れとなった。家計と同じ2025年9月～2026年8月の12か月では8か月が前年増だが、月別の客数実数と重みがないため、直近12か月の客数増加率は計算しない。既存店は前年同月に稼働した店舗で、対象は毎月変わる。客数はユニーク購入者数や販売個数と同義とは確認できていない。[前年度月次、4月7日修正版](https://cdn.clipkit.co/tenants/2641/item_files/assets/000/004/962/original/2602GS_rev.1.pdf)\n\n長期の背景も回復という読みを支持する。同社の通期既存店客数前年比は2019年2月期から順に93.1、93.7、78.5、100.3、106.7、95.1、94.1、91.2%。ただし2024年2月期からECを含むため、この倍率をつないで「2019年比の客数」を作らない。2026年2月期の既存店売上は5.9%減、客数8.8%減、客単価3.3%増だった。[2026年2月期Fact Book、4月10日公表、9頁](https://yondoshi.co.jp/media/works/items/4978/download)\n\n## 価格帯と売り手の違い\n\n2026年3～8月のブランド別では、CANAL４℃の公表客数は26.4%増、販売単価は1.8%減。一方、４℃ファッションジュエリーは客数1.0%増、販売単価15.6%増だった。会社は前者で低価格帯、後者で高価格帯の品揃えを強化したと説明する。会社の説明であって、施策の因果効果を独立に検証したわけではない。販売単価は商品の組み合わせを含むので純粋な物価ではなく、月次の「客単価」とも同じ指標として合算しない。[10月9日決算説明資料、13・42頁](https://cdn.clipkit.co/tenants/2641/item_files/assets/000/006/537/original/20261009_KESSAN.pdf)\n\n別会社のツツミは2025年4月～2026年3月の売上が248.35億円から352.25億円へ41.8%増。直近の2026年4～6月は61.31億円から63.13億円へ3.0%増だった。いずれも全社売上で、確認した決算短信には対応する客数・販売個数がない。前年度の大幅増だけを現在の全国需要へ一般化せず、量の裏付けとしては採用しない。[5月14日通期決算](https://www.tsutsumi.co.jp/ir/finance_results/detail/74?attach=true&browserview=true&fld=file)、[8月7日四半期決算](https://www.tsutsumi.co.jp/ir/finance_results/detail/75?attach=true&browserview=true&fld=file)\n\n矢野経済研究所の自社調査では、2025年の国内宝飾品小売市場は1兆1,741億円、前年比3.8%増。研究所は価格上昇の寄与と客数の伸び悩みを指摘している。ただし無料公表には全国の購入個数や標本数がなく、宝飾時計も含む市場定義で家計928と一致しない。2026年予測は実績に含めない。[調査主体の3月3日公表](https://www.yano.co.jp/press-release/show/press_id/4051)\n\n## 判定と残る条件\n\n**全国アクセサリーの持続的な量の成長には昇格しない。一部チェーンの客数回復と価格帯による違いを、限定された候補として保存する。** 家計928には髪飾り・リボンなども含まれ、宝飾品専門店だけでは範囲が狭い。単身／二人以上、居住者／訪日客、年度／月次の違いも未調整。店舗とECを合わせた既存店客数は得られたが、他社・他品目からの移りや購入個数、全国総額の価格要因は識別できない。\n\n直近12か月の単純平均を客数の年成長率にせず、月別の方向、会社公表の累計、前年通期を別々に保存した。古い通期の減少だけで新しい回復を否定せず、同時に9月の減少も残す。これにより、価格だけという説明と全国の量の成長という説明の両方を止めた。\n\n## 保存と検証\n\n9資料（2社と1調査主体、日付照合用索引を含む）の原本バイト列とSHA256、URL、公表日、対象期間、取得日時を保存。4℃の資料同士や、4℃資料が引用する矢野調査を独立した証拠として二重に数えていない。9月・2月月次、Fact Book、ブランド別表、ツツミ四半期の関連頁を画像とテキストで確認。13か月の客数×客単価と売上比率は、公表丸め範囲内で整合。全資料全文の精読や外部の独立監査を主張しない。\n\n実作業：2026年10月27日18:07～18:13 UTC（10月28日03:07～03:13 JST）。正本由来の履歴照合、公開原典検索、原本取得、表と定義の目視、計算・保存。原本取得は各URL一回、HTTP失敗なし。タグURLの一件は工具のaccessibility errorとして終了し、公式索引の実リンクから進めた。",
+  "source-ledger.json": {
+    "sources": [
+      {
+        "url": "https://yondoshi.co.jp/media/works/items/4978/download",
+        "retrieval_started_at": "2026-10-27T18:08:36.124196+00:00",
+        "attempts": 1,
+        "status": 200,
+        "final_url": "https://yondoshi.co.jp/media/works/items/4978/download",
+        "bytes": 2970479,
+        "sha256": "599dfd8ba6997e744689a23ec0eefd2a18fe13956c72915e3be829e7dfff0c25",
+        "file": "yondoshi-factbook-2026.pdf",
+        "retrieval_finished_at": "2026-10-27T18:08:42.205433+00:00",
+        "id": "fdc-annual",
+        "publication_date": "2026-04-10",
+        "date_basis": "official IR index",
+        "observed_period": "Fiscal years ending February2019–2026",
+        "relevant_pages": [
+          11
+        ],
+        "visual_pages": [
+          11
+        ],
+        "scope": "FDC Products consolidated; existing-store customer and spend includeEC fromFY2024/2, not same denominator before. Annual table, not unit counts.",
+        "retrieval_date_jst": "2026-10-28",
+        "read_status": "relevant_tables_and_definitions_read_not_whole_document_claim"
+      },
+      {
+        "url": "https://cdn.clipkit.co/tenants/2641/item_files/assets/000/006/537/original/20261009_KESSAN.pdf",
+        "retrieval_started_at": "2026-10-27T18:09:08.895094+00:00",
+        "attempts": 1,
+        "status": 200,
+        "final_url": "https://cdn.clipkit.co/tenants/2641/item_files/assets/000/006/537/original/20261009_KESSAN.pdf",
+        "bytes": 8934869,
+        "sha256": "b1bc08e8a3def98ba74848c166839665e256167f101ac35c7e10776df4c59daa",
+        "file": "yondoshi-2027h1.pdf",
+        "retrieval_finished_at": "2026-10-27T18:09:14.574887+00:00",
+        "id": "fdc-h1",
+        "publication_date": "2026-10-09",
+        "date_basis": "official IR index; downloaded current file Last-ModifiedOct13 retained separately",
+        "observed_period": "2026-03-01/2026-08-31 and comparators",
+        "relevant_pages": [
+          13,
+          41
+        ],
+        "visual_pages": [
+          13,
+          41
+        ],
+        "scope": "FDC brand and channel segments; customer versus unit selling price distinct, no sales factor identity forced across differently scoped rows.",
+        "retrieval_date_jst": "2026-10-28",
+        "read_status": "relevant_tables_and_definitions_read_not_whole_document_claim"
+      },
+      {
+        "url": "https://cdn.clipkit.co/tenants/2641/item_files/assets/000/006/568/original/20261009_KESSAN_QA.pdf",
+        "retrieval_started_at": "2026-10-27T18:09:14.574949+00:00",
+        "attempts": 1,
+        "status": 200,
+        "final_url": "https://cdn.clipkit.co/tenants/2641/item_files/assets/000/006/568/original/20261009_KESSAN_QA.pdf",
+        "bytes": 222222,
+        "sha256": "2ab9c79ca177b070b414fa8f5353cc0174b71b166f7d1bf770ab1ac3cdcd7885",
+        "file": "yondoshi-2027h1-qa.pdf",
+        "retrieval_finished_at": "2026-10-27T18:09:18.395126+00:00",
+        "id": "fdc-h1-qa",
+        "publication_date": "2026-10-09",
+        "date_basis": "official IR index and meeting date inPDF",
+        "observed_period": "2026-03/08",
+        "relevant_pages": [
+          1
+        ],
+        "visual_pages": [],
+        "scope": "Company explanations, not independent causality evidence. RASIN is reused luxury watches; excluded from accessory quantity corroboration.",
+        "retrieval_date_jst": "2026-10-28",
+        "read_status": "relevant_tables_and_definitions_read_not_whole_document_claim"
+      },
+      {
+        "url": "https://cdn.clipkit.co/tenants/2641/item_files/assets/000/006/437/original/2609GS.pdf",
+        "retrieval_started_at": "2026-10-27T18:09:18.395161+00:00",
+        "attempts": 1,
+        "status": 200,
+        "final_url": "https://cdn.clipkit.co/tenants/2641/item_files/assets/000/006/437/original/2609GS.pdf",
+        "bytes": 112713,
+        "sha256": "cf95c4ccb8dc4e34423767a605bbf06c46234333cb9fb3f82b6262f84e03008e",
+        "file": "yondoshi-sep2026.pdf",
+        "retrieval_finished_at": "2026-10-27T18:09:28.900414+00:00",
+        "id": "fdc-monthly-current",
+        "publication_date": "2026-10-07",
+        "date_basis": "PDF page1 and officialindex",
+        "observed_period": "2026-03/09; cumulativeMar–Sep",
+        "relevant_pages": [
+          1
+        ],
+        "visual_pages": [
+          1
+        ],
+        "scope": "FDC4℃jewelry,bridal,CANAL; preliminary; EC included; same-store means active in prior corresponding month, changing cohort.",
+        "retrieval_date_jst": "2026-10-28",
+        "read_status": "relevant_tables_and_definitions_read_not_whole_document_claim"
+      },
+      {
+        "url": "https://www.tsutsumi.co.jp/ir/finance_results/detail/75?attach=true&browserview=true&fld=file",
+        "retrieval_started_at": "2026-10-27T18:09:28.900450+00:00",
+        "attempts": 1,
+        "status": 200,
+        "final_url": "https://www.tsutsumi.co.jp/ir/finance_results/detail/75?attach=true&browserview=true&fld=file",
+        "bytes": 283153,
+        "sha256": "0a9fcdc87082df046b9df242c93e3d2a58a946c78b647f890016c95d5c81bb07",
+        "file": "tsutsumi-2027q1.pdf",
+        "retrieval_finished_at": "2026-10-27T18:09:34.830217+00:00",
+        "id": "tsutsumi-current",
+        "publication_date": "2026-08-07",
+        "date_basis": "PDF page1",
+        "observed_period": "2026-04-01/2026-06-30",
+        "relevant_pages": [
+          1,
+          4,
+          6,
+          7
+        ],
+        "visual_pages": [
+          4
+        ],
+        "scope": "Nonconsolidated total company sales; no customer or unit series; not same-store; jewelry not national accessories.",
+        "retrieval_date_jst": "2026-10-28",
+        "read_status": "relevant_tables_and_definitions_read_not_whole_document_claim"
+      },
+      {
+        "url": "https://www.tsutsumi.co.jp/ir/finance_results/detail/74?attach=true&browserview=true&fld=file",
+        "retrieval_started_at": "2026-10-27T18:09:34.830254+00:00",
+        "attempts": 1,
+        "status": 200,
+        "final_url": "https://www.tsutsumi.co.jp/ir/finance_results/detail/74?attach=true&browserview=true&fld=file",
+        "bytes": 309080,
+        "sha256": "6216cd0d0e5b4f9ba655336951076c0c20c6a19eb5b38eae891e5f038c1da29d",
+        "file": "tsutsumi-2026fy.pdf",
+        "retrieval_finished_at": "2026-10-27T18:09:38.912502+00:00",
+        "id": "tsutsumi-annual",
+        "publication_date": "2026-05-14",
+        "date_basis": "PDF page1",
+        "observed_period": "2025-04-01/2026-03-31",
+        "relevant_pages": [
+          1,
+          4
+        ],
+        "visual_pages": [],
+        "scope": "Nonconsolidated total company sales; units/customer growth not disclosed in inspected filing.",
+        "retrieval_date_jst": "2026-10-28",
+        "read_status": "relevant_tables_and_definitions_read_not_whole_document_claim"
+      },
+      {
+        "url": "https://cdn.clipkit.co/tenants/2641/item_files/assets/000/004/962/original/2602GS_rev.1.pdf",
+        "retrieval_started_at": "2026-10-27T18:10:07.239076+00:00",
+        "attempts": 1,
+        "status": 200,
+        "final_url": "https://cdn.clipkit.co/tenants/2641/item_files/assets/000/004/962/original/2602GS_rev.1.pdf",
+        "bytes": 120891,
+        "sha256": "e625c5aa1184c6e9a7914b3d73adf71229ebb7897fef286a8dbf8a3f60f4d658",
+        "file": "yondoshi-feb2026-revised.pdf",
+        "retrieval_finished_at": "2026-10-27T18:10:11.999156+00:00",
+        "id": "fdc-monthly-prior",
+        "publication_date": "2026-04-07",
+        "date_basis": "PDF revised date, originalpublicationdate not established",
+        "observed_period": "2025-03/2026-02",
+        "relevant_pages": [
+          1
+        ],
+        "visual_pages": [
+          1
+        ],
+        "scope": "Revised store classification only; PDF states no sales-YoY effect. Same-store/EC definitions same as current.",
+        "retrieval_date_jst": "2026-10-28",
+        "read_status": "relevant_tables_and_definitions_read_not_whole_document_claim"
+      },
+      {
+        "url": "https://www.yano.co.jp/press-release/show/press_id/4051",
+        "retrieval_started_at": "2026-10-27T18:10:11.999198+00:00",
+        "attempts": 1,
+        "status": 200,
+        "final_url": "https://www.yano.co.jp/press-release/show/press_id/4051",
+        "bytes": 49239,
+        "sha256": "c740c1889568ef37610ecd5e45b3d3b8707f8c2f9b697c77897c81bc60f7f1d7",
+        "file": "yano2025-market.html",
+        "retrieval_finished_at": "2026-10-27T18:10:18.610966+00:00",
+        "id": "yano-market",
+        "publication_date": "2026-03-03",
+        "date_basis": "publisher ownreleaseNo4051",
+        "observed_period": "2025-01/12 survey;2026forecast excluded",
+        "scope": "Researcher own survey using interviews/telephone/postal; retail monetary market incl jewelry watches and some silver/semiprecious. Sample count and quantity totals not reported infree release. Not household928 matched quantity.",
+        "retrieval_date_jst": "2026-10-28",
+        "read_status": "relevant_tables_and_definitions_read_not_whole_document_claim"
+      },
+      {
+        "url": "https://yondoshi.co.jp/ir/library",
+        "retrieval_started_at": "2026-10-27T18:10:18.610997+00:00",
+        "attempts": 1,
+        "status": 200,
+        "final_url": "https://yondoshi.co.jp/ir/library",
+        "bytes": 736109,
+        "sha256": "50509d56cd001b1ad6499e22899a2676e033ef3e4345ea131fd2a7ba84feaf21",
+        "file": "yondoshi-ir-index.html",
+        "retrieval_finished_at": "2026-10-27T18:10:23.381469+00:00",
+        "id": "yondoshi-index",
+        "publication_date": null,
+        "date_basis": "Not a dated release; dates for linked files inspected",
+        "observed_period": "Index snapshot retrieved2026-10-27UTC",
+        "scope": "Publication date/link verification only",
+        "retrieval_date_jst": "2026-10-28",
+        "read_status": "relevant_tables_and_definitions_read_not_whole_document_claim"
+      }
+    ],
+    "failed_or_incomplete": [
+      {
+        "action": "web.open",
+        "target": "https://yondoshi.co.jp/tags/月次売上/",
+        "result": "Tool accessibility error; guessedtag notused again. Official linkedIRlibrary used after discovery; not denialbypass."
+      },
+      {
+        "action": "webPDF screenshot",
+        "target": "factbookp11 and tsutsumiannualp4",
+        "result": "No image content surfaced through initial text-only tool forwarding; not claimedvisual. Local pdftoppm renders obtained for relevant tables later."
+      }
+    ],
+    "tool_limits": "Data shared-reference skill resource could notbe resolved; no claimthose files read."
+  },
+  "calculations.json": {
+    "date_jst": "2026-10-28",
+    "unit": "index prior corresponding period=100",
+    "monthly_identity_checks": [
+      {
+        "month": "2025-09",
+        "customer_times_average_index": 89.8752,
+        "reported_sales_index": 89.9,
+        "difference_percentage_points": -0.0248,
+        "rounding_interval_overlap": true
+      },
+      {
+        "month": "2025-10",
+        "customer_times_average_index": 96.0057,
+        "reported_sales_index": 96.0,
+        "difference_percentage_points": 0.0057,
+        "rounding_interval_overlap": true
+      },
+      {
+        "month": "2025-11",
+        "customer_times_average_index": 97.945,
+        "reported_sales_index": 97.9,
+        "difference_percentage_points": 0.045,
+        "rounding_interval_overlap": true
+      },
+      {
+        "month": "2025-12",
+        "customer_times_average_index": 94.2872,
+        "reported_sales_index": 94.3,
+        "difference_percentage_points": -0.0128,
+        "rounding_interval_overlap": true
+      },
+      {
+        "month": "2026-01",
+        "customer_times_average_index": 113.742,
+        "reported_sales_index": 113.7,
+        "difference_percentage_points": 0.042,
+        "rounding_interval_overlap": true
+      },
+      {
+        "month": "2026-02",
+        "customer_times_average_index": 110.3925,
+        "reported_sales_index": 110.5,
+        "difference_percentage_points": -0.1075,
+        "rounding_interval_overlap": true
+      },
+      {
+        "month": "2026-03",
+        "customer_times_average_index": 111.4112,
+        "reported_sales_index": 111.4,
+        "difference_percentage_points": 0.0112,
+        "rounding_interval_overlap": true
+      },
+      {
+        "month": "2026-04",
+        "customer_times_average_index": 112.0999,
+        "reported_sales_index": 112.1,
+        "difference_percentage_points": -0.0001,
+        "rounding_interval_overlap": true
+      },
+      {
+        "month": "2026-05",
+        "customer_times_average_index": 118.5392,
+        "reported_sales_index": 118.5,
+        "difference_percentage_points": 0.0392,
+        "rounding_interval_overlap": true
+      },
+      {
+        "month": "2026-06",
+        "customer_times_average_index": 110.8784,
+        "reported_sales_index": 110.8,
+        "difference_percentage_points": 0.0784,
+        "rounding_interval_overlap": true
+      },
+      {
+        "month": "2026-07",
+        "customer_times_average_index": 120.4464,
+        "reported_sales_index": 120.5,
+        "difference_percentage_points": -0.0536,
+        "rounding_interval_overlap": true
+      },
+      {
+        "month": "2026-08",
+        "customer_times_average_index": 120.657,
+        "reported_sales_index": 120.7,
+        "difference_percentage_points": -0.043,
+        "rounding_interval_overlap": true
+      },
+      {
+        "month": "2026-09",
+        "customer_times_average_index": 109.4625,
+        "reported_sales_index": 109.5,
+        "difference_percentage_points": -0.0375,
+        "rounding_interval_overlap": true
+      }
+    ],
+    "mar_sep2026_reported_cumulative": {
+      "sales": 114.8,
+      "customers": 107.6,
+      "spend_per_customer": 106.7,
+      "customer_times_spend_index": 114.8092
+    },
+    "matched_household12months": "2025-09/2026-08",
+    "matched_month_direction_only": {
+      "customer_yoy_positive_months": 8,
+      "nonpositive_months": 4,
+      "count": 12,
+      "no_rolling12_yoy_inferred": true,
+      "reason": "Absolute monthly customers/weights and fixed cohort not published in these sources."
+    },
+    "tsutsumi": {
+      "fy2026_sales_million_yen": [
+        24835,
+        35225
+      ],
+      "self_calculated_growth_pct": 41.83611838131669,
+      "q1_2027_sales_million_yen": [
+        6131,
+        6313
+      ],
+      "q1_self_calculated_growth_pct": 2.9685206328494536,
+      "published_growth_pct": [
+        41.8,
+        3.0
+      ],
+      "quantity": null
+    },
+    "national_growth_promoted": false,
+    "period_or_population_combination_not_performed": true
+  },
+  "validation.json": {
+    "status": "bounded_complete_candidate_only",
+    "source_count": 9,
+    "raw_sha256_verified": true,
+    "monthly_rows": 13,
+    "annual_rows": 8,
+    "visual_source_checks": [
+      "factbookPDFp11annualtables",
+      "SepmonthlyPDFp1tableanddefinitions",
+      "H1PDFp13andp41brandcustomer/price",
+      "FebrevisedmonthlyPDFp1tableanddefinitions",
+      "TsutsumiQ1PDFp4companysales"
+    ],
+    "limits": [
+      "No nationalaccessoriesquantity",
+      "No fixedcohort2019chaincustomergrowth",
+      "No matchedrolling12customertotal",
+      "No pureCPIpricefromunitvalues",
+      "No all-channelcausalsubstitution",
+      "Yano2026forecastnotobserved"
+    ],
+    "no_duplicate_sources_counted_as_independent": [
+      "4℃monthly/factbook/deck areonecompany",
+      "4℃citationofYano notsecondmarketsurvey"
+    ]
+  },
+  "fdc-monthly.csv": "month,all_store_sales_yoy_index,existing_sales_yoy_index,existing_customers_yoy_index,existing_spend_per_customer_yoy_index\n2025-09,86.8,89.9,90.6,99.2\n2025-10,93.3,96.0,93.3,102.9\n2025-11,94.2,97.9,95.0,103.1\n2025-12,92.1,94.3,90.4,104.3\n2026-01,107.3,113.7,106.8,106.5\n2026-02,106.5,110.5,107.7,102.5\n2026-03,107.9,111.4,108.8,102.4\n2026-04,108.8,112.1,111.1,100.9\n2026-05,114.6,118.5,111.2,106.6\n2026-06,107.2,110.8,105.8,104.8\n2026-07,115.4,120.5,110.4,109.1\n2026-08,115.8,120.7,108.7,111.0\n2026-09,105.2,109.5,97.3,112.5",
+  "fdc-annual.csv": "fiscal_year_end,all_store_sales_yoy_index,existing_sales_yoy_index,existing_customers_yoy_index,existing_spend_per_customer_yoy_index,yearend_jewelry_store_count\n2019-02,93.7,95.5,93.1,101.9,196\n2020-02,91.4,95.7,93.7,101.8,186\n2021-02,72.2,79.7,78.5,97.6,175\n2022-02,89.2,91.6,100.3,90.4,171\n2023-02,99.3,102.5,106.7,94.6,151\n2024-02,90.2,95.5,95.1,100.4,138\n2025-02,90.8,95.7,94.1,101.6,125\n2026-02,90.0,94.1,91.2,103.3,111",
+  "search-history.jsonl": [
+    {
+      "date_jst": "2026-10-28",
+      "stream": "sellers",
+      "queries": [
+        "site.as-estelle.co.jp 2026 2027 既存店 客数 客単価 ジュエリー",
+        "site.yondoshi.co.jp 2026 ジュエリー 客数 客単価 月次",
+        "site.tsutsumi.co.jp 2026 9月 月次 売上",
+        "site.yondoshi.co.jp 2026年9月 客数",
+        "site.yondoshi.co.jp 2027年２月期 第２四半期"
+      ],
+      "secondary_sources": "Discovery only; financialfilings/edinetdb/envalith not used as numerical evidence",
+      "primary_sources": "source-ledger.json",
+      "result": "FDC chain customer recovery Mar–Sep with September decline; spending-per-customer and product mix material; Tsutsumi sales only, national jewelry monetary market price-led survey; no national928quantitypromotion",
+      "repeated_known_denials": false
+    }
+  ]
+}

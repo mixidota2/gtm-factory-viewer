@@ -1,0 +1,76 @@
+{
+  "as_of": "2026-10-08",
+  "evidence_quality": "Historical synthesis. Interpretations are provisional; service adoption, viewing time, financial outlay and proxy ranks are different measures.",
+  "findings": [
+    {
+      "topic": "メディア利用率",
+      "TikTok_2020_2025_pct": [
+        14.9,
+        36.7
+      ],
+      "Instagram_2020_2025_pct": [
+        36.1,
+        54.8
+      ],
+      "catchup_tv_2020_2025_pct": [
+        19.8,
+        43.1
+      ],
+      "limitation": "13〜79歳のサービス利用率であり、短い動画の視聴時間の増加そのものではない。"
+    },
+    {
+      "topic": "ケアプラン連携",
+      "finding": "導入事業所が約1年で5%台から半分超へ増加という当時の調査解釈。実際の交換件数は未確認。"
+    },
+    {
+      "topic": "警備",
+      "sales2021_2024_growth_pct": 7.6,
+      "price_adjusted_sales_growth_pct_approx": 6,
+      "homes_million_2019_2025": [
+        1.61,
+        1.95
+      ],
+      "homes_growth_pct_approx": 21,
+      "all_facilities_growth_pct_since2021_approx": 8,
+      "security_vacancies_FY2022_FY2025_pct": 13,
+      "security_placements_FY2022_FY2025_pct": 15,
+      "all_jobs_vacancies_same_period_pct": -8.6,
+      "limitation": "異なる統計の範囲・期間を一つの成長率へ合成しない。保安職業と警備サービス顧客需要は同一ではない。"
+    },
+    {
+      "topic": "見逃し配信",
+      "TVer_monthly_browsers_million_2025_12": 44.6,
+      "TVer_year_on_year_ratio_approx": 1.14,
+      "streaming_tv_advertising_100million_yen_2023_2025": [
+        443,
+        805
+      ],
+      "limitation": "ブラウザ数は重複のない利用者数ではない。見逃しが視聴理由の約8割という調査解釈は、需要全体の成長と視聴時間・経路の移動を分ける材料。"
+    },
+    {
+      "topic": "カーシェア",
+      "Times_members_million_2026_07": 4.057,
+      "members_yoy_pct": 18,
+      "mobility_revenue_growth_2025_11_to_2026_07_pct": 12.3,
+      "fleet_growth_pct_approx": 13,
+      "limitation": "登録・車両台数・売上は利用回数ではない。後日の家計調査更新を参照。"
+    },
+    {
+      "topic": "反証・候補",
+      "finding": "冷凍食品の2022年の山、教習所の制度変更、喫茶店の2019年対比客数8〜9割、家計簿行数の増加を反証として残した。スマートウォッチ利用率5.9→15.7%は広い家計分類764と接続できない。タクシー・トラックの就職減は求人増を需要量へ読み替えることへの注意。"
+    },
+    {
+      "topic": "比較上の修正",
+      "finding": "当時の総括には塾・遊園地・フィットネスを一括して値上げ寄与とする表現があるが、同時点の別の研究記録ではフィットネス利用者が2.8%増とされる。一括の数量停滞認定を採用せず、個別の指標・期間を再確認する。"
+    }
+  ],
+  "source_families": [
+    "総務省 情報通信メディアの利用時間と情報行動に関する調査",
+    "警察庁 警備業の概況",
+    "総務省 経済構造実態調査",
+    "厚生労働省 一般職業紹介状況",
+    "パーク24 決算資料",
+    "電通 日本の広告費"
+  ],
+  "citation_limit": "Exact primary-source URLs were not present for every historical claim. Source families are preserved, not substituted with invented links."
+}

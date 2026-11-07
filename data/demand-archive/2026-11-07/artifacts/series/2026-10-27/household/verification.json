@@ -1,0 +1,50 @@
+{
+  "status": "PASS",
+  "method": "Separate float CSV resummation versus Decimal source extraction; same operator, not independent agent review",
+  "checks": [
+    "rolling12:保健医療",
+    "rolling12:保健医療サービス",
+    "rolling12:720",
+    "rolling12:722",
+    "rolling12:723",
+    "rolling12:724",
+    "rolling12:728",
+    "rolling12:727",
+    "rolling12:729",
+    "rolling12:cpi6200",
+    "recent_three_months:保健医療",
+    "recent_three_months:保健医療サービス",
+    "recent_three_months:720",
+    "recent_three_months:722",
+    "recent_three_months:723",
+    "recent_three_months:724",
+    "recent_three_months:728",
+    "recent_three_months:727",
+    "recent_three_months:729",
+    "recent_three_months:cpi6200",
+    "year_to_august:保健医療",
+    "year_to_august:保健医療サービス",
+    "year_to_august:720",
+    "year_to_august:722",
+    "year_to_august:723",
+    "year_to_august:724",
+    "year_to_august:728",
+    "year_to_august:727",
+    "year_to_august:729",
+    "year_to_august:cpi6200",
+    "92unique_months",
+    "headline_sums",
+    "seven_annual_sums",
+    "annual_source2019_2025_crosscheck"
+  ],
+  "annual2019_2025_source_differences": [
+    0,
+    0
+  ],
+  "limitations": [
+    "No sampling significance test",
+    "No matched dental-only quantity or CPI",
+    "Frequency not visits; current24months not obtained",
+    "Single current12months unavailable"
+  ]
+}

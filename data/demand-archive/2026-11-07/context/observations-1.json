@@ -1,0 +1,550 @@
+{
+  "historical_as_of": "2026-10-08",
+  "current_market_claims_verified": false,
+  "new_observations": [
+    {
+      "id": "2026-10-16-rental",
+      "classification": "candidate",
+      "population": "two_or_more_households",
+      "target_period": "2025-09/2026-08",
+      "nominal_rolling12_yen": 393.75,
+      "prior_nominal_rolling12_yen": 372.3333333333333,
+      "nominal_growth_pct": 5.75201432408236,
+      "proxy_real_growth_pct": 5.4661256298441,
+      "cpi_caveat": "rental1000cc24h proxy, not carshare-specific volume",
+      "single_annual_2019_2025_yen": [
+        2401,
+        2186
+      ],
+      "operator_period": "2025-11/2026-07",
+      "operator_usage_per_car_month": [
+        32.6,
+        30.6
+      ],
+      "recent_operator_fees_yoy_pct": 99.6
+    },
+    {
+      "id": "2026-10-16-media-time",
+      "classification": "confirmed_existing_theme_evidence",
+      "target_period": "FY2024/FY2025",
+      "population": "all13-79including_nonusers",
+      "weekday_minutes": [
+        68.97,
+        76.12
+      ],
+      "holiday_minutes": [
+        97.94,
+        104.58
+      ],
+      "caveat": "all internet video, not short-video or TVer individually"
+    },
+    {
+      "id": "2026-10-16-seller-crosscheck",
+      "classification": "no_new_confirmed_growth",
+      "services_latest": "2026-07",
+      "ranking_rows": 34,
+      "candidates": [
+        "coastal freight single-month volume"
+      ],
+      "stopped": [
+        "cafe sales-only growth",
+        "car-care total-sales growth"
+      ],
+      "caveat": "lodging survey redesign; differing populations; no employee-as-user inference"
+    },
+    {
+      "id": "2026-10-16-household-top-rank-audit",
+      "classification": "no_new_growth_promotion",
+      "annual_periods": [
+        2019,
+        2023,
+        2024,
+        2025
+      ],
+      "monthly_period": "2025-09/2026-08 vs 2024-09/2025-08",
+      "stopped": [
+        "wedding rank treated as stable growth",
+        "coffee nominal growth treated as annual volume growth",
+        "rice nominal growth treated as annual volume growth"
+      ],
+      "candidates": [
+        "games: quantity rebound, price/mix and low-base caveats",
+        "game software: recurring nominal rise, broad category pricing unresolved",
+        "lighting: nominal rise, quantity unresolved"
+      ],
+      "all_398_audited": false
+    },
+    {
+      "id": "2026-10-16-coffee-latest12",
+      "classification": "nominal_growth_not_large_quantity_growth",
+      "population": "national_two_or_more_person_households",
+      "periods": [
+        "2024-09/2025-08",
+        "2025-09/2026-08"
+      ],
+      "quantity_g": [
+        2494,
+        2501
+      ],
+      "expenditure_yen": [
+        8696,
+        11088
+      ],
+      "quantity_pct": 0.2806736166800272,
+      "unit_value_yen_per100g": [
+        348.6768243785084,
+        443.342662934826
+      ],
+      "caveat": "unit value includes quality/product mix; same-scope seller volume missing",
+      "independent_recalculation": true
+    },
+    {
+      "id": "2026-10-19-foreign-package-travel",
+      "classification": "real_spending_recovery_candidate_volume_unconfirmed",
+      "period": "2025-09/2026-08 vs 2024-09/2025-08",
+      "household_nominal_yen": [
+        9238,
+        13386
+      ],
+      "growth_pct": 44.901493829833306,
+      "current_cpi_proxy_period": "January-August2025/2026",
+      "current_cpi_proxy_growth_pct": 49.25098661643983,
+      "seller_period": "July2026",
+      "seller_persons": [
+        58895,
+        54637
+      ],
+      "decision": "No map growth promotion; differing scopes, postpandemic recovery, single-household caveat"
+    },
+    {
+      "id": "2026-10-19-foreign-package-cpi-completed",
+      "classification": "real_spending_recovery_candidate_volume_unconfirmed",
+      "periods": [
+        "2024-09/2025-08",
+        "2025-09/2026-08"
+      ],
+      "base": 2025,
+      "real_proxy_yen": [
+        9053.590083926676,
+        13179.107439142907
+      ],
+      "growth_pct": 45.56775065993415,
+      "independently_verified": true,
+      "caveat": "Self-calculated real-spending proxy; not official CPI rate or trip quantity. No map promotion."
+    },
+    {
+      "id": "2026-10-17-game-consoles",
+      "classification": "quantity_rebound_candidate_not_sustained_growth",
+      "population": "national_two_or_more_households",
+      "periods": [
+        "2024-09/2025-08",
+        "2025-09/2026-08"
+      ],
+      "quantity_per_household": [
+        0.033,
+        0.046
+      ],
+      "expenditure_yen": [
+        1212,
+        1987
+      ],
+      "recent_three_month_quantity": [
+        0.015,
+        0.003
+      ],
+      "caveat": "Published monthly quantity rounded; hypothetical rounding intervals are not sampling confidence. Launch cycle, single-household and matched seller scope unresolved.",
+      "restoration_status": "restored_in_same_CAS_commit"
+    },
+    {
+      "id": "2026-10-17-uk-video",
+      "classification": "direction_supported_precise_change_withheld",
+      "target_period": "2024/2025",
+      "population": "UKall4plus_in_home",
+      "displayed_minutes": [
+        40,
+        42
+      ],
+      "caveat": "Body+3 may reflect rounding. Total267vs263 unresolved. Text-extraction review only.",
+      "restoration_status": "restored_in_same_CAS_commit"
+    },
+    {
+      "id": "2026-10-17-spain-hotel",
+      "classification": "latest_official_month_modest_quantity_growth",
+      "target_period": "2025-08/2026-08",
+      "overnight_stays": [
+        48135610,
+        48798426
+      ],
+      "adr_eur": [
+        155.52,
+        166.9
+      ],
+      "caveat": "Unit revenue not pure price; different estimator occupancy cannot support exact decomposition;2025long-run linkage unverified.",
+      "restoration_status": "restored_in_same_CAS_commit"
+    },
+    {
+      "id": "2026-10-20-game-software-scope-audit",
+      "classification": "nominal_spending_increase_quantity_unconfirmed",
+      "code": "835",
+      "population": "national_two_or_more_person_households",
+      "periods": [
+        "2024-09/2025-08",
+        "2025-09/2026-08"
+      ],
+      "nominal_sums_yen": [
+        2061,
+        3187
+      ],
+      "nominal_growth_pct": 54.63367297428432,
+      "recent_three_months_835_plus_836_sums_yen": [
+        1245,
+        980
+      ],
+      "recent_three_months_835_plus_836_growth_pct": -21.285140562248994,
+      "quantity_available": false,
+      "exact_cpi_match": false,
+      "cpi_scope": "9156Switchbuyouttitles vs835online/addons/peripherals; current8monthspecificationverified",
+      "single_household_835_status": "not_separately_reported_in_examined2019/2025table9; toysaggregatecannotbeallocated",
+      "additional_evidence_needed": "Revisit only with new matched Japan final-consumption quantity or breakdown; wider ranking next unaudited item notebook/paper826. No marketmap promotion."
+    },
+    {
+      "id": "2026-10-20-app-ranks",
+      "classification": "daily_snapshot_not_growth",
+      "counts": {
+        "free": 100,
+        "grossing": 100,
+        "paid": 99
+      },
+      "actual_observation_days": 6,
+      "consecutive_days": 5,
+      "four_week_qualified": false
+    },
+    {
+      "id": "2026-10-20-seller-game-software-partial",
+      "classification": "partial_unadopted",
+      "result": "Nintendo narrow software sell-in growth does not match broad household scope; Famitsu potential-user inclusion inconsistency unresolved; source ledger finalization interrupted."
+    },
+    {
+      "id": "2026-10-20-game-software-bounded-evidence-audit",
+      "classification": "bounded_review_complete_no_growth_promotion",
+      "nintendo_quantity": "Japan packaged and parallel-download software 720→1154万本; excludes download-only titles, DLC and standalone upgrades; includes bundles.",
+      "scope_limit": "Bundle revenue is assigned to hardware; product coverage, quarter and sales stage differ from household 835.",
+      "famitsu_population": "Potential-user inclusion unresolved; do not adopt +3.0% as active-user growth or substitute derived −0.97%.",
+      "unresolved": [
+        "Original exact retrieval times remain unrecoverable from available logs.",
+        "Some auxiliary original source URLs remain unidentified.",
+        "Famitsu potential-user inclusion does not yet support a same-definition population comparison.",
+        "Same-period, same-scope Japan household 835 final-consumption quantity is unverified."
+      ]
+    },
+    {
+      "date": "2026-10-22",
+      "topic": "microwave_45X",
+      "finding": "45X latest12 spend1571→2074yen +32.0%; displayed monthly quantitysum .048→.055 but recent3months .010→.009. Annual2025 quantity .044 vs2024 .051 and2019 .048. JEMA Jan–Sepunits+3.3%,Apr–Sep−2.1%, not same12months/finalconsumption. Candidate only.",
+      "growth_promoted": false
+    },
+    {
+      "date": "2026-10-23",
+      "topic": "musical_instruments_806",
+      "finding": "楽器806の二人以上世帯支出は2024年9月〜2025年8月1,829円から2025年9月〜2026年8月2,396円へ31.0%増。ただし数量未集計、ピアノCPIは範囲不一致、一部月への偏りがあり数量成長は未確認。アプリ実測9日・連続8日、4週間未達。",
+      "growth_promoted": false
+    },
+    {
+      "id": "2026-10-23-service-august-release",
+      "date": "2026-10-23",
+      "classification": "nominal_sales_update_quantity_growth_not_confirmed",
+      "target_period": "2026-08",
+      "publication_date": "2026-10-23",
+      "retrieved_at": "2026-10-23T08:40:28+09:00",
+      "finding": "宿泊売上+2.3%、飲食店+3.7%。保存済み同月の宿泊者数−6.7%、ドトール既存店客数−2.3%は数量増を裏付けない。母集団は一致せず、価格分解や全国数量成長の判定はしない。",
+      "growth_promoted": false,
+      "additional_evidence_needed": "Reuse verified August release at next scheduled preparation; do not duplicate acquisition. Full-series rolling12 refresh remains unperformed. No publication or notification.",
+      "independent_visual_verification": {
+        "status": "selected_six_pairs_verified",
+        "pages": [
+          1,
+          4,
+          5
+        ],
+        "scope": "Six sales/YoY pairs and definitions only; original screenshot failure retained as history; no new growth finding."
+      }
+    },
+    {
+      "id": "2026-10-24-plumbing-app-weekly",
+      "date": "2026-10-24",
+      "classification": "nominal_candidate_and_scope_split_no_growth_promotion",
+      "finding": "給排水工事費は直近12か月27.6%増だが数量不明。住宅の関連受注件数は別期間で11.7%減、非住宅34.9%増。全体成長へ一般化しない。Apple実測10日・連続9日。",
+      "growth_promoted": false
+    },
+    {
+      "id": "2026-10-25-highschool-tutoring",
+      "classification": "nominal_rebound_candidate_quantity_unconfirmed",
+      "periods": [
+        "2024-09/2025-08",
+        "2025-09/2026-08"
+      ],
+      "population": "national_two_or_more_households_including_nonpurchasers",
+      "household_nominal_yen": [
+        8150,
+        10302
+      ],
+      "growth_pct": 26.404907975460112,
+      "seller_scope": "NagaseAprJun2026newenrolments109%/sales107.4%;WasedaAprDec2025average2588→2904. Unmatchedperiods and narrowchains."
+    },
+    {
+      "id": "2026-10-26-aircon-quantity-rebound-divergence",
+      "date": "2026-10-26",
+      "classification": "quantity_rebound_candidate_not_sustained_growth",
+      "household_periods": [
+        "2024-09/2025-08",
+        "2025-09/2026-08"
+      ],
+      "household_yen": [
+        15528,
+        19324
+      ],
+      "household_quantity_displayed_units": [
+        0.108,
+        0.125
+      ],
+      "summer_quantity": [
+        0.053,
+        0.045
+      ],
+      "shipment_2026_apr_sep_yoy_pct": 25.5,
+      "kojima_2026_sep_allstore_order_value_yoy_pct": -35.3,
+      "growth_promoted": false,
+      "limits": [
+        "Shipment != final household purchases; chain order value != quantity",
+        "Periods differ",
+        "single household sameperiod unverified"
+      ]
+    },
+    {
+      "date": "2026-10-27",
+      "topic": "dental-722",
+      "status": "nominal_candidate_only"
+    },
+    {
+      "date": "2026-10-27",
+      "topic": "eprescription-september",
+      "status": "validated_unpublished_CI_blocked"
+    },
+    {
+      "id": "2026-10-28-accessories",
+      "classification": "nominal_recovery_candidate_with_narrow_chain_customer_growth",
+      "household_period": "2025-09/2026-08 vs2024-09/2025-08",
+      "household_population": "two_or_more_households",
+      "nominal_yen": [
+        4035,
+        4938
+      ],
+      "nominal_pct": 22.37918215613383,
+      "summer_nominal_pct": -5.8626465661641545,
+      "annual2019_2025_published_yen": [
+        4801,
+        4554
+      ],
+      "single2024_2025_yen": [
+        4379,
+        6544
+      ],
+      "seller_period": "2026-03/09",
+      "seller_population": "FDCsame-storeincludingEC",
+      "seller_sales_customers_spend_yoy_indices": [
+        114.8,
+        107.6,
+        106.7
+      ],
+      "sep_customers_spend_indices": [
+        97.3,
+        112.5
+      ],
+      "growth_promoted": false,
+      "evidence": []
+    },
+    {
+      "id": "2026-10-28-apple-jobs-calendar",
+      "classification": "daily_observation_not_demand_growth",
+      "app_rows": [
+        100,
+        100,
+        98
+      ],
+      "actual_days": 14,
+      "consecutive_days": 13,
+      "four_week_eligible": false,
+      "jobs_latest_listed_period": "2026-08",
+      "jobs_next_planned_release": "2026-10-30T08:30:00+09:00"
+    },
+    {
+      "id": "2026-10-29-other-construction427",
+      "classification": "nominal_only_no_growth_promotion",
+      "period": "2025-09/2026-08 versus2024-09/2025-08",
+      "nominal_yen": [
+        22932,
+        28004
+      ],
+      "paired425427_yen": [
+        58633,
+        58493
+      ],
+      "growth_promoted": false,
+      "evidence": []
+    },
+    {
+      "id": "2026-10-29-apple",
+      "rows": [
+        100,
+        100,
+        99
+      ],
+      "actual_days": 15,
+      "consecutive_days": 14,
+      "four_week_eligible": false
+    },
+    {
+      "id": "2026-10-30-chocolate-confectionery353",
+      "classification": "nominal_increase_quantity_unconfirmed",
+      "population": "Japan two-or-more-person households",
+      "period": "2025-09/2026-08 versus2024-09/2025-08",
+      "nominal_yen": [
+        2688,
+        3219
+      ],
+      "growth_pct": 19.754464285714278,
+      "combined352353_yen": [
+        9714,
+        10467
+      ],
+      "seller_broader_annual2025_quantity_yoy_pct": -8.960285471126717,
+      "seller_scope": "All chocolate includingI/II/confectionery, annual2025 notsameperiod353",
+      "exact_price_deflator_verified": false,
+      "growth_promoted": false,
+      "evidence": []
+    },
+    {
+      "id": "2026-10-30-apple-missing",
+      "status": "missing_all_three",
+      "rows": null,
+      "actual_days_through_oct29": 15,
+      "consecutive_days_through_oct29": 14,
+      "current_date_observed": false,
+      "four_week_eligible": false,
+      "cause": "one attemptperchart failed; no retry",
+      "ingest_improvement": "13tests: failure/empty/stale-date/malformedrow cannotcountasnewobservation"
+    },
+    {
+      "date": "2026-10-30",
+      "stage": "0500",
+      "topic": "chocolate representative CPI mapping",
+      "finding": "Official2025base mapping352+353→1761; monthly reference real spending combined−13.34%,353−3.15%; not measured physical quantity. Current linked series used throughout.",
+      "growth_promoted": false
+    },
+    {
+      "date": "2026-10-31",
+      "household": "842 nominal+18.318%,quantityunknown",
+      "people": "jobsSepactualrelease;assemblynewvacancies+13.18%placements+10.28%,recoverycandidate;Apple299weeklycomparison,4weekfalse",
+      "sellers": "PPIHsales+3.1customers-1.5;CIPAcamera panelchangeconfounded",
+      "growth_promoted": false
+    }
+  ],
+  "last_investigated_date": "2026-10-31",
+  "last_week_difference": "10/21のApple実測7日・連続6日から14日・連続13日へ。4週間未達という判断は維持。アクセサリーは量未確認の候補にとどめた。",
+  "audit_selection": {
+    "date": "2026-10-31",
+    "completed_preceding_rank_codes": [
+      "956",
+      "836",
+      "835",
+      "491",
+      "862",
+      "826",
+      "45X",
+      "806",
+      "424",
+      "382",
+      "792",
+      "470",
+      "722",
+      "928"
+    ],
+    "latest_bounded_code": "842",
+    "index_scope": "saved398 ranking first14;928 historical name link corrected only",
+    "include_market_drafts": true,
+    "next_selection": "Freshdedup rank18 code832 on next new03;842 nominal candidate not quantity-confirmed."
+  },
+  "candidate_followups": [
+    {
+      "id": "august-carshare-spending",
+      "status": "analyzed_candidate_retained",
+      "latest_result": "August572 vs427 yen; rolling12 nominal+5.75%, rental-CPI proxy+5.47%; low base and population/price scope caveats. Await later release, do not repeat August query.",
+      "last_checked": "2026-10-16"
+    },
+    {
+      "id": "timescar-search-spike",
+      "status": "plausible_non_demand_explanation_found",
+      "latest_result": "Official September25-29 cyberincident disclosures align with spike; causal attribution unproven.",
+      "last_checked": "2026-10-16"
+    },
+    {
+      "id": "summer-rental-search",
+      "status": "direction_consistent_not_causal",
+      "latest_result": "Inherited July-August rental search mean+19.74%, household nominal+20.55%; baseline2024 and scope differ; new Trends429.",
+      "last_checked": "2026-10-16"
+    },
+    {
+      "id": "app-rank-continuity",
+      "status": "today_captured_gap_preserved",
+      "latest_result": "Oct31 eachonce100/100/99;16actualdates,currentconsecutive1;Oct9–15 andOct30missing;weeklyOct24comparison85/70/76commonIDs;fourweekfalse.",
+      "last_checked": "2026-10-31"
+    },
+    {
+      "id": "service-table-column-definition",
+      "status": "verified",
+      "last_checked": "2026-10-16"
+    },
+    {
+      "id": "weekly-outside-map",
+      "status": "investigated_2026-10-24",
+      "latest_result": "Official Apr-Jun2026 nonresidential renovation orders count+31.3%, value+34.9%; residential plumbing counts−11.7%. Different sectors and one quarter only; candidate not promoted.",
+      "last_checked": "2026-10-24"
+    },
+    {
+      "id": "household-ranking-classification-audit",
+      "status": "partial_top_ranks_audited",
+      "latest_result": "842 latest12 7064→8358yen +18.318%; quantity unknown; CPI1/5ink+4/5within-class allocation, not independent842price. Single2025 12024yen; nominal candidate only.",
+      "last_checked": "2026-10-31",
+      "preserved_historical_findings": [
+        {
+          "date": "2026-10-17",
+          "result": "Latest12 game-console quantity0.033 to0.046; recent3months0.015 to0.003; rebound candidate, not sustained growth."
+        }
+      ]
+    },
+    {
+      "id": "uk-video-rounding-and-total-time",
+      "status": "bounded_review_complete_with_remaining_limits",
+      "latest_result": "Figure40→42min and body42min/+3min may be rounding-compatible; prior39min was derived, not observed. Total267vs263min unresolved; unrounded source and adoption baseline quarter unavailable. Text extraction only, original PDF403 and annual source login stopped.",
+      "last_checked": "2026-10-17"
+    },
+    {
+      "id": "spain-hotel-series-connection",
+      "status": "latest_same_month_verified_long_connection_pending",
+      "latest_result": "2026Aug overnight stays+1.37698%, ADR+7.31739%; residents abroad+2.76681%, Spain−1.10824%. IRSH ADR×EOHoccupancy relation approximate, not exact decomposition.",
+      "last_checked": "2026-10-17"
+    },
+    {
+      "id": "game-console-matched-seller-quantity",
+      "status": "awaiting_same_scope_source",
+      "latest_result": "Nintendo Japan Apr-Jun displayed two-platform sell-in160→125ten-thousand units; not same period or consumption stage as household rolling12. Latest quarter throughJune; next scheduled resultsNov5 are future evidence, not a monthly match.",
+      "last_checked": "2026-10-17"
+    },
+    {
+      "id": "game-software-seller-finalization",
+      "status": "bounded_review_complete_with_unresolved_evidence_gaps",
+      "latest_result": "All 28 saved assets match their hashes. Nintendo Japan packaged/parallel-download software 720→1154万本 is narrow quantity evidence, not household 835 volume. Famitsu potential-user inclusion remains unresolved; neither +3.0% nor derived −0.97% is adopted as same-definition active-user growth.",
+      "last_checked": "2026-10-20"
+    }
+  ]
+}

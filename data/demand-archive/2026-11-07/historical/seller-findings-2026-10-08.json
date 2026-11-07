@@ -1,0 +1,41 @@
+{
+  "as_of": "2026-10-08",
+  "evidence_quality": "Historical seller-side comparison; later definition checks must be read before reuse.",
+  "METI_2024_sales_growth_pct": {
+    "credit_cards": 11.1,
+    "leasing": 6.9,
+    "engineering": 5.8,
+    "pachinko": 5.7,
+    "information_services": 5.5,
+    "amusement_parks": 4.8
+  },
+  "quantity_comparisons_as_recorded": {
+    "fitness_users_growth_pct": 2.8,
+    "fitness_sales_vs2019_pct_approx": -18,
+    "amusement_admissions_vs2019_pct": -8.6,
+    "amusement_spend_per_person_change_pct_approx": 35,
+    "cram_school_students_change_pct": -8.9,
+    "cram_school_sales_per_person_change_pct": 13.3
+  },
+  "MIC_2025_nominal_sales_growth_pct": {
+    "information_services": 10.1,
+    "internet_associated_services": 13.7
+  },
+  "driving_school_graduates_2019_2025_change_pct": -2.6,
+  "methods_and_limits": [
+    "経産省の特定サービス産業動態統計は2024年12月で終了した歴史系列。調査対象の入替えがあるため、売上レベルの単純比ではなくリンク係数を調整した公表増減率を使う。",
+    "利用者・受講者などの数量は売上額と分ける。既存店客数は出店効果を抑えるが、一社の既存店母集団であり全国市場と同じではない。",
+    "総務省サービス産業の事業従事者数は利用者数ではない。旧記録に人数欄がないという表現があっても、従業者の欄と顧客・利用数量の有無を区別する。後日の定義監査を優先する。",
+    "2026年10月8日時点の比較。各数量比較の対象期間が省略されている箇所は原表確認が必要で、現在値としては使用しない。",
+    "普通二種の変化は2022年の受験条件緩和と時期が重なる。制度効果の因果推定を行った記録ではない。"
+  ],
+  "source_urls": [
+    "https://www.meti.go.jp/statistics/tyo/tokusabido/result/result_1/xls/"
+  ],
+  "source_families": [
+    "総務省 サービス産業動態統計調査",
+    "経済産業省 特定サービス産業動態統計",
+    "各社のIR・月次資料",
+    "警察庁 運転免許統計"
+  ]
+}
