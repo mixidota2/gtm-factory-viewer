@@ -1,0 +1,38 @@
+# Read-only verification on pull requests. No schedule, commit or deployment.
+name: Demand source verification
+on:
+  pull_request:
+    paths:
+      - index.html
+      - tools/demand/**
+      - .github/workflows/source-check.yml
+permissions:
+  contents: read
+jobs:
+  sources:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 22
+    steps:
+      - timeout-minutes: 2
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+      - name: Install PDF text extractor
+        timeout-minutes: 3
+        run: sudo apt-get update && sudo apt-get install --no-install-recommends -y poppler-utils
+      - name: Test independent source-group failures
+        timeout-minutes: 1
+        run: cd tools/demand && python3 -m unittest test_all test_contract test_security_transport
+      - name: Compare official lists and three original sources to checked-out viewer
+        timeout-minutes: 12
+        run: python3 tools/demand/check_all.py --html index.html --out source-evidence
+      - name: Preserve source receipts and review blockers even on failure
+        timeout-minutes: 2
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: source-evidence
+          path: |
+            source-evidence/
+            !source-evidence/**/*.pdf
+            !source-evidence/**/*.html
+            !source-evidence/**/page-*.txt
+          if-no-files-found: error

@@ -1,0 +1,19 @@
+{
+  "demand-integrated/verify.py": "cdd71b5f6148289a0163b49927e4aaac9ceb71924431f26189af729decb683e3",
+  "demand-integrated/discover.py": "339a8861044e4a294fc5aa1f2807ecde64f9715ce2768560706f7d4627a4cfbf",
+  "demand-integrated/refresh.py": "323c5ca33edac073193b532ca003aa46fe930a1840470bbc90ced149a490e5e9",
+  "demand-integrated/check_current.py": "34266560ec94477498780fa261f4378aa55eb37a7be6a31a724cd403cd0de824",
+  "demand-integrated/propose_gakudo.py": "010de2d90c5dcf0b07e92adbfdd6d26a5c843245e33219162a2c754fefd75874",
+  "demand-integrated/propose_nursery.py": "23dc6bcfcee0b4e70260ae075586361ed6016f9515c3c085b2617cfc29b411ab",
+  "demand-integrated/resolve_known_review.py": "5b077ac5f87ea5aa738b24c3277eb2deab911720b65a2668fe6b1159cd9662ef",
+  "demand-integrated/nursery-dx-review/scope-result.json": "bd78ee00aca955ef949882f18f9e1320c17fd607e1c960df142e08c0ca63976c",
+  "demand-rebuilt-gakudo/build.py": "2783fad2999b242a7b3a001514aaa61370068ffaa5d9f10a62c95d4bf534e3fd",
+  "demand-rebuilt-nursery/build.py": "1be2bea220369606fc9f14921d704c46066edf1c12f0665402652d755a9b1da8",
+  "demand-recovered/care-integration/tests/fixtures/historical-index.html": "ae8a1d8cc0758b5252ec3885b52819bcabfc7d8a7561ac51438770dd65415f32",
+  "demand-combined-private/candidate.html": "2a8a0dd50e5475db83dad8151d93fc2835738dfb885cea70f20e8cb97ab856ad",
+  "check_all.py": "3598c7d5c8b8979d3cd296a9b2dbc036b4bed8a3764bdfa4b908295e856af1be",
+  "test_all.py": "84068deea7b47a3ea03d8c54fc529f154074c5be1016b2cddf08080d8e819ea3",
+  "demand-security-refresh/check.py": "b6df8ccab051e2ae2fa4b00a42150d3e394ebf502d7a33a048df965b68774bb8",
+  "test_contract.py": "65846157107446511e09d73269a8477f5d3d31d558dc1dc5af1801923d98927b",
+  "test_security_transport.py": "e36ec1c21e5d35c948f772f1b42e1b50337019d19d9ea2051cde594a36975985"
+}

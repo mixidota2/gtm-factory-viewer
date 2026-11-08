@@ -3,7 +3,7 @@ on:
   pull_request:
     paths:
       - index.html
-      - tests/browser.cjs
+      - tests/**
       - .github/workflows/browser.yml
 permissions:
   contents: read
@@ -13,6 +13,8 @@ jobs:
     timeout-minutes: 10
     steps:
       - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+      - name: Test page lifecycle without browser
+        run: node tests/test_page_lifecycle.cjs
       - name: Install pinned browser driver
         run: npm install --no-save --ignore-scripts --no-audit --no-fund playwright@1.62.1
       - name: Record actual browser fonts before changes
