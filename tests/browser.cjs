@@ -2,6 +2,7 @@
 const fs=require('node:fs'),http=require('node:http'),assert=require('node:assert/strict');
 const {execFileSync}=require('node:child_process'),{createHash}=require('node:crypto');
 const path=require('node:path');
+const {waitForArticle,waitForClaim}=require('./wait_for_route.cjs');
 const html=Buffer.from(require('./combined_preflight.cjs')(path.resolve(process.argv.slice(2).find(a=>!a.startsWith('--')) || path.join(__dirname,'../index.html'))));
 if(process.argv.includes('--preflight-only'))process.exit(0);
 const {chromium}=require('playwright');
@@ -306,16 +307,18 @@ const server = http.createServer((req,res)=>{res.setHeader('Content-Type','text/
 
    assert.deepEqual(errors,[]);
    await page.goto(base+'#markets/jp-care-layers-not-one.md');
-   await page.locator('#main h1').waitFor();
+   const careTitle=data.markets.find(m=>m.id==='jp-care-layers-not-one.md').title;
+   await waitForArticle(page,careTitle);
    const careArticle=await page.locator('#main').innerText();
    assert(careArticle.includes('同一施設での変化とは判断できません'));assert(!careArticle.includes('ただし、同じ施設を追跡した結果ではありません。'));
    assert(careArticle.includes('無回答は2.8%'));assert(careArticle.includes('パソコンによる介護ソフト'));
    assert(await page.locator('#main a[href*="R6_jittai_chousa_jigyousyo_shiryo2.pdf"]').count()>0);
    await page.locator('#main').getByText('記事一覧に戻る',{exact:true}).first().click();
    await page.locator('#search').fill('介護');
-   await page.locator('#card-results a[href="#markets/jp-care-layers-not-one.md"]').click();await page.locator('#main h1').waitFor();
+   await page.locator('#card-results a[href="#markets/jp-care-layers-not-one.md"]').click();await waitForArticle(page,careTitle);
    for(const suffix of ['observation','interpretation','value_hypothesis','judgment_change']){
     await page.goto(base+'#claim/jp-care-layers-not-one-'+suffix);
+    await waitForClaim(page,'jp-care-layers-not-one-'+suffix);
     const careCard=page.locator('#claim-jp-care-layers-not-one-'+suffix);await careCard.waitFor({state:'visible'});
     const cardText=await careCard.innerText();
     for(const phrase of ['公表資料編72頁の問15①の質問文・選択肢と集計値を確認しました。','2026-11-08','空欄の原調査票','問15②'])assert(cardText.includes(phrase));
@@ -325,6 +328,7 @@ const server = http.createServer((req,res)=>{res.setHeader('Content-Type','text/
    assert.deepEqual(errors,[]);
    for(const [claimId,expected] of [['theme-4-text','PDF6頁'],['jp-construction-apps-dont-stick-observation','n=136']]){
     await page.goto(base+'#claim/'+claimId);
+    await waitForClaim(page,claimId);
     const card=page.locator('#claim-'+claimId);await card.waitFor({state:'visible'});
     assert((await card.innerText()).includes(expected));
    }
