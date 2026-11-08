@@ -209,7 +209,9 @@ const server = http.createServer((req,res)=>{res.setHeader('Content-Type','text/
    assert.ok(!waterValues.includes('9.23'));
    assert.equal(await page.locator('#observations > details').count(),21);
    assert.equal(await page.locator('#observations > h2').innerText(),'21観測の対象・根拠・確認範囲');
-   assert.equal(await page.locator('#question-detail a[href="https://mixidota2.github.io/gtm-factory-viewer/data/water-quantity/2026-11-09/monthly.csv"]').count(),1);
+   const waterCsvLink=page.locator('#question-detail a[href="https://mixidota2.github.io/gtm-factory-viewer/data/water-quantity/2026-11-09/monthly.csv"]');
+   assert.equal(await waterCsvLink.count(),2); // body plus collapsed full-text copy
+   assert.equal(await waterCsvLink.filter({visible:true}).count(),1);
    assert.ok(await page.locator('html').evaluate(el=>el.scrollWidth<=innerWidth),'water supplement must not overflow');
    await water.scrollIntoViewIfNeeded();
    await page.screenshot({path:`browser-evidence/water-quantity-${viewport.width}.png`});
