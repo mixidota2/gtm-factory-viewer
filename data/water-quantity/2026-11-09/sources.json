@@ -1,0 +1,33 @@
+{
+  "sources": [
+    {
+      "id": "coastwise_quantity",
+      "title": "国土交通省 内航船舶輸送統計月報 2026年7月 付表11",
+      "url": "https://www.e-stat.go.jp/stat-search/file-download?fileKind=4&statInfId=000040521357",
+      "metadata_url": "https://www.e-stat.go.jp/stat-search/files?stat_infid=000040521357",
+      "publication_date": "2026-10-28",
+      "source_sha256": "f12649d86e6ad2ca944c741b44683c21d3542ab679871ef03de2d2b3399852ad",
+      "source_bytes": 37376,
+      "locator": "Sheet1!A75:E98。A列年月、B列総重量（千トン）、D列総トンキロ（百万トンキロ）。C/E列は前年=100であり増減率ではない。",
+      "scope": "総トン数20トン以上を主とする営業用内航船舶の貨物輸送。水運全体の数量ではない。",
+      "method_url": "https://www.mlit.go.jp/k-toukei/content/001610306.pdf"
+    },
+    {
+      "id": "water_transport_sales",
+      "title": "総務省 サービス産業動態統計調査 2026年8月速報",
+      "url": "https://www.stat.go.jp/data/mbss/kekka/pdf/m202608.pdf",
+      "publication_date": "2026-10-23",
+      "source_sha256": "e838243808596a34f47becaa03d288559c1f7b3e3e737ade9344a140b72ba6de",
+      "locator": "PDF7ページ、月次、45水運業列。2024年8月〜2026年7月の24月。2026年6〜7月はp（速報）。",
+      "scope": "水運業45の事業活動別名目売上。税込・百万円。外航・旅客・船舶貸渡等を含む。過去の掲載値は母集団情報変更等の遡及調整を含む。"
+    }
+  ],
+  "monthly_csv_sha256": "8b579f79a76d8832cec51139808c3adecd24192b0c4b0b14f4eb1c526ed8da7e",
+  "data_notes": [
+    "各12月の公表実数を合計する。年度合計行や前年比列は加算しない。",
+    "数量は月報値のみ。売上2026年6〜7月は速報。",
+    "数値は公表単位で丸め済み。横ばいは変化が小さいという記述で、有意差検定の結論ではない。",
+    "内航XLSの2024年6月行は欠落しているが、今回の対象は2024年8月以降なので対象24月に欠損はない。2025年6月の掲載前年比のみ、このXLS単独では再照合していない。"
+  ],
+  "verification_as_of": "2026-11-09"
+}
