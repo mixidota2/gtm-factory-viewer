@@ -1,0 +1,28 @@
+{
+  "status": "different_study_not_replacement",
+  "landing_url": "https://www.cfa.go.jp/policies/hoiku/hoiku-dx",
+  "report_url": "https://www.cfa.go.jp/assets/contents/node/basic_page/field_ref_resources/20c04744-1b32-456d-99f1-f510aa191d61/6093ad2c/20250423_policies_hoiku_hoiku-dx_11.pdf",
+  "source_sha256": "20901e704d045eb007eb3aa9f1fdb2af5e889671b55f8085e7c98ba62523349a",
+  "report_title": "保育現場でのＤＸの推進に向けた調査研究 成果報告書",
+  "publication_month_from_cover": "2025-03",
+  "contractor": "EYストラテジー・アンド・コンサルティング株式会社",
+  "text_pages_checked": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "visual_pages_checked": [
+    4
+  ],
+  "evidence": "PDF4頁は自治体業務の実態調査、標準事務フロー・データセット・マスタ案、協議会/WGと意見照会を説明。",
+  "target_claim": "jp-nursery-ict-halfway-observation",
+  "reason": "対象claimは別のMURC報告書の2024年9〜10月・活動中16,709施設の導入/活用率。今回資料はその新年度集計ではなく別の検討事業。",
+  "replacement_accepted": false,
+  "global_discovery_override": false,
+  "unverified": "全頁、すべての引用統計、将来このURLに置換される資料。新年度版の不存在を意味しない。"
+}
