@@ -196,6 +196,36 @@ const server = http.createServer((req,res)=>{res.setHeader('Content-Type','text/
    }
    console.log('PASS repaired observation topics, sources, values and certainty at '+viewport.width);
 
+   // Same periods do not make broad water-transport sales and coastwise cargo the same scope.
+   await page.goto(base+'#question/money-and-quantity');
+   await page.waitForFunction(()=>document.querySelector('#question-detail')?.innerText.includes('水運の売上は増加'));
+   const waterBody=await page.locator('#question-detail').innerText();
+   for(const phrase of ['2024年8月〜2025年7月','2025年8月〜2026年7月','7.92%','0.54%','0.03%減','対象が違う','2026年6〜7月売上には速報','内航船舶輸送統計月報'])assert.ok(waterBody.includes(phrase),phrase);
+   const water=page.locator('#question-detail .observation').filter({has:page.getByRole('heading',{name:'日本：水運売上と内航貨物（対象範囲は異なる）',exact:true})});
+   assert.equal(await water.count(),1);
+   await water.locator('details > summary').click();
+   const waterValues=await water.innerText();
+   for(const phrase of ['6907853','7455227','296482','298097','149309','149258','価格寄与','2026-10-23','2026-10-28','2026-11-09'])assert.ok(waterValues.includes(phrase),phrase);
+   assert.ok(!waterValues.includes('9.23'));
+   assert.equal(await page.locator('#observations > details').count(),21);
+   assert.equal(await page.locator('#observations > h2').innerText(),'21観測の対象・根拠・確認範囲');
+   const waterCsvLink=page.locator('#question-detail a[href="https://mixidota2.github.io/gtm-factory-viewer/data/water-quantity/2026-11-09/monthly.csv"]');
+   assert.equal(await waterCsvLink.count(),2); // body plus collapsed full-text copy
+   assert.equal(await waterCsvLink.filter({visible:true}).count(),1);
+   assert.ok(await page.locator('html').evaluate(el=>el.scrollWidth<=innerWidth),'water supplement must not overflow');
+   await water.scrollIntoViewIfNeeded();
+   await page.screenshot({path:`browser-evidence/water-quantity-${viewport.width}.png`});
+   await page.goto(base);
+   await page.locator('#editorial-search').fill('内航');
+   const waterResult=page.locator('#observation-results a[href="#observation/jp-water-sales-coastwise-quantity"]');
+   assert.equal(await waterResult.count(),1);
+   await waterResult.click();
+   await page.waitForFunction(()=>document.getElementById('observation-jp-water-sales-coastwise-quantity')?.open===true);
+   await page.locator('#editorial-reset').click();
+   assert.equal(await page.locator('#card-results a.card').count(),17);
+   assert.equal(await page.locator('[data-theme]').count(),5);
+   console.log('PASS water supplement, sources, monthly data link, search/route and unchanged theme/article counts at '+viewport.width);
+
    // Overview-only matches must link to the overview even when no article or theme claim matches.
    await page.goto(base);
    await page.locator('#search').fill('レンタカー');

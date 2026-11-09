@@ -1,0 +1,42 @@
+{
+  "previous_period": [
+    "2024-08",
+    "2025-07"
+  ],
+  "current_period": [
+    "2025-08",
+    "2026-07"
+  ],
+  "previous_month_count": 12,
+  "current_month_count": 12,
+  "quantity_preliminary_months": [],
+  "sales_preliminary_months": [
+    "2026-06",
+    "2026-07"
+  ],
+  "metrics": {
+    "tonnes_thousand": {
+      "previous_total": "296482",
+      "current_total": "298097",
+      "absolute_change": "1615",
+      "growth_pct": "0.54472109605304875169487523700"
+    },
+    "tonne_km_million": {
+      "previous_total": "149309",
+      "current_total": "149258",
+      "absolute_change": "-51",
+      "growth_pct": "-0.034157351532727431032288743500"
+    },
+    "sales_million_yen": {
+      "previous_total": "6907853",
+      "current_total": "7455227",
+      "absolute_change": "547374",
+      "growth_pct": "7.92393816139399607953440815800"
+    }
+  },
+  "formula": "100 * (current 12-month sum / previous 12-month sum - 1)",
+  "scope_warning": "水運売上は外航・旅客・船舶貸渡等を含む業種全体。数量は営業用内航貨物のみ。売上÷数量、価格寄与、全水運の数量成長は算出しない。",
+  "verification_as_of": "2026-11-09",
+  "original_source_checks": "数量XLSの対象24年月と列・単位、売上PDF7ページの24月を照合。別手順のSQLite/Fraction集計も一致。",
+  "recalculation_scope": "公開CSVからの集計と原資料との照合は別の検証。付属のテストはCSVの保存値・期間・計算と表示を確認する。"
+}
