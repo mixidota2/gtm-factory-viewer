@@ -17,6 +17,8 @@ jobs:
         run: node tests/test_page_lifecycle.cjs
       - name: Test route transition readiness
         run: node tests/test_wait_for_route.cjs
+      - name: Test downloadable data HTTP contract
+        run: node tests/test_static_server.cjs
       - name: Install pinned browser driver
         run: npm install --no-save --ignore-scripts --no-audit --no-fund playwright@1.62.1
       - name: Record actual browser fonts before changes
