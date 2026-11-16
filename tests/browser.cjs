@@ -46,7 +46,7 @@ async function recordFonts(page, width) {
  }
 }
 
-const server = http.createServer((req,res)=>{res.setHeader('Content-Type','text/html; charset=utf-8');res.end(html);});
+const server = http.createServer(require('./static_server.cjs')(html));
 (async()=>{
  await new Promise(resolve=>server.listen(0,'127.0.0.1',resolve));
  const base=`http://127.0.0.1:${server.address().port}/`;
@@ -212,6 +212,12 @@ const server = http.createServer((req,res)=>{res.setHeader('Content-Type','text/
    const waterCsvLink=page.locator('#question-detail a[href="https://mixidota2.github.io/gtm-factory-viewer/data/water-quantity/2026-11-09/monthly.csv"]');
    assert.equal(await waterCsvLink.count(),2); // body plus collapsed full-text copy
    assert.equal(await waterCsvLink.filter({visible:true}).count(),1);
+   const csvHref=await waterCsvLink.first().getAttribute('href');
+   const csvRoute=new URL(csvHref).pathname.replace(/^\/gtm-factory-viewer\//,'');
+   const csvResponse=await page.request.get(new URL(csvRoute,base).href);
+   assert.equal(csvResponse.status(),200,'monthly data link must resolve to an existing file');
+   assert.match(csvResponse.headers()['content-type'],/^text\/csv/);
+   assert.deepEqual(await csvResponse.body(),fs.readFileSync(path.join(__dirname,'..',csvRoute)),'download must preserve the reviewed CSV bytes');
    assert.ok(await page.locator('html').evaluate(el=>el.scrollWidth<=innerWidth),'water supplement must not overflow');
    await water.scrollIntoViewIfNeeded();
    await page.screenshot({path:`browser-evidence/water-quantity-${viewport.width}.png`});
@@ -368,4 +374,5 @@ const server = http.createServer((req,res)=>{res.setHeader('Content-Type','text/
   }
  } finally {if(browser)await browser.close();await new Promise(resolve=>server.close(resolve));}
 })().catch(e=>{console.error(e);process.exitCode=1;});
+
 
