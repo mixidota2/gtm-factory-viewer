@@ -227,6 +227,12 @@ function render(){
  }
 }
 document.getElementById('snapshot').textContent='主要記事の更新日：2026年10月28日（日本時間） · 資料の公表日・対象期間は各記事に記載';
+// Re-selecting the current observation does not fire hashchange.
+document.addEventListener('click',e=>{
+ if(e.defaultPrevented||e.button!==0||e.metaKey||e.ctrlKey||e.shiftKey||e.altKey)return;
+ const a=e.target.closest?.('a[href^="#observation/"]');
+ if(a&&a.getAttribute('href')===location.hash&&!a.hasAttribute('download')&&(!a.target||a.target==='_self')){e.preventDefault();render();}
+});
 window.addEventListener('hashchange',render);render();
 </script>
 </body></html>
