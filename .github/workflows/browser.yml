@@ -3,6 +3,7 @@ on:
   pull_request:
     paths:
       - index.html
+      - data/water-quantity/**
       - tests/**
       - .github/workflows/browser.yml
 permissions:

@@ -19,14 +19,17 @@ python3 -m http.server 8000 --bind 127.0.0.1
 
 ## 変更の検証
 
-リポジトリのルートで実行します。最初の4つはブラウザや原典サイトへのアクセスを必要としません。
+リポジトリのルートで実行します。以下の5つはブラウザや原典サイトへのアクセスを必要としません。
 
 ```sh
 node tests/test_page_lifecycle.cjs
 node tests/test_wait_for_route.cjs
+node tests/test_static_server.cjs
 node tests/browser.cjs --preflight-only
 (cd tools/demand && python3 -m unittest test_all test_contract test_security_transport)
 ```
+
+`test_static_server.cjs` はローカルHTTPで月次CSVの形式・バイト一致と存在しないパスの404を確認します。水運のCSV・出典・集計を変更したPRでも、ブラウザ検証ワークフローが動きます。
 
 `--preflight-only` は記事と保存済みデータの検査です。実ブラウザの操作検証ではありません。`index.html` の全文ハッシュも確認するため、本文を変えると失敗します。内容の差分を独立に確認してから期待値を更新し、検査を削除して通さないでください。
 
