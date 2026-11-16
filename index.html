@@ -151,7 +151,7 @@ function globalCard(c){return `<article class="global-card"><h3><a href="#global
 function drawEditorialSearch(q){
  const matches=text=>q.every(w=>text.normalize('NFKC').toLocaleLowerCase().includes(w));
  const cards=editorial.cards.filter(c=>matches(c.title+' '+c.entry+' '+c.text));
- const obs=q.length?editorial.observations.filter(o=>matches([o.label,o.observation_text,o.period,o.population,o.evidence_type,o.primary_read_scope,o.independent_verification_scope,o.unconfirmed].join(' '))):[];
+ const obs=q.length?editorial.observations.filter(o=>matches([o.id,o.label,o.observation_text,o.period,o.population,o.evidence_type,o.primary_read_scope,o.independent_verification_scope,o.unconfirmed,o.source_publication_date||'',o.verification_as_of||'',o.source_locator||'',...o.source_urls,...o.method_source_urls].join(' '))):[];
  document.getElementById('global-count').textContent=`海外4記事のうち${cards.length}件${q.length?' ／ 検索語に合う観測 '+obs.length+'件':''}`;
  document.getElementById('global-results').innerHTML=cards.length?cards.map(globalCard).join(''):'<p>検索語に合う海外記事はありません。</p>';
  document.getElementById('observation-results').innerHTML=obs.map(o=>`<p><a href="#observation/${esc(o.id)}">${esc(o.label)}</a>：${esc(o.observation_text)}<br>確認範囲：${esc(o.primary_read_scope)}</p>`).join('');

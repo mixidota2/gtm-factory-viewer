@@ -231,6 +231,18 @@ const server = http.createServer(require('./static_server.cjs')(html));
    assert.equal(await page.locator('#card-results a.card').count(),17);
    assert.equal(await page.locator('[data-theme]').count(),5);
    console.log('PASS water supplement, sources, monthly data link, search/route and unchanged theme/article counts at '+viewport.width);
+   for(const query of ['jp-water-sales-coastwise-quantity','2026-11-09 000040521357']){
+    await page.locator('#editorial-search').fill(query);
+    const result=page.locator('#observation-results a[href="#observation/jp-water-sales-coastwise-quantity"]');
+    assert.equal(await result.count(),1,'metadata search must find the original observation');
+    await result.click();
+    await page.waitForFunction(()=>document.getElementById('observation-jp-water-sales-coastwise-quantity')?.open===true);
+    assert.ok((await page.locator('#observation-jp-water-sales-coastwise-quantity').innerText()).includes('2026-11-09'));
+    await page.locator('#editorial-reset').click();
+    assert.equal(await page.locator('#observation-results a').count(),0);
+    assert.equal(await page.locator('#card-results a.card').count(),17);
+   }
+   console.log('PASS observation metadata search, original detail route and reset at '+viewport.width);
 
    // Overview-only matches must link to the overview even when no article or theme claim matches.
    await page.goto(base);

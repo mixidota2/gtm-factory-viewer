@@ -18,6 +18,8 @@ jobs:
         run: node tests/test_page_lifecycle.cjs
       - name: Test route transition readiness
         run: node tests/test_wait_for_route.cjs
+      - name: Test observation metadata search
+        run: node tests/test_observation_search.cjs
       - name: Test downloadable data HTTP contract
         run: node tests/test_static_server.cjs
       - name: Install pinned browser driver
