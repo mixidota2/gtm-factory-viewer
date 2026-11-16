@@ -216,7 +216,7 @@ function render(){
  }else{
   const returning=route==='memo';if(route!=='home'){home();route='home';}document.title='需要の変化を読む | GTM工場';
   if(hash.startsWith('#question/')){state.question=hash.slice(10);drawQuestion();document.getElementById('questions').scrollIntoView();}
-  else if(hash.startsWith('#observation/')){const el=document.getElementById('observation-'+hash.slice(13));if(el){el.open=true;el.scrollIntoView();}}
+  else if(hash.startsWith('#observation/')){const el=document.getElementById('observation-'+hash.slice(13));if(el){el.open=true;el.querySelector('summary').focus({preventScroll:true});el.scrollIntoView();}}
   else if(['#global-library','#questions','#comparison','#coverage','#candidates'].includes(hash)){const el=document.getElementById(hash.slice(1));if(hash==='#coverage')el.open=true;el.scrollIntoView();}
   else if(hash.startsWith('#claim/')){const el=document.getElementById('claim-'+hash.slice(7));if(el){el.open=true;el.scrollIntoView();}}
   else if(hash.startsWith('#theme/')){state.theme=hash.slice(7);drawTheme();document.getElementById('theme-detail').scrollIntoView();}
