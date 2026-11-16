@@ -17,3 +17,18 @@ assert.deepEqual(search(''),[]);
 assert.deepEqual(search('undefined'),[]);
 assert.equal(nodes['editorial-search'].value,'undefined');
 console.log('PASS actual observation search: ID, source/verification dates, source/method URLs, locator, AND/fullwidth, empty/no-match');
+
+// Exercise the actual same-observation click handler without changing browser globals.
+const navStart=html.indexOf("document.addEventListener('click',e=>{");
+const navEnd=html.indexOf("window.addEventListener('hashchange',render);",navStart);
+assert.ok(navStart>=0&&navEnd>navStart);
+let handler,renders=0,prevented=0;
+vm.runInNewContext(html.slice(navStart,navEnd),{document:{addEventListener:(type,fn)=>{assert.equal(type,'click');handler=fn;}},location:{hash:'#observation/'+water},render:()=>renders++});
+const anchor={getAttribute:()=> '#observation/'+water,hasAttribute:()=>false,target:''};
+function activate(extra={},link=anchor){handler({button:0,target:{closest:()=>link},preventDefault:()=>prevented++,...extra});}
+activate();assert.equal(renders,1);assert.equal(prevented,1);
+for(const extra of [{button:1},{ctrlKey:true},{metaKey:true},{shiftKey:true},{altKey:true},{defaultPrevented:true}])activate(extra);
+for(const link of [null,{...anchor,target:'_blank'},{...anchor,hasAttribute:()=>true},{...anchor,getAttribute:()=> '#observation/other'}])activate({},link);
+assert.equal(renders,1);assert.equal(prevented,1);
+activate({}, {...anchor,target:'_self'});assert.equal(renders,2);assert.equal(prevented,2);
+console.log('PASS actual observation re-selection handler: same route, modified/default-prevented clicks, new tab and download preserved');

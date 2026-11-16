@@ -261,6 +261,20 @@ const server = http.createServer(require('./static_server.cjs')(html));
    await page.reload();
    await page.waitForFunction(()=>document.activeElement===document.querySelector('#observation-jp-water-sales-coastwise-quantity > summary'));
    console.log('PASS observation keyboard focus, in-detail Tab, Back/Forward and direct reload at '+viewport.width);
+   // Same-hash re-selection must reopen a manually closed detail and refocus it.
+   const observationSummary=page.locator('#observation-jp-water-sales-coastwise-quantity > summary');
+   for(const method of ['keyboard','pointer']){
+    await observationSummary.click();
+    assert.equal(await page.locator('#observation-jp-water-sales-coastwise-quantity').getAttribute('open'),null);
+    await page.locator('#editorial-search').fill('000040521357');
+    if(method==='keyboard')await page.locator('#observation-results a').press('Enter');
+    else await page.locator('#observation-results a').click();
+    await page.waitForFunction(()=>document.activeElement===document.querySelector('#observation-jp-water-sales-coastwise-quantity > summary'));
+    assert.equal(await page.locator('#observation-jp-water-sales-coastwise-quantity').getAttribute('open'),'');
+    assert.equal(await page.locator('#editorial-search').inputValue(),'000040521357');
+   }
+   console.log('PASS same-observation keyboard/pointer re-selection reopens detail and preserves query at '+viewport.width);
+
 
 
    // Overview-only matches must link to the overview even when no article or theme claim matches.
