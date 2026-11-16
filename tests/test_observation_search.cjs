@@ -32,3 +32,24 @@ for(const link of [null,{...anchor,target:'_blank'},{...anchor,hasAttribute:()=>
 assert.equal(renders,1);assert.equal(prevented,1);
 activate({}, {...anchor,target:'_self'});assert.equal(renders,2);assert.equal(prevented,2);
 console.log('PASS actual observation re-selection handler: same route, modified/default-prevented clicks, new tab and download preserved');
+
+// Read/share only recognized search parameters; links are explicit, never auto-written.
+const searchStart=html.indexOf('function readSearchState(search){');
+const searchEnd=html.indexOf('const state={theme:',searchStart);
+assert.ok(searchStart>=0&&searchEnd>searchStart);
+const shareState={query:'',filter:'all',kind:'all'};
+const shareContext=vm.createContext({URLSearchParams,data:{themes:[{id:'3'}]},state:shareState,location:{pathname:'/gtm-factory-viewer/'}});
+vm.runInContext(html.slice(searchStart,searchEnd),shareContext);
+const restore=s=>JSON.parse(JSON.stringify(shareContext.readSearchState(s)));
+assert.deepEqual(restore(''),{query:'',filter:'all',kind:'all'});
+assert.deepEqual(restore('?q=%E4%BF%9D%E9%99%BA&filter=3&kind=regular'),{query:'保険',filter:'3',kind:'regular'});
+assert.deepEqual(restore('?q=test&filter=invalid&kind=invalid'),{query:'test',filter:'all',kind:'all'});
+shareState.query='保険 & <script> + # 日本';shareState.filter='3';shareState.kind='regular';
+const shared=shareContext.searchPermalink('#library');
+assert.ok(shared.startsWith('/gtm-factory-viewer/?'));
+assert.ok(shared.endsWith('#library'));
+assert.equal(new URL(shared,'https://example.test').searchParams.get('q'),shareState.query);
+assert.deepEqual(restore(new URL(shared,'https://example.test').search),shareState);
+shareState.query='';shareState.filter='all';shareState.kind='all';
+assert.equal(shareContext.searchPermalink('#questions'),'/gtm-factory-viewer/#questions');
+console.log('PASS actual search permalink helpers: Unicode/special characters, recognized filters, invalid/default values and clean reset');

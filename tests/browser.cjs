@@ -277,6 +277,50 @@ const server = http.createServer(require('./static_server.cjs')(html));
 
 
 
+   // Explicit permalinks reproduce filters, without putting each keystroke into the URL.
+   await page.goto(base);
+   await page.locator('#search').fill('保険');
+   await page.locator('#filter').selectOption('3');
+   await page.locator('#kind').selectOption('regular');
+   assert.equal(new URL(page.url()).search,'');
+   const expectedSearchCount=await page.locator('#card-results a.card').count();
+   assert.ok(expectedSearchCount>0);
+   await page.locator('[data-search-link="#library"]').click();
+   assert.equal(new URL(page.url()).searchParams.get('q'),'保険');
+   assert.equal(await page.locator('#search').inputValue(),'保険');
+   assert.equal(await page.locator('#editorial-search').inputValue(),'保険');
+   assert.equal(await page.locator('#filter').inputValue(),'3');
+   assert.equal(await page.locator('#kind').inputValue(),'regular');
+   assert.equal(await page.locator('#card-results a.card').count(),expectedSearchCount);
+   await page.reload();
+   assert.equal(await page.locator('#search').inputValue(),'保険');
+   const sharedArticleTitle=await page.locator('#card-results a.card h3').first().innerText();
+   await page.locator('#card-results a.card').first().click();
+   await waitForArticle(page,sharedArticleTitle);
+   await page.goBack();
+   await page.locator('#search').waitFor({state:'visible'});
+   assert.equal(await page.locator('#search').inputValue(),'保険');
+   assert.equal(await page.locator('#filter').inputValue(),'3');
+   assert.equal(await page.locator('#kind').inputValue(),'regular');
+   await page.goForward();
+   await waitForArticle(page,sharedArticleTitle);
+   await page.goBack();
+   await page.locator('#search').waitFor({state:'visible'});
+   assert.equal(await page.locator('#card-results a.card').count(),expectedSearchCount);
+   await page.locator('#reset').click();
+   await page.locator('[data-search-link="#library"]').click();
+   assert.equal(new URL(page.url()).search,'');
+   assert.equal(await page.locator('#card-results a.card').count(),17);
+   await page.goto(base+'?q=000040521357&filter=invalid&kind=invalid#questions');
+   assert.equal(await page.locator('#filter').inputValue(),'all');
+   assert.equal(await page.locator('#kind').inputValue(),'all');
+   assert.equal(await page.locator('#observation-results a').count(),1);
+   await page.locator('[data-search-link="#questions"]').click();
+   assert.equal(new URL(page.url()).searchParams.get('filter'),null);
+   assert.equal(new URL(page.url()).searchParams.get('kind'),null);
+   assert.equal(await page.locator('#observation-results a').count(),1);
+   console.log('PASS explicit search permalinks, filter/query reload, reset and invalid values at '+viewport.width);
+
    // Overview-only matches must link to the overview even when no article or theme claim matches.
    await page.goto(base);
    await page.locator('#search').fill('レンタカー');
