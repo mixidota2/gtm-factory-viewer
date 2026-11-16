@@ -68,7 +68,18 @@ function originalMarkdown(text,prefix='section'){
  }
  flush();if(code!==null)out+=`<pre><code>${esc(code.join('\n'))}</code></pre>`;return out;
 }
-const state={theme:data.themes[0]?.id||'',query:'',filter:'all',kind:'all'};
+function readSearchState(search){
+ const params=new URLSearchParams(search),filter=params.get('filter'),kind=params.get('kind');
+ return {query:params.get('q')||'',filter:data.themes.some(t=>t.id===filter)?filter:'all',kind:['regular','proxy'].includes(kind)?kind:'all'};
+}
+function searchPermalink(hash){
+ const params=new URLSearchParams();
+ if(state.query)params.set('q',state.query);
+ if(state.filter!=='all')params.set('filter',state.filter);
+ if(state.kind!=='all')params.set('kind',state.kind);
+ return location.pathname+(params.toString()?'?'+params.toString():'')+hash;
+}
+const state={theme:data.themes[0]?.id||'',...readSearchState(location.search)};
 let homeScroll=0, route='';
 function themeButton(t){return `<button class="theme" data-theme="${esc(t.id)}" aria-pressed="${t.id===state.theme}" aria-controls="theme-detail"><span class="num" aria-hidden="true">0${esc(t.id)}</span><span>${esc(t.label)}</span></button>`;}
 function drawTheme(){
@@ -128,6 +139,7 @@ function drawCards(){
  const hasClaims=drawClaims(q,selectedTheme);
  drawEditorialSearch(q);
  drawCandidateUpdates(q);
+ document.querySelectorAll('[data-search-link]').forEach(a=>{a.href=searchPermalink(a.dataset.searchLink);});
  const regular=rows.filter(m=>!m.proxy_map),proxy=rows.filter(m=>m.proxy_map);
  document.getElementById('result-count').textContent=`${data.markets.length}記事のうち${rows.length}記事を表示しています`;
  document.getElementById('card-results').innerHTML=rows.length?`${regular.length?`<div class="cards">${regular.map(card).join('')}</div>`:''}${proxy.length?`<section class="proxy-list"><h3>開発者の注目・未検証の仮説</h3><p class="meta">開発者の関心を記録した記事と、料金設定についての未検証の仮説を扱う記事です。実際の利用や購入を確認した結果とは区別します。</p><div class="cards">${proxy.map(card).join('')}</div></section>`:''}`:`<p class="empty">${hasClaims?'関連する個別の記事はありません。上のリンクから、概要の詳しい説明を読めます。':'条件に合う記事はありません。検索語や絞り込みを変えてください。'}</p>`;
@@ -157,7 +169,7 @@ function drawEditorialSearch(q){
  document.getElementById('observation-results').innerHTML=obs.map(o=>`<p><a href="#observation/${esc(o.id)}">${esc(o.label)}</a>：${esc(o.observation_text)}<br>確認範囲：${esc(o.primary_read_scope)}</p>`).join('');
  document.getElementById('editorial-search').value=state.query;
 }
-function editorialHome(){return `<section class="section" id="questions"><h2>3つの問いから読む</h2><p>${esc(editorial.world_coverage_statement)}</p><nav class="question-nav" aria-label="横断する問い">${editorial.cross_industry_entries.map(e=>`<a href="#question/${esc(e.id)}">${esc(entryLabels[e.id])}</a>`).join('')}</nav><label>全記事・観測を検索<input id="editorial-search" type="search" value="${esc(state.query)}" placeholder="国、業界、時間、保証など"></label><button id="editorial-reset">検索条件をすべて解除</button><div id="question-detail"></div></section><section class="section" id="global-library"><h2>海外4例を読む</h2><p>海外の4記事・13観測と、日本の8観測を掲載しています。世界全体を代表するように選んだ標本ではありません。</p><p id="global-count" role="status"></p><div id="global-results" class="global-grid"></div><div id="observation-results"></div></section><details class="overview" id="coverage"><summary>観測範囲・未調査・確認待ちの読み方</summary><div class="prose">${markdown(editorial.scope_text,'coverage-section')}</div><ul>${editorial.comparison_rules.map(x=>`<li>${esc(x)}</li>`).join('')}</ul></details><section class="section" id="observations"><h2>${editorial.observations.length}観測の対象・根拠・確認範囲</h2><p>各記事から、同じ調査結果の対象と出典を確認できます。同じ資料を複数の記事で紹介していても、別々の調査による裏付けとは数えません。</p>${editorial.observations.map(o=>`<details id="observation-${esc(o.id)}"><summary>${esc(o.label)} — ${esc(o.evidence_type)}</summary>${observationCard(o)}</details>`).join('')}</section>`;}
+function editorialHome(){return `<section class="section" id="questions"><h2>3つの問いから読む</h2><p>${esc(editorial.world_coverage_statement)}</p><nav class="question-nav" aria-label="横断する問い">${editorial.cross_industry_entries.map(e=>`<a href="#question/${esc(e.id)}">${esc(entryLabels[e.id])}</a>`).join('')}</nav><label>全記事・観測を検索<input id="editorial-search" type="search" value="${esc(state.query)}" placeholder="国、業界、時間、保証など"></label><button id="editorial-reset">検索条件をすべて解除</button><p class="meta"><a data-search-link="#questions" href="#questions">この検索条件へのリンク</a>を開くと、検索語・テーマ・記事種類がURLに入り、保存して同じ条件で開き直せます。</p><div id="question-detail"></div></section><section class="section" id="global-library"><h2>海外4例を読む</h2><p>海外の4記事・13観測と、日本の8観測を掲載しています。世界全体を代表するように選んだ標本ではありません。</p><p id="global-count" role="status"></p><div id="global-results" class="global-grid"></div><div id="observation-results"></div></section><details class="overview" id="coverage"><summary>観測範囲・未調査・確認待ちの読み方</summary><div class="prose">${markdown(editorial.scope_text,'coverage-section')}</div><ul>${editorial.comparison_rules.map(x=>`<li>${esc(x)}</li>`).join('')}</ul></details><section class="section" id="observations"><h2>${editorial.observations.length}観測の対象・根拠・確認範囲</h2><p>各記事から、同じ調査結果の対象と出典を確認できます。同じ資料を複数の記事で紹介していても、別々の調査による裏付けとは数えません。</p>${editorial.observations.map(o=>`<details id="observation-${esc(o.id)}"><summary>${esc(o.label)} — ${esc(o.evidence_type)}</summary>${observationCard(o)}</details>`).join('')}</section>`;}
 function renderGlobal(id){
  const c=editorial.cards.find(c=>c.id===id);route='memo';
  document.getElementById('main').innerHTML=c?`<div class="reader"><aside><a href="#global-library">海外4例へ戻る</a><a href="#questions">3つの問いへ戻る</a><a href="#library">日本の調査記事一覧へ</a></aside><article class="prose"><h1>${esc(c.title)}</h1><p>${esc(c.entry)}</p><p>${esc(editorial.world_coverage_statement)}</p><p>${questionLinks(c.observations)} ／ <a href="#comparison">二重入力比較</a></p>${markdown(c.body,'global-body')}<h2>根拠と確認範囲</h2>${c.observations.map(oid=>observationCard(observationMap.get(oid))).join('')}<details><summary>この記事の解説と出典をすべて読む</summary>${markdown(c.text,'global-full')}</details><p><a href="#global-library">海外4例へ戻る</a></p></article></div>`:'<p>記事が見つかりません。<a href="#global-library">一覧へ</a></p>';
@@ -190,7 +202,7 @@ function home(){
  ${comparison()}
  <section class="section" id="claim-register"><h2>主張ごとの出典・検証状況（${data.claims.length}件）</h2><p>調べて分かったこと、その解釈、まだ確かめていない仮説、次に確かめる計画を分けて表示します。</p>${data.claims.map(c=>claimCard(c,true)).join('')}</section>
  <details class="overview" id="overview"><summary>調査範囲と全体の結果を読む</summary><div class="prose">${markdown(data.overview.text.replace(/^# /,'## '),'overview-section')}</div></details>
- <section class="section" id="library" aria-labelledby="library-title"><div class="section-head"><h2 id="library-title">調査記事を読む</h2><p>記事を選ぶと、調査結果と出典を読めます。</p></div><div class="filters"><label>概要・タイトル・本文を検索<input id="search" type="search" placeholder="保育、紙、ルールなど" value="${esc(state.query)}"></label><label>比較するテーマ<select id="filter"><option value="all">すべてのテーマ</option>${data.themes.map(t=>`<option value="${esc(t.id)}" ${state.filter===t.id?'selected':''}>${esc(t.label)}</option>`).join('')}</select></label><label>記事の種類<select id="kind"><option value="all">すべての記事</option><option value="regular" ${state.kind==='regular'?'selected':''}>利用・導入・支出などの記事</option><option value="proxy" ${state.kind==='proxy'?'selected':''}>開発者の注目・未検証の仮説</option></select></label></div><button class="reset" id="reset">検索条件をすべて解除</button><p class="results" id="result-count" role="status"></p><div id="claim-results" class="claim-results" aria-live="polite"></div><div id="card-results"></div></section>`;
+ <section class="section" id="library" aria-labelledby="library-title"><div class="section-head"><h2 id="library-title">調査記事を読む</h2><p>記事を選ぶと、調査結果と出典を読めます。</p></div><div class="filters"><label>概要・タイトル・本文を検索<input id="search" type="search" placeholder="保育、紙、ルールなど" value="${esc(state.query)}"></label><label>比較するテーマ<select id="filter"><option value="all">すべてのテーマ</option>${data.themes.map(t=>`<option value="${esc(t.id)}" ${state.filter===t.id?'selected':''}>${esc(t.label)}</option>`).join('')}</select></label><label>記事の種類<select id="kind"><option value="all">すべての記事</option><option value="regular" ${state.kind==='regular'?'selected':''}>利用・導入・支出などの記事</option><option value="proxy" ${state.kind==='proxy'?'selected':''}>開発者の注目・未検証の仮説</option></select></label></div><button class="reset" id="reset">検索条件をすべて解除</button><p class="meta"><a data-search-link="#library" href="#library">この検索条件へのリンク</a>を開くと、検索語・テーマ・記事種類がURLに入り、保存して同じ条件で開き直せます。</p><p class="results" id="result-count" role="status"></p><div id="claim-results" class="claim-results" aria-live="polite"></div><div id="card-results"></div></section>`;
  drawTheme();drawQuestion();drawCards();
  document.getElementById('editorial-search').addEventListener('input',e=>{state.query=e.target.value;document.getElementById('search').value=state.query;drawCards();});
  document.getElementById('editorial-reset').addEventListener('click',()=>document.getElementById('reset').click());

@@ -14,10 +14,10 @@ def leaves(x,path=''):
   for i,v in enumerate(x):yield from leaves(v,path+'/'+str(i))
  else:yield path,x
 def digest(v):return hashlib.sha256(json.dumps(v,ensure_ascii=False,sort_keys=True).encode()).hexdigest()
-# Exact reviewed renderers for the water supplement, metadata search, observation focus and re-selection. This is not a
+# Exact reviewed renderers for the water supplement, metadata search, observation focus, re-selection and explicit search links. This is not a
 # source or browser approval: source/dependency guards below and browser CI
 # remain independent. Any other renderer change requires review again.
-REVIEWED_SHELLS = {'3de84d1fb0dd30ebc7a266f5de476252ab53717da236ca3e8562acdea7de4fcc': 'observation-reselection', '14a2d69ea5f3f175165367fd2f777c1e344ac7742e304cdb0d537e327ffc7969': 'observation-keyboard-focus', 'f647232756893d45b6c4b466245289f64a00d3a58f02dc7f6da760c5a25c5c3b': 'observation-metadata-search', 'ceab931427f9de31a6e15907293e589021ea3a68009f2363ca7cc648cd9ec6c8': 'water-coastwise-supplement'}
+REVIEWED_SHELLS = {'90d34ded8e7118f156dc67a8e4bad72617b881b0d8326218476babeaec465fc2': 'explicit-search-permalinks', '3de84d1fb0dd30ebc7a266f5de476252ab53717da236ca3e8562acdea7de4fcc': 'observation-reselection', '14a2d69ea5f3f175165367fd2f777c1e344ac7742e304cdb0d537e327ffc7969': 'observation-keyboard-focus', 'f647232756893d45b6c4b466245289f64a00d3a58f02dc7f6da760c5a25c5c3b': 'observation-metadata-search', 'ceab931427f9de31a6e15907293e589021ea3a68009f2363ca7cc648cd9ec6c8': 'water-coastwise-supplement'}
 PATTERN = rb'(<script id="snapshot-data" type="application/json">).*?(</script>)'
 def outside_snapshot(raw):
  if len(re.findall(PATTERN, raw, flags=re.S)) != 1:
