@@ -243,6 +243,25 @@ const server = http.createServer(require('./static_server.cjs')(html));
     assert.equal(await page.locator('#card-results a.card').count(),17);
    }
    console.log('PASS observation metadata search, original detail route and reset at '+viewport.width);
+   // Keyboard navigation must continue at the selected observation, not at search results.
+   await page.goto(base);
+   await page.locator('#editorial-search').fill('2026-11-09 000040521357');
+   const observationLink=page.locator('#observation-results a');
+   await observationLink.focus();
+   await page.keyboard.press('Enter');
+   await page.waitForFunction(()=>document.activeElement===document.querySelector('#observation-jp-water-sales-coastwise-quantity > summary'));
+   assert.equal(await page.locator('#observation-jp-water-sales-coastwise-quantity').getAttribute('open'),'');
+   await page.keyboard.press('Tab');
+   assert.equal(await page.evaluate(()=>document.activeElement.closest('details')?.id),'observation-jp-water-sales-coastwise-quantity');
+   await page.goBack();
+   await page.waitForFunction(()=>!location.hash);
+   assert.equal(await page.locator('#editorial-search').inputValue(),'2026-11-09 000040521357');
+   await page.goForward();
+   await page.waitForFunction(()=>document.activeElement===document.querySelector('#observation-jp-water-sales-coastwise-quantity > summary'));
+   await page.reload();
+   await page.waitForFunction(()=>document.activeElement===document.querySelector('#observation-jp-water-sales-coastwise-quantity > summary'));
+   console.log('PASS observation keyboard focus, in-detail Tab, Back/Forward and direct reload at '+viewport.width);
+
 
    // Overview-only matches must link to the overview even when no article or theme claim matches.
    await page.goto(base);
