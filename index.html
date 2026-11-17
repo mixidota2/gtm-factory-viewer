@@ -173,7 +173,7 @@ function editorialHome(){return `<section class="section" id="questions"><h2>3�
 function renderGlobal(id){
  const c=editorial.cards.find(c=>c.id===id);route='memo';
  document.getElementById('main').innerHTML=c?`<div class="reader"><aside><a href="#global-library">海外4例へ戻る</a><a href="#questions">3つの問いへ戻る</a><a href="#library">日本の調査記事一覧へ</a></aside><article class="prose"><h1>${esc(c.title)}</h1><p>${esc(c.entry)}</p><p>${esc(editorial.world_coverage_statement)}</p><p>${questionLinks(c.observations)} ／ <a href="#comparison">二重入力比較</a></p>${markdown(c.body,'global-body')}<h2>根拠と確認範囲</h2>${c.observations.map(oid=>observationCard(observationMap.get(oid))).join('')}<details><summary>この記事の解説と出典をすべて読む</summary>${markdown(c.text,'global-full')}</details><p><a href="#global-library">海外4例へ戻る</a></p></article></div>`:'<p>記事が見つかりません。<a href="#global-library">一覧へ</a></p>';
- document.title=(c?c.title:'記事が見つかりません')+' | GTM工場';window.scrollTo(0,0);
+ document.title=(c?c.title:'記事が見つかりません')+' | GTM工場';window.scrollTo(0,0);document.getElementById('main').focus({preventScroll:true});
 }
 
 
