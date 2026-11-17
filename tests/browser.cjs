@@ -381,7 +381,7 @@ const server = http.createServer(require('./static_server.cjs')(html));
     const body=await page.locator('#main').innerText();
     for(const phrase of ['持続成長未確認の候補','2026年10月26日','19,324円','15,528円','0.108台から0.125台','0.053台から0.045台','0.001台単位','標本誤差・信頼区間は未検証','732.3万台','91.5万台','64.7%','35.3%減','この数字が在庫増を証明しているわけでもありません','持続成長の一覧へは昇格しません'])assert.ok(body.includes(phrase),phrase);
     assert.equal(await page.locator('#main details.claim-evidence').count(),3);
-    for(const source of [...new Set(data.claims.slice(94).flatMap(c=>c.source_urls))])assert.ok(await page.locator('#main a').evaluateAll((links,url)=>links.some(a=>a.getAttribute('href')===url),source),source);
+    for(const source of [...new Set(data.claims.filter(c=>c.claim_id.startsWith('jp-aircon-rebound-divergence-')).flatMap(c=>c.source_urls))])assert.ok(await page.locator('#main a').evaluateAll((links,url)=>links.some(a=>a.getAttribute('href')===url),source),source);
     assert.ok(await page.locator('html').evaluate(el=>el.scrollWidth<=innerWidth),'aircon article must not overflow');
     if(query==='エアコン')await page.screenshot({path:'browser-evidence/aircon-'+viewport.width+'.png',fullPage:true});
     await page.locator('#main').getByText('記事一覧に戻る',{exact:true}).first().click();
