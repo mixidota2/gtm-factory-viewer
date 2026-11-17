@@ -53,3 +53,19 @@ assert.deepEqual(restore(new URL(shared,'https://example.test').search),shareSta
 shareState.query='';shareState.filter='all';shareState.kind='all';
 assert.equal(shareContext.searchPermalink('#questions'),'/gtm-factory-viewer/#questions');
 console.log('PASS actual search permalink helpers: Unicode/special characters, recognized filters, invalid/default values and clean reset');
+
+// Overseas routes must move focus to the freshly rendered article, like other readers.
+const globalStart=html.indexOf('function renderGlobal(id){');
+const globalEnd=html.indexOf('const candidateUpdates',globalStart);
+assert.ok(globalStart>=0&&globalEnd>globalStart);
+for(const id of ['example','missing']){
+ const main={innerHTML:'',focus(options){assert.equal(options.preventScroll,true);this.focused=true;}};
+ const doc={title:'',getElementById:key=>{assert.equal(key,'main');return main;}};
+ const ctx=vm.createContext({document:doc,window:{scrollTo:(x,y)=>assert.deepEqual([x,y],[0,0])},editorial:{cards:[{id:'example',title:'Example',entry:'Entry',observations:[],body:'Body',text:'Text'}],world_coverage_statement:'Scope'},esc:String,questionLinks:()=>'',markdown:s=>s,route:''});
+ vm.runInContext(html.slice(globalStart,globalEnd),ctx);
+ ctx.renderGlobal(id);
+ assert.equal(main.focused,true);
+ assert.equal(ctx.route,'memo');
+ assert.ok(main.innerHTML.includes(id==='example'?'Example':'記事が見つかりません'));
+}
+console.log('PASS overseas reader focuses main for known and missing articles');

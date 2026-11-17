@@ -170,8 +170,18 @@ const server = http.createServer(require('./static_server.cjs')(html));
    }
    for(const id of ['es-hotel','uk-video','us-electricity','in-upi']){
     await page.goto(base+'#global/'+id);
-    await page.waitForFunction(()=>document.getElementById('main').innerText.includes('海外'));
+    const globalTitle=data.editorial.cards.find(c=>c.id===id).title;
+    await page.waitForFunction(({id,title})=>location.hash==='#global/'+id && document.querySelector('#main h1')?.textContent===title,{id,title:globalTitle});
     assert.ok(await page.locator('#main a[href^="http"]').count()>0);
+    assert.equal(await page.evaluate(()=>document.activeElement?.id),'main','overseas article owns keyboard focus');
+    await page.keyboard.press('Tab');
+    assert.equal(await page.evaluate(()=>document.activeElement?.getAttribute('href')),'#global-library');
+    await page.keyboard.press('Enter');
+    await page.locator('#global-library').waitFor({state:'visible'});
+    assert.equal(await page.evaluate(()=>document.activeElement?.id),'main');
+    await page.goBack();
+    await page.waitForFunction(({id,title})=>location.hash==='#global/'+id && document.querySelector('#main h1')?.textContent===title,{id,title:globalTitle});
+    assert.equal(await page.evaluate(()=>document.activeElement?.id),'main');
    }
    for(const id of ['money-and-quantity','use-and-adoption','felt-value']){
     await page.goto(base+'#question/'+id);
