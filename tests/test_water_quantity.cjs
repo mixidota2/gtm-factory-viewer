@@ -44,7 +44,7 @@ function check(candidate=path.resolve(__dirname,'../index.html')){
  sources.sources.forEach(s=>{assert.match(s.source_sha256,/^[a-f0-9]{64}$/);assert.match(s.url,/^https:\/\/(www\.e-stat\.go\.jp|www\.stat\.go\.jp)\//);});
  const html=fs.readFileSync(candidate,'utf8');
  const data=JSON.parse(html.match(/<script id="snapshot-data" type="application\/json">([\s\S]*?)<\/script>/)[1]);
- assert.equal(data.themes.length,5);assert.equal(data.markets.length,17);assert.equal(data.claims.length,97);assert.equal(data.editorial.cards.length,4);
+ assert.equal(data.themes.length,5);assert.equal(data.markets.length,18);assert.equal(data.claims.length,98);assert.equal(data.editorial.cards.length,4);
  const observation=data.editorial.observations.find(o=>o.id===id);assert.ok(observation);
  const q=data.editorial.cross_industry_entries.find(e=>e.id==='money-and-quantity');assert.ok(q.observations.includes(id));
  for(const text of [q.body,q.text,observation.observation_text]){assert.ok(text.includes('7.92%'));assert.ok(text.includes('0.54%'));assert.ok(text.includes('0.03%減'));assert.ok(!text.includes('9.23%'));}
