@@ -71,7 +71,7 @@ const server = http.createServer(require('./static_server.cjs')(html));
    assert.equal(await page.locator('.hero-note a[href="#candidates"]').innerText(),'調査を続ける候補5件を読む');
    await recordFonts(page,viewport.width);
    if(beforeFonts){await page.close();continue;}
-   assert.equal(await page.locator('#card-results a.card').count(),17);
+   assert.equal(await page.locator('#card-results a.card').count(),18);
    for(const theme of data.themes){
     await page.locator(`[data-theme="${theme.id}"]`).click();
     assert.ok((await page.locator('#theme-detail').innerText()).includes(theme.title));
@@ -81,7 +81,7 @@ const server = http.createServer(require('./static_server.cjs')(html));
    await page.locator('#search').fill('zzzz-no-matching-memo');
    assert.equal(await page.locator('#card-results a.card').count(),0);
    await page.locator('#reset').click();
-   assert.equal(await page.locator('#card-results a.card').count(),17);
+   assert.equal(await page.locator('#card-results a.card').count(),18);
    await page.locator('#search').fill('コーヒー');
    assert.ok((await page.locator('#claim-results').innerText()).includes('概要全文'));
    await page.locator('#reset').click();
@@ -104,9 +104,9 @@ const server = http.createServer(require('./static_server.cjs')(html));
     console.log('PASS comparison actual horizontal wheel scroll: '+JSON.stringify(metrics));
    }
 
-   assert.equal(await page.locator('[id^="claim-"][class="claim-evidence"]').count(),97);
+   assert.equal(await page.locator('[id^="claim-"][class="claim-evidence"]').count(),98);
    assert.equal(await page.locator('#main').evaluate(el=>new Set([...el.querySelectorAll('[id]')].map(n=>n.id)).size === el.querySelectorAll('[id]').length),true);
-   assert.equal(await page.locator('#result-count').innerText(),'17記事のうち17記事を表示しています');
+   assert.equal(await page.locator('#result-count').innerText(),'18記事のうち18記事を表示しています');
    assert.equal(await page.locator('#candidate-results article').count(),5);
    for(const [id,query,claim,limit,sourceCount] of [
     ['foreign-package-travel','代表的なフリープラン','45.6%','「利用量まで確かめられた伸び」には加えません',7],
@@ -152,7 +152,7 @@ const server = http.createServer(require('./static_server.cjs')(html));
     await page.waitForFunction(()=>!!document.querySelector('#candidate-results'));
     await page.locator('#reset').click();
     assert.equal(await page.locator('#candidate-results article').count(),5);
-    assert.equal(await page.locator('#card-results a.card').count(),17);
+    assert.equal(await page.locator('#card-results a.card').count(),18);
    }
    console.log(`PASS candidate display/search/source links/back/reset at ${viewport.width}: overseas travel, lighting and accommodation remain candidates`);
    for(const entry of data.editorial.cross_industry_entries){
@@ -238,7 +238,7 @@ const server = http.createServer(require('./static_server.cjs')(html));
    await waterResult.click();
    await page.waitForFunction(()=>document.getElementById('observation-jp-water-sales-coastwise-quantity')?.open===true);
    await page.locator('#editorial-reset').click();
-   assert.equal(await page.locator('#card-results a.card').count(),17);
+   assert.equal(await page.locator('#card-results a.card').count(),18);
    assert.equal(await page.locator('[data-theme]').count(),5);
    console.log('PASS water supplement, sources, monthly data link, search/route and unchanged theme/article counts at '+viewport.width);
    for(const query of ['jp-water-sales-coastwise-quantity','2026-11-09 000040521357']){
@@ -250,7 +250,7 @@ const server = http.createServer(require('./static_server.cjs')(html));
     assert.ok((await page.locator('#observation-jp-water-sales-coastwise-quantity').innerText()).includes('2026-11-09'));
     await page.locator('#editorial-reset').click();
     assert.equal(await page.locator('#observation-results a').count(),0);
-    assert.equal(await page.locator('#card-results a.card').count(),17);
+    assert.equal(await page.locator('#card-results a.card').count(),18);
    }
    console.log('PASS observation metadata search, original detail route and reset at '+viewport.width);
    // Keyboard navigation must continue at the selected observation, not at search results.
@@ -320,7 +320,7 @@ const server = http.createServer(require('./static_server.cjs')(html));
    await page.locator('#reset').click();
    await page.locator('[data-search-link="#library"]').click();
    assert.equal(new URL(page.url()).search,'');
-   assert.equal(await page.locator('#card-results a.card').count(),17);
+   assert.equal(await page.locator('#card-results a.card').count(),18);
    await page.goto(base+'?q=000040521357&filter=invalid&kind=invalid#questions');
    assert.equal(await page.locator('#filter').inputValue(),'all');
    assert.equal(await page.locator('#kind').inputValue(),'all');
@@ -343,7 +343,7 @@ const server = http.createServer(require('./static_server.cjs')(html));
    await page.waitForFunction(()=>document.querySelector('#overview')?.open);
    assert.ok((await page.locator('#overview').innerText()).includes('レンタカー'));
    await page.locator('#reset').click();
-   assert.equal(await page.locator('#card-results a.card').count(),17);
+   assert.equal(await page.locator('#card-results a.card').count(),18);
 
    await page.goto(base);
    for(const query of ['718,854','1,833,150','2026年8月速報']){
@@ -359,7 +359,7 @@ const server = http.createServer(require('./static_server.cjs')(html));
     await page.screenshot({path:'browser-evidence/august-'+viewport.width+'.png',fullPage:true});
     await page.locator('#main').getByText('記事一覧に戻る',{exact:true}).first().click();
     await page.locator('#reset').click();
-    assert.equal(await page.locator('#card-results a.card').count(),17);
+    assert.equal(await page.locator('#card-results a.card').count(),18);
    }
    for(const id of ['lodging','restaurants']){
     await page.goto(base+'#claim/jp-merihari-consumption-seller-2026-08-'+id);
@@ -386,7 +386,7 @@ const server = http.createServer(require('./static_server.cjs')(html));
     if(query==='エアコン')await page.screenshot({path:'browser-evidence/aircon-'+viewport.width+'.png',fullPage:true});
     await page.locator('#main').getByText('記事一覧に戻る',{exact:true}).first().click();
     await page.locator('#reset').click();
-    assert.equal(await page.locator('#card-results a.card').count(),17);
+    assert.equal(await page.locator('#card-results a.card').count(),18);
     assert.equal(await page.locator('#candidate-results article').count(),5);
    }
    for(const slug of ['household','shipments','retail']){
@@ -421,7 +421,7 @@ const server = http.createServer(require('./static_server.cjs')(html));
     assert.ok(await page.locator('html').evaluate(el=>el.scrollWidth<=innerWidth));
     if(query==='電子処方箋')await page.screenshot({path:'browser-evidence/eprescription-'+viewport.width+'.png',fullPage:true});
     await page.locator('#main').getByText('記事一覧に戻る',{exact:true}).first().click();
-    await page.locator('#reset').click();assert.equal(await page.locator('#card-results a.card').count(),17);
+    await page.locator('#reset').click();assert.equal(await page.locator('#card-results a.card').count(),18);
    }
    // Electronic prescription has no theme membership in the preserved snapshot.
    assert.equal(data.themes.some(t=>t.memos.includes(ep.id)),false);
@@ -433,7 +433,7 @@ const server = http.createServer(require('./static_server.cjs')(html));
    assert.deepEqual((await page.locator('#card-results a.card').evaluateAll(links=>links.map(a=>a.getAttribute('href')))).sort(),phoneTheme.memos.map(id=>'#markets/'+id).sort());
    await page.locator('#reset').click();
    assert.equal(await page.locator('#filter').inputValue(),'all');
-   assert.equal(await page.locator('#card-results a.card').count(),17);
+   assert.equal(await page.locator('#card-results a.card').count(),18);
    assert.equal(await page.locator('#card-results a[href="#markets/jp-e-prescription-clinic-lag.md"]').count(),1);
    await page.goto(base+'#claim/'+epPrefix+'observation');
    const detail=page.locator('#claim-'+epPrefix+'observation');await detail.waitFor({state:'visible'});assert.equal(await detail.evaluate(el=>el.open),true);
