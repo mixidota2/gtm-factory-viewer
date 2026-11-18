@@ -22,7 +22,7 @@ Apple公式日本RSSを無料・売上・有料で各1回取得しました。20
 
 無料のSuicaは60→10位、PixelQR Scanは99→26位でした。ただし単日の順位変動であり、広告・キャンペーン・出来事との因果も、利用者数や利用時間の増加も確認していません。成長候補には上げません。
 
-公式URL：
+公式URL
 - https://itunes.apple.com/jp/rss/topfreeapplications/limit=200/json
 - https://itunes.apple.com/jp/rss/topgrossingapplications/limit=200/json
 - https://itunes.apple.com/jp/rss/toppaidapplications/limit=200/json

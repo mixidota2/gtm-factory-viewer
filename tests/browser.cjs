@@ -61,13 +61,15 @@ const server = http.createServer(require('./static_server.cjs')(html));
    page.on('console',m=>{if(m.type()==='error')errors.push(m.text());});
    await page.route('**/*',route=>route.request().url().startsWith(base)?route.continue():route.abort());
    await page.goto(base);
-   const freshness=await page.locator('.hero-note .meta').innerText();
+   const freshness=await page.locator('.hero-note .meta').filter({hasText:'主要記事の更新日：'}).innerText();
+   const proseUpdate=await page.locator('.hero-note .meta').filter({hasText:'文章は2026年11月18日に推敲しました。'}).innerText();
+   assert.ok(proseUpdate.includes('全資料をこの日に再調査したものではありません。'));
    assert.ok(freshness.includes('主要記事の更新日：2026年10月28日（日本時間）'));
    assert.ok(freshness.includes('全記事をこの日に再調査したものではありません'));
    assert.ok(freshness.includes('資料の公表日・データの対象期間・確認範囲は各記事'));
-   assert.equal(await page.locator('#snapshot').innerText(),'主要記事の更新日：2026年10月28日（日本時間） · 資料の公表日・対象期間は各記事に記載');
+   assert.equal(await page.locator('#snapshot').innerText(),'主要記事の更新日：2026年10月28日（日本時間） · 資料の公表日・対象期間は各記事に記載 · 文章の推敲：2026年11月18日');
 
-   assert.ok((await page.locator('#candidates .meta').innerText()).includes('海外パック旅行・照明が2026年10月18〜19日、宿泊料が11月2日'));
+   assert.ok((await page.locator('#candidates .meta').innerText()).includes('海外パック旅行が2026年10月18〜19日、照明の月次支出・出荷が11月18日、宿泊料が11月2日'));
    assert.equal(await page.locator('.hero-note a[href="#candidates"]').innerText(),'調査を続ける候補5件を読む');
    await recordFonts(page,viewport.width);
    if(beforeFonts){await page.close();continue;}
@@ -110,7 +112,7 @@ const server = http.createServer(require('./static_server.cjs')(html));
    assert.equal(await page.locator('#candidate-results article').count(),5);
    for(const [id,query,claim,limit,sourceCount] of [
     ['foreign-package-travel','代表的なフリープラン','45.6%','「利用量まで確かめられた伸び」には加えません',7],
-    ['lighting','参加37社','2026年4〜8月','同じ範囲で購入量も増えたと確認できた項目には加えません',5],
+    ['lighting','参加37社','2026年4〜8月','同じ範囲で購入量も増えたと確認できた項目には加えません',6],
     ['accommodation','宿泊条件を揃えて比較できる購入泊数','41,543円','成長項目への追加は見送っています',5]
    ]){
     await page.locator('#editorial-search').fill(query);
@@ -119,8 +121,11 @@ const server = http.createServer(require('./static_server.cjs')(html));
     await page.locator('#candidate-results h3 a[href="#candidate/'+id+'"]').click();
     await page.waitForFunction(expected=>location.hash==='#candidate/'+expected && document.querySelector('#main h1')?.textContent.includes(expected==='lighting'?'照明器具':expected==='accommodation'?'宿泊料':'海外パック旅行'),id);
     const body=await page.locator('#main').innerText();
-    for(const text of ['候補・利用量の増加は未確認','二人以上世帯','2025年9月〜2026年8月',claim,limit,id==='accommodation'?'家計調査・2020〜2024年':'家計調査・月次（2020〜2024年）'])assert.ok(body.includes(text),id+': '+text);
+    for(const text of ['候補・利用量の増加は未確認','二人以上世帯',id==='lighting'?'2025年10月〜2026年9月':'2025年9月〜2026年8月',claim,limit,id==='accommodation'?'家計調査・2020〜2024年':'家計調査・月次（2020〜2024年）'])assert.ok(body.includes(text),id+': '+text);
 
+    if(id==='lighting'){
+     for(const fact of ['1,293円','1,841円','42.4%','参加36社','同じ企業だけで集計し直した比較かどうかは確認できず','2026年11月18日'])assert.ok(body.includes(fact),fact);
+    }
     if(id==='accommodation'){
      for(const caveat of ['どの条件なら合算できるかは未確認','速報・確報の表示が異なる','親族宅での宿泊','帰宅した時期','有料宿泊の泊数が増えた、あるいは滞在が短くなったとは判断しません'])assert.ok(body.includes(caveat),caveat);
      assert.equal(await page.locator('#main a[href="https://www.mlit.go.jp/kankocho/content/001858808.pdf"]').count(),1);
@@ -215,7 +220,7 @@ const server = http.createServer(require('./static_server.cjs')(html));
    assert.equal(await water.count(),1);
    await water.locator('details > summary').click();
    const waterValues=await water.innerText();
-   for(const phrase of ['6907853','7455227','296482','298097','149309','149258','価格寄与','2026-10-23','2026-10-28','2026-11-09'])assert.ok(waterValues.includes(phrase),phrase);
+   for(const phrase of ['6907853','7455227','296482','298097','149309','149258','売上増のうち価格が占める分は未確認','2026-10-23','2026-10-28','2026-11-09'])assert.ok(waterValues.includes(phrase),phrase);
    assert.ok(!waterValues.includes('9.23'));
    assert.equal(await page.locator('#observations > details').count(),21);
    assert.equal(await page.locator('#observations > h2').innerText(),'21観測の対象・根拠・確認範囲');
@@ -352,7 +357,7 @@ const server = http.createServer(require('./static_server.cjs')(html));
     await page.locator('#card-results a[href="#markets/jp-merihari-consumption.md"]').click();
     await page.waitForFunction(()=>document.querySelector('#main h1')?.textContent.includes('2026年7月'));
     const article=await page.locator('#main').innerText();
-    for(const phrase of ['追記：2026年8月','2026年10月23日公表','718,854','1,833,150','+2.3%','+3.7%','客数や実質利用量を測った値ではありません。','前月比ではありません','速報・丸め値','全34業種','元記事と既存4主張の確認状況は変更していません'])assert.ok(article.includes(phrase),phrase);
+    for(const phrase of ['追記：2026年8月','確認記録の日付：2026年10月23日。ここからは同日公表の速報','718,854','1,833,150','+2.3%','+3.7%','客数や実質利用量を測った値ではありません。','前月比ではありません','速報・丸め値','全34業種','元記事と既存4主張の確認状況は変更していません'])assert.ok(article.includes(phrase),phrase);
     assert.equal(await page.locator('#main details.claim-evidence').count(),6);
     assert.equal(await page.locator('#main a[href="https://www.stat.go.jp/data/mbss/kekka/pdf/m202608.pdf#page=4"]').count(),1);
     assert.ok(await page.locator('html').evaluate(el=>el.scrollWidth<=innerWidth));

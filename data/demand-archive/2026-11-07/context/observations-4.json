@@ -317,7 +317,7 @@
       "limits": [
         "Shipment != final household purchases; chain order value != quantity",
         "Periods differ",
-        "single household sameperiod unverified"
+        "The same period for single households remains unverified."
       ]
     },
     {

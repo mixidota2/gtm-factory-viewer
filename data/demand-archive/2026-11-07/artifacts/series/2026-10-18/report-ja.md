@@ -18,7 +18,7 @@ Apple公式日本向けRSSを03:10:40–03:10:54 JSTに各1回、ログインな
 
 更新時点の順位スナップショットで、公表対象期間の集計窓や個別の公表日は明示されていない。取得時刻を公表日と置き換えない。順位は利用者数、ダウンロード数、利用時間、売上金額、支払意思や継続率ではない。
 
-公式取得先：
+公式取得先
 - https://itunes.apple.com/jp/rss/topfreeapplications/limit=200/json
 - https://itunes.apple.com/jp/rss/topgrossingapplications/limit=200/json
 - https://itunes.apple.com/jp/rss/toppaidapplications/limit=200/json
@@ -35,7 +35,7 @@ Apple公式日本向けRSSを03:10:40–03:10:54 JSTに各1回、ログインな
 - 売上LINEマンガ：6→7→6→4位
 - 有料Vampire Crawlers：返却なし→5→3→2位
 
-次回は次の許可された日付の1回分。
+次回の取得は次の許可された日付に1回だけ行う。
 
 ## 再利用する人・時間の証拠
 - 日本の求人：2026年8月まで、2026年10月2日公表の厚生労働省第21表。10月16日の57職種の処理を再利用し、同じ期間は再照会していない。ハローワークの求人・就職であり、全国の全採用でも会社の売上でもない。
@@ -43,11 +43,11 @@ Apple公式日本向けRSSを03:10:40–03:10:54 JSTに各1回、ログインな
 - 英国の配信：Ofcom『Media Nations 2026』（2026年7月29日公表）の2025年42分は英国4歳以上全体、家庭内TVと家庭内Wi-Fi機器のSVoD/AVoD視聴。図40→42分と本文「前年比3分増」は丸めで両立し得るため、正確な増分・伸び率は保留。総視聴時間の概要267分と本文・図263分の差は未解決。10月17日の照合結果を再利用し、PDFの目視確認済みとはしない。
 - 英国世帯のSVoD保有70.3%（2026年第1四半期、Barbの2026年5月21日公表）は無料試用を含む。人数、有料のみの契約率、継続率ではない。日本と英国の時間を同じ物差しで順位付けしない。
 
-再利用資料の公式リンク：
+再利用資料の公式リンク
 - 厚生労働省：https://www.mhlw.go.jp/stf/newpage_76397.html
 - 総務省：https://www.soumu.go.jp/iicp/research/results/media_usage-time.html
 - Ofcom：https://www.ofcom.org.uk/siteassets/resources/documents/research-and-data/multi-sector/media-nations/2026/media-nations-2026-uk-report.pdf?v=423157
 - Barb：https://www.barb.co.uk/news/barb-data-show-that-20-8m-uk-homes-had-access-to-an-svod-service-in-q1-2026/
 
 ## 保存物
-raw.json各3件と取得台帳にURL・UTC/JST取得時刻・フィード更新時刻・HTTPヘッダー・SHA256・件数を保存。2026-10-18.jsonとCSVに全返却行、four-observation-comparison.jsonに4日分のID別順位、app-continuity.jsonに欠測と連続日数、validation.jsonに検算結果、input-provenance.jsonに再利用元とハッシュ、search_history.jsonlに今日の照会・再利用記録を保存した。
+raw.json各3件と取得記録にURL・UTC/JST取得時刻・フィード更新時刻・HTTPヘッダー・SHA256・件数を保存。2026-10-18.jsonとCSVに全返却行、four-observation-comparison.jsonに4日分のID別順位、app-continuity.jsonに欠測と連続日数、validation.jsonに検算結果、input-provenance.jsonに再利用元とハッシュ、search_history.jsonlに今日の照会・再利用記録を保存した。

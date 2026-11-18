@@ -2,7 +2,7 @@
 
 # ゲームソフト等835：売り手証拠・人口定義の限定監査
 
-確認日：2026年10月20日。最新正本は86d27ffb8a66ea99fc8e40f68f5a28a69177e38d。既存の家計・App Store計算は再実行せず、保存済み売り手資料と公式公開説明の不足だけを確認した。
+確認日：2026年10月20日。参照した最新の保存資料は86d27ffb8a66ea99fc8e40f68f5a28a69177e38d。既存の家計・App Store計算は再実行せず、保存済み売り手資料と公式公開説明の不足だけを確認した。
 
 ## 結論
 
@@ -32,7 +32,7 @@ p13の年間プレイ指標も全国の実人数ではない。両機種に登�
 
 確認した2026年公式リリース、保存済み製品案内、および公式ドメインに絞った訂正・正誤検索では、この差を解消する説明を見つけられなかった。「訂正が存在しない」との網羅的な主張ではない。製品ページの新規アクセスは閲覧ツール側で失敗したため、保存済みHTMLを利用し、同じ失敗は繰り返していない。
 
-一次資料：
+一次資料
 - [ファミ通ゲーム白書2026公式発表](https://www.lab-kadokawa.com/release/detail.php?id=0388)、[公式図](https://www.lab-kadokawa.com/release/image/438/05.png)、[PDF p3](https://www.lab-kadokawa.com/release/pdf/438.pdf)。公開表示2026-08-06。
 - [ファミ通ゲーム白書2025公式発表](https://www.lab-kadokawa.com/release/detail.php?id=0334)、[公式図](https://www.lab-kadokawa.com/release/image/384/04.png)、[PDF p3](https://www.lab-kadokawa.com/release/pdf/384.pdf)。HTML公開表示2025-08-06、PDF表紙・発売日は2025-08-07で、日付を区別する。
 

@@ -35,8 +35,8 @@
     }
   },
   "formula": "100 * (current 12-month sum / previous 12-month sum - 1)",
-  "scope_warning": "水運売上は外航・旅客・船舶貸渡等を含む業種全体。数量は営業用内航貨物のみ。売上÷数量、価格寄与、全水運の数量成長は算出しない。",
+  "scope_warning": "水運売上の対象は外航・旅客・船舶貸渡等を含む業種全体。数量の対象は営業用内航貨物のみ。売上÷数量、価格寄与、全水運の数量成長は算出しない。",
   "verification_as_of": "2026-11-09",
-  "original_source_checks": "数量XLSの対象24年月と列・単位、売上PDF7ページの24月を照合。別手順のSQLite/Fraction集計も一致。",
-  "recalculation_scope": "公開CSVからの集計と原資料との照合は別の検証。付属のテストはCSVの保存値・期間・計算と表示を確認する。"
+  "original_source_checks": "数量XLSは対象の24年月と列・単位を、売上PDFは7ページの24月分を照合した。別手順で行ったSQLite/Fractionの集計結果も一致した。",
+  "recalculation_scope": "公開CSVから集計する検証と、原資料と照合する検証は別のもの。付属のテストはCSVの保存値・期間・計算と表示を確認する。"
 }

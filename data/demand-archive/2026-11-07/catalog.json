@@ -5,13 +5,19 @@
   "files": [
     {
       "path": "README.md",
-      "bytes": 4862,
-      "sha256": "dfd8e449d7d037c25341ec7772d6ae1ca2d0ef08c0901cb2dc01af33f9add0b4"
+      "bytes": 5208,
+      "sha256": "396e772bcdac358f029b2ef0c8d2f6153cfc656f4e07bb9e6e282ee837f5af61",
+      "editorial_previous_sha256": "dfd8e449d7d037c25341ec7772d6ae1ca2d0ef08c0901cb2dc01af33f9add0b4",
+      "editorial_previous_bytes": 4862,
+      "editorial_revision_date": "2026-11-18"
     },
     {
       "path": "artifacts/series/2026-10-16/coffee-05/report.md",
-      "bytes": 2737,
-      "sha256": "a3c5f2cb13e79ff4865403fb074f39e00b35d6e380067a56933b806d5af886d4"
+      "bytes": 2824,
+      "sha256": "44e59586b0623fc668a3b448036ff02230253247b98a992b573b17b4b4cdfea2",
+      "editorial_previous_sha256": "a3c5f2cb13e79ff4865403fb074f39e00b35d6e380067a56933b806d5af886d4",
+      "editorial_previous_bytes": 2737,
+      "editorial_revision_date": "2026-11-18"
     },
     {
       "path": "artifacts/series/2026-10-16/household-nominal-ranking-provisional.csv",
@@ -20,13 +26,19 @@
     },
     {
       "path": "artifacts/series/2026-10-16/household-report.md",
-      "bytes": 6292,
-      "sha256": "f81c27a7ba7e3bd9d3d546d41308c6067c6fed5cae3648b530eefd46b5469597"
+      "bytes": 6313,
+      "sha256": "9b751314221fde6d7b097e48de05271db1c8d65656cb479687a03fa22e011ff2",
+      "editorial_previous_sha256": "f81c27a7ba7e3bd9d3d546d41308c6067c6fed5cae3648b530eefd46b5469597",
+      "editorial_previous_bytes": 6292,
+      "editorial_revision_date": "2026-11-18"
     },
     {
       "path": "artifacts/series/2026-10-16/people/2026-10-16-people-time-report.md",
       "bytes": 10903,
-      "sha256": "53589bcd2dc8f499c60022e56d40a0d855ebc93c46925abbfd1e848b6707c7bb"
+      "sha256": "9b331f5e50e364c8576b8413f74be790f9ef0435a3165bbad0766bf07798eaf5",
+      "editorial_previous_sha256": "53589bcd2dc8f499c60022e56d40a0d855ebc93c46925abbfd1e848b6707c7bb",
+      "editorial_previous_bytes": 10903,
+      "editorial_revision_date": "2026-11-18"
     },
     {
       "path": "artifacts/series/2026-10-16/people/jobs-ranked-active_vacancies-2026-10-16.csv",
@@ -60,8 +72,11 @@
     },
     {
       "path": "artifacts/series/2026-10-16/sellers/report_ja.md",
-      "bytes": 15407,
-      "sha256": "27316cb5a4cfb67f3bf80acf768a52016b3b687b908dec28bdd46ff97d69ea1c"
+      "bytes": 15384,
+      "sha256": "ea72b85dd8b1c81127e0140b7e2f94b7542cc6414b16b9aace1f9b1d8150e222",
+      "editorial_previous_sha256": "27316cb5a4cfb67f3bf80acf768a52016b3b687b908dec28bdd46ff97d69ea1c",
+      "editorial_previous_bytes": 15407,
+      "editorial_revision_date": "2026-11-18"
     },
     {
       "path": "artifacts/series/2026-10-16/sellers/sources.json",
@@ -70,13 +85,19 @@
     },
     {
       "path": "artifacts/series/2026-10-16/top-rank-audit/audit.md",
-      "bytes": 7034,
-      "sha256": "79321f26995887ee7d95ba3040e846721e5f4c519c9b28818ac739beacca6c4d"
+      "bytes": 7058,
+      "sha256": "0ee1236ecccd57d9e29e96dcbed457de9c4f00a766ca2269f65632ef38628a49",
+      "editorial_previous_sha256": "79321f26995887ee7d95ba3040e846721e5f4c519c9b28818ac739beacca6c4d",
+      "editorial_previous_bytes": 7034,
+      "editorial_revision_date": "2026-11-18"
     },
     {
       "path": "artifacts/series/2026-10-17/household/report-ja.md",
-      "bytes": 8203,
-      "sha256": "c88c74be761e2661b1c01f9b852f283f88a9ead18e45d02da65e19b06faef363"
+      "bytes": 8200,
+      "sha256": "5b58d6ceeba97a75d8f6d4ba6504088ab3c3399705aaebc34b5ccf8c5c3a883d",
+      "editorial_previous_sha256": "c88c74be761e2661b1c01f9b852f283f88a9ead18e45d02da65e19b06faef363",
+      "editorial_previous_bytes": 8203,
+      "editorial_revision_date": "2026-11-18"
     },
     {
       "path": "artifacts/series/2026-10-17/people/ofcom-discrepancy-audit.json",
@@ -85,8 +106,11 @@
     },
     {
       "path": "artifacts/series/2026-10-17/sellers/conclusions-ja.md",
-      "bytes": 12125,
-      "sha256": "d2d924174cb8caf685c349e4618ef3e293007151f0eafb85cd22f499424bbd86"
+      "bytes": 12152,
+      "sha256": "dec5cad9a39ccf5fea40e0ff152390acc8de93d2c2eb104ffb86d0a119756e89",
+      "editorial_previous_sha256": "d2d924174cb8caf685c349e4618ef3e293007151f0eafb85cd22f499424bbd86",
+      "editorial_previous_bytes": 12125,
+      "editorial_revision_date": "2026-11-18"
     },
     {
       "path": "artifacts/series/2026-10-18/2026-10-18.json",
@@ -100,8 +124,11 @@
     },
     {
       "path": "artifacts/series/2026-10-18/report-ja.md",
-      "bytes": 5640,
-      "sha256": "2cd99487335c1cdacb292d47fb94f7a4b56b1478baa3f75c2dc041a0068a84a8"
+      "bytes": 5652,
+      "sha256": "f0f030b50dced7ef2c90fcebde740c08c726917e0ebc057ba6b02a4c9ff8e17f",
+      "editorial_previous_sha256": "2cd99487335c1cdacb292d47fb94f7a4b56b1478baa3f75c2dc041a0068a84a8",
+      "editorial_previous_bytes": 5640,
+      "editorial_revision_date": "2026-11-18"
     },
     {
       "path": "artifacts/series/2026-10-18/validation.json",
@@ -110,13 +137,19 @@
     },
     {
       "path": "artifacts/series/2026-10-19/cpi05/report.md",
-      "bytes": 2358,
-      "sha256": "545c123ed89ff30332cf643da896b76e3fa2acdde216ff2c8f5233279df662e0"
+      "bytes": 2373,
+      "sha256": "b4c2722e0a34bf4c5f2afabded6eb1ece7703bfa0da6d390cb57decbfd70cfc7",
+      "editorial_previous_sha256": "545c123ed89ff30332cf643da896b76e3fa2acdde216ff2c8f5233279df662e0",
+      "editorial_previous_bytes": 2358,
+      "editorial_revision_date": "2026-11-18"
     },
     {
       "path": "artifacts/series/2026-10-19/household/report-ja.md",
-      "bytes": 4319,
-      "sha256": "a1d3f68a173b51ac2123bda0c20528facc5e4df334725bcdb28703a8a2b843bc"
+      "bytes": 4337,
+      "sha256": "83f8b827f34c529dc85819d87db9472fad6fb4309187cd0900087c87d7fc1959",
+      "editorial_previous_sha256": "a1d3f68a173b51ac2123bda0c20528facc5e4df334725bcdb28703a8a2b843bc",
+      "editorial_previous_bytes": 4319,
+      "editorial_revision_date": "2026-11-18"
     },
     {
       "path": "artifacts/series/2026-10-19/people/app-ranks-2026-10-19.json",
@@ -130,8 +163,11 @@
     },
     {
       "path": "artifacts/series/2026-10-20/household/report-ja.md",
-      "bytes": 6693,
-      "sha256": "8168e65ec6940068b40869817c93b2eecb6e60e33d5e0ed5e22d481f26970b32"
+      "bytes": 6723,
+      "sha256": "29c886ebc756ff42c22940b2946dc41784687590ad7de9c6f4d29161d86e4d14",
+      "editorial_previous_sha256": "8168e65ec6940068b40869817c93b2eecb6e60e33d5e0ed5e22d481f26970b32",
+      "editorial_previous_bytes": 6693,
+      "editorial_revision_date": "2026-11-18"
     },
     {
       "path": "artifacts/series/2026-10-20/people/app-ranks-2026-10-20.json",
@@ -145,13 +181,19 @@
     },
     {
       "path": "artifacts/series/2026-10-20/people/report-ja.md",
-      "bytes": 5940,
-      "sha256": "02d3dbc8bb857810606caa772c681429f1c54daacedd4acfbc97b0ed2c14416a"
+      "bytes": 5946,
+      "sha256": "67e7e576e89c4a55e8e22fb2161308e4606db04a738f2815acd445e57577bd0f",
+      "editorial_previous_sha256": "02d3dbc8bb857810606caa772c681429f1c54daacedd4acfbc97b0ed2c14416a",
+      "editorial_previous_bytes": 5940,
+      "editorial_revision_date": "2026-11-18"
     },
     {
       "path": "artifacts/series/2026-10-20/sellers/evidence-gap-review/report-ja.md",
-      "bytes": 8906,
-      "sha256": "4f27cf055af2ef45d4caab476656e7012a42efaa0eb4e3fab9268119401c60de"
+      "bytes": 8924,
+      "sha256": "780fbe3570bf7b3a122446258a4dfa16e1547cddf9655dab073a4b4af3ab39c4",
+      "editorial_previous_sha256": "4f27cf055af2ef45d4caab476656e7012a42efaa0eb4e3fab9268119401c60de",
+      "editorial_previous_bytes": 8906,
+      "editorial_revision_date": "2026-11-18"
     },
     {
       "path": "artifacts/series/2026-10-20/sellers/evidence-gap-review/source-ledger.json",
@@ -165,8 +207,11 @@
     },
     {
       "path": "artifacts/series/2026-10-20/sellers/report-ja.md",
-      "bytes": 2522,
-      "sha256": "967051a255979106dd5e33c5421b5a433eb13056295e9dfcd3f2ab716202113b"
+      "bytes": 2534,
+      "sha256": "0007369d3cb2f14aae983e02db8520ac769c3a26cd33a0d08a79321af2665c1b",
+      "editorial_previous_sha256": "967051a255979106dd5e33c5421b5a433eb13056295e9dfcd3f2ab716202113b",
+      "editorial_previous_bytes": 2522,
+      "editorial_revision_date": "2026-11-18"
     },
     {
       "path": "artifacts/series/2026-10-21/app-ranks-2026-10-21.json",
@@ -180,8 +225,11 @@
     },
     {
       "path": "artifacts/series/2026-10-21/report-ja.md",
-      "bytes": 7504,
-      "sha256": "72a00dd537446736357930ed2faa5cea858212fb55602c97ef0c35148dfadf13"
+      "bytes": 7501,
+      "sha256": "94f338414b79f74d4eda584f60d49a670cbf9d59aa7d3c6576e2eb3be4fd6b58",
+      "editorial_previous_sha256": "72a00dd537446736357930ed2faa5cea858212fb55602c97ef0c35148dfadf13",
+      "editorial_previous_bytes": 7504,
+      "editorial_revision_date": "2026-11-18"
     },
     {
       "path": "artifacts/series/2026-10-21/validation.json",
@@ -190,8 +238,11 @@
     },
     {
       "path": "artifacts/series/2026-10-22/household/report-ja.md",
-      "bytes": 7629,
-      "sha256": "bf61efdd71ab85a91db5e3f04437c9b30b34a62cc7ee16ddf93bb6491008e317"
+      "bytes": 7635,
+      "sha256": "b3efc1168394b314524c1ae2fe0d5281a87f7f87aa30ace23aaecf006bcfeb30",
+      "editorial_previous_sha256": "bf61efdd71ab85a91db5e3f04437c9b30b34a62cc7ee16ddf93bb6491008e317",
+      "editorial_previous_bytes": 7629,
+      "editorial_revision_date": "2026-11-18"
     },
     {
       "path": "artifacts/series/2026-10-22/household/source-ledger.json",
@@ -360,8 +411,11 @@
     },
     {
       "path": "artifacts/series/2026-10-27/eprescription/public-draft.md",
-      "bytes": 4394,
-      "sha256": "a0272b27c07a2f8a4d797c0821c174192ed29a9b0764d266c400d1a301eeeef7"
+      "bytes": 4391,
+      "sha256": "a92425669c98c8a69829abac4f11bc6b1672e647a00002b6f8465f43070ad1dd",
+      "editorial_previous_sha256": "a0272b27c07a2f8a4d797c0821c174192ed29a9b0764d266c400d1a301eeeef7",
+      "editorial_previous_bytes": 4394,
+      "editorial_revision_date": "2026-11-18"
     },
     {
       "path": "artifacts/series/2026-10-27/household/calculation.json",
@@ -385,8 +439,11 @@
     },
     {
       "path": "artifacts/series/2026-10-27/household/report-ja.md",
-      "bytes": 6163,
-      "sha256": "bbae003dcde5f74e4a4ed0e76e5636501f39a07032b5cb1418a3d4131ade8fa9"
+      "bytes": 6166,
+      "sha256": "1127a8ff6cab776299ae8aec8c3673001cfd98fa44377da4685303200a2e7443",
+      "editorial_previous_sha256": "bbae003dcde5f74e4a4ed0e76e5636501f39a07032b5cb1418a3d4131ade8fa9",
+      "editorial_previous_bytes": 6163,
+      "editorial_revision_date": "2026-11-18"
     },
     {
       "path": "artifacts/series/2026-10-27/household/source-ledger.json",
@@ -415,8 +472,11 @@
     },
     {
       "path": "artifacts/series/2026-10-27/people/report-ja.md",
-      "bytes": 3120,
-      "sha256": "5e5b526b75671aeffed0d026995a5f71ffd2f32ddee6c1046054ece400b0c3bb"
+      "bytes": 3132,
+      "sha256": "a173dfdbe4bca91f8c0a232c5e4f1a20cfe465b80fbc9176e0083969cf2c27db",
+      "editorial_previous_sha256": "5e5b526b75671aeffed0d026995a5f71ffd2f32ddee6c1046054ece400b0c3bb",
+      "editorial_previous_bytes": 3120,
+      "editorial_revision_date": "2026-11-18"
     },
     {
       "path": "artifacts/series/2026-10-27/people/source-ledger.json",
@@ -440,8 +500,11 @@
     },
     {
       "path": "artifacts/series/2026-10-27/sellers/report-ja.md",
-      "bytes": 5006,
-      "sha256": "fffbfbe864c5bfaf13dda667e1438f8a811c91ab8f8dc371fce4e73965e0edbc"
+      "bytes": 5018,
+      "sha256": "76feaba725065080eaed45bc499877938ec1d335bf60f7b9c48eab09f411ddaf",
+      "editorial_previous_sha256": "fffbfbe864c5bfaf13dda667e1438f8a811c91ab8f8dc371fce4e73965e0edbc",
+      "editorial_previous_bytes": 5006,
+      "editorial_revision_date": "2026-11-18"
     },
     {
       "path": "artifacts/series/2026-10-27/sellers/source-ledger.json",
@@ -450,8 +513,11 @@
     },
     {
       "path": "artifacts/series/2026-10-28/household/evidence-bundle.json",
-      "bytes": 64455,
-      "sha256": "7ea9e5d743999d47ac6914939eabd07ed805ea16fc7f3caee417e33ec9bb0000"
+      "bytes": 64525,
+      "sha256": "6482c59c10e3a7986e392d5302db6ee812e48e4e796ee0e9d0b9eefaa2dde293",
+      "editorial_previous_sha256": "7ea9e5d743999d47ac6914939eabd07ed805ea16fc7f3caee417e33ec9bb0000",
+      "editorial_previous_bytes": 64455,
+      "editorial_revision_date": "2026-11-18"
     },
     {
       "path": "artifacts/series/2026-10-28/people/app-ranks-2026-10-28.compact.json",
@@ -460,8 +526,11 @@
     },
     {
       "path": "artifacts/series/2026-10-28/people/evidence-bundle.json",
-      "bytes": 59232,
-      "sha256": "24469bb3e484b47c1e16c4dbf4f7362f84b38a501fba1f3f975761e6ab8a7a32"
+      "bytes": 59252,
+      "sha256": "8d50125993773c61ff6be023c54b479e10302a9d3b509eba91c709b2a946a0a5",
+      "editorial_previous_sha256": "24469bb3e484b47c1e16c4dbf4f7362f84b38a501fba1f3f975761e6ab8a7a32",
+      "editorial_previous_bytes": 59232,
+      "editorial_revision_date": "2026-11-18"
     },
     {
       "path": "artifacts/series/2026-10-28/people/expanded/app-continuity.json",
@@ -490,8 +559,11 @@
     },
     {
       "path": "artifacts/series/2026-10-28/people/expanded/report-ja.md",
-      "bytes": 4320,
-      "sha256": "f9c9190e87081e2013666c07d655c36b4cac168e12c9c42f9a20af2cfcef0dbf"
+      "bytes": 4353,
+      "sha256": "2383993dd405601525b354a8e2f75c2022f1310deb9dec7bdd0fa212753a020e",
+      "editorial_previous_sha256": "f9c9190e87081e2013666c07d655c36b4cac168e12c9c42f9a20af2cfcef0dbf",
+      "editorial_previous_bytes": 4320,
+      "editorial_revision_date": "2026-11-18"
     },
     {
       "path": "artifacts/series/2026-10-28/people/expanded/source-ledger.json",
@@ -505,8 +577,11 @@
     },
     {
       "path": "artifacts/series/2026-10-28/sellers/evidence-bundle.json",
-      "bytes": 23105,
-      "sha256": "274e2fd5a8d634e129aecd9484621e00a344ec53ca0b44777383888c88f96c7d"
+      "bytes": 23217,
+      "sha256": "57852558c64aa3feecdb334ca429be95dcd66ea5da54e12b060a05369b849769",
+      "editorial_previous_sha256": "274e2fd5a8d634e129aecd9484621e00a344ec53ca0b44777383888c88f96c7d",
+      "editorial_previous_bytes": 23105,
+      "editorial_revision_date": "2026-11-18"
     },
     {
       "path": "artifacts/series/2026-10-28/sellers/expanded/calculations.json",
@@ -525,8 +600,11 @@
     },
     {
       "path": "artifacts/series/2026-10-28/sellers/expanded/report-ja.md",
-      "bytes": 5992,
-      "sha256": "7cb89987358de5a0e8d6b5726e977237f1aa9696856bd9939a200159f6728cef"
+      "bytes": 6016,
+      "sha256": "dbf6978d9c736e3b68b7e1b670151d25c449fca368e723b54b18bf1ab11d08c9",
+      "editorial_previous_sha256": "7cb89987358de5a0e8d6b5726e977237f1aa9696856bd9939a200159f6728cef",
+      "editorial_previous_bytes": 5992,
+      "editorial_revision_date": "2026-11-18"
     },
     {
       "path": "artifacts/series/2026-10-28/sellers/expanded/search-history.json",
@@ -555,8 +633,11 @@
     },
     {
       "path": "artifacts/series/2026-10-29/people/evidence-bundle.json",
-      "bytes": 68206,
-      "sha256": "1fb594ad8a46c749cc858e407a73dcc56fe4da1ce2295574716c6de1434f3466"
+      "bytes": 68220,
+      "sha256": "cc83aa770332001b55c46d227b448c131c1db3a6cffe92d154b45301b0fa442e",
+      "editorial_previous_sha256": "1fb594ad8a46c749cc858e407a73dcc56fe4da1ce2295574716c6de1434f3466",
+      "editorial_previous_bytes": 68206,
+      "editorial_revision_date": "2026-11-18"
     },
     {
       "path": "artifacts/series/2026-10-29/people/expanded/app-continuity.json",
@@ -585,8 +666,11 @@
     },
     {
       "path": "artifacts/series/2026-10-29/people/expanded/report-ja.md",
-      "bytes": 3105,
-      "sha256": "4d4875922e4c1d546a128901507eaad7c42c637171c096345224d2c4ee72c7ef"
+      "bytes": 3132,
+      "sha256": "4f7698ea123f68df542e75d7ac04f5f9486e83ddb635222e3d0367b4e7585411",
+      "editorial_previous_sha256": "4d4875922e4c1d546a128901507eaad7c42c637171c096345224d2c4ee72c7ef",
+      "editorial_previous_bytes": 3105,
+      "editorial_revision_date": "2026-11-18"
     },
     {
       "path": "artifacts/series/2026-10-29/people/expanded/source-ledger.json",
@@ -600,8 +684,11 @@
     },
     {
       "path": "artifacts/series/2026-10-29/sellers/evidence-bundle.json",
-      "bytes": 10455,
-      "sha256": "2efe1f9c43f3960b9f14740f0dbd917f98824d21a4e3a44d9a6f177296b4b3c5"
+      "bytes": 10484,
+      "sha256": "da262dd73e684dc27c478f36c49182ca12c8090fcf9d134ab59397bbec8cc249",
+      "editorial_previous_sha256": "2efe1f9c43f3960b9f14740f0dbd917f98824d21a4e3a44d9a6f177296b4b3c5",
+      "editorial_previous_bytes": 10455,
+      "editorial_revision_date": "2026-11-18"
     },
     {
       "path": "artifacts/series/2026-10-29/sellers/expanded/observations.json",
@@ -610,8 +697,11 @@
     },
     {
       "path": "artifacts/series/2026-10-29/sellers/expanded/report-ja.md",
-      "bytes": 3647,
-      "sha256": "92fdf30ed4d7a493a1151a8c8ddced0884db9bb6b855952546ade7db3e069fab"
+      "bytes": 3650,
+      "sha256": "7cd17b81322b82b0cd8e30d86bea04253b95fa84d4770f8416f0db131e9fc7b3",
+      "editorial_previous_sha256": "92fdf30ed4d7a493a1151a8c8ddced0884db9bb6b855952546ade7db3e069fab",
+      "editorial_previous_bytes": 3647,
+      "editorial_revision_date": "2026-11-18"
     },
     {
       "path": "artifacts/series/2026-10-29/sellers/expanded/search-log.json",
@@ -630,13 +720,19 @@
     },
     {
       "path": "artifacts/series/2026-10-30/household/evidence-bundle.json",
-      "bytes": 71156,
-      "sha256": "f4382ef46c204fcb4b5c6bf0365aaec3bf5d46213167082c3866042e005313a7"
+      "bytes": 71205,
+      "sha256": "3f813bb43a81590428a0f8c540c4691fc2d98756a37662fd5af94ca990de1706",
+      "editorial_previous_sha256": "f4382ef46c204fcb4b5c6bf0365aaec3bf5d46213167082c3866042e005313a7",
+      "editorial_previous_bytes": 71156,
+      "editorial_revision_date": "2026-11-18"
     },
     {
       "path": "artifacts/series/2026-10-30/people/evidence-bundle.json",
-      "bytes": 9142,
-      "sha256": "e38931f6a98af81103587581b33e8b98e48ee0a4a0cad72245fb74cbc2b0909b"
+      "bytes": 9393,
+      "sha256": "6d061b3c625ab66a9b392739face66dfd9611b176aab350115a4971eb5bb8072",
+      "editorial_previous_sha256": "e38931f6a98af81103587581b33e8b98e48ee0a4a0cad72245fb74cbc2b0909b",
+      "editorial_previous_bytes": 9142,
+      "editorial_revision_date": "2026-11-18"
     },
     {
       "path": "artifacts/series/2026-10-30/people/expanded/app-ranks-2026-10-30.compact.json",
@@ -670,8 +766,11 @@
     },
     {
       "path": "artifacts/series/2026-10-30/people/expanded/report-ja.md",
-      "bytes": 2367,
-      "sha256": "0c8dbf9060080b783c50baa1cb51c7bdbdcae55471b5efc5e8c7900abaee2590"
+      "bytes": 2385,
+      "sha256": "25c8a64f6f411f02eec2936ce5c1227b59bad473934f392f9b4f733d4a882790",
+      "editorial_previous_sha256": "0c8dbf9060080b783c50baa1cb51c7bdbdcae55471b5efc5e8c7900abaee2590",
+      "editorial_previous_bytes": 2367,
+      "editorial_revision_date": "2026-11-18"
     },
     {
       "path": "artifacts/series/2026-10-30/people/expanded/source-ledger-and-resume.json",
@@ -700,8 +799,11 @@
     },
     {
       "path": "artifacts/series/2026-10-31/people/evidence-bundle.json",
-      "bytes": 228096,
-      "sha256": "6de0245f2369938fe7cd7269d96b877a7004b913397296db875cc03ae9e2fcca"
+      "bytes": 228125,
+      "sha256": "4092e6fc49ceb08ac736a020d4a002e042e8c79d08aaffa2bd64616cf97d7ae8",
+      "editorial_previous_sha256": "6de0245f2369938fe7cd7269d96b877a7004b913397296db875cc03ae9e2fcca",
+      "editorial_previous_bytes": 228096,
+      "editorial_revision_date": "2026-11-18"
     },
     {
       "path": "artifacts/series/2026-10-31/people/expanded/app-ranks-2026-10-31.compact.json",
@@ -745,8 +847,11 @@
     },
     {
       "path": "artifacts/series/2026-10-31/people/expanded/report-ja.md",
-      "bytes": 4783,
-      "sha256": "32aeea38c367c807e1d38a0d0b7d12760724159eec678c6e6951caa0c63d4588"
+      "bytes": 4813,
+      "sha256": "b7c64449cecb3610103cdd46abc8957ca93588694391d8e714bb12844b9431b6",
+      "editorial_previous_sha256": "32aeea38c367c807e1d38a0d0b7d12760724159eec678c6e6951caa0c63d4588",
+      "editorial_previous_bytes": 4783,
+      "editorial_revision_date": "2026-11-18"
     },
     {
       "path": "artifacts/series/2026-10-31/sellers/evidence-bundle.json",
@@ -760,13 +865,19 @@
     },
     {
       "path": "artifacts/series/2026-11-01/jobs-overlap.json",
-      "bytes": 76458,
-      "sha256": "901bcea67d3e98b7756cfaa76a51f3f198583b7d1100fbe47012e5c6a8b55968"
+      "bytes": 76508,
+      "sha256": "d35eed748c59380fb21ded5202cbce2c0444061c1c39a30865bd5aab5879d7e8",
+      "editorial_previous_sha256": "901bcea67d3e98b7756cfaa76a51f3f198583b7d1100fbe47012e5c6a8b55968",
+      "editorial_previous_bytes": 76458,
+      "editorial_revision_date": "2026-11-18"
     },
     {
       "path": "artifacts/series/2026-11-01/jobs2019-review.json",
-      "bytes": 6157,
-      "sha256": "7574646245f4a5a2cf1038c2d504baef1f2d9618df9cb1120b4d0e2f1d207397"
+      "bytes": 6234,
+      "sha256": "ccb03354dc601588fbdc35b76a5ed3e7c0d194ea0b85739c58fcda248b41549d",
+      "editorial_previous_sha256": "7574646245f4a5a2cf1038c2d504baef1f2d9618df9cb1120b4d0e2f1d207397",
+      "editorial_previous_bytes": 6157,
+      "editorial_revision_date": "2026-11-18"
     },
     {
       "path": "artifacts/series/app-ranks/2026-10-16.json",
@@ -790,33 +901,51 @@
     },
     {
       "path": "context/historical-summary-2026-10-16-to-11-01.json",
-      "bytes": 9983,
-      "sha256": "2954523a9c7778807f411251fe886ec887360bcbf487e86e14b07f5bf577b293"
+      "bytes": 9994,
+      "sha256": "52fd54e376d8abac213c1f99f2857be1a697ffdb4d80f59a84ec1c840d458493",
+      "editorial_previous_sha256": "2954523a9c7778807f411251fe886ec887360bcbf487e86e14b07f5bf577b293",
+      "editorial_previous_bytes": 9983,
+      "editorial_revision_date": "2026-11-18"
     },
     {
       "path": "context/observations-1.json",
-      "bytes": 20732,
-      "sha256": "31f30235af29d32d7e58ffdad03e1a89db56ac363c689b3f0d335a45bf1df496"
+      "bytes": 20750,
+      "sha256": "66fcc35d5a410a55adb71441629f3ccf4d66bdd1b42aa52016d3dcfbfcc9c9c6",
+      "editorial_previous_sha256": "31f30235af29d32d7e58ffdad03e1a89db56ac363c689b3f0d335a45bf1df496",
+      "editorial_previous_bytes": 20732,
+      "editorial_revision_date": "2026-11-18"
     },
     {
       "path": "context/observations-2.json",
-      "bytes": 16937,
-      "sha256": "554aac090bae299129ab6c0954ee572054bf407c569def6a2084828ca58461d0"
+      "bytes": 16955,
+      "sha256": "598bacd175d90589ef9e45de8c1851e116ae6645f0034f765f733055607a9457",
+      "editorial_previous_sha256": "554aac090bae299129ab6c0954ee572054bf407c569def6a2084828ca58461d0",
+      "editorial_previous_bytes": 16937,
+      "editorial_revision_date": "2026-11-18"
     },
     {
       "path": "context/observations-3.json",
-      "bytes": 18244,
-      "sha256": "7abe91041d502089caba0ef74307a600953f65de55fa0e61f21a6baf21fcf4e6"
+      "bytes": 18262,
+      "sha256": "ba34642eb2dc4830bf2c1f166ad2916a712067e23b8c1e6057624eae5116194e",
+      "editorial_previous_sha256": "7abe91041d502089caba0ef74307a600953f65de55fa0e61f21a6baf21fcf4e6",
+      "editorial_previous_bytes": 18244,
+      "editorial_revision_date": "2026-11-18"
     },
     {
       "path": "context/observations-4.json",
-      "bytes": 18933,
-      "sha256": "17b8b1a8be2983b59120d73e3d968e7920e8b62f103f550d5077e9b88b930e50"
+      "bytes": 18951,
+      "sha256": "ff05297050bc034179a8ba5485fa848e084ee390b7cd2421d7963e4abf5e10e0",
+      "editorial_previous_sha256": "17b8b1a8be2983b59120d73e3d968e7920e8b62f103f550d5077e9b88b930e50",
+      "editorial_previous_bytes": 18933,
+      "editorial_revision_date": "2026-11-18"
     },
     {
       "path": "context/observations-5.json",
-      "bytes": 20383,
-      "sha256": "98588d94861990fb1a4b2793d31ca76088e2dc99f92f775d912c18aba6f9ad43"
+      "bytes": 20401,
+      "sha256": "2c9e8c875d7a23280e18dce246b873391420a9eea9942ab99daf878d77ff34a5",
+      "editorial_previous_sha256": "98588d94861990fb1a4b2793d31ca76088e2dc99f92f775d912c18aba6f9ad43",
+      "editorial_previous_bytes": 20383,
+      "editorial_revision_date": "2026-11-18"
     },
     {
       "path": "context/release-calendar-1.json",
@@ -835,28 +964,43 @@
     },
     {
       "path": "context/search-findings-1.json",
-      "bytes": 20797,
-      "sha256": "fae56767f206f90945815f3fe9dc4310ef2f7c1a69a050dfd85d10626df869c7"
+      "bytes": 20810,
+      "sha256": "a5a8774f932e2829a9818200599b818a54c9f2b262d3aa417bea670657932b2d",
+      "editorial_previous_sha256": "fae56767f206f90945815f3fe9dc4310ef2f7c1a69a050dfd85d10626df869c7",
+      "editorial_previous_bytes": 20797,
+      "editorial_revision_date": "2026-11-18"
     },
     {
       "path": "context/search-findings-2.json",
-      "bytes": 18161,
-      "sha256": "25d5f0d53364f2cbcc4c2b9599fdabe89a26efc4211c11db5592e3e7856f7973"
+      "bytes": 18174,
+      "sha256": "f905e2c533778515425285032eadad1bde9d11d46946ba2d6320ebea75a87b5b",
+      "editorial_previous_sha256": "25d5f0d53364f2cbcc4c2b9599fdabe89a26efc4211c11db5592e3e7856f7973",
+      "editorial_previous_bytes": 18161,
+      "editorial_revision_date": "2026-11-18"
     },
     {
       "path": "context/search-findings-3.json",
-      "bytes": 18555,
-      "sha256": "841373c18bee95c62a80443a63e296961e093e6b6195decf9db1dd4e5010cb8c"
+      "bytes": 18568,
+      "sha256": "f51984a4279ca33ebcd38638cf70f835934fd4542f4c24d5eb6fbf2e7a9aad38",
+      "editorial_previous_sha256": "841373c18bee95c62a80443a63e296961e093e6b6195decf9db1dd4e5010cb8c",
+      "editorial_previous_bytes": 18555,
+      "editorial_revision_date": "2026-11-18"
     },
     {
       "path": "context/search-findings-4.json",
-      "bytes": 18918,
-      "sha256": "088fe9927048fea2dc801dfd52e13c11905886b8684c6ee91545e4a08f48a8bb"
+      "bytes": 18931,
+      "sha256": "e49e3e54e8bff660117f0f372494bde1419ee7d10747d936e8b673f3941699b4",
+      "editorial_previous_sha256": "088fe9927048fea2dc801dfd52e13c11905886b8684c6ee91545e4a08f48a8bb",
+      "editorial_previous_bytes": 18918,
+      "editorial_revision_date": "2026-11-18"
     },
     {
       "path": "context/search-findings-5.json",
-      "bytes": 20360,
-      "sha256": "c35cf3d01a358d99e4b23ebe49630818eac83470142838fdc68152666eb07046"
+      "bytes": 20373,
+      "sha256": "cc80acaa3ee3023db1d32895008993d849c26e195cfb31afc0f5e37e04f80924",
+      "editorial_previous_sha256": "c35cf3d01a358d99e4b23ebe49630818eac83470142838fdc68152666eb07046",
+      "editorial_previous_bytes": 20360,
+      "editorial_revision_date": "2026-11-18"
     },
     {
       "path": "historical/artifacts/series/app-ranks/2026-10-08.json",
@@ -865,108 +1009,171 @@
     },
     {
       "path": "historical/cross-sector-findings-2026-10-08.json",
-      "bytes": 3475,
-      "sha256": "bdb8c891e5931f5771506e0e4e5c5d0ca97753d227efe3c775200829e14161ea"
+      "bytes": 3495,
+      "sha256": "653b7e15dbe2c78914c5268e54ce7b1ec1e0890c1eb9240cdf6d65816e7a92a6",
+      "editorial_previous_sha256": "bdb8c891e5931f5771506e0e4e5c5d0ca97753d227efe3c775200829e14161ea",
+      "editorial_previous_bytes": 3475,
+      "editorial_revision_date": "2026-11-18"
     },
     {
       "path": "historical/household-findings-2026-10-08.json",
-      "bytes": 5573,
-      "sha256": "ac56416dcd10ce02f1fced485ccf38131346cd3240a0fa36e7ab190d59c13c06"
+      "bytes": 5587,
+      "sha256": "81d0648e2df316093cb5280ee8d6a9c60ea9d635ad22598193d8a4000a8efff4",
+      "editorial_previous_sha256": "ac56416dcd10ce02f1fced485ccf38131346cd3240a0fa36e7ab190d59c13c06",
+      "editorial_previous_bytes": 5573,
+      "editorial_revision_date": "2026-11-18"
     },
     {
       "path": "historical/interpretation-limitations.md",
-      "bytes": 2145,
-      "sha256": "d716ac646736f355535993f5808f47390d2a39039ca309d76c019b8b000fa44a"
+      "bytes": 2160,
+      "sha256": "0c7cfba66fff7878e5cda490143b00964e7e1afdc4e6066ed2a19c3bcc3eb286",
+      "editorial_previous_sha256": "d716ac646736f355535993f5808f47390d2a39039ca309d76c019b8b000fa44a",
+      "editorial_previous_bytes": 2145,
+      "editorial_revision_date": "2026-11-18"
     },
     {
       "path": "historical/markets/overview-rising-demand.md",
-      "bytes": 9980,
-      "sha256": "f09878212a79269a25669a5b1bab465f993194aeb506642c5aa532ca7f406678"
+      "bytes": 10001,
+      "sha256": "06ed6e3a32f979b8386067f809b452be1ccb79d32101a37e877b9011d4d5cff1",
+      "editorial_previous_sha256": "f09878212a79269a25669a5b1bab465f993194aeb506642c5aa532ca7f406678",
+      "editorial_previous_bytes": 9980,
+      "editorial_revision_date": "2026-11-18"
     },
     {
       "path": "historical/research-findings-2026-09-27-to-10-08.json",
-      "bytes": 3675,
-      "sha256": "a7871018e17e30ddd1b974ec931fc473f278205f4527866131ebe2c5d5ad6ba9"
+      "bytes": 3683,
+      "sha256": "4be632263983eccf40d16ebf4fe87690cefc79daf3498ca52035244c365f2956",
+      "editorial_previous_sha256": "a7871018e17e30ddd1b974ec931fc473f278205f4527866131ebe2c5d5ad6ba9",
+      "editorial_previous_bytes": 3675,
+      "editorial_revision_date": "2026-11-18"
     },
     {
       "path": "historical/research-method.md",
-      "bytes": 1113,
-      "sha256": "3d07ca178a7362090ea521529fe1671b29abb98601e43e24b357027db8d54e09"
+      "bytes": 1107,
+      "sha256": "f51d0b7fa7e6c32ff761707bbfaf5f16d99f035e00dd2b0ecf845527b7d01bb3",
+      "editorial_previous_sha256": "3d07ca178a7362090ea521529fe1671b29abb98601e43e24b357027db8d54e09",
+      "editorial_previous_bytes": 1113,
+      "editorial_revision_date": "2026-11-18"
     },
     {
       "path": "historical/sector-evidence-inventory.json",
-      "bytes": 17693,
-      "sha256": "14f01a8f4627699a37f8ac3b7ddec7bb593eae10e90a0c16dc9874301fe3d473"
+      "bytes": 19632,
+      "sha256": "3719174ba33139ae74fa978933e5066e4e25bc98a2c03d1b231bcc642bfe804d",
+      "editorial_previous_sha256": "14f01a8f4627699a37f8ac3b7ddec7bb593eae10e90a0c16dc9874301fe3d473",
+      "editorial_previous_bytes": 17693,
+      "editorial_revision_date": "2026-11-18"
     },
     {
       "path": "historical/seller-findings-2026-10-08.json",
-      "bytes": 2171,
-      "sha256": "4891f26aeded51664734f4db44ce7bb66a66636107616304156cc1a9fe67944e"
+      "bytes": 2188,
+      "sha256": "656c5486a7b5a687e67101033788058ab8d0441053f597a82a6d46215aed2b93",
+      "editorial_previous_sha256": "4891f26aeded51664734f4db44ce7bb66a66636107616304156cc1a9fe67944e",
+      "editorial_previous_bytes": 2171,
+      "editorial_revision_date": "2026-11-18"
     },
     {
       "path": "markets/aircon-rebound-divergence.md",
-      "bytes": 5527,
-      "sha256": "a195095d5da55cc9374a7ab1f2ab4f1947104fe1a1442c960461e07d4f372d8d"
+      "bytes": 5536,
+      "sha256": "add226831785d8de90b7c4edb73b62392dc0a7077a5ba03015b110bdb5a42cf6",
+      "editorial_previous_sha256": "a195095d5da55cc9374a7ab1f2ab4f1947104fe1a1442c960461e07d4f372d8d",
+      "editorial_previous_bytes": 5527,
+      "editorial_revision_date": "2026-11-18"
     },
     {
       "path": "markets/foreign-package-travel.md",
-      "bytes": 2926,
-      "sha256": "b5cf3b62907c7eeb4c1f436bfbc9b24bb0e0dc9fb9e6d50fbce63c6d014d023f"
+      "bytes": 2929,
+      "sha256": "46a512d2bb99c4f111a19d3d4240076a41cafd417a6a392a0d656bc712630c9b",
+      "editorial_previous_sha256": "b5cf3b62907c7eeb4c1f436bfbc9b24bb0e0dc9fb9e6d50fbce63c6d014d023f",
+      "editorial_previous_bytes": 2926,
+      "editorial_revision_date": "2026-11-18"
     },
     {
       "path": "markets/lighting.md",
-      "bytes": 2400,
-      "sha256": "87af3dfa77498069ae52612926694ac1e84dbc25ea06a4fb925a09493046c671"
+      "bytes": 2403,
+      "sha256": "8944d4fc121fd4649fa4ab3543a1537b6eb30ef9e31ae31db413c66b7238df9f",
+      "editorial_previous_sha256": "87af3dfa77498069ae52612926694ac1e84dbc25ea06a4fb925a09493046c671",
+      "editorial_previous_bytes": 2400,
+      "editorial_revision_date": "2026-11-18"
     },
     {
       "path": "reports/2026-10-23.md",
-      "bytes": 3273,
-      "sha256": "966c06741f2aa4a2d0ba6b70caf2e8cdb1c67e9bf066278a0e3d746268666eb9"
+      "bytes": 3291,
+      "sha256": "8bbd1fc95089b666ebe7c937bf29d7748ea5395fe1c556223fd4cbc45d78af19",
+      "editorial_previous_sha256": "966c06741f2aa4a2d0ba6b70caf2e8cdb1c67e9bf066278a0e3d746268666eb9",
+      "editorial_previous_bytes": 3273,
+      "editorial_revision_date": "2026-11-18"
     },
     {
       "path": "reports/2026-10-24.md",
-      "bytes": 3148,
-      "sha256": "c2ad21e484b745b8b6e9ff0ce536da7eb16cc903341071d1300de48a4c80ce05"
+      "bytes": 3166,
+      "sha256": "e3f9bce78a38913a2dfae67ee1bd186214c424b0542b7da31fdb3c1ae4ecb5ed",
+      "editorial_previous_sha256": "c2ad21e484b745b8b6e9ff0ce536da7eb16cc903341071d1300de48a4c80ce05",
+      "editorial_previous_bytes": 3148,
+      "editorial_revision_date": "2026-11-18"
     },
     {
       "path": "reports/2026-10-25.md",
-      "bytes": 4060,
-      "sha256": "9591aabe0a723b1907181ae17e1b92cd74762a8716f9d94b73613f8fa2bdf4a9"
+      "bytes": 4099,
+      "sha256": "af1554b4d434fafc6c2097e769a80fdd3b0a4bf984047b67c7dc98ebc52264f3",
+      "editorial_previous_sha256": "9591aabe0a723b1907181ae17e1b92cd74762a8716f9d94b73613f8fa2bdf4a9",
+      "editorial_previous_bytes": 4060,
+      "editorial_revision_date": "2026-11-18"
     },
     {
       "path": "reports/2026-10-26.md",
-      "bytes": 4802,
-      "sha256": "740640d6ae0ddca96294d44bf6cd454badb27cd3500a7052f43e946e8d0aa628"
+      "bytes": 4844,
+      "sha256": "a06e12a1334cec456dea02de67e5cb0a99e12b34894f04e511fac8085716f0ff",
+      "editorial_previous_sha256": "740640d6ae0ddca96294d44bf6cd454badb27cd3500a7052f43e946e8d0aa628",
+      "editorial_previous_bytes": 4802,
+      "editorial_revision_date": "2026-11-18"
     },
     {
       "path": "reports/daily-2026-10-27.md",
-      "bytes": 2334,
-      "sha256": "9ac32738245d72d9826e841afd785cf9a27231517229ccfd659fdb0dd2ab6eee"
+      "bytes": 2355,
+      "sha256": "89fa0a35e8c752ba77f248ad39059b7b975872014dabaa0cf365d486c9b5c208",
+      "editorial_previous_sha256": "9ac32738245d72d9826e841afd785cf9a27231517229ccfd659fdb0dd2ab6eee",
+      "editorial_previous_bytes": 2334,
+      "editorial_revision_date": "2026-11-18"
     },
     {
       "path": "reports/daily-2026-10-28.md",
-      "bytes": 3547,
-      "sha256": "f23ef06a33c1fbae6215ffbb56a0f48ec0c0230d0c0e0fac35b4737c5968b806"
+      "bytes": 3550,
+      "sha256": "b8394bdd3132d2de42ddfe8bdccf403e48d9c53020e57f507ebe44d63d7720f0",
+      "editorial_previous_sha256": "f23ef06a33c1fbae6215ffbb56a0f48ec0c0230d0c0e0fac35b4737c5968b806",
+      "editorial_previous_bytes": 3547,
+      "editorial_revision_date": "2026-11-18"
     },
     {
       "path": "reports/daily-2026-10-29.md",
-      "bytes": 1497,
-      "sha256": "af6b27e707d00d0cf00ef2762ac6eff4177999e37d4fbb173015b7d290e11515"
+      "bytes": 1515,
+      "sha256": "c87dda6335040dbeaba99fea130e1d0f30bc50330d745d62b39dacd9f8ef0780",
+      "editorial_previous_sha256": "af6b27e707d00d0cf00ef2762ac6eff4177999e37d4fbb173015b7d290e11515",
+      "editorial_previous_bytes": 1497,
+      "editorial_revision_date": "2026-11-18"
     },
     {
       "path": "reports/daily-2026-10-30.md",
-      "bytes": 1636,
-      "sha256": "37672e641a80c44c1a4cb164b69d9aa202e7cb2fed201e1282e5bfb6f6da08ae"
+      "bytes": 1654,
+      "sha256": "6a983df833fa3b1265458db6f0af6cc54988c77e39ed728ca9a7eb70ecde57c6",
+      "editorial_previous_sha256": "37672e641a80c44c1a4cb164b69d9aa202e7cb2fed201e1282e5bfb6f6da08ae",
+      "editorial_previous_bytes": 1636,
+      "editorial_revision_date": "2026-11-18"
     },
     {
       "path": "reports/daily-2026-10-31.md",
-      "bytes": 1832,
-      "sha256": "5b542289b18f57dc47e6fbd88c5a1828165d2e2efd5740773e188af6c09b2dd9"
+      "bytes": 1829,
+      "sha256": "5e42e5749256c6256f019860c02b7e8abf730179d935c6acfe597e5f53932f56",
+      "editorial_previous_sha256": "5b542289b18f57dc47e6fbd88c5a1828165d2e2efd5740773e188af6c09b2dd9",
+      "editorial_previous_bytes": 1832,
+      "editorial_revision_date": "2026-11-18"
     },
     {
       "path": "reports/daily-2026-11-01.md",
-      "bytes": 2772,
-      "sha256": "47a7c901a23cdb9ee76478dbda7a8f060890e85d31a1d8cec2a444fc7caec564"
+      "bytes": 2778,
+      "sha256": "bee5c93cda7eb082abf6e2c16d912399e761d39354bfe7af8d95b30057b9d5d0",
+      "editorial_previous_sha256": "47a7c901a23cdb9ee76478dbda7a8f060890e85d31a1d8cec2a444fc7caec564",
+      "editorial_previous_bytes": 2772,
+      "editorial_revision_date": "2026-11-18"
     },
     {
       "path": "sources.json",
@@ -978,5 +1185,11 @@
       "bytes": 5195,
       "sha256": "4c507e95f2aec02c18b1b0c46526c437724b2a444d0fbfa3c69d98324e4518da"
     }
-  ]
+  ],
+  "editorial_revision": {
+    "date": "2026-11-18",
+    "scope": "説明文の推敲。数値や当時の判断を最新の結果に更新したものではありません。",
+    "changed_file_count": 69,
+    "previous_hash_fields": "editorial_previous_sha256 / editorial_previous_bytes"
+  }
 }

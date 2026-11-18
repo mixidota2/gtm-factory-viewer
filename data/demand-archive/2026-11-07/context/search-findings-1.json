@@ -3,7 +3,7 @@
     "date": "2026-10-16",
     "stream": "household",
     "retrieval_scope": "full_official_tables_and_CPI_specification",
-    "results": "August priority analyzed;398nominal candidates provisional",
+    "results": "August priority analyzed; the 398 nominal candidates remain provisional.",
     "queries": [
       "official household latest August2026",
       "official monthly item75B 2019-Aug2026",

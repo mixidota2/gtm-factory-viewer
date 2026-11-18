@@ -49,7 +49,7 @@ function check(candidate=path.resolve(__dirname,'../index.html')){
  const q=data.editorial.cross_industry_entries.find(e=>e.id==='money-and-quantity');assert.ok(q.observations.includes(id));
  for(const text of [q.body,q.text,observation.observation_text]){assert.ok(text.includes('7.92%'));assert.ok(text.includes('0.54%'));assert.ok(text.includes('0.03%減'));assert.ok(!text.includes('9.23%'));}
  for(const text of [q.body,q.text]){assert.ok(text.includes('2024年8月〜2025年7月'));assert.ok(text.includes('2025年8月〜2026年7月'));assert.ok(text.includes('2026年6〜7月売上には速報'));assert.ok(text.includes('内航船舶輸送統計月報'));assert.ok(text.includes('対象が違う'));}
- assert.ok(observation.unconfirmed.includes('水運全体'));assert.ok(observation.unconfirmed.includes('価格寄与'));
+ assert.ok(observation.unconfirmed.includes('水運全体'));assert.ok(observation.unconfirmed.includes('売上増のうち価格が占める分は未確認'));
  for(const [prefix,k] of [['water_sales','water_sales_million_yen'],['coastwise_weight','coastwise_tonnes_thousand'],['coastwise_tkm','coastwise_tonne_km_million']]){
   assert.equal(observation.values[prefix+'_previous'],actual[k].previous);assert.equal(observation.values[prefix+'_current'],actual[k].current);
   assert.equal(observation.values[prefix+'_growth_pct'],Number(actual[k].growth_pct.toFixed(2)));
