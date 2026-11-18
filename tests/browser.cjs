@@ -220,7 +220,7 @@ const server = http.createServer(require('./static_server.cjs')(html));
    assert.equal(await water.count(),1);
    await water.locator('details > summary').click();
    const waterValues=await water.innerText();
-   for(const phrase of ['6907853','7455227','296482','298097','149309','149258','価格寄与','2026-10-23','2026-10-28','2026-11-09'])assert.ok(waterValues.includes(phrase),phrase);
+   for(const phrase of ['6907853','7455227','296482','298097','149309','149258','売上増のうち価格が占める分は未確認','2026-10-23','2026-10-28','2026-11-09'])assert.ok(waterValues.includes(phrase),phrase);
    assert.ok(!waterValues.includes('9.23'));
    assert.equal(await page.locator('#observations > details').count(),21);
    assert.equal(await page.locator('#observations > h2').innerText(),'21観測の対象・根拠・確認範囲');
