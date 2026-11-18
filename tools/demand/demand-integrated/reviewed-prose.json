@@ -1,0 +1,114 @@
+{
+  "schema_version": 1,
+  "baseline_sha256": "ae8a1d8cc0758b5252ec3885b52819bcabfc7d8a7561ac51438770dd65415f32",
+  "entries": [
+    {
+      "json_pointer": "/charts/0/context",
+      "historical_hash": "eb7a70aa350fd555de534dd60a1446d01780cd15cf6edf51d5044215711eb830",
+      "current_hash": "e7ad2dd51a331cd2c84dba525fd2784c98cb5d2a47e918a38d4a1fedaadc4d69",
+      "review_id": "yomiyasu-whole-document-2026-11-18"
+    },
+    {
+      "json_pointer": "/claims/32/population_denominator",
+      "historical_hash": "6a13186f81fc067ed507e77c83cda32598a1af94c07dfe95c998365d483ccfbf",
+      "current_hash": "3d04b7c1de2b390b2746ed10283294d7f5a7b294f125d20799cfa6e7cffa47bf",
+      "review_id": "yomiyasu-whole-document-2026-11-18"
+    },
+    {
+      "json_pointer": "/claims/33/text",
+      "historical_hash": "daca28cf4d018a8c453ea7ac77d45e6e71bd7d39b992ab0acb34ac00b4acdfe8",
+      "current_hash": "3defdc93156083c8fa2b32ab8aca02922d1b9b53ba152b227e52c86e31534a2d",
+      "review_id": "yomiyasu-whole-document-2026-11-18"
+    },
+    {
+      "json_pointer": "/claims/48/source_locators/1/locator",
+      "historical_hash": "026b0365955f9f1390cf0bad6dcf4d7ae392055e907f09d6b90024db6f6e8f2d",
+      "current_hash": "537f17891e3ebb48bf36fa5ba939a53942430eb5cb6c2221780300b9973ab2e3",
+      "review_id": "yomiyasu-whole-document-2026-11-18"
+    },
+    {
+      "json_pointer": "/claims/48/source_locators/2/locator",
+      "historical_hash": "4eb9c7b7164865c019174f7bee706295479e92f62f516b9a6b373b5a573ac939",
+      "current_hash": "91d2ea4765ba2c01f8ef3e4fdea8f253580daf9937f21c0483931196324ac105",
+      "review_id": "yomiyasu-whole-document-2026-11-18"
+    },
+    {
+      "json_pointer": "/claims/48/text",
+      "historical_hash": "4a1ff2de35e2b728151febdfe67b65b7e7358f42f8a49d9a2f5fad5c371dc4b2",
+      "current_hash": "e2d4d24fb7edfc2554ed8fb119e503edd4dacf21ec0b5d84234afb8ac7f0eabc",
+      "review_id": "yomiyasu-whole-document-2026-11-18"
+    },
+    {
+      "json_pointer": "/claims/49/source_locators/1/locator",
+      "historical_hash": "026b0365955f9f1390cf0bad6dcf4d7ae392055e907f09d6b90024db6f6e8f2d",
+      "current_hash": "537f17891e3ebb48bf36fa5ba939a53942430eb5cb6c2221780300b9973ab2e3",
+      "review_id": "yomiyasu-whole-document-2026-11-18"
+    },
+    {
+      "json_pointer": "/claims/49/source_locators/2/locator",
+      "historical_hash": "4eb9c7b7164865c019174f7bee706295479e92f62f516b9a6b373b5a573ac939",
+      "current_hash": "91d2ea4765ba2c01f8ef3e4fdea8f253580daf9937f21c0483931196324ac105",
+      "review_id": "yomiyasu-whole-document-2026-11-18"
+    },
+    {
+      "json_pointer": "/claims/50/source_locators/1/locator",
+      "historical_hash": "026b0365955f9f1390cf0bad6dcf4d7ae392055e907f09d6b90024db6f6e8f2d",
+      "current_hash": "537f17891e3ebb48bf36fa5ba939a53942430eb5cb6c2221780300b9973ab2e3",
+      "review_id": "yomiyasu-whole-document-2026-11-18"
+    },
+    {
+      "json_pointer": "/claims/50/source_locators/2/locator",
+      "historical_hash": "4eb9c7b7164865c019174f7bee706295479e92f62f516b9a6b373b5a573ac939",
+      "current_hash": "91d2ea4765ba2c01f8ef3e4fdea8f253580daf9937f21c0483931196324ac105",
+      "review_id": "yomiyasu-whole-document-2026-11-18"
+    },
+    {
+      "json_pointer": "/claims/51/source_locators/1/locator",
+      "historical_hash": "026b0365955f9f1390cf0bad6dcf4d7ae392055e907f09d6b90024db6f6e8f2d",
+      "current_hash": "537f17891e3ebb48bf36fa5ba939a53942430eb5cb6c2221780300b9973ab2e3",
+      "review_id": "yomiyasu-whole-document-2026-11-18"
+    },
+    {
+      "json_pointer": "/claims/51/source_locators/2/locator",
+      "historical_hash": "4eb9c7b7164865c019174f7bee706295479e92f62f516b9a6b373b5a573ac939",
+      "current_hash": "91d2ea4765ba2c01f8ef3e4fdea8f253580daf9937f21c0483931196324ac105",
+      "review_id": "yomiyasu-whole-document-2026-11-18"
+    },
+    {
+      "json_pointer": "/comparison",
+      "historical_hash": "1dc1a99d777db38f5fbd08fb02562e977f0bfedcc51ba1e822d82af14d491536",
+      "current_hash": "5ae48412230ac8fbc0e2a496259a3a2f8660d2df7337eed33378f04716c9a842",
+      "review_id": "yomiyasu-whole-document-2026-11-18"
+    },
+    {
+      "json_pointer": "/editorial/scope_text",
+      "historical_hash": "6e1496e4fa804be4eafe708e51e953a7b7b89deba883036323b3ba1f8dc62852",
+      "current_hash": "9e57d90a6c7a15d5c1fb4ccf94db2026574fd12e4e492e44a22e57e53e51d30a",
+      "review_id": "yomiyasu-whole-document-2026-11-18"
+    },
+    {
+      "json_pointer": "/markets/12/summary",
+      "historical_hash": "4a1ff2de35e2b728151febdfe67b65b7e7358f42f8a49d9a2f5fad5c371dc4b2",
+      "current_hash": "e2d4d24fb7edfc2554ed8fb119e503edd4dacf21ec0b5d84234afb8ac7f0eabc",
+      "review_id": "yomiyasu-whole-document-2026-11-18"
+    },
+    {
+      "json_pointer": "/markets/12/text",
+      "historical_hash": "ba7fd592ae0497d375177c68f0f0f8f8d2ea4cd6fd9946ef0e774831f083e7f1",
+      "current_hash": "4853b3d32b741fbf586a81ba86da86dd24a09898ae7cd327a5bb97abb7746333",
+      "review_id": "yomiyasu-whole-document-2026-11-18"
+    },
+    {
+      "json_pointer": "/markets/8/text",
+      "historical_hash": "8be6a12fc3f1f0e412c44d46faad0ad6e27e7c27fb3a11945fcfe87181c730d8",
+      "current_hash": "15d8ffa3360a5213692092c2b9e4173baea51ea0f1e9e4d4075861b5f6730477",
+      "review_id": "yomiyasu-whole-document-2026-11-18"
+    },
+    {
+      "json_pointer": "/overview/text",
+      "historical_hash": "93a0f87bd66307df99c132d3e627f35fb6606a143db53c0bddfe816678e8624e",
+      "current_hash": "08db7e73afb4bab928d59fbe9ee6b386f8d3cb8d97d2ebb26ebf73671cd8a0ce",
+      "review_id": "yomiyasu-whole-document-2026-11-18"
+    }
+  ]
+}

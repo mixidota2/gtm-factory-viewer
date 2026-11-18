@@ -57,7 +57,7 @@
         "matched_CPI_adjusted_growth_pct_rounded": 45.6,
         "agency_Jul2026_participants_yoy_pct": -7.2
       },
-      "limitations": "二人以上世帯の2025年9月〜2026年8月と前年期間の比較。旅行会社の取扱人数は母集団と期間が異なり直接比較不可。",
+      "limitations": "二人以上世帯の2025年9月〜2026年8月と前年期間の比較。旅行会社の取扱人数は母集団と期間が異なるため、直接比較できない。",
       "source_urls_as_recorded": [
         "https://www.e-stat.go.jp/stat-search/file-download?fileKind=1&statInfId=000040270651",
         "https://www.e-stat.go.jp/stat-search/file-download?fileKind=1&statInfId=000040482945",
@@ -185,7 +185,7 @@
         ],
         "new_growth_claims": 0
       },
-      "limitations": "427単独の支出増は、425との合計でほぼ横ばいという結果と併記する。数量増を確認していない。",
+      "limitations": "427単独の支出増は425との合計でほぼ横ばいという結果と併記する。数量増を確認していない。",
       "source_urls_as_recorded": []
     },
     {

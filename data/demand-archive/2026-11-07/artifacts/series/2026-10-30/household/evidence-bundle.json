@@ -1915,7 +1915,7 @@
           "publication_date": "2021-07",
           "publication_precision": "month",
           "target_period": "2020base definitions",
-          "access": "fullPDFdownload;selectedmethodandmappingpagesread,notentirebook",
+          "access": "Full PDF downloaded; selected method and mapping pages read, not the entire book.",
           "pages_printed": "24–25,136",
           "sha256": "a435a82dd09e33bfcf0bc6fc8f6351ecb82213ecec48cb331d5ac00dd3917a2d",
           "bytes": 6551704,
@@ -1964,9 +1964,9 @@
         "base_linkage": "Official current CPI results page explicitly links through2024December onto2025=100. Explanation printed36–37 gives annualmean link-factor method by item and national monthly linked coverage since1970. Exact retained fileID metadata confirms2025base. No mixed unconverted base series used."
       },
       "limits": [
-        "No separate353 quantity series established",
+        "No separate quantity series for 353 has been established.",
         "Reference deflation not official household real-growth publication",
-        "CPI representative products need not track353 exact mix",
+        "CPI representative products need not track the exact product mix of 353.",
         "2025classification already audited;352/353definitions unchanged in saved originals",
         "Unmodified original03report remains available",
         "CPI weighting table also redistributes a portion of household359;352+353 mapping is not an exclusive exact-coverage equivalence. Calculation remains representative-index reference, not exact quantity."

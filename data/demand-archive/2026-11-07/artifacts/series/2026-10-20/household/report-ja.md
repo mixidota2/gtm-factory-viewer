@@ -27,7 +27,7 @@
 単身の2019・2025年第9表は835を独立表章せず「玩具835–837」に集約している。玩具合計3,582→13,004円から835の年次経路は判別できない。単身835は未検証のまま残す。二人以上世帯の人員構成も比較期間で異なり、全世帯・一人当たりへ一般化しない。
 
 ## 一次資料と再現
-全数値の原表は今回新規取得。過去ローカル資料は公式URLを探す補助にのみ用い、数値根拠は新規ファイルで確認した。保存済みランキング・継続状態は親から提供された最新正本読み取りを比較基準にした。
+全数値の原表は今回新規取得。過去ローカル資料は公式URLを探す補助にのみ用い、数値根拠は新規ファイルで確認した。保存済みランキング・継続状態は、親担当から提供された最新の保存資料を読み取った結果を比較基準にした。
 
 - [家計月次2015〜2019](https://www.e-stat.go.jp/stat-search/file-download?fileKind=1&statInfId=000040270649)、[2020〜2024](https://www.e-stat.go.jp/stat-search/file-download?fileKind=1&statInfId=000040270650)、[2025〜2026](https://www.e-stat.go.jp/stat-search/file-download?fileKind=1&statInfId=000040270651)。最新結果公表2026-10-09。個別歴史ファイルの更新日は別途不明。
 - [2025年収支分類](https://www.stat.go.jp/data/kakei/kou2025/zuhyou/kouh2025.xlsx)、[2020年分類](https://www.stat.go.jp/data/kakei/kou2020/zuhyou/kouh2020.xlsx)、[2025年改定内容](https://www.stat.go.jp/data/kakei/change2025.html)。適用開始は各年1月。分類ファイルの公開日未確認。

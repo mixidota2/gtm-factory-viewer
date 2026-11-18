@@ -65,9 +65,9 @@ const server = http.createServer(require('./static_server.cjs')(html));
    assert.ok(freshness.includes('主要記事の更新日：2026年10月28日（日本時間）'));
    assert.ok(freshness.includes('全記事をこの日に再調査したものではありません'));
    assert.ok(freshness.includes('資料の公表日・データの対象期間・確認範囲は各記事'));
-   assert.equal(await page.locator('#snapshot').innerText(),'主要記事の更新日：2026年10月28日（日本時間） · 資料の公表日・対象期間は各記事に記載');
+   assert.equal(await page.locator('#snapshot').innerText(),'主要記事の更新日：2026年10月28日（日本時間） · 資料の公表日・対象期間は各記事に記載 · 文章の推敲：2026年11月18日');
 
-   assert.ok((await page.locator('#candidates .meta').innerText()).includes('海外パック旅行・照明が2026年10月18〜19日、宿泊料が11月2日'));
+   assert.ok((await page.locator('#candidates .meta').innerText()).includes('海外パック旅行が2026年10月18〜19日、照明の月次支出・出荷が11月18日、宿泊料が11月2日'));
    assert.equal(await page.locator('.hero-note a[href="#candidates"]').innerText(),'調査を続ける候補5件を読む');
    await recordFonts(page,viewport.width);
    if(beforeFonts){await page.close();continue;}
@@ -110,7 +110,7 @@ const server = http.createServer(require('./static_server.cjs')(html));
    assert.equal(await page.locator('#candidate-results article').count(),5);
    for(const [id,query,claim,limit,sourceCount] of [
     ['foreign-package-travel','代表的なフリープラン','45.6%','「利用量まで確かめられた伸び」には加えません',7],
-    ['lighting','参加37社','2026年4〜8月','同じ範囲で購入量も増えたと確認できた項目には加えません',5],
+    ['lighting','参加37社','2026年4〜8月','同じ範囲で購入量も増えたと確認できた項目には加えません',6],
     ['accommodation','宿泊条件を揃えて比較できる購入泊数','41,543円','成長項目への追加は見送っています',5]
    ]){
     await page.locator('#editorial-search').fill(query);
@@ -119,8 +119,11 @@ const server = http.createServer(require('./static_server.cjs')(html));
     await page.locator('#candidate-results h3 a[href="#candidate/'+id+'"]').click();
     await page.waitForFunction(expected=>location.hash==='#candidate/'+expected && document.querySelector('#main h1')?.textContent.includes(expected==='lighting'?'照明器具':expected==='accommodation'?'宿泊料':'海外パック旅行'),id);
     const body=await page.locator('#main').innerText();
-    for(const text of ['候補・利用量の増加は未確認','二人以上世帯','2025年9月〜2026年8月',claim,limit,id==='accommodation'?'家計調査・2020〜2024年':'家計調査・月次（2020〜2024年）'])assert.ok(body.includes(text),id+': '+text);
+    for(const text of ['候補・利用量の増加は未確認','二人以上世帯',id==='lighting'?'2025年10月〜2026年9月':'2025年9月〜2026年8月',claim,limit,id==='accommodation'?'家計調査・2020〜2024年':'家計調査・月次（2020〜2024年）'])assert.ok(body.includes(text),id+': '+text);
 
+    if(id==='lighting'){
+     for(const fact of ['1,293円','1,841円','42.4%','参加36社','同じ企業だけで集計し直した比較かどうかは確認できず','2026年11月18日'])assert.ok(body.includes(fact),fact);
+    }
     if(id==='accommodation'){
      for(const caveat of ['どの条件なら合算できるかは未確認','速報・確報の表示が異なる','親族宅での宿泊','帰宅した時期','有料宿泊の泊数が増えた、あるいは滞在が短くなったとは判断しません'])assert.ok(body.includes(caveat),caveat);
      assert.equal(await page.locator('#main a[href="https://www.mlit.go.jp/kankocho/content/001858808.pdf"]').count(),1);

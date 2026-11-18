@@ -27,11 +27,11 @@ Apple取得は03:08:14〜03:08:29 JST。3系統ともHTTP200、同一URLへの�
 
 過去の生レスポンス全件を再監査したとは言わない。旧移行リポジトリを読込元や書込先にしていない。
 
-今回の改善は、毎朝同じ求人原表を読み直す代わりに公式公表予定を確定し、9月分の次回確認候補を保存した点。実公表の前に再探索する重複を防ぐ。`jobs-release-check.json` の期限案は親の正本保存待ちであり、まだdue.jsonを更新したとは言わない。
+今回の改善は、毎朝同じ求人原表を読み直す代わりに公式公表予定を確定し、9月分の次回確認候補を保存した点。実公表の前に再探索する重複を防ぐ。`jobs-release-check.json` の期限案は親担当が基準となる記録へ保存するのを待っており、まだdue.jsonを更新したとは言わない。
 
 未完は実在する4週間の観測と、個別アプリの利用人数・時間・支払額の裏付け。
 
-Apple原典：
+Apple原典
 - https://itunes.apple.com/jp/rss/topfreeapplications/limit=200/json
 - https://itunes.apple.com/jp/rss/topgrossingapplications/limit=200/json
 - https://itunes.apple.com/jp/rss/toppaidapplications/limit=200/json
