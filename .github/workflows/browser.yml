@@ -11,7 +11,7 @@ permissions:
 jobs:
   browser:
     runs-on: ubuntu-24.04
-    timeout-minutes: 10
+    timeout-minutes: 12
     steps:
       - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
       - name: Test page lifecycle without browser
@@ -22,18 +22,15 @@ jobs:
         run: node tests/test_observation_search.cjs
       - name: Test downloadable data HTTP contract
         run: node tests/test_static_server.cjs
+      - name: Test isolated font installer and failure handling
+        run: python3 tests/test_ci_fonts.py
       - name: Install pinned browser driver
         run: npm install --no-save --ignore-scripts --no-audit --no-fund playwright@1.62.1
       - name: Record actual browser fonts before changes
         run: node tests/browser.cjs --font-before
       - name: Install standard Ubuntu Japanese fonts
-        run: |
-          set -euo pipefail
-          sudo apt-get update
-          sudo timeout --signal=TERM --kill-after=10s 180s apt-get --download-only install --no-install-recommends -y fonts-noto-cjk
-          sudo apt-get --no-download install --no-install-recommends -y fonts-noto-cjk
-          fc-cache -f
-          dpkg-query -W fonts-noto-cjk | tee browser-evidence/font-package.txt
+        timeout-minutes: 7
+        run: bash tests/install_ci_fonts.sh
       - name: Test installed Chrome with sandbox enabled
         run: node tests/browser.cjs
       - name: Retain public UI screenshots
