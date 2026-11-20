@@ -20,13 +20,14 @@ jobs:
         run: sudo apt-get update && sudo apt-get install --no-install-recommends -y poppler-utils
       - name: Test independent source-group failures
         timeout-minutes: 1
-        run: cd tools/demand && python3 -m unittest test_all test_contract test_security_transport
+        run: cd tools/demand && python3 -m unittest test_all test_contract test_security_transport test_summarize_sources
       - name: Compare official lists and three original sources to checked-out viewer
         timeout-minutes: 12
         run: python3 tools/demand/check_all.py --html index.html --out source-evidence
       - name: Preserve source receipts and review blockers even on failure
         timeout-minutes: 2
         if: always()
+        id: source_evidence
         uses: actions/upload-artifact@v4
         with:
           name: source-evidence
@@ -36,3 +37,9 @@ jobs:
             !source-evidence/**/*.html
             !source-evidence/**/page-*.txt
           if-no-files-found: error
+      - name: Summarize source verification results
+        if: always()
+        continue-on-error: true
+        env:
+          SOURCE_EVIDENCE_ID: ${{ steps.source_evidence.outputs.artifact-id }}
+        run: python3 tools/demand/summarize_sources.py --out source-evidence
