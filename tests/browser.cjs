@@ -413,11 +413,11 @@ const server = http.createServer(require('./static_server.cjs')(html));
    for(const phrase of ['2026年10月16日更新','26,717／83,069','55,874／60,866','1,738／7,910','7,291／60,271','F14:H14','48行672セル','空欄から補完'])assert.ok(facts.includes(phrase),phrase);
    assert.equal(await chart.locator('a[href*="20261016_resources"]').count()>0,true);
    await chart.locator('figcaption a').click();
-   await page.waitForFunction(()=>document.querySelector('#main h1')?.textContent.includes('9月の電子登録'));
+   await page.waitForFunction(()=>document.querySelector('#main h1')?.textContent.includes('紙の登録と比べるには何を見る？'));
    for(const query of ['電子処方箋','692,818','jp-e-prescription-clinic-lag-observation']){
     await page.goto(base);await page.locator('#search').fill(query);
     await page.locator('#card-results a[href="#markets/jp-e-prescription-clinic-lag.md"]').click();
-    await page.waitForFunction(()=>document.querySelector('#main h1')?.textContent.includes('9月の電子登録'));
+    await page.waitForFunction(()=>document.querySelector('#main h1')?.textContent.includes('紙の登録と比べるには何を見る？'));
     const article=await page.locator('#main').innerText();
     for(const phrase of ['692,818件','15,294,344件','653,972件','14,102,630件','登録する主体も段階も異なり','同じ施設を固定して追った導入率ではありません','支払額','紙処方箋、引換番号付き紙、既存医療システム','全セル不変とはせず'])assert.ok(article.includes(phrase),phrase);
     assert.equal(await page.locator('#main details.claim-evidence').count(),4);
