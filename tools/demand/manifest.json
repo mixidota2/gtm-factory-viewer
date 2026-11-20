@@ -1,5 +1,5 @@
 {
-  "demand-integrated/verify.py": "43c33c1b1edd88d9b685df45e97c62e57b8e1b3a6ac07737a2c6c032717ded30",
+  "demand-integrated/verify.py": "f3967071fe7c9a300d19d7239cd43d9ef14663914f2b53a588650d0abb74aa40",
   "demand-integrated/discover.py": "339a8861044e4a294fc5aa1f2807ecde64f9715ce2768560706f7d4627a4cfbf",
   "demand-integrated/refresh.py": "323c5ca33edac073193b532ca003aa46fe930a1840470bbc90ced149a490e5e9",
   "demand-integrated/check_current.py": "34266560ec94477498780fa261f4378aa55eb37a7be6a31a724cd403cd0de824",
@@ -14,7 +14,7 @@
   "check_all.py": "3598c7d5c8b8979d3cd296a9b2dbc036b4bed8a3764bdfa4b908295e856af1be",
   "test_all.py": "84068deea7b47a3ea03d8c54fc529f154074c5be1016b2cddf08080d8e819ea3",
   "demand-security-refresh/check.py": "b6df8ccab051e2ae2fa4b00a42150d3e394ebf502d7a33a048df965b68774bb8",
-  "test_contract.py": "4eef1ca0f0575ff6c8d39d48e6b7026f05b5b1e5d22a8d27f8554c3d45653a2b",
+  "test_contract.py": "bfbf3a4077e3cd85d845c62628210a4faec319498fe26b6f7d0ad8670809799e",
   "test_security_transport.py": "e36ec1c21e5d35c948f772f1b42e1b50337019d19d9ea2051cde594a36975985",
   "demand-integrated/reviewed-prose.json": "4a7e94da541072f4584710ee14e09df6061439c707f30de8a4dae4b7c7223b32"
 }
