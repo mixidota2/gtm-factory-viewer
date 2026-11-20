@@ -2,7 +2,7 @@
 import copy,hashlib,json,datetime
 LANDING='https://www.cfa.go.jp/policies/hoiku/hoiku-dx'
 REPORT='https://www.cfa.go.jp/assets/contents/node/basic_page/field_ref_resources/20c04744-1b32-456d-99f1-f510aa191d61/6093ad2c/20250423_policies_hoiku_hoiku-dx_11.pdf'
-HASHES={LANDING:'a68762784bf8af32904afac0cd453ff2d8a2ff881013c7309ffe84aa7126f41a',REPORT:'20901e704d045eb007eb3aa9f1fdb2af5e889671b55f8085e7c98ba62523349a'}
+HASHES={LANDING:'c2fc2244e3a23b20b67cfea31b7cf23efc68747075bb90dddf6f73f0d383332b',REPORT:'20901e704d045eb007eb3aa9f1fdb2af5e889671b55f8085e7c98ba62523349a'}
 def resolve(discovery,out,list_fetcher,pdf_fetcher):
  r=copy.deepcopy(discovery)
  for item in r['records']:
