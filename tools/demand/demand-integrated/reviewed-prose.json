@@ -63,6 +63,12 @@
       "review_id": "yomiyasu-whole-document-2026-11-18"
     },
     {
+      "json_pointer": "/claims/49/text",
+      "historical_hash": "05a2bf15551f27305516a31b5899ac0b7f8fd796c67f1c7a40c7411b491872cf",
+      "current_hash": "5c2f0258df77fd7a00e3471dead12710a31c2dd6134cacda70314bb4c334822d",
+      "review_id": "yomiyasu-nursery-2026-11-21"
+    },
+    {
       "json_pointer": "/claims/50/source_locators/1/locator",
       "historical_hash": "026b0365955f9f1390cf0bad6dcf4d7ae392055e907f09d6b90024db6f6e8f2d",
       "current_hash": "537f17891e3ebb48bf36fa5ba939a53942430eb5cb6c2221780300b9973ab2e3",
@@ -75,6 +81,12 @@
       "review_id": "yomiyasu-whole-document-2026-11-18"
     },
     {
+      "json_pointer": "/claims/50/text",
+      "historical_hash": "0ebd9a81c7119c51c50117b400c0c2f196eff22fd1cc5af12e2f67382044297a",
+      "current_hash": "43003b0b2f5dbc3da558dbee692d2cbd2f64e98e47a8ac818d87e0acdf64be9a",
+      "review_id": "yomiyasu-nursery-2026-11-21"
+    },
+    {
       "json_pointer": "/claims/51/source_locators/1/locator",
       "historical_hash": "026b0365955f9f1390cf0bad6dcf4d7ae392055e907f09d6b90024db6f6e8f2d",
       "current_hash": "537f17891e3ebb48bf36fa5ba939a53942430eb5cb6c2221780300b9973ab2e3",
@@ -85,6 +97,12 @@
       "historical_hash": "4eb9c7b7164865c019174f7bee706295479e92f62f516b9a6b373b5a573ac939",
       "current_hash": "91d2ea4765ba2c01f8ef3e4fdea8f253580daf9937f21c0483931196324ac105",
       "review_id": "yomiyasu-whole-document-2026-11-18"
+    },
+    {
+      "json_pointer": "/claims/51/text",
+      "historical_hash": "34d5d48b6c97dc98538b3e6bc299e3224dae60025ac19e04026bfe54fb5a3819",
+      "current_hash": "dd8ece0894d81b394666d2af011ae52a0fe72d6c3c0391feff8a4c67488aa4f9",
+      "review_id": "yomiyasu-nursery-2026-11-21"
     },
     {
       "json_pointer": "/comparison",
@@ -107,8 +125,14 @@
     {
       "json_pointer": "/markets/12/text",
       "historical_hash": "ba7fd592ae0497d375177c68f0f0f8f8d2ea4cd6fd9946ef0e774831f083e7f1",
-      "current_hash": "4853b3d32b741fbf586a81ba86da86dd24a09898ae7cd327a5bb97abb7746333",
-      "review_id": "yomiyasu-whole-document-2026-11-18"
+      "current_hash": "b05e5209a8f98124f2775c68895f16f61df376345c7d84e594ef71af70f8e67f",
+      "review_id": "yomiyasu-nursery-2026-11-21"
+    },
+    {
+      "json_pointer": "/markets/12/title",
+      "historical_hash": "198e852856b5b0a18a245e6f4bee427dc2a1e68a2df5b311a4f43da800a3759c",
+      "current_hash": "356b4b275186ad5bbbbe5f6dd4dc301480ef2352b9c718b25f9b6d005d173e9f",
+      "review_id": "yomiyasu-nursery-2026-11-21"
     },
     {
       "json_pointer": "/markets/8/text",
