@@ -206,7 +206,7 @@ const server = http.createServer(require('./static_server.cjs')(html));
     assert.ok(text.includes(expected.period),id+': period');
     assert.ok(text.includes(expected.primary_read_scope),id+': read scope');
     assert.equal(await card.locator('dt:has-text("原典公表日") + dd').innerText(),expected.source_publication_date);
-    assert.equal(await card.locator('dt:has-text("原典内の位置") + dd').innerText(),expected.source_locator);
+    assert.equal(await card.locator('dt:has-text("元資料の該当箇所") + dd').innerText(),expected.source_locator);
     for(const source of expected.source_urls)assert.ok(await card.locator('a').evaluateAll((links,url)=>links.some(a=>a.getAttribute('href')===url),source),id+': source');
    }
    console.log('PASS repaired observation topics, sources, values and certainty at '+viewport.width);
