@@ -17,8 +17,20 @@
     {
       "json_pointer": "/claims/33/text",
       "historical_hash": "daca28cf4d018a8c453ea7ac77d45e6e71bd7d39b992ab0acb34ac00b4acdfe8",
-      "current_hash": "3defdc93156083c8fa2b32ab8aca02922d1b9b53ba152b227e52c86e31534a2d",
-      "review_id": "yomiyasu-whole-document-2026-11-18"
+      "current_hash": "33f724c8b59fcb9b19bc3312cacc4038b5afeb8025dbcb45816f9bbaf1910eb6",
+      "review_id": "yomiyasu-gakudo-2026-11-21"
+    },
+    {
+      "json_pointer": "/claims/34/text",
+      "historical_hash": "ab48e38b3ade6bfc4e30a169cda25a591918e222b03aab353afe5c0cca04b907",
+      "current_hash": "3113e6f0a465f61164dd4c4149ffe3f7bbff45f2458ec228bffa81f20b316ee1",
+      "review_id": "yomiyasu-gakudo-2026-11-21"
+    },
+    {
+      "json_pointer": "/claims/35/text",
+      "historical_hash": "08db79a782183fb9ff44004a20ecacc0d4cf9b047649b93d88a1fb6d0c754f09",
+      "current_hash": "ed21bab6aba1a76644d7b8b203d78c5f29b427847fc75d15387cd8f19b96e9b3",
+      "review_id": "yomiyasu-gakudo-2026-11-21"
     },
     {
       "json_pointer": "/claims/48/source_locators/1/locator",
@@ -101,8 +113,14 @@
     {
       "json_pointer": "/markets/8/text",
       "historical_hash": "8be6a12fc3f1f0e412c44d46faad0ad6e27e7c27fb3a11945fcfe87181c730d8",
-      "current_hash": "15d8ffa3360a5213692092c2b9e4173baea51ea0f1e9e4d4075861b5f6730477",
-      "review_id": "yomiyasu-whole-document-2026-11-18"
+      "current_hash": "7ab490b62340da6821caea6db67f49e83d083e25cea6ddd5f8981272bdc8db71",
+      "review_id": "yomiyasu-gakudo-2026-11-21"
+    },
+    {
+      "json_pointer": "/markets/8/title",
+      "historical_hash": "aea18856541d051847297815864a96dd0561c6d63fc6848b35cd3e3f9ba3a990",
+      "current_hash": "683cc581006896ae1c6378d02a89ca4c61b9ff708c04840df61281372660eeff",
+      "review_id": "yomiyasu-gakudo-2026-11-21"
     },
     {
       "json_pointer": "/overview/text",
