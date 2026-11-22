@@ -446,7 +446,7 @@ const server = http.createServer(require('./static_server.cjs')(html));
    await chart.locator(':scope > details > summary').click();
    const facts=await chart.innerText();
    assert.ok(facts.includes("2026年9月の最後の日曜日時点の状況です。施設の種類ごとに、オンライン資格確認を導入した施設を分母にしています。同じ施設を継続して追った結果でも、全医療機関を数えた結果でもありません。処方箋を実際に電子発行した割合でもありません。"));
-   for(const phrase of ['2026年10月16日更新','26,717／83,069','55,874／60,866','1,738／7,910','7,291／60,271','F14:H14','48行672セル','空欄から補完'])assert.ok(facts.includes(phrase),phrase);
+   for(const phrase of ['2026年10月16日更新','26,717／83,069','55,874／60,866','1,738／7,910','7,291／60,271','F14:H14','48行672セル','進捗を示す3セルは空欄だった値が補われていました','表のすべてのセルに変更がなかったことは確認できません'])assert.ok(facts.includes(phrase),phrase);
    assert.equal(await chart.locator('a[href*="20261016_resources"]').count()>0,true);
    await chart.locator('figcaption a').click();
    await page.waitForFunction(()=>document.querySelector('#main h1')?.textContent.includes('紙の登録と比べるには何を見る？'));
