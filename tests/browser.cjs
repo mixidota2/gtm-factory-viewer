@@ -175,6 +175,14 @@ const server = http.createServer(require('./static_server.cjs')(html));
     await page.goto(base+'#overview');
     await page.locator('#overview a[href="#question/'+entry.id+'"]').click();
     await page.waitForFunction(title=>document.getElementById('question-detail')?.innerText.includes(title),entry.title);
+    const question=page.locator('#question-detail');
+    assert.equal(await question.locator(':scope > h2').textContent(),entry.title);
+    assert.equal(await question.locator(':scope > p').first().textContent(),entry.entry);
+    const sections=text=>[...text.matchAll(/^## (.+)$/gm)].map(m=>m[1]);
+    assert.deepEqual(await question.locator(':scope > .prose h2').allTextContents(),sections(entry.body));
+    assert.deepEqual(await question.locator(':scope > details .prose h2').allTextContents(),sections(entry.text));
+    assert.equal(await question.locator(':scope > article.observation').count(),entry.observations.length);
+
    }
    await page.goto(base);
    await page.screenshot({path:`browser-evidence/home-${viewport.width}.png`,fullPage:true});
