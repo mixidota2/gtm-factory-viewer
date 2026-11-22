@@ -409,11 +409,21 @@ const server = http.createServer(require('./static_server.cjs')(html));
 
 
    await page.goto(base);
+   assert.equal(await page.locator('#evidence-title').innerText(),"保育ICTと電子処方箋の導入率");
+   assert.equal(await page.locator('.evidence > .section-head > p').innerText(),"保育ICTと電子処方箋の2例を掲載しています。対象となる施設と、割合を計算するときの分母が異なるため、どちらの導入が進んでいるかを比べる図ではありません。");
+   const nurseryChart=page.locator('figure.chart').nth(0);
+   const nurserySummary=nurseryChart.locator(':scope > details > summary');
+   assert.equal(await nurserySummary.innerText(),"割合の計算方法・出典・確認範囲を読む");
+   await nurserySummary.click();
+   const nurseryFacts=await nurseryChart.innerText();
+   assert.ok(nurseryFacts.includes("割合は有効回答の16,709施設に対するものです。問9①への回答が不明の施設も含みます。全国のすべての施設に対する割合ではありません。"));
+   assert.ok(nurseryFacts.includes("同じ施設が複数の機能を導入した場合、それぞれの機能で数えます。数字は導入済みの割合です。導入率がどれだけ伸びたか、実際に使った割合、時間をどれだけ削減したかは示していません。"));
    const chart=page.locator('figure.chart').nth(1);
    assert.ok((await chart.innerText()).includes('2026年9月'));
    assert.deepEqual(await chart.locator('.bar-label strong').allTextContents(),['91.8%','32.2%','22.0%','12.1%']);
    await chart.locator(':scope > details > summary').click();
    const facts=await chart.innerText();
+   assert.ok(facts.includes("2026年9月の最後の日曜日時点の状況です。施設の種類ごとに、オンライン資格確認を導入した施設を分母にしています。同じ施設を継続して追った結果でも、全医療機関を数えた結果でもありません。処方箋を実際に電子発行した割合でもありません。"));
    for(const phrase of ['2026年10月16日更新','26,717／83,069','55,874／60,866','1,738／7,910','7,291／60,271','F14:H14','48行672セル','空欄から補完'])assert.ok(facts.includes(phrase),phrase);
    assert.equal(await chart.locator('a[href*="20261016_resources"]').count()>0,true);
    await chart.locator('figcaption a').click();

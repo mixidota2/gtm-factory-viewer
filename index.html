@@ -97,21 +97,21 @@ function chartEvidence(c){
  ['原資料',link('MURC・保育施設等におけるICT導入状況等に関する調査研究事業（2025年3月）','https://www.murc.jp/wp-content/uploads/2025/05/koukai_250515_01.pdf')],
  ['頁・表',link('本文100頁（PDF104頁）図表102：総括表','https://www.murc.jp/wp-content/uploads/2025/05/koukai_250515_01.pdf#page=104')+'／'+link('本文102頁（PDF106頁）図表104：機能別表','https://www.murc.jp/wp-content/uploads/2025/05/koukai_250515_01.pdf#page=106')+'。いずれも問9①の全体行を参照しています。'],
  ['対象・期間','対象は、認可保育所、幼保連携型・保育所型認定こども園、地域型保育事業所です。調査期間は2024年9月11日〜10月25日です。'],
- ['分母','分母は有効回答の16,709施設で、問9①への回答が不明の施設も含みます。全国のすべての施設を分母にした割合ではありません。'],
+ ['分母','割合は有効回答の16,709施設に対するものです。問9①への回答が不明の施設も含みます。全国のすべての施設に対する割合ではありません。'],
  ['計算','割合の計算は、各条件に該当する導入施設数 ÷ 16,709 × 100です。この図は原表が公表した割合を転記し、小数1桁で表示しています。個々の回答や分子の件数から計算し直してはいません。'],
- ['限界','複数の機能を導入した施設があるため、機能ごとの割合は重複します。示しているのは導入の水準で、成長率、実際に使った割合、時間削減率ではありません。']
+ ['限界','同じ施設が複数の機能を導入した場合、それぞれの機能で数えます。数字は導入済みの割合です。導入率がどれだけ伸びたか、実際に使った割合、時間をどれだけ削減したかは示していません。']
  ]:[
  ['原資料',link('デジタル庁・電子処方箋ダッシュボード',"https://www.digital.go.jp/resources/govdashboard/electronic-prescription")+'／'+link('2026年10月16日更新データテーブル（ZIP）',"https://www.digital.go.jp/assets/contents/node/basic_page/field_ref_resources/42e67f07-4d20-46e7-8774-eb5493db76dd/1d961472/20261016_resources_govdashboard_electronic_prescription_table.zip")],
  ["頁・表", "10月16日版「都道府県別の導入状況.xlsx」の全国・2026年9月の値は14行にあります。病院はC14:E14、医科はF14:H14、歯科診療所はI14:K14、薬局はL14:N14を参照し、対応するCSVとも照合しています。"],
- ["対象・期間", "2026年9月の最後の日曜日時点の状況です。分母は施設種別ごとのオンライン資格確認導入施設です。同じ施設を固定して追った結果でも、全医療機関を対象にした結果でもありません。実際に電子発行した割合ではありません。"],
+ ["対象・期間", "2026年9月の最後の日曜日時点の状況です。施設の種類ごとに、オンライン資格確認を導入した施設を分母にしています。同じ施設を継続して追った結果でも、全医療機関を数えた結果でもありません。処方箋を実際に電子発行した割合でもありません。"],
  ["分子・分母", "医科26,717／83,069、薬局55,874／60,866、病院1,738／7,910、歯科診療所7,291／60,271。"],
  ['定義の原資料',link('データの定義',"https://www.digital.go.jp/resources/govdashboard/electronic-prescription/description")],
  ["計算", "同じ施設種別の導入施設数÷オンライン資格確認導入施設数×100で求めます。原表の分子と分母を使って計算し、小数1桁で表示しています。"],
  ["限界", "確認したのは対象系列のセルです。旧8月の施設表では48行672セルが一致し、進捗の3セルは空欄から補完されていました。全資料を読了したことや、すべてのセルが変わっていないことを示す確認ではありません。導入率は、発行割合、実際に使った割合、時間削減率ではありません。"]
  ];
- return '<p>この図は、現在の本文に記載された値を示しています。</p>'+claimsFor(c.memo.replace(/\.md$/,'')+'-observation')+'<dl class="source-facts">'+facts.map(([k,v])=>`<dt>${esc(k)}</dt><dd>${v}</dd>`).join('')+'</dl>';
+ return '<p>図に示した数値は記事本文と同じです。</p>'+claimsFor(c.memo.replace(/\.md$/,'')+'-observation')+'<dl class="source-facts">'+facts.map(([k,v])=>`<dt>${esc(k)}</dt><dd>${v}</dd>`).join('')+'</dl>';
 }
-function chart(c,i){return `<figure class="chart"><h3>${esc(c.title)}</h3><p class="context">${esc(c.context)}</p><div class="axis" aria-hidden="true"><span>0%</span><span>50%</span><span>100%</span></div>${c.rows.map(r=>`<div class="bar-row"><div class="bar-label"><span>${esc(r.label)}</span><strong>${r.value.toFixed(1)}%</strong></div><div class="track" aria-hidden="true"><div class="fill" style="width:${r.value}%"></div></div></div>`).join('')}<figcaption><a href="${memoUrl(c.memo)}">調査の対象と出典を読む</a></figcaption><details><summary>数値の出典と確認範囲を開く</summary>${chartEvidence(c)}</details></figure>`;}
+function chart(c,i){return `<figure class="chart"><h3>${esc(c.title)}</h3><p class="context">${esc(c.context)}</p><div class="axis" aria-hidden="true"><span>0%</span><span>50%</span><span>100%</span></div>${c.rows.map(r=>`<div class="bar-row"><div class="bar-label"><span>${esc(r.label)}</span><strong>${r.value.toFixed(1)}%</strong></div><div class="track" aria-hidden="true"><div class="fill" style="width:${r.value}%"></div></div></div>`).join('')}<figcaption><a href="${memoUrl(c.memo)}">調査の対象と出典を読む</a></figcaption><details><summary>割合の計算方法・出典・確認範囲を読む</summary>${chartEvidence(c)}</details></figure>`;}
 function drawClaims(q,selectedTheme){
  const matches=text=>q.every(word=>text.normalize('NFKC').toLocaleLowerCase().includes(word));
  const claims=data.themes.filter(t=>(!selectedTheme||t.id===selectedTheme.id)&&matches(t.label+' '+t.title+' '+t.text+' '+t.value_hypothesis+' '+t.limits+' '+t.judgment_change)&&(state.kind==='all'||(state.kind==='proxy')===t.proxy));
@@ -198,7 +198,7 @@ function home(){
  ${editorialHome()}
  ${candidateHome()}
  <section class="section" aria-labelledby="map-title"><div class="section-head"><h2 id="map-title">テーマ別に見る需要の変化：支出・利用・導入</h2><p>テーマを選ぶと、そのテーマで何を調べたかと、関連記事が表示されます。</p></div><div class="map"><div><div class="map-grid">${data.themes.filter(t=>!t.proxy).map(themeButton).join('')}</div><div class="proxy-zone"><p>開発者の注目・未検証の仮説</p>${data.themes.filter(t=>t.proxy).map(themeButton).join('')}</div></div><div id="theme-detail" class="theme-detail" aria-live="polite" aria-atomic="true"></div></div></section>
- <section class="section evidence" aria-labelledby="evidence-title"><div class="section-head"><h2 id="evidence-title">業務支援システムの導入状況を比べる</h2><p>保育施設と電子処方箋の2例を掲載しています。対象と分母が違うため、互いの導入率の高さを順位づける図ではありません。</p></div><div class="chart-grid">${data.charts.map(chart).join('')}</div></section>
+ <section class="section evidence" aria-labelledby="evidence-title"><div class="section-head"><h2 id="evidence-title">保育ICTと電子処方箋の導入率</h2><p>保育ICTと電子処方箋の2例を掲載しています。対象となる施設と、割合を計算するときの分母が異なるため、どちらの導入が進んでいるかを比べる図ではありません。</p></div><div class="chart-grid">${data.charts.map(chart).join('')}</div></section>
  ${comparison()}
  <section class="section" id="claim-register"><h2>主張ごとの出典・検証状況（${data.claims.length}件）</h2><p>調べて分かったこと、その解釈、まだ確かめていない仮説、次に確かめる計画を分けて表示します。</p>${data.claims.map(c=>claimCard(c,true)).join('')}</section>
  <details class="overview" id="overview"><summary>調査範囲と全体の結果を読む</summary><div class="prose">${markdown(data.overview.text.replace(/^# /,'## '),'overview-section')}</div></details>
