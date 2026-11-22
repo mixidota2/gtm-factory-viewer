@@ -142,7 +142,7 @@ function drawCards(){
  document.querySelectorAll('[data-search-link]').forEach(a=>{a.href=searchPermalink(a.dataset.searchLink);});
  const regular=rows.filter(m=>!m.proxy_map),proxy=rows.filter(m=>m.proxy_map);
  document.getElementById('result-count').textContent=`${data.markets.length}記事のうち${rows.length}記事を表示しています`;
- document.getElementById('card-results').innerHTML=rows.length?`${regular.length?`<div class="cards">${regular.map(card).join('')}</div>`:''}${proxy.length?`<section class="proxy-list"><h3>開発者の注目・未検証の仮説</h3><p class="meta">開発者の関心を記録した記事と、料金設定についての未検証の仮説を扱う記事です。実際の利用や購入を確認した結果とは区別します。</p><div class="cards">${proxy.map(card).join('')}</div></section>`:''}`:`<p class="empty">${hasClaims?'関連する個別の記事はありません。上のリンクから、概要の詳しい説明を読めます。':'条件に合う記事はありません。検索語や絞り込みを変えてください。'}</p>`;
+ document.getElementById('card-results').innerHTML=rows.length?`${regular.length?`<div class="cards">${regular.map(card).join('')}</div>`:''}${proxy.length?`<section class="proxy-list"><h3>開発者の注目・未検証の仮説</h3><p class="meta">開発者の関心を記録した記事と、料金設定についての未検証の仮説を扱う記事です。実際の利用や購入を確認した結果とは区別します。</p><div class="cards">${proxy.map(card).join('')}</div></section>`:''}`:`<p class="empty">${hasClaims?'条件に合う国内の調査記事はありません。概要には関連する記述があります。上のリンクから読めます。':'条件に合う国内の調査記事はありません。検索語を変えるか、「すべてのテーマ」「すべての記事」を選んでください。'}</p>`;
 }
 const editorial=data.editorial;
 const observationMap=new Map(editorial.observations.map(o=>[o.id,o]));
@@ -165,7 +165,7 @@ function drawEditorialSearch(q){
  const cards=editorial.cards.filter(c=>matches(c.title+' '+c.entry+' '+c.text));
  const obs=q.length?editorial.observations.filter(o=>matches([o.id,o.label,o.observation_text,o.period,o.population,o.evidence_type,o.primary_read_scope,o.independent_verification_scope,o.unconfirmed,o.source_publication_date||'',o.verification_as_of||'',o.source_locator||'',...o.source_urls,...o.method_source_urls].join(' '))):[];
  document.getElementById('global-count').textContent=`海外4記事のうち${cards.length}件${q.length?' ／ 検索語に合う観測 '+obs.length+'件':''}`;
- document.getElementById('global-results').innerHTML=cards.length?cards.map(globalCard).join(''):'<p>検索語に合う海外記事はありません。</p>';
+ document.getElementById('global-results').innerHTML=cards.length?cards.map(globalCard).join(''):'<p>検索語に合う海外記事はありません。検索語に合う個別の調査結果（観測）があれば、下に表示します。</p>';
  document.getElementById('observation-results').innerHTML=obs.map(o=>`<p><a href="#observation/${esc(o.id)}">${esc(o.label)}</a>：${esc(o.observation_text)}<br>確認範囲：${esc(o.primary_read_scope)}</p>`).join('');
  document.getElementById('editorial-search').value=state.query;
 }
