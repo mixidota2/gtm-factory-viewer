@@ -220,10 +220,10 @@ function render(){
   if(route==='home')homeScroll=window.scrollY;
   const memo=data.markets.find(m=>m.id===id);route='memo';
   if(memo){let n=0;const headings=[...memo.text.matchAll(/^(#{1,6})\s+(.+)$/gm)].map(m=>({level:m[1].length,title:m[2],id:n++}));
-   main.innerHTML=`<div class="reader"><aside><a class="back" href="#library">記事一覧に戻る</a><a href="#markets">調査の全体像に戻る</a><nav aria-label="記事の目次">${headings.filter(h=>h.level===2).map(h=>`<a href="#memo-section-${h.id}">${esc(h.title)}</a>`).join('')}</nav></aside><article class="prose">${memo.proxy_map?'<span class="badge">'+esc(proxyLabel(memo.id))+'</span>':''}${markdown(memo.text,'memo-section')}<section><h2>出典・検証状況</h2>${claimsFor(memo.id.replace(/\.md$/,'')+'-')}</section><div class="article-end"><a href="#library">記事一覧に戻る</a></div></article></div>`;
+   main.innerHTML=`<div class="reader"><aside><a class="back" href="#library">調査記事の一覧に戻る</a><a href="#markets">調査のトップに戻る</a><nav aria-label="記事の目次">${headings.filter(h=>h.level===2).map(h=>`<a href="#memo-section-${h.id}">${esc(h.title)}</a>`).join('')}</nav></aside><article class="prose">${memo.proxy_map?'<span class="badge">'+esc(proxyLabel(memo.id))+'</span>':''}${markdown(memo.text,'memo-section')}<section><h2>この記事の出典と確認範囲</h2>${claimsFor(memo.id.replace(/\.md$/,'')+'-')}</section><div class="article-end"><a href="#library">調査記事の一覧に戻る</a></div></article></div>`;
    // Keep the memo route in the address while scrolling to its sections.
    main.querySelectorAll('aside nav a').forEach(a=>a.addEventListener('click',e=>{e.preventDefault();const target=document.getElementById(a.hash.slice(1));target.tabIndex=-1;target.focus({preventScroll:true});target.scrollIntoView();}));
-  }else main.innerHTML='<div class="missing"><h1>記事が見つかりません</h1><p><a href="#library">一覧から記事を選んでください。</a></p></div>';
+  }else main.innerHTML='<div class="missing"><h1>記事が見つかりません</h1><p><a href="#library">調査記事の一覧から記事を選び直してください。</a></p></div>';
   document.title=`${memo?memo.title:'記事が見つかりません'} | GTM工場`;window.scrollTo(0,0);main.focus({preventScroll:true});
  }else{
   const returning=route==='memo';if(route!=='home'){home();route='home';}document.title='需要の変化を読む | GTM工場';

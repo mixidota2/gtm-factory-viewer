@@ -194,8 +194,8 @@ const server = http.createServer(require('./static_server.cjs')(html));
    for(const memo of data.markets){
     await page.goto(base+'#markets/'+memo.id);
     await page.waitForFunction(title=>document.getElementById('main').innerText.includes(title),memo.title);
-    assert.ok((await page.locator('#main').innerText()).includes('出典・検証状況'));
-    assert.equal(await page.locator('#main').getByText('記事一覧に戻る',{exact:true}).count(),2);
+    assert.ok((await page.locator('#main').innerText()).includes('この記事の出典と確認範囲'));
+    assert.equal(await page.locator('#main').getByText('調査記事の一覧に戻る',{exact:true}).count(),2);
    }
    for(const id of ['es-hotel','uk-video','us-electricity','in-upi']){
     await page.goto(base+'#global/'+id);
@@ -388,7 +388,7 @@ const server = http.createServer(require('./static_server.cjs')(html));
     assert.equal(await page.locator('#main a[href="https://www.stat.go.jp/data/mbss/kekka/pdf/m202608.pdf#page=4"]').count(),1);
     assert.ok(await page.locator('html').evaluate(el=>el.scrollWidth<=innerWidth));
     await page.screenshot({path:'browser-evidence/august-'+viewport.width+'.png',fullPage:true});
-    await page.locator('#main').getByText('記事一覧に戻る',{exact:true}).first().click();
+    await page.locator('#main').getByText('調査記事の一覧に戻る',{exact:true}).first().click();
     await page.locator('#reset').click();
     assert.equal(await page.locator('#card-results a.card').count(),18);
    }
@@ -415,7 +415,7 @@ const server = http.createServer(require('./static_server.cjs')(html));
     for(const source of [...new Set(data.claims.filter(c=>c.claim_id.startsWith('jp-aircon-rebound-divergence-')).flatMap(c=>c.source_urls))])assert.ok(await page.locator('#main a').evaluateAll((links,url)=>links.some(a=>a.getAttribute('href')===url),source),source);
     assert.ok(await page.locator('html').evaluate(el=>el.scrollWidth<=innerWidth),'aircon article must not overflow');
     if(query==='エアコン')await page.screenshot({path:'browser-evidence/aircon-'+viewport.width+'.png',fullPage:true});
-    await page.locator('#main').getByText('記事一覧に戻る',{exact:true}).first().click();
+    await page.locator('#main').getByText('調査記事の一覧に戻る',{exact:true}).first().click();
     await page.locator('#reset').click();
     assert.equal(await page.locator('#card-results a.card').count(),18);
     assert.equal(await page.locator('#candidate-results article').count(),5);
@@ -461,7 +461,7 @@ const server = http.createServer(require('./static_server.cjs')(html));
     assert.equal(await page.locator('#main a[href="#markets/jp-dental-ehr-rececon-gap.md"]').count()>0,true);
     assert.ok(await page.locator('html').evaluate(el=>el.scrollWidth<=innerWidth));
     if(query==='電子処方箋')await page.screenshot({path:'browser-evidence/eprescription-'+viewport.width+'.png',fullPage:true});
-    await page.locator('#main').getByText('記事一覧に戻る',{exact:true}).first().click();
+    await page.locator('#main').getByText('調査記事の一覧に戻る',{exact:true}).first().click();
     await page.locator('#reset').click();assert.equal(await page.locator('#card-results a.card').count(),18);
    }
    // Electronic prescription has no theme membership in the preserved snapshot.
@@ -489,7 +489,7 @@ const server = http.createServer(require('./static_server.cjs')(html));
    assert(careArticle.includes('同一施設での変化とは判断できません'));assert(!careArticle.includes('ただし、同じ施設を追跡した結果ではありません。'));
    assert(careArticle.includes('無回答は2.8%'));assert(careArticle.includes('パソコンによる介護ソフト'));
    assert(await page.locator('#main a[href*="R6_jittai_chousa_jigyousyo_shiryo2.pdf"]').count()>0);
-   await page.locator('#main').getByText('記事一覧に戻る',{exact:true}).first().click();
+   await page.locator('#main').getByText('調査記事の一覧に戻る',{exact:true}).first().click();
    await page.locator('#search').fill('介護');
    await page.locator('#card-results a[href="#markets/jp-care-layers-not-one.md"]').click();await waitForArticle(page,careTitle);
    for(const suffix of ['observation','interpretation','value_hypothesis','judgment_change']){
