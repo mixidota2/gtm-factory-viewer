@@ -126,11 +126,13 @@ const server = http.createServer(require('./static_server.cjs')(html));
    ]){
     await page.locator('#editorial-search').fill(query);
     assert.equal(await page.locator('#candidate-results article').count(),1);
-    assert.equal(await page.locator('#candidate-count').innerText(),'候補5件のうち1件を表示しています');
+    assert.equal(await page.locator('#candidate-count').innerText(),'調査候補5件のうち1件を表示しています');
+    assert.equal(await page.locator('#candidate-results a[href="#candidate/'+id+'"]').last().innerText(), '調べた対象・期間・出典と、まだ分からないことを読む');
     await page.locator('#candidate-results h3 a[href="#candidate/'+id+'"]').click();
     await page.waitForFunction(expected=>location.hash==='#candidate/'+expected && document.querySelector('#main h1')?.textContent.includes(expected==='lighting'?'照明器具':expected==='accommodation'?'宿泊料':'海外パック旅行'),id);
     const body=await page.locator('#main').innerText();
-    for(const text of ['候補・利用量の増加は未確認','二人以上世帯',id==='lighting'?'2025年10月〜2026年9月':'2025年9月〜2026年8月',claim,limit,id==='accommodation'?'家計調査・2020〜2024年':'家計調査・月次（2020〜2024年）'])assert.ok(body.includes(text),id+': '+text);
+    assert.equal(await page.locator('#main article.prose > p.meta').last().innerText(), 'この記事では、資料で確かめたことと、確かめられなかったことを分けています。支出や出荷が増えたというだけでは、利用量が増え続けているとは判断しません。');
+    for(const text of ['調査候補：利用量が増えたかは未確認','二人以上世帯',id==='lighting'?'2025年10月〜2026年9月':'2025年9月〜2026年8月',claim,limit,id==='accommodation'?'家計調査・2020〜2024年':'家計調査・月次（2020〜2024年）'])assert.ok(body.includes(text),id+': '+text);
 
     if(id==='lighting'){
      for(const fact of ['1,293円','1,841円','42.4%','参加36社','同じ企業だけで集計し直した比較かどうかは確認できず','2026年11月18日'])assert.ok(body.includes(fact),fact);
@@ -160,7 +162,7 @@ const server = http.createServer(require('./static_server.cjs')(html));
     await page.locator('#candidate-results a[href="#candidate/cooking-appliances"]').first().click();
     await page.waitForFunction(()=>document.querySelector('#main h1')?.textContent.includes('炊事用電気器具'));
     const cookingText=await page.locator('#main').innerText();
-    for(const phrase of ['候補・利用量の増加は未確認','2025年9月〜2026年8月','3,693円','3,195円','15.6%','2026年6〜8月','782円','540円','44.8%','購入しなかった世帯も含む平均','2025年の支出は3,273円','2019年の3,446円','5.0%','月次表示値の合計です','その年の公表値を足して暦年で比べると','電子レンジは別品目','この品目全体の価格変化を表せません','購入数量を推定していません','組合せの変化は未確認','2026年11月4日','最新の家計対象月は2026年8月'])assert.ok(cookingText.includes(phrase),phrase);
+    for(const phrase of ['調査候補：利用量が増えたかは未確認','2025年9月〜2026年8月','3,693円','3,195円','15.6%','2026年6〜8月','782円','540円','44.8%','購入しなかった世帯も含む平均','2025年の支出は3,273円','2019年の3,446円','5.0%','月次表示値の合計です','その年の公表値を足して暦年で比べると','電子レンジは別品目','この品目全体の価格変化を表せません','購入数量を推定していません','組合せの変化は未確認','2026年11月4日','最新の家計対象月は2026年8月'])assert.ok(cookingText.includes(phrase),phrase);
     for(const url of ["https://www.e-stat.go.jp/stat-search/file-download?fileKind=1&statInfId=000040270651","https://www.e-stat.go.jp/stat-search/file-download?fileKind=1&statInfId=000040270650","https://www.e-stat.go.jp/stat-search/file-download?fileKind=1&statInfId=000040270649","https://www.stat.go.jp/data/kakei/kou2025/zuhyou/kouh2025.xlsx","https://www.stat.go.jp/data/cpi/2025/kaisetsu/pdf/4-61.pdf"])assert.ok(await page.locator('#main a').evaluateAll((links,url)=>links.some(a=>a.href===url),url),url);
     await page.locator('#main').getByText('候補一覧に戻る',{exact:true}).first().click();
     await page.waitForFunction(()=>!!document.querySelector('#candidate-results'));
