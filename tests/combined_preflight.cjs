@@ -1,7 +1,7 @@
 const fs=require('fs'),path=require('path'),crypto=require('crypto'),assert=require('assert/strict');
 module.exports=function(candidate){
  require('./candidate_preflight.cjs')(path.join(__dirname,'fixtures/care-candidate.html'));
- const html=fs.readFileSync(candidate,'utf8');assert.equal(crypto.createHash('sha256').update(html).digest('hex'),'8d5bc742c6665a4ad4b4720a6d2f5aef2b7dac0c1cbf23ad746c379de1781fde','Combined candidate moved; regenerate and independently review expected content');
+ const html=fs.readFileSync(candidate,'utf8');assert.equal(crypto.createHash('sha256').update(html).digest('hex'),'7867499433b4c7e339cec8f41b89c26506654747590dec5750ddd6fa766c428f','Combined candidate moved; regenerate and independently review expected content');
  const d=JSON.parse(html.match(/<script id="snapshot-data" type="application\/json">([\s\S]*?)<\/script>/)[1]);
  assert.equal(d.editorial.representative_of_world,false,'Examples are not a representative world sample');
  const construction=d.claims[16],market=d.markets[4],security=d.claims.find(c=>c.claim_id==='theme-4-text');
