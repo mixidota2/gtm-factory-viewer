@@ -91,7 +91,7 @@ const server = http.createServer(require('./static_server.cjs')(html));
    await page.locator('#reset').click();
    assert.equal(await page.locator('#comparison tbody tr').count(),11);
    assert.equal(await page.locator('#comparison tbody td').count(),33);
-   assert.equal(await page.locator('#comparison h2').innerText(),"同じ情報を入力し直す負担：建設・保育・ケアプラン");
+   assert.equal(await page.locator('#comparison > h2').innerText(),"同じ情報を入力し直す負担：建設・保育・ケアプラン");
    assert.equal(await page.getByRole('region',{name:'建設・保育・ケアプランの比較表'}).count(),1);
    assert.ok((await page.locator('#comparison tbody').innerText()).includes('今後の検証で比べること'));
    const compareDetail=page.locator('#comparison > details > summary');
