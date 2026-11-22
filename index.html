@@ -194,7 +194,7 @@ function renderCandidate(id){
 }
 
 function home(){
- document.getElementById('main').innerHTML=`<section class="hero"><div><p class="eyebrow">DEMAND NOTES</p><h1>お金や時間の使われ方から、<br>需要を読む。</h1><p class="lead">お金、使う量・時間、導入した数を分けて、需要の変化を見ます。各記事で、誰を調べた数字か、何が分かり、何が未確認かを確かめられます。</p></div><aside class="hero-note"><p>日本を中心に集めた事例です。海外4例を含みますが、世界全体を代表する比較ではありません。</p><p class="meta">主要記事の更新日：2026年10月28日（日本時間）。電子処方箋の9月分を反映し、10月26日確認のエアコン記事も掲載しています。全記事をこの日に再調査したものではありません。資料の公表日・データの対象期間・確認範囲は各記事をご覧ください。</p><p class="meta">文章は2026年11月18日に推敲しました。全資料をこの日に再調査したものではありません。</p><a href="#overview">調査範囲と全体の結果を読む</a><p><a href="#candidates">調査を続ける候補${candidateUpdates.length}件を読む</a></p></aside></section>
+ document.getElementById('main').innerHTML=`<section class="hero"><div><p class="eyebrow">DEMAND NOTES</p><h1>支出・利用・導入を分けて、<br>需要の変化を読む</h1><p class="lead">支払った金額、使った量や時間、導入した数は、別々の指標です。各記事で、誰や何を調べたのか、数字から何が分かり、何はまだ分からないのかを確かめられます。</p></div><aside class="hero-note"><p>日本の事例が中心で、海外4例も掲載しています。世界全体を代表する比較ではありません。</p><p class="meta">主要記事の内容を更新した日：2026年10月28日（日本時間）。電子処方箋の9月分と、10月26日に確認したエアコンの記事を反映しました。この日に全記事を調べ直したわけではありません。</p><p class="meta">文章を見直した日：2026年11月18日。この日に全資料を調べ直したわけではありません。資料の公表日、データの対象期間、確認した範囲は各記事をご覧ください。</p><a href="#overview">調査範囲と全体の結果を読む</a><p><a href="#candidates">調査を続ける候補${candidateUpdates.length}件を読む</a></p></aside></section>
  ${editorialHome()}
  ${candidateHome()}
  <section class="section" aria-labelledby="map-title"><div class="section-head"><h2 id="map-title">テーマ別に見る需要の変化：支出・利用・導入</h2><p>テーマを選ぶと、そのテーマで何を調べたかと、関連記事が表示されます。</p></div><div class="map"><div><div class="map-grid">${data.themes.filter(t=>!t.proxy).map(themeButton).join('')}</div><div class="proxy-zone"><p>開発者の注目・未検証の仮説</p>${data.themes.filter(t=>t.proxy).map(themeButton).join('')}</div></div><div id="theme-detail" class="theme-detail" aria-live="polite" aria-atomic="true"></div></div></section>
@@ -238,7 +238,7 @@ function render(){
   if(returning)main.focus({preventScroll:true});
  }
 }
-document.getElementById('snapshot').textContent='主要記事の更新日：2026年10月28日（日本時間） · 資料の公表日・対象期間は各記事に記載 · 文章の推敲：2026年11月18日';
+document.getElementById('snapshot').textContent='主要記事の内容を更新した日：2026年10月28日（日本時間） · 文章を見直した日：2026年11月18日 · 資料の公表日と対象期間は各記事へ';
 // Re-selecting the current observation does not fire hashchange.
 document.addEventListener('click',e=>{
  if(e.defaultPrevented||e.button!==0||e.metaKey||e.ctrlKey||e.shiftKey||e.altKey)return;

@@ -54,7 +54,7 @@ class ReviewedRenderer(unittest.TestCase):
    code=self.check.run(html,self.baseline,{k:p/'unused.pdf' for k in self.check.ADAPTERS},p/'out')
    return code,json.loads((p/'out/integration.json').read_text())
  def test_historical_and_reviewed_renderer_remain_distinct(self):
-  for raw,unchanged,label in [(self.baseline.read_bytes(),True,None),(self.current,False,'yomiyasu-candidate-reading-2026-11-22')]:
+  for raw,unchanged,label in [(self.baseline.read_bytes(),True,None),(self.current,False,'yomiyasu-home-dates-2026-11-22')]:
    with self.subTest(unchanged=unchanged):
     code,result=self.evaluate(raw);self.assertEqual(code,0);self.assertEqual(result['html_outside_snapshot_unchanged'],unchanged);self.assertEqual(result['reviewed_renderer'],label);self.assertFalse(result['browser_render_verified']);self.assertFalse(result['publish_allowed'])
  def test_unknown_style_code_and_label_fail(self):
@@ -73,7 +73,7 @@ class ReviewedRenderer(unittest.TestCase):
     else:claim['source_urls'][0]='https://example.invalid/changed.pdf'
    raw=re.sub(self.check.PATTERN,lambda m:m[1]+json.dumps(changed,ensure_ascii=False).encode()+m[2],self.current,flags=re.S)
    with self.subTest(kind=kind):
-    code,r=self.evaluate(raw);self.assertEqual(code,3);self.assertEqual(r['reviewed_renderer'],'yomiyasu-candidate-reading-2026-11-22');self.assertTrue(any(x['target'].startswith('/') for x in r['issues']))
+    code,r=self.evaluate(raw);self.assertEqual(code,3);self.assertEqual(r['reviewed_renderer'],'yomiyasu-home-dates-2026-11-22');self.assertTrue(any(x['target'].startswith('/') for x in r['issues']))
  def test_adapter_failure_propagates_for_each_source(self):
   for name in self.check.ADAPTERS:
    with self.subTest(name=name):
