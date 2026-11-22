@@ -89,7 +89,7 @@ function drawTheme(){
  state.theme=t.id;
  document.querySelectorAll('[data-theme]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.theme===t.id)));
  panel.className='theme-detail'+(t.proxy?' proxy':'');
- panel.innerHTML=`<span class="detail-label">${esc(t.classification)}</span><h3>${esc(t.title)}</h3><p>${inline(t.text)}</p><h4>役立つと考えられる理由と、まだ確かめていないこと</h4><p>${esc(t.value_hypothesis)}</p><h4>読み取るときの注意点</h4><p>${esc(t.limits)}</p><h4>検証計画：判断を変える条件</h4><p>${esc(t.judgment_change)}</p><p><a href="#overview">概要全文</a></p><ul>${t.memos.map(id=>`<li>${fileLink(id)}</li>`).join('')}</ul>${t.memos.length?'':'<p>このテーマだけを扱う記事はありません。以下で、主張ごとの出典と確認範囲を読めます。</p>'}<h4>出典・検証状況</h4>${claimsFor('theme-'+t.id+'-')}`;
+ panel.innerHTML=`<span class="detail-label">${esc(t.classification)}</span><h3>${esc(t.title)}</h3><p>${inline(t.text)}</p><h4>どう役立つと考えられるか・まだ分からないこと</h4><p>${esc(t.value_hypothesis)}</p><h4>結果を読むときの注意点</h4><p>${esc(t.limits)}</p><h4>次に確かめること・判断を見直す条件</h4><p>${esc(t.judgment_change)}</p><p><a href="#overview">調査範囲と全体の結果を読む</a></p><ul>${t.memos.map(id=>`<li>${fileLink(id)}</li>`).join('')}</ul>${t.memos.length?'':'<p>このテーマだけを扱う記事はありません。下のカードで、主張ごとの出典と、資料のどこを確認したかを読めます。</p>'}<h4>出典・検証状況</h4>${claimsFor('theme-'+t.id+'-')}`;
 }
 function chartEvidence(c){
  const nursery=c.memo==='jp-nursery-ict-halfway.md';
@@ -117,7 +117,7 @@ function drawClaims(q,selectedTheme){
  const claims=data.themes.filter(t=>(!selectedTheme||t.id===selectedTheme.id)&&matches(t.label+' '+t.title+' '+t.text+' '+t.value_hypothesis+' '+t.limits+' '+t.judgment_change)&&(state.kind==='all'||(state.kind==='proxy')===t.proxy));
  const show=Boolean(q.length||selectedTheme);
  const overviewMatch=q.length&&!selectedTheme&&state.kind!=='proxy'&&matches(data.overview.text);
- document.getElementById('claim-results').innerHTML=show?`<h3>概要の主張：${claims.length}件</h3>${claims.map(t=>`<article><h3><a href="#theme/${esc(t.id)}">${esc(t.title)}</a></h3><p>${inline(t.text)}</p><a href="#overview">概要全文・出典と条件を読む</a></article>`).join('')}${overviewMatch?'<p><a href="#overview">検索語を含む概要全文を読む</a></p>':''}`:'';
+ document.getElementById('claim-results').innerHTML=show?`<h3>概要にあるテーマ別の説明：${claims.length}件</h3>${claims.map(t=>`<article><h3><a href="#theme/${esc(t.id)}">${esc(t.title)}</a></h3><p>${inline(t.text)}</p><a href="#overview">全体の概要で出典と調べた条件を読む</a></article>`).join('')}${overviewMatch?'<p><a href="#overview">検索語を含む概要全文を読む</a></p>':''}`:'';
  return show&&(claims.length||overviewMatch);
 }
 const claimLabels={observed_with_stated_scope:'観測（対象範囲あり）',scoped_observation_or_limit:'観測・限界',scoped_observation:'観測（対象範囲あり）',limited_inference:'限定した解釈',hypothesis:'仮説',test_plan:'検証計画'};
