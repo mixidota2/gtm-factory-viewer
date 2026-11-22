@@ -169,7 +169,7 @@ const server = http.createServer(require('./static_server.cjs')(html));
     const cookingText=await page.locator('#main').innerText();
     for(const phrase of ['調査候補：利用量が増えたかは未確認','2025年9月〜2026年8月','3,693円','3,195円','15.6%','2026年6〜8月','782円','540円','44.8%','購入しなかった世帯も含む平均','2025年の支出は3,273円','2019年の3,446円','5.0%','月次表示値の合計です','その年の公表値を足して暦年で比べると','電子レンジは別品目','この品目全体の価格変化を表せません','購入数量を推定していません','組合せの変化は未確認','2026年11月4日','最新の家計対象月は2026年8月'])assert.ok(cookingText.includes(phrase),phrase);
     for(const url of ["https://www.e-stat.go.jp/stat-search/file-download?fileKind=1&statInfId=000040270651","https://www.e-stat.go.jp/stat-search/file-download?fileKind=1&statInfId=000040270650","https://www.e-stat.go.jp/stat-search/file-download?fileKind=1&statInfId=000040270649","https://www.stat.go.jp/data/kakei/kou2025/zuhyou/kouh2025.xlsx","https://www.stat.go.jp/data/cpi/2025/kaisetsu/pdf/4-61.pdf"])assert.ok(await page.locator('#main a').evaluateAll((links,url)=>links.some(a=>a.href===url),url),url);
-    await page.locator('#main').getByText('候補一覧に戻る',{exact:true}).first().click();
+    await page.locator('#main').getByText('調査を続ける候補の一覧へ戻る',{exact:true}).first().click();
     await page.waitForFunction(()=>!!document.querySelector('#candidate-results'));
     await page.locator('#reset').click();
     assert.equal(await page.locator('#candidate-results article').count(),5);
