@@ -183,13 +183,13 @@ candidateUpdates.forEach(c=>knownLocalRoutes.add('#candidate/'+c.id));
 function candidateHome(){return `<section class="section" id="candidates"><h2>調査を続ける候補</h2><p>支出が増えたことを手掛かりに調べた${candidateUpdates.length}例です。調べた対象や期間の違い、物価の変化、別の商品やサービスからの移りを分けて考えます。持続的に利用量が増えたと確認できた項目には加えていません。</p><p class="meta">原稿の確認日は、海外パック旅行が2026年10月18〜19日、照明の月次支出・出荷が11月18日、宿泊料が11月2日、祭具・墓石が11月3日、炊事用電気器具が11月4日です。照明の暦年・単身世帯の年表は10月18日の確認結果です。上の全記事検索と下の記事検索では、候補の本文や出典も検索できます。ただし、テーマや記事種類を選んで絞り込んでも、この候補欄の表示は変わりません。</p><p id="candidate-count" role="status"></p><div id="candidate-results" class="global-grid"></div></section>`;}
 function drawCandidateUpdates(q){
  const rows=candidateUpdates.filter(c=>q.every(w=>(c.title+' '+c.summary+' '+c.text).normalize('NFKC').toLocaleLowerCase().includes(w)));
- document.getElementById('candidate-count').textContent=`候補${candidateUpdates.length}件のうち${rows.length}件を表示しています`;
- document.getElementById('candidate-results').innerHTML=rows.length?rows.map(c=>`<article class="global-card"><span class="badge">候補・利用量の増加は未確認</span><h3><a href="#candidate/${esc(c.id)}">${esc(c.title)}</a></h3><p>${esc(c.summary)}</p><a href="#candidate/${esc(c.id)}">対象・期間・限界と出典を読む</a></article>`).join(''):'<p>検索語に合う候補はありません。</p>';
+ document.getElementById('candidate-count').textContent=`調査候補${candidateUpdates.length}件のうち${rows.length}件を表示しています`;
+ document.getElementById('candidate-results').innerHTML=rows.length?rows.map(c=>`<article class="global-card"><span class="badge">調査候補：利用量が増えたかは未確認</span><h3><a href="#candidate/${esc(c.id)}">${esc(c.title)}</a></h3><p>${esc(c.summary)}</p><a href="#candidate/${esc(c.id)}">調べた対象・期間・出典と、まだ分からないことを読む</a></article>`).join(''):'<p>検索語に合う候補はありません。</p>';
 }
 function renderCandidate(id){
  const c=candidateUpdates.find(c=>c.id===id);route='memo';
  const main=document.getElementById('main');
- main.innerHTML=c?`<div class="reader"><aside><a href="#candidates">候補一覧に戻る</a><a href="#questions">3つの問いへ戻る</a></aside><article class="prose"><p class="badge">候補・利用量の増加は未確認</p>${markdown(c.text,'candidate-body')}<p class="meta">原稿に記載された確認範囲を示しています。支出や出荷の増加だけで、持続的な利用量の増加とは判定していません。</p><p><a href="#candidates">候補一覧に戻る</a></p></article></div>`:'<p>候補が見つかりません。<a href="#candidates">一覧へ</a></p>';
+ main.innerHTML=c?`<div class="reader"><aside><a href="#candidates">候補一覧に戻る</a><a href="#questions">3つの問いへ戻る</a></aside><article class="prose"><p class="badge">調査候補：利用量が増えたかは未確認</p>${markdown(c.text,'candidate-body')}<p class="meta">この記事では、資料で確かめたことと、確かめられなかったことを分けています。支出や出荷が増えたというだけでは、利用量が増え続けているとは判断しません。</p><p><a href="#candidates">候補一覧に戻る</a></p></article></div>`:'<p>候補が見つかりません。<a href="#candidates">一覧へ</a></p>';
  document.title=(c?c.title:'候補が見つかりません')+' | GTM工場';window.scrollTo(0,0);main.focus({preventScroll:true});
 }
 
