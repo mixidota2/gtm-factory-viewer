@@ -189,7 +189,7 @@ function drawCandidateUpdates(q){
 function renderCandidate(id){
  const c=candidateUpdates.find(c=>c.id===id);route='memo';
  const main=document.getElementById('main');
- main.innerHTML=c?`<div class="reader"><aside><a href="#candidates">候補一覧に戻る</a><a href="#questions">3つの問いへ戻る</a></aside><article class="prose"><p class="badge">調査候補：利用量が増えたかは未確認</p>${markdown(c.text,'candidate-body')}<p class="meta">この記事では、資料で確かめたことと、確かめられなかったことを分けています。支出や出荷が増えたというだけでは、利用量が増え続けているとは判断しません。</p><p><a href="#candidates">候補一覧に戻る</a></p></article></div>`:'<p>候補が見つかりません。<a href="#candidates">一覧へ</a></p>';
+ main.innerHTML=c?`<div class="reader"><aside><a href="#candidates">調査を続ける候補の一覧へ戻る</a><a href="#questions">業界をまたいで比べる3つの問いへ戻る</a></aside><article class="prose"><p class="badge">調査候補：利用量が増えたかは未確認</p>${markdown(c.text,'candidate-body')}<p class="meta">この記事では、資料で確かめたことと、確かめられなかったことを分けています。支出や出荷が増えたというだけでは、利用量が増え続けているとは判断しません。</p><p><a href="#candidates">調査を続ける候補の一覧へ戻る</a></p></article></div>`:'<p>指定の候補記事が見つかりません。<a href="#candidates">調査候補の一覧へ</a></p>';
  document.title=(c?c.title:'候補が見つかりません')+' | GTM工場';window.scrollTo(0,0);main.focus({preventScroll:true});
 }
 
