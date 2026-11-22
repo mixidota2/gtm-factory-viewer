@@ -71,7 +71,7 @@ const server = http.createServer(require('./static_server.cjs')(html));
    assert.ok(proseUpdate.includes('この日に全資料を調べ直したわけではありません'));
    assert.ok(proseUpdate.includes('資料の公表日、データの対象期間、確認した範囲は各記事'));
    assert.ok(!proseUpdate.includes('2026年10月28日'));
-   assert.ok((await page.locator('.hero-note').innerText()).includes('海外4例も掲載しています。世界全体を代表する比較ではありません。'));
+   assert.ok((await page.locator('.hero-note').innerText()).includes('海外からも4例を掲載しています。この比較は世界全体を代表するものではありません。'));
    assert.equal(await page.locator('#snapshot').innerText(),'主要記事の内容を更新した日：2026年10月28日（日本時間） · 文章を見直した日：2026年11月18日 · 資料の公表日と対象期間は各記事へ');
 
    assert.ok((await page.locator('#candidates .meta').innerText()).includes('海外パック旅行が2026年10月18〜19日、照明の月次支出・出荷が11月18日、宿泊料が11月2日'));
