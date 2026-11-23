@@ -6,6 +6,7 @@ on:
       - index.html
       - tools/demand/**
       - .github/workflows/source-check.yml
+      - data/demand-archive/**
 permissions:
   contents: read
 jobs:
