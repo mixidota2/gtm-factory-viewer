@@ -196,4 +196,11 @@ assert.deepEqual(archivedAirConditioning.editorial_later_revisions,[{
  date:'2026-11-24',previous_bytes:4844,previous_sha256:'a06e12a1334cec456dea02de67e5cb0a99e12b34894f04e511fac8085716f0ff'
 }]);
 assert.equal(archivedAirConditioning.sha256,'65a10c3dc4636f900ce0b3e943ebfc5c1fc3c8d69332abbab339add80498193b');
+const archivedMicrowave=catalog.files.find(e=>e.path==='artifacts/series/2026-10-22/household/report-ja.md');
+assert.equal(archivedMicrowave.editorial_previous_sha256,'bf61efdd71ab85a91db5e3f04437c9b30b34a62cc7ee16ddf93bb6491008e317');
+assert.equal(archivedMicrowave.editorial_previous_bytes,7629);
+assert.deepEqual(archivedMicrowave.editorial_later_revisions,[{
+ date:'2026-11-24',previous_bytes:7635,previous_sha256:'b3efc1168394b314524c1ae2fe0d5281a87f7f87aa30ace23aaecf006bcfeb30'
+}]);
+assert.equal(archivedMicrowave.sha256,'2a7f47f0cf4b27f041cfaa90b62fac57cfc08bbaf3d9884c704bba34cfa38981');
 console.log('PASS archive catalog: '+seen.size+' unique paths, exact bytes and SHA-256');
