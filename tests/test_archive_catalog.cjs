@@ -182,4 +182,11 @@ for(const [file,originalHash,previous,newHash] of archivedSpending){
  assert.deepEqual(entry.editorial_later_revisions,[previous]);
  assert.equal(entry.sha256,newHash);
 }
+const archivedMedicalReport=catalog.files.find(e=>e.path==='reports/daily-2026-10-27.md');
+assert.equal(archivedMedicalReport.editorial_previous_sha256,'9ac32738245d72d9826e841afd785cf9a27231517229ccfd659fdb0dd2ab6eee');
+assert.equal(archivedMedicalReport.editorial_previous_bytes,2334);
+assert.deepEqual(archivedMedicalReport.editorial_later_revisions,[{
+ date:'2026-11-24',previous_bytes:2355,previous_sha256:'89fa0a35e8c752ba77f248ad39059b7b975872014dabaa0cf365d486c9b5c208'
+}]);
+assert.equal(archivedMedicalReport.sha256,'285de7d15abf0cb7522580b043d72cc8f8a08926199d4b796c814b3888e582e0');
 console.log('PASS archive catalog: '+seen.size+' unique paths, exact bytes and SHA-256');
