@@ -222,6 +222,8 @@ assert.equal(archivedJewelrySales.editorial_previous_sha256,'7cb89987358de5a0e8d
 assert.equal(archivedJewelrySales.editorial_previous_bytes,5992);
 assert.deepEqual(archivedJewelrySales.editorial_later_revisions,[{
  date:'2026-11-24',previous_bytes:6016,previous_sha256:'dbf6978d9c736e3b68b7e1b670151d25c449fca368e723b54b18bf1ab11d08c9'
+},{
+ date:'2026-11-24',previous_bytes:6748,previous_sha256:'ad684f6fb225221b458c960a670f7441978374abeef981e90cbb5d5b51d5f3cf'
 }]);
-assert.equal(archivedJewelrySales.sha256,'ad684f6fb225221b458c960a670f7441978374abeef981e90cbb5d5b51d5f3cf');
+assert.equal(archivedJewelrySales.sha256,'dfa1844481e22d4a76cb8f9ac85464a18bc5269a71c891790e1f75c17c012429');
 console.log('PASS archive catalog: '+seen.size+' unique paths, exact bytes and SHA-256');
