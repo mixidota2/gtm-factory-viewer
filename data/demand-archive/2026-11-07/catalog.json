@@ -13,11 +13,18 @@
     },
     {
       "path": "artifacts/series/2026-10-16/coffee-05/report.md",
-      "bytes": 2824,
-      "sha256": "44e59586b0623fc668a3b448036ff02230253247b98a992b573b17b4b4cdfea2",
+      "bytes": 3766,
+      "sha256": "c5477e1b670bd523e63045c7058cde1836e746b247aeec04315fd06a58c5024d",
       "editorial_previous_sha256": "a3c5f2cb13e79ff4865403fb074f39e00b35d6e380067a56933b806d5af886d4",
       "editorial_previous_bytes": 2737,
-      "editorial_revision_date": "2026-11-18"
+      "editorial_revision_date": "2026-11-18",
+      "editorial_later_revisions": [
+        {
+          "date": "2026-11-23",
+          "previous_bytes": 2824,
+          "previous_sha256": "44e59586b0623fc668a3b448036ff02230253247b98a992b573b17b4b4cdfea2"
+        }
+      ]
     },
     {
       "path": "artifacts/series/2026-10-16/household-nominal-ranking-provisional.csv",
