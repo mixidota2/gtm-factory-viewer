@@ -1184,11 +1184,18 @@
     },
     {
       "path": "reports/2026-10-26.md",
-      "bytes": 4844,
-      "sha256": "a06e12a1334cec456dea02de67e5cb0a99e12b34894f04e511fac8085716f0ff",
+      "bytes": 5922,
+      "sha256": "65a10c3dc4636f900ce0b3e943ebfc5c1fc3c8d69332abbab339add80498193b",
       "editorial_previous_sha256": "740640d6ae0ddca96294d44bf6cd454badb27cd3500a7052f43e946e8d0aa628",
       "editorial_previous_bytes": 4802,
-      "editorial_revision_date": "2026-11-18"
+      "editorial_revision_date": "2026-11-18",
+      "editorial_later_revisions": [
+        {
+          "date": "2026-11-24",
+          "previous_bytes": 4844,
+          "previous_sha256": "a06e12a1334cec456dea02de67e5cb0a99e12b34894f04e511fac8085716f0ff"
+        }
+      ]
     },
     {
       "path": "reports/daily-2026-10-27.md",
