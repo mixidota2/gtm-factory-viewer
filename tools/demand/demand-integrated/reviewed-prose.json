@@ -107,8 +107,8 @@
     {
       "json_pointer": "/comparison",
       "historical_hash": "1dc1a99d777db38f5fbd08fb02562e977f0bfedcc51ba1e822d82af14d491536",
-      "current_hash": "a71cd1257caed60d2dbaa399f5efab45663c8ff29cce09d774ca5c5b1e137c1b",
-      "review_id": "yomiyasu-comparison-reading-2026-11-22"
+      "current_hash": "d59ac045b9420ac1f34bc991f06378ef4af3a4e43a7911596341d6f2ea78b94f",
+      "review_id": "yomiyasu-care-plan-dated-comparison-comparison-2026-11-23"
     },
     {
       "json_pointer": "/editorial/scope_text",
@@ -149,8 +149,8 @@
     {
       "json_pointer": "/overview/text",
       "historical_hash": "93a0f87bd66307df99c132d3e627f35fb6606a143db53c0bddfe816678e8624e",
-      "current_hash": "685497d990d2d7dab421cff610f954993f6a0f2faac3e86f8a04b40e4dcbd963",
-      "review_id": "yomiyasu-overview-body-2026-11-21"
+      "current_hash": "3ac196290d46ffff70d23e2b8d21a66d59157fe2250c09c898390619c084b038",
+      "review_id": "yomiyasu-care-plan-dated-comparison-overview-2026-11-23"
     }
   ]
 }
