@@ -5,11 +5,18 @@
   "files": [
     {
       "path": "README.md",
-      "bytes": 5208,
-      "sha256": "396e772bcdac358f029b2ef0c8d2f6153cfc656f4e07bb9e6e282ee837f5af61",
+      "bytes": 6323,
+      "sha256": "5f2288d75f360b3be4ad88dd5f4db64e26a830146b7372b8eafe3c7342c525af",
       "editorial_previous_sha256": "dfd8e449d7d037c25341ec7772d6ae1ca2d0ef08c0901cb2dc01af33f9add0b4",
       "editorial_previous_bytes": 4862,
-      "editorial_revision_date": "2026-11-18"
+      "editorial_revision_date": "2026-11-18",
+      "editorial_later_revisions": [
+        {
+          "date": "2026-11-23",
+          "previous_bytes": 5208,
+          "previous_sha256": "396e772bcdac358f029b2ef0c8d2f6153cfc656f4e07bb9e6e282ee837f5af61"
+        }
+      ]
     },
     {
       "path": "artifacts/series/2026-10-16/coffee-05/report.md",
@@ -1102,19 +1109,33 @@
     },
     {
       "path": "markets/foreign-package-travel.md",
-      "bytes": 2929,
-      "sha256": "46a512d2bb99c4f111a19d3d4240076a41cafd417a6a392a0d656bc712630c9b",
+      "bytes": 3211,
+      "sha256": "029682f64644e6241c6969eb2fb818af82b56e3c1be08629741cb3200c8cf358",
       "editorial_previous_sha256": "b5cf3b62907c7eeb4c1f436bfbc9b24bb0e0dc9fb9e6d50fbce63c6d014d023f",
       "editorial_previous_bytes": 2926,
-      "editorial_revision_date": "2026-11-18"
+      "editorial_revision_date": "2026-11-18",
+      "editorial_later_revisions": [
+        {
+          "date": "2026-11-23",
+          "previous_bytes": 2929,
+          "previous_sha256": "46a512d2bb99c4f111a19d3d4240076a41cafd417a6a392a0d656bc712630c9b"
+        }
+      ]
     },
     {
       "path": "markets/lighting.md",
-      "bytes": 2403,
-      "sha256": "8944d4fc121fd4649fa4ab3543a1537b6eb30ef9e31ae31db413c66b7238df9f",
+      "bytes": 2682,
+      "sha256": "74898b55cc903522313f139e8bc37618ca89942acc76ee39c8079283dbd0eede",
       "editorial_previous_sha256": "87af3dfa77498069ae52612926694ac1e84dbc25ea06a4fb925a09493046c671",
       "editorial_previous_bytes": 2400,
-      "editorial_revision_date": "2026-11-18"
+      "editorial_revision_date": "2026-11-18",
+      "editorial_later_revisions": [
+        {
+          "date": "2026-11-23",
+          "previous_bytes": 2403,
+          "previous_sha256": "8944d4fc121fd4649fa4ab3543a1537b6eb30ef9e31ae31db413c66b7238df9f"
+        }
+      ]
     },
     {
       "path": "reports/2026-10-23.md",
