@@ -189,4 +189,11 @@ assert.deepEqual(archivedMedicalReport.editorial_later_revisions,[{
  date:'2026-11-24',previous_bytes:2355,previous_sha256:'89fa0a35e8c752ba77f248ad39059b7b975872014dabaa0cf365d486c9b5c208'
 }]);
 assert.equal(archivedMedicalReport.sha256,'285de7d15abf0cb7522580b043d72cc8f8a08926199d4b796c814b3888e582e0');
+const archivedAirConditioning=catalog.files.find(e=>e.path==='reports/2026-10-26.md');
+assert.equal(archivedAirConditioning.editorial_previous_sha256,'740640d6ae0ddca96294d44bf6cd454badb27cd3500a7052f43e946e8d0aa628');
+assert.equal(archivedAirConditioning.editorial_previous_bytes,4802);
+assert.deepEqual(archivedAirConditioning.editorial_later_revisions,[{
+ date:'2026-11-24',previous_bytes:4844,previous_sha256:'a06e12a1334cec456dea02de67e5cb0a99e12b34894f04e511fac8085716f0ff'
+}]);
+assert.equal(archivedAirConditioning.sha256,'65a10c3dc4636f900ce0b3e943ebfc5c1fc3c8d69332abbab339add80498193b');
 console.log('PASS archive catalog: '+seen.size+' unique paths, exact bytes and SHA-256');
