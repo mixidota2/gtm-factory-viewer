@@ -725,11 +725,18 @@
     },
     {
       "path": "artifacts/series/2026-10-29/sellers/expanded/report-ja.md",
-      "bytes": 3650,
-      "sha256": "7cd17b81322b82b0cd8e30d86bea04253b95fa84d4770f8416f0db131e9fc7b3",
+      "bytes": 4342,
+      "sha256": "b9b378133b248c25b061d69232557f75b090cb6f1d0b605378a7b88dd5f3dd11",
       "editorial_previous_sha256": "92fdf30ed4d7a493a1151a8c8ddced0884db9bb6b855952546ade7db3e069fab",
       "editorial_previous_bytes": 3647,
-      "editorial_revision_date": "2026-11-18"
+      "editorial_revision_date": "2026-11-18",
+      "editorial_later_revisions": [
+        {
+          "date": "2026-11-24",
+          "previous_bytes": 3650,
+          "previous_sha256": "7cd17b81322b82b0cd8e30d86bea04253b95fa84d4770f8416f0db131e9fc7b3"
+        }
+      ]
     },
     {
       "path": "artifacts/series/2026-10-29/sellers/expanded/search-log.json",
