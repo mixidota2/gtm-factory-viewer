@@ -1139,19 +1139,33 @@
     },
     {
       "path": "reports/2026-10-23.md",
-      "bytes": 3291,
-      "sha256": "8bbd1fc95089b666ebe7c937bf29d7748ea5395fe1c556223fd4cbc45d78af19",
+      "bytes": 3693,
+      "sha256": "d93ff19d8a25315c7ef3c39640cd25931d2a895aba3fd6258552a86933df0d64",
       "editorial_previous_sha256": "966c06741f2aa4a2d0ba6b70caf2e8cdb1c67e9bf066278a0e3d746268666eb9",
       "editorial_previous_bytes": 3273,
-      "editorial_revision_date": "2026-11-18"
+      "editorial_revision_date": "2026-11-18",
+      "editorial_later_revisions": [
+        {
+          "date": "2026-11-23",
+          "previous_bytes": 3291,
+          "previous_sha256": "8bbd1fc95089b666ebe7c937bf29d7748ea5395fe1c556223fd4cbc45d78af19"
+        }
+      ]
     },
     {
       "path": "reports/2026-10-24.md",
-      "bytes": 3166,
-      "sha256": "e3f9bce78a38913a2dfae67ee1bd186214c424b0542b7da31fdb3c1ae4ecb5ed",
+      "bytes": 3670,
+      "sha256": "89d69fa51b83b5c75698e5d587da5c9805af03bdd2e735e56106d9aa0d557e18",
       "editorial_previous_sha256": "c2ad21e484b745b8b6e9ff0ce536da7eb16cc903341071d1300de48a4c80ce05",
       "editorial_previous_bytes": 3148,
-      "editorial_revision_date": "2026-11-18"
+      "editorial_revision_date": "2026-11-18",
+      "editorial_later_revisions": [
+        {
+          "date": "2026-11-23",
+          "previous_bytes": 3166,
+          "previous_sha256": "e3f9bce78a38913a2dfae67ee1bd186214c424b0542b7da31fdb3c1ae4ecb5ed"
+        }
+      ]
     },
     {
       "path": "reports/2026-10-25.md",
