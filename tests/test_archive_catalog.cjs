@@ -45,4 +45,38 @@ for(const [file,originalHash,earlier] of archivedMethods){
  assert.equal(entry.editorial_previous_sha256,originalHash);
  assert.deepEqual(entry.editorial_later_revisions,[earlier]);
 }
+const archivedPurchaseComparisons=[
+  [
+    "README.md",
+    "dfd8e449d7d037c25341ec7772d6ae1ca2d0ef08c0901cb2dc01af33f9add0b4",
+    {
+      "date": "2026-11-23",
+      "previous_bytes": 5208,
+      "previous_sha256": "396e772bcdac358f029b2ef0c8d2f6153cfc656f4e07bb9e6e282ee837f5af61"
+    }
+  ],
+  [
+    "markets/lighting.md",
+    "87af3dfa77498069ae52612926694ac1e84dbc25ea06a4fb925a09493046c671",
+    {
+      "date": "2026-11-23",
+      "previous_bytes": 2403,
+      "previous_sha256": "8944d4fc121fd4649fa4ab3543a1537b6eb30ef9e31ae31db413c66b7238df9f"
+    }
+  ],
+  [
+    "markets/foreign-package-travel.md",
+    "b5cf3b62907c7eeb4c1f436bfbc9b24bb0e0dc9fb9e6d50fbce63c6d014d023f",
+    {
+      "date": "2026-11-23",
+      "previous_bytes": 2929,
+      "previous_sha256": "46a512d2bb99c4f111a19d3d4240076a41cafd417a6a392a0d656bc712630c9b"
+    }
+  ]
+];
+for(const [file,originalHash,earlier] of archivedPurchaseComparisons){
+ const entry=catalog.files.find(e=>e.path===file);
+ assert.equal(entry.editorial_previous_sha256,originalHash);
+ assert.deepEqual(entry.editorial_later_revisions,[earlier]);
+}
 console.log('PASS archive catalog: '+seen.size+' unique paths, exact bytes and SHA-256');
