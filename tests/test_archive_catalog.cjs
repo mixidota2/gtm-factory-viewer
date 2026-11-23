@@ -79,4 +79,38 @@ for(const [file,originalHash,earlier] of archivedPurchaseComparisons){
  assert.equal(entry.editorial_previous_sha256,originalHash);
  assert.deepEqual(entry.editorial_later_revisions,[earlier]);
 }
+const archivedLateOctoberReports=[
+  [
+    "reports/daily-2026-10-29.md",
+    "af6b27e707d00d0cf00ef2762ac6eff4177999e37d4fbb173015b7d290e11515",
+    {
+      "date": "2026-11-23",
+      "previous_bytes": 1515,
+      "previous_sha256": "c87dda6335040dbeaba99fea130e1d0f30bc50330d745d62b39dacd9f8ef0780"
+    }
+  ],
+  [
+    "reports/daily-2026-10-30.md",
+    "37672e641a80c44c1a4cb164b69d9aa202e7cb2fed201e1282e5bfb6f6da08ae",
+    {
+      "date": "2026-11-23",
+      "previous_bytes": 1654,
+      "previous_sha256": "6a983df833fa3b1265458db6f0af6cc54988c77e39ed728ca9a7eb70ecde57c6"
+    }
+  ],
+  [
+    "reports/daily-2026-10-31.md",
+    "5b542289b18f57dc47e6fbd88c5a1828165d2e2efd5740773e188af6c09b2dd9",
+    {
+      "date": "2026-11-23",
+      "previous_bytes": 1829,
+      "previous_sha256": "5e42e5749256c6256f019860c02b7e8abf730179d935c6acfe597e5f53932f56"
+    }
+  ]
+];
+for(const [file,originalHash,earlier] of archivedLateOctoberReports){
+ const entry=catalog.files.find(e=>e.path===file);
+ assert.equal(entry.editorial_previous_sha256,originalHash);
+ assert.deepEqual(entry.editorial_later_revisions,[earlier]);
+}
 console.log('PASS archive catalog: '+seen.size+' unique paths, exact bytes and SHA-256');
