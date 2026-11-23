@@ -203,4 +203,11 @@ assert.deepEqual(archivedMicrowave.editorial_later_revisions,[{
  date:'2026-11-24',previous_bytes:7635,previous_sha256:'b3efc1168394b314524c1ae2fe0d5281a87f7f87aa30ace23aaecf006bcfeb30'
 }]);
 assert.equal(archivedMicrowave.sha256,'2a7f47f0cf4b27f041cfaa90b62fac57cfc08bbaf3d9884c704bba34cfa38981');
+const archivedTravelCpi=catalog.files.find(e=>e.path==='artifacts/series/2026-10-19/cpi05/report.md');
+assert.equal(archivedTravelCpi.editorial_previous_sha256,'545c123ed89ff30332cf643da896b76e3fa2acdde216ff2c8f5233279df662e0');
+assert.equal(archivedTravelCpi.editorial_previous_bytes,2358);
+assert.deepEqual(archivedTravelCpi.editorial_later_revisions,[{
+ date:'2026-11-24',previous_bytes:2373,previous_sha256:'b4c2722e0a34bf4c5f2afabded6eb1ece7703bfa0da6d390cb57decbfd70cfc7'
+}]);
+assert.equal(archivedTravelCpi.sha256,'d982f0bba262d92abe8801a256f3ee1866ac9fef375c943dde24d6ba2e12f294');
 console.log('PASS archive catalog: '+seen.size+' unique paths, exact bytes and SHA-256');
