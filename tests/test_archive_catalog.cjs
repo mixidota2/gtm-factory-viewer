@@ -217,4 +217,11 @@ assert.deepEqual(archivedHousingOrders.editorial_later_revisions,[{
  date:'2026-11-24',previous_bytes:3650,previous_sha256:'7cd17b81322b82b0cd8e30d86bea04253b95fa84d4770f8416f0db131e9fc7b3'
 }]);
 assert.equal(archivedHousingOrders.sha256,'b9b378133b248c25b061d69232557f75b090cb6f1d0b605378a7b88dd5f3dd11');
+const archivedJewelrySales=catalog.files.find(e=>e.path==='artifacts/series/2026-10-28/sellers/expanded/report-ja.md');
+assert.equal(archivedJewelrySales.editorial_previous_sha256,'7cb89987358de5a0e8d6b5726e977237f1aa9696856bd9939a200159f6728cef');
+assert.equal(archivedJewelrySales.editorial_previous_bytes,5992);
+assert.deepEqual(archivedJewelrySales.editorial_later_revisions,[{
+ date:'2026-11-24',previous_bytes:6016,previous_sha256:'dbf6978d9c736e3b68b7e1b670151d25c449fca368e723b54b18bf1ab11d08c9'
+}]);
+assert.equal(archivedJewelrySales.sha256,'ad684f6fb225221b458c960a670f7441978374abeef981e90cbb5d5b51d5f3cf');
 console.log('PASS archive catalog: '+seen.size+' unique paths, exact bytes and SHA-256');
