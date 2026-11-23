@@ -1187,27 +1187,48 @@
     },
     {
       "path": "reports/daily-2026-10-29.md",
-      "bytes": 1515,
-      "sha256": "c87dda6335040dbeaba99fea130e1d0f30bc50330d745d62b39dacd9f8ef0780",
+      "bytes": 1904,
+      "sha256": "12c344dbe7438b6178ef7503eac4f19853a8d8ab49900689cb116d410f588a83",
       "editorial_previous_sha256": "af6b27e707d00d0cf00ef2762ac6eff4177999e37d4fbb173015b7d290e11515",
       "editorial_previous_bytes": 1497,
-      "editorial_revision_date": "2026-11-18"
+      "editorial_revision_date": "2026-11-18",
+      "editorial_later_revisions": [
+        {
+          "date": "2026-11-23",
+          "previous_bytes": 1515,
+          "previous_sha256": "c87dda6335040dbeaba99fea130e1d0f30bc50330d745d62b39dacd9f8ef0780"
+        }
+      ]
     },
     {
       "path": "reports/daily-2026-10-30.md",
-      "bytes": 1654,
-      "sha256": "6a983df833fa3b1265458db6f0af6cc54988c77e39ed728ca9a7eb70ecde57c6",
+      "bytes": 1714,
+      "sha256": "32dd724ba2d18f6e079330b30c5577c7274c1430a5172b5ee1ced882a875f335",
       "editorial_previous_sha256": "37672e641a80c44c1a4cb164b69d9aa202e7cb2fed201e1282e5bfb6f6da08ae",
       "editorial_previous_bytes": 1636,
-      "editorial_revision_date": "2026-11-18"
+      "editorial_revision_date": "2026-11-18",
+      "editorial_later_revisions": [
+        {
+          "date": "2026-11-23",
+          "previous_bytes": 1654,
+          "previous_sha256": "6a983df833fa3b1265458db6f0af6cc54988c77e39ed728ca9a7eb70ecde57c6"
+        }
+      ]
     },
     {
       "path": "reports/daily-2026-10-31.md",
-      "bytes": 1829,
-      "sha256": "5e42e5749256c6256f019860c02b7e8abf730179d935c6acfe597e5f53932f56",
+      "bytes": 2090,
+      "sha256": "5f6612e2d7b115491b4a121f2e409ad758faccb42badae9b5ddc8d52eb801f96",
       "editorial_previous_sha256": "5b542289b18f57dc47e6fbd88c5a1828165d2e2efd5740773e188af6c09b2dd9",
       "editorial_previous_bytes": 1832,
-      "editorial_revision_date": "2026-11-18"
+      "editorial_revision_date": "2026-11-18",
+      "editorial_later_revisions": [
+        {
+          "date": "2026-11-23",
+          "previous_bytes": 1829,
+          "previous_sha256": "5e42e5749256c6256f019860c02b7e8abf730179d935c6acfe597e5f53932f56"
+        }
+      ]
     },
     {
       "path": "reports/daily-2026-11-01.md",
