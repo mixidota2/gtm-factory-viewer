@@ -15,4 +15,9 @@ for(const entry of catalog.files){
   assert.equal(entry.editorial_revision_date,'2026-11-18');
  }
 }
+const coffee=catalog.files.find(e=>e.path==='artifacts/series/2026-10-16/coffee-05/report.md');
+assert.deepEqual(coffee.editorial_later_revisions,[{
+ date:'2026-11-23',previous_bytes:2824,previous_sha256:'44e59586b0623fc668a3b448036ff02230253247b98a992b573b17b4b4cdfea2'
+}]);
+assert.equal(coffee.editorial_previous_sha256,'a3c5f2cb13e79ff4865403fb074f39e00b35d6e380067a56933b806d5af886d4');
 console.log('PASS archive catalog: '+seen.size+' unique paths, exact bytes and SHA-256');
