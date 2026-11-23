@@ -54,11 +54,11 @@ class ReviewedRenderer(unittest.TestCase):
    code=self.check.run(html,self.baseline,{k:p/'unused.pdf' for k in self.check.ADAPTERS},p/'out')
    return code,json.loads((p/'out/integration.json').read_text())
  def test_historical_and_reviewed_renderer_remain_distinct(self):
-  for raw,unchanged,label in [(self.baseline.read_bytes(),True,None),(self.current,False,'yomiyasu-home-lead-and-theme-2026-11-23')]:
+  for raw,unchanged,label in [(self.baseline.read_bytes(),True,None),(self.current,False,'history-method-links-2026-11-23')]:
    with self.subTest(unchanged=unchanged):
     code,result=self.evaluate(raw);self.assertEqual(code,0);self.assertEqual(result['html_outside_snapshot_unchanged'],unchanged);self.assertEqual(result['reviewed_renderer'],label);self.assertFalse(result['browser_render_verified']);self.assertFalse(result['publish_allowed'])
  def test_unknown_style_code_and_label_fail(self):
-  for old,new in [(b'<style>',b'<style>/* changed */'),(b'function inline(text){',b'function inline(text){/* changed */'),('日本の8観測'.encode(),'日本の9観測'.encode())]:
+  for old,new in [(b'<style>',b'<style>/* changed */'),(b'function inline(text){',b'function inline(text){/* changed */'),('日本の8観測'.encode(),'日本の9観測'.encode()),(b'/historical/research-method.md',b'/historical/research-method-v2.md')]:
    with self.subTest(old=old):
     self.assertIn(old,self.current);code,r=self.evaluate(self.current.replace(old,new,1));self.assertEqual(code,3);self.assertTrue(any(x['target']=='HTML outside snapshot' for x in r['issues']))
  def test_dependency_text_chart_and_url_fail_with_reviewed_shell(self):
@@ -73,7 +73,7 @@ class ReviewedRenderer(unittest.TestCase):
     else:claim['source_urls'][0]='https://example.invalid/changed.pdf'
    raw=re.sub(self.check.PATTERN,lambda m:m[1]+json.dumps(changed,ensure_ascii=False).encode()+m[2],self.current,flags=re.S)
    with self.subTest(kind=kind):
-    code,r=self.evaluate(raw);self.assertEqual(code,3);self.assertEqual(r['reviewed_renderer'],'yomiyasu-home-lead-and-theme-2026-11-23');self.assertTrue(any(x['target'].startswith('/') for x in r['issues']))
+    code,r=self.evaluate(raw);self.assertEqual(code,3);self.assertEqual(r['reviewed_renderer'],'history-method-links-2026-11-23');self.assertTrue(any(x['target'].startswith('/') for x in r['issues']))
  def test_adapter_failure_propagates_for_each_source(self):
   for name in self.check.ADAPTERS:
    with self.subTest(name=name):

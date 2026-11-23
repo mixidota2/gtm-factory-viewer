@@ -1032,11 +1032,18 @@
     },
     {
       "path": "historical/interpretation-limitations.md",
-      "bytes": 2160,
-      "sha256": "0c7cfba66fff7878e5cda490143b00964e7e1afdc4e6066ed2a19c3bcc3eb286",
+      "bytes": 2559,
+      "sha256": "412d2a1399c6e30f6c05bbc0b634a7431b0eb50499d5b8b0bb6914d6ffc83e7e",
       "editorial_previous_sha256": "d716ac646736f355535993f5808f47390d2a39039ca309d76c019b8b000fa44a",
       "editorial_previous_bytes": 2145,
-      "editorial_revision_date": "2026-11-18"
+      "editorial_revision_date": "2026-11-18",
+      "editorial_later_revisions": [
+        {
+          "date": "2026-11-23",
+          "previous_bytes": 2160,
+          "previous_sha256": "0c7cfba66fff7878e5cda490143b00964e7e1afdc4e6066ed2a19c3bcc3eb286"
+        }
+      ]
     },
     {
       "path": "historical/markets/overview-rising-demand.md",
@@ -1056,11 +1063,18 @@
     },
     {
       "path": "historical/research-method.md",
-      "bytes": 1107,
-      "sha256": "f51d0b7fa7e6c32ff761707bbfaf5f16d99f035e00dd2b0ecf845527b7d01bb3",
+      "bytes": 1281,
+      "sha256": "151d282b7cc8676c74aa97114a5b7ac80765be625d46a14d13c1ceb31b13898a",
       "editorial_previous_sha256": "3d07ca178a7362090ea521529fe1671b29abb98601e43e24b357027db8d54e09",
       "editorial_previous_bytes": 1113,
-      "editorial_revision_date": "2026-11-18"
+      "editorial_revision_date": "2026-11-18",
+      "editorial_later_revisions": [
+        {
+          "date": "2026-11-23",
+          "previous_bytes": 1107,
+          "previous_sha256": "f51d0b7fa7e6c32ff761707bbfaf5f16d99f035e00dd2b0ecf845527b7d01bb3"
+        }
+      ]
     },
     {
       "path": "historical/sector-evidence-inventory.json",

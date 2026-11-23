@@ -20,4 +20,29 @@ assert.deepEqual(coffee.editorial_later_revisions,[{
  date:'2026-11-23',previous_bytes:2824,previous_sha256:'44e59586b0623fc668a3b448036ff02230253247b98a992b573b17b4b4cdfea2'
 }]);
 assert.equal(coffee.editorial_previous_sha256,'a3c5f2cb13e79ff4865403fb074f39e00b35d6e380067a56933b806d5af886d4');
+const archivedMethods=[
+  [
+    "historical/research-method.md",
+    "3d07ca178a7362090ea521529fe1671b29abb98601e43e24b357027db8d54e09",
+    {
+      "date": "2026-11-23",
+      "previous_bytes": 1107,
+      "previous_sha256": "f51d0b7fa7e6c32ff761707bbfaf5f16d99f035e00dd2b0ecf845527b7d01bb3"
+    }
+  ],
+  [
+    "historical/interpretation-limitations.md",
+    "d716ac646736f355535993f5808f47390d2a39039ca309d76c019b8b000fa44a",
+    {
+      "date": "2026-11-23",
+      "previous_bytes": 2160,
+      "previous_sha256": "0c7cfba66fff7878e5cda490143b00964e7e1afdc4e6066ed2a19c3bcc3eb286"
+    }
+  ]
+];
+for(const [file,originalHash,earlier] of archivedMethods){
+ const entry=catalog.files.find(e=>e.path===file);
+ assert.equal(entry.editorial_previous_sha256,originalHash);
+ assert.deepEqual(entry.editorial_later_revisions,[earlier]);
+}
 console.log('PASS archive catalog: '+seen.size+' unique paths, exact bytes and SHA-256');
