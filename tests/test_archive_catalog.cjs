@@ -138,4 +138,20 @@ for(const [file,originalHash,earlier] of archivedInstrumentsAndRepairs){
  assert.equal(entry.editorial_previous_sha256,originalHash);
  assert.deepEqual(entry.editorial_later_revisions,[earlier]);
 }
+const archivedHighSchoolTutoring=[
+  [
+    "reports/2026-10-25.md",
+    "9591aabe0a723b1907181ae17e1b92cd74762a8716f9d94b73613f8fa2bdf4a9",
+    {
+      "date": "2026-11-23",
+      "previous_bytes": 4099,
+      "previous_sha256": "af1554b4d434fafc6c2097e769a80fdd3b0a4bf984047b67c7dc98ebc52264f3"
+    }
+  ]
+];
+for(const [file,originalHash,earlier] of archivedHighSchoolTutoring){
+ const entry=catalog.files.find(e=>e.path===file);
+ assert.equal(entry.editorial_previous_sha256,originalHash);
+ assert.deepEqual(entry.editorial_later_revisions,[earlier]);
+}
 console.log('PASS archive catalog: '+seen.size+' unique paths, exact bytes and SHA-256');
