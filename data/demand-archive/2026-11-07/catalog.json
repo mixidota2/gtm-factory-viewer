@@ -151,11 +151,18 @@
     },
     {
       "path": "artifacts/series/2026-10-19/cpi05/report.md",
-      "bytes": 2373,
-      "sha256": "b4c2722e0a34bf4c5f2afabded6eb1ece7703bfa0da6d390cb57decbfd70cfc7",
+      "bytes": 2995,
+      "sha256": "d982f0bba262d92abe8801a256f3ee1866ac9fef375c943dde24d6ba2e12f294",
       "editorial_previous_sha256": "545c123ed89ff30332cf643da896b76e3fa2acdde216ff2c8f5233279df662e0",
       "editorial_previous_bytes": 2358,
-      "editorial_revision_date": "2026-11-18"
+      "editorial_revision_date": "2026-11-18",
+      "editorial_later_revisions": [
+        {
+          "date": "2026-11-24",
+          "previous_bytes": 2373,
+          "previous_sha256": "b4c2722e0a34bf4c5f2afabded6eb1ece7703bfa0da6d390cb57decbfd70cfc7"
+        }
+      ]
     },
     {
       "path": "artifacts/series/2026-10-19/household/report-ja.md",
