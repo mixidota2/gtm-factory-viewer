@@ -11,5 +11,6 @@ module.exports=function(candidate){
  require('./test_fastfood.cjs')(candidate);
  require('./test_archive_catalog.cjs');
  require('./test_archive_methods.cjs')(candidate);
+ require('./test_source_documentation.cjs')();
  console.log('PASS combined fixed-content contract, construction displays, security sources');return html;
 };
