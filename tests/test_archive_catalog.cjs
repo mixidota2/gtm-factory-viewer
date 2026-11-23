@@ -113,4 +113,29 @@ for(const [file,originalHash,earlier] of archivedLateOctoberReports){
  assert.equal(entry.editorial_previous_sha256,originalHash);
  assert.deepEqual(entry.editorial_later_revisions,[earlier]);
 }
+const archivedInstrumentsAndRepairs=[
+  [
+    "reports/2026-10-23.md",
+    "966c06741f2aa4a2d0ba6b70caf2e8cdb1c67e9bf066278a0e3d746268666eb9",
+    {
+      "date": "2026-11-23",
+      "previous_bytes": 3291,
+      "previous_sha256": "8bbd1fc95089b666ebe7c937bf29d7748ea5395fe1c556223fd4cbc45d78af19"
+    }
+  ],
+  [
+    "reports/2026-10-24.md",
+    "c2ad21e484b745b8b6e9ff0ce536da7eb16cc903341071d1300de48a4c80ce05",
+    {
+      "date": "2026-11-23",
+      "previous_bytes": 3166,
+      "previous_sha256": "e3f9bce78a38913a2dfae67ee1bd186214c424b0542b7da31fdb3c1ae4ecb5ed"
+    }
+  ]
+];
+for(const [file,originalHash,earlier] of archivedInstrumentsAndRepairs){
+ const entry=catalog.files.find(e=>e.path===file);
+ assert.equal(entry.editorial_previous_sha256,originalHash);
+ assert.deepEqual(entry.editorial_later_revisions,[earlier]);
+}
 console.log('PASS archive catalog: '+seen.size+' unique paths, exact bytes and SHA-256');
