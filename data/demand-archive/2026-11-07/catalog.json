@@ -1200,11 +1200,18 @@
     },
     {
       "path": "reports/daily-2026-10-28.md",
-      "bytes": 3550,
-      "sha256": "b8394bdd3132d2de42ddfe8bdccf403e48d9c53020e57f507ebe44d63d7720f0",
+      "bytes": 3820,
+      "sha256": "31f49ff600654775685cef1a2b33a010f29a653c50412550704ae256fe2544e0",
       "editorial_previous_sha256": "f23ef06a33c1fbae6215ffbb56a0f48ec0c0230d0c0e0fac35b4737c5968b806",
       "editorial_previous_bytes": 3547,
-      "editorial_revision_date": "2026-11-18"
+      "editorial_revision_date": "2026-11-18",
+      "editorial_later_revisions": [
+        {
+          "date": "2026-11-24",
+          "previous_bytes": 3550,
+          "previous_sha256": "b8394bdd3132d2de42ddfe8bdccf403e48d9c53020e57f507ebe44d63d7720f0"
+        }
+      ]
     },
     {
       "path": "reports/daily-2026-10-29.md",
@@ -1253,11 +1260,18 @@
     },
     {
       "path": "reports/daily-2026-11-01.md",
-      "bytes": 2778,
-      "sha256": "bee5c93cda7eb082abf6e2c16d912399e761d39354bfe7af8d95b30057b9d5d0",
+      "bytes": 2910,
+      "sha256": "bc6fd845118eafe25344da80f877710060a89c238d3021948175256666e2206a",
       "editorial_previous_sha256": "47a7c901a23cdb9ee76478dbda7a8f060890e85d31a1d8cec2a444fc7caec564",
       "editorial_previous_bytes": 2772,
-      "editorial_revision_date": "2026-11-18"
+      "editorial_revision_date": "2026-11-18",
+      "editorial_later_revisions": [
+        {
+          "date": "2026-11-24",
+          "previous_bytes": 2778,
+          "previous_sha256": "bee5c93cda7eb082abf6e2c16d912399e761d39354bfe7af8d95b30057b9d5d0"
+        }
+      ]
     },
     {
       "path": "sources.json",
