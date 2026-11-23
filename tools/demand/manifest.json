@@ -16,5 +16,6 @@
   "demand-security-refresh/check.py": "b6df8ccab051e2ae2fa4b00a42150d3e394ebf502d7a33a048df965b68774bb8",
   "test_contract.py": "bfbf3a4077e3cd85d845c62628210a4faec319498fe26b6f7d0ad8670809799e",
   "test_security_transport.py": "e36ec1c21e5d35c948f772f1b42e1b50337019d19d9ea2051cde594a36975985",
-  "demand-integrated/reviewed-prose.json": "4a7e94da541072f4584710ee14e09df6061439c707f30de8a4dae4b7c7223b32"
+  "demand-integrated/reviewed-prose.json": "6b577d53bcc2a7c39fb99b86de547cc6968eb9f983b695d2fe12100c8a6264a2",
+  "demand-integrated/reviewed-prose-history/2026-11-23.json": "c855eb8b8e06cf1849d9846b0c18524a418e33246575749ca02cea834139bc07"
 }
