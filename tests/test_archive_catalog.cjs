@@ -210,4 +210,11 @@ assert.deepEqual(archivedTravelCpi.editorial_later_revisions,[{
  date:'2026-11-24',previous_bytes:2373,previous_sha256:'b4c2722e0a34bf4c5f2afabded6eb1ece7703bfa0da6d390cb57decbfd70cfc7'
 }]);
 assert.equal(archivedTravelCpi.sha256,'d982f0bba262d92abe8801a256f3ee1866ac9fef375c943dde24d6ba2e12f294');
+const archivedHousingOrders=catalog.files.find(e=>e.path==='artifacts/series/2026-10-29/sellers/expanded/report-ja.md');
+assert.equal(archivedHousingOrders.editorial_previous_sha256,'92fdf30ed4d7a493a1151a8c8ddced0884db9bb6b855952546ade7db3e069fab');
+assert.equal(archivedHousingOrders.editorial_previous_bytes,3647);
+assert.deepEqual(archivedHousingOrders.editorial_later_revisions,[{
+ date:'2026-11-24',previous_bytes:3650,previous_sha256:'7cd17b81322b82b0cd8e30d86bea04253b95fa84d4770f8416f0db131e9fc7b3'
+}]);
+assert.equal(archivedHousingOrders.sha256,'b9b378133b248c25b061d69232557f75b090cb6f1d0b605378a7b88dd5f3dd11');
 console.log('PASS archive catalog: '+seen.size+' unique paths, exact bytes and SHA-256');
